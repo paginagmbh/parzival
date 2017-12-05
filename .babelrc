@@ -1,0 +1,9 @@
+{
+    "presets": [
+        ["env", {
+            "targets": {
+                "browsers": ["> 1% in DE", "last 2 versions", "Firefox ESR"]
+            }
+        }]
+    ]
+}

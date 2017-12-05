@@ -1,0 +1,17 @@
+@import "~bulma/sass/utilities/initial-variables";
+
+// TODO: customize bulma
+@import "~bulma/bulma.sass";
+
+.setting-up {
+  visibility: hidden;
+}
+
+/*
+.no-js {
+}
+*/
+
+.modal-open {
+  overflow: hidden;
+}
