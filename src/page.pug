@@ -1,5 +1,5 @@
 doctype html
-html.no-js(lang="de")
+html.has-navbar-fixed-top.no-js(lang="de")
   head
     meta(charset="UTF-8")
     meta(name="viewport" content="width=device-width, initial-scale=1")
@@ -7,6 +7,30 @@ html.no-js(lang="de")
     link(rel="stylesheet" type="text/css" href="/styles.css")
     script(src="/setup.js")
   body
+    nav.navbar.is-fixed-top(role="navigation" aria-label="main navigation")
+      .navbar-brand
+        a.navbar-item(href="/").has-text-weight-bold.
+          Karlsruhe, Bad. Landesbibl., Donaueschingen 97
+        button.button.navbar-burger
+          span
+          span
+          span
+
+      .navbar-menu
+        .navbar-start
+          .navbar-item
+            a.button(href="/") Startseite
+          .navbar-item
+            a.button(href="/") Einführung
+          .navbar-item
+            a.button(href="/") Initialen
+          .navbar-item
+            a.button(href="/") Materialien
+          .navbar-item
+            a.button.is-info(href="/")
+              span.icon: i.fa.fa-info(aria-hidden="true")
+              span Hilfe
+
     block body
   script(src="/index.js")
   script(src="/browser-update.js")
