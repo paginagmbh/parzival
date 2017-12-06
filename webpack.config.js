@@ -1,5 +1,6 @@
 const path = require("path");
 
+const CopyPlugin = require("copy-webpack-plugin");
 const StyleLintPlugin = require("stylelint-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
@@ -54,6 +55,12 @@ module.exports = {
         }]
     },
     plugins: [
+        new CopyPlugin([
+            {
+                from: path.join(__dirname, "node_modules/openseadragon/build/openseadragon/images"),
+                to: path.join(__dirname, "htdocs/openseadragon/images")
+            }
+        ]),
         new ExtractTextPlugin({ filename: "styles.css" }),
         new StyleLintPlugin({ quiet: false })
     ]

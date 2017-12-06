@@ -32,3 +32,9 @@ $body-background-color: $white;
 .modal-open {
   overflow: hidden;
 }
+
+.facsimile {
+  width: 100vw;
+  height: calc(100vh - #{$navbar-height});
+  background: $black;
+}

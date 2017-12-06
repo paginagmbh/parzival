@@ -1,13 +1,9 @@
 const $ = require("jquery");
 
-$(".navbar-burger").each(function() {
-    const $this = $(this);
-    const $target = $this.closest(".navbar").find(".navbar-menu");
+const components = [
+    require("./frontend/navbar"),
+    require("./frontend/facsimile")
+];
 
-    $this.on("click", function() {
-        $this.toggleClass("is-active");
-        $target.toggleClass("is-active");
-    });
-});
-
-$("html").removeClass("setting-up");
+Promise.all(components.map(c => c()))
+    .then(() => $("html").removeClass("setting-up"));

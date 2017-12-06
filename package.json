@@ -17,6 +17,7 @@
     "bunyan": "^1.8.12",
     "chai": "^4.1.1",
     "chai-as-promised": "^7.1.1",
+    "copy-webpack-plugin": "^4.2.3",
     "css-loader": "^0.28.5",
     "del": "^3.0.0",
     "eslint": "^4.5.0",
@@ -35,6 +36,7 @@
     "modernizr": "^3.5.0",
     "modernizr-loader": "^1.0.1",
     "node-sass": "^4.5.3",
+    "postcss": "^6.0.14",
     "postcss-loader": "^2.0.8",
     "postcss-sass": "^0.2.0",
     "pug": "^2.0.0-rc.4",
@@ -63,6 +65,7 @@
     "browser-update": "^2.1.9",
     "bulma": "^0.5.1",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "openseadragon": "^2.3.1"
   }
 }
