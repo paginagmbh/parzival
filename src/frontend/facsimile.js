@@ -2,11 +2,16 @@ const $ = require("jquery");
 const OpenSeadragon = require("openseadragon");
 const prefixUrl = "/openseadragon/images/";
 
+const facsimiles = require("../facsimiles.json");
+
 module.exports = () => {
     const [ element ] = $(".facsimile");
-    const tileSources = "https://assets.pagina-dh.de/iiif/parzival_v001r.ptif/info.json";
+    const tileSources = facsimiles.map(
+        id => `https://assets.pagina-dh.de/iiif/parzival-${id}.ptif/info.json`
+    );
     const osd = OpenSeadragon({
         prefixUrl, element, tileSources,
+        sequenceModex: true,
         showNavigator: true,
         showRotationControl: true,
         debugMode: false
