@@ -38,3 +38,10 @@ $body-background-color: $white;
   height: calc(100vh - #{$navbar-height});
   background: $black;
 }
+
+.page-label {
+  color: $white;
+  font-size: $size-4;
+  margin-right: $size-4;
+  opacity: 0.75;
+}
