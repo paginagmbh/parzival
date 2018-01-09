@@ -1,6 +1,6 @@
 nav.navbar.is-fixed-top.is-dark(role="navigation" aria-label="main navigation")
   .navbar-brand
-    a.navbar-item(href="/").has-text-weight-bold.
+    router-link.navbar-item(to="home").has-text-weight-bold.
       Karlsruhe, Bad. Landesbibl., Donaueschingen 97
     button.button.navbar-burger
       span
@@ -9,10 +9,10 @@ nav.navbar.is-fixed-top.is-dark(role="navigation" aria-label="main navigation")
 
   .navbar-menu
     .navbar-start
-      a.navbar-item(href="/") Startseite
-      a.navbar-item(href="/") Einführung
-      a.navbar-item(href="/") Initialen
-      a.navbar-item(href="/") Materialien
-      a.navbar-item.is-info(href="/")
+      router-link.navbar-item(to="home") Startseite
+      router-link.navbar-item(to="introduction") Einführung
+      router-link.navbar-item(to="manuscripts") Initialen
+      router-link.navbar-item(to="materials") Materialien
+      router-link.navbar-item.is-info(to="help")
           span.icon: i.fa.fa-info(aria-hidden="true")
           span Hilfe
