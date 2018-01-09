@@ -1,11 +1,21 @@
 const $ = require("jquery");
 
-module.exports = () => Promise.resolve($(".navbar-burger").each(function() {
-    const $this = $(this);
-    const $target = $this.closest(".navbar").find(".navbar-menu");
+module.exports = {
+    template: require("./navbar.pug")(),
 
-    $this.on("click", function() {
-        $this.toggleClass("is-active");
-        $target.toggleClass("is-active");
-    });
-}));
+    mounted() {
+        const $el = $(this.$el);
+        this.$burger = $el.find(".navbar-burger");
+        this.$menu = $el.find(".navbar-menu");
+        this.menuToggle = () => {
+            this.$burger.toggleClass("is-active");
+            this.$menu.toggleClass("is-active");
+        };
+
+        this.$burger.on("click", this.menuToggle);
+    },
+
+    beforeDestroy() {
+        this.$burger.off("click", this.menuToggle);
+    }
+};

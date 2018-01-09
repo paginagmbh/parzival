@@ -1,46 +1,59 @@
 const $ = require("jquery");
+
+const { mapGetters } = require("vuex");
+
 const OpenSeadragon = require("openseadragon");
 const prefixUrl = "/openseadragon/images/";
+const { BOTTOM_RIGHT } = OpenSeadragon.ControlAnchor;
 
-const { TOP_LEFT, BOTTOM_RIGHT } = OpenSeadragon.ControlAnchor;
+module.exports = {
+    template: `<div class="facsimile"></div>`,
 
-const facsimiles = require("../facsimiles.json");
+    computed: mapGetters("facsimiles", {
+        tileSources: "currentTileSources",
+        facsimile: "currentId"
+    }),
 
-function randomFacsimiles(size=10) {
-    const { length } = facsimiles;
-    const { floor, random } = Math;
-    const offset = floor(random() * (length - size));
-    return facsimiles.slice(offset, offset + size);
-}
+    watch: {
+        tileSources(newSources) {
+            this.osd.open(newSources);
+        }
+    },
 
-module.exports = () => {
-    const [ element ] = $(".facsimile");
-    const facsimiles = randomFacsimiles();
-    const tileSources = facsimiles.map(
-        id => `https://assets.pagina-dh.de/iiif/parzival-${id}.ptif/info.json`
-    );
-    const osd = OpenSeadragon({
-        prefixUrl, element, tileSources,
-        sequenceMode: true,
-        showNavigator: true,
-        showRotationControl: true,
-        debugMode: false
-    });
+    created() {
+        this.$html = $("html").addClass("has-navbar-fixed-top");
+    },
 
-    const $pageLabel = $("<div></div").addClass("page-label");
-    const [ pageLabelElement ] = $pageLabel;
-    osd.addControl(pageLabelElement, { anchor: BOTTOM_RIGHT });
+    destroyed() {
+        this.$html.removeClass("has-navbar-fixed-top");
+    },
 
-    osd.addHandler("open", (e) => {
-        osd.viewport.fitBoundsWithConstraints(
-            new OpenSeadragon.Rect(0, 0, 1, 0.5)
-        );
+    mounted() {
+        const element = this.$el;
+        const { tileSources } = this;
+        const osd = this.osd = OpenSeadragon({
+            prefixUrl, element, tileSources,
+            showNavigator: true,
+            showRotationControl: true,
+            debugMode: false
+        });
 
-        const { source } = e;
-        const page = tileSources.indexOf(source);
-        const facsimile = facsimiles[page];
-        $pageLabel.text([page + 1, facsimile.toUpperCase()].join(".) "));
-});
+        const $pageLabel = $("<div></div").addClass("page-label");
+        const [ pageLabelElement ] = $pageLabel;
+        osd.addControl(pageLabelElement, { anchor: BOTTOM_RIGHT });
 
-    return Promise.resolve(osd);
+        const upperHalf =  new OpenSeadragon.Rect(0, 0, 1, 0.5);
+        const { viewport } = osd;
+
+        osd.addHandler("open", () => {
+            viewport.fitBoundsWithConstraints(upperHalf, true);
+            $pageLabel.text(this.facsimile.toUpperCase());
+        });
+    },
+
+    beforeDestroy() {
+        if (this.osd) {
+            this.osd.destroy();
+        }
+    }
 };

@@ -2,7 +2,6 @@
   "name": "dh-parzival",
   "version": "1.0.0",
   "description": "The Parzival-Projekt – a genetic digital edition of Wolfram von Eschenbach's ‹Parzival›",
-  "main": "index.js",
   "repository": "git@code.pagina.gmbh:pagina-dh/dh-parzival.git",
   "author": "pagina GmbH",
   "license": "UNLICENSED",
@@ -19,6 +18,7 @@
     "chai-as-promised": "^7.1.1",
     "copy-webpack-plugin": "^4.2.3",
     "css-loader": "^0.28.5",
+    "csv": "^2.0.0",
     "del": "^3.0.0",
     "eslint": "^4.5.0",
     "extract-text-webpack-plugin": "^3.0.0",
@@ -66,6 +66,9 @@
     "bulma": "^0.5.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
-    "openseadragon": "^2.3.1"
+    "openseadragon": "^2.3.1",
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
   }
 }
