@@ -1,7 +1,5 @@
 const gulp = require("gulp");
 
-const webpack = require("webpack");
-
 const stats = require("gulp-stats");
 const del = require("del");
 const data = require("gulp-data");
@@ -23,67 +21,9 @@ gulp.task("site", () => {
 
 gulp.task("htdata", ["site"]);
 
-gulp.task("htdocs", (cb) => {
-    const webpackConfig = require("./webpack.config");
+gulp.task("default", ["htdata"]);
 
-    webpackConfig.plugins = (webpackConfig.plugins || []).concat([
-        new webpack.LoaderOptionsPlugin({
-            minimize: true,
-            debug: false
-        }),
-        new webpack.DefinePlugin({
-            "process.env": {
-                "NODE_ENV": JSON.stringify("production")
-            }
-        }),
-        new webpack.optimize.UglifyJsPlugin({
-            beautify: false,
-            mangle: {
-                screw_ie8: true,
-                keep_fnames: true
-            },
-            compress: {
-                screw_ie8: true
-            },
-            comments: false
-        })
-    ]);
-
-    webpack(webpackConfig, cb);
-});
-
-gulp.task("htdocs:watch", () => {
-    const { BundleAnalyzerPlugin } = require("webpack-bundle-analyzer");
-
-    const webpackConfig = require("./webpack.config");
-    webpackConfig.devtool = "source-map";
-    webpackConfig.plugins = (webpackConfig.plugins || []).concat([
-        new BundleAnalyzerPlugin()
-    ]);
-
-    const bundler = webpack(webpackConfig);
-    bundler.plugin("done", () => browserSync.reload());
-
-    const webpackDevMiddleware = require("webpack-dev-middleware");
-
-    const browserSync = require("browser-sync").create();
-    browserSync.init({
-        host: "localhost",
-        port: 3000,
-        server: {
-            baseDir: "htdocs",
-            middleware: [
-                webpackDevMiddleware(bundler, { stats: { colors: true } })
-            ]
-        }
-    });
-});
-
-gulp.task("default", ["htdocs", "htdata"]);
-
-gulp.task("dev", ["htdocs:watch", "htdata"]);
-
-gulp.task("rsync", ["default"], () => {
+gulp.task("deploy", () => {
     return gulp.src("htdocs")
         .pipe(rsync({
             root: "htdocs/",
@@ -95,8 +35,6 @@ gulp.task("rsync", ["default"], () => {
             recursive: true
         }));
 });
-
-gulp.task("deploy", ["rsync"]);
 
 gulp.task("test", () => {
     return gulp.src("test/**/*.js", { read: false })

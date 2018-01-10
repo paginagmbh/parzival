@@ -1,8 +1,18 @@
 const path = require("path");
 
+const webpack = require("webpack");
+
+const { DefinePlugin, LoaderOptionsPlugin } = webpack;
+const { UglifyJsPlugin } = webpack.optimize;
+
 const CopyPlugin = require("copy-webpack-plugin");
 const StyleLintPlugin = require("stylelint-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const { BundleAnalyzerPlugin } = require("webpack-bundle-analyzer");
+
+const NODE_ENV = process.env.NODE_ENV || "development";
+
+const contentBase = path.join(__dirname, "htdocs");
 
 module.exports = {
     context: __dirname,
@@ -16,14 +26,15 @@ module.exports = {
         ]
     },
     output: {
-        path: path.join(__dirname, "htdocs"),
+        path: contentBase,
         filename: "[name].js",
         publicPath: ""
     },
     resolve: {
         alias: {
-            "vue$": "vue/dist/vue.js",
-            "vue-router$": "vue-router/dist/vue-router.js"
+            "vue$": "vue/dist/vue.common.js",
+            "vuex$": "vuex/dist/vuex.common.js",
+            "vue-router$": "vue-router/dist/vue-router.common.js"
         }
     },
     module: {
@@ -60,7 +71,12 @@ module.exports = {
             use: "pug-loader"
         }]
     },
+    devServer: { contentBase },
+    devtool: NODE_ENV == "development" ? "#eval-source-map" : "#source-map",
     plugins: [
+        new DefinePlugin({
+            "process.env.NODE_ENV": JSON.stringify(NODE_ENV)
+        }),
         new CopyPlugin([
             {
                 from: path.join(__dirname, "node_modules/openseadragon/build/openseadragon/images"),
@@ -71,3 +87,30 @@ module.exports = {
         new StyleLintPlugin({ quiet: false })
     ]
 };
+
+switch (NODE_ENV) {
+case "development":
+    module.exports.plugins = module.exports.plugins.concat([
+        new BundleAnalyzerPlugin()
+    ]);
+    break;
+case "production":
+    module.exports.plugins = module.exports.plugins.concat([
+        new LoaderOptionsPlugin({
+            minimize: true,
+            debug: false
+        }),
+        new UglifyJsPlugin({
+            beautify: false,
+            mangle: {
+                screw_ie8: true,
+                keep_fnames: true
+            },
+            compress: {
+                screw_ie8: true
+            },
+            comments: false
+        })
+    ]);
+    break;
+}
