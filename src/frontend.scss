@@ -33,9 +33,12 @@ $body-background-color: $white;
   overflow: hidden;
 }
 
-.facsimile {
-  width: 100vw;
-  height: calc(100vh - #{$navbar-height});
+.parzival-facsimile-toolbar {
+  height: $navbar-height;
+}
+
+.parzival-facsimile {
+  height: calc(100vh - #{2 * $navbar-height});
   background: $black;
 }
 

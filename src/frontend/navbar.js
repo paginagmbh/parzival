@@ -3,6 +3,14 @@ const $ = require("jquery");
 module.exports = {
     template: require("./navbar.pug")(),
 
+    created() {
+        this.$html = $("html").addClass("has-navbar-fixed-top");
+    },
+
+    destroyed() {
+        this.$html.removeClass("has-navbar-fixed-top");
+    },
+
     mounted() {
         const $el = $(this.$el);
         this.$burger = $el.find(".navbar-burger");

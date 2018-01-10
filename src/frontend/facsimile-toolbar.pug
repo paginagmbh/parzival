@@ -1,0 +1,14 @@
+nav.navbar.is-link(role="navigation" aria-label="pagination")
+  .navbar-menu.is-active
+    .navbar-start
+      .navbar-item {{ currentId }}
+
+    .navbar-end
+      .navbar-item
+        .field.is-grouped
+          .control
+            a.button(:disabled="noPrevPage" @click.prevent="prevPage")
+              i.fa.fa-angle-left
+          .control
+            a.button(:disabled="noNextPage" @click.prevent="nextPage")
+              i.fa.fa-angle-right
