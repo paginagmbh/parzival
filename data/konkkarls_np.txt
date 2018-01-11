@@ -1,15 +1,4 @@
-﻿Verskonkordanz zu Handschrift Karlsruhe, Badische Landesbibliothek, Donaueschingen 97 (nur: Nuwer Parzifal)
-
-Hinweis:
-
-Die Tabelle ist wie folgt zu lesen:
-116;r;a;1;1
-Erste Spalte (116) = Blattangabe der Handschrift
-Zweite Spalte (r) = Seitenangabe der Handschrift (r= Vorderseite; v= Rückseite)
-Dritte Spalte (a) = Spaltenangebe der Handschrift (a= erste [d.h.: linke] Spalte; b= zweite [d.h.: rechte] Spalte)
-Vierte Spalte (1) = Zeilenangabe in der entsprechenden Spalte der Handschrift
-Fünfte Spalte (1) = Versangabe für den Nuwen Parzifal (NP)
-
+Blatt;Seite;Spalte;Zeile;Vers
 116;r;a;1;1
 116;r;a;2;2
 116;r;a;3;3
