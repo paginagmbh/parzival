@@ -13,9 +13,7 @@ const modules = {
     facsimiles: require("./frontend/state/facsimile")
 };
 
-const store = new Vuex.Store({
-    modules
-});
+const store = new Vuex.Store({ modules });
 
 const Facsimile = require("./frontend/facsimile");
 const Placeholder = require("./frontend/placeholder");
@@ -30,7 +28,7 @@ const routes = [
     { name: "default", path: "*", redirect: "/" }
 ];
 
-const router = new VueRouter({ routes });
+const router = new VueRouter({ routes, mode: "history" });
 
 sync(store, router);
 

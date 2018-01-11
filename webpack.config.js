@@ -71,7 +71,7 @@ module.exports = {
             use: "pug-loader"
         }]
     },
-    devServer: { contentBase },
+    devServer: { contentBase, historyApiFallback: true },
     devtool: NODE_ENV == "development" ? "#eval-source-map" : "#source-map",
     plugins: [
         new DefinePlugin({

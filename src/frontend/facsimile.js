@@ -5,7 +5,6 @@ const { mapGetters } = require("vuex");
 
 const OpenSeadragon = require("openseadragon");
 const prefixUrl = "/openseadragon/images/";
-const { BOTTOM_RIGHT } = OpenSeadragon.ControlAnchor;
 
 const Toolbar = {
     template: require("./facsimile-toolbar.pug")(),
