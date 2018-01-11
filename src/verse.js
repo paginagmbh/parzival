@@ -21,6 +21,13 @@ function parse(str) {
     return { nums, plus };
 }
 
+function toString({ nums, plus }) {
+    return [
+        nums.map(n => n.toString()).join("."),
+        plus.map(n => `[${n}]`).join("")
+    ].filter(c => c).join("");
+}
+
 function compareComponent(a, b) {
     for (let nn = 0, nl = min(a.length, b.length); nn < nl; nn++) {
         const diff = a[nn] - b[nn];
@@ -42,4 +49,4 @@ function within([startIncl, endIncl], v) {
     return compare(startIncl, v) <= 0 && compare(endIncl, v) >= 0;
 }
 
-module.exports = { parse, compare, within };
+module.exports = { parse, toString, compare, within };
