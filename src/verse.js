@@ -28,7 +28,18 @@ function toString({ nums, plus }) {
     ].filter(c => c).join("");
 }
 
+function heading(comp) {
+    const [ c0 ] = comp;
+    return comp.length == 1 && c0 == 0;
+}
+
 function compareComponent(a, b) {
+    if (heading(a)) {
+        return -1;
+    } else if (heading(b)) {
+        return 1;
+    }
+
     for (let nn = 0, nl = min(a.length, b.length); nn < nl; nn++) {
         const diff = a[nn] - b[nn];
         if (diff == 0) {
