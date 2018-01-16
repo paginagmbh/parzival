@@ -8,28 +8,11 @@ const prefixUrl = "/openseadragon/images/";
 
 const Toolbar = {
     template: require("./facsimile-toolbar.pug")(),
-    computed: assign({
-
-        noPrevPage() {
-            return this.position == this.prevPos;
-        },
-
-        noNextPage() {
-            return this.position == this.nextPos;
-        }
-
-    }, mapGetters("facsimiles", ["position", "prevPos", "nextPos", "currentId"])),
-
-    methods: {
-        prevPage() {
-            this.$router.push({ name: "facsimile", params: { position: this.prevPos } });
-        },
-
-        nextPage() {
-            this.$router.push({ name: "facsimile", params: { position: this.nextPos } });
-        }
-
-    }
+    computed: mapGetters("metadata", [
+        "prevPage", "noPrevPage",
+        "nextPage", "noNextPage",
+        "sigil", "page", "title"
+    ])
 };
 
 module.exports = {
@@ -37,10 +20,10 @@ module.exports = {
 
     template: require("./facsimile.pug")(),
 
-    computed: mapGetters("facsimiles", ["currentTileSources"]),
+    computed: mapGetters("metadata", ["tileSources"]),
 
     watch: {
-        currentTileSources(newSources) {
+        tileSources(newSources) {
             if (newSources) {
                 this.osd.open(newSources);
             }
@@ -49,7 +32,7 @@ module.exports = {
 
     mounted() {
         const [ element ] = $(this.$el).find(".parzival-facsimile");
-        const tileSources = this.currentTileSources;
+        const { tileSources } = this;
         const osd = this.osd = OpenSeadragon({
             prefixUrl, element, tileSources,
             showNavigator: true,

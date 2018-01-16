@@ -2,8 +2,6 @@ const gulp = require("gulp");
 
 const stats = require("gulp-stats");
 const del = require("del");
-const data = require("gulp-data");
-const pug = require("gulp-pug");
 const eslint = require("gulp-eslint");
 const mocha = require("gulp-mocha");
 const rsync = require("gulp-rsync");
@@ -12,16 +10,7 @@ stats(gulp);
 
 gulp.task("clean", () => del("htdocs"));
 
-gulp.task("site", () => {
-    return gulp.src(["src/site/*.pug"])
-        .pipe(data(() => ({})))
-        .pipe(pug())
-        .pipe(gulp.dest("htdocs"));
-});
-
-gulp.task("htdata", ["site"]);
-
-gulp.task("default", ["htdata"]);
+gulp.task("default", ["test"]);
 
 gulp.task("deploy", () => {
     return gulp.src("htdocs")

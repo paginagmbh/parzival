@@ -1,4 +1,4 @@
-const { assign } = Object;
+const { assign, keys } = Object;
 
 const path = require("path");
 const fs = require("fs");
@@ -22,31 +22,51 @@ verses = verses.map(v => {
     return assign({}, v, { start, end });
 });
 
-const verseSets = [
-    verses.filter(v => v.manuscript == "K" && v.start.nums.length == 1),
-    verses.filter(v => v.manuscript == "K" && v.start.nums.length == 2),
-    verses.filter(v => v.manuscript == "R" && v.start.nums.length == 1),
-    verses.filter(v => v.manuscript == "R" && v.start.nums.length == 2)
-].map(verses => verses.sort(
-    (a, b) => verse.compare(a.start, b.start) || verse.compare(a.end, b.end)
-));
+const verseSort = (a, b) => verse.compare(a.start, b.start) || verse.compare(a.end, b.end);
 
-function toString(v) {
-    return [
-        "<", v.manuscript, v.leaf, v.page, v.column, " ",
-        verse.toString(v.start), " - ", verse.toString(v.end), ">"
-    ].join("");
+const metadata = {
+    "K": {
+        sigil: "V",
+        title: "Karlsruhe, Bad. Landesbibl., Donaueschingen 97"
+    },
+    "R": {
+        sigil: "VV",
+        title: "Roma, Biblioteca Casanatense, Ms. 1409"
+    }
 }
 
-verseSets.forEach(m => {
-    m.reduce((all, one) => {
-        const [ last ] = all;
-        if (last && verse.compare(last.end, one.start) >= 0) {
-            process.stdout.write([ toString(last), toString(one) ].join(" >!< ") + "\n");
-        }
-        all.unshift(one);
-        return all;
-    }, []);
+function paddedLeaf(leaf) {
+    if (leaf > 99) {
+        return leaf.toString();
+    } else if (leaf > 9) {
+        return `0${leaf}`;
+    } else {
+        return `00${leaf}`;
+    }
+}
+
+const manuscripts = ["K", "R"].map(sigil => {
+    const columns = verses
+          .filter(v => v.manuscript == sigil)
+          .map(v => { delete v.manuscript; return v; })
+          .map(v => assign(v, { leaf: parseInt(v.leaf, 10) }));
+
+    const pages = keys(columns.reduce(
+        (pages, col) => assign(pages, { [[
+            paddedLeaf(col.leaf),
+            col.page
+        ].join("")]: true }),
+        {}
+    )).sort();
+
+    const p = columns.filter(c => verse.p(c.start)).sort(verseSort);
+    const np = columns.filter(c => verse.np(c.start)).sort(verseSort);
+
+    return assign({}, metadata[sigil], { columns, pages, p, np });
 });
 
-//process.stdout.write(JSON.stringify(verses));
+fs.writeFileSync(
+    path.resolve(__dirname, "..", "src", "metadata.json"),
+    JSON.stringify(manuscripts),
+    { encoding }
+);

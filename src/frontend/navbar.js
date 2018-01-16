@@ -1,7 +1,11 @@
 const $ = require("jquery");
 
+const { mapGetters } = require("vuex");
+
 module.exports = {
     template: require("./navbar.pug")(),
+
+    computed: mapGetters("metadata", ["sigil", "title"]),
 
     created() {
         this.$html = $("html").addClass("has-navbar-fixed-top");

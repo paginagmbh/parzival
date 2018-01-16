@@ -1,7 +1,7 @@
 nav.navbar.is-fixed-top.is-dark(role="navigation" aria-label="main navigation")
   .navbar-brand
-    router-link.navbar-item(to="/").has-text-weight-bold.
-      Karlsruhe, Bad. Landesbibl., Donaueschingen 97
+    router-link.navbar-item(:to='{ name: "facsimile", params: { sigil: sigil, page: "001r" } }').has-text-weight-bold.
+      {{ title }}
     button.button.navbar-burger
       span
       span

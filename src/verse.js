@@ -21,6 +21,20 @@ function parse(str) {
     return { nums, plus };
 }
 
+function heading(comp) {
+    const [ c0 ] = comp;
+    return comp.length == 1 && c0 == 0;
+}
+
+function p({ nums }) {
+    return nums.length == 2;
+}
+
+function np({ nums }) {
+    return nums.length == 1;
+}
+
+
 function toString({ nums, plus }) {
     return [
         nums.map(n => n.toString()).join("."),
@@ -28,9 +42,11 @@ function toString({ nums, plus }) {
     ].filter(c => c).join("");
 }
 
-function heading(comp) {
-    const [ c0 ] = comp;
-    return comp.length == 1 && c0 == 0;
+function title({ nums, plus }) {
+    const prefixes = ["", "Nuwer Parzifal", "Parzival"];
+    return [ prefixes[nums.length], toString({ nums, plus })]
+        .filter(c => c)
+        .join(" ");
 }
 
 function compareComponent(a, b) {
@@ -60,4 +76,4 @@ function within([startIncl, endIncl], v) {
     return compare(startIncl, v) <= 0 && compare(endIncl, v) >= 0;
 }
 
-module.exports = { parse, toString, compare, within };
+module.exports = { parse, p, np, heading, toString, title, compare, within };

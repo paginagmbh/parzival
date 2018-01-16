@@ -3,12 +3,14 @@ const path = require("path");
 const webpack = require("webpack");
 
 const { DefinePlugin, LoaderOptionsPlugin } = webpack;
-const { UglifyJsPlugin } = webpack.optimize;
+const { CommonsChunkPlugin, UglifyJsPlugin } = webpack.optimize;
 
 const CopyPlugin = require("copy-webpack-plugin");
 const StyleLintPlugin = require("stylelint-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const { BundleAnalyzerPlugin } = require("webpack-bundle-analyzer");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const HtmlWebpackHarddiskPlugin = require("html-webpack-harddisk-plugin");
 
 const NODE_ENV = process.env.NODE_ENV || "development";
 
@@ -17,17 +19,17 @@ const contentBase = path.join(__dirname, "htdocs");
 module.exports = {
     context: __dirname,
     entry: {
-        "browser-update": ["./src/browser-update.js"],
-        "setup": ["modernizr-loader!./src/modernizrrc.js", "babel-polyfill", "./src/setup.js"],
+        "bo": ["./src/browser-update.js"],
+        "setup": ["babel-polyfill", "./src/setup.js"],
         "index": [
             "font-awesome/scss/font-awesome.scss",
             "./src/frontend.scss",
-            "./src/frontend.js"
+            "./src/frontend"
         ]
     },
     output: {
         path: contentBase,
-        filename: "[name].js",
+        filename: "[name].[hash].js",
         publicPath: ""
     },
     resolve: {
@@ -83,15 +85,23 @@ module.exports = {
                 to: path.join(__dirname, "htdocs/openseadragon/images")
             }
         ]),
-        new ExtractTextPlugin({ filename: "styles.css" }),
-        new StyleLintPlugin({ quiet: false })
+        new ExtractTextPlugin({ filename: "styles.[hash].css" }),
+        new StyleLintPlugin({ quiet: false }),
+        new CommonsChunkPlugin({ name: "commons", minChunks: 2 }),
+        new HtmlWebpackPlugin({
+            template: "src/index.pug",
+            inject: false,
+            alwaysWriteToDisk: true
+        }),
+        new HtmlWebpackHarddiskPlugin()
+
     ]
 };
 
 switch (NODE_ENV) {
 case "development":
     module.exports.plugins = module.exports.plugins.concat([
-        new BundleAnalyzerPlugin()
+        //new BundleAnalyzerPlugin()
     ]);
     break;
 case "production":
