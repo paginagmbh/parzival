@@ -6,17 +6,25 @@ const { mapGetters } = require("vuex");
 const OpenSeadragon = require("openseadragon");
 const prefixUrl = "/openseadragon/images/";
 
-const Toolbar = {
-    template: require("./facsimile-toolbar.pug")(),
+const Navbar = {
+    template: require("./facsimile-navbar.pug")(),
     computed: mapGetters("metadata", [
         "prevPage", "noPrevPage",
         "nextPage", "noNextPage",
         "sigil", "page", "title"
-    ])
+    ]),
+
+    created() {
+        this.$html = $("html").addClass("has-navbar-fixed-bottom");
+    },
+
+    destroyed() {
+        this.$html.removeClass("has-navbar-fixed-bottom");
+    }
 };
 
 module.exports = {
-    components: { Toolbar },
+    components: { Navbar },
 
     template: require("./facsimile.pug")(),
 

@@ -34,9 +34,16 @@ module.exports = {
         };
 
         this.$burger.on("click", this.menuToggle);
+
+        this.$dropdowns = $el.find(".has-dropdown");
+        this.dropdownToggle = function() {
+            $(this).toggleClass("is-active");
+        };
+        this.$dropdowns.on("click", this.dropdownToggle);
     },
 
     beforeDestroy() {
+        this.$dropdowns.off("click", this.dropdownToggle);
         this.$burger.off("click", this.menuToggle);
     }
 };

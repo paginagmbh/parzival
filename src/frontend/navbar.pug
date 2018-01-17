@@ -1,6 +1,6 @@
-nav.navbar.is-fixed-top(role="navigation" aria-label="main navigation")
+nav.navbar.is-fixed-top.is-dark(role="navigation" aria-label="main navigation")
   .navbar-brand
-    .navbar-item.has-text-weight-bold Nuwer Parzifal
+    router-link.navbar-item.has-text-weight-bold(to="/") Nuwer Parzifal
     button.button.navbar-burger
       span
       span
@@ -8,11 +8,10 @@ nav.navbar.is-fixed-top(role="navigation" aria-label="main navigation")
 
   .navbar-menu
     .navbar-start
-      .navbar-item.has-dropdown.is-hoverable
-        router-link.navbar-link(:to='{ name: "facsimile", params: { sigil: sigil, page: "001r" } }').
-          {{ title }}
-        .navbar-dropdown(v-for='m in otherManuscripts' :key='m.sigil')
-          router-link.navbar-item(:to='{ name: "facsimile", params: { sigil: m.sigil, page: "001r" } }') {{ m.title }}
+      .navbar-item.has-dropdown
+        a.navbar-link {{ title }}
+        .navbar-dropdown
+          router-link.navbar-item(v-for='m in metadata' :key='m.sigil' :class='{ "is-active": (m.sigil == sigil)}' :to='{ name: "facsimile", params: { sigil: m.sigil, page: "001r" } }') {{ m.title }}
     .navbar-end
       router-link.navbar-item(to="/about") Einführung
       router-link.navbar-item(to="/materials") Materialien

@@ -1,4 +1,4 @@
-nav.navbar.is-fixed-bottom(role="navigation" aria-label="pagination")
+nav.navbar.is-fixed-bottom.is-light(role="navigation" aria-label="pagination")
   .navbar-menu.is-active
     .navbar-start
       .navbar-item
@@ -8,6 +8,16 @@ nav.navbar.is-fixed-bottom(role="navigation" aria-label="pagination")
             li.is-active: a {{ page }}
 
     .navbar-end
+      .navbar-item
+        .field
+          .control.has-icons-right
+            input.input(type="text" placeholder="Seite")
+            span.icon.is-right: i.fa.fa-search
+      .navbar-item
+        .field
+          .control.has-icons-right
+            input.input(type="text" placeholder="Vers")
+            span.icon.is-right: i.fa.fa-search
       .navbar-item
         .field.is-grouped
           .control
