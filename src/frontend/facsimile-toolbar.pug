@@ -1,7 +1,11 @@
-nav.navbar.is-link(role="navigation" aria-label="pagination")
+nav.navbar.is-fixed-bottom(role="navigation" aria-label="pagination")
   .navbar-menu.is-active
     .navbar-start
-      .navbar-item {{ title }} – {{ page }}
+      .navbar-item
+        nav.breadcrumb(aria-label="breadcrumbs")
+          ul
+            li.is-active: a {{ title }}
+            li.is-active: a {{ page }}
 
     .navbar-end
       .navbar-item

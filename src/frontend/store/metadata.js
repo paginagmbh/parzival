@@ -14,6 +14,10 @@ module.exports = {
     namespaced: true,
 
     getters: {
+        metadata() {
+            return metadata;
+        },
+
         manuscript(state, getters, rootState) {
             const { route } = rootState;
             const { name, params } = route;
