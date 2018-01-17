@@ -5,6 +5,7 @@ const fs = require("fs");
 
 const csv = require("csv-parse/lib/sync");
 const verse = require("../src/verse");
+const { pageSigil } = require("../src/manuscript");
 
 const encoding = "utf-8";
 
@@ -35,16 +36,6 @@ const metadata = {
     }
 }
 
-function paddedLeaf(leaf) {
-    if (leaf > 99) {
-        return leaf.toString();
-    } else if (leaf > 9) {
-        return `0${leaf}`;
-    } else {
-        return `00${leaf}`;
-    }
-}
-
 const manuscripts = ["K", "R"].map(sigil => {
     const columns = verses
           .filter(v => v.manuscript == sigil)
@@ -52,10 +43,7 @@ const manuscripts = ["K", "R"].map(sigil => {
           .map(v => assign(v, { leaf: parseInt(v.leaf, 10) }));
 
     const pages = keys(columns.reduce(
-        (pages, col) => assign(pages, { [[
-            paddedLeaf(col.leaf),
-            col.page
-        ].join("")]: true }),
+        (pages, col) => assign(pages, { [pageSigil(col)]: true }),
         {}
     )).sort();
 

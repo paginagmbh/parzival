@@ -1,12 +1,15 @@
 const { min, max } = Math;
-const metadata = require("../../metadata.json");
 
-function validManuscript(sigil) {
+const metadata = require("../../metadata.json");
+const verse = require("../../verse");
+const { pageSigil } = require("../../manuscript");
+
+function manuscript(sigil) {
     const [ first ] = metadata;
     return metadata.find(m => m.sigil == sigil) || first;
 }
 
-function pageIndex(pages, index) {
+function page(pages, index) {
     return max(0, min(pages.length - 1, index));
 }
 
@@ -14,36 +17,21 @@ module.exports = {
     namespaced: true,
 
     getters: {
-        metadata() {
+        manuscripts() {
             return metadata;
         },
 
-        manuscript(state, getters, rootState) {
-            const { route } = rootState;
-            const { name, params } = route;
-            const { sigil } = params;
-            return validManuscript(
-                name == "facsimile" ? sigil : ""
-            );
-        },
-
-        title(state, { manuscript }) {
-            const { title } = manuscript;
-            return title;
-        },
-
-        sigil(state, { manuscript }) {
-            const { sigil } = manuscript;
-            return sigil;
+        manuscript(state, getters, { route }) {
+            const { params } = route;
+            return manuscript(params.sigil || "");
         },
 
         page(state, { manuscript }, { route }) {
             const { pages } = manuscript;
-            const { name, params } = route;
-            const { page } = params;
-            return pages[pageIndex(pages, pages.indexOf(
-                name == "facsimile" ? page : ""
-            ))];
+            const { params } = route;
+
+            const index = pages.indexOf(params.page || "");
+            return pages[page(pages, index)];
         },
 
         index(state, { manuscript, page }) {
@@ -53,28 +41,28 @@ module.exports = {
 
         prevPage(state, { manuscript, index }) {
             const { pages } = manuscript;
-            return pages[pageIndex(pages, index - 1)];
-        },
-
-        noPrevPage(state, { page, prevPage }) {
-            return page == prevPage;
+            return pages[page(pages, index - 1)];
         },
 
         nextPage(state, { manuscript, index }) {
             const { pages } = manuscript;
-            return pages[pageIndex(pages, index + 1)];
+            return pages[page(pages, index + 1)];
         },
 
-        noNextPage(state, { page, nextPage }) {
-            return page == nextPage;
-        },
-
-        id(state, { sigil, page }) {
-            return [sigil.toLowerCase(), page].join("-");
-        },
-
-        tileSources(state, { id }) {
+        tileSources(state, { manuscript, page }) {
+            const { sigil } = manuscript;
+            const id = [sigil.toLowerCase(), page].join("-");
             return [`https://assets.pagina-dh.de/iiif/parzival-${id}.ptif/info.json`];
+        },
+
+        verses(state, { manuscript, page }) {
+            const { columns } = manuscript;
+
+            const pageColumns = columns.filter(c => pageSigil(c) == page);
+            const a = pageColumns.shift();
+            const b = pageColumns.pop() || a;
+
+            return [a.start, b.end];
         }
     }
 };

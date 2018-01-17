@@ -4,25 +4,27 @@ nav.navbar.is-fixed-bottom.is-light(role="navigation" aria-label="pagination")
       .navbar-item
         nav.breadcrumb(aria-label="breadcrumbs")
           ul
-            li.is-active: a {{ title }}
+            li.is-active: a {{ manuscript.title }}
             li.is-active: a {{ page }}
+            li.is-active: a {{ verseTitle }}
 
     .navbar-end
       .navbar-item
         .field
-          .control.has-icons-right
-            input.input(type="text" placeholder="Seite")
-            span.icon.is-right: i.fa.fa-search
       .navbar-item
-        .field
-          .control.has-icons-right
-            input.input(type="text" placeholder="Vers")
-            span.icon.is-right: i.fa.fa-search
+        .field.is-grouped
+          .control.has-icons-left
+            input.input(type="text" placeholder="z. B. 30v oder 123 oder 700.20[1]" v-model.trim="query" @keyup.enter="search" :class='{ "is-danger": notFound }')
+            span.icon.is-left: i.fa.fa-search
+          .control
+            button.button.is-primary(@click="searchVerse") Vers
+          .control
+            button.button(@click="searchPage") Seite
       .navbar-item
         .field.is-grouped
           .control
-            router-link.button(:to='{ name: "facsimile", params: { sigil: sigil, page: prevPage } }' :disabled="noPrevPage")
+            router-link.button(:to='{ name: "facsimile", params: { sigil: manuscript.sigil, page: prevPage } }' :disabled="noPrevPage")
               i.fa.fa-angle-left
           .control
-            router-link.button(:to='{ name: "facsimile", params: { sigil: sigil, page: nextPage } }' :disabled="noNextPage")
+            router-link.button(:to='{ name: "facsimile", params: { sigil: manuscript.sigil, page: nextPage } }' :disabled="noNextPage")
               i.fa.fa-angle-right

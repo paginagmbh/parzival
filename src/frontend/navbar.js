@@ -1,20 +1,11 @@
-const { assign } = Object;
 const $ = require("jquery");
 
 const { mapGetters } = require("vuex");
 
-const computed = assign({
-
-    otherManuscripts() {
-        return this.metadata.filter(m => m.sigil != this.sigil);
-    }
-
-}, mapGetters("metadata", ["metadata", "sigil", "title"]));
-
 module.exports = {
     template: require("./navbar.pug")(),
 
-    computed,
+    computed: mapGetters("metadata", ["manuscripts", "manuscript"]),
 
     created() {
         this.$html = $("html").addClass("has-navbar-fixed-top");

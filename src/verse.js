@@ -42,9 +42,13 @@ function toString({ nums, plus }) {
     ].filter(c => c).join("");
 }
 
-function title({ nums, plus }) {
+function type({ nums }) {
     const prefixes = ["", "Nuwer Parzifal", "Parzival"];
-    return [ prefixes[nums.length], toString({ nums, plus })]
+    return prefixes[nums.length];
+}
+
+function title({ nums, plus }) {
+    return [ type({ nums }), toString({ nums, plus })]
         .filter(c => c)
         .join(" ");
 }
@@ -76,4 +80,4 @@ function within([startIncl, endIncl], v) {
     return compare(startIncl, v) <= 0 && compare(endIncl, v) >= 0;
 }
 
-module.exports = { parse, p, np, heading, toString, title, compare, within };
+module.exports = { parse, p, np, heading, type, toString, title, compare, within };
