@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf8" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Transkription des Textzeugen V</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>2017</date>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+          <settlement>Karlsruhe</settlement>
+          <repository>Badische Landesbibliothek</repository>
+          <idno>Donaueschingen 97</idno>
+          <altIdentifier type="Parzival-Projekt">
+            <idno>V</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <physDesc>
+        </physDesc>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+  <charDecl>
+   <char xml:id="finis">
+    <charName>Finis-Zeichen</charName>
+   </char>
+   <char xml:id="alin1">
+    <charName>Alinea-Zeichen</charName>
+   </char>
+   <char xml:id="deligatur">
+    <charName>de-Ligatur</charName>
+   </char>
+   <char xml:id="latAbbrRum">
+    <charName>Lateinische Abkürung für -rum</charName>
+   </char>
+   <char xml:id="latAbbrIs">
+    <charName>Lateinische Abkürzung für -is</charName>
+   </char>
+   <char xml:id="latAbbrEt">
+    <charName>Lateinische Abkürzung für -et/-it</charName>
+   </char>
+  </charDecl>
+  </encodingDesc>
+</teiHeader>
+<text>
+<body>
+<note>Hs. V</n
+<cb xml:id="V017v
+<Sch 1>_Sö hebet hie an der prologus von Parcifal, der us ivelschem
+<Sch 2>_zuo tüschem ist gemäht unde vohet hie sine kintheit an.
+<Sch 3>_dovon der ie nach eren rang
+<Sch 4>_sol merken disen anevang
+<Sch 5>_und ob er gerne höret sagen,
+<Sch 6>_wie men mag hohen pris bejagen,
+<Sch 7>_früntschaft von reinen wiben.
+<Sch 8>_solt ich von gründe schriben
+<Sch 9>_die aventüre an ir zil,
+<Sch 10>_zuo tihtende so hat ich zuo vil,
+<Sch 11>_wan es ist us gesundert gantz,
+<Sch 12>_durchlühtig und durchreinet glantz,
+<Sch 13>_das nie so cluoges wart vollebraht.
+<Sch 14>_es ist von also maniger slaht;
+<Sch 15>_lödaz es niht wol usrihten kan
+<Sch 16>_ich noch ein ander tumber man.
+<Sch 17>_iedoch so wil ich sagen daz,
+<Sch 18>_in welicher wirde hie vor waz
+<Sch 19>_der grol und euch wie schöne in hielt
+<Sch 20>_der fürste in eren, der sin wielt.
+<Sch 21>_ouch wil ich üch hie tuen bekant,
+<Sch 22>_wie Logers daz vil riche laut
+<Sch 23>_zerstöret wart und abe nam.
+<Sch 24>_das künigriche zuo armuete kam,
+<Sch 25>_davon vil digke wart geseit.
+<Sch 26>_das ertriche wueste wart geleit
+<Sch 27>_unde wart nüt zweier nusse wert,
+<Sch 28>_do daz gebirge wart erlert
+<Sch 29>_der megede stimme wolgeton,
+<Sch 30>_die darus giengen sunder won.
+<Sch 31>_die von so grossen dingen
+<Sch 32>_dienden gar sunder twingen,
+<Sch 33>_das nieman gevaren kam darzuo,
+<Sch 34>_es wer joch spote oder fruo,
+<Sch 35>_durch trinken oder essens w^^on:
+<Sch 36>_nieman dorfte ander wege underston,
+<Sch 37>_wenne so er zuo der berge eime kam,
+<Sch 38>_denheines dinges daz im gezam
+<Sch 39>_von wol essende, ob ers wolte han,
+<Sch 40>_ern het es alzuohandan,
+<Sch 41>_ob ers mit zuht gemuoten künde,
+<Sch 42>_wan US dem berge kam zuo stunde
+<Sch 43>_^^ine maget, die in trabten werte,
+<Sch 44>_daz er nüt schonre engerte,
+<Sch 45>_His wer zam oder wilt gevar.
+<Sch 46>_in irre haut von golde dar
+<Sch 47>_(18'*) ein napf si im engegen truog.
+<Sch 48>_vil ander reine megede cluog
+<Sch 49>_truogent tartern, wastel, brot.
+<Sch 50>_öodenne brohte sunder not
+<Sch 51>_ein ander maget hochgemuot
+<Sch 52>_tweheln wis unde schusseln guot
+<Sch 53>_von golde und euch von silber wert,
+<Sch 54>_eine der ginre hette begert,
+<Sch 55>_der durch essen kummen was
+<Sch 56>_zuo dem gebirge, wissent daz,
+<Sch 57>_der wart von ir enphangen wol,
+<Sch 58>_als men vil liebe geste sol.
+<Sch 59>_duht in die spise niht vil kluog,
+<Sch 60>_besser vil men im dar truog
+<Sch 61>_zuo haut nach allem dem willen sin,
+<Sch 62>_fölleklich mit fröden suader pin.
+<Sch 63>_die megede diendent alle
+<Sch 64>_mit muot und ouch mit schalle
+<Sch 65>_den, die des gebirges noment war
+<Sch 66>_und durch essens willen komen dar.
+<Sch 67>_in disen dingen do geschach
+<Sch 68>_gar raichel grosses ungemach
+<Sch 69>_von dem künigc Amaugon :
+<Sch 70>_er tet gebürlich sunder won
+<Sch 71>_umbe daz bizeichen, daz er tet do.
+<Sch 72>_manige nach im toten ouch also,
+<Sch 73>_die den künig des sohent walten
+<Sch 74>_und der si in grossen eren solte halten,
+<Sch 75>_wan er ir schirmer solte sin
+<Sch 76>_uiide brahte si in jomers pin.
+<Sch 77>_ir einre iren magetuom er nam
+<Sch 78>_(ach got, wie gar übel im daz gezam!),
+<Sch 79>_über iren willen daz geschach.
+<Sch 80>_den napf er von ir hende brach
+<Sch 81>_unde truog in dannan alzehant.
+<Sch 82>_des mues er iemer sin geschant!
+<Sch 83>_darnach er im dienen hies,
+<Sch 84>_furwor er sü dez nüt ürlies.
+<Sch 85>_des sol im leides vil geschehen,
+<Sch 86>_bessers kan ich im nicht verjehen.
+<Sch 87>_doch diende im keine jungfrowe me
+<Sch 88>_noch giengen us also, si totent e,
+<Sch 89>_umbe kein ding, daz do zestunde
+<Sch 90>_ZUO essende in gebresten künde,
+<Sch 91>_die andern diendent alle gar.
+<Sch 92>_ach got, warumbe noment nüt war
+<Sch 93>_die sinen diener an die ere!
+<Sch 94>_do si sehen an irs herren lere,
+<Sch 95>_das er den megeden ir küschikeit nam,
+<Sch 96>_wo er zuo den schönesten kam:
+<Sch 97>_(18b) ouch des zuo pflegende stuont ir sin
+<Sch 98>_und truogent die nepfe mit in hin.
+<Sch 99>_darnach us dem gebirge kam
+<Sch 100>_kein jungfrowe, die sich dienestz an nam,
+<Sch 101>_unde wissent sicherlich für wor,
+<Sch 102>_ir herren alle sunder vor,
+<Sch 103>_das lant abe nam ane misse wende.
+<Sch 104>_der künig beholte ein böses ende
+<Sch 105>_und die andern alle sunder won,
+<Sch 106>_die in ie leit hettent geton.
+<Sch 107>_das künigrich verwuoste so gar,
+<Sch 108>_das kein boum me bluete do bar.
+<Sch 109>_die velt die wurdent bluomen an,
+<Sch 110>_das gras wart val und ungetan,
+<Sch 111>_die Wasser dünne ane genuht,
+<Sch 112>_die weide dürre an alle fruht.
+<Sch 113>_es künde ouch nieman vinden me
+<Sch 114>_des riehen vischers hof als e,
+<Sch 115>_der das lant erluhte also gar.
+<Sch 116>_von silber unde von golde dar,
+<Sch 117>_von punt unde von hermin,
+<Sch 118>_von scharlachen und von riehen baldikin,
+<Sch 119>_von spise unde von schalen cluog,
+<Sch 120>_von gervalken und von smirlin genuog,
+<Sch 121>_hebiche, sperwer, valken zart:
+<Sch 122>_zuo haut do der hof funden wart,
+<Sch 123>_do waz in aller der gegen zil
+<Sch 124>_richtuomes volle also vil
+<Sch 125>_von allem dem, daz ich hie genennet han.
+<Sch 126>_das wissent alle sunder wan,
+<Sch 127>_das si alle bessertent sich
+<Sch 128>_von der eren arm unde rieh.
+<Sch 129>_JNu hettent süs alles verlorn, wissent daz.
+<Sch 130>_in dem künigrich zuo Logers waz
+<Sch 131>_al der weite richheit zuo stunde.
+<Sch 132>_die fürsten von der tavelrunde
+<Sch 133>_koment bi kunig Artuses zit
+<Sch 134>_(nie besser künig wart gesehen sit),
+<Sch 135>_8Ü worent so guote ritter,
+<Sch 136>_SO frech, so starg, so bitter,
+<Sch 137>_so menlich, so kueoe, so unlas,
+<Sch 138>_do si hortent sägen das,
+<Sch 139>_der aventüre twingen,
+<Sch 140>_sü woltent die berge wider bringen,
+<Sch 141>_alle kertent si dar geliche.
+<Sch 142>_die langen, die starken lihtecliche,
+<Sch 143>_die megede die si fuortent hin,
+<Sch 144>_der nepfe si ouch truogen mit in,
+<Sch 145>_ir wingarten si verstörten,
+<Sch 146>_die der grimen schänden vorten,
+<Sch 147>_(18#.<) darumbe daz si so lange zit
+<Sch 148>_belibent in dem gebirge wit
+<Sch 149>_und danoch harfür nüt koment,
+<Sch 150>_davon si den schaden noment.
+<Sch 151>_unde so si der einen viengent,
+<Sch 152>_den branten si oder hiengent.
+<Sch 153>_almuosen, gebet taten si gar rehte,
+<Sch 154>_das got har wider brehte
+<Sch 155>_das gebirge in der wirde gar,
+<Sch 156>_als es e waz offenbar,
+<Sch 157>_unde suochtent den dienest und die ere,
+<Sch 158>_doch fundent si ir niht mere.
+<Sch 159>_ir heischen daz enhalf si niht,
+<Sch 160>_das si ir kundent vinden iht,
+<Sch 161>_unde hortent keine stimme me
+<Sch 162>_noch jungfrowen us gon als e.
+<Sch 163>_aber soliche aventüre in zuo kam,
+<Sch 164>_das es si vil gros wunder nam.
+<Sch 165>_in den weiden si jungfrowen funden,
+<Sch 166>_das si niht schöner erwünschen künden,
+<Sch 167>_bi in so worent ritter do
+<Sch 168>_gewopent wol uf örschen ho,
+<Sch 169>_die mit den jungfrowen ritten.
+<Sch 170>_die tavelrunder mit in stritten,
+<Sch 171>_ir juncfrowen si in nemen weiten :
+<Sch 172>_des rittere vil den tot erholten,
+<Sch 173>_umbe die jungfrowen zuo der zit
+<Sch 174>_wart in der gegen manig strit.
+<Sch 175>_iTökünig Artus ane erkovern zwor
+<Sch 176>_vil guoter ritter do verlor
+<Sch 177>_unde manigen guoten er erstreit,
+<Sch 178>_als uns die aventüre seit.
+<Sch 179>_Uer erste ritter, der do wart
+<Sch 180>_isogevangen us des landes art,
+<Sch 181>_der hate an im hohen pris:
+<Sch 182>_er waz geheissen Plyopliris.
+<Sch 183>_den sicherte min her Gawan,
+<Sch 184>_der aller frecheite wnz der man,
+<Sch 185>_unde hies in zuo kunig Artuse varn,
+<Sch 186>_sine Sicherheit aldo bewarn.
+<Sch 187>_ane biten er do zuo hofe reit
+<Sch 188>_unde leiste sine Sicherheit.
+<Sch 189>_der künig noch nieraan kant in niht,
+<Sch 190>_doch seit er in von solicher geschiht,
+<Sch 191>_das nieman möhte verdriessen
+<Sch 192>_umbe denkeiner slaht geniessen
+<Sch 193>_zuo hörende der rede sin.
+<Sch 194>_die von der tavelrunde vrogetent in
+<Sch 195>_von den megeden, die men sach riten
+<Sch 196>_in den weiden, die vor den ziten
+<Sch 197>_(18^^) nüt worent da gesin, si hettent reht
+<Sch 198>_zuo ervarnde die rede sieht,
+<Sch 199>_und ob ers in künde gesagen,
+<Sch 200>_das hortent si gerne ane vertagen.
+<Sch 201>_die meisten nehte si wacheten gar
+<Sch 202>_die ritter und die vrowen dar
+<Sch 203>_durch die mere zuo hörende, wissent daz,
+<Sch 204>_unde si ouch zervarende deste bas.
+<Sch 205>_er jach zuo in: gros wunder ir hie spehent
+<Sch 206>_von den jungfrowen, die ir hie sehent
+<Sch 207>_durch die micheln weide riten.
+<Sch 208>_fragendes mügent ir kume erbiten,
+<Sch 209>_von welme lande wir sint geborn :
+<Sch 210>_die worheit fürhörent sunder zorn.
+<Sch 211>_Wi ir sint geborn von jungfrowen also fin
+<Sch 212>_daz in der weite nie schonre wurden schin,
+<Sch 213>_der künig Amangon nam ir ere,
+<Sch 214>_der schade wirt nieinermere
+<Sch 215>_wider braht bi dirre weite stunde/
+<Sch 216>_die fürsten von der tavelrunde
+<Sch 217>_durch ere und durch hübischeit,
+<Sch 218>_umbe freche getat und durch manheit
+<Sch 219>_zuo wider bringende betten irn ger
+<Sch 220>_das gebirge: davon die betschelierer,
+<Sch 221>_die ritter und die guoten lüte liberal,
+<Sch 222>_der ich üch nennen wil die zal,
+<Sch 223>_die fuorent drus algemeinlich
+<Sch 224>_und euch die megede minnenclich
+<Sch 225>_die in disenie lande sint funden
+<Sch 226>_in weiden, in gegin nu zestunden
+<Sch 227>_muessent varn ane erwindende,
+<Sch 228>_bitz daz got git zuo vindende
+<Sch 229>_den hof, dovon die fröde kunimen sol.
+<Sch 230>_denne wirt dis laut lütes wider vol.
+<Sch 231>_soliche aventüre si do vindent,
+<Sch 232>_die sich des hoves suochendes underwindent,
+<Sch 233>_die men emols nie me vant
+<Sch 234>_noch in diseme lande wurden erkant.
+<Sch 235>_gar wol künde es euch den behagen,
+<Sch 236>_die diu rede hortent sagen.
+<Sch 237>_dar nach in kurtzer stunde so
+<Sch 238>_huop sich ein michel gespreche do
+<Sch 239>_von des hofes geselleschaft :
+<Sch 240>_ir muot waz prisig ellenthaft.
+<Sch 241>_geliche sprochen si zuohant:
+<Sch 242>_Vol uf, wir süllent in daz laut
+<Sch 243>_suochen des riehen vischers kurt.'
+<Sch 244>_es wart nie tugenthafter wurt
+<Sch 245>_geborn noch keiserlicher art,
+<Sch 246>_kein künig nie bas geeret wart
+<Sch 247>_(19*) von sinre massenie.
+<Sch 248>_so selig waz der frie,
+<Sch 249>_daz im nieman waz gehas :
+<Sch 250>_von sinre selikeit kam daz,
+<Sch 251>_wan sinre tilgende waz so vil,
+<Sch 252>_daz nieman reichete an sin zil.
+<Sch 253>_il^^inre suoclite in nach prise,
+<Sch 254>_der ander in stoltzer wise.
+<Sch 255>_her Gawan den hof vant alsus
+<Sch 256>_von dem ritter, den er brahte künig Artus,
+<Sch 257>_unde waz zuo hofe lange, daz ist wor.
+<Sch 258>_ouch wurt gesaget offenbar
+<Sch 259>_har nach, waz fröden dovon kam,
+<Sch 260>_davon daz riebe alles zuo nam.
+<Sch 261>_aber doch emols do vant in
+<Sch 262>_ein ritter cluog, hate stolzen sin,
+<Sch 263>_der gar von jungen joren was.
+<Sch 264>_kein freches hertze getet nie bas
+<Sch 265>_fürwor, als er tet zuo aller stunde.
+<Sch 266>_sit kam er zuo der tavelrunde
+<Sch 267>_der junge man, von dem ich sage.
+<Sch 268>_sine kuonheit waz ane hinderslage
+<Sch 269>_unde gar ane allen underbiot
+<Sch 270>_für alle die da worent und noch lebende sint.
+<Sch 271>_in allen künigrichen
+<Sch 272>_möht im an manheit niht geliehen.
+<Sch 273>_unwert er zuo dem ersten was,
+<Sch 274>_sit wart nie helt erzüget bas.
+<Sch 275>_er suohte so vil durch das laut
+<Sch 276>_den hof fürwor, untze daz ern vant
+<Sch 277>_der ritter frech an tugenden dar.
+<Sch 278>_ir vil (!), daz wissent ouch fürwar,
+<Sch 279>_dis waz der Galeis Parcifal,
+<Sch 280>_der do erfuor, wannan von der gral
+<Sch 281>_diende: doch frogete er nüt der mer,
+<Sch 282>_wovon men bluoten such daz sper.
+<Sch 283>_er ouch zuo frogende vergas,
+<Sch 284>_wovon daz swert entzwei was,
+<Sch 285>_des daz halbe uf der bore lag.
+<Sch 286>_do inne der tote ligendes pflag.
+<Sch 287>_l)\s wunder gar verswant verwar,
+<Sch 288>_doch sage ich üch wol offenbar,
+<Sch 289>_das er zestunde wol vernam
+<Sch 290>_daz leit, daz in den sal do kam,
+<Sch 291>_unde von dem riehen crüze silberin,
+<Sch 292>_das zuo dem ersten kam hin in.
+<Sch 293>_dinne wart euch tegeliche kunt
+<Sch 294>_zuo drien ziten dristunt
+<Sch 295>_so vil jomers unde pin,
+<Sch 296>_daz keinre so kuene möhte sin,
+<Sch 297>_(19b) het er die grosse not gehöret,
+<Sch 298>_sinre kuonheit wer ein teil zerstöret.
+<Sch 299>_do hiengent vier rouchfas geliche
+<Sch 300>_und dabi vier liehtstögke riche
+<Sch 301>_worent an der boren ende.
+<Sch 302>_do daz ambaht eilende
+<Sch 303>_ergangen waz, der schrei verswant.
+<Sch 304>_in dem sale men niht mere vant,
+<Sch 305>_der do waz lang unde breit,
+<Sch 306>_der stuont lere mit erschrokenheit.
+<Sch 307>_do schos ein runs von bluote nas
+<Sch 308>_US eime ses, da daz sper inne was.
+<Sch 309>_das ses waz in der wise
+<Sch 310>_gemachet wol zuo prise
+<Sch 311>_löbelich und euch gewere
+<Sch 312>_also : waz von dem spere
+<Sch 313>_bluotes trouf, daz viel darin.
+<Sch 314>_das ses daz was silberin,
+<Sch 315>_euch waz daran von silber clor
+<Sch 316>_ein röre gemachet fürwor.
+<Sch 317>_was bluotes von dem spere trouf,
+<Sch 318>_in daz ses das hette sinen louf
+<Sch 319>_durch die röre wolgeton,
+<Sch 320>_das men es horte hin in gon :
+<Sch 321>_in dem ses enthielt men daz sper.
+<Sch 322>_menlich duhte seltzcne mer,
+<Sch 323>_was es were und ouch möhte sin.
+<Sch 324>_dis alles waz küntliclien schin
+<Sch 325>_den die ez noment war.
+<Sch 326>_denne kam in andere wot gevar
+<Sch 327>_der künig, der do waz wol erkaat,
+<Sch 328>_usser einer kammer alzehant.
+<Sch 329>_er waz gecleidet nach richer statte
+<Sch 330>_in anderme gezüge den er hatte,
+<Sch 331>_das nieman gevisieren künde
+<Sch 332>_der cleider gezierde da ze stunde :
+<Sch 333>_so durchriche schein ir llehter schin.
+<Sch 334>_zepter unde gar guote vingerlin
+<Sch 335>_von golde unde von gesteine,
+<Sch 336>_listen riche und harte reine
+<Sch 337>_truog er umbe die arme sin,
+<Sch 338>_die woren gemäht durchlühtig fin.
+<Sch 339>_uffe sime houbete er truog
+<Sch 340>_einen reif, der waz von golde cluog
+<Sch 341>_und dabi von gesteine harte riche
+<Sch 342>_(eime horde worent si geliche),
+<Sch 343>_fürspang unde umbegurt prisig.
+<Sch 344>_nie schöner mensche lebendig
+<Sch 345>_men in al der weite vant.
+<Sch 346>_wol wart im wunder gros bekant,
+<Sch 347>_(19*^^) der des tages sach den sinen schin,
+<Sch 348>_als er ein vischer were gesin.
+<Sch 349>_zuo haut do der künig gesessen waz
+<Sch 350>_zuo tische, merkent me fürbas,
+<Sch 351>_und die ritter von guoter art,
+<Sch 352>_das brot dar schiere geleit wart,
+<Sch 353>_in silber vas schanchte men den win
+<Sch 354>_unde ouch in nepfe rot guldin.
+<Sch 355>_darnach sacli men den werden gral
+<Sch 356>_schiere kummen in den riehen sal :
+<Sch 357>_ane ritter, knehte sunder won
+<Sch 358>_kam er usser einre kammer schon,
+<Sch 359>_men diente zuo tische gar geliche
+<Sch 360>_usser schusseln von golde riche.
+<Sch 361>_solte men si achetzen an ein ort,
+<Sch 362>_vergolten hettent si einen hört.
+<Sch 363>_es waz nut wan ein wunder
+<Sch 364>_die mas, die men bisunder
+<Sch 365>_uf alle die tavelen satte
+<Sch 366>_für den künig mit statte.
+<Sch 367>_darnoch so diendent si fürbas
+<Sch 368>_iegelichem, als er gesessen was.
+<Sch 369>_denne so kam daz wunder gros,
+<Sch 370>_sin gelich men niene kos,
+<Sch 371>_das ich zuo sagende wil vertagen,
+<Sch 372>_wände Parcifal der sol es sagen.
+<Sch 373>_es wer nüt endelich getan,
+<Sch 374>_solte men die rede underslan
+<Sch 375>_anders denne men von relite sol.
+<Sch 376>_wissent, es enzeme niht wol
+<Sch 377>_zuo erteilende, daz ist sicherlich,
+<Sch 378>_so cluoge rede unde so rieh,
+<Sch 379>_swenne kunt der ritter guot,
+<Sch 380>_der den hof durch frechen muot
+<Sch 381>_fürwor zuo zweien molen vant.
+<Sch 382>_denne so tuon ich üch bekant
+<Sch 383>_von Worte zuo werte wissen daz,
+<Sch 384>_wie daz gebirge erkünnet waz,
+<Sch 385>_wovon der grol dienest verjach,
+<Sch 386>_durch waz men daz sper bluoten sach.
+<Sch 387>_llie tuon ich üch fürwor bekant
+<Sch 388>_von dem ritter alzehant,
+<Sch 389>_der kummen waz, als ich es las,
+<Sch 390>_von der gegen da grol unde sper inne waz.
+<Sch 391>_e sol es nieman rehte erhören,
+<Sch 392>_in dirre geschrift ir mügent hören
+<Sch 393>_von vil aventüre sagen,
+<Sch 394>_der men mit nute sol vertagen.
+<Sch 395>_men sol si ane alle underbint
+<Sch 396>_künden also si ergangen sint.
+<Sch 397>_(19') si ruerent alle sicherlich
+<Sch 398>_von dem werden grale rieh,
+<Sch 399>_davon daz lant alles zuo nam :
+<Sch 400>_an fröden, an lüten es wider kam
+<Sch 401>_noch der zerstörunge so hart,
+<Sch 402>_fürwor in Orsche (?) funden wart
+<Sch 403>_der hof und euch der werde gral.
+<Sch 404>_des wart daz lant liberal
+<Sch 405>_gerichet an lüten unde an guote,
+<Sch 406>_an seiden, an eren, au hohen muote.
+<Sch 407>_die Wasser die nüt Aussen do
+<Sch 408>_und die quegburnen euch also
+<Sch 409>_die gewunnent iren Aus als e,
+<Sch 410>_wol tusent jar und darzuo me
+<Sch 411>_hatent verloren iren sprung.
+<Sch 412>_die beide val wart wider jung,
+<Sch 413>_die wisen gruene mit bluomen bespreit,
+<Sch 414>_die weide mit loube wol gecleit.
+<Sch 415>_des tages do der hof funden wart
+<Sch 416>_do wart gerichet gar alfart
+<Sch 417>_die gegin und darzuo alles daz
+<Sch 418>_zerstöret unde zergangen waz.
+<Sch 419>_Wissent, wer dar durch wandeln kam,
+<Sch 420>_daz es den michel wunder nam,
+<Sch 421>_das sich daz lant bette wider keret
+<Sch 422>_und euch an aller fruht gemeret.
+<Sch 423>_beide spote und dobi fruo
+<Sch 424>_nament an frecher mauheit zuo,
+<Sch 425>_die men in dem gebirge vant.
+<Sch 426>_die worent do und unerkant,
+<Sch 427>_si mahtent stette und bürge cluog,
+<Sch 428>_bruochüser, slos und dörfer genuog
+<Sch 429>_unde mahtent durch der jungfrowen Ion
+<Sch 430>_der megede bürg rieh wolgeton,
+<Sch 431>_die brugke sorgsam durch grus
+<Sch 432>_und daz grosse kastei Orgullus.
+<Sch 433>_durch übermuot unde herschen sin
+<Sch 434>_mahtent eine gelübede under in
+<Sch 435>_die Fürsten von dem gesinde rieh.
+<Sch 436>_durch hochfart erhuop es sich
+<Sch 437>_zuo bile gegen der tavelrunde.
+<Sch 438>_die mere kam durch die weit zestunde.
+<Sch 439>_sin liep hatte ieglicher do,
+<Sch 440>_si lebeten mit gemuete ho.
+<Sch 441>_drü hundert woren gewaltig
+<Sch 442>_der vesten unde sehtzig.
+<Sch 443>_ouch hette ieglicher sunder won
+<Sch 444>_zwentzig ritter wolgeton,
+<Sch 445>_die sin bisunder noment war.
+<Sch 446>_nu merkent hie die zal algar:
+<Sch 447>_(20-) siben tusent unde sehs hundert waz der zal
+<Sch 448>_unde sehs unde achtzig überal.
+<Sch 449>_dis rechen wer in der weite wil.
+<Sch 450>_so vindet er niht wan also vil.
+<Sch 451>_durch daz wite laut si ritten,
+<Sch 452>_zuo farende enweg si niht enbitten.
+<Sch 453>_von künig Artus hof die ritter guot
+<Sch 454>_sü versuochtent durch hohen muot
+<Sch 455>_sich an si uf alle vart.
+<Sch 456>_wo einre under in gevangen wart,
+<Sch 457>_den fuortent si ane quiten hin.
+<Sch 458>_der künig Artus gewan den sin.
+<Sch 459>_das er daz wolte rechen,
+<Sch 460>_die bürg vollen, zerbrechen.
+<Sch 461>_aber alle sine vigende do
+<Sch 462>_imme leitent so vil anderswo
+<Sch 463>_atzunge, krieges unde has :
+<Sch 464>_vergeben suochtent si fürbas.
+<Sch 465>_der krieg so gros wart sunder var,
+<Sch 466>_das es werte wol vier jar.
+<Sch 467>_Öus seit die rede geslahte
+<Sch 468>_und der ouch dis buoch mähte
+<Sch 469>_von eins zuom andern iedem man,
+<Sch 470>_warumbe diende sunder dan
+<Sch 471>_der gral uf aller slaht geschiht.
+<Sch 472>_üch Wirt fürwor verswigen niht,
+<Sch 473>_was er mengelichem guotes tet,
+<Sch 474>_als men fürwor fürhöret het
+<Sch 475>_von künig Artuse, daz ist wor.
+<Sch 476>_do er das urlüge vier jor
+<Sch 477>_gehielt mit den lantlüten sin,
+<Sch 478>_do wart des krieges ende schin
+<Sch 479>_gefrit mit alsolicher suon,
+<Sch 480>_das si alle muestent tuon
+<Sch 481>_den willen sin gar sunder spalt,
+<Sch 482>_es wer mit liebe oder mit gewalt.
+<Sch 483>_dis mit worheite so ergieng,
+<Sch 484>_das sü schaden, und ere enpfieng
+<Sch 485>_der künig, daz weis daz meiste teil,
+<Sch 486>_des wurdens in dem hofe geil,
+<Sch 487>_das gesinde ellent tragende
+<Sch 488>_fuorent in die weite jagende
+<Sch 489>_durch fröde und durch gemellicheit
+<Sch 490>_uf bechen und uf wassern breit,
+<Sch 491>_als iegelicher waz gesit
+<Sch 492>_unde euch einre gerner git,
+<Sch 493>_deune drie ander sicherlich,
+<Sch 494>_also hette ie daz hertze sich
+<Sch 495>_geschigket nach dem willen sin
+<Sch 496>_in hochgemuete sunder pin.
+<Sch 497>_(20b) ir kurzewile was maniger lege
+<Sch 498>_den Winter reht untz uf den meige.
+<Sch 499>_der prologus si hin geleit.
+<Sch 500>_nu hörent Parzifals kintheit,
+<Sch 501>_darnoch sin manheit hohen pris
+<Sch 502>_er war p in maniger hande ivis,
+<Sch 503>_als ir harnach bevinden ivol.</l>
+<Sch 504>_dis huoch es üch midertvisen sol.</l>
+</body>
+</text>
+</TEI>

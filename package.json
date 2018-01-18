@@ -51,12 +51,13 @@
     "xmlbuilder": "^9.0.4"
   },
   "scripts": {
-    "convert": "node verse-concordances/convert.js",
     "build": "export NODE_ENV=production && gulp && webpack",
     "deploy": "export NODE_ENV=production && gulp clean && gulp && webpack && gulp deploy",
     "dev": "export NODE_ENV=development && gulp && webpack-dev-server --open --hot",
     "clean": "gulp clean",
-    "test": "gulp test"
+    "test": "gulp test",
+    "convert": "node verse-concordances/convert.js",
+    "transcript-sync": "rsync -avz --delete root@parzival.pagina-dh.de:/srv/bern/Transkriptionen/ transcripts"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",

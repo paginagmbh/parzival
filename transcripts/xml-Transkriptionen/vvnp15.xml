@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf8" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Transkription des Textzeugen VV</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>2017</date>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+          <settlement>Rom</settlement>
+          <repository>Biblioteca Casanatense</repository>
+          <idno>Mss. 1409</idno>
+          <altIdentifier type="Parzival-Projekt">
+            <idno>V'</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <physDesc>
+        <handDesc>
+        <handNote xml:id="sr2">Schreiber</handNote>
+        </handDesc>
+        </physDesc>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+  <charDecl>
+   <char xml:id="finis">
+    <charName>Finis-Zeichen</charName>
+   </char>
+   <char xml:id="alin1">
+    <charName>Alinea-Zeichen</charName>
+   </char>
+   <char xml:id="deligatur">
+    <charName>de-Ligatur</charName>
+   </char>
+   <char xml:id="latAbbrRum">
+    <charName>Lateinische Abkürung für -rum</charName>
+   </char>
+   <char xml:id="latAbbrIs">
+    <charName>Lateinische Abkürzung für -is</charName>
+   </char>
+   <char xml:id="latAbbrEt">
+    <charName>Lateinische Abkürzung für -et/-it</charName>
+   </char>
+  </charDecl>
+  </encodingDesc>
+</teiHeader>
+<text>
+<body>
+<note><COL Parzival><T: Nüwer Parzival Verse 15000 bis 15208-0. F078vb-F079vb><VV: Rom, Biblioteca Casanatense, Codex 1409></note>
+<note>Transkribiert von MGe ab Farbfotos (Studio) am 01.08.2013; Korrekturen, Anmerkungen, Marginalien, Kustoden und Zweifelsfälle kontrolliert am Original von MSt am 17.5.2017 und von RFa am 4.-6.7.2017.</note>
+<note>Nüwer Parzival nach: K. Schorbach, Parzival von Claus Wisse und Philip Colin (1331-1336). Nachdruck W. de Gruyter. Berlin u. New York 1974.</note>
+<cb xml:id="VV078vb"/>
+<l xml:id="VV_733.115000">Vnd antwurte diz noch daz</l>
+<l xml:id="VV_733.115001">Vnd &#x017F;luc ir pfert vnd reit furbas</l>
+<l xml:id="VV_733.115002"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: blau">P</seg>arzifal greif gege<choice><am>&#x0304;</am><ex>n</ex></choice> dem zovme hin dan</l>
+<l xml:id="VV_733.115003">Vnd wolte &#x017F;y gehebet han</l>
+<l xml:id="VV_733.115004">Wie do &#x017F;prach &#x017F;ie waz &#x017F;ol diz &#x017F;in</l>
+<l xml:id="VV_733.115005">Her ritter vf die truwe min</l>
+<l xml:id="VV_733.115006">Fry noch tugenthaft en&#x017F;int ir</l>
+<pb xml:id="VV079r"/><cb xml:id="VV079ra"/>
+<l xml:id="VV_733.115007">Daz ir den zovm wolt nemen mir</l>
+<l xml:id="VV_733.115008">Vnd sint vngezogen darzv</l>
+<l xml:id="VV_733.115009">Do ich den hvnt nam hvte <subst hand="#sr2"><del>tru</del><add>Fru</add></subst></l>
+<l xml:id="VV_733.115010">Nahe hettent ir ertottet mich</l>
+<l xml:id="VV_733.115011">Ein ritter furt in enwec fur &#x017F;ich</l>
+<l xml:id="VV_733.115012">Daz wi&#x017F;zent fur die worheit</l>
+<l xml:id="VV_733.115013">Daz er mit yele do hin reit</l>
+<l xml:id="VV_733.115014">Jch enweiz ob ers uch danken wil</l>
+<l xml:id="VV_733.115015">Vwer lip wirt han leides vil</l>
+<l xml:id="VV_733.115016">Daz ir iren bracken hine geben hant</l>
+<l xml:id="VV_733.115017">Ane vrloup daz i&#x017F;t nit wol bewant</l>
+<l xml:id="VV_733.115018">Sie endanket uch nit gelovbent mir</l>
+<l xml:id="VV_733.115019">Jr &#x017F;laffent noch hinacht by ir</l>
+<l xml:id="VV_733.115020">Dez bin ich &#x017F;icher vf der &#x017F;tat</l>
+<l xml:id="VV_733.115021">Wan ir gro&#x017F;ze erbeit hant gehat</l>
+<l xml:id="VV_733.115022">Vmb daz hirzhoupt wiz von art</l>
+<l xml:id="VV_733.115023">Parzifal gar grimmic wart</l>
+<l xml:id="VV_733.115024">Daz &#x017F;ie &#x017F;potte &#x017F;in al&#x017F;o</l>
+<l xml:id="VV_733.115025">Jdoch rette er gutlichen do</l>
+<l xml:id="VV_733.115026">zv ir vnd bat &#x017F;y furbas</l>
+<l xml:id="VV_733.115027">Ob &#x017F;ie konde wi&#x017F;zen daz</l>
+<l xml:id="VV_733.115028">Wie der ritter hie&#x017F;ze her</l>
+<l xml:id="VV_733.115029">Der in hette geerret &#x017F;o &#x017F;er</l>
+<l xml:id="VV_733.115030">Vnd ime &#x017F;ine<choice><am>&#x0304;</am><ex>n</ex></choice> bracke<choice><am>&#x0304;</am><ex>n</ex></choice> hette genome<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="VV_733.115031">Daz er in betrupnu&#x017F;&#x017F;e waz komen</l>
+<l xml:id="VV_733.115032">Er wolte ir ymmer diene<choice><am>&#x0304;</am><ex>n</ex></choice> durch daz</l>
+<l xml:id="VV_733.115033">Daz &#x017F;ie ime &#x017F;eite furbas</l>
+<l xml:id="VV_733.115034">Von deme ritter der in deme gewelbe lit</l>
+<l xml:id="VV_733.115035">Ob ers getriben habe lage zit</l>
+<l xml:id="VV_733.115036">Der im do drin entran zvhant</l>
+<l xml:id="VV_733.115037">Do er in &#x017F;trites vberwant</l>
+<l xml:id="VV_733.115038">Vnd bat &#x017F;ie dez zv maniger &#x017F;tvnt</l>
+<l xml:id="VV_733.115039">Daz &#x017F;ie ime dez namen tete kvnt</l>
+<l xml:id="VV_733.115040">So tete &#x017F;ie gar tugentlich</l>
+<l xml:id="VV_733.115041">Sie &#x017F;prach dorvmbe hant ir mich</l>
+<l xml:id="VV_733.115042">zv luczel noch geeret by namen</l>
+<l xml:id="VV_733.115043">Ez kvmet hymel vnd erde e zv &#x017F;amen</l>
+<l xml:id="VV_733.115044">E. ich uch &#x017F;ine<choice><am>&#x0304;</am><ex>n</ex></choice> name<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;age icht</l>
+<l xml:id="VV_733.115045">Jr &#x017F;int noch &#x017F;o gros herre nicht</l>
+<l xml:id="VV_733.115046">Daz uch von mir werde ge&#x017F;eit</l>
+<l xml:id="VV_733.115047">Parzifal tet gro&#x017F;ze torheit</l>
+<l xml:id="VV_733.115048">Daz er &#x017F;ich lange &#x017F;vmet mit ir</l>
+<l xml:id="VV_733.115049">Er warf daz ros vmb gelovbent mir</l>
+<l xml:id="VV_733.115050">Vnd reit von ir &#x017F;nelleclich</l>
+<l xml:id="VV_733.115051">Er &#x017F;wur by gote von himelrich</l>
+<l xml:id="VV_733.115052">Erwande an keinre frouwen nicht</l>
+<l xml:id="VV_733.115053">Wer &#x017F;o gro&#x017F;ze vntugent icht</l>
+<l xml:id="VV_733.115054">Mit &#x017F;worn &#x017F;luc er &#x017F;in ros balt</l>
+<cb xml:id="VV079rb"/>
+<l xml:id="VV_733.115055">Vnd reit balde durch den walt</l>
+<l xml:id="VV_733.115056">Allen den tag ane vnderlos</l>
+<l xml:id="VV_733.115057">Daz man die ve&#x017F;perzit kos</l>
+<l xml:id="VV_733.115058-0"><hi rend="rot"><note type="Kapitelüberschrift">Hie er&#x017F;lehet parzifal einen lewen</note></hi> <note type="Marginalie">i<choice><am>&#x0304;</am><ex>n</ex></choice>t<choice><am>&#x0309;</am><ex>er</ex></choice>ficit leone<choice><am>&#x0304;</am><ex>m</ex></choice></note></l>
+<l xml:id="VV_733.115058"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">E</seg>z was &#x017F;chone in der &#x017F;omer zit</l>
+<l xml:id="VV_733.115059">zv hant &#x017F;ach er eine ve&#x017F;ten wit</l>
+<l xml:id="VV_733.115060">Ein mvre &#x017F;ich darvmbe zoch</l>
+<l xml:id="VV_733.115061">Durch buwen wol turnen hoch</l>
+<l xml:id="VV_733.115062"></l>
+<l xml:id="VV_733.115063"></l>
+<l xml:id="VV_733.115065">Da reit er mit yele dar</l>
+<l xml:id="VV_733.115064">Vncz er quam an die burg gar</l>
+<l xml:id="VV_733.115066"></l>
+<l xml:id="VV_733.115067"></l>
+<l xml:id="VV_733.115068">Er vant do nyeman vber al</l>
+<l xml:id="VV_733.115069">Er reit hin yn biz an den &#x017F;al</l>
+<l xml:id="VV_733.115070">Der &#x017F;al by der erden waz gemacht</l>
+<l xml:id="VV_733.115071">Dar in reit der ritter ge&#x017F;lacht</l>
+<l xml:id="VV_733.115072">Er &#x017F;az abe deme ro&#x017F;ze &#x017F;in</l>
+<l xml:id="VV_733.115073">Vnd en&#x017F;ach knechte noch jvngherlin</l>
+<l xml:id="VV_733.115074"></l>
+<l xml:id="VV_733.115075"></l>
+<l xml:id="VV_733.115076">Do leit er &#x017F;inen &#x017F;chilt nider</l>
+<l xml:id="VV_733.115077">Neben ime &#x017F;ach er &#x017F;ider</l>
+<l xml:id="VV_733.115078">Eine kamer offen &#x017F;tvnt by ime <subst hand="#sr2"><del>nahen</del><add>nahe<hi rend="rasur"><gap/></hi></add></subst></l>
+<l xml:id="VV_733.115079">Obe wendic der tvrn hohe</l>
+<l xml:id="VV_733.115080">Hing ein &#x017F;tarke helmbart</l>
+<l xml:id="VV_733.115081">Al&#x017F;o balde er den ynnen wart</l>
+<l xml:id="VV_733.115082">Er ginc harte balde der</l>
+<l xml:id="VV_733.115083">Daz er de&#x017F;te &#x017F;icherre wer</l>
+<l xml:id="VV_733.115084">Er nam &#x017F;y vnd ginc zv der kamen in</l>
+<l xml:id="VV_733.115085">Die waz gemalet harte fin</l>
+<l xml:id="VV_733.115086">Dorin gezettet &#x017F;emden vnd gras</l>
+<l xml:id="VV_733.115087">Do mit &#x017F;ie gezu&#x0364;ret waz</l>
+<l xml:id="VV_733.115088"></l>
+<l xml:id="VV_733.115089"></l>
+<l xml:id="VV_733.115090"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: blau">P</seg>arzifal wolde bevinde die mere do</l>
+<l xml:id="VV_733.115091">Er lugete vnd &#x017F;ach <del hand="#sr2">al&#x017F;o</del> ein ven&#x017F;ter &#x017F;o</l>
+<l xml:id="VV_733.115092">Er ginc dar geringeklich</l>
+<l xml:id="VV_733.115093">Vnd lugete dar durch fur&#x017F;ich</l>
+<l xml:id="VV_733.115094">Vnd &#x017F;ach eine<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;chone<choice><am>&#x0304;</am><ex>n</ex></choice> garte<choice><am>&#x0304;</am><ex>n</ex></choice> von wa&#x017F;e</l>
+<l xml:id="VV_733.115095">Bekeit mit blvme<choice><am>&#x0304;</am><ex>n</ex></choice> vnd mit gra&#x017F;e</l>
+<l xml:id="VV_733.115096">Ein hohe mvre gemacht von quader&#x017F;tein</l>
+<l xml:id="VV_733.115097">Die vmb ving den garte<choice><am>&#x0304;</am><ex>n</ex></choice> rein</l>
+<l xml:id="VV_733.115098">Ouch &#x017F;tunden vmbe den garten fin</l>
+<l xml:id="VV_733.115099">Schone <del hand="#sr2">er</del> turne mit erkelin</l>
+<l xml:id="VV_733.115100">Jn mitten ein &#x017F;chone brvnne &#x017F;tvnt</l>
+<l xml:id="VV_733.115101">Daz wa&#x017F;zer waz clar vnd ge&#x017F;vnt</l>
+<l xml:id="VV_733.115102">Ob dem brvnne<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;tunt ein gezelt</l>
+<l xml:id="VV_733.115103"></l>
+<l xml:id="VV_733.115104"></l>
+<l xml:id="VV_733.115105">Daz hette geko&#x017F;tet gros gelt</l>
+<l xml:id="VV_733.115106">Dar uffe &#x017F;tunt ein knopf guldin</l>
+<l xml:id="VV_733.115107">Der gap deme garte<choice><am>&#x0304;</am><ex>n</ex></choice> richen &#x017F;chin</l>
+<l xml:id="VV_733.115108">Vnd erluchte daz tal <del hand="#sr2">vber al</del> alles gar</l>
+<l xml:id="VV_733.115109">Ez waz ein hei&#x017F;zer tag fur war</l>
+<pb xml:id="VV079v"/><cb xml:id="VV079va"/>
+<l xml:id="VV_733.115110">Vor dem gezelt ein bovm &#x017F;tvnt</l>
+<l xml:id="VV_733.115111">Der &#x017F;mak waz alle zit ge&#x017F;unt</l>
+<l xml:id="VV_733.115112">Der waz cypre&#x017F;&#x017F;en als ich ez las</l>
+<l xml:id="VV_733.115113">Darvnder ein &#x017F;tarker lewe was</l>
+<l xml:id="VV_733.115114">Er hette harte frei&#x017F;lich</l>
+<l xml:id="VV_733.115115">Vnder den boum ge&#x017F;trecket &#x017F;ich</l>
+<l xml:id="VV_733.115116">Parzifal &#x017F;ach in va&#x017F;te an</l>
+<l xml:id="VV_733.115117">Jn daz gezelte wolte der man</l>
+<l xml:id="VV_733.115118">Lvgen ob do were yemant were</l>
+<l xml:id="VV_733.115119">Oder in mvte harte &#x017F;ere</l>
+<l xml:id="VV_733.115120">Daz daz ven&#x017F;ter zv enge was</l>
+<l xml:id="VV_733.115121">Er kerte vmbe durch daz</l>
+<l xml:id="VV_733.115122">Er funde ven&#x017F;ter oder tur</l>
+<l xml:id="VV_733.115123">Daz er queme vz dem garte<choice><am>&#x0304;</am><ex>n</ex></choice> her fur</l>
+<l xml:id="VV_733.115124">Er ginc wider in den &#x017F;al furbas</l>
+<l xml:id="VV_733.115125">Do er zvme er&#x017F;ten abe &#x017F;as</l>
+<l xml:id="VV_733.115126">Wi&#x017F;&#x017F;ent daz in wunder nam</l>
+<l xml:id="VV_733.115127">Vnd in gro&#x017F;zen zorn quam</l>
+<l xml:id="VV_733.115128">Darvmbe daz er nit <subst hand="#sr2"><del>env*it</del><add>env<hi rend="rasur">eh</hi>it</add></subst></l>
+<l xml:id="VV_733.115129">Sin ros do ers hine bant</l>
+<l xml:id="VV_733.115130">Da lac &#x017F;in &#x017F;chilt vnd &#x017F;in &#x017F;per</l>
+<l xml:id="VV_733.115131">Gar vngemvet von danne<choice><am>&#x0304;</am><ex>n</ex></choice> ginc er</l>
+<l xml:id="VV_733.115132">zwar &#x017F;prach er ez wundert mich</l>
+<l xml:id="VV_733.115133">Jch bant min ros hie ve&#x017F;teclich</l>
+<l xml:id="VV_733.115134">Hute dar ich reit her in</l>
+<l xml:id="VV_733.115135">Do liez ich hie daz ros min</l>
+<l xml:id="VV_733.115136">Do &#x017F;as ich an daz ven&#x017F;ter klein</l>
+<l xml:id="VV_733.115137">Durch &#x017F;ehen die wonu<choice><am>&#x0304;</am><ex>n</ex></choice>ge rein</l>
+<l xml:id="VV_733.115138">Nv enkan ich man noch frowe<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="VV_733.115139">Noch nyeman hinne be&#x017F;chowen</l>
+<l xml:id="VV_733.115140">So envinde ich ouch min ros nicht</l>
+<l xml:id="VV_733.115141">Were ich in deme garten dy richt</l>
+<l xml:id="VV_733.115142">Jch wene daz ich vinde wol</l>
+<l xml:id="VV_733.115143">Etwenne den man fragen &#x017F;ol</l>
+<l xml:id="VV_733.115144">Dez ich bedurfte dez <subst hand="#sr2"><del>aeloben</del><add>geloben</add></subst> ich</l>
+<l xml:id="VV_733.115145">Noch &#x017F;ime &#x017F;chilte bucket er &#x017F;ich</l>
+<l xml:id="VV_733.115146">Jn den garten waz ime gach</l>
+<l xml:id="VV_733.115147">zv fu&#x017F;ze ging der ritter hoch</l>
+<l xml:id="VV_733.115148">Er endorfte nyewan dez ro&#x017F;zes &#x017F;in</l>
+<l xml:id="VV_733.115149">zv einer gewelbeten kamern hin yn</l>
+<l xml:id="VV_733.115150">Snelleclich gine er al&#x017F;o</l>
+<l xml:id="VV_733.115151">Eine &#x017F;tege die vant er do</l>
+<l xml:id="VV_733.115152">Die gine er abe in den garten zvhant</l>
+<l xml:id="VV_733.115153">Gein dem gezelt daz er do vant</l>
+<l xml:id="VV_733.115154">Sin &#x017F;wert er in der hende truc</l>
+<l xml:id="VV_733.115155">Vnd &#x017F;ine<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;chilt geva&#x017F;&#x017F;et kluc</l>
+<l xml:id="VV_733.115156"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: rot">D</seg>er lewe &#x017F;prank vf frei&#x017F;lich</l>
+<l xml:id="VV_733.115157">Vnd &#x017F;talte &#x017F;ich gein ime gar gry<choice><am>&#x0304;</am><ex>m</ex></choice>klich</l>
+<l xml:id="VV_733.115158">Parzifal liez er hin nicht</l>
+<cb xml:id="VV079vb"/>
+<l xml:id="VV_733.115159">Er &#x017F;luc yme zv hant dy richt</l>
+<l xml:id="VV_733.115160">Mit &#x017F;inen clewen in den &#x017F;chilt dar</l>
+<l xml:id="VV_733.115161">Nieman habe daz wunder gar</l>
+<l xml:id="VV_733.115162">Ob do er&#x017F;chrak er parzifal</l>
+<l xml:id="VV_733.115163">Er zart ime den &#x017F;chilt hin zvtal</l>
+<l xml:id="VV_733.115164">Daz die riemen brachen</l>
+<l xml:id="VV_733.115165">Die woren durch &#x017F;lagen mit golde fin</l>
+<l xml:id="VV_733.115166">Parzifal nit er&#x017F;chrecket wart</l>
+<l xml:id="VV_733.115167">Er &#x017F;luc in mit deme &#x017F;werte hart</l>
+<l xml:id="VV_733.115168">Durch &#x017F;inen &#x017F;chedel mit gelu&#x017F;t</l>
+<l xml:id="VV_733.115169">Daz er in &#x017F;pilt biz vf die bru&#x017F;t</l>
+<l xml:id="VV_733.115170"><seg type="Initiale" subtype="Lombarde" n="2" rend="Farbe: blau">S</seg>vs er &#x017F;ich an dem lewen rach</l>
+<l xml:id="VV_733.115171">Vnd ging zv deme gezelt mit gemach</l>
+<l xml:id="VV_733.115172">Hin ginc er gar &#x017F;nel al&#x017F;o</l>
+<l xml:id="VV_733.115173">Ein jvncfrovwe<choice><am>&#x0304;</am><ex>n</ex></choice> die vant er aldo</l>
+<l xml:id="VV_733.115174">Die waz weidenlich furwar</l>
+<l xml:id="VV_733.115175">Nature hette alle ir &#x017F;inne gar</l>
+<l xml:id="VV_733.115176">An &#x017F;y geleit &#x017F;ie waz &#x017F;o cluc</l>
+<l xml:id="VV_733.115177">Parzifal &#x017F;in &#x017F;wert blos truc</l>
+<l xml:id="VV_733.115178">Daz &#x017F;ach &#x017F;ie vor vorchten &#x017F;y &#x017F;chrei</l>
+<l xml:id="VV_733.115179">Hielf herregot &#x017F;prach &#x017F;y owe</l>
+<l xml:id="VV_733.115180">Vnd &#x017F;chrei va&#x017F;te owe vnd ach</l>
+<l xml:id="VV_733.115181">Parzifal lugete vmb vnd &#x017F;ach</l>
+<l xml:id="VV_733.115182">Einen ritter ligen an eyme bette</l>
+<l xml:id="VV_733.115183">Einen &#x017F;amit kolter er vnder ime hette</l>
+<l xml:id="VV_733.115184">Der erwachet von dem ge&#x017F;chrei</l>
+<l xml:id="VV_733.115185">Ez waz ime leit vnd tet im we</l>
+<l xml:id="VV_733.115186">Daz er &#x017F;in liep horte &#x017F;chrien do</l>
+<l xml:id="VV_733.115187">Von dem der do &#x017F;tunt aldo</l>
+<l xml:id="VV_733.115188">Gewappent in &#x017F;ime gezelte wert</l>
+<l xml:id="VV_733.115189">Jn &#x017F;inre hant &#x017F;ach er ein blos &#x017F;wert</l>
+<l xml:id="VV_733.115190">Daz von deme lewen blvtig wart</l>
+<l xml:id="VV_733.115191">Helt &#x017F;prach er gro&#x017F;ze hofhart</l>
+<l xml:id="VV_733.115192">Riet uch her in komende vf mich</l>
+<l xml:id="VV_733.115193">Jr totent harte torlich</l>
+<l xml:id="VV_733.115194">Ez geruwet uch &#x017F;vnder danc</l>
+<l xml:id="VV_733.115195">Mit zorne gros er vff &#x017F;prank</l>
+<l xml:id="VV_733.115196">Partzifal antwurt im baz</l>
+<l xml:id="VV_733.115197">Er &#x017F;prach ir mochtent reden baz</l>
+<l xml:id="VV_733.115198">Daz tet ich her trug min &#x017F;wert bloz</l>
+<l xml:id="VV_733.115199">Daz tet ich uch nit zv &#x017F;chande<choice><am>&#x0304;</am><ex>n</ex></choice> gros</l>
+<l xml:id="VV_733.115200"><subst hand="#sr2"><del>ech</del><add>Jch</add></subst> reit har in nywant durch das</l>
+<l xml:id="VV_733.115201">Jch herberge notdurftig was</l>
+<l xml:id="VV_733.115202">Durch anders nit ich her in quam</l>
+<l xml:id="VV_733.115203">Si vant ich eine<choice><am>&#x0304;</am><ex>n</ex></choice> lewen frei&#x017F;cham</l>
+<l xml:id="VV_733.115204">Der lief mich an do wert ich mich</l>
+<l xml:id="VV_733.115205">Entruwen den er&#x017F;lug ich</l>
+<l xml:id="VV_733.115206">Dez gewan ich freuden gros</l>
+<l xml:id="VV_733.115207">Durch daz trag ich min &#x017F;wert blos</l>
+<l xml:id="VV_733.115208-0"><note type="Kustode">.viii.</note></l>
+</body>
+</text>
+</TEI>

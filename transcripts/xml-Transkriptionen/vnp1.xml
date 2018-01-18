@@ -1,0 +1,1138 @@
+﻿<?xml version="1.0" encoding="utf8" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xml:lang="de">
+  <fileDesc>
+    <titleStmt>
+      <title type="main">Parzival</title>
+      <title type="sub">Transkription des Textzeugen V</title>
+      <author>Wolfram von Eschenbach</author>
+      <editor>Parzival-Projekt Bern</editor>
+    </titleStmt>
+    <publicationStmt>
+      <authority>Parzival-Projekt Bern</authority>
+      <pubPlace>Bern</pubPlace>
+      <date>2017</date>
+    </publicationStmt>
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+          <settlement>Karlsruhe</settlement>
+          <repository>Badische Landesbibliothek</repository>
+          <idno>Donaueschingen 97</idno>
+          <altIdentifier type="Parzival-Projekt">
+            <idno>V</idno>
+          </altIdentifier>
+        </msIdentifier>
+        <physDesc>
+        <handDesc>
+        <handNote xml:id="ls1">Leser</handNote>
+        <handNote xml:id="ls1u" cert="unknown">Leser</handNote>
+        <handNote xml:id="ls2">Leser</handNote>
+        <handNote xml:id="ls2u" cert="unknown">Leser</handNote>
+        <handNote xml:id="sr1">Schreiber</handNote>
+        <handNote xml:id="sr1u" cert="unknown">Schreiber</handNote>
+        <handNote xml:id="sr3">Schreiber</handNote>
+        <handNote xml:id="sr3u" cert="unknown">Schreiber</handNote>
+        </handDesc>
+        </physDesc>
+      </msDesc>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+  <charDecl>
+   <char xml:id="finis">
+    <charName>Finis-Zeichen</charName>
+   </char>
+   <char xml:id="alin1">
+    <charName>Alinea-Zeichen</charName>
+   </char>
+   <char xml:id="deligatur">
+    <charName>de-Ligatur</charName>
+   </char>
+   <char xml:id="latAbbrRum">
+    <charName>Lateinische Abkürung für -rum</charName>
+   </char>
+   <char xml:id="latAbbrIs">
+    <charName>Lateinische Abkürzung für -is</charName>
+   </char>
+   <char xml:id="latAbbrEt">
+    <charName>Lateinische Abkürzung für -et/-it</charName>
+   </char>
+  </charDecl>
+  </encodingDesc>
+</teiHeader>
+<text>
+<body>
+<note><COL Parzival><T: Nüwer Parzival Verse 1000 bis 1999. F121ra-F126ra><Ms V Donaueschingen, Fürstlich Fürstenbergische Hofbibliothek, Codex 97 (jetzt: Karlsruhe, Badische Landesbibliothek)></note>
+<note>Transkribiert von MGe ab Farbfotos (Studio) am 20.1.2013.</note>
+<note>Die Autopsie aller Verse erfolgte am 11. September 2013 in der BLB Karlsruhe mithilfe von fluoreszierendem Kunstlicht durch den Transkribenten M.Gehrig; Korrekturen nach Kollationierungen von RFa am 22.8.2017.</note>
+<note>Nüwer Parzival nach: K. Schorbach, Parzival von Claus Wisse und Philip Colin (1331-1336). Nachdruck W. de Gruyter. Berlin u. New York 1974.</note>
+<pb xml:id="V121r"/><cb xml:id="V121ra"/>
+<l xml:id="V_733.101000">Beide an letze vnde an gewer</l>
+<l xml:id="V_733.101001">Ez wart nie &#x017F;tat beroten bas</l>
+<l xml:id="V_733.101002">Daz &#x017F;chv&#x0366;f der dez die h<choice><am>&#x0309;</am><ex>er</ex></choice>&#x017F;chaft waz</l>
+<l xml:id="V_733.101003">Bi im hatte er vil ritt<choice><am>&#x0309;</am><ex>er</ex></choice> clv&#x0366;g</l>
+<l xml:id="V_733.101004"><reg typ="person" id=Bvrg<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;in<choice><am>&#x0309;</am><ex>er</ex></choice> fru&#x0301;nde gnv&#x0366;g</l>
+<l xml:id="V_733.101005"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: rot-blau">D</seg>o waz o&#x036E;ch manig &#x017F;oldinier</l>
+<l xml:id="V_733.101006"><subst hand="#ls1u"><del>rech</del><add>Frech</add></subst> dez libes vn<choice><am>&#x0304;</am><ex>d</ex></choice> fier</l>
+<l xml:id="V_733.101007">Die die &#x017F;tat hieltent wol i<choice><am>&#x0304;</am><ex>n</ex></choice> wer</l>
+<l xml:id="V_733.101008">Gege<choice><am>&#x0304;</am><ex>n</ex></choice> dem kv&#x0301;nige vn<choice><am>&#x0304;</am><ex>d</ex></choice> sime her</l>
+<l xml:id="V_733.101009">Al&#x017F; ir herren v<choice><am>&#x0309;</am><ex>er</ex></choice>nom<choice><am>&#x0304;</am><ex>en</ex></choice> hant</l>
+<l xml:id="V_733.101010">Die vreche&#x017F;te<choice><am>&#x0304;</am><ex>n</ex></choice> vn<choice><am>&#x0304;</am><ex>d</ex></choice> die baz erkant</l>
+<l xml:id="V_733.101011">Fv&#x0366;rent vz der &#x017F;tat zv&#x0366; &#x017F;tvnde<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101012">Manig rich venlin entwu<choice><am>&#x0304;</am><ex>n</ex></choice>den</l>
+<l xml:id="V_733.101013">Die men do &#x017F;ach offenbar</l>
+<l xml:id="V_733.101014"><subst hand="#ls1"><del>L*</del><add>L<hi rend="rasur">ie&#x017F;&#x017F;ent &#x017F;v&#x0301; <hi rend="klebung">n</hi>oher ligen nv&#x0301;t fu&#x0301;r war</hi></add></subst></l>
+<l xml:id="V_733.101015"><subst hand="#ls1"><del>S*</del><add>S<hi rend="rasur">v&#x0301; tete<choice><am>&#x0304;</am><ex>n</ex></choice>t</hi></add></subst> de<choice><am>&#x0304;</am><ex>n</ex></choice>ne e. ritt<choice><am>&#x0309;</am><ex>er</ex></choice>&#x017F;chaft</l>
+<l xml:id="V_733.101016">vnde ritt<choice><am>&#x0309;</am><ex>er</ex></choice>s &#x017F;pil mit handes craft</l>
+<l xml:id="V_733.101017">Beider &#x017F;ite <subst hand="#ls1u"><del>kome*</del><add>kome<hi rend="rasur">ntz</hi></add></subst> ena<choice><am>&#x0304;</am><ex>n</ex></choice>der an</l>
+<l xml:id="V_733.101018">vu&#x0301;r wor al&#x017F; ichz v<choice><am>&#x0309;</am><ex>er</ex></choice>nom<choice><am>&#x0304;</am><ex>en</ex></choice> han</l>
+<l xml:id="V_733.101019">Daz ge&#x017F;ehen noch geho&#x0364;ret wart &#x017F;it</l>
+<l xml:id="V_733.101020">von kriege ein al&#x017F;o grimig &#x017F;trit</l>
+<l xml:id="V_733.101021">wem ez wer liep oder leit</l>
+<l xml:id="V_733.101022">So wart ge&#x017F;tro&#x036E;wet daz velt breit</l>
+<l xml:id="V_733.101023">von de<choice><am>&#x0304;</am><ex>n</ex></choice> die do worent abe ge&#x017F;toche<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101024">von &#x017F;chilte<choice><am>&#x0304;</am><ex>n</ex></choice> vn<choice><am>&#x0304;</am><ex>d</ex></choice> vo<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;pern zerbroche<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101025">vnde vo<choice><am>&#x0304;</am><ex>n</ex></choice> helme<choice><am>&#x0304;</am><ex>n</ex></choice> vnde vo<choice><am>&#x0304;</am><ex>n</ex></choice> ors v&#x0301;r&#x017F;lage<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101026">Aber die v&#x0301;&#x017F;&#x017F;ern hort ich &#x017F;agen</l>
+<l xml:id="V_733.101027">koment mit &#x017F;o grozem h<choice><am>&#x0309;</am><ex>er</ex></choice></l>
+<l xml:id="V_733.101028">Daz den inren duchte klein ir w<choice><am>&#x0309;</am><ex>er</ex></choice></l>
+<cb xml:id="V121rb"/>
+<l xml:id="V_733.101029">Al&#x017F;us vart in entwichen kvnt</l>
+<l xml:id="V_733.101030">O&#x036E;ch &#x017F;v&#x0301; v<choice><am>&#x0309;</am><ex>er</ex></choice>lurent zv&#x0366; der &#x017F;tvnt</l>
+<l xml:id="V_733.101031">Fv&#x0301;nfhvndert ros do bi Ahzig</l>
+<l xml:id="V_733.101032">An den die v&#x017F;&#x017F;ern nome<choice><am>&#x0304;</am><ex>n</ex></choice>t &#x017F;ig</l>
+<l xml:id="V_733.101033">Mit den die do belibent tot</l>
+<l xml:id="V_733.101034">Die inren koment hin mit not</l>
+<l xml:id="V_733.101035">So &#x017F;v&#x0301; aller &#x017F;chiero&#x017F;t konde<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101036">vnde be&#x017F;lu&#x017F;&#x017F;en ir tor zv&#x0366; &#x017F;tvnden.</l>
+<l xml:id="V_733.101037">Do daz alle&#x017F;&#x017F;ament ge&#x017F;chach</l>
+<l xml:id="V_733.101038">Do kertent &#x017F;v&#x0301; wider an&#x017F; gemach</l>
+<l xml:id="V_733.101039">Ros <subst hand="#ls1"><del>g*</del><add>g<hi rend="rasur">ewu<choice><am>&#x0304;</am><ex>n</ex></choice>ne<choice><am>&#x0304;</am><ex>n</ex></choice></hi></add></subst> brohtent &#x017F;v&#x0301; uffes velt</l>
+<l xml:id="V_733.101040">Do bi vf <subst hand="#ls1"><del>&#x017F;lvgent</del><add>&#x017F;lv&#x0366;gent</add></subst> ir gezelt</l>
+<l xml:id="V_733.101041">Sv&#x0301; mahtent hv&#x0301;tten vf der vart</l>
+<l xml:id="V_733.101042">kein platz do vngeh<choice><am>&#x0309;</am><ex>er</ex></choice>berget wart</l>
+<l xml:id="V_733.101043">Do &#x017F;ich daz breite her geleite</l>
+<l xml:id="V_733.101044">Die gezelt &#x017F;lv&#x0366;g man dar gereite</l>
+<l xml:id="V_733.101045">Daz wa&#x017F;&#x017F;er vf an ein<choice><am>&#x0309;</am><ex>er</ex></choice> zile</l>
+<l xml:id="V_733.101046">Daz w<choice><am>&#x0309;</am><ex>er</ex></choice>te wol anderhalbe mile</l>
+<l xml:id="V_733.101047">Svs &#x017F;ach men &#x017F;v&#x0301; noch eina<choice><am>&#x0304;</am><ex>n</ex></choice>der &#x017F;ton</l>
+<l xml:id="V_733.101048">Nieman ge&#x017F;ach &#x017F;o wol geton</l>
+<l xml:id="V_733.101049">Ein her noch o&#x036E;ch gewarnet bas</l>
+<l xml:id="V_733.101050">Noch be&#x017F;&#x017F;er ritt<choice><am>&#x0309;</am><ex>er</ex></choice>&#x017F;chaft da<choice><am>&#x0304;</am><ex>n</ex></choice>ne do waz</l>
+<l xml:id="V_733.101051">kein &#x017F;cho&#x0364;ner her da&#x017F;t &#x017F;ich<choice><am>&#x0309;</am><ex>er</ex></choice>lich</l>
+<l xml:id="V_733.101052">Fv&#x0301;r eine &#x017F;tat geleite &#x017F;ich</l>
+<l xml:id="V_733.101053">Doch der kv&#x0301;nig al&#x017F; me<choice><am>&#x0304;</am><ex>n</ex></choice> noch giht</l>
+<l xml:id="V_733.101054">Gewan die &#x017F;tat &#x017F;o balde niht</l>
+<l xml:id="V_733.101055">we<choice><am>&#x0304;</am><ex>n</ex></choice>ne <subst hand="#ls1"><del>*</del><add><hi rend="rasur">ez</hi></add></subst> w<choice><am>&#x0309;</am><ex>er</ex></choice>te &#x017F;iben ior</l>
+<l xml:id="V_733.101056">Daz &#x017F;ez zv&#x0366; mi<choice><am>&#x0304;</am><ex>n</ex></choice>ne&#x017F;te<choice><am>&#x0304;</am><ex>n</ex></choice> fv&#x0301;r wor</l>
+<l xml:id="V_733.101057">Eb er die &#x017F;elbe &#x017F;tat gewan</l>
+<l xml:id="V_733.101058">Dez &#x017F;o&#x0364;llent ir keine<choice><am>&#x0304;</am><ex>n</ex></choice> zwiuel han</l>
+<l xml:id="V_733.101059">vil manig &#x017F;tvrm o&#x036E;ch do <subst hand="#ls2u"><del>erg*</del><add>erg<hi rend="rasur">ing</hi></add></subst></l>
+<note resp="#MGe_Transkribent" target="#?1_733.101059 #V121rb"><ref><subst hand="#ls2u"><del>erg*</del><add>erg<hi rend="rasur">ing</hi></add></subst></ref>: Hier dürfte es sich nicht um eine eigentliche Korrektur handeln, sondern um eine Ausbesserung der durch intensive Rasur auf der verso-Seite unlesbar gewordenen Buchstaben "ing". Siehe Löcher im Pergament im darüberstehenden Vers. In Autopsie.</note>
+<l xml:id="V_733.101060">Mit kraft vn<choice><am>&#x0304;</am><ex>d</ex></choice> ritt<choice><am>&#x0309;</am><ex>er</ex></choice>liche ding</l>
+<l xml:id="V_733.101061">Die gv&#x0366;ten ritter wol v<choice><am>&#x0309;</am><ex>er</ex></choice>wegen</l>
+<l xml:id="V_733.101062">Die in der &#x017F;tat woren belegen</l>
+<l xml:id="V_733.101063">Der do waz zv&#x0366; mole vil.</l>
+<l xml:id="V_733.101064">Do der kv&#x0301;nig al&#x017F; ich &#x017F;age<choice><am>&#x0304;</am><ex>n</ex></choice> wil</l>
+<l xml:id="V_733.101065">Gelag bitz daz der wint<choice><am>&#x0309;</am><ex>er</ex></choice> kam</l>
+<l xml:id="V_733.101066">Jegelich<choice><am>&#x0309;</am><ex>er</ex></choice> do vrlop nam</l>
+<l xml:id="V_733.101067">vnde fv&#x0366;rent o&#x036E;ch sich<choice><am>&#x0309;</am><ex>er</ex></choice>lich zehant</l>
+<l xml:id="V_733.101068">Dvrch rv&#x0366;wen wider in ir lant</l>
+<l xml:id="V_733.101069">Dar noch zv&#x0366; phinge&#x017F;ten mit wer</l>
+<l xml:id="V_733.101070">Samente &#x017F;ich vil grozes her</l>
+<l xml:id="V_733.101071">Der kv&#x0301;nig vn<choice><am>&#x0304;</am><ex>d</ex></choice> leite &#x017F;ich aber dar</l>
+<l xml:id="V_733.101072">Fv&#x0301;r die &#x017F;tat de<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;v<choice><am>&#x0304;</am><ex>m</ex></choice>mer gar</l>
+<l xml:id="V_733.101073">So lange daz er v<choice><am>&#x0309;</am><ex>er</ex></choice>herte</l>
+<l xml:id="V_733.101074">Daz lant vnde waz ma<choice><am>&#x0304;</am><ex>n</ex></choice> erte</l>
+<l xml:id="V_733.101075">Al&#x017F;us die &#x017F;tat wart &#x017F;pi&#x017F;en wan</l>
+<l xml:id="V_733.101076">Sv&#x0301; mo&#x0364;htent &#x017F;v&#x0301; gewert niht han</l>
+<l xml:id="V_733.101077">Mit maht deheine wile fv&#x0301;rbas</l>
+<pb xml:id="V121v"/><cb xml:id="V121va"/>
+<l xml:id="V_733.101078">Gegen kv&#x0301;nig artv&#x017F;e wu&#x0301;&#x017F;&#x017F;e<choice><am>&#x0304;</am><ex>n</ex></choice>t daz</l>
+<l xml:id="V_733.101079">we<choice><am>&#x0304;</am><ex>n</ex></choice>ne er hette &#x017F;v&#x0301; v&#x0301;rhv&#x0301;ngert zwor</l>
+<l xml:id="V_733.101080">vn<choice><am>&#x0304;</am><ex>d</ex></choice> alle gevange<choice><am>&#x0304;</am><ex>n</ex></choice> daz i&#x017F;t wor</l>
+<l xml:id="V_733.101081">Aber dinne worent zwo megede fin.</l>
+<l xml:id="V_733.101082">Fri die nv&#x0301;t &#x017F;cho&#x0364;nre mo&#x0364;hte<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;in.</l>
+<l xml:id="V_733.101083">Eine hies clore vo<choice><am>&#x0304;</am><ex>n</ex></choice> meilant</l>
+<l xml:id="V_733.101084">Zv&#x0301;htig<choice><am>&#x0309;</am><ex>er</ex></choice> men <subst hand="#ls1"><del>ni*</del><add>ni<hi rend="rasur">ergent vant</hi></add></subst></l>
+<l xml:id="V_733.101085">Jn alder welte &#x017F;icherlich</l>
+<l xml:id="V_733.101086">v&#x0301;ber al die <subst hand="#ls1u"><del>mege*</del><add>mege<hi rend="rasur">de ar<choice><am>&#x0304;</am><ex>m</ex></choice></hi></add></subst> oder rich</l>
+<l xml:id="V_733.101087">waz die ander maget wi&#x017F;e</l>
+<l xml:id="V_733.101088">An allen tvgende<choice><am>&#x0304;</am><ex>n</ex></choice> wol zv&#x0366; <subst hand="#ls1"><del>*</del><add><hi rend="rasur"><hi rend="klebung">pri</hi>&#x017F;e</hi></add></subst></l>
+<l xml:id="V_733.101089">Loren vett<choice><am>&#x0309;</am><ex>er</ex></choice>kint &#x017F;v&#x0301; waz</l>
+<l xml:id="V_733.101090">vn<choice><am>&#x0304;</am><ex>d</ex></choice> hies J&#x017F;mane wu&#x0301;&#x017F;&#x017F;ent daz</l>
+<l xml:id="V_733.101091">Al&#x017F;e &#x017F;i worent &#x017F;pi&#x017F;e kranc</l>
+<l xml:id="V_733.101092">vnde &#x017F;v&#x0301; hvng<choice><am>&#x0309;</am><ex>er</ex></choice> va&#x017F;te twanc</l>
+<l xml:id="V_733.101093">Seht die zwo &#x017F;ach man al do.</l>
+<l xml:id="V_733.101094">wonen vf eime tvrne ho.</l>
+<l xml:id="V_733.101095">Men mo&#x0364;hte die iu<choice><am>&#x0304;</am><ex>n</ex></choice>cfrowe<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101096">Dikke an dem ven&#x017F;t<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;chowe<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101097">An dem tvrne lag ein grv&#x0364;nes velt</l>
+<l xml:id="V_733.101098">Daz zoch &#x017F;ich nohe an die gezelt</l>
+<l xml:id="V_733.101099">Dar kan vil dikke h<choice><am>&#x0309;</am><ex>er</ex></choice> Gawen</l>
+<l xml:id="V_733.101100">vn<choice><am>&#x0304;</am><ex>d</ex></choice> o&#x036E;ch min h<choice><am>&#x0309;</am><ex>er</ex></choice>re <subst hand="#ls1"><del>h*</del><add>h<hi rend="rasur">er</hi></add></subst> Juen</l>
+<l xml:id="V_733.101101">Zv&#x0366; den ju<choice><am>&#x0304;</am><ex>n</ex></choice>cfrowe<choice><am>&#x0304;</am><ex>n</ex></choice> durch ettewaz</l>
+<l xml:id="V_733.101102">von in bevinde<choice><am>&#x0304;</am><ex>n</ex></choice> wi&#x017F;&#x017F;ent daz</l>
+<l xml:id="V_733.101103"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: blau-rot">O</seg>b &#x017F;i iht wolte<choice><am>&#x0304;</am><ex>n</ex></choice>t begern</l>
+<l xml:id="V_733.101104"><subst hand="#ls1u"><del>*</del><add><hi rend="rasur">D</hi></add></subst>az &#x017F;v&#x0301; &#x017F;v&#x0301; mo&#x0364;hte<choice><am>&#x0304;</am><ex>n</ex></choice>t gew<choice><am>&#x0309;</am><ex>er</ex></choice>n</l>
+<note resp="#MGe_Transkribent" target="#?1_733.101104 #V121va"><ref><subst hand="#ls1u"><del>*</del><add><hi rend="rasur">D</hi></add></subst></ref>: Die Majuskel "D" wurde offensichtlich vom Rubrikator wegrasiert, um die gewohnte zweizeilige Fleurone&#x0301;e eintragen zu können, für die der Schreiber ursprünglich wohl nur eine Zeile freigelassen hatte. Erstaunlich ist, dass die Majuskel "D" klar vor der Initiale eingetragen wurde, da die rote Tinte über dem schwarzen Buchstabenkörper zu liegen kam. Können wir hier eine enge Zusammenarbeit innerhalb dieses Skriptoriums fassen? In Autopsie.</note>
+<l xml:id="V_733.101105">vnde die Ju<choice><am>&#x0304;</am><ex>n</ex></choice>cfrowe<choice><am>&#x0304;</am><ex>n</ex></choice> clagete<choice><am>&#x0304;</am><ex>n</ex></choice> do</l>
+<l xml:id="V_733.101106">Jn. waz in bra&#x017F;t vn<choice><am>&#x0304;</am><ex>d</ex></choice> kvndete<choice><am>&#x0304;</am><ex>n</ex></choice>t &#x017F;o</l>
+<l xml:id="V_733.101107"><subst hand="#ls1"><del>J*</del><add>J<hi rend="rasur">r<choice><am>&#x0304;</am><ex>n</ex></choice> gro&#x017F;&#x017F;e<choice><am>&#x0304;</am><ex>n</ex></choice></hi></add></subst> gebre&#x017F;te<choice><am>&#x0304;</am><ex>n</ex></choice> vn<choice><am>&#x0304;</am><ex>d</ex></choice> ir<choice><am>&#x0304;</am><ex>n</ex></choice> getwang</l>
+<l xml:id="V_733.101108">Jr da<choice><am>&#x0304;</am><ex>n</ex></choice>nan ilen wart nv&#x0301;t lang</l>
+<l xml:id="V_733.101109">Den kv&#x0301;nig &#x017F;i bote<choice><am>&#x0304;</am><ex>n</ex></choice>t do ze &#x017F;tvnt</l>
+<l xml:id="V_733.101110">Daz er in tete gnade kvnt</l>
+<l xml:id="V_733.101111">Daz er in &#x017F;ante &#x017F;pi&#x017F;e</l>
+<l xml:id="V_733.101112">Zv&#x0366; hant &#x017F;ante der kv&#x0301;nig wi&#x017F;e</l>
+<l xml:id="V_733.101113">Jn gnv&#x0366;g durch die tvgent &#x017F;in</l>
+<l xml:id="V_733.101114">vi&#x017F;che vlei&#x017F;ch brot vnde win</l>
+<l xml:id="V_733.101115">vn<choice><am>&#x0304;</am><ex>d</ex></choice> and<choice><am>&#x0309;</am><ex>er</ex></choice>e &#x017F;pi&#x017F;e der er wielt</l>
+<l xml:id="V_733.101116">Do mitte men die &#x017F;tat behielt</l>
+<l xml:id="V_733.101117">Ein ior lang<choice><am>&#x0309;</am><ex>er</ex></choice> vf ein gene&#x017F;en</l>
+<l xml:id="V_733.101118">Denne w<choice><am>&#x0309;</am><ex>er</ex></choice>ent gine niht gewe&#x017F;en</l>
+<l xml:id="V_733.101119">vnde &#x017F;o lange daz der kv&#x0301;nig &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch &#x017F;o</l>
+<l xml:id="V_733.101120">Daz keinre w<choice><am>&#x0309;</am><ex>er</ex></choice>e &#x017F;o kv&#x0364;ne do</l>
+<l xml:id="V_733.101121">Der &#x017F;vz noch &#x017F;o bette an mich wante</l>
+<l xml:id="V_733.101122">Daz er in me keine &#x017F;pi&#x017F;e &#x017F;ante</l>
+<l xml:id="V_733.101123">Dar noch kleine noch groz enwaz</l>
+<l xml:id="V_733.101124">Der in bete di&#x017F; noch daz</l>
+<l xml:id="V_733.101125">vn<choice><am>&#x0304;</am><ex>d</ex></choice> iedoch hiez er one biten</l>
+<l xml:id="V_733.101126">Sine werk werfen zalle<choice><am>&#x0304;</am><ex>n</ex></choice> zite<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<cb xml:id="V121vb"/>
+<l xml:id="V_733.101127">Daz her der &#x017F;tat nohete &#x017F;o gar</l>
+<l xml:id="V_733.101128">Fv&#x0301;r wor nv merkent alle har</l>
+<l xml:id="V_733.101129">Daz niema<choice><am>&#x0304;</am><ex>n</ex></choice> al&#x017F; ich ez han v<choice><am>&#x0309;</am><ex>er</ex></choice>nom<choice><am>&#x0304;</am><ex>en</ex></choice></l>
+<l xml:id="V_733.101130">vz mo&#x0364;hte zv&#x0366; de<choice><am>&#x0304;</am><ex>n</ex></choice> porte<choice><am>&#x0304;</am><ex>n</ex></choice> kome<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101131">we<choice><am>&#x0304;</am><ex>n</ex></choice>ne er be&#x017F;az &#x017F;v&#x0301; harte no</l>
+<l xml:id="V_733.101132">Sv&#x0301; worent o&#x036E;ch erhvngert &#x017F;o</l>
+<l xml:id="V_733.101133">Daz &#x017F;i genode<choice><am>&#x0304;</am><ex>n</ex></choice> wolte<choice><am>&#x0304;</am><ex>n</ex></choice> gern</l>
+<l xml:id="V_733.101134">Dez wolte der kv&#x0301;nig &#x017F;v&#x0301; nv&#x0301;t gew<choice><am>&#x0309;</am><ex>er</ex></choice>n.</l>
+<l xml:id="V_733.101135">wand &#x017F;v&#x0301; der groze hvng<choice><am>&#x0309;</am><ex>er</ex></choice> twang</l>
+<l xml:id="V_733.101136">Dinne enwaz brot noch wines tra<choice><am>&#x0304;</am><ex>n</ex></choice>c</l>
+<l xml:id="V_733.101137">Noch nv&#x0301;t daz man &#x017F;olte ezen</l>
+<l xml:id="V_733.101138">O&#x036E;ch hatte<choice><am>&#x0304;</am><ex>n</ex></choice>t die ritt<choice><am>&#x0309;</am><ex>er</ex></choice> v<choice><am>&#x0309;</am><ex>er</ex></choice>me&#x017F;&#x017F;en</l>
+<l xml:id="V_733.101139"><subst hand="#ls1u"><del>Z*</del><add>Z<hi rend="rasur">wene</hi></add></subst> tage <subst hand="#sr3"><del>gera&#x017F;tet</del><add>ge<hi rend="rasur">v</hi>a&#x017F;tet</add></subst> wi&#x017F;&#x017F;ent daz</l>
+<l xml:id="V_733.101140">Do h<choice><am>&#x0309;</am><ex>er</ex></choice> ywan ge&#x017F;e&#x017F;&#x017F;e<choice><am>&#x0304;</am><ex>n</ex></choice> waz</l>
+<l xml:id="V_733.101141">vf &#x017F;in ors &#x017F;tarc vn<choice><am>&#x0304;</am><ex>d</ex></choice> wit</l>
+<l xml:id="V_733.101142">Dvrch <subst hand="#ls1u"><del>banch*</del><add>banch<hi rend="rasur">en vf die ve&#x017F;perzit</hi></add></subst></l>
+<l xml:id="V_733.101143">Er vmbe die &#x017F;tat mit vro&#x0364;ide<choice><am>&#x0304;</am><ex>n</ex></choice> reit</l>
+<l xml:id="V_733.101144">vnz er kam vf die wi&#x017F;e breit.</l>
+<l xml:id="V_733.101145">Als .e. dez tvrnes er vorte</l>
+<l xml:id="V_733.101146">Die iu<choice><am>&#x0304;</am><ex>n</ex></choice>cfrowe<choice><am>&#x0304;</am><ex>n</ex></choice> er do horte</l>
+<l xml:id="V_733.101147">An ven&#x017F;t<choice><am>&#x0309;</am><ex>er</ex></choice>n i<choice><am>&#x0304;</am><ex>n</ex></choice> iomer leinende</l>
+<l xml:id="V_733.101148">vnde o&#x036E;ch vil &#x017F;ere weine<choice><am>&#x0304;</am><ex>n</ex></choice>de</l>
+<l xml:id="V_733.101149">Er bat &#x017F;v&#x0301; &#x017F;v&#x0364;zekliche</l>
+<l xml:id="V_733.101150">Daz &#x017F;v&#x0301; im &#x017F;eite<choice><am>&#x0304;</am><ex>n</ex></choice> erne&#x017F;tliche</l>
+<l xml:id="V_733.101151">warvmbe &#x017F;i daz groze weine<choice><am>&#x0304;</am><ex>n</ex></choice> <subst hand="#ls1u"><del>t<unclear reason="Zweifel">e</unclear>ten</del><add>t<hi rend="rasur">a</hi>ten</add></subst> <note type="Marginalie"><subst hand="#ls1u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note>^$<note>/Anm/<ref><note type="Marginalie"><subst hand="#ls1u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note></ref>[Parz]733.101151_V121vb[/Parz]Tilgung durch Rasur (<hi rend="rasur"></hi>) vorgenommen [Trsk]CPr[/Trsk]</note></l>
+<note resp="#MGe_Transkribent" target="#?1_733.101151 #V121vb"><ref><subst hand="#ls1u"><del>t<unclear reason="Zweifel">e</unclear>ten</del><add>t<hi rend="rasur">a</hi>ten</add></subst></ref>: Auch in Autopsie ist nicht mehr ersichtlich, ob es sich bei der Korrektur des einen Buchstabens vorgängig um einen "o" oder um einen "e" gehandelt hat. Zweifelsfrei bleibt es eine durch eine Marginalie gekennzeichnete Angleichung des Reimwortes an den Folgevers. In Autopsie.</note>
+<l xml:id="V_733.101152">Vmbe den hunger de<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;v&#x0301; haten</l>
+<l xml:id="V_733.101153">Die &#x017F;cho&#x0364;ne lare &#x017F;prach zv&#x0366; im al&#x017F;o</l>
+<l xml:id="V_733.101154">Do daz h<choice><am>&#x0309;</am><ex>er</ex></choice> ywen erhorte do</l>
+<l xml:id="V_733.101155">Erbermede twang i<choice><am>&#x0304;</am><ex>n</ex></choice> zv&#x0366; &#x017F;tvnde</l>
+<l xml:id="V_733.101156">Daz er in niht <subst hand="#sr3"><del>geantwrten</del><add>geantw<hi rend="rasur">v&#x0301;</hi>rten</add></subst> kvnde</l>
+<note resp="#MGe_Transkribent" target="#?1_733.101156 #V121vb"><ref><subst hand="#sr3"><del>geantwrten</del><add>geantw<hi rend="rasur">v&#x0301;</hi>rten</add></subst></ref>: Über dem Buchstaben "w" steht ein Akut, der wohl als Schreiberkorrektur zu lesen ist. Die Tintenfarbe ist definitiv die des Schreibers. In Autopsie bestätigt.</note>
+<l xml:id="V_733.101157">Balde da<choice><am>&#x0304;</am><ex>n</ex></choice>na<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;chiet der wol geborn</l>
+<l xml:id="V_733.101158">Daz ors twang er &#x017F;ere mit de<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;porn</l>
+<l xml:id="V_733.101159">Die vart er &#x017F;nellekliche<choice><am>&#x0304;</am><ex>n</ex></choice> nam</l>
+<l xml:id="V_733.101160">Bitze daz er fv&#x0301;r de<choice><am>&#x0304;</am><ex>n</ex></choice> kv&#x0301;nig kam</l>
+<l xml:id="V_733.101161">Vnde knv&#x0301;wete fvr in mit glu&#x017F;te</l>
+<l xml:id="V_733.101162">Den rehte<choice><am>&#x0304;</am><ex>n</ex></choice> fv&#x0366;z er im kv&#x017F;te</l>
+<l xml:id="V_733.101163">Der kv&#x0301;nig zvht in vf mit d<choice><am>&#x0309;</am><ex>er</ex></choice> hant</l>
+<l xml:id="V_733.101164">Er &#x017F;prach ywe<choice><am>&#x0304;</am><ex>n</ex></choice> <subst hand="#ls1"><del>*</del><add><hi rend="rasur">t<hi rend="klebung">v&#x0366;n</hi>t</hi></add></subst> mir bekant</l>
+<l xml:id="V_733.101165">waz v&#x0301;ch wurret oder wie</l>
+<l xml:id="V_733.101166">Ez i&#x017F;t kein fv&#x0301;r&#x017F;t in dem h<choice><am>&#x0309;</am><ex>er</ex></choice> hie</l>
+<l xml:id="V_733.101167">Hat er v&#x0301;ch v&#x0301;t mi&#x017F;&#x017F;eton</l>
+<l xml:id="V_733.101168">Er <subst hand="#ls1u"><del>mv&#x0364;&#x017F;*</del><add>mv&#x0364;&#x017F;<hi rend="rasur">e</hi></add></subst> v&#x0301;ch dez ze bv&#x0366;&#x017F;&#x017F;e &#x017F;ton</l>
+<l xml:id="V_733.101169">Nach v&#x0301;w<choice><am>&#x0309;</am><ex>er</ex></choice>en willen ez ge&#x017F;chiht</l>
+<l xml:id="V_733.101170">Dez enhant keine vorhte niht</l>
+<l xml:id="V_733.101171"><subst hand="#ls1"><del>O*</del><add>O<hi rend="rasur"><hi rend="klebung">de</hi>r</hi></add></subst> &#x017F;tot aber v&#x0301;w<choice><am>&#x0309;</am><ex>er</ex></choice> mv&#x0366;t <note type="Marginalie"><subst hand="#ls1u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note>^$<note>/Anm/<ref><note type="Marginalie"><subst hand="#ls1u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note></ref>[Parz]733.101171_V121vb[/Parz]Tilgung wurde durch Rasur (<hi rend="rasur"></hi>) vorgenommen [Trsk]CPr[/Trsk]</note></l>
+<l xml:id="V_733.101172"><subst hand="#ls1u"><del>N*</del><add><hi rend="rasur">och</hi></add></subst> lv&#x0301;ten lant ere oder gv&#x0366;t</l>
+<note resp="#MGe_Transkribent" target="#?1_733.101172 #V121vb"><ref><subst hand="#ls1u"><del>N*</del><add><hi rend="rasur">och</hi></add></subst></ref>: Es ist unklar, ob diese Korrektur mit derjenigen der vorhergehenden Verses zusammenhängt oder vielleicht separat, d.h. wohl vorher vom Schreiber selbst getätigt wurde. Die korrigierten Buchstaben "och" sind atypisch für den Korrektor 1 und scheinen eher vom Schreiber selbst zu stammen. In Autopsie.</note>
+<l xml:id="V_733.101173">Daz &#x017F;ol v&#x0301;ch &#x017F;in vo<choice><am>&#x0304;</am><ex>n</ex></choice> mir bereit</l>
+<l xml:id="V_733.101174">Herre gnode &#x017F;i v&#x0301;ch ge&#x017F;eit</l>
+<l xml:id="V_733.101175">Jch bit v&#x0301;ch daz ir wendent</l>
+<pb xml:id="V122r"/><cb xml:id="V122ra"/>
+<l xml:id="V_733.101176">v&#x0301;w<choice><am>&#x0309;</am><ex>er</ex></choice>en &#x017F;in vnde &#x017F;pi&#x017F;e &#x017F;endent</l>
+<l xml:id="V_733.101177">De<choice><am>&#x0304;</am><ex>n</ex></choice> Ju<choice><am>&#x0304;</am><ex>n</ex></choice>cfrowe<choice><am>&#x0304;</am><ex>n</ex></choice> in der &#x017F;tat</l>
+<l xml:id="V_733.101178">Wan ir dekeine ge&#x017F;&#x017F;en hat</l>
+<l xml:id="V_733.101179">Fv&#x0301;r wor i<choice><am>&#x0304;</am><ex>n</ex></choice> zweigen tagen niht</l>
+<l xml:id="V_733.101180">Der kv&#x0301;nig &#x017F;prach zehant daz ge&#x017F;chiht</l>
+<l xml:id="V_733.101181">Gar v&#x0301;w<choice><am>&#x0309;</am><ex>er</ex></choice> wille hie &#x017F;ol ergan</l>
+<l xml:id="V_733.101182">Sit ich ez v&#x0301;ch gelobet han</l>
+<l xml:id="V_733.101183">So wil ich ez v&#x0301;ch fro&#x0364;lich geben</l>
+<l xml:id="V_733.101184">Doch <subst hand="#ls1"><del>*</del><add><hi rend="rasur">&#x017F;age</hi></add></subst> ich v&#x0301;ch vf min leben</l>
+<l xml:id="V_733.101185">Hette ein anderre die bette an mich <lb/> <g ref="#alin1"/>geleit</l>
+<l xml:id="V_733.101186">Min <subst hand="#ls1"><del>hvl*</del><add>hvl<hi rend="rasur">de</hi></add></subst> wer im wider&#x017F;eit</l>
+<l xml:id="V_733.101187">vn<choice><am>&#x0304;</am><ex>d</ex></choice> <subst hand="#ls1"><del>li*e</del><add>li<hi rend="rasur">e&#x017F;&#x017F;</hi>e</add></subst> in bliben tag noch naht</l>
+<l xml:id="V_733.101188">Jn lande do ich hatte maht</l>
+<l xml:id="V_733.101189">Alzehant kein rief er dar</l>
+<l xml:id="V_733.101190">Daz er <subst hand="#ls1"><del>*</del><add><hi rend="rasur">one</hi></add></subst> allez beite<choice><am>&#x0304;</am><ex>n</ex></choice> gar</l>
+<l xml:id="V_733.101191">Eine<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;o&#x036E;mer neme groz vn<choice><am>&#x0304;</am><ex>d</ex></choice> rvnt</l>
+<l xml:id="V_733.101192"><subst hand="#ls1"><del>v*</del><add>v<hi rend="rasur">n<choice><am>&#x0304;</am><ex>d</ex></choice> i<choice><am>&#x0304;</am><ex>n</ex></choice> hie&#x017F;e</hi></add></subst> laden zv&#x0366; der &#x017F;tvnt</l>
+<l xml:id="V_733.101193">Mit vi&#x017F;chen win vn<choice><am>&#x0304;</am><ex>d</ex></choice> mit brote</l>
+<l xml:id="V_733.101194">Mit vlei&#x017F;che vn<choice><am>&#x0304;</am><ex>d</ex></choice> and<choice><am>&#x0309;</am><ex>er</ex></choice>me rote</l>
+<l xml:id="V_733.101195">vnde and<choice><am>&#x0309;</am><ex>er</ex></choice>re <subst hand="#ls1"><del>&#x017F;pi&#x017F;*</del><add>&#x017F;pi&#x017F;<hi rend="rasur">e</hi></add></subst> gar genv&#x0366;g</l>
+<l xml:id="V_733.101196">vn<choice><am>&#x0304;</am><ex>d</ex></choice> &#x017F;ant ez den ju<choice><am>&#x0304;</am><ex>n</ex></choice>cfrowe<choice><am>&#x0304;</am><ex>n</ex></choice> clv&#x0366;g</l>
+<l xml:id="V_733.101197">Her hovemei&#x017F;t<choice><am>&#x0309;</am><ex>er</ex></choice> dez neme<choice><am>&#x0304;</am><ex>n</ex></choice>t war</l>
+<l xml:id="V_733.101198">Daz ez vil balde kvme dar</l>
+<l xml:id="V_733.101199">Lieber frv&#x0301;nt &#x017F;prach h<choice><am>&#x0309;</am><ex>er</ex></choice> ywen</l>
+<l xml:id="V_733.101200">Do tet keyn nv&#x0301;t al&#x017F; ein vilen</l>
+<l xml:id="V_733.101201">wie er vil v&#x0301;b<choice><am>&#x0309;</am><ex>er</ex></choice>mv&#x0364;tig waz</l>
+<l xml:id="V_733.101202">Tvgent er do a<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;ich las</l>
+<l xml:id="V_733.101203">Doch zv&#x0366; den no&#x0364;ten &#x017F;o waz er</l>
+<l xml:id="V_733.101204">Menlich vn<choice><am>&#x0304;</am><ex>d</ex></choice> helfeber</l>
+<l xml:id="V_733.101205">Sine<choice><am>&#x0304;</am><ex>n</ex></choice> frv&#x0301;nde <subst hand="#ls1"><del>*</del><add><hi rend="rasur">er ie was</hi></add></subst></l>
+<note resp="#MGe_Transkribent" target="#?1_733.101205 #V122ra"><ref><subst hand="#ls1"><del>*</del><add><hi rend="rasur">er ie was</hi></add></subst></ref>: Der ursprüngliche Vers war viel länger. Die Rasur zieht sich fast bis zu der von der verso-Seite durchschimmernden Versalie "v" ist aber von blossem Auge nicht mehr rekonstruierbar. In Autopsie.</note>
+<l xml:id="V_733.101206">Dez bin ich &#x017F;in gezv&#x0301;g wi&#x017F;&#x017F;ent daz</l>
+<l xml:id="V_733.101207">Er tet manige frecheit</l>
+<l xml:id="V_733.101208">Bi &#x017F;iner zit vn<choice><am>&#x0304;</am><ex>d</ex></choice> miltikeit</l>
+<l xml:id="V_733.101209">Aber bi sine<choice><am>&#x0304;</am><ex>n</ex></choice> tagen er nie</l>
+<l xml:id="V_733.101210">So gro&#x017F;&#x017F;e hv&#x0301;bi&#x017F;cheit begie</l>
+<l xml:id="V_733.101211">Al&#x017F; er tet zv&#x0366; dem &#x017F;elbe<choice><am>&#x0304;</am><ex>n</ex></choice> zil</l>
+<l xml:id="V_733.101212">Dez ich v&#x0301;ch niht v<choice><am>&#x0309;</am><ex>er</ex></choice>&#x017F;wige<choice><am>&#x0304;</am><ex>n</ex></choice> wil.</l>
+<l xml:id="V_733.101213">Der tvgent die h<choice><am>&#x0309;</am><ex>er</ex></choice> kein tet</l>
+<l xml:id="V_733.101214">Ein ros er bringen hiez ze &#x017F;tet</l>
+<l xml:id="V_733.101215">Daz &#x017F;tarke&#x017F;te vn<choice><am>&#x0304;</am><ex>d</ex></choice> daz gro&#x0364;&#x017F;te erkant</l>
+<l xml:id="V_733.101216">Daz men i<choice><am>&#x0304;</am><ex>n</ex></choice> allem h<choice><am>&#x0309;</am><ex>er</ex></choice> vant</l>
+<l xml:id="V_733.101217">Ein &#x017F;o&#x036E;m&#x017F;attel wol bereit</l>
+<l xml:id="V_733.101218">Liht wart vf daz ors geleit</l>
+<l xml:id="V_733.101219">vnde wart gelade<choice><am>&#x0304;</am><ex>n</ex></choice> <subst hand="#ls1"><del>*</del><add><hi rend="rasur">wu&#x0301;&#x017F;&#x017F;ent daz</hi></add></subst></l>
+<l xml:id="V_733.101220">Mit &#x017F;pi&#x017F;e al&#x017F;e vor <subst hand="#ls1"><del>gehei&#x017F;&#x017F;e*</del><add>gehei&#x017F;&#x017F;e<hi rend="rasur">n was</hi></add></subst></l>
+<l xml:id="V_733.101221">So daz ez kvme konde gegon</l>
+<l xml:id="V_733.101222">vnde vffen de<choice><am>&#x0304;</am><ex>n</ex></choice> fv&#x0364;zen mo&#x0364;hte ge&#x017F;ton</l>
+<l xml:id="V_733.101223">Ein kneht mit dem zo&#x036E;m ez nam</l>
+<l xml:id="V_733.101224">vn<choice><am>&#x0304;</am><ex>d</ex></choice> half im daz ez kam</l>
+<cb xml:id="V122rb"/>
+<l xml:id="V_733.101225">An die porte fv&#x0301;r die &#x017F;tat</l>
+<l xml:id="V_733.101226">Eine<choice><am>&#x0304;</am><ex>n</ex></choice> fv&#x0366;z ez fv&#x0301;rbaz nv&#x0301;t entrat</l>
+<l xml:id="V_733.101227">Den buch men im &#x017F;palten &#x017F;ach</l>
+<l xml:id="V_733.101228">Daz h<choice><am>&#x0309;</am><ex>er</ex></choice>ze in &#x017F;inem libe brach</l>
+<l xml:id="V_733.101229">von v&#x0301;berla&#x017F;te &#x017F;tarp ez zehant</l>
+<l xml:id="V_733.101230">Daz geviel wol den vo<choice><am>&#x0304;</am><ex>n</ex></choice> <subst hand="#ls1"><del>m*t</del><add>m<hi rend="rasur">ielan</hi>t</add></subst></l>
+<note resp="#MGe_Transkribent" target="#?1_733.101230 #V122rb"><ref><subst hand="#ls1"><del>m*t</del><add>m<hi rend="rasur">ielan</hi>t</add></subst></ref>: Auch in Autopsie ist nicht eindeutig sichtbar, ob der letzte Buchstabe "t" vom Korrektor gänzlich neu geschrieben oder ob er einfach mit leicht hellerer Tinte nachgezogen worden ist. Für letzteres spräche zumindest der Reim auf den vorhergehenden Vers. In Autopsie.</note>
+<l xml:id="V_733.101231">Ze &#x017F;tvnt hin vz wart gega<choice><am>&#x0304;</am><ex>n</ex></choice>ge<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101232">Der pri&#x017F;ant <sic>flo&#x0364;lich</sic> wart enpha<choice><am>&#x0304;</am><ex>n</ex></choice>ge<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101233">Jn die &#x017F;tat men die &#x017F;pi&#x017F;e trv&#x0366;g</l>
+<l xml:id="V_733.101234">Do mitte hette<choice><am>&#x0304;</am><ex>n</ex></choice>t &#x017F;v&#x0301; genv&#x0366;g</l>
+<l xml:id="V_733.101235">Zwene ganze tage di<choice><am>&#x0304;</am><ex>n</ex></choice>ne</l>
+<l xml:id="V_733.101236">Der h<choice><am>&#x0309;</am><ex>er</ex></choice>re wi&#x017F;e waz an &#x017F;ine</l>
+<l xml:id="V_733.101237">Brvn de melan vf alle wege</l>
+<l xml:id="V_733.101238">Do bi menlich vn<choice><am>&#x0304;</am><ex>d</ex></choice> nv&#x0301;t trege</l>
+<l xml:id="V_733.101239">Noch v<choice><am>&#x0309;</am><ex>er</ex></choice>zaget nie keine<choice><am>&#x0304;</am><ex>n</ex></choice> tag</l>
+<l xml:id="V_733.101240">Vmbe deheine not <subst hand="#ls1"><del>*</del><add><hi rend="rasur">er er&#x017F;chrak</hi></add></subst></l>
+<l xml:id="V_733.101241">weder vmbe tro&#x0364;wen noch vmbe nit</l>
+<l xml:id="V_733.101242">Jn duhte beiaget er &#x017F;ich nv&#x0301;t i<choice><am>&#x0304;</am><ex>n</ex></choice> zit</l>
+<l xml:id="V_733.101243">Er mv&#x0364;&#x017F;te die &#x017F;tat han ergebe<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101244">Eines tages darnoch m<choice><am>&#x0309;</am><ex>er</ex></choice>kent eben</l>
+<l xml:id="V_733.101245">Ein lv&#x0301;tzel vor dez tage&#x017F; &#x017F;chin</l>
+<l xml:id="V_733.101246">Er wopen hies die lv&#x0301;te &#x017F;in</l>
+<l xml:id="V_733.101247">Zehant do der tag kome<choice><am>&#x0304;</am><ex>n</ex></choice> waz</l>
+<l xml:id="V_733.101248">Ern beite keine wile fv&#x0301;rbas</l>
+<l xml:id="V_733.101249"><subst hand="#ls1"><del>E*</del><add>E<hi rend="rasur">r hiez</hi></add></subst> daz gro&#x017F;te tor ent&#x017F;parn</l>
+<l xml:id="V_733.101250">Die im gevielent tet er v&#x017F; varn</l>
+<l xml:id="V_733.101251">Drv&#x0301;hvndert vf gewu&#x0301;nnes gelt</l>
+<l xml:id="V_733.101252">Die &#x017F;nurretent durch die gezelt</l>
+<l xml:id="V_733.101253">vngewarnet &#x017F;v&#x0301; &#x017F;v&#x0301; v&#x0301;berlieffent</l>
+<l xml:id="V_733.101254">Do &#x017F;i blos an den bette<choice><am>&#x0304;</am><ex>n</ex></choice> <sic>&#x017F;lieiffe<choice><am>&#x0304;</am><ex>n</ex></choice>t</sic></l>
+<l xml:id="V_733.101255">Er enwolte &#x017F;i &#x017F;lahen noch vohen</l>
+<l xml:id="V_733.101256">Zv&#x0366; be&#x017F;&#x017F;ern dinge<choice><am>&#x0304;</am><ex>n</ex></choice> wolt er gohen</l>
+<l xml:id="V_733.101257">Er lu&#x0366;t mit &#x017F;pi&#x017F;e<choice><am>&#x0304;</am><ex>n</ex></choice> in dem her</l>
+<l xml:id="V_733.101258">Manig ros pfert vn<choice><am>&#x0304;</am><ex>d</ex></choice> &#x017F;o&#x036E;mer</l>
+<l xml:id="V_733.101259">we<choice><am>&#x0304;</am><ex>n</ex></choice>ne &#x017F;v&#x0301; fvndent ir gnv&#x0366;g</l>
+<l xml:id="V_733.101260">Do enwaz kneht noch ju<choice><am>&#x0304;</am><ex>n</ex></choice>ch<choice><am>&#x0309;</am><ex>er</ex></choice>re clv&#x0366;g</l>
+<l xml:id="V_733.101261">Ern hette mit &#x017F;pi&#x017F;e &#x017F;ich gelade<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101262">Do in gnv&#x0366;g wart ane &#x017F;chade<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101263">Brun hiez &#x017F;ine lv&#x0301;te wider rite<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101264">Alle gegen der &#x017F;tat ane bite<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101265">Mit dem daz er beiaget hatte</l>
+<l xml:id="V_733.101266">vn<choice><am>&#x0304;</am><ex>d</ex></choice> &#x017F;taphet in hindena<choice><am>&#x0304;</am><ex>n</ex></choice> <subst hand="#ls1u"><del>*</del><add><hi rend="rasur">noch mit &#x017F;tatte</hi></add></subst></l>
+<note resp="#MGe_Transkribent" target="#?1_733.101266 #V122rb"><ref><subst hand="#ls1u"><del>*</del><add><hi rend="rasur">noch mit &#x017F;tatte</hi></add></subst></ref>: Am rechten Versrand stand möglicherweise vor der Korrektur eine Marginalie, die aber vielleicht so gut rasiert wurde, dass man diese nicht mehr mit Sicherheit bestimmen kann. In Autopsie.</note>
+<l xml:id="V_733.101267">Groz &#x017F;chrei erhv&#x0366;p &#x017F;ich i<choice><am>&#x0304;</am><ex>n</ex></choice> de<choice><am>&#x0304;</am><ex>m</ex></choice> her</l>
+<l xml:id="V_733.101268">Zen wopen lieffent &#x017F;v&#x0301; durch wer</l>
+<l xml:id="V_733.101269"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: blau-rot">B</seg>alde vf ein ros h<choice><am>&#x0309;</am><ex>er</ex></choice> Gawa<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;az</l>
+<l xml:id="V_733.101270">Gar vngewopent &#x017F;o wi&#x017F;&#x017F;ent daz</l>
+<l xml:id="V_733.101271">Nv&#x0301;want eine<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;chilt der im wol zam</l>
+<l xml:id="V_733.101272">Ein &#x017F;per in die hant er nam</l>
+<l xml:id="V_733.101273">Daz aht ich fv&#x0301;r ein affenheit</l>
+<note resp="#MGe_Transkribent"><ref></ref>[Parz]V122rb[/Parz]: Am unteren Blattrand ist bei hellem Licht ein grosses, nun wegrasiertes Kreuz erkennbar, das seinerseits von fleckigen Verwischungen umgeben zu sein scheint. Stand hier vormals vielleicht einmal eine mit Bleigriffel angebrachte Korrekturanweisung oder handelt es sich bei den Flecken nur um einfache Gebrauchsspuren? In Autopsie.</note>
+<pb xml:id="V122v"/><cb xml:id="V122va"/>
+<l xml:id="V_733.101274">Al&#x017F;us mit &#x017F;porn &#x017F;legen er reit</l>
+<l xml:id="V_733.101275">Zv&#x0366; dem ge&#x017F;chrei hin fv&#x0301;rbas</l>
+<l xml:id="V_733.101276">Dvrch daz her <subst hand="#ls1"><del>vroge<choice><am>&#x0304;</am><ex>n</ex></choice>*</del><add>vroge<choice><am>&#x0304;</am><ex>n</ex></choice><hi rend="rasur">de</hi></add></subst> waz ez wa&#x017F;</l>
+<l xml:id="V_733.101277">Dez tages &#x017F;chin &#x017F;o helle vf brach</l>
+<l xml:id="V_733.101278">Daz er wol die viende &#x017F;ach</l>
+<l xml:id="V_733.101279">Die <subst hand="#ls1u"><del>wid*erten</del><add>wid<hi rend="rasur">er k</hi>erten</add></subst> mit beiag</l>
+<l xml:id="V_733.101280">Hein ane &#x017F;tich vn<choice><am>&#x0304;</am><ex>d</ex></choice> ane &#x017F;lag</l>
+<l xml:id="V_733.101281">Dez worent &#x017F;v&#x0301; vo<choice><am>&#x0304;</am><ex>n</ex></choice> h<choice><am>&#x0309;</am><ex>er</ex></choice>zen geil</l>
+<l xml:id="V_733.101282">Hin kome<choice><am>&#x0304;</am><ex>n</ex></choice> waz daz mei&#x017F;te teil</l>
+<l xml:id="V_733.101283">Her Gawan rante i<choice><am>&#x0304;</am><ex>n</ex></choice> alles noch</l>
+<l xml:id="V_733.101284">Zv&#x0366; letzende &#x017F;v&#x0301; &#x017F;o waz im goch</l>
+<l xml:id="V_733.101285">Do in ge&#x017F;ach brvn vo<choice><am>&#x0304;</am><ex>n</ex></choice> meilant</l>
+<l xml:id="V_733.101286">Vil balde het er in erkant</l>
+<l xml:id="V_733.101287">Zehant &#x017F;in ors er vmbe <subst hand="#ls1u"><del>*och</del><add><hi rend="rasur">z</hi>och</add></subst></l>
+<l xml:id="V_733.101288">H<choice><am>&#x0309;</am><ex>er</ex></choice> Gawan der nie man gefloch</l>
+<l xml:id="V_733.101289">Reit zv&#x0366; im o&#x036E;ch mit solich<choice><am>&#x0309;</am><ex>er</ex></choice> il</l>
+<l xml:id="V_733.101290">Daz nie &#x017F;o &#x017F;winde kam ein pfil</l>
+<l xml:id="V_733.101291">Der ritt<choice><am>&#x0309;</am><ex>er</ex></choice> dem man lobes iach</l>
+<l xml:id="V_733.101292">Zv&#x0366;m er&#x017F;te<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;ine<choice><am>&#x0304;</am><ex>n</ex></choice> vient &#x017F;tach</l>
+<l xml:id="V_733.101293">Brvn durch &#x017F;ines &#x017F;chiltes bv&#x0366;g</l>
+<l xml:id="V_733.101294">Vnde durch den hal&#x017F;perg de<choice><am>&#x0304;</am><ex>n</ex></choice> er trv&#x0366;g</l>
+<l xml:id="V_733.101295"><subst hand="#ls1"><del>D*</del><add><hi rend="rasur">Mit &#x017F;ime &#x017F;pe<hi rend="klebung">r</hi> an der &#x017F;tette</hi></add></subst></l>
+<l xml:id="V_733.101296">Daz <subst hand="#ls1"><del>er*</del><add><hi rend="rasur">ez in noch geflei&#x017F;chet hette</hi></add></subst></l>
+<l xml:id="V_733.101297">O&#x036E;ch velte nv&#x0301;t brvn vo<choice><am>&#x0304;</am><ex>n</ex></choice> <subst hand="#ls2u"><del>m*</del><add>m<hi rend="rasur">ielant</hi></add></subst></l>
+<l xml:id="V_733.101298">Er &#x017F;tach in durch dez &#x017F;chiltes rant</l>
+<l xml:id="V_733.101299"><subst hand="#ls1"><del>vi*</del><add>v<hi rend="rasur">n<hi rend="klebung">de</hi></hi></add></subst> durch die <subst hand="#sr3u"><del>*&#x017F;ele</del><add><hi rend="rasur">ah&#x017F;ele</hi></add></subst> &#x017F;vnder wa<choice><am>&#x0304;</am><ex>n</ex></choice>g</l>
+<note resp="#MGe_Transkribent" target="#?1_733.101299 #V122va"><ref><subst hand="#sr3u"><del>*&#x017F;ele</del><add><hi rend="rasur">ah&#x017F;ele</hi></add></subst> &#x017F;vnder wa<choice><am>&#x0304;</am><ex>n</ex></choice>g</ref>: Die Tintenfarbe dieser Korrektur scheint dem Schreiber zu gehören, wobei Zweifel bestehen bleiben, ob diese Korrektur nicht doch mit den sie umgebenden Fremdkorrekturen in irgendeiner Form zusammenhängen. In Autopsie.</note>
+<l xml:id="V_733.101300">Daz &#x017F;per wol ein<choice><am>&#x0309;</am><ex>er</ex></choice> <subst hand="#ls2u"><del>clof*</del><add>clof<hi rend="rasur">tern lang</hi></add></subst></l>
+<l xml:id="V_733.101301">Al&#x017F;us er in o&#x036E;ch troffen hat</l>
+<l xml:id="V_733.101302">Er kerte wider in &#x017F;ine &#x017F;tat</l>
+<l xml:id="V_733.101303">vnde hiez &#x017F;ine lv&#x0301;te rite<choice><am>&#x0304;</am><ex>n</ex></choice> in</l>
+<l xml:id="V_733.101304">va&#x017F;te v<choice><am>&#x0309;</am><ex>er</ex></choice>&#x017F;parn die porten &#x017F;in</l>
+<l xml:id="V_733.101305">Nv koment die ritt<choice><am>&#x0309;</am><ex>er</ex></choice>e gerant</l>
+<l xml:id="V_733.101306">vz dem h<choice><am>&#x0309;</am><ex>er</ex></choice> <subst hand="#sr3u"><del>all*</del><add>all<hi rend="rasur">e</hi></add></subst> zehant</l>
+<l xml:id="V_733.101307">vnde fv&#x0301;rhv&#x0366;bent bi h<choice><am>&#x0309;</am><ex>er</ex></choice>n Gawan</l>
+<l xml:id="V_733.101308">Den fvndent &#x017F;v&#x0301; bleich vn<choice><am>&#x0304;</am><ex>d</ex></choice> vngetan</l>
+<l xml:id="V_733.101309">Dez wurdent &#x017F;i leides vil behaft</l>
+<l xml:id="V_733.101310">vz geziehen &#x017F;i im nv&#x0301;t de<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;chaft</l>
+<l xml:id="V_733.101311">Getor&#x017F;tent doch wart ez ge&#x017F;nitte<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101312">beidenthalp abe. niht wart gebitte<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101313">Er wurde in &#x017F;in gezelt get<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>gen</l>
+<l xml:id="V_733.101314">Do &#x017F;ach men &#x017F;chrien vnde klage<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101315">Allenthalben in dem h<choice><am>&#x0309;</am><ex>er</ex></choice></l>
+<l xml:id="V_733.101316">wand er lag ane alle wer</l>
+<l xml:id="V_733.101317">vnde in grozem &#x017F;m<choice><am>&#x0309;</am><ex>er</ex></choice>zen</l>
+<l xml:id="V_733.101318">An libe vnde an dem h<choice><am>&#x0309;</am><ex>er</ex></choice>zen</l>
+<l xml:id="V_733.101319">wi&#x017F;&#x017F;ent do ez der kv&#x0301;nig erhorte</l>
+<l xml:id="V_733.101320">Daz wu<choice><am>&#x0304;</am><ex>n</ex></choice>der waz daz er nv&#x0301;t dorte</l>
+<l xml:id="V_733.101321">von leide &#x017F;in &#x017F;proche v<choice><am>&#x0309;</am><ex>er</ex></choice>&#x017F;want</l>
+<l xml:id="V_733.101322">Sine arzote wurdent be&#x017F;ant</l>
+<cb xml:id="V122vb"/>
+<l xml:id="V_733.101323">Vnde bat &#x017F;v&#x0301; durch in gerv&#x0366;chen</l>
+<l xml:id="V_733.101324">Sins o&#x0364;heimes wu<choice><am>&#x0304;</am><ex>n</ex></choice>de<choice><am>&#x0304;</am><ex>n</ex></choice> er&#x017F;v&#x0366;chen</l>
+<l xml:id="V_733.101325">vnde do er gebihtet hatte</l>
+<l xml:id="V_733.101326"><subst hand="#sr1u"><del>G*helichen</del><add>G<hi rend="rasur">emec</hi>helichen</add></subst> vnde mit <subst hand="#sr1u"><del>&#x017F;tatte<choice><am>&#x0304;</am><ex>n</ex></choice></del><add><hi rend="rasur">&#x017F;tatte</hi></add></subst></l>
+<l xml:id="V_733.101327">Do zvgent &#x017F;v&#x0301; <subst hand="#sr1u"><del>*</del><add><hi rend="rasur">im</hi></add></subst> vz ze&#x017F;tvnt <note type="Marginalie"><subst hand="#sr1u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note>^$<note>/Anm/<ref><note type="Marginalie"><subst hand="#sr1u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note></ref>[Parz]733.101327_122vb[/Parz]Tilgung wurde durch Rasur (<hi rend="rasur"></hi>) vorgenommen [Trsk]CPr[/Trsk]</note></l>
+<l xml:id="V_733.101328">vo<choice><am>&#x0304;</am><ex>n</ex></choice> dem libe daz tru<choice><am>&#x0304;</am><ex>n</ex></choice>&#x017F;el runt</l>
+<l xml:id="V_733.101329">Die wu<choice><am>&#x0304;</am><ex>n</ex></choice>de <subst hand="#sr1u"><del>w*t</del><add>w<hi rend="rasur">ar</hi>t</add></subst> mit wine wis <note type="Marginalie"><subst hand="#sr1u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note>^$<note>/Anm/<ref><note type="Marginalie"><subst hand="#sr1u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note></ref>[Parz]733.101329_122vb[/Parz]Tilgung wurde durch Rasur (<hi rend="rasur"></hi>) vorgenommen [Trsk]CPr[/Trsk]</note></l>
+<l xml:id="V_733.101330">Gewe&#x017F;chen vn<choice><am>&#x0304;</am><ex>d</ex></choice> gemei&#x017F;elt ze vlis</l>
+<l xml:id="V_733.101331">Sv&#x0301; &#x017F;prochent er geni&#x017F;et wol</l>
+<l xml:id="V_733.101332">vnde der kv&#x0301;nig blibe &#x017F;vnd<choice><am>&#x0309;</am><ex>er</ex></choice> dol</l>
+<l xml:id="V_733.101333">vor <subst hand="#ls1u"><del>d*</del><add>d<hi rend="rasur">e<choice><am>&#x0304;</am><ex>m</ex></choice> ahtedem</hi></add></subst> tage me<choice><am>&#x0304;</am><ex>n</ex></choice> wol ge&#x017F;iht</l>
+<l xml:id="V_733.101334">Daz im vo<choice><am>&#x0304;</am><ex>n</ex></choice> sm<choice><am>&#x0309;</am><ex>er</ex></choice>zen wurret niht</l>
+<l xml:id="V_733.101335">Sv&#x0301; gobent dem kv&#x0301;nige &#x017F;oliche<choice><am>&#x0304;</am><ex>n</ex></choice> tro&#x017F;t</l>
+<l xml:id="V_733.101336">Daz er vo<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;orgen wart v&#x0301;rlo&#x017F;t</l>
+<l xml:id="V_733.101337">Do hiez er &#x017F;ine werc &#x017F;lihten</l>
+<l xml:id="V_733.101338">vnde &#x017F;ine tvmbeler rihten</l>
+<l xml:id="V_733.101339">An der &#x017F;tette mvren vn<choice><am>&#x0304;</am><ex>d</ex></choice> an die tv&#x0301;rne ho</l>
+<l xml:id="V_733.101340">vierzehen wuche<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;tv&#x0366;nt ez al&#x017F;o</l>
+<l xml:id="V_733.101341">Daz her Gawan lag wu&#x0301;&#x017F;&#x017F;ent das</l>
+<l xml:id="V_733.101342">Eb er der wunden gar genas</l>
+<l xml:id="V_733.101343">Svz lag er an eine<choice><am>&#x0304;</am><ex>m</ex></choice> morgen</l>
+<l xml:id="V_733.101344">Jn &#x017F;ime gezelt &#x017F;vnder &#x017F;orge<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101345">Die <subst hand="#ls1u"><del>ger*</del><add>ger<hi rend="rasur">en</hi></add></subst> er drvmbe vf haben hies <note type="Marginalie"><subst hand="#ls1u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note>^$<note>/Anm/<ref><note type="Marginalie"><subst hand="#sr1u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note></ref>[Parz]733.101345_122vb[/Parz]Tilgung wurde durch Rasur (<hi rend="rasur"></hi>) vorgenommen [Trsk]CPr[/Trsk]</note></l>
+<l xml:id="V_733.101346">Daz der tag vn<choice><am>&#x0304;</am><ex>d</ex></choice> lvft dar in &#x017F;ties</l>
+<l xml:id="V_733.101347">Siner knehte eine<choice><am>&#x0304;</am><ex>n</ex></choice> er kvmen &#x017F;ach</l>
+<l xml:id="V_733.101348">Er hette getrenket in der bach</l>
+<l xml:id="V_733.101349">Sin liebes ors gringalet</l>
+<l xml:id="V_733.101350">Zv&#x0366; im hiez er in kvmme<choice><am>&#x0304;</am><ex>n</ex></choice> do zv&#x0366; &#x017F;tet</l>
+<l xml:id="V_733.101351">Abe &#x017F;az der knabe tvgende riche</l>
+<l xml:id="V_733.101352">vnde kerte zv&#x0366; im &#x017F;nellekliche</l>
+<l xml:id="V_733.101353">Fv&#x0301;rs bette er knv&#x0301;we<choice><am>&#x0304;</am><ex>n</ex></choice> do began</l>
+<l xml:id="V_733.101354">Er hiez in vnde gebot im &#x017F;an</l>
+<l xml:id="V_733.101355">Daz <subst hand="#ls2u"><del>er*</del><add>er<hi rend="rasur"><gap/></hi></add></subst> vf &#x017F;in ors do leite</l>
+<l xml:id="V_733.101356">Sine<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;attel vn<choice><am>&#x0304;</am><ex>d</ex></choice> daz gereite</l>
+<l xml:id="V_733.101357">Zehant der kneht het ez geton</l>
+<l xml:id="V_733.101358">Hemede vnde brv&#x0366;ch gv&#x0366;t &#x017F;vnder won</l>
+<l xml:id="V_733.101359">Daz gehei&#x017F;chen wart dem <subst hand="#ls1u"><del>ka<choice><am>&#x0304;</am><ex>m</ex></choice>mere*</del><add>kamere<hi rend="rasur">r</hi></add></subst></l>
+<l xml:id="V_733.101360">Sne wis broht er im daz <subst hand="#ls1u"><del>alder*</del><add><hi rend="rasur">alder</hi></add></subst></l>
+<l xml:id="V_733.101361">Fv&#x0301;rwor <subst hand="#ls1"><del>*</del><add><hi rend="rasur">algereite</hi></add></subst> <note type="Marginalie"><subst hand="#ls1u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note><note>/Anm/<ref><note type="Marginalie"><subst hand="#sr1u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note></ref>[Parz]733.101361_122vb[/Parz]Tilgung wurde durch Rasur (<hi rend="rasur"></hi>) vorgenommen [Trsk]CPr[/Trsk]</note></l>
+<l xml:id="V_733.101362">An dem bette <subst hand="#ls1"><del>*</del><add><hi rend="rasur">er es an leite</hi></add></subst></l>
+<l xml:id="V_733.101363">Dar nach er an daz bette &#x017F;az</l>
+<l xml:id="V_733.101364">Ein kvrzes wambe&#x017F;ch vo<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;cherter was</l>
+<l xml:id="V_733.101365">Al&#x017F;o o&#x036E;ch zv&#x0366; den wopen i&#x017F;t gereht</l>
+<l xml:id="V_733.101366">Fv&#x0301;r in er bringen hiez de<choice><am>&#x0304;</am><ex>n</ex></choice> kneht</l>
+<l xml:id="V_733.101367">Daz tet er an behendkliche</l>
+<l xml:id="V_733.101368">Dar nach hiez er <subst hand="#sr1"><del>*</del><add><hi rend="rasur">gar heimeliche</hi></add></subst> <note type="Marginalie"><subst hand="#sr1u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note><note>/Anm/<ref><note type="Marginalie"><subst hand="#sr1u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note></ref>[Parz]733.101368_122vb[/Parz]Tilgung wurde durch Rasur (<hi rend="rasur"></hi>) vorgenommen [Trsk]CPr[/Trsk]</note></l>
+<note resp="#MGe_Transkribent" target="#?1_733.101368 #V122vb"><ref><subst hand="#sr1"><del>*</del><add><hi rend="rasur">gar heimeliche</hi></add></subst> <note type="Marginalie"><subst hand="#sr1u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note></ref>: Die Rasur ist am Farbfaksimile als solche kaum erkennbar, doch fällt sie am Original auf. Erst nach längerem hinsehen offenbart sich zudem, dass die gesamte rechte Spalte mit ziemlicher Sicherheit vom Schreiber 1 eingetragen wurde. Somit löst er den noch die linke Spalte beendenden Schreiber 3 inmitten dieses verso-Blattes ab. Somit erklärt sich auch die Beobachtung, dass die Korrekturen in dieser Spalte vom Schreiber 1 selbst stammen. Er schreibt denn auch auf dem folgenden Blatt in der linken Spalte noch weiter, bis er wieder vom Schreiber 3 abgelöst wird. Zwischen welchen Versen dies geschieht ist sehr schwierig zu beantworten, da sich die Schriftbilder gleichen und anzunehmen ist, dass beide zudem um Ähnlichkeit bemüht waren. Siehe Versalien, Spaltenbreite, Haarstriche etc. Ich vermute den Wechsel zurück zum Schreiber 3 zwischen Vers 733.101410 und 733.101411 in 123ra. Man beachte den allgemeinen Duktus.In Autopsie.</note>
+<l xml:id="V_733.101369">Den harne&#x017F;ch &#x017F;in er bringen tet</l>
+<l xml:id="V_733.101370">Er &#x017F;elber zv&#x0366; der &#x017F;tvnden het</l>
+<l xml:id="V_733.101371">Gewopent gemehelichen &#x017F;ich</l>
+<pb xml:id="V123r"/><cb xml:id="V123ra"/>
+<l xml:id="V_733.101372">wol &#x017F;chon vn<choice><am>&#x0304;</am><ex>d</ex></choice> o&#x036E;ch wol ieg<choice><am>&#x0309;</am><ex>er</ex></choice>lich</l>
+<l xml:id="V_733.101373">waz er vn<choice><am>&#x0304;</am><ex>d</ex></choice> do er bereitet waz</l>
+<l xml:id="V_733.101374">Zv&#x0366;me ro&#x017F;&#x017F;e er do kam dar vf er <subst hand="#ls1"><del>*</del><add><hi rend="rasur">&#x017F;as</hi></add></subst></l>
+<l xml:id="V_733.101375">Ein &#x017F;tarkes &#x017F;per gros er enpfieng</l>
+<l xml:id="V_733.101376">Sinen &#x017F;chilt er an den hal&#x017F; <subst hand="#ls1"><del>*</del><add><hi rend="rasur">hieng</hi></add></subst></l>
+<l xml:id="V_733.101377">Dvrch daz her kerte er ze <subst hand="#ls1u"><del>&#x017F;tvnden</del><add><hi rend="rasur">&#x017F;tvnde</hi></add></subst></l>
+<l xml:id="V_733.101378">So er iemer heimeliche&#x017F;t kvnde</l>
+<l xml:id="V_733.101379">Djz &#x017F;ach kein vnde aldo zehant</l>
+<l xml:id="V_733.101380">Tet ers kv&#x0301;nig artvs bekant</l>
+<l xml:id="V_733.101381">Gar to&#x036E;genliche &#x017F;vnder &#x017F;pot</l>
+<l xml:id="V_733.101382">Herre min &#x017F;o helfe mir got</l>
+<l xml:id="V_733.101383">Jr habent v&#x0301;w<choice><am>&#x0309;</am><ex>er</ex></choice>en o&#x0364;hein v<choice><am>&#x0309;</am><ex>er</ex></choice>lorn</l>
+<l xml:id="V_733.101384"><subst hand="#sr3u"><del><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: blau-rot">D</seg>o*</del><add><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: blau-rot">D</seg><hi rend="rasur">o das v<choice><am>&#x0309;</am><ex>er</ex></choice>na<choice><am>&#x0304;</am><ex>m</ex></choice> d<choice><am>&#x0309;</am><ex>er</ex></choice></hi></add></subst> kv&#x0301;nig hoch geborn</l>
+<note resp="#MGe_Transkribent" target="#?1_733.101384 #V123ra"><ref><subst hand="#sr3u"><del><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: blau-rot">D</seg>*</del><add><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: blau-rot">D</seg><hi rend="rasur">o das v<choice><am>&#x0309;</am><ex>er</ex></choice>na<choice><am>&#x0304;</am><ex>m</ex></choice> d<choice><am>&#x0309;</am><ex>er</ex></choice></hi></add></subst></ref>: Die Korrektur wurde vorgenommen, als die Initiale bereits eingetragen war, weshalb der Buchstabe "o" nun zu nahe an der Majuskel "D" steht. Unter dem ersten Buchstaben des Wortes "das" kann man noch den ursprünglichen Buchstaben "o" von "Do" erkennen. Die Korrektur stammt vermutlich noch vom Schreiber selbst, wobei dies heissen würde, dass er nach dem Rubrikationsvorgang noch einmal in den Text eingegriffen hat. In Autopsie.</note>
+<l xml:id="V_733.101385"><subst hand="#sr3u"><del>Lv&#x0301;te</del><add>L<hi rend="rasur">v</hi>te</add></subst> &#x017F;chrei er <subst hand="#sr3u"><del>ei<choice><am>&#x0304;</am><ex>n</ex></choice></del><add>ei<hi rend="rasur"><gap/></hi></add></subst> h<choice><am>&#x0309;</am><ex>er</ex></choice>re cri&#x017F;t</l>
+<l xml:id="V_733.101386">Key v<choice><am>&#x0309;</am><ex>er</ex></choice>hil <subst hand="#ls2u"><del>*</del><add><hi rend="rasur">mir keine fri&#x017F;t</hi></add></subst></l>
+<l xml:id="V_733.101387">waz wv&#x0301;rret mime o&#x0364;heime wu&#x0301;&#x017F;&#x017F;e<choice><am>&#x0304;</am><ex>n</ex></choice>t ir</l>
+<l xml:id="V_733.101388">Herre ich weis wol gelo&#x036E;bent mir</l>
+<l xml:id="V_733.101389">Daz er het zv&#x0366; di&#x017F;en &#x017F;tvnden</l>
+<l xml:id="V_733.101390">Endelich v&#x0301;berwu<choice><am>&#x0304;</am><ex>n</ex></choice>den</l>
+<l xml:id="V_733.101391">Die vorhte der &#x017F;erunge &#x017F;in</l>
+<l xml:id="V_733.101392">Dvrch daz her &#x017F;ach ich &#x017F;inen &#x017F;chin</l>
+<l xml:id="V_733.101393">Bereit vf sine<choice><am>&#x0304;</am><ex>m</ex></choice> ro&#x017F;&#x017F;e gehu&#x0301;re</l>
+<l xml:id="V_733.101394">vnde vert &#x017F;v&#x0366;chen auentv&#x0301;re</l>
+<l xml:id="V_733.101395">Kv<choice><am>&#x0304;</am><ex>m</ex></choice>met ez daz er zv&#x0366; vehte<choice><am>&#x0304;</am><ex>n</ex></choice>de hat</l>
+<l xml:id="V_733.101396">Oder vert er an &#x017F;oliche &#x017F;tat</l>
+<l xml:id="V_733.101397">Do er mv&#x0366;z getete liden</l>
+<l xml:id="V_733.101398">Jemer mv&#x0364;zent ir in v<choice><am>&#x0309;</am><ex>er</ex></choice>miden</l>
+<l xml:id="V_733.101399">So balde im erbeit wu&#x0301;rt kvnt</l>
+<l xml:id="V_733.101400">Sine wunden w<choice><am>&#x0309;</am><ex>er</ex></choice>dent vf der &#x017F;tvnt</l>
+<l xml:id="V_733.101401">Zemole offen vn<choice><am>&#x0304;</am><ex>d</ex></choice> zerzart</l>
+<l xml:id="V_733.101402">Daz flei&#x017F;ch iunc vn<choice><am>&#x0304;</am><ex>d</ex></choice> vngehart</l>
+<l xml:id="V_733.101403">J&#x017F;t mu&#x0301;rwe vn<choice><am>&#x0304;</am><ex>d</ex></choice> weich</l>
+<l xml:id="V_733.101404">Der kv&#x0301;nig langer niht entweich</l>
+<l xml:id="V_733.101405">Er &#x017F;az vf ein pfert clv&#x0366;g</l>
+<l xml:id="V_733.101406">Al in der hant eine<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;tap er trv&#x0366;g</l>
+<l xml:id="V_733.101407">vnde &#x017F;lv&#x0366;g mit &#x017F;porn <subst hand="#ls2u"><del>*</del><add><hi rend="rasur">vffen</hi></add></subst> daz velt</l>
+<l xml:id="V_733.101408">Dvrch die hv&#x0301;tten vn<choice><am>&#x0304;</am><ex>d</ex></choice> die gezelt</l>
+<l xml:id="V_733.101409">Svz kam er fv&#x0301;r vf de<choice><am>&#x0304;</am><ex>n</ex></choice> plan</l>
+<l xml:id="V_733.101410">vnz er erilte h<choice><am>&#x0309;</am><ex>er</ex></choice>n Gawan</l>
+<l xml:id="V_733.101411">Zv&#x0366; im er &#x017F;prach o&#x0364;hein &#x017F;age<choice><am>&#x0304;</am><ex>n</ex></choice>t mir</l>
+<l xml:id="V_733.101412">Tv&#x0366;t mir bekant war wellent ir</l>
+<l xml:id="V_733.101413">vnde durch waz ir gewopent &#x017F;int</l>
+<l xml:id="V_733.101414">Herre &#x017F;prach er durch gotz kint</l>
+<l xml:id="V_733.101415">Sint mit dem wone niht behaft</l>
+<l xml:id="V_733.101416">Daz ich durch &#x017F;u&#x0366;chen ritter&#x017F;chaft</l>
+<l xml:id="V_733.101417">Mich habe gewopent &#x017F;icherlich</l>
+<l xml:id="V_733.101418">Jch wil ein wening erbanich mich</l>
+<l xml:id="V_733.101419">Hie harfv&#x0301;r die welde &#x017F;chowen</l>
+<l xml:id="V_733.101420">Die grv&#x0364;ne &#x017F;int vnde o&#x036E;ch die o&#x036E;wen</l>
+<cb xml:id="V123rb"/>
+<l xml:id="V_733.101421">Jch <subst hand="#ls2u"><del>*</del><add><hi rend="rasur">&#x017F;age</hi></add></subst> v&#x0301;ch dez ganzen mine<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;in</l>
+<l xml:id="V_733.101422">Daz ich &#x017F;o lange gelegen bin</l>
+<l xml:id="V_733.101423">Daz ich &#x017F;in wene han trokheit</l>
+<l xml:id="V_733.101424">Herre do vo<choice><am>&#x0304;</am><ex>n</ex></choice> ich bin &#x017F;o bereit</l>
+<l xml:id="V_733.101425">vnde wil wu&#x0301;&#x017F;&#x017F;en &#x017F;vnder miden</l>
+<l xml:id="V_733.101426">Ob ich noch v&#x0301;t mo&#x0364;ge <sic>harnoch</sic> lide<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101427">vn<choice><am>&#x0304;</am><ex>d</ex></choice> ob ich &#x017F;in notdv&#x0301;rftig wer</l>
+<l xml:id="V_733.101428">wu&#x0301;&#x017F;&#x017F;ent niht v<choice><am>&#x0309;</am><ex>er</ex></choice>rer &#x017F;tot min ger</l>
+<l xml:id="V_733.101429">Herre ich enbize o&#x036E;ch niem<choice><am>&#x0309;</am><ex>er</ex></choice> mas</l>
+<l xml:id="V_733.101430">Jch <subst hand="#ls1"><del>kv<choice><am>&#x0304;</am><ex>m</ex></choice>*</del><add>kv<choice><am>&#x0304;</am><ex>m</ex></choice><hi rend="rasur">me de<choice><am>&#x0304;</am><ex>n</ex></choice>ne her wider wu&#x0301;&#x017F;&#x017F;ent das</hi></add></subst> <note type="Marginalie"><subst hand="#ls1u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note>^$<note>/Anm/<ref><note type="Marginalie"><subst hand="#ls1u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note></ref>[Parz]733.101430_V123rb[/Parz]:Tilgung wurde durch Rasur (<hi rend="rasur"></hi>) vorgenommen [Trsk]CPr[/Trsk]</note></l>
+<l xml:id="V_733.101431">Der kv&#x0301;nig &#x017F;prach dez bin <subst hand="#ls2u"><del>*</del><add><hi rend="rasur">ich vro</hi></add></subst></l>
+<l xml:id="V_733.101432">O&#x0364;hein daz ir <subst hand="#ls2u"><del>*</del><add><hi rend="rasur">v&#x0301;ch erbanchent &#x017F;o</hi></add></subst></l>
+<l xml:id="V_733.101433">Doch ne<choice><am>&#x0304;</am><ex>m</ex></choice>ment v&#x0301;ch balde kvme<choice><am>&#x0304;</am><ex>n</ex></choice>des an</l>
+<l xml:id="V_733.101434">wellent ir die mine hvlde han</l>
+<l xml:id="V_733.101435">Herre dez fo&#x0364;rhtent v&#x0301;ch vo<choice><am>&#x0304;</am><ex>n</ex></choice> <subst hand="#ls2u"><del>niht</del><add>nihte</add></subst></l>
+<l xml:id="V_733.101436">wider vmbe &#x017F;tapfte die rihte</l>
+<l xml:id="V_733.101437">Der kv&#x0301;nig in&#x017F; her gar &#x017F;v<choice><am>&#x0304;</am><ex>n</ex></choice>der leit</l>
+<l xml:id="V_733.101438">Her Gawan &#x017F;vs vo<choice><am>&#x0304;</am><ex>n</ex></choice> da<choice><am>&#x0304;</am><ex>n</ex></choice>na<choice><am>&#x0304;</am><ex>n</ex></choice> reit</l>
+<l xml:id="V_733.101439">Dvrch &#x017F;cho&#x0364;ne wi&#x017F;en garte<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101440">Hie &#x017F;ol me<choice><am>&#x0304;</am><ex>n</ex></choice> nv&#x0301;w<choice><am>&#x0309;</am><ex>er</ex></choice> mere warten</l>
+<l xml:id="V_733.100441-0"><hi rend="rot"><note type="Kapitelüberschrift">Hie kvmet h<choice><am>&#x0309;</am><ex>er</ex></choice> Gawan zv&#x0366; brandalins <lb/> &#x017F;we&#x017F;t<choice><am>&#x0309;</am><ex>er</ex></choice> vn<choice><am>&#x0304;</am><ex>d</ex></choice> wu&#x0301;rt mit brandalin vehtende</note></hi></l>
+<l xml:id="V_733.101441"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: rot-blau">M</seg>Jn h<choice><am>&#x0309;</am><ex>er</ex></choice>re Gawa<choice><am>&#x0304;</am><ex>n</ex></choice> der w<choice><am>&#x0309;</am><ex>er</ex></choice>de</l>
+<l xml:id="V_733.101442">Sinnig vn<choice><am>&#x0304;</am><ex>d</ex></choice> gv&#x0366;ter geb<choice><am>&#x0309;</am><ex>er</ex></choice>de</l>
+<l xml:id="V_733.101443"><subst hand="#ls1"><del>*</del><add><hi rend="rasur">Des</hi></add></subst> morgens &#x017F;ich varendes ane na<choice><am>&#x0304;</am><ex>m</ex></choice></l>
+<l xml:id="V_733.101444">vnze daz er durch ein wa&#x017F;&#x017F;er kam</l>
+<l xml:id="V_733.101445">Daz waz niht breit tief wu&#x0301;&#x017F;&#x017F;ent daz</l>
+<l xml:id="V_733.101446">Doch niht &#x017F;cho&#x0364;ners in der welte waz</l>
+<l xml:id="V_733.101447">Dan v&#x0301;ber die matten er balde reit</l>
+<l xml:id="V_733.101448">vn<choice><am>&#x0304;</am><ex>d</ex></choice> kam in eine<choice><am>&#x0304;</am><ex>n</ex></choice> walt bekleit</l>
+<l xml:id="V_733.101449">Gelo&#x036E;bet grv&#x0364;ne er den vant</l>
+<l xml:id="V_733.101450">Daz im bi &#x017F;iner <subst hand="#ls2u"><del>zit b*</del><add>zit<hi rend="rasur">e nie bekant</hi></add></subst> <note type="Marginalie"><subst hand="#ls1u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note>^$<note>/Anm/<ref><note type="Marginalie"><subst hand="#ls1u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note></ref>[Parz]733.101450_V123rb[/Parz]:Tilgung wurde durch Rasur (<hi rend="rasur"></hi>) vorgenommen [Trsk]CPr[/Trsk]</note></l>
+<note resp="#MGe_Transkribent" target="#?1_733.101450 #V123rb"><ref><subst hand="#ls2u"><del>zit b*</del><add>zit<hi rend="rasur">e nie bekant</hi></add></subst></ref>: Diese Korrektur ist kaum als solche erkennbar. Beim zweiten Blick aber kann man noch erkennen, dass der Vers wohl ursprünglich "Daz im bi &#x017F;iner zit bekant" oder ähnlich gelautet haben muss. Das Wort "nie" kam offenbar nachträglich dazu. Es fragt sich, ob schon im vorhergehenden Vers und zwar beim Reimwort "vant" eine Korrektur aus derselben Hand vorgenommen wurde, ist aber nicht mit Sicherheit festzustellen. In Autopsie.</note>
+<l xml:id="V_733.101451">wart &#x017F;cho&#x0364;ner noch &#x017F;o wu<choice><am>&#x0304;</am><ex>n</ex></choice>ne<choice><am>&#x0304;</am><ex>n</ex></choice>klich</l>
+<l xml:id="V_733.101452">Noch <subst hand="#ls2u"><del>*</del><add><hi rend="rasur">&#x017F;enft<choice><am>&#x0309;</am><ex>er</ex></choice>s</hi></add></subst> <subst hand="#ls2u"><del>ge&#x017F;mak*o</del><add>ge&#x017F;mak<hi rend="rasur">es</hi></add></subst> <subst hand="#ls2u"><del>*</del><add><hi rend="rasur">&#x017F;o rehte</hi></add></subst> &#x017F;u&#x0364;&#x017F;eclich</l>
+<l xml:id="V_733.101453">Allen ge&#x017F;mac mo&#x0364;ht me<choice><am>&#x0304;</am><ex>n</ex></choice> do voren</l>
+<l xml:id="V_733.101454">von kru&#x0301;tere<choice><am>&#x0304;</am><ex>n</ex></choice> gv&#x0366;t die di<choice><am>&#x0304;</am><ex>n</ex></choice>ne woren</l>
+<l xml:id="V_733.101455">Gegen eime bo&#x017F;che &#x017F;ach er do</l>
+<l xml:id="V_733.101456">Zende an dem walde harte ho</l>
+<l xml:id="V_733.101457">Eine<choice><am>&#x0304;</am><ex>n</ex></choice> bo&#x036E;m der waz gelo&#x036E;bet gar</l>
+<l xml:id="V_733.101458">Gegen dem er reit vn<choice><am>&#x0304;</am><ex>d</ex></choice> kam aldar</l>
+<l xml:id="V_733.101459">Der tag waz hel in liehtem &#x017F;chine</l>
+<l xml:id="V_733.101460">vn<choice><am>&#x0304;</am><ex>d</ex></choice> der walt waz vol vo&#x0364;gelline</l>
+<l xml:id="V_733.101461">Die &#x017F;vngent gar <subst hand="#ls2u"><del>&#x017F;v&#x0364;zeklichen</del><add><hi rend="rasur">&#x017F;v&#x0364;zekliche</hi></add></subst></l>
+<l xml:id="V_733.101462">Gawan der vil tvgende <subst hand="#ls2u"><del>richen</del><add><hi rend="rasur">riche</hi></add></subst></l>
+<l xml:id="V_733.101463">verhv&#x0366;p durch ho&#x0364;ren den clang</l>
+<l xml:id="V_733.101464">von der &#x017F;v&#x0364;zer vogel &#x017F;ang</l>
+<l xml:id="V_733.101465">vn<choice><am>&#x0304;</am><ex>d</ex></choice> do er &#x017F;v&#x0301; ein lv&#x0301;zel horte</l>
+<l xml:id="V_733.101466">Sin h<choice><am>&#x0309;</am><ex>er</ex></choice>ze &#x017F;olicher vro&#x0364;ide<choice><am>&#x0304;</am><ex>n</ex></choice> vorte</l>
+<l xml:id="V_733.101467">Daz ein renne<choice><am>&#x0304;</am><ex>n</ex></choice> wart von im erzeiget</l>
+<pb xml:id="V123v"/><cb xml:id="V123va"/>
+<l xml:id="V_733.101468">Mit &#x017F;ime &#x017F;per ze reht erneiget</l>
+<l xml:id="V_733.101469">Dar nach v<choice><am>&#x0309;</am><ex>er</ex></choice>hv&#x0366;p er vf der &#x017F;lihte</l>
+<l xml:id="V_733.101470">Ge&#x017F;vnt &#x017F;tarc dvht er &#x017F;ich die rihte</l>
+<l xml:id="V_733.101471">Svs noch &#x017F;o er&#x017F;chrac er niht</l>
+<l xml:id="V_733.101472">Daz er der wunden <subst hand="#sr1u"><del>vorht*</del><add>vorht<hi rend="rasur">e iht</hi></add></subst></l>
+<l xml:id="V_733.101473"><subst hand="#sr1u"><del>Ni*</del><add>Ni<hi rend="rasur">ht mere &#x017F;parte er &#x017F;in riten</hi></add></subst></l>
+<l xml:id="V_733.101474">Zehant fv&#x0366;r er hin &#x017F;vnder biten</l>
+<l xml:id="V_733.101475">Durch den bo&#x017F;ch fv&#x0366;r er <subst hand="#ls2u"><del>*</del><add><hi rend="rasur">fu&#x0301;r&#x017F;ich</hi></add></subst></l>
+<l xml:id="V_733.101476">vnde aber durch eine<choice><am>&#x0304;</am><ex>n</ex></choice> <subst hand="#ls2u"><del>*</del><add><hi rend="rasur">behendeclich</hi></add></subst></l>
+<l xml:id="V_733.101477"><subst hand="#sr1u"><del>D*en</del><add>D<hi rend="rasur">en</hi></add></subst> dritte<choice><am>&#x0304;</am><ex>n</ex></choice> den vierde<choice><am>&#x0304;</am><ex>n</ex></choice> <subst hand="#ls1"><del>da*</del><add>da<hi rend="rasur">rnach</hi></add></subst></l>
+<l xml:id="V_733.101478">kam er .e. er har wider zoch</l>
+<l xml:id="V_733.101479"><subst hand="#ls1"><del>*</del><add><hi rend="rasur">One den weg cru&#x0301;mben iht</hi></add></subst></l>
+<l xml:id="V_733.101480"><subst hand="#sr1"><del>Da*</del><add><hi rend="rasur">Da</hi></add></subst> &#x017F;prach er durch alle ge&#x017F;chiht</l>
+<l xml:id="V_733.101481">Er niem<choice><am>&#x0309;</am><ex>er</ex></choice> zv&#x0366;me here wider keme</l>
+<l xml:id="V_733.101482">Bitz daz er fro&#x0364;mede mere v<choice><am>&#x0309;</am><ex>er</ex></choice>neme</l>
+<l xml:id="V_733.101483">Oder ander <subst hand="#ls2u"><del>oventv&#x0301;r*</del><add>oventv&#x0301;r<hi rend="rasur">e fvnde</hi></add></subst></l>
+<l xml:id="V_733.101484">JN dem gedanke zv&#x0366; der &#x017F;tvnde</l>
+<l xml:id="V_733.101485">Fv&#x0366;r er eine<choice><am>&#x0304;</am><ex>n</ex></choice> v<choice><am>&#x0309;</am><ex>er</ex></choice>ren weg fv&#x0301;rbas</l>
+<l xml:id="V_733.101486">Do ez an dem dritten <subst hand="#ls2u"><del>tag*</del><add>tag<hi rend="rasur">e waz</hi></add></subst></l>
+<l xml:id="V_733.101487"><subst hand="#ls2u"><del>wan*</del><add><hi rend="rasur">vant</hi></add></subst> er in eime walde eine</l>
+<l xml:id="V_733.101488">Ob eine<choice><am>&#x0304;</am><ex>m</ex></choice> brvnne<choice><am>&#x0304;</am><ex>n</ex></choice> lvter vn<choice><am>&#x0304;</am><ex>d</ex></choice> reine</l>
+<l xml:id="V_733.101489">Ge&#x017F;pannen ein gezelt gar riche</l>
+<l xml:id="V_733.101490">von dem die gern vn<choice><am>&#x0304;</am><ex>d</ex></choice> vettiche</l>
+<l xml:id="V_733.101491">worent vo<choice><am>&#x0304;</am><ex>n</ex></choice> fro&#x0364;meder varwe fin</l>
+<l xml:id="V_733.101492">Gemolet mit blv&#x0366;me<choice><am>&#x0304;</am><ex>n</ex></choice> vn<choice><am>&#x0304;</am><ex>d</ex></choice> mit <subst hand="#ls2u"><del>fo&#x0364;gelli<choice><am>&#x0304;</am><ex>n</ex></choice></del><add>fo&#x0364;gelli<hi rend="rasur">n</hi></add></subst></l>
+<l xml:id="V_733.101493">von wunderliche<choice><am>&#x0304;</am><ex>n</ex></choice> tieren gar</l>
+<l xml:id="V_733.101494">Obenan &#x017F;tv&#x0366;nt <subst hand="#ls1u"><del>er</del><add><hi rend="rasur">ein</hi></add></subst> gv&#x0301;ldin ar</l>
+<l xml:id="V_733.101495">vffe dem knophe wu&#x0301;&#x017F;&#x017F;ent daz</l>
+<l xml:id="V_733.101496">Der Gerwe v&#x0301;bergv&#x0301;ldet waz</l>
+<l xml:id="V_733.101497">Dar vmbe worent &#x017F;cho&#x0364;ne hv&#x0301;ttelin</l>
+<l xml:id="V_733.101498">Mit <subst hand="#ls1u"><del>*ckende<choice><am>&#x0304;</am><ex>n</ex></choice></del><add><hi rend="rasur">wol&#x017F;me</hi>ckende<choice><am>&#x0304;</am><ex>n</ex></choice></add></subst> blv&#x0366;me<choice><am>&#x0304;</am><ex>n</ex></choice> fin</l>
+<l xml:id="V_733.101499">worent &#x017F;v&#x0301; ge&#x017F;preitet durch gemach</l>
+<l xml:id="V_733.101500">Gawan zv&#x0366; im &#x017F;elber &#x017F;prach</l>
+<l xml:id="V_733.101501">Daz er niemer rv&#x0366;we geneme</l>
+<l xml:id="V_733.101502">vntz er zv&#x0366;me gezelt keme</l>
+<l xml:id="V_733.101503">Do er dar kam er abe &#x017F;az</l>
+<l xml:id="V_733.101504">Zv&#x0366; henkende er niht v<choice><am>&#x0309;</am><ex>er</ex></choice>gas</l>
+<l xml:id="V_733.101505">Sine<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;chilt an eine<choice><am>&#x0304;</am><ex>n</ex></choice> bo&#x036E;m</l>
+<l xml:id="V_733.101506">vnde daz ors mit dem zo&#x036E;m</l>
+<l xml:id="V_733.101507">Sere vnde ve&#x017F;tekliche bant</l>
+<note resp="#MGe_Transkribent" target="#733.101468 #733.101507_V123va"><ref></ref>: Die Verse 733.101468 bis 733.101507 sind sicher vom Schreiber 1 eingetragen worden. Das Schriftbild wird danach etwas unstet, bis es ab Blatt 124ra wieder regelmässiger wird. Ob Spalte 123vb vom Schreiber 3 geschrieben wird, müsste noch näher abgeklärt werden. In Autopsie.</note>
+<l xml:id="V_733.101508">Er gie in daz gezelt zehant</l>
+<l xml:id="V_733.101509">Daz offen &#x017F;tv&#x0366;nt vn<choice><am>&#x0304;</am><ex>d</ex></choice> vf geraht</l>
+<l xml:id="V_733.101510">vnde &#x017F;ach ein bette wol bedaht</l>
+<l xml:id="V_733.101511">Mit eime grv&#x0364;nen baldekin</l>
+<l xml:id="V_733.101512">Dar an &#x017F;o lag ein <subst hand="#ls1u"><del>mag*</del><add>mag<hi rend="rasur">et</hi></add></subst> fin</l>
+<l xml:id="V_733.101513">Die waz an &#x017F;chonheite riche</l>
+<l xml:id="V_733.101514">Hern Gawan do fru&#x0301;ntliche</l>
+<l xml:id="V_733.101515">Fv&#x0366;rte hu&#x0301;be&#x017F;che auentv&#x0301;re</l>
+<l xml:id="V_733.101516">Er &#x017F;prach got der gehv&#x0301;re</l>
+<cb xml:id="V123vb"/>
+<l xml:id="V_733.101517">Der grv&#x0364;z v&#x0301;ch liep min</l>
+<l xml:id="V_733.101518">Sv&#x0301; neig ir ho&#x036E;bet ir <subst hand="#sr1u"><del>antl*</del><add>antl<hi rend="rasur">itz fin</hi></add></subst></l>
+<l xml:id="V_733.101519">Ein wort &#x017F;prach nv&#x0301;t die tvgentrich</l>
+<l xml:id="V_733.101520">Her Gawan dez erkante &#x017F;ich</l>
+<l xml:id="V_733.101521">Do er liep &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch daz er v&#x0301;bergreif</l>
+<l xml:id="V_733.101522">Ein ander grv&#x0366;z im do ent&#x017F;leif</l>
+<l xml:id="V_733.101523">Er &#x017F;prach maget &#x017F;o grv&#x0364;z v&#x0301;ch d<choice><am>&#x0309;</am><ex>er</ex></choice> got</l>
+<l xml:id="V_733.101524">Der v&#x0301;ch &#x017F;o &#x017F;cho&#x0364;ne gemachet hot</l>
+<l xml:id="V_733.101525">Sv&#x0301; &#x017F;prach der do ge&#x017F;chv&#x0366;f <subst hand="#sr1u"><del>ber*</del><add>ber<hi rend="rasur">g vn<choice><am>&#x0304;</am><ex>d</ex></choice> plo<choice><am>&#x0304;</am><ex>n</ex></choice></hi></add></subst></l>
+<l xml:id="V_733.101526">Der behu&#x0364;te vn<choice><am>&#x0304;</am><ex>d</ex></choice> gru&#x0364;ze h<choice><am>&#x0309;</am><ex>er</ex></choice>n Gawon</l>
+<l xml:id="V_733.101527">vn<choice><am>&#x0304;</am><ex>d</ex></choice> v&#x0301;ch darnoch er behu&#x0364;te</l>
+<l xml:id="V_733.101528">Nv &#x017F;agent mir durch v&#x0301;w<choice><am>&#x0309;</am><ex>er</ex></choice> gv&#x0364;te</l>
+<l xml:id="V_733.101529">Reine maget waz meinent ir</l>
+<l xml:id="V_733.101530">Daz ir niht .e. gru&#x0366;z geltent mir</l>
+<l xml:id="V_733.101531">De<choice><am>&#x0304;</am><ex>n</ex></choice>ne hern Gawan waz meinet daz</l>
+<l xml:id="V_733.101532">Jch wu&#x0301;&#x017F;t ez gerne fv&#x0301;rbas</l>
+<l xml:id="V_733.101533">Ob ez v&#x0301;w<choice><am>&#x0309;</am><ex>er</ex></choice> wille wer</l>
+<l xml:id="V_733.101534">Ze <subst hand="#sr1u"><del>*&#x017F;wigende</del><add><hi rend="rasur">v<choice><am>&#x0309;</am><ex>er</ex></choice></hi>&#x017F;wigende</add></subst> h<choice><am>&#x0309;</am><ex>er</ex></choice>re Jch ez nv&#x0301;t ger</l>
+<l xml:id="V_733.101535">wer ez an v&#x0301;w<choice><am>&#x0309;</am><ex>er</ex></choice>em wille<choice><am>&#x0304;</am><ex>n</ex></choice> iht</l>
+<l xml:id="V_733.101536">Herre ich v<choice><am>&#x0309;</am><ex>er</ex></choice>hil ez v&#x0301;ch niht</l>
+<l xml:id="V_733.101537">Svz antwu&#x0301;rt ich mime <subst hand="#ls1"><del>*</del><add><hi rend="rasur">vetterlin</hi></add></subst></l>
+<l xml:id="V_733.101538">Al&#x017F; v&#x0301;ch vn<choice><am>&#x0304;</am><ex>d</ex></choice> o&#x036E;ch dem brv&#x0366;der min</l>
+<l xml:id="V_733.101539">wand er i&#x017F;t ritt<choice><am>&#x0309;</am><ex>er</ex></choice>&#x017F;chefte ein <subst hand="#sr1u"><del>kern*</del><add>kern<hi rend="rasur">e</hi></add></subst> <note type="Marginalie"><subst hand="#sr1u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note>^$<note>/Anm/<ref><note type="Marginalie"><subst hand="#sr1u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note></ref>[Parz]733.101539_V123vb[/Parz]:Tilgung wurde durch Rasur (<hi rend="rasur"></hi>) vorgenommen [Trsk]CPr[/Trsk]</note></l>
+<l xml:id="V_733.101540">vnde wu&#x0301;&#x017F;&#x017F;ent daz ich v&#x0301;ch gar gerne</l>
+<l xml:id="V_733.101541">Dez die worheit v<choice><am>&#x0309;</am><ex>er</ex></choice>iehen wil</l>
+<l xml:id="V_733.101542">wand ich ez v&#x0301;ch niht v<choice><am>&#x0309;</am><ex>er</ex></choice>hil</l>
+<l xml:id="V_733.101543">wi&#x017F;&#x017F;ent ez <subst hand="#sr1u"><del>*</del><add><hi rend="rasur">i&#x017F;t nv</hi></add></subst> wol zwei ior</l>
+<l xml:id="V_733.101544">vnde o&#x036E;ch vil me on allen vor</l>
+<l xml:id="V_733.101545">Daz ich von im horte &#x017F;agen</l>
+<l xml:id="V_733.101546">vil <subst hand="#sr1u"><del>gv&#x0366;te</del><add>gv&#x0366;ter</add></subst> mere &#x017F;vnder v<choice><am>&#x0309;</am><ex>er</ex></choice>tagen</l>
+<l xml:id="V_733.101547">wand an im i&#x017F;t me miltikeit</l>
+<l xml:id="V_733.101548">Sinne <subst hand="#sr1u"><del>*</del><add><hi rend="rasur">vil zv&#x0301;hte</hi></add></subst> vn<choice><am>&#x0304;</am><ex>d</ex></choice> o&#x036E;ch manheit</l>
+<l xml:id="V_733.101549">De<choice><am>&#x0304;</am><ex>n</ex></choice>ne an keime ritt<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;icherlich</l>
+<l xml:id="V_733.101550">Do von me im danken ich</l>
+<l xml:id="V_733.101551">Denne ieman oder dem vatter min</l>
+<l xml:id="V_733.101552">Jo vil edele maget vn<choice><am>&#x0304;</am><ex>d</ex></choice> fin</l>
+<l xml:id="V_733.101553">Min na<choice><am>&#x0304;</am><ex>m</ex></choice>me wart v<choice><am>&#x0309;</am><ex>er</ex></choice>holen nie</l>
+<l xml:id="V_733.101554">wo men mich &#x017F;in vroget ie</l>
+<l xml:id="V_733.101555"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: blau-rot">N</seg>v bit ich v&#x0301;ch liep reine fruht</l>
+<l xml:id="V_733.101556">Daz ir mich mi<choice><am>&#x0304;</am><ex>n</ex></choice>nent durch v&#x0301;w<choice><am>&#x0309;</am><ex>er</ex></choice> zvht</l>
+<l xml:id="V_733.101557">Jch hei&#x017F;&#x017F;e Gawan &#x017F;v&#x0301; &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch Gawon</l>
+<l xml:id="V_733.101558">Daz gelo&#x036E;b ich niht. liep &#x017F;vnder won</l>
+<l xml:id="V_733.101559">Jch bins daz &#x017F;i v&#x0301;ch &#x017F;icher kvnt</l>
+<l xml:id="V_733.101560">Frv&#x0301;nt &#x017F;o entwefent v&#x0301;ch ze&#x017F;tunt</l>
+<l xml:id="V_733.101561">wol bevind ich ob ez i&#x017F;t wor</l>
+<l xml:id="V_733.101562">An v&#x0301;w<choice><am>&#x0309;</am><ex>er</ex></choice>re be&#x017F;cho&#x0364;fede offenbar</l>
+<l xml:id="V_733.101563">Gerne &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch er reine maget</l>
+<l xml:id="V_733.101564">Frv&#x0301;nt tv&#x0366;nd ez vnu<choice><am>&#x0309;</am><ex>er</ex></choice>&#x017F;aget</l>
+<l xml:id="V_733.101565">So gon ich in die kamer min</l>
+<note resp="#MGe_Transkribent"><ref></ref>[Parz]V123vb[/Parz]: Am unteren Blattrand unterhalb der rechten Spalte ist ein Kreuz als Marginalie erkennbar, die beim (Neu?)Binden der Handschrift leicht abgeschnitten wurde. Um welche Art von Hinweis es sich hierbei wohl handelt? Ist es womöglich eine Korrekturanweisung oder ein Zeichen für die beendete Korrektur? Vielleicht hängt sie mit dem erfolgten Schreiberwechsel zusammen? In Autopsie.</note>
+<pb xml:id="V124r"/><cb xml:id="V124ra"/>
+<l xml:id="V_733.101566">Do inne pru&#x0364;f ich v&#x0301;w<choice><am>&#x0309;</am><ex>er</ex></choice>en &#x017F;chin</l>
+<l xml:id="V_733.101567">Denne <subst hand="#sr1u"><del>*</del><add><hi rend="rasur">&#x017F;age</hi></add></subst> ich wol zv&#x0366; handen a<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<note resp="#MGe_Transkribent" target="#?1_733.101567 #V124ra"><ref><subst hand="#sr1u"><del>*</del><add><hi rend="rasur">&#x017F;age</hi></add></subst></ref>: Unter der Korrektur ist ein "e"-Supraskript und ein kleines Einfügezeichen zu erkennen. Vermutlich hatte der Schreiber in einem ersten Korrekturgang das "e" als Supraskript ergänzt und in einem zweiten Durchgang die Rasur selbst vorgenommen und somit das "e" als normalen Buchstaben in den regulären Verstext integriert. Es handelt sich folglich um eine ästhetische Korrektur oder um eine Korrektur im Sinne der besseren Lesbarkeit. In Autopsie.</note>
+<l xml:id="V_733.101568">H<choice><am>&#x0309;</am><ex>er</ex></choice>re min ob ir &#x017F;int Gawan</l>
+<l xml:id="V_733.101569">Er lobet ez ir &#x017F;v&#x0301; gie zehant</l>
+<l xml:id="V_733.101570">Do gemaht ans gezeltz want</l>
+<l xml:id="V_733.101571">waz eine kamer vil reine</l>
+<l xml:id="V_733.101572">Der ingang waz harte kleine</l>
+<l xml:id="V_733.101573">Do inne hatte gemaht ein heidenin</l>
+<l xml:id="V_733.101574">Die waz ge&#x017F;in bi der kv&#x0301;nigin</l>
+<l xml:id="V_733.101575">Gynoferen <subst hand="#sr1u"><del>*</del><add><hi rend="rasur">der hohen vn<choice><am>&#x0304;</am><ex>d</ex></choice> die here</hi></add></subst></l>
+<note resp="#MGe_Transkribent" target="#?1_733.101575 #V124ra"><ref><subst hand="#sr1u"><del>*</del><add><hi rend="rasur">der hohen vn<choice><am>&#x0304;</am><ex>d</ex></choice> die here</hi></add></subst></ref>: Am rechten Rand des korrigierten Verses erstreckt sich vertikal ein verwischter roter Strich bis zum darunterliegenden Vers. Dieser könnte womöglich als Marginalie gedient haben. In Autopsie.</note>
+<l xml:id="V_733.101576">Eine li&#x017F;te vo<choice><am>&#x0304;</am><ex>n</ex></choice> heiden&#x017F;cher lere</l>
+<l xml:id="V_733.101577">wol gewarht hatte &#x017F;v&#x0301; die wi&#x017F;e</l>
+<l xml:id="V_733.101578">Dar an entworfen waz zv&#x0366; pri&#x017F;e</l>
+<l xml:id="V_733.101579">H<choice><am>&#x0309;</am><ex>er</ex></choice>n Gawans ge&#x017F;cho&#x0364;fede gar</l>
+<l xml:id="V_733.101580">Do mo&#x0364;hte men wol neme<choice><am>&#x0304;</am><ex>n</ex></choice> war</l>
+<l xml:id="V_733.101581">Sin<choice><am>&#x0309;</am><ex>er</ex></choice> geberde gar gelich</l>
+<l xml:id="V_733.101582">wie er wofente vn<choice><am>&#x0304;</am><ex>d</ex></choice> entwopente &#x017F;ich</l>
+<l xml:id="V_733.101583">Sine &#x017F;chonheit &#x017F;in gemv&#x0364;te</l>
+<l xml:id="V_733.101584">Sine tvgent &#x017F;ine gv&#x0364;te</l>
+<l xml:id="V_733.101585">Diz alle&#x017F;&#x017F;ament wu&#x0301;&#x017F;&#x017F;ent daz</l>
+<l xml:id="V_733.101586">So eiginlich entworfen was</l>
+<l xml:id="V_733.101587">Noch h<choice><am>&#x0309;</am><ex>er</ex></choice>n Gawans ge&#x017F;cho&#x0364;phede &#x017F;chin</l>
+<l xml:id="V_733.101588">Daz ez niht glicher mo&#x0364;hte &#x017F;in</l>
+<l xml:id="V_733.101589">Die maget gondes niht v<choice><am>&#x0309;</am><ex>er</ex></choice>gas</l>
+<l xml:id="V_733.101590">v&#x017F;&#x017F;er der kamer do &#x017F;v&#x0301; waz</l>
+<l xml:id="V_733.101591">vnde &#x017F;ach den fv&#x0301;r&#x017F;ten wopen bar</l>
+<l xml:id="V_733.101592">Sv&#x0301; nam &#x017F;in fli&#x017F;&#x017F;ekliche<choice><am>&#x0304;</am><ex>n</ex></choice> war</l>
+<l xml:id="V_733.101593">An <subst hand="#ls1u"><del>antlvtz</del><add><hi rend="rasur">antly&#x0307;tz</hi></add></subst> an geb<choice><am>&#x0309;</am><ex>er</ex></choice>de</l>
+<l xml:id="V_733.101594">Sv&#x0301; &#x017F;ach daz ez waz der w<choice><am>&#x0309;</am><ex>er</ex></choice>de</l>
+<l xml:id="V_733.101595">Sv&#x0301; gie vn<choice><am>&#x0304;</am><ex>d</ex></choice> hel&#x017F;et in ze &#x017F;tvnt</l>
+<l xml:id="V_733.101596">Sv&#x0301; kv&#x017F;t im wangen vn<choice><am>&#x0304;</am><ex>d</ex></choice> de<choice><am>&#x0304;</am><ex>n</ex></choice> mu<choice><am>&#x0304;</am><ex>n</ex></choice>t</l>
+<l xml:id="V_733.101597">wol zehen&#x017F;tvnt in kvrzer fri&#x017F;t</l>
+<l xml:id="V_733.101598">Liep sp<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch &#x017F;v&#x0301; &#x017F;it ez al&#x017F; i&#x017F;t</l>
+<l xml:id="V_733.101599">Min lip zo&#x036E; eigin &#x017F;i v&#x0301;ch gegebe<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101600">v&#x0301;wer wil ich &#x017F;in alles min lebe<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101601">vnde ich min &#x017F;v&#x0364;zes liep enphahe</l>
+<l xml:id="V_733.101602">Frv&#x0301;ntlich wen ich ez nv&#x0301;t v<choice><am>&#x0309;</am><ex>er</ex></choice>&#x017F;mahe</l>
+<l xml:id="V_733.101603">Di&#x017F;e vil w<choice><am>&#x0309;</am><ex>er</ex></choice>de gobe riche</l>
+<l xml:id="V_733.101604">Die liebe min vo&#x0364;llekliche</l>
+<l xml:id="V_733.101605">Gip ich an v&#x0301;ch ane argen li&#x017F;t</l>
+<l xml:id="V_733.101606">Ob ez v&#x0301;ch liep gevellig i&#x017F;t</l>
+<l xml:id="V_733.101607">Mit kv&#x0301;&#x017F;&#x017F;ende &#x017F;o erwarp er vil</l>
+<l xml:id="V_733.101608">Gezo&#x0364;genliche der <subst hand="#sr1u"><del>mi<choice><am>&#x0304;</am><ex>n</ex></choice>ne</del><add>mi<choice><am>&#x0304;</am><ex>n</ex></choice>ne<choice><am>&#x0304;</am><ex>n</ex></choice></add></subst> &#x017F;pil</l>
+<note resp="#MGe_Transkribent" target="#?1_733.101608 #V124ra"><ref><subst hand="#sr1u"><del>mi<choice><am>&#x0304;</am><ex>n</ex></choice>ne</del><add>mi<choice><am>&#x0304;</am><ex>n</ex></choice>ne<choice><am>&#x0304;</am><ex>n</ex></choice></add></subst></ref>: Diese Korrektur muss nicht zwingend als solche gelesen werden. Der Nasalstrich über dem "e" könnte auch durch einen Wasserspritzer oder die Rasur im Folgevers derart verwischt worden sein.</note>
+<l xml:id="V_733.101609">Sv&#x0301; <subst hand="#ls2u"><del>r*t</del><add>r<hi rend="rasur">etten</hi>t</add></subst> zv&#x0366; enander gnv&#x0366;g</l>
+<l xml:id="V_733.101610">vnde lachete<choice><am>&#x0304;</am><ex>n</ex></choice>t frv&#x0301;ntlich mit gefv&#x0366;g</l>
+<l xml:id="V_733.101611">Jr megede nam v<choice><am>&#x0309;</am><ex>er</ex></choice>lor &#x017F;v&#x0301; &#x017F;am</l>
+<l xml:id="V_733.101612">Ju<choice><am>&#x0304;</am><ex>n</ex></choice>cfrowe vn<choice><am>&#x0304;</am><ex>d</ex></choice> liep hei&#x017F;&#x017F;et nv ir nam.</l>
+<l xml:id="V_733.101613">vnde ob er vo<choice><am>&#x0304;</am><ex>n</ex></choice> ir &#x017F;chiet fv&#x0301;rwar</l>
+<l xml:id="V_733.101614">Er &#x017F;eit ir zil &#x017F;tvnde offenbar</l>
+<note resp="#MGe_Transkribent" target="#?1_733.101614 #V124ra"><ref>zil &#x017F;tvnde offenbar</ref>: Die Lesbarkeit des Versendes ist hier durch die Rasur und Überklebung eines auf der verso-Seite gelegenen Verses etwas beeinträchtigt. In diesem Vers hier liegt keine Rasur vor. In Autopsie.</note>
+<cb xml:id="V124rb"/>
+<l xml:id="V_733.101615">Wenne er &#x017F;v&#x0301; holen &#x017F;olte</l>
+<l xml:id="V_733.101616">vnde mit im fv&#x0364;ren wolte</l>
+<l xml:id="V_733.101617">Scho&#x0364;n tet er &#x017F;ine<choice><am>&#x0304;</am><ex>n</ex></choice> harne&#x017F;ch an</l>
+<l xml:id="V_733.101618">vrlop nam er vn<choice><am>&#x0304;</am><ex>d</ex></choice> &#x017F;chiet vo<choice><am>&#x0304;</am><ex>n</ex></choice> dan</l>
+<l xml:id="V_733.101619">Enweg reit er mit fro&#x0364;iden &#x017F;tv&#x0301;re</l>
+<l xml:id="V_733.101620">Nv ho&#x0364;rent vort &#x017F;tark oventv&#x0301;re</l>
+<l xml:id="V_733.101621"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: rot-blau">D</seg>er Ju<choice><am>&#x0304;</am><ex>n</ex></choice>cfrowen vatter vnv<choice><am>&#x0309;</am><ex>er</ex></choice>zaget</l>
+<l xml:id="V_733.101622">kam ins gezelt vn<choice><am>&#x0304;</am><ex>d</ex></choice> sp<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch vermaget</l>
+<l xml:id="V_733.101623">Der w<choice><am>&#x0309;</am><ex>er</ex></choice>de got der <subst hand="#sr1u"><del>mach*</del><add>mach<hi rend="rasur">e v&#x0301;ch</hi></add></subst> fro</l>
+<note resp="#MGe_Transkribent" target="#?1_733.101623 #V124rb"><ref><subst hand="#sr1u"><del>mach*</del><add>mach<hi rend="rasur">e v&#x0301;ch</hi></add></subst></ref>: Unter der Korrektur ist ein "e"-Supraskript und ein kleines Einfügezeichen zu erkennen. Vermutlich hatte der Schreiber in einem ersten Korrekturgang das "e" als Supraskript ergänzt und in einem zweiten Durchgang die Rasur selbst vorgenommen und somit das "e" als normalen Buchstaben in den regulären Verstext integriert. Es handelt sich folglich um eine ästhetische Korrektur oder um eine Korrektur im Sinne der besseren Lesbarkeit. In Autopsie.</note>
+<l xml:id="V_733.101624">Der do wonet vf dem himel ho</l>
+<l xml:id="V_733.101625">Sv&#x0301; neiget ir antzly&#x0307;tz nider</l>
+<l xml:id="V_733.101626">vnde entwu&#x0301;rt im niht wider</l>
+<l xml:id="V_733.101627">Darnach ir vatter aber &#x017F;prach</l>
+<l xml:id="V_733.101628">Toht<choice><am>&#x0309;</am><ex>er</ex></choice> min got <subst hand="#ls2u"><del>*</del><add><hi rend="rasur">gebe</hi></add></subst> v&#x0301;ch gemach</l>
+<l xml:id="V_733.101629">Do &#x017F;prach &#x017F;v&#x0301; lieber vatt<choice><am>&#x0309;</am><ex>er</ex></choice> gv&#x0366;t</l>
+<l xml:id="V_733.101630">Got <subst hand="#ls2u"><del>g*b</del><add><hi rend="rasur">gebe</hi></add></subst> v&#x0301;ch leben vn<choice><am>&#x0304;</am><ex>d</ex></choice> mv&#x0366;t</l>
+<note resp="#MGe_Transkribent" target="#?1_733.101630 #V124rb"><ref><subst hand="#ls2u"><del>*</del><add><hi rend="rasur">gebe</hi></add></subst></ref>: Unter der Korrektur sind noch die ursprünglichen Buchstaben "g" und "b" zu erkennen, die wohl ursprünglich das Wort "gib" bildeten. Dieses wurde offenbar in einem späteren Korrekturgang (vgl. Tintenfarbe) zu "gebe" korrigiert. Dasselbe Verfahren scheint in Vers 733.101628 angewendet worden zu sein. Liegt eventuell eine dialektale Färbung vor? In Autopsie.</note>
+<l xml:id="V_733.101631">v&#x0301;ch zv&#x0366; tohter <subst hand="#ls2"><del>*</del><add><hi rend="rasur"><hi rend="klebung">mi<choice><am>&#x0304;</am><ex>n</ex></choice> her</hi>ze giht</hi></add></subst></l>
+<l xml:id="V_733.101632">Aber bin ich maget niht</l>
+<l xml:id="V_733.101633">Ach toht<choice><am>&#x0309;</am><ex>er</ex></choice> w<choice><am>&#x0309;</am><ex>er</ex></choice> hat daz geton</l>
+<l xml:id="V_733.101634">Ez tet min frv&#x0301;nt h<choice><am>&#x0309;</am><ex>er</ex></choice> Gawon</l>
+<l xml:id="V_733.101635">Niht lang i&#x017F;t daz er hi<choice><am>&#x0304;</am><ex>x</ex></choice>nna<choice><am>&#x0304;</am><ex>n</ex></choice> reit</l>
+<l xml:id="V_733.101636">Mine<choice><am>&#x0304;</am><ex>n</ex></choice> magettv&#x0366;m er mit im treit</l>
+<l xml:id="V_733.101637">Lange &#x017F;eit ich <subst hand="#ls1"><del>*</del><add><hi rend="rasur">v&#x0301;ch one wider &#x017F;treben</hi></add></subst></l>
+<l xml:id="V_733.101638"><subst hand="#ls2"><del>D*</del><add>D<hi rend="rasur">az ich i<choice><am>&#x0304;</am><ex>n</ex></choice></hi></add></subst> im wolte geben <note type="Marginalie"><subst hand="#ls2u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note>^$<note>/Anm/<ref><note type="Marginalie"><subst hand="#ls2u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note></ref>[Parz]733.101638_V124rb[/Parz]:Tilgung durch Rasur (<hi rend="rasur"></hi>) vorgenommen [Trsk]CG[/Trsk]</note></l>
+<l xml:id="V_733.101639">Do ez der vatter erhorte zehant</l>
+<l xml:id="V_733.101640">Des or&#x017F;es kopf er vmbe want</l>
+<l xml:id="V_733.101641">vnde kerte vz dem gezelt rich</l>
+<l xml:id="V_733.101642">Durch Gawan vinden &#x017F;ich<choice><am>&#x0309;</am><ex>er</ex></choice>lich</l>
+<l xml:id="V_733.101643">Dem hv&#x0366;p&#x017F;lage &#x017F;purt er noch</l>
+<l xml:id="V_733.101644">vnze daz er Gawan erzoch</l>
+<l xml:id="V_733.101645">Zwi&#x017F;chent zwein bo&#x0364;&#x017F;chen vf eime plon</l>
+<l xml:id="V_733.101646">Al&#x017F;us kam er zv&#x0366; h<choice><am>&#x0309;</am><ex>er</ex></choice>n Gawon</l>
+<l xml:id="V_733.101647">Der reit gedenkende an &#x017F;ine amie</l>
+<l xml:id="V_733.101648">Zv&#x0366; im &#x017F;prach der vil hohe vrie</l>
+<l xml:id="V_733.101649">verreter ir mo&#x0364;gent nv&#x0301;t von mir</l>
+<l xml:id="V_733.101650">vil tv&#x0301;re gelte<choice><am>&#x0304;</am><ex>n</ex></choice> mv&#x0364;zent ir</l>
+<l xml:id="V_733.101651">Den tot mins brv&#x0366;ders &#x017F;vnder won</l>
+<l xml:id="V_733.101652">vnde den &#x017F;chaden de<choice><am>&#x0304;</am><ex>n</ex></choice> ir mir hant geton</l>
+<l xml:id="V_733.101653">An der vil lieben toht<choice><am>&#x0309;</am><ex>er</ex></choice> min</l>
+<l xml:id="V_733.101654">Gawan in dem &#x017F;inne &#x017F;in</l>
+<l xml:id="V_733.101655">Dohte an der rede v<choice><am>&#x0309;</am><ex>er</ex></choice>lieren</l>
+<l xml:id="V_733.101656">Jedoch begond er &#x017F;mieren</l>
+<l xml:id="V_733.101657">vnde &#x017F;prach herre wu&#x0301;&#x017F;&#x017F;ent das</l>
+<l xml:id="V_733.101658">Jr mo&#x0364;hte<choice><am>&#x0304;</am><ex>n</ex></choice>t wol reden bas</l>
+<l xml:id="V_733.101659">wan ich tet v&#x0301;ch kein vnreht nie</l>
+<l xml:id="V_733.101660">Het ich es geton &#x017F;o wer ich hie</l>
+<l xml:id="V_733.101661">Ze tv&#x0366;nde ein reht al&#x017F; vn&#x017F; mag <subst hand="#sr1u"><del>z*</del><add><hi rend="rasur">geze<choice><am>&#x0304;</am><ex>m</ex></choice>men</hi></add></subst></l>
+<note resp="#MGe_Transkribent" target="#?1_733.101661 #V124rb"><ref>[k]z*[sr1?]<hi rend="rasur">geze<choice><am>&#x0304;</am><ex>m</ex></choice>men</hi>[/ls1?][/k]</ref>: Ursprünglich wohl Korrektur von "zemmen" zu "geze<choice><am>&#x0304;</am><ex>m</ex></choice>men". In Autopsie.</note>
+<l xml:id="V_733.101662">went ir be&#x017F;&#x017F;eru<choice><am>&#x0304;</am><ex>n</ex></choice>ge do vo<choice><am>&#x0304;</am><ex>n</ex></choice> ne<choice><am>&#x0304;</am><ex>m</ex></choice>men</l>
+<l xml:id="V_733.101663">So daz v&#x0301;wer fru&#x0301;nt vn<choice><am>&#x0304;</am><ex>d</ex></choice> die mine</l>
+<pb xml:id="V124v"/><cb xml:id="V124va"/>
+<l xml:id="V_733.101664">Beliben mo&#x0364;gent in eren &#x017F;chine</l>
+<l xml:id="V_733.101665">Aber verretni&#x017F;&#x017F;e w<choice><am>&#x0309;</am><ex>er</ex></choice> ich mich</l>
+<l xml:id="V_733.101666">Daz ros hiewe er vn<choice><am>&#x0304;</am><ex>d</ex></choice> nam fv&#x0301;r&#x017F;ich</l>
+<l xml:id="V_733.101667">Den &#x017F;chilt al&#x017F; im wol gezam</l>
+<l xml:id="V_733.101668">Ginre o&#x036E;ch vil <subst hand="#ls1u"><del>zo*</del><add>zo&#x0364;rnliche kam<hi rend="rasur"></hi></add></subst></l>
+<l xml:id="V_733.101669">Bereit durch &#x017F;lahen an de<choice><am>&#x0304;</am><ex>n</ex></choice> fru<choice><am>&#x0304;</am><ex>m</ex></choice>men</l>
+<l xml:id="V_733.101670">Al&#x017F;e balde die ors mo&#x0364;htent komen</l>
+<l xml:id="V_733.101671"><subst hand="#ls1u"><del>H*t</del><add>H<hi rend="rasur">atte<choice><am>&#x0304;</am><ex>n</ex></choice></hi></add></subst> &#x017F;v&#x0301; ze&#x017F;amene &#x017F;ich gezilt</l>
+<note resp="#MGe_Transkribent" target="#?1_733.101671 #V124va"><ref><subst hand="#ls1u"><del>H*t</del><add>H<hi rend="rasur">atte<choice><am>&#x0304;</am><ex>n</ex></choice></hi></add></subst></ref>: Ursprünglich wohl eine Korrektur von "hat" zu "hatten". Ein rasiertes "t" ist noch erkennbar. In Autopsie.</note>
+<l xml:id="V_733.101672">Ginre traf Gawan an &#x017F;ine<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;chilt</l>
+<l xml:id="V_733.101673">So daz daz &#x017F;per alles zerbrach</l>
+<l xml:id="V_733.101674">Die &#x017F;prizen toten manigen krach</l>
+<l xml:id="V_733.101675">Her Gawan galt im daz ze&#x017F;tvnt</l>
+<l xml:id="V_733.101676">So &#x017F;tarken &#x017F;tich tet er im kvnt</l>
+<l xml:id="V_733.101677"><subst hand="#ls1"><del>*t</del><add><hi rend="rasur">Al&#x017F;o</hi></add></subst> daz &#x017F;per vn<choice><am>&#x0304;</am><ex>d</ex></choice> <subst hand="#ls1"><del>*ge</del><add><hi rend="rasur">die ri<choice><am>&#x0304;</am><ex>n</ex></choice></hi>ge</add></subst> wis</l>
+<l xml:id="V_733.101678"><subst hand="#ls1"><del>S*</del><add><hi rend="rasur">im gieng</hi></add></subst> in &#x017F;ine<choice><am>&#x0304;</am><ex>n</ex></choice> lip zv&#x0366; flis</l>
+<l xml:id="V_733.101679">Svz wart er alze &#x017F;ere wu<choice><am>&#x0304;</am><ex>n</ex></choice>t</l>
+<l xml:id="V_733.101680">Noch im <subst hand="#ls2u"><del>m*</del><add>m<hi rend="rasur">enlic<hi rend="klebung">he</hi> truhte</hi></add></subst> er ze&#x017F;tv<choice><am>&#x0304;</am><ex>n</ex></choice>t</l>
+<note resp="#MGe_Transkribent" target="#?1_733.101680 #V124va"><ref><subst hand="#ls2u"><del>m*</del><add>m<hi rend="rasur">enlic<hi rend="klebung">he</hi> truhte</hi></add></subst></ref>: Die überklebte und neugeschriebene Stelle hier ist wohl nur die Folge der Überklebung bzw. Rasur auf der recto-Seite. In Autopsie.</note>
+<l xml:id="V_733.101681">Daz er in valte vf den plon</l>
+<l xml:id="V_733.101682">v&#x0301;bers ro&#x017F;&#x017F;es go&#x0364;ffen wolgeton</l>
+<l xml:id="V_733.101683">Gawan den helm abe bant</l>
+<l xml:id="V_733.101684">vnde reit enweg fv&#x0301;r wor zehant</l>
+<l xml:id="V_733.101685"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: blau-rot">N</seg>v ho&#x0364;rent hie wie bra<choice><am>&#x0304;</am><ex>n</ex></choice> vo<choice><am>&#x0304;</am><ex>n</ex></choice> lis</l>
+<l xml:id="V_733.101686">Ein ritter vrech vf alle wis</l>
+<l xml:id="V_733.101687">vnde brv&#x0366;der der iu<choice><am>&#x0304;</am><ex>n</ex></choice>cfrowe<choice><am>&#x0304;</am><ex>n</ex></choice> wi&#x017F;&#x017F;ent das</l>
+<l xml:id="V_733.101688">von dem gezelt do die &#x017F;cho&#x0364;ne waz</l>
+<l xml:id="V_733.101689">Maget got <subst hand="#ls2u"><del>*</del><add><hi rend="rasur">gebe</hi></add></subst> v&#x0301;ch gv&#x0366;t gemach</l>
+<l xml:id="V_733.101690">Sprach er. aber &#x017F;v&#x0301; nv&#x0301;zv&#x0301;t iach</l>
+<l xml:id="V_733.101691">vn<choice><am>&#x0304;</am><ex>d</ex></choice> er &#x017F;p<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>ch aber &#x017F;we&#x017F;t<choice><am>&#x0309;</am><ex>er</ex></choice> gv&#x0366;t</l>
+<l xml:id="V_733.101692">Got tv&#x0366; v&#x0301;wer h<choice><am>&#x0309;</am><ex>er</ex></choice>ze hoch gemv&#x0366;t</l>
+<l xml:id="V_733.101693">Al&#x017F; ez begert vn<choice><am>&#x0304;</am><ex>d</ex></choice> billich &#x017F;ol</l>
+<l xml:id="V_733.101694">wan ez dunkte mich leides vol</l>
+<l xml:id="V_733.101695">Brv&#x0366;der v&#x0301;wer &#x017F;we&#x017F;ter ich bin</l>
+<l xml:id="V_733.101696">Sprach &#x017F;v&#x0301; doch wu&#x0301;&#x017F;&#x017F;ent mine<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;in</l>
+<l xml:id="V_733.101697">Jch bin nicht <subst hand="#ls2u"><del>ma*</del><add>ma<hi rend="rasur">get me</hi></add></subst> &#x017F;amir got</l>
+<l xml:id="V_733.101698">Ach &#x017F;we&#x017F;t<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;agent irs in &#x017F;pot</l>
+<l xml:id="V_733.101699">Nein wan ez i&#x017F;t &#x017F;icherlich</l>
+<l xml:id="V_733.101700">wer tet v&#x0301;ch daz lont wu&#x0301;&#x017F;&#x017F;en mich</l>
+<l xml:id="V_733.101701">Ez tet h<choice><am>&#x0309;</am><ex>er</ex></choice> Gawan brv&#x0366;der <unclear reason="Zweifel"><subst hand="#ls2"><del>*</del><add><hi rend="rasur">her</hi></add></subst></unclear></l>
+<l xml:id="V_733.101702">Dez wart er zornig <subst hand="#ls2"><del>h*</del><add>h<hi rend="rasur">art<hi rend="klebung">e &#x017F;er</hi></hi></add></subst></l>
+<l xml:id="V_733.101703">Dez ro&#x017F;&#x017F;es zo&#x036E;m er vmbe zoch</l>
+<l xml:id="V_733.101704">vnde zogete balde Gawan noch</l>
+<l xml:id="V_733.101705">Mit &#x017F;porn&#x017F;legen manigvalt</l>
+<l xml:id="V_733.101706">Svs kam er &#x017F;chiere fv&#x0301;r den walt</l>
+<l xml:id="V_733.101707">Der &#x017F;tro&#x017F;&#x017F;en nam er <subst hand="#ls2"><del>*gnote</del><add><hi rend="rasur"><hi rend="klebung">wa</hi>r genote</hi></add></subst></l>
+<note resp="#MGe_Transkribent" target="#?1_733.101707 #V124va"><ref><subst hand="#ls2"><del>*gnote</del><add><hi rend="rasur"><hi rend="klebung">wa</hi>r genote</hi></add></subst></ref>: Das rasierte Wort "gnote" ist noch erkennbar und reicht über das korrigierte Versende um etwa 1,5 Zentimeter hinaus.</note>
+<l xml:id="V_733.101708">Zem vatter kam er vn<choice><am>&#x0304;</am><ex>d</ex></choice> frote</l>
+<l xml:id="V_733.101709">wer mit im mo&#x0364;hte han ge&#x017F;tritten</l>
+<l xml:id="V_733.101710">Svn der tv&#x0301;vel mir <subst hand="#ls2"><del>*</del><add><hi rend="rasur">i&#x017F;t widerritten</hi></add></subst></l>
+<l xml:id="V_733.101711">Ez i&#x017F;t nv&#x0301;t lang ez waz Gawan</l>
+<l xml:id="V_733.101712">Der valte mich vf di&#x017F;en plan</l>
+<cb xml:id="V124vb"/>
+<l xml:id="V_733.101713">Holent mir min ors dort vf dem cle</l>
+<l xml:id="V_733.101714">So zog ich hin mir i&#x017F;t gar we</l>
+<note resp="#MGe_Transkribent" target="#?1_733.101714 #V124vb"><ref>we</ref>: Die hier zuerst vermutete Rasur ist gar keine. Das Wort ist deshalb leicht verschwommen, weil auf der vorhergehenden recto-Seite an ebendieser Stelle rasiert wurde. In Autopsie.</note>
+<l xml:id="V_733.101715">Zwor vatter des entv&#x0366;n ich niht</l>
+<l xml:id="V_733.101716">Jch wil dem verreter noch <subst hand="#ls2"><del>w*</del><add>w<hi rend="rasur">z mir ge&#x017F;chiht</hi></add></subst></l>
+<l xml:id="V_733.101717">Dvrch rechen mines vett<choice><am>&#x0309;</am><ex>er</ex></choice>en tot</l>
+<l xml:id="V_733.101718">Er gilt v&#x0366;ch tv&#x0301;re v&#x0301;w<choice><am>&#x0309;</am><ex>er</ex></choice> not</l>
+<l xml:id="V_733.101719">Jn hohen &#x017F;prv&#x0301;ngen er hin reit</l>
+<l xml:id="V_733.101720">Dvrch bo&#x0364;&#x017F;che vnde durch velde breit</l>
+<l xml:id="V_733.101721">Der hv&#x0366;pf&#x017F;lege war er nam</l>
+<l xml:id="V_733.101722">An eines bo&#x036E;me&#x017F; &#x017F;chet er kam</l>
+<l xml:id="V_733.101723">Do &#x017F;pv&#x0301;rt er hern Gawan</l>
+<l xml:id="V_733.101724">Er &#x017F;chrei in an ze handen a<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101725">verreter ir kvment nv&#x0301;t vo<choice><am>&#x0304;</am><ex>n</ex></choice> mir</l>
+<l xml:id="V_733.101726">Den tot mins vetter geltent ir</l>
+<l xml:id="V_733.101727">Den ir mit vnrehte hant er&#x017F;terbet</l>
+<l xml:id="V_733.101728">Mine<choice><am>&#x0304;</am><ex>n</ex></choice> vatter hv&#x0301;tte o&#x036E;ch v<choice><am>&#x0309;</am><ex>er</ex></choice>derbet</l>
+<l xml:id="V_733.101729">Die &#x017F;we&#x017F;t<choice><am>&#x0309;</am><ex>er</ex></choice> min ge&#x017F;chant <subst hand="#ls2"><del>*</del><add><hi rend="rasur">an dirre vart</hi></add></subst></l>
+<l xml:id="V_733.101730">we v&#x0301;ch daz &#x017F;v&#x0301; ie geboren wart</l>
+<l xml:id="V_733.101731">Durch &#x017F;v&#x0301; &#x017F;terben mv&#x0364;&#x017F;&#x017F;ent ir</l>
+<l xml:id="V_733.101732">Gawan v<choice><am>&#x0309;</am><ex>er</ex></choice>hv&#x0366;p gelo&#x036E;bent mir</l>
+<l xml:id="V_733.101733">Er &#x017F;prach her ritter daz lont hin</l>
+<l xml:id="V_733.101734">Die trv&#x0301;we ich gotte &#x017F;chuldig bin</l>
+<l xml:id="V_733.101735">wol mo&#x0364;htent ir reden zv&#x0366; mir bas</l>
+<l xml:id="V_733.101736">Jch wil be&#x017F;&#x017F;ern wu&#x0301;&#x017F;&#x017F;ent das</l>
+<l xml:id="V_733.101737">waz ich v&#x0301;ch &#x017F;chaden han geton</l>
+<l xml:id="V_733.101738">An moge an &#x017F;we&#x017F;t<choice><am>&#x0309;</am><ex>er</ex></choice> <subst hand="#ls2"><del>&#x017F;vnderwo</del><add>&#x017F;vnderwon</add></subst></l>
+<l xml:id="V_733.101739">Mit v&#x0301;w<choice><am>&#x0309;</am><ex>er</ex></choice>re frv&#x0301;nde wille gar</l>
+<l xml:id="V_733.101740">So daz ich nv&#x0301;t wurde ere<choice><am>&#x0304;</am><ex>n</ex></choice> bar</l>
+<l xml:id="V_733.101741"><subst hand="#ls2"><del>w*</del><add><hi rend="rasur">vnde ez minen frv&#x0301;nden nv&#x0301;t la&#x017F;ter were</hi></add></subst></l>
+<l xml:id="V_733.101742">Aber zehant one ander mere</l>
+<l xml:id="V_733.101743">von v<choice><am>&#x0309;</am><ex>er</ex></choice>retni&#x017F;&#x017F;e wer ich mich</l>
+<l xml:id="V_733.101744">Ze &#x017F;tvnt one rede &#x017F;icherlich</l>
+<l xml:id="V_733.101745">Neigetent &#x017F;v&#x0301; die &#x017F;tarken <subst hand="#ls2"><del>*</del><add><hi rend="rasur">&#x017F;per</hi></add></subst></l>
+<l xml:id="V_733.101746">Die &#x017F;chilte an <subst hand="#ls2"><del>ir</del><add>ir<choice><am>&#x0304;</am><ex>n</ex></choice></add></subst> hel&#x017F;e<choice><am>&#x0304;</am><ex>n</ex></choice> <subst hand="#ls2"><del>*</del><add><hi rend="rasur">hiengent noch ir ger</hi></add></subst></l>
+<l xml:id="V_733.101747">Die w<choice><am>&#x0309;</am><ex>er</ex></choice>den ritt<choice><am>&#x0309;</am><ex>er</ex></choice> hoch geborn</l>
+<l xml:id="V_733.101748">Beide mit den &#x017F;charpfen &#x017F;porn</l>
+<l xml:id="V_733.101749">Slv&#x0366;gen die ors in &#x017F;iten bar</l>
+<l xml:id="V_733.101750">Sv&#x0301; woren noch irn wille<choice><am>&#x0304;</am><ex>n</ex></choice> gar</l>
+<l xml:id="V_733.101751">vnde koment al&#x017F;o &#x017F;nelleklich</l>
+<l xml:id="V_733.101752">Daz zitern mv&#x0364;&#x017F;te daz ertrich</l>
+<l xml:id="V_733.101753">So daz daz fv&#x0301;r &#x017F;vnderwang</l>
+<l xml:id="V_733.101754">vil dike vz den &#x017F;teine<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;prang</l>
+<l xml:id="V_733.101755">Sv&#x0301; toten nv&#x0301;t ju&#x017F;te <subst hand="#ls2"><del>durc*</del><add>durc<hi rend="rasur">h hovieren</hi></add></subst></l>
+<l xml:id="V_733.101756">vor vrowen noch durch zieren</l>
+<l xml:id="V_733.101757">Jr renne<choice><am>&#x0304;</am><ex>n</ex></choice> wit &#x017F;v&#x0301; nom<choice><am>&#x0304;</am><ex>en</ex></choice></l>
+<l xml:id="V_733.101758">Mit neigenden &#x017F;pern &#x017F;v&#x0301; kom<choice><am>&#x0304;</am><ex>en</ex></choice></l>
+<l xml:id="V_733.101759">Jewederre ein tege<choice><am>&#x0304;</am><ex>n</ex></choice> was</l>
+<l xml:id="V_733.101760">Mit lo&#x036E;ffenden or&#x017F;en wu&#x0301;&#x017F;&#x017F;ent das</l>
+<l xml:id="V_733.101761"><subst hand="#ls2"><del>H*</del><add><hi rend="rasur">Sv&#x0301; <hi rend="klebung">&#x017F;o &#x017F;tercliche</hi>n einander &#x017F;tochent</hi></add></subst></l>
+<pb xml:id="V125r"/><cb xml:id="V125ra"/>
+<l xml:id="V_733.101762">Daz die &#x017F;chilte <subst hand="#ls2"><del>*</del><add><hi rend="rasur">gar zerbrochent</hi></add></subst></l>
+<note resp="#MGe_Transkribent" target="#?1_733.101762 #V125ra"><ref></ref>: Mit diesem Blatt verändert sich das Schriftbild. Auf dieser recto- und auf der verso-Seite schreibt ausschliesslich der Schreiber 1, der auch die erste Seite des Codex (Beginn alter Parzival) schreibt. Der hier wieder sehr regelmässige Duktus lässt Vermutungen über den Entstehungsprozess der ersten Lage des Nüwen Parzival zu. Die erste Lage des NP endet zwar erst mit Blatt 126v, doch sind die Blätter 125 und 126 genau diejenigen, deren vordere Gegenstücke beim definitiven Zusammenbinden des Codex herausgeschnitten wurden. Es handelt sich folglich bei den Blättern 125/126 und ihren fehlenden Gegenstücken um Zusätze. Dass der Lektor 2 nun den letzten Vers auf Blatt 124v korrigiert (von ursprünglich Majuskel "H" zu Majuskel "S") lässt diesen Schluss als plausibel erscheinen. Die Korrektur des Versendes hier, erfolgte offenbar ebenfalls ins diesem Zuge, da das ursprüngliche Reimwort nicht mehr stimmte. Von besonderem Interesse ist der Umstand, dass Blatt 125 die Handschrift des Schreibers 1, Blatt 126 dann aber gänzlich die Handschrift des Schreibers 3 trägt. Es darf vermutet werden, dass Blatt 126 bereits vor dem Binden das letzte Blatt der ersten Lage des NP bildete und dass Blatt 125 wohl noch einmal neu (und zwar unmittelbar vor dem Binden) geschrieben werden musste. Es ist ebenso anzunehmen, dass das Gegenstück zu Blatt 126 als eine Art Schmutzblatt der noch ungebundenen ersten Lage des NP diente und somit zumindest nicht mit Versen beschrieben bzw. leer war. Weshalb dieser Aufwand betrieben wurde, ist mir momentan nicht ersichtlich. Vielleicht waren es inhaltliche oder poetische Überlegungen, die diesen Schritt unumgänglich machten. Es ist von einem grösseren Skriptorium auszugehen! In Autopsie.</note>
+<l xml:id="V_733.101763">Die y&#x017F;in drungen mit gedinge</l>
+<l xml:id="V_733.101764">Durch die hal&#x017F;berge ringe</l>
+<l xml:id="V_733.101765">Dez mu&#x0364;&#x017F;tent die &#x017F;per liegen</l>
+<l xml:id="V_733.101766">vn<choice><am>&#x0304;</am><ex>d</ex></choice> brechen &#x017F;vnder triegen</l>
+<l xml:id="V_733.101767">Die <subst hand="#ls1"><del>*&#x017F;pri&#x017F;zetent</del><add><hi rend="rasur">&#x017F;per zer</hi>&#x017F;pri&#x017F;zetent</add></subst> mit il</l>
+<l xml:id="V_733.101768">Die ors verhv&#x0366;be<choice><am>&#x0304;</am><ex>n</ex></choice> <subst hand="#ls1"><del>*</del><add><hi rend="rasur">&#x017F;v&#x0301;</hi></add></subst> keine wil</l>
+<l xml:id="V_733.101769">Aber die ritter &#x017F;icherlich</l>
+<l xml:id="V_733.101770">Durch den &#x017F;tich nv&#x0301;t v<choice><am>&#x0309;</am><ex>er</ex></choice>wegetent &#x017F;ich</l>
+<l xml:id="V_733.101771">wenne &#x017F;o vil daz &#x017F;v&#x0301; beide</l>
+<l xml:id="V_733.101772">Ze&#x017F;amene &#x017F;tie&#x017F;zent gereide</l>
+<l xml:id="V_733.101773">Mit &#x017F;chilten vn<choice><am>&#x0304;</am><ex>d</ex></choice> libe &#x017F;vnder vor</l>
+<l xml:id="V_733.101774">Daz &#x017F;v&#x0301; zu&#x0366;r erde koment fu&#x0301;rwor</l>
+<l xml:id="V_733.101775">Einre den andern nider &#x017F;tach</l>
+<l xml:id="V_733.101776">Solichen &#x017F;tich men nie ge&#x017F;ach</l>
+<l xml:id="V_733.101777"><subst hand="#sr1u"><del>D*</del><add>D<hi rend="rasur">az</hi></add></subst> iewederre geto&#x0364;bet wart</l>
+<l xml:id="V_733.101778">Die ors kome<choice><am>&#x0304;</am><ex>n</ex></choice>t vf die knie <subst hand="#ls2"><del>*</del><add><hi rend="rasur">&#x017F;o hart</hi></add></subst></l>
+<l xml:id="V_733.101779">Daz men &#x017F;v&#x0301; wit ge&#x017F;chrunden &#x017F;ach</l>
+<l xml:id="V_733.101780">Den ritt<choice><am>&#x0309;</am><ex>er</ex></choice>n harte we ge&#x017F;chach</l>
+<l xml:id="V_733.101781">vn<choice><am>&#x0304;</am><ex>d</ex></choice> logent vnuer&#x017F;vnnen &#x017F;o</l>
+<l xml:id="V_733.101782">Daz &#x017F;v&#x0301; nv&#x0301;t gelu&#x017F;te do</l>
+<l xml:id="V_733.101783">vf ze&#x017F;tonde in langer &#x017F;tvnt</l>
+<l xml:id="V_733.101784">vil nohe wart in &#x017F;terben kvnt</l>
+<l xml:id="V_733.101785">vn<choice><am>&#x0304;</am><ex>d</ex></choice> do &#x017F;v&#x0301; vf ge&#x017F;tvndent</l>
+<l xml:id="V_733.101786">vo<choice><am>&#x0304;</am><ex>n</ex></choice> den trvn&#x017F;zeln &#x017F;v&#x0301; &#x017F;ich enbvndent</l>
+<l xml:id="V_733.101787">Die men in iren &#x017F;chilten kos</l>
+<l xml:id="V_733.101788">Zehant die &#x017F;wert &#x017F;v&#x0301; <subst hand="#ls2"><del>*</del><add><hi rend="rasur">vz zvgent blos</hi></add></subst></l>
+<l xml:id="V_733.101789">Brandelis <subst hand="#ls2"><del>war</del><add>wa<hi rend="rasur">s</hi></add></subst> ein ritter clu&#x0366;g</l>
+<l xml:id="V_733.101790">vn<choice><am>&#x0304;</am><ex>d</ex></choice> Jung der iaren vil genv&#x0366;g</l>
+<l xml:id="V_733.101791">Einre hende langer denne <subst hand="#ls2"><del>Gaw*</del><add>Gaw<hi rend="rasur">on</hi></add></subst></l>
+<l xml:id="V_733.101792">Jewederre &#x017F;in &#x017F;wert hette in <subst hand="#sr1u"><del>d*</del><add>d<hi rend="rasur">er he<choice><am>&#x0304;</am><ex>n</ex></choice>de &#x017F;cho<choice><am>&#x0304;</am><ex>n</ex></choice></hi></add></subst></l>
+<l xml:id="V_733.101793">Do hiewent &#x017F;v&#x0301; &#x017F;ich h<choice><am>&#x0309;</am><ex>er</ex></choice>teclich</l>
+<l xml:id="V_733.101794">Sv&#x0301; &#x017F;v&#x0366;htent hartte zo&#x0364;rnlich</l>
+<l xml:id="V_733.101795">v&#x0301;ber helm mit &#x017F;werten blos</l>
+<l xml:id="V_733.101796">Sv&#x0301; gobent &#x017F;lege hartte gros</l>
+<l xml:id="V_733.101797">Die kroy&#x0307;eir &#x017F;v&#x0301; ver&#x017F;nittent</l>
+<l xml:id="V_733.101798">Jr helme wunder littent</l>
+<l xml:id="V_733.101799">Neigender &#x017F;lege &#x017F;v&#x0301; wieltent</l>
+<l xml:id="V_733.101800">v&#x0301;ber &#x017F;chilte daz &#x017F;v&#x0301; zer&#x017F;pieltent</l>
+<l xml:id="V_733.101801">Sv&#x0301; v<choice><am>&#x0309;</am><ex>er</ex></choice>hiewent waz &#x017F;v&#x0301; hattent</l>
+<l xml:id="V_733.101802">vn<choice><am>&#x0304;</am><ex>d</ex></choice> vli&#x017F;&#x017F;ent &#x017F;ich wie &#x017F;v&#x0301; einand<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;chatte<choice><am>&#x0304;</am><ex>n</ex></choice>t</l>
+<l xml:id="V_733.101803">Sv&#x0301; komentz an der &#x017F;werte &#x017F;niden</l>
+<l xml:id="V_733.101804">Mit gro&#x017F;ze<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;legen &#x017F;vnder miden</l>
+<l xml:id="V_733.101805">Svz ir otem wart geleit</l>
+<l xml:id="V_733.101806">Sv&#x0301; beide littent gros arbeit</l>
+<l xml:id="V_733.101807">An maniger &#x017F;tat wurdent &#x017F;v&#x0301; v<choice><am>&#x0309;</am><ex>er</ex></choice>&#x017F;nitte<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101808"><subst hand="#ls1"><del>v*</del><add><hi rend="rasur">wande &#x017F;v&#x0301; o&#x036E;ch do enge&#x017F;te litte<choice><am>&#x0304;</am><ex>n</ex></choice></hi></add></subst></l>
+<l xml:id="V_733.101809"><subst hand="#ls2"><del>S*</del><add>S<hi rend="rasur">o daz vo<choice><am>&#x0304;</am><ex>n</ex></choice></hi></add></subst> gawans alte<choice><am>&#x0304;</am><ex>n</ex></choice> wunden</l>
+<l xml:id="V_733.101810">Jn &#x017F;inen bu&#x0366;&#x017F;en viel zv&#x0366;n &#x017F;tunden</l>
+<note resp="#MGe_Transkribent" target="#733.101762 #733.101810_V125ra"><ref></ref>: Die Verse 733.101762 bis 733.101810 wurden vom Schreiber 1 eingetragen. In Autopsie bestätigt.</note>
+<note resp="#MGe_Transkribent" target="#?1_733.101808 #V125ra"><ref></ref>: Unterhalb des letzten Verses dieser Spalte wurde offenbar ein längerer Vers(?) wegrasiert. Ich vermute, dass der Korrektor 1 diesen Korrekturhinweis in seiner für ihn typischen Art und Weise an der richtigen Stelle ausgeführt hat. Das würde heissen, dass sich dieser rasierte Hinweis auf den Vers 733.101808 bezogen haben könnte. In Autopsie.</note>
+<cb xml:id="V125rb"/>
+<l xml:id="V_733.101811">Mit il daz hei&#x017F;&#x017F;e blu&#x0366;t rot</l>
+<l xml:id="V_733.101812">Des er&#x017F;chrag er. vn<choice><am>&#x0304;</am><ex>d</ex></choice> kam in not</l>
+<l xml:id="V_733.101813">vn<choice><am>&#x0304;</am><ex>d</ex></choice> &#x017F;olt er me den &#x017F;trit halten</l>
+<l xml:id="V_733.101814">Des vnwegern mu&#x0364;&#x017F;te er walten</l>
+<l xml:id="V_733.101815">wan er &#x017F;ach daz brandelis</l>
+<l xml:id="V_733.101816">Blu&#x0366;te in deheine wis</l>
+<l xml:id="V_733.101817">wenne &#x017F;o vil daz er geto&#x036E;bet waz</l>
+<l xml:id="V_733.101818">von den &#x017F;legen die er im maz</l>
+<l xml:id="V_733.101819">wi&#x017F;&#x017F;ent daz er <subst hand="#ls2u"><del>*</del><add><hi rend="rasur">waz</hi></add></subst> <subst hand="#ls1"><del>*</del><add><hi rend="rasur">nu&#x0301;t dez libes mat</hi></add></subst></l>
+<l xml:id="V_733.101820">Aber im gawan <subst hand="#ls2u"><del>*</del><add><hi rend="rasur">bot an der &#x017F;tat</hi></add></subst></l>
+<l xml:id="V_733.101821">Obe er ein lu&#x0301;czel wolte beiten</l>
+<l xml:id="V_733.101822">vn<choice><am>&#x0304;</am><ex>d</ex></choice> daz ding in friden leiten</l>
+<l xml:id="V_733.101823">Daz &#x017F;ine clage wu&#x0301;rde ge&#x017F;liht</l>
+<l xml:id="V_733.101824">Gawan &#x017F;prach <subst hand="#ls1"><del>*</del><add><hi rend="rasur">er des &#x017F;agent niht</hi></add></subst></l>
+<l xml:id="V_733.101825">vetter. vn<choice><am>&#x0304;</am><ex>d</ex></choice> vatt<choice><am>&#x0309;</am><ex>er</ex></choice> hant ir tot geleit</l>
+<l xml:id="V_733.101826">Mit vnrehte. vn<choice><am>&#x0304;</am><ex>d</ex></choice> vnwider&#x017F;eit</l>
+<l xml:id="V_733.101827">Mine &#x017F;we&#x017F;t<choice><am>&#x0309;</am><ex>er</ex></choice> enteret wi&#x017F;&#x017F;ent daz</l>
+<l xml:id="V_733.101828">Do &#x017F;v&#x0301; eine. in eime gezelte waz</l>
+<l xml:id="V_733.101829">von vns &#x017F;v&#x0366;ne niemer wurt getan</l>
+<l xml:id="V_733.101830">vn&#x017F;er einre mu&#x0364;&#x017F;ze daz leben lan</l>
+<l xml:id="V_733.101831">Aber gerne di&#x017F;en &#x017F;trit</l>
+<l xml:id="V_733.101832">Bitz vf eins andern tages zit</l>
+<l xml:id="V_733.101833">went ir wil ich fu&#x0301;rbeiten &#x017F;o</l>
+<l xml:id="V_733.101834">wo ich u&#x0301;ch &#x017F;ihe ander&#x017F;wo</l>
+<l xml:id="V_733.101835">Daz ir des haltent <subst hand="#ls1"><del>*</del><add><hi rend="rasur">uw<choice><am>&#x0309;</am><ex>er</ex></choice></hi></add></subst> worheit</l>
+<l xml:id="V_733.101836">Jr &#x017F;int bereit o&#x0364;der vnbere<unclear reason="Zweifel">i</unclear>t</l>
+<l xml:id="V_733.101837">Reht wie <subst hand="#ls1"><del>*</del><add><hi rend="rasur">ich u&#x0301;ch vinde &#x017F;vnder biten</hi></add></subst></l>
+<l xml:id="V_733.101838">Ze&#x017F;tunt ir mit mir &#x017F;o&#x0364;llent &#x017F;triten</l>
+<l xml:id="V_733.101839">An mir nu&#x0301;t minre vindent ir</l>
+<l xml:id="V_733.101840">Gawan &#x017F;prach zwor gelo&#x036E;bent mir</l>
+<l xml:id="V_733.101841">Jch halten dirs mit &#x017F;tetickeit</l>
+<l xml:id="V_733.101842">Jch weis daz du gro&#x017F;ze kv&#x0366;nheit</l>
+<l xml:id="V_733.101843">vn<choice><am>&#x0304;</am><ex>d</ex></choice> frecheit ha&#x017F;t in dinem &#x017F;inne</l>
+<l xml:id="V_733.101844">vn<choice><am>&#x0304;</am><ex>d</ex></choice> bi&#x017F;t doch nu&#x0301;t d<choice><am>&#x0309;</am><ex>er</ex></choice> iore inne</l>
+<l xml:id="V_733.101845">Daz du &#x017F;olt &#x017F;olichen &#x017F;trit begon</l>
+<l xml:id="V_733.101846">vn<choice><am>&#x0304;</am><ex>d</ex></choice> gu&#x0366;ten ritt<choice><am>&#x0309;</am><ex>er</ex></choice> o&#x036E;ch be&#x017F;ton</l>
+<l xml:id="V_733.101847"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: rot-blau">D</seg>En &#x017F;trit &#x017F;lu&#x0366;gent &#x017F;v&#x0301; fu&#x0301;r al&#x017F;o</l>
+<l xml:id="V_733.101848">Sv&#x0301; beide das gelobetent do.</l>
+<l xml:id="V_733.101849">wenne Brandelis nv&#x0301;t wolte biten</l>
+<l xml:id="V_733.101850">So &#x017F;olte Gawan mit im &#x017F;triten</l>
+<l xml:id="V_733.101851">Sv&#x0301; &#x017F;o&#x017F;zen vf ir ors mit &#x017F;in</l>
+<l xml:id="V_733.101852">vn<choice><am>&#x0304;</am><ex>d</ex></choice> kertent <subst hand="#ls2"><del>*</del><add><hi rend="rasur">von</hi></add></subst> einander hin</l>
+<l xml:id="V_733.101853">Min herre Gawan der lies &#x017F;ich</l>
+<l xml:id="V_733.101854">Durch eine<choice><am>&#x0304;</am><ex>n</ex></choice> walt waz lo&#x036E;bes rich</l>
+<l xml:id="V_733.101855">Bitze daz er kam an den v&#x017F;gang</l>
+<l xml:id="V_733.101856"><subst hand="#ls2u"><del>*</del><add><hi rend="rasur">Bi einre</hi></add></subst> eiche do das gras was lang</l>
+<l xml:id="V_733.101857"><subst hand="#ls2u"><del>Entwopent*</del><add>Entwopent<hi rend="rasur">e</hi></add></subst> &#x017F;ich der wol gemeit</l>
+<l xml:id="V_733.101858">von &#x017F;inem bliot einen gern er &#x017F;neit</l>
+<l xml:id="V_733.101859">Do mitte <subst hand="#ls2u"><del>b*</del><add>b<hi rend="rasur">ant er do ze&#x017F;tvnden</hi></add></subst></l>
+<note resp="#MGe_Transkribent" target="#733.101811 #733.101859_V125rb"><ref></ref>: Die Verse 733.101811 bis 733.101859 wurden vom Schreiber 1 eingetragen. In Autopsie bestätigt.</note>[Trsk]MGe[/Trsk]}
+<pb xml:id="V125v"/><cb xml:id="V125va"/>
+<l xml:id="V_733.101860">Vil &#x017F;ere &#x017F;ine wunden</l>
+<l xml:id="V_733.101861">Al&#x017F;o daz &#x017F;v&#x0301; ver&#x017F;tretetent &#x017F;ich</l>
+<l xml:id="V_733.101862">Do nach &#x017F;as er uf &#x017F;nelleclich</l>
+<l xml:id="V_733.101863"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: blau-rot">B</seg>Randelis wart vil iamers kvnt</l>
+<l xml:id="V_733.101864">vmbe &#x017F;ine<choice><am>&#x0304;</am><ex>n</ex></choice> vatt<choice><am>&#x0309;</am><ex>er</ex></choice> der do waz wu<choice><am>&#x0304;</am><ex>n</ex></choice>t</l>
+<l xml:id="V_733.101865">Zv&#x0366;cz im kam er &#x017F;chiere gerant</l>
+<l xml:id="V_733.101866">Fu&#x0301;r in kam er e. er do erwant</l>
+<l xml:id="V_733.101867">Aber tot erkaltet vant er in</l>
+<l xml:id="V_733.101868">Nv&#x0301;t wolt er lon er fu&#x0366;rt in hin</l>
+<l xml:id="V_733.101869">vor &#x017F;ime &#x017F;attelbogen</l>
+<l xml:id="V_733.101870">Als ein helt wol gezogen</l>
+<l xml:id="V_733.101871">Rehte gegen einer richen abbatie</l>
+<l xml:id="V_733.101872">Jn eine &#x017F;cho&#x0364;ne perie</l>
+<l xml:id="V_733.101873">Nohe dem walde an eine halde</l>
+<l xml:id="V_733.101874">Hies er in begraben balde</l>
+<l xml:id="V_733.101875">Die mu&#x0301;niche in irre zimitiere</l>
+<l xml:id="V_733.101876">Sv&#x0301; totent &#x017F;ine bevilhede &#x017F;chiere</l>
+<l xml:id="V_733.101877"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: rot-blau">H</seg>Je los ich &#x017F;in von brandalis</l>
+<l xml:id="V_733.101878">vn<choice><am>&#x0304;</am><ex>d</ex></choice> &#x017F;iner &#x017F;we&#x017F;t<choice><am>&#x0309;</am><ex>er</ex></choice> acleruis</l>
+<l xml:id="V_733.101879">Die wart eins kindes &#x017F;wanger</l>
+<l xml:id="V_733.101880">Rehte gege<choice><am>&#x0304;</am><ex>n</ex></choice> melant uf dem anger</l>
+<l xml:id="V_733.101881">Zv&#x0366;m her wider kerte her <subst hand="#ls2"><del>Gaw*</del><add>Gaw<hi rend="rasur">on</hi></add></subst></l>
+<l xml:id="V_733.101882">Siech vn<choice><am>&#x0304;</am><ex>d</ex></choice> aller ru&#x0366;wen on</l>
+<l xml:id="V_733.101883">Daz er &#x017F;ich <subst hand="#ls1"><del>*</del><add><hi rend="rasur">enthu&#x0366;p mit gro&#x017F;&#x017F;er pin</hi></add></subst></l>
+<l xml:id="V_733.101884">Daz er nv&#x0301;t viel vo<choice><am>&#x0304;</am><ex>n</ex></choice> dem or&#x017F;e <subst hand="#ls1u"><del>&#x017F;in*</del><add>&#x017F;in<hi rend="rasur"><gap/></hi></add></subst></l>
+<l xml:id="V_733.101885">Die wuche hat er geerbeitet &#x017F;am</l>
+<l xml:id="V_733.101886">Daz ers &#x017F;o gro&#x017F;zen &#x017F;merzen nam</l>
+<l xml:id="V_733.101887">vn<choice><am>&#x0304;</am><ex>d</ex></choice> wart ge&#x017F;eret &#x017F;o vil <subst hand="#ls2"><del>*</del><add><hi rend="rasur">me</hi></add></subst></l>
+<l xml:id="V_733.101888">Sin alte wunde gieng <subst hand="#ls2"><del>u*</del><add>u<hi rend="rasur">f al&#x017F; .e.</hi></add></subst></l>
+<l xml:id="V_733.101889">vn<choice><am>&#x0304;</am><ex>d</ex></choice> zerzerrete <subst hand="#ls1"><del>*</del><add><hi rend="rasur">&#x017F;ich das flei&#x017F;ch weich</hi></add></subst></l>
+<l xml:id="V_733.101890">Daz er wart al&#x017F; ein e&#x017F;che bleich</l>
+<l xml:id="V_733.101891">Al&#x017F;e der &#x017F;ich verblu&#x0366;tet hat</l>
+<l xml:id="V_733.101892">Jn &#x017F;in gezelte leit er &#x017F;ich uf d<choice><am>&#x0309;</am><ex>er</ex></choice> &#x017F;tat</l>
+<l xml:id="V_733.101893">Al&#x017F;o balde al&#x017F; er entwopent wart</l>
+<l xml:id="V_733.101894">Zv&#x0366; deme kv&#x0301;nige von hoher art</l>
+<l xml:id="V_733.101895">Siner knehte <subst hand="#ls2u"><del>*</del><add><hi rend="rasur">einer</hi></add></subst> balde lief</l>
+<l xml:id="V_733.101896">vn<choice><am>&#x0304;</am><ex>d</ex></choice> &#x017F;windecliche er in an rief</l>
+<l xml:id="V_733.101897">vn<choice><am>&#x0304;</am><ex>d</ex></choice> &#x017F;prach ir &#x017F;ollent balde <subst hand="#ls2u"><del>kom*</del><add>kom<hi rend="rasur">en</hi></add></subst></l>
+<l xml:id="V_733.101898">Zv&#x0366; uw<choice><am>&#x0309;</am><ex>er</ex></choice>me <subst hand="#ls2u"><del>*Oheim</del><add><hi rend="rasur">O&#x0364;heim</hi></add></subst> dem fro<choice><am>&#x0304;</am><ex>m</ex></choice>men</l>
+<l xml:id="V_733.101899">vn<choice><am>&#x0304;</am><ex>d</ex></choice> hei&#x017F;zent uw<choice><am>&#x0309;</am><ex>er</ex></choice>e arzate ko<choice><am>&#x0304;</am><ex>m</ex></choice>men <subst hand="#ls2"><del>*</del><add><hi rend="rasur">alder</hi></add></subst></l>
+<l xml:id="V_733.101900">O&#x0364;der uwer hof i&#x017F;t iemer ler</l>
+<l xml:id="V_733.101901">Sins libes. vn<choice><am>&#x0304;</am><ex>d</ex></choice> &#x017F;ins lebendes hie</l>
+<l xml:id="V_733.101902">So not getet im helfe nie</l>
+<l xml:id="V_733.101903">Sit er das leben ie gewan</l>
+<l xml:id="V_733.101904">Der kv&#x0301;nig &#x017F;prang al&#x017F; ein to&#x0364;big ma<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101905">vf &#x017F;in pfer zv&#x0366;czim er reit</l>
+<l xml:id="V_733.101906">Kein arzat bleip im her breit</l>
+<l xml:id="V_733.101907">Der wol mit wunden kvnde</l>
+<l xml:id="V_733.101908"><subst hand="#ls2"><del>E*</del><add>E<hi rend="rasur">r lieffe</hi></add></subst> dar ze&#x017F;tvnde</l>
+<note resp="#MGe_Transkribent" target="#733.101860 #733.101906_V125va"><ref></ref>: Die Verse 733.101860 bis 733.101906 wurden vom Schreiber 1 eingetragen. In Autopsie bestätigt.</note>
+<cb xml:id="V125vb"/>
+<l xml:id="V_733.101909">Durch Gawan helfen zv&#x0366; der not</l>
+<l xml:id="V_733.101910">Doch kondenz im nu&#x0301;t gu&#x0366;ten rot</l>
+<l xml:id="V_733.101911">Geben daz tet dem kv&#x0301;nige we</l>
+<l xml:id="V_733.101912"><subst hand="#ls2u"><del>w*</del><add>w<hi rend="rasur">ol</hi></add></subst> zwene monot o&#x0364;der me</l>
+<l xml:id="V_733.101913">Lag her Gawan wi&#x017F;&#x017F;ent das</l>
+<l xml:id="V_733.101914">Obe er der wunde<choice><am>&#x0304;</am><ex>n</ex></choice> gar genas</l>
+<l xml:id="V_733.101915"><seg type="Initiale" subtype="Fleuronee" n="2" rend="Farbe: blau-rot">D</seg>Er kv&#x0301;nig artus <subst hand="#ls2"><del>*</del><add><hi rend="rasur">mahte ie&#x017F;o</hi></add></subst></l>
+<l xml:id="V_733.101916">Drie ve&#x017F;ten. vor der &#x017F;tat <subst hand="#ls2"><del>*</del><add><hi rend="rasur">aldo</hi></add></subst></l>
+<l xml:id="V_733.101917">Die worent gros &#x017F;cho&#x0364;ne vn<choice><am>&#x0304;</am><ex>d</ex></choice> wit</l>
+<l xml:id="V_733.101918"><subst hand="#ls2"><del>*</del><add><hi rend="rasur">Die von mielant erhu&#x0301;ngert wore<choice><am>&#x0304;</am><ex>n</ex></choice>t zv&#x0366; d<choice><am>&#x0309;</am><ex>er</ex></choice> zit</hi></add></subst></l>
+<l xml:id="V_733.101919">Das &#x017F;v&#x0301; in todes vorhte <subst hand="#ls2"><del>*</del><add><hi rend="rasur">mv&#x0364;&#x017F;tent leben</hi></add></subst></l>
+<l xml:id="V_733.101920"><subst hand="#ls2"><del>*</del><add><hi rend="rasur">vn<choice><am>&#x0304;</am><ex>d</ex></choice> do bi die &#x017F;tat begeben</hi></add></subst></l>
+<l xml:id="V_733.101921">An gnode. fu&#x0301;r den tot</l>
+<l xml:id="V_733.101922">Sime volke. d<choice><am>&#x0309;</am><ex>er</ex></choice> kv&#x0301;nig gebot</l>
+<l xml:id="V_733.101923">Daz &#x017F;v&#x0301; der &#x017F;inne wieltent</l>
+<l xml:id="V_733.101924">vn<choice><am>&#x0304;</am><ex>d</ex></choice> die &#x017F;tat. vo<choice><am>&#x0304;</am><ex>n</ex></choice> <subst hand="#ls2"><del>gr*</del><add>gr<hi rend="rasur">unde</hi></add></subst> vieltent</l>
+<l xml:id="V_733.101925">Daz tatent &#x017F;u&#x0301; mit mei&#x017F;ter&#x017F;chaft</l>
+<l xml:id="V_733.101926">Die in der &#x017F;tat worent &#x017F;e&#x017F;haft</l>
+<l xml:id="V_733.101927">Ritter. burge<choice><am>&#x0309;</am><ex>r</ex></choice>. arm. vn<choice><am>&#x0304;</am><ex>d</ex></choice> rich</l>
+<l xml:id="V_733.101928">Teilte der kv&#x0301;nig. in dru&#x0301; gelich</l>
+<l xml:id="V_733.101929"><subst hand="#sr1u"><del>D*mitte</del><add>D<hi rend="rasur">o</hi>mitte</add></subst> be&#x017F;atte er die bu&#x0301;rge ho</l>
+<l xml:id="V_733.101930">Die er gebuwen hatte do</l>
+<note resp="#MGe_Transkribent" target="#?1_733.101928 #V125vb"><ref></ref>: Hinter dem Wort "do", am Versende also, ist das Pergament durch Rasur aufgeraut, wobei nicht ersichtlich ist, was hier wegrasiert worden ist. Die Rasur hängt aber offensichtlich mit den beiden untenstehenden Rasuren zusammen. Vielleicht stand hier ein Korrekturhinweis oder eine Marginalie?. In Autopsie.</note>
+<l xml:id="V_733.101931">Eine er &#x017F;ime O&#x0364;heime <subst hand="#ls2"><del>l*</del><add>l<hi rend="rasur">iez</hi></add></subst></l>
+<l xml:id="V_733.101932">Die <subst hand="#ls2"><del>*</del><add><hi rend="rasur">ze nehe&#x017F;t an die &#x017F;tat &#x017F;tiez</hi></add></subst></l>
+<l xml:id="V_733.101933"><subst hand="#ls2"><del>*</del><add><hi rend="rasur">Die waz gezieret von matten vn<choice><am>&#x0304;</am><ex>d</ex></choice> vo<choice><am>&#x0304;</am><ex>n</ex></choice> welden</hi></add></subst></l>
+<l xml:id="V_733.101934">vn<choice><am>&#x0304;</am><ex>d</ex></choice> o&#x036E;ch von <subst hand="#ls2"><del>g*</del><add>g<hi rend="rasur">eerte<choice><am>&#x0304;</am><ex>n</ex></choice></hi></add></subst> velden</l>
+<l xml:id="V_733.101935">Pancris hies &#x017F;v&#x0301;. gar &#x017F;cho&#x0364;ne &#x017F;v&#x0301; was</l>
+<l xml:id="V_733.101936">Die genant was. armias</l>
+<l xml:id="V_733.101937">Gap er gy&#x0307;pfelt &#x017F;vn kv&#x0301;niges do</l>
+<note resp="#MGe_Transkribent" target="#?1_733.101935 #V125vb"><ref>Gap</ref>: Am Faksimile war ein Punkt oberhalb des Wortes "Gap" als Marginalie erkennbar, die sich in Autopsie als wachsartiger Flecken herausstellte.</note>
+<l xml:id="V_733.101938">Gar liep waz im der fu&#x0301;r&#x017F;te ho</l>
+<l xml:id="V_733.101939">Die dritte langerde was genant <note type="Marginalie"><subst hand="#ls2u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note>^$<note>/Anm/<ref><note type="Marginalie"><subst hand="#ls2u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note></ref>[Parz]733.101939_V125vb[/Parz]:Tilgung wurde durch Rasur (<hi rend="rasur"></hi>) vorgenommen [Trsk]CPr[/Trsk]</note></l>
+<note resp="#MGe_Transkribent" target="#?1_733.101937 #V125vb"><ref><note type="Marginalie"><subst hand="#ls2u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note></ref>: Am rechten Spaltenrand neben diesem Vers ist eine nicht gänzlich rasierte Marginalie erkennbar, die wohl im Zusammenhang mit den umfangreichen Korrekturen in dieser Spalte steht, ohne sich dabei explizit auf diesen Vers zu beziehen, da hier klar keine Rasur ersichtlich ist. Es ist anzunehmen, dass diese Marginalie als Korrekturhinweis des Lektors 2 diente, der das Blatt 125 offenbar nachträglich einfügen bzw. neuschreiben liess. In Autopsie.</note>
+<l xml:id="V_733.101940">Tor ares &#x017F;vn. gap er &#x017F;v&#x0301; zehant</l>
+<l xml:id="V_733.101941">Al&#x017F;o zergienc daz her breit</l>
+<note resp="#MGe_Transkribent" target="#?1_733.101939 #V125vb"><ref>breit</ref>: Die Rasur im untenstehenden Vers reicht bis hinter das Wort "breit" hinauf, wobei nicht ersichtlich ist, ob auch in diesem Vers eine Korrektur vorgenommen wurde. In Autopsie.</note>
+<l xml:id="V_733.101942">Kv&#x0301;nig artus gegen <subst hand="#ls2u"><del>kylin*</del><add>kylin<hi rend="rasur">i<choice><am>&#x0304;</am><ex>n</ex></choice></hi></add></subst> reit</l>
+<l xml:id="V_733.101943">Jn eine &#x017F;tat die was lobe&#x017F;am</l>
+<l xml:id="V_733.101944">Mit heimelichem ge&#x017F;inde er dar kam</l>
+<l xml:id="V_733.101945">Die wol gepri&#x017F;ete ritt<choice><am>&#x0309;</am><ex>er</ex></choice>&#x017F;chaft</l>
+<l xml:id="V_733.101946">Die mu&#x0364;de warent. vn<choice><am>&#x0304;</am><ex>d</ex></choice> kvmberhaft</l>
+<l xml:id="V_733.101947">Die kertent <subst hand="#ls2"><del>*</del><add><hi rend="rasur">hein durch ru&#x0366;wens not</hi></add></subst> <note type="Marginalie"><subst hand="#ls2u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note></l>
+<note resp="#CPr[/Trsk]Die Marginalie steht zwischen den beiden korrigierten Versen am rechten Spaltenrand und ist selbst am Original kaum noch als solche erkennbar. Dennoch scheint sie sich auf ebendiesen Korrekturvorgang bezogen zu haben. In Autopsie.[Trsk]MGe_Transkribent" target="#?1_733.101945 #V125vb"><ref><note type="Marginalie"><subst hand="#ls2u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note></ref>: Tilgung wurde durch Rasur (<hi rend="rasur"></hi>) vorgenommen</note>
+<l xml:id="V_733.101948"><subst hand="#ls2"><del>*</del><add><hi rend="rasur">wande in mu&#x0364;de daz gebot</hi></add></subst></l>
+<l xml:id="V_733.101949">Jr fru&#x0301;nt enpfiengent &#x017F;v&#x0301; fro&#x0364;lich</l>
+<l xml:id="V_733.101950">v&#x0301;ber &#x017F;iben tage. der kv&#x0301;nig rich</l>
+<l xml:id="V_733.101951">Lie lidig. Brvn von Meilant</l>
+<l xml:id="V_733.101952">Zwo &#x017F;tette gap er im zehant</l>
+<l xml:id="V_733.101953"><subst hand="#ls2u"><del>Kylini.</del><add>Kylini<hi rend="rasur"><choice><am>&#x0304;</am><ex>n</ex></choice>.</hi></add></subst> vnde karadigam <note type="Marginalie"><subst hand="#ls2u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note></l>
+<note resp="#CPr[/Trsk Auch hier steht am rechten Spaltenrand eine kaum noch erkennbare, rasierte Marginalie, deren Funktion nicht ganz klar ist. Bei genauerem Hinsehen könnte allerdings der Eigenname "Kylini" zu "Kylini<choice><am>&#x0304;</am><ex>n</ex></choice>" korrigiert worden sein, wie dies in Vers 733.101940 deutlich erkennbar ist. Ob der Schreiber 1 oder der Lektor 2 diese Korrektur ausgeführt hat, muss offen bleiben. In Autopsie.[Trsk]MGe_Transkribent" target="#?1_733.101953 #V125vb"><ref><note type="Marginalie"><subst hand="#ls2u"><del>+</del><add>[del]<gap/>[/del]</add></subst></note></ref>: Tilgung wurde durch Rasur (<hi rend="rasur"></hi>) vorgenommen</note>
+<l xml:id="V_733.101954">Gewilleclichen er die nam</l>
+<l xml:id="V_733.101955">vn<choice><am>&#x0304;</am><ex>d</ex></choice> tet im vil dankes kvnt</l>
+<l xml:id="V_733.101956">Des &#x017F;elben tages an der &#x017F;tunt</l>
+<l xml:id="V_733.101957">Tet er man&#x017F;chaft eigenlich</l>
+<note resp="#MGe_Transkribent" target="#733.101907 #733.101955_V125vb"><ref></ref>: Die Verse 733.101907 bis 733.101955 wurden vom Schreiber 1 eingetragen. In Autopsie bestätigt.</note>
+<note resp="#MGe_Transkribent"><ref></ref>[Parz]V125vb[/Parz]: Am unteren Blattrand unterhalb der rechten Spalte erstreckt sich ein vielleicht durch Rasur aufgerautes Feld von einigen Quadratzentimetern Fläche, wobei im Gegenlicht ausser einer Marginalie in Kreuzform keine weiteren Zeichen mehr zu erkennen sind. In Autopsie.</note>
+<pb xml:id="V126r"/><cb xml:id="V126ra"/>
+<l xml:id="V_733.101958"><subst hand="#ls2u"><del>Vo<unclear reason="Zweifel">n</unclear></del><add>Vo<hi rend="rasur">r</hi></add></subst> in allen dem kv&#x0301;nige rich</l>
+<note resp="#MGe_Transkribent" target="#?1_733.101956 #V126ra"><ref><subst hand="#ls2u"><del>Vo<unclear reason="Zweifel">n</unclear></del><add>Vo<hi rend="rasur">r</hi></add></subst></ref>: Hier liegt zweifelsfrei eine Korrektur vor, wobei der rasierte Buchstabe der Form nach ein "n" gewesen sein könnte. In Autopsie bestätigt.</note>
+<l xml:id="V_733.101959">Donoch dem kv&#x0301;nige vo<choice><am>&#x0304;</am><ex>n</ex></choice> britenien la<choice><am>&#x0304;</am><ex>n</ex></choice>t</l>
+<l xml:id="V_733.101960">wart dien&#x017F;tes vil vo<choice><am>&#x0304;</am><ex>n</ex></choice> im bekant</l>
+<l xml:id="V_733.101961">von melant &#x017F;in tohter lore</l>
+<l xml:id="V_733.101962">Die &#x017F;cho&#x0364;ne vnde die vil <subst hand="#ls2u"><del>cl*re</del><add>cl<hi rend="rasur">o</hi>re</add></subst></l>
+<l xml:id="V_733.101963">Minnete key<choice><am>&#x0304;</am><ex>n</ex></choice> wi&#x017F;&#x017F;ent daz</l>
+<l xml:id="V_733.101964">Gawon noch nv&#x0301;t gene&#x017F;en was</l>
+<l xml:id="V_733.101965">Der wunde<choice><am>&#x0304;</am><ex>n</ex></choice> &#x017F;in &#x017F;vs hort ich &#x017F;agen</l>
+<l xml:id="V_733.101966">vf &#x017F;ine burg wart er get<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>gen</l>
+<note resp="#MGe_Transkribent" target="#?1_733.101964 #V126ra"><ref>burg</ref>: Die leicht verschwommenen Buchstaben im Wort "burg" sowie auch im Vers darüber bei "&#x017F;agen" könnten auf eine Rasur hinweisen, wobei diese Beeinträchtigungen durch intensive Rasuren auf der verso-Seite hervorgerufen worden sind. In Autopsie bestätigt.</note>
+<l xml:id="V_733.101967">Dvrch gemach pflegen &#x017F;vnder we</l>
+<l xml:id="V_733.101968">Bitz er riten mo&#x0364;ht al&#x017F; .e.</l>
+<l xml:id="V_733.101969">Dar noch der kv&#x0301;nig rv&#x0366;we<choice><am>&#x0304;</am><ex>n</ex></choice> pflag</l>
+<l xml:id="V_733.101970">vnde waz in friden manige<choice><am>&#x0304;</am><ex>n</ex></choice> dag</l>
+<l xml:id="V_733.101971-0"><hi rend="rot"><note type="Kapitelüberschrift">Hie vohet karados bv&#x0366;ch an.</note></hi></l>
+<note resp="#MGe_Transkribent" target="#?1_733.101969-0 #V126ra"><ref></ref>: Links neben der Überschrift und zwei Zeilen darunter links neben der Initiale sind zwei kleine Stellen rasiert worden, wobei nicht mehr ersichtlich ist, was hier einst stand. Die Rasur neben der Überschrift wurde aber erst getätigt, nachdem der Initialschmuck bereits gemalt war, da hier etwas Farbe fehlt. Die Rasur neben der Initiale wurde hingegen bereits vor dem Malvorgang vorgenommen, wobei anzunehmen ist, dass dort ursprünglich der auszuführende Buchstabe "a" stand. Es handelt sich hier folglich um zwei verschiedene Korrekturgänge. In Autopsie.</note>
+<l xml:id="V_733.101971"><seg type="Initiale" subtype="Fleuronee" n="3" rend="Farbe: rot-blau">A</seg>l&#x017F;e men lag vor melant</l>
+<l xml:id="V_733.101972">Jn dem er&#x017F;ten iore zeha<choice><am>&#x0304;</am><ex>n</ex></choice>t</l>
+<l xml:id="V_733.101973">Ein brunlo&#x036E;ft maht der kv&#x0301;nig h<choice><am>&#x0309;</am><ex>er</ex></choice>.</l>
+<l xml:id="V_733.101974">Der gewan er &#x017F;it gro&#x017F; <subst hand="#ls2"><del>*</del><add><hi rend="rasur">.er</hi></add></subst></l>
+<l xml:id="V_733.101975">von &#x017F;in<choice><am>&#x0309;</am><ex>er</ex></choice> nv&#x0301;ftelen eine</l>
+<l xml:id="V_733.101976">Daz &#x017F;cho&#x0364;nre noch &#x017F;o reine</l>
+<l xml:id="V_733.101977">waz von brittanie bitz rohes</l>
+<l xml:id="V_733.101978">J&#x017F;eue hiez &#x017F;v&#x0301; vo<choice><am>&#x0304;</am><ex>n</ex></choice> karoes</l>
+<l xml:id="V_733.101979">Die wart gegeben zv&#x0366; der .e.</l>
+<l xml:id="V_733.101980">von nantes kv&#x0301;nig karode</l>
+<l xml:id="V_733.101981">Er hielt &#x017F;v&#x0301; erlich in gemach</l>
+<l xml:id="V_733.101982">Nv ho&#x0364;rent hie waz im ge&#x017F;chach</l>
+<l xml:id="V_733.101983">wu<choice><am>&#x0304;</am><ex>n</ex></choice>der geho&#x0364;rent ir niemer &#x017F;o gro&#x017F;</l>
+<l xml:id="V_733.101984">Noch nie geho&#x0364;ret wart &#x017F;in genos</l>
+<l xml:id="V_733.101985">Dez tages do die brvnlvft wart geto<choice><am>&#x0304;</am><ex>n</ex></choice></l>
+<l xml:id="V_733.101986">vnde des nahtes &#x017F;lofen &#x017F;o&#x0364;lten gon</l>
+<l xml:id="V_733.101987">Der kv&#x0301;nig vn<choice><am>&#x0304;</am><ex>d</ex></choice> die vrowe gv&#x0366;t</l>
+<l xml:id="V_733.101988">Do waz ein ritt<choice><am>&#x0309;</am><ex>er</ex></choice> hoch gemv&#x0366;t</l>
+<l xml:id="V_733.101989">Jn dem her elyafres genant</l>
+<l xml:id="V_733.101990">Nie &#x017F;olich zo&#x036E;berer wart bekant</l>
+<l xml:id="V_733.101991">Der waz dez hovemei&#x017F;t<choice><am>&#x0309;</am><ex>er</ex></choice>s neve</l>
+<l xml:id="V_733.101992">Gar holt waz er der <subst hand="#ls2"><del>&#x017F;chone<choice><am>&#x0304;</am><ex>n</ex></choice></del><add>&#x017F;cho&#x0364;ne<choice><am>&#x0304;</am><ex>n</ex></choice></add></subst> y&#x017F;efe</l>
+<l xml:id="V_733.101993">wi&#x017F;&#x017F;ent &#x017F;olt im ir hulde <subst hand="#ls2"><del>en*</del><add>en<hi rend="rasur">trinnen</hi></add></subst></l>
+<l xml:id="V_733.101994">So mv&#x0364;&#x017F;t er den tot <subst hand="#ls2"><del>gew<unclear reason="Zweifel">u</unclear>*</del><add>gew<hi rend="rasur">innen</hi></add></subst></l>
+<note resp="#MGe_Transkribent" target="#?1_733.101992 #V126ra"><ref><subst hand="#ls2"><del>gewi*</del><add>gewi<hi rend="rasur">nnen</hi></add></subst></ref>: Obwohl nicht mehr ersichtlich ist, was unter der Rasur stand, deutet die Form des Buchstabens "i" darauf hin, dass vielleicht aus dem Wort "gewunnen" ein "gewinnen" korrigiert wurde. Adäquat dazu müsste im vorhergehenden Vers das Reimwort "entrunnen" gelautet haben. In Autopsie.</note>
+<l xml:id="V_733.101995">Nyg<choice><am rend="hochgestellt">a</am><ex>ra</ex></choice>manzie kond er ze <subst hand="#ls2"><del>p*</del><add>p<hi rend="rasur">ri&#x017F;e</hi></add></subst></l>
+<l xml:id="V_733.101996">Daz er v<choice><am>&#x0309;</am><ex>er</ex></choice>wandelt in manige wi&#x017F;e</l>
+<l xml:id="V_733.101997">Ein tier oder ein fo&#x0364;gellin</l>
+<l xml:id="V_733.101998">Er &#x017F;lv&#x0364;ge eine<choice><am>&#x0304;</am><ex>n</ex></choice> ma<choice><am>&#x0304;</am><ex>n</ex></choice>ne daz ho&#x036E;bet &#x017F;in</l>
+<l xml:id="V_733.101999">Abe wolt er one we</l>
+</body>
+</text>
+</TEI>
