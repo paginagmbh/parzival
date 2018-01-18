@@ -41,6 +41,11 @@ const Navbar = {
             return this.page == this.nextPage;
         },
 
+        pageTitle() {
+            const { page } = this;
+            return `Bl. ${page.replace(/^0+/, "")}`;
+        },
+
         verseTitle() {
             const [start, end] = this.verses;
             const [startType, endType] = [start, end].map(verse.type);
