@@ -51,6 +51,7 @@
     "xmlbuilder": "^9.0.4"
   },
   "scripts": {
+    "convert": "node verse-concordances/convert.js",
     "build": "export NODE_ENV=production && gulp && webpack",
     "deploy": "export NODE_ENV=production && gulp clean && gulp && webpack && gulp deploy",
     "dev": "export NODE_ENV=development && gulp && webpack-dev-server --open --hot",
