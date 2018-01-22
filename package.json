@@ -65,6 +65,7 @@
     "bulma": "^0.6.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
+    "lodash.debounce": "^4.0.8",
     "openseadragon": "^2.3.1",
     "vue": "^2.5.13",
     "vue-router": "^3.0.1",

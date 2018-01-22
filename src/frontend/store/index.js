@@ -1,7 +1,7 @@
 const Vuex = require("vuex");
 
 const modules = {
-    facsimiles: require("./facsimile"),
+    facsimile: require("./facsimile"),
     metadata: require("./metadata")
 };
 
