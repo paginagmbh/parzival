@@ -1,7 +1,6 @@
 const { min, max } = Math;
 
 const metadata = require("../../metadata.json");
-const verse = require("../../verse");
 const { pageSigil } = require("../../manuscript");
 
 function manuscript(sigil) {
