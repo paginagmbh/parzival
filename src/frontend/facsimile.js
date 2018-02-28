@@ -21,37 +21,59 @@ module.exports = {
         mapGetters("metadata", ["tileSources"])
     ),
 
-    methods: mapMutations("facsimile", ["viewportChange"]),
+    methods: assign({
+
+        openPages() {
+            if (!this.osd) {
+                return;
+            }
+            this.osd.close();
+
+            const { tileSources } = this;
+            let { length } = tileSources;
+            const width = 1 / length;
+
+            const success = () => {
+                if (--length == 0) {
+                    this.osd.viewport.fitBoundsWithConstraints(
+                        this.initialViewport,
+                        true
+                    );
+                }
+            };
+
+            tileSources.map((tileSource, ti) => ({
+                tileSource, width, x: (ti * width), success
+            })).forEach(
+                tiledImage => this.osd.addTiledImage(tiledImage)
+            );
+        }
+
+    }, mapMutations("facsimile", ["viewportChange"])),
 
     watch: {
-        tileSources(newSources) {
-            if (newSources) {
-                this.osd.open(newSources);
-            }
+        tileSources() {
+            this.openPages();
         }
     },
 
     mounted() {
         const [ element ] = $(this.$el).find(".parzival-facsimile");
-        const { tileSources } = this;
         const osd = this.osd = OpenSeadragon({
-            prefixUrl, element, tileSources,
+            prefixUrl, element,
             showNavigator: true,
             showRotationControl: true,
             debugMode: false
         });
 
         const { viewport } = osd;
-
-        osd.addHandler("open", () => {
-            viewport.fitBoundsWithConstraints(this.initialViewport, true);
-        });
-
         osd.addHandler("viewport-change", debounce(() => {
             this.viewportChange(
                 { viewport: viewport.getConstrainedBounds() }
             );
         }, 500, { leading: true }));
+
+        this.openPages();
     },
 
     beforeDestroy() {
