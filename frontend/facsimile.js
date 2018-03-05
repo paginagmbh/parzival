@@ -42,9 +42,9 @@ module.exports = {
                 }
             };
 
-            tileSources.map((tileSource, ti) => ({
+            tileSources.map((tileSource, ti) => (tileSource === undefined ? undefined : {
                 tileSource, width, x: (ti * width), success
-            })).forEach(
+            })).filter(ts => ts).forEach(
                 tiledImage => this.osd.addTiledImage(tiledImage)
             );
         }
@@ -71,7 +71,7 @@ module.exports = {
             this.viewportChange(
                 { viewport: viewport.getConstrainedBounds() }
             );
-        }, 500, { leading: true }));
+        }, 250, { leading: true }));
 
         this.openPages();
     },

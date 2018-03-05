@@ -5,8 +5,8 @@ const fs = require("fs");
 
 const csv = require("csv-stringify/lib/sync");
 
-const verse = require("../src/verse");
-const { pageSigil } = require("../src/manuscript");
+const verse = require("../lib/verse");
+const { pageSigil } = require("../lib/manuscript");
 
 const encoding = "utf-8";
 
@@ -14,7 +14,7 @@ function karlsruheData() {
     const manuscript = "K";
 
     let data = fs.readFileSync(
-        path.join(__dirname, "karlsruhe_verses.txt"),
+        path.join(__dirname, "verses_v.txt"),
         { encoding }
     ).split(/[\n\r]+/);
 
@@ -52,7 +52,7 @@ function romaData() {
     const manuscript = "R";
 
     let data = fs.readFileSync(
-        path.join(__dirname, "roma_verses.txt"),
+        path.join(__dirname, "verses_vv.txt"),
         { encoding }
     ).split(/[\n\r]+/);
 
@@ -124,7 +124,7 @@ const manuscripts = ["K", "R"].map(sigil => {
 });
 
 fs.writeFileSync(
-    path.resolve(__dirname, "..", "src", "metadata.json"),
+    path.resolve(__dirname, "..", "frontend", "store", "metadata.json"),
     JSON.stringify(manuscripts),
     { encoding }
 );

@@ -31,7 +31,7 @@ gulp.task("test", () => {
 });
 
 gulp.task("lint", () => {
-    return gulp.src(["src/**/*.js"])
+    return gulp.src(["lib/**/*.js", "frontend/**/*.js"])
         .pipe(eslint())
         .pipe(eslint.format())
         .pipe(eslint.failAfterError());

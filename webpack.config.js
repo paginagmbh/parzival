@@ -19,12 +19,12 @@ const contentBase = path.join(__dirname, "htdocs");
 module.exports = {
     context: __dirname,
     entry: {
-        "bo": ["./src/browser-update.js"],
-        "setup": ["babel-polyfill", "./src/setup.js"],
+        "bo": ["./frontend/browser-update.js"],
+        "setup": ["babel-polyfill", "./frontend/setup.js"],
         "index": [
             "font-awesome/scss/font-awesome.scss",
-            "./src/frontend.scss",
-            "./src/frontend"
+            "./frontend/index.scss",
+            "./frontend/index.js"
         ]
     },
     output: {
@@ -42,7 +42,10 @@ module.exports = {
     module: {
         rules: [{
             test: /\.js$/,
-            include: [ path.resolve(__dirname, "src") ],
+            include: [
+                path.resolve(__dirname, "frontend"),
+                path.resolve(__dirname, "lib")
+            ],
             use: "babel-loader"
         },{
             test: /\.s[ca]ss$/,
@@ -89,7 +92,7 @@ module.exports = {
         new StyleLintPlugin({ quiet: false }),
         new CommonsChunkPlugin({ name: "commons", minChunks: 2 }),
         new HtmlWebpackPlugin({
-            template: "src/index.pug",
+            template: "frontend/index.pug",
             inject: false,
             alwaysWriteToDisk: true
         }),

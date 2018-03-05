@@ -9,8 +9,11 @@ module.exports = {
 
     getters: {
         initialViewport({ viewport }) {
-            const { x, y } = viewport;
-            return viewport.clone().translate(new Point(-x, -y));
+            const { x, y, width, height } = viewport;
+            return viewport.clone().translate(new Point(
+                width < 1 ? -x : 0,
+                height < 1 ? -y : 0
+            ));
         }
     },
 

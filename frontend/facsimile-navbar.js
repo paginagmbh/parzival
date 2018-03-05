@@ -5,9 +5,9 @@ const { max, min } = Math;
 
 const { mapGetters } = require("vuex");
 
-const binarySearch = require("../binary-search");
-const { pageSigil } = require("../manuscript");
-const verse = require("../verse");
+const binarySearch = require("../lib/binary-search");
+const { pageSigil } = require("../lib/manuscript");
+const verse = require("../lib/verse");
 
 function searchByVerse({ np, p }, query) {
     const scope = verse.p(query) ? p : np;
@@ -32,17 +32,30 @@ module.exports = {
     }),
 
     computed: assign({
-        noPrevPage() {
-            return this.page == this.prevPage;
+        prevPage() {
+            const { index, pages } = this;
+            const prev = index - 1;
+            if (prev < 0) {
+                return undefined;
+            }
+            return pages[prev].filter(p => p).shift();
         },
 
-        noNextPage() {
-            return this.page == this.nextPage;
+        nextPage() {
+            const { index, pages } = this;
+            const { length } = pages;
+
+            const next = index + 1;
+            if (next >= length) {
+                return undefined;
+            }
+            return pages[next].filter(p => p).shift();
         },
 
         pageTitle() {
-            const { page } = this;
-            return `Bl. ${page.replace(/^0+/, "")}`;
+            let { page } = this;
+            page = page.filter(p => p).map(p => p.replace(/^0+/, ""));
+            return `Bl. ${page.join(", ")}`;
         },
 
         verseTitle() {
@@ -56,7 +69,9 @@ module.exports = {
             ].filter(c => c).join(" ");
 
         }
-    }, mapGetters("metadata", [ "page", "prevPage", "nextPage", "manuscript", "verses" ])),
+    }, mapGetters(
+        "metadata", [ "index", "page", "pages", "manuscript", "verses" ]
+    )),
 
     watch: {
         manuscript() {

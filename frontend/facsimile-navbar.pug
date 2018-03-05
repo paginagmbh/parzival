@@ -23,8 +23,8 @@ nav.navbar.is-fixed-bottom.is-light(role="navigation" aria-label="pagination")
       .navbar-item
         .field.is-grouped
           .control
-            router-link.button(:to='{ name: "facsimile", params: { sigil: manuscript.sigil, page: prevPage } }' :disabled="noPrevPage")
+            router-link.button(:to='{ name: "facsimile", params: { sigil: manuscript.sigil, page: prevPage } }' :disabled="prevPage === undefined")
               i.fa.fa-angle-left
           .control
-            router-link.button(:to='{ name: "facsimile", params: { sigil: manuscript.sigil, page: nextPage } }' :disabled="noNextPage")
+            router-link.button(:to='{ name: "facsimile", params: { sigil: manuscript.sigil, page: nextPage } }' :disabled="nextPage === undefined")
               i.fa.fa-angle-right

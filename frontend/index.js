@@ -16,7 +16,7 @@ sync(store, router);
 
 const [ el ] = $(".parzival-app");
 
-const template = require("./index.pug")();
+const template = require("./app.pug")();
 
 const components = {
     Navbar: require("./navbar")
