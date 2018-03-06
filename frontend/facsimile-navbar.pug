@@ -23,6 +23,13 @@ nav.navbar.is-fixed-bottom.is-light(role="navigation" aria-label="pagination")
       .navbar-item
         .field.is-grouped
           .control
+            router-link.button(:class='{ "is-primary": mode == "single-page"}' :to='{ name: "facsimile", params: { mode: "single-page" } }' title="Einzelseitenansicht")
+              i.fa.fa-file-o
+            router-link.button(:class='{ "is-primary": mode == "double-page"}' :to='{ name: "facsimile", params: { mode: "double-page" } }' title="Doppelseitenansicht")
+              i.fa.fa-files-o
+      .navbar-item
+        .field.is-grouped
+          .control
             router-link.button(:to='{ name: "facsimile", params: { sigil: manuscript.sigil, page: prevPage } }' :disabled="prevPage === undefined")
               i.fa.fa-angle-left
           .control

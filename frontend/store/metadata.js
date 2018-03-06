@@ -7,7 +7,7 @@ const quire = require("../../lib/quire");
 const { pageSigil } = require("../../lib/manuscript");
 
 const manuscripts = metadata.map(manuscript => assign(manuscript, {
-    pages: manuscript.pages.map(p => [ p ]),
+    singlePages: manuscript.pages.map(p => [ p ]),
     doublePages: quire.doublePages(manuscript.pages)
 }));
 
@@ -40,11 +40,12 @@ module.exports = {
 
         pages(state, { manuscript }, { route }) {
             const { params } = route;
+            const { singlePages, doublePages } = manuscript;
             switch (params.mode || "") {
             case "double-page":
-                return manuscript.doublePages;
+                return doublePages;
             default:
-                return manuscript.pages;
+                return singlePages;
             }
         },
 

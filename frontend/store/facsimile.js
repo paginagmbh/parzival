@@ -11,8 +11,8 @@ module.exports = {
         initialViewport({ viewport }) {
             const { x, y, width, height } = viewport;
             return viewport.clone().translate(new Point(
-                width < 1 ? -x : 0,
-                height < 1 ? -y : 0
+                -x + (width < 1 ? 0 : (1 - width) / 2),
+                -y + (height < 1 ? 0 : (1 - height) / 2)
             ));
         }
     },

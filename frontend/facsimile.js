@@ -27,6 +27,7 @@ module.exports = {
             if (!this.osd) {
                 return;
             }
+            this.imageOpen = false;
             this.osd.close();
 
             const { tileSources } = this;
@@ -35,10 +36,12 @@ module.exports = {
 
             const success = () => {
                 if (--length == 0) {
-                    this.osd.viewport.fitBoundsWithConstraints(
+                    this.osd.viewport.fitBounds(
                         this.initialViewport,
                         true
                     );
+                    this.updateViewport();
+                    this.imageOpen = true;
                 }
             };
 
@@ -47,14 +50,30 @@ module.exports = {
             })).filter(ts => ts).forEach(
                 tiledImage => this.osd.addTiledImage(tiledImage)
             );
-        }
+        },
 
+        updateViewport() {
+            const { osd, imageOpen } = this;
+            if (!osd || !imageOpen) {
+                return;
+            }
+
+            const { viewport } = osd;
+            this.viewportChange(
+                { viewport: viewport.getConstrainedBounds() }
+            );
+
+        }
     }, mapMutations("facsimile", ["viewportChange"])),
 
     watch: {
         tileSources() {
             this.openPages();
         }
+    },
+
+    created() {
+        this.imageOpen = false;
     },
 
     mounted() {
@@ -66,12 +85,9 @@ module.exports = {
             debugMode: false
         });
 
-        const { viewport } = osd;
-        osd.addHandler("viewport-change", debounce(() => {
-            this.viewportChange(
-                { viewport: viewport.getConstrainedBounds() }
-            );
-        }, 250, { leading: true }));
+        osd.addHandler("viewport-change", debounce(
+            this.updateViewport.bind(this), 250, { leading: true }
+        ));
 
         this.openPages();
     },

@@ -3,7 +3,7 @@ const $ = require("jquery");
 const { assign } = Object;
 const { max, min } = Math;
 
-const { mapGetters } = require("vuex");
+const { mapGetters, mapState } = require("vuex");
 
 const binarySearch = require("../lib/binary-search");
 const { pageSigil } = require("../lib/manuscript");
@@ -71,6 +71,8 @@ module.exports = {
         }
     }, mapGetters(
         "metadata", [ "index", "page", "pages", "manuscript", "verses" ]
+    ), mapState(
+        "route", { "mode": (state) => state.params.mode }
     )),
 
     watch: {
