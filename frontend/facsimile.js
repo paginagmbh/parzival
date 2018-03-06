@@ -10,7 +10,8 @@ const prefixUrl = "/openseadragon/images/";
 
 module.exports = {
     components: {
-        Navbar: require("./facsimile-navbar")
+        Navbar: require("./facsimile-navbar"),
+        Quire: require("./quire")
     },
 
     template: require("./facsimile.pug")(),

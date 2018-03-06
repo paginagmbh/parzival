@@ -64,6 +64,7 @@
     "babel-polyfill": "^6.26.0",
     "browser-update": "^2.1.9",
     "bulma": "^0.6.1",
+    "d3": "^4.13.0",
     "deep-equal": "^1.0.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",

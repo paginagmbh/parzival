@@ -7,8 +7,11 @@ const Facsimile = require("./facsimile");
 const Placeholder = require("./placeholder");
 
 const routes = [
-    { name: "home", path: "/", redirect: "/facsimile/double-page/V/001r" },
-    { name: "facsimile", path: "/facsimile/:mode/:sigil/:page", component: Facsimile },
+    { name: "home", path: "/", redirect: "/facsimile/V/001r/double-page" },
+    { name: "_facsimile",
+      path: "/facsimile/:sigil/:page",
+      redirect: "/facsimile/:sigil/:page/double-page" },
+    { name: "facsimile", path: "/facsimile/:sigil/:page/:mode", component: Facsimile },
     { name: "about", path: "/about", component: Placeholder },
     { name: "manuscripts", path: "/manuscripts", component: Placeholder },
     { name: "materials", path: "/materials", component: Placeholder },
@@ -18,7 +21,7 @@ const routes = [
 
 const router = module.exports = new VueRouter({ routes, mode: "history" });
 
-let facsimileParams = { mode: "single-page" };
+let facsimileParams = { mode: "double-page" };
 router.beforeEach(({ name, params }, from, next) => {
     switch (name) {
     case "facsimile":
