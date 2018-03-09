@@ -25,6 +25,8 @@ function searchByVerse({ np, p }, query) {
 
 
 module.exports = {
+    name: "facsimile-navbar",
+
     template: require("./facsimile-navbar.pug")(),
 
     data: () => ({

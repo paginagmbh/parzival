@@ -1,0 +1,3 @@
+.parzival-facsimile-carousel
+  div(v-for="p in pages" :key=`p.key`)
+    img(:alt="p.page" :data-lazy="p.src")

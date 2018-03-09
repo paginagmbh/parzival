@@ -1,0 +1,15 @@
+doctype html
+html(class="setting-up" lang="de")
+  - const { chunks, css } = htmlWebpackPlugin.files;
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title Nuwer Parzifal – Parzival-Projekt
+    each href in css
+      link(rel="stylesheet" type="text/css" href=`/${href}`)
+    script(src=`/${chunks.commons.entry}`)
+    script(src=`/${chunks.setup.entry}`)
+  body
+    .parzival-app
+  script(src=`/${chunks.index.entry}`)
+  script(src=`/${chunks.bo.entry}`)

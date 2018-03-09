@@ -9,8 +9,11 @@ const OpenSeadragon = require("openseadragon");
 const prefixUrl = "/openseadragon/images/";
 
 module.exports = {
+    name: "facsimile",
+
     components: {
         Navbar: require("./facsimile-navbar"),
+        Carousel: require("./facsimile-carousel"),
         Quire: require("./quire")
     },
 

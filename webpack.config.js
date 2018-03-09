@@ -96,7 +96,7 @@ module.exports = {
         new StyleLintPlugin({ quiet: false }),
         new CommonsChunkPlugin({ name: "commons", minChunks: 2 }),
         new HtmlWebpackPlugin({
-            template: "frontend/index.pug",
+            template: "frontend/html.pug",
             inject: false,
             alwaysWriteToDisk: true
         }),

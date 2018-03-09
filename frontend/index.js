@@ -16,7 +16,7 @@ sync(store, router);
 
 const [ el ] = $(".parzival-app");
 
-const template = require("./app.pug")();
+const template = require("./index.pug")();
 
 const components = {
     Navbar: require("./navbar")
@@ -24,6 +24,8 @@ const components = {
 
 window.parzivalApp = new Vue({
     el, template,  components, store, router,
+
+    name: "parzival",
 
     mounted() {
         $("html").removeClass("setting-up");
