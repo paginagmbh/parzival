@@ -1,14 +1,15 @@
 const { assign } = Object;
-const { min, max } = Math;
 
 const metadata = require("./metadata.json");
 
 const quire = require("../../lib/quire");
-const { pageSigil } = require("../../lib/manuscript");
+const { parsePageSigil, pageSigil } = require("../../lib/manuscript");
 
 const manuscripts = metadata.map(manuscript => assign(manuscript, {
     singlePages: manuscript.pages.map(p => [ p ]),
-    doublePages: quire.doublePages(manuscript.pages)
+    doublePages: quire.leafs(manuscript.pages.map(parsePageSigil)).map(
+        leaf => leaf.map(p => p ? pageSigil(p) : undefined)
+    )
 }));
 
 function findManuscript(sigil) {
@@ -38,10 +39,14 @@ module.exports = {
             return findManuscript(params.sigil || "");
         },
 
-        pages(state, { manuscript }, { route }) {
+        pageMode(state, getters, { route }) {
             const { params } = route;
+            return params.mode || "single-page";
+        },
+
+        pages(state, { manuscript, pageMode }) {
             const { singlePages, doublePages } = manuscript;
-            switch (params.mode || "") {
+            switch (pageMode) {
             case "double-page":
                 return doublePages;
             default:
@@ -67,6 +72,25 @@ module.exports = {
                 `/parzival-${sigil.toLowerCase()}-${page}.ptif`,
                 "info.json"
             ].join("/"));
+        },
+
+        quireIcon(state, { manuscript, page, pageMode }) {
+            const { quires } = manuscript;
+            const [ icons ] = page.filter(p => p).map(p => quires[p]);
+            if (!icons) {
+                return undefined;
+            }
+            const { singlePage, doublePage } = icons;
+            switch (pageMode) {
+            case "double-page":
+                return doublePage;
+            default:
+                return singlePage;
+            }
+        },
+
+        quireIconPath(state, { quireIcon }) {
+            return quireIcon ? `/quire-icons/${quireIcon}.gif` : quireIcon;
         },
 
         verses(state, { manuscript, page }) {

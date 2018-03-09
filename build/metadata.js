@@ -1,14 +1,87 @@
 const { assign, keys } = Object;
 
+const assert = require("assert");
+
 const path = require("path");
 const fs = require("fs");
 
-const csv = require("csv-stringify/lib/sync");
+const equal = require("deep-equal");
+
+const csvParse = require("csv-parse/lib/sync");
+const csvStringify = require("csv-stringify/lib/sync");
 
 const verse = require("../lib/verse");
-const { pageSigil } = require("../lib/manuscript");
+const { pageSigil, parsePageSigil, pageRange, pageSeq } = require("../lib/manuscript");
+const quire = require("../lib/quire");
 
 const encoding = "utf-8";
+
+let quireTypes = fs.readdirSync(
+    path.resolve(__dirname, "..", "frontend", "quire-icons")
+);
+
+quireTypes = quireTypes
+    .filter(fn => fn.includes("p_"))
+    .map(fn => fn.split("p_"))
+    .reduce(
+        (idx, [ type ]) => assign(
+            idx, { [type]: (idx[type] || 0) + 1 }
+        ),
+        {}
+    );
+
+quireTypes = keys(quireTypes).reduce(
+    (types, type) => {
+        const count = quireTypes[type];
+        const pages = pageSeq({ leaf: 1, page: "r" }, count);
+        const leafs = quire.leafs(pages);
+        return assign(types, { [type]: { count, pages, leafs } });
+    },
+    {}
+);
+
+let quires = csvParse(fs.readFileSync(
+    path.join(__dirname, "quires.csv"),
+    { encoding }
+), { columns: ["manuscript", "pages", "quire"] });
+
+quires = quires.filter(({ quire }) => quire);
+
+quires = quires.map(manuscriptQuire => {
+    const { manuscript } = manuscriptQuire;
+    const type = manuscriptQuire.quire;
+
+    const quireType = quireTypes[type];
+    const { count, pages, leafs } = quireType;
+
+    const manuscriptPages = pageRange(
+        ...manuscriptQuire.pages.split("–").map(parsePageSigil)
+    );
+    const manuscriptLeafs = quire.leafs(manuscriptPages);
+
+    assert.equal(
+        manuscriptPages.length, count,
+        JSON.stringify({ manuscriptPages, quireType })
+    );
+
+    const result = [];
+    manuscriptPages.forEach((page, pi) => {
+        result.push({
+            manuscript,
+            page: pageSigil(page),
+            singlePage: `${type}p_${pageSigil(pages[pi], 1)}`,
+            doublePage: manuscriptLeafs
+                .map((l, li) => ({ l, li }))
+                .filter(({ l }) => l.some(lp => equal(lp, page)))
+                .map(({ li }) => leafs[li])
+                .map(leaf => leaf.filter(p => p).map(p => pageSigil(p, 1)).join(""))
+                .map(leaf => `${type}_${leaf}`)
+                .shift()
+        });
+    });
+
+    return result;
+}).reduce((all, one) => all.concat(one), []);
 
 function karlsruheData() {
     const manuscript = "K";
@@ -78,7 +151,7 @@ let verses = karlsruheData().concat(romaData());
 
 fs.writeFileSync(
     path.join(__dirname, "verses.csv"),
-    csv(verses, {
+    csvStringify(verses, {
         columns: ["manuscript", "leaf", "page", "column", "start", "end", "hand" ]
     }),
     { encoding }
@@ -117,10 +190,21 @@ const manuscripts = ["K", "R"].map(sigil => {
         {}
     )).sort();
 
+    const pageQuires = pages.reduce(
+        (all, one) => {
+            const { singlePage, doublePage } = quires
+                  .filter(({ manuscript, page }) => one == page && sigil == manuscript)
+                  .shift() || {};
+
+            return assign(all, { [one]: { singlePage, doublePage }});
+        },
+        {}
+    );
+
     const p = columns.filter(c => verse.p(c.start)).sort(verseSort);
     const np = columns.filter(c => verse.np(c.start)).sort(verseSort);
 
-    return assign({}, metadata[sigil], { columns, pages, p, np });
+    return assign({}, metadata[sigil], { columns, pages, quires: pageQuires, p, np });
 });
 
 fs.writeFileSync(

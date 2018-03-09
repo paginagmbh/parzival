@@ -86,6 +86,10 @@ module.exports = {
             {
                 from: path.join(__dirname, "node_modules/openseadragon/build/openseadragon/images"),
                 to: path.join(__dirname, "htdocs/openseadragon/images")
+            },
+            {
+                from: path.join(__dirname, "frontend", "quire-icons"),
+                to: path.join(__dirname, "htdocs", "quire-icons")
             }
         ]),
         new ExtractTextPlugin({ filename: "styles.[hash].css" }),

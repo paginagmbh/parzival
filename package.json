@@ -57,7 +57,7 @@
     "dev": "export NODE_ENV=development && gulp && webpack-dev-server --open --hot",
     "clean": "gulp clean",
     "test": "gulp test",
-    "convert": "node build/verses.js",
+    "metadata": "node build/metadata.js",
     "transcript-sync": "rsync -avz --delete root@parzival.pagina-dh.de:/srv/bern/Transkriptionen/ transcripts"
   },
   "dependencies": {

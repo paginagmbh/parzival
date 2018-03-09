@@ -9,28 +9,23 @@ nav.navbar.is-fixed-bottom.is-light(role="navigation" aria-label="pagination")
 
     .navbar-end
       .navbar-item
-        .field
-      .navbar-item
-        .field.is-grouped
-          .control.has-icons-left
-            input.input(type="text" placeholder="z. B. 30v oder 123 oder 700.20[1]" v-model.trim="query" @keyup.enter="search" :class='{ "is-danger": notFound }')
-            span.icon.is-left: i.fa.fa-search
-          .control
-            button.button.is-primary(@click="searchVerse") Vers
-          .control
-            button.button(@click="searchPage") Blatt
-      .navbar-item
         .field.is-grouped
           .control
             router-link.button(:class='{ "is-primary": mode == "single-page"}' :to='{ name: "facsimile", params: { mode: "single-page" } }' title="Einzelseitenansicht")
               i.fa.fa-file-o
+          .control
             router-link.button(:class='{ "is-primary": mode == "double-page"}' :to='{ name: "facsimile", params: { mode: "double-page" } }' title="Doppelseitenansicht")
               i.fa.fa-files-o
-      .navbar-item
-        .field.is-grouped
+          .control.has-icons-left
+            input.input(type="text" placeholder="z. B. 30v oder 123 oder 700.20[1]" v-model.trim="query" @keyup.enter="search" :class='{ "is-danger": notFound }')
+            span.icon.is-left: i.fa.fa-search
           .control
-            router-link.button(:to='{ name: "facsimile", params: { sigil: manuscript.sigil, page: prevPage } }' :disabled="prevPage === undefined")
+            button.button.is-primary(@click="searchVerse" title="Suche Vers") Vers
+          .control
+            button.button(@click="searchPage" title="Suche Blatt") Blatt
+          .control
+            router-link.button(:to='{ name: "facsimile", params: { sigil: manuscript.sigil, page: prevPage } }' :disabled="prevPage === undefined" title="Vorherige Seite")
               i.fa.fa-angle-left
           .control
-            router-link.button(:to='{ name: "facsimile", params: { sigil: manuscript.sigil, page: nextPage } }' :disabled="nextPage === undefined")
+            router-link.button(:to='{ name: "facsimile", params: { sigil: manuscript.sigil, page: nextPage } }' :disabled="nextPage === undefined" title="Nächste Seite")
               i.fa.fa-angle-right
