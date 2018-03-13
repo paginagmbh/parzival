@@ -19,20 +19,4 @@ const routes = [
     { name: "default", path: "*", redirect: "/" }
 ];
 
-const router = module.exports = new VueRouter({ routes, mode: "history" });
-
-let facsimileParams = { mode: "double-page" };
-router.beforeEach(({ name, params }, from, next) => {
-    switch (name) {
-    case "facsimile":
-        if (equal(params, facsimileParams)) {
-            next();
-        } else {
-            params = facsimileParams = assign(facsimileParams, params);
-            next({ name, params });
-        }
-        break;
-    default:
-        next();
-    }
-});
+module.exports = new VueRouter({ routes, mode: "history" });

@@ -4,6 +4,7 @@ module.exports = {
     namespaced: true,
 
     state: {
+        carousel: true,
         viewport: new Rect(0, 0, 1, 0.5)
     },
 
@@ -18,6 +19,14 @@ module.exports = {
     },
 
     mutations: {
+        openCarousel(state) {
+            state.carousel = true;
+        },
+
+        closeCarousel(state) {
+            state.carousel = false;
+        },
+
         viewportChange(state, { viewport }) {
             state.viewport = viewport;
         }

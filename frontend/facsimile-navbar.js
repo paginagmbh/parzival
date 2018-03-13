@@ -3,7 +3,7 @@ const $ = require("jquery");
 const { assign } = Object;
 const { max, min } = Math;
 
-const { mapGetters, mapState } = require("vuex");
+const { mapActions, mapGetters, mapState } = require("vuex");
 
 const binarySearch = require("../lib/binary-search");
 const { pageSigil } = require("../lib/manuscript");
@@ -83,7 +83,7 @@ module.exports = {
         }
     },
 
-    methods: {
+    methods: assign({
         search() {
             let { query } = this;
             return /[rv]/.test(query) ? this.searchPage() : this.searchVerse();
@@ -111,7 +111,7 @@ module.exports = {
             }
 
             this.notFound = false;
-            this.$router.push({ params: { page: sigil } });
+            this.gotoPage({ page: sigil });
         },
 
         searchVerse() {
@@ -136,9 +136,12 @@ module.exports = {
             }
 
             this.notFound = false;
-            this.$router.push({ params: { page } });
+            this.gotoPage({ page });
         }
-    },
+
+    }, mapActions(
+        ["gotoPage"]
+    )),
 
     created() {
         this.$html = $("html").addClass("has-navbar-fixed-bottom");

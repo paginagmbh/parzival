@@ -70,8 +70,9 @@
     "jquery": "^3.2.1",
     "lodash.debounce": "^4.0.8",
     "openseadragon": "^2.3.1",
-    "slick-carousel": "^1.8.1",
+    "scroll-into-view": "^1.9.1",
     "vue": "^2.5.13",
+    "vue-lazyload": "^1.2.2",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1",
     "vuex-router-sync": "^5.0.0"

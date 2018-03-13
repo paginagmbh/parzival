@@ -1,14 +1,15 @@
 const { assign } = Object;
 
 const $ = require("jquery");
+const scrollIntoView = require("scroll-into-view");
 
-require("slick-carousel");
-
-const { mapGetters } = require("vuex");
+const { mapActions, mapGetters, mapMutations, mapState } = require("vuex");
 
 module.exports = {
     name: "facsimile-carousel",
+
     template: require("./facsimile-carousel.pug")(),
+
     computed: assign({
 
         pages() {
@@ -17,35 +18,73 @@ module.exports = {
             return pages.map(page => ({
 
                 page,
-                key: [sigil, page].join("_"),
                 src: [
                     "https://assets.pagina-dh.de/iiif",
                     `/parzival-${sigil.toLowerCase()}-${page}.ptif`,
-                    "full", ",128", "0", "default.jpg"
-                ].join("/")
+                    "full", ",256", "0", "default.jpg"
+                ].join("/"),
+                key: [sigil, page].join("_")
 
             }));
         }
 
-    }, mapGetters("metadata", ["manuscript"])),
+    }, mapGetters(
+        "metadata", ["manuscript", "page"]
+    ), mapState(
+        "facsimile", { "visible": "carousel" }
+    )),
 
-    methods: {
-        slick() {
-            this.$nextTick().then(() => $(this.$el).slick({
-                arrows: true,
-                dots: false,
-                infinite: false,
-                slidesToShow: 6,
-                slidesToScroll: 5
-            }));
+    methods: assign({
+
+        highlight() {
+            this.$nextTick().then(() => {
+                if (!this.visible) {
+                    return;
+                }
+                let page = this.page.filter(p => p);
+
+                const $slides = $(this.$el).find(".parzival-facsimile-slide");
+
+                $slides.removeClass("is-active");
+                page.forEach((p, pi) => {
+                    const [ slide ] = $slides
+                          .filter(`[data-page='${p}']`)
+                          .addClass("is-active");
+
+                    if (pi == 0) {
+                        scrollIntoView(slide);
+                    }
+                });
+
+
+            });
         }
-    },
+
+    }, mapMutations(
+        "facsimile", ["openCarousel", "closeCarousel"]
+    ), mapActions(
+        ["gotoPage"]
+    )),
 
     mounted() {
-        this.slick();
+        $(document).on("keypress", this.escapeHandler = (e) => {
+            if (!this.visible) {
+                return;
+            }
+            switch (e.keyCode) {
+            case 27: // esc
+                this.closeCarousel();
+                break;
+            }
+        });
+        this.highlight();
+    },
+
+    updated() {
+        this.highlight();
     },
 
     beforeDestroy() {
-        $(this.$el).slick("unslick");
+        $(document).off("keypress", this.escapeHandler);
     }
 };

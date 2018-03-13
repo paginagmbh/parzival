@@ -40,12 +40,12 @@ module.exports = {
 
             const success = () => {
                 if (--length == 0) {
+                    this.imageOpen = true;
                     this.osd.viewport.fitBounds(
                         this.initialViewport,
                         true
                     );
                     this.updateViewport();
-                    this.imageOpen = true;
                 }
             };
 
@@ -56,19 +56,41 @@ module.exports = {
             );
         },
 
-        updateViewport() {
+        withOpenImage(fn) {
             const { osd, imageOpen } = this;
-            if (!osd || !imageOpen) {
-                return;
-            }
+            return osd ? fn(osd, imageOpen) : false;
+        },
 
-            const { viewport } = osd;
-            this.viewportChange(
+        updateViewport() {
+            this.withOpenImage(({ viewport }, imageOpen) => imageOpen ? this.viewportChange(
                 { viewport: viewport.getConstrainedBounds() }
-            );
+            ) : false);
+        },
 
+        zoomIn() {
+            this.withOpenImage(({ viewport }) => viewport.zoomBy(2));
+        },
+
+        zoomOut() {
+            this.withOpenImage(({ viewport }) => viewport.zoomBy(0.5));
+
+        },
+
+        rotate(degrees) {
+            this.withOpenImage(
+                ({ viewport }) => viewport.setRotation(viewport.getRotation() + degrees)
+            );
+        },
+
+        rotateLeft() {
+            this.rotate(-90);
+        },
+
+        rotateRight() {
+            this.rotate(90);
         }
-    }, mapMutations("facsimile", ["viewportChange"])),
+
+    }, mapMutations("facsimile", ["viewportChange", "openCarousel"])),
 
     watch: {
         tileSources() {
@@ -85,7 +107,8 @@ module.exports = {
         const osd = this.osd = OpenSeadragon({
             prefixUrl, element,
             showNavigator: true,
-            showRotationControl: true,
+            showNavigationControl: false,
+            showRotationControl: false,
             debugMode: false
         });
 

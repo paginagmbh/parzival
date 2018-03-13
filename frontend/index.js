@@ -1,11 +1,14 @@
 const $ = require("jquery");
 
 const Vue = require("vue");
+
+const VueLazyload = require("vue-lazyload");
+
 const Vuex = require("vuex");
 const VueRouter = require("vue-router");
-
 const { sync } = require("vuex-router-sync");
 
+Vue.use(VueLazyload);
 Vue.use(Vuex);
 Vue.use(VueRouter);
 
