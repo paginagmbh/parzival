@@ -4,7 +4,7 @@ module.exports = {
     namespaced: true,
 
     state: {
-        carousel: true,
+        carousel: false,
         viewport: new Rect(0, 0, 1, 0.5)
     },
 
