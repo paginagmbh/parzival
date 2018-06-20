@@ -1,6 +1,3 @@
-const { assign } = Object;
-
-const equal = require("deep-equal");
 const VueRouter = require("vue-router");
 
 const Facsimile = require("./facsimile");

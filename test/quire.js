@@ -1,7 +1,3 @@
-const chai = require("chai");
-
-chai.should();
-
 const { Leaf, pages } = require("../lib/quire");
 
 describe("quire", () => {

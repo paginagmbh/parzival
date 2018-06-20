@@ -1,29 +1,23 @@
+const { env } = process;
+
 const path = require("path");
-
-const webpack = require("webpack");
-
-const { DefinePlugin, LoaderOptionsPlugin } = webpack;
-const { CommonsChunkPlugin, UglifyJsPlugin } = webpack.optimize;
 
 const CopyPlugin = require("copy-webpack-plugin");
 const StyleLintPlugin = require("stylelint-webpack-plugin");
-const ExtractTextPlugin = require("extract-text-webpack-plugin");
-const { BundleAnalyzerPlugin } = require("webpack-bundle-analyzer");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const HtmlWebpackHarddiskPlugin = require("html-webpack-harddisk-plugin");
-
-const NODE_ENV = process.env.NODE_ENV || "development";
+const ClosureCompilerPlugin = require("webpack-closure-compiler");
 
 const contentBase = path.join(__dirname, "htdocs");
 
 module.exports = {
+    mode: env.NODE_ENV || "development",
     context: __dirname,
     entry: {
-        "bo": ["./frontend/browser-update.js"],
-        "setup": ["babel-polyfill", "./frontend/setup.js"],
         "index": [
             "font-awesome/scss/font-awesome.scss",
             "./frontend/index.scss",
+            "babel-polyfill",
             "./frontend/index.js"
         ]
     },
@@ -34,6 +28,7 @@ module.exports = {
     },
     resolve: {
         alias: {
+            //"vue$": "vue/dist/vue.esm.js"
             "vue$": "vue/dist/vue.common.js",
             "vuex$": "vuex/dist/vuex.common.js",
             "vue-router$": "vue-router/dist/vue-router.common.js"
@@ -47,18 +42,12 @@ module.exports = {
                 path.resolve(__dirname, "lib")
             ],
             use: "babel-loader"
-        },{
+        }, {
             test: /\.s[ca]ss$/,
-            use: ExtractTextPlugin.extract({
-                fallback: "style-loader",
-                use: ["css-loader", "postcss-loader", "sass-loader"]
-            })
-        },{
+            use: ["style-loader", "css-loader", "postcss-loader", "sass-loader"]
+        }, {
             test: /\.css$/,
-            use: ExtractTextPlugin.extract({
-                fallback: "style-loader",
-                use: ["css-loader", "postcss-loader"]
-            })
+            use: ["style-loader", "css-loader", "postcss-loader"]
         }, {
             test: /\.(png|jpg|gif)$/,
             use: {
@@ -73,15 +62,11 @@ module.exports = {
             use: "file-loader"
         }, {
             test: /\.pug$/,
-            use: "pug-loader"
+            use: ["babel-loader", "pug-loader"]
         }]
     },
     devServer: { contentBase, historyApiFallback: true },
-    devtool: NODE_ENV == "development" ? "#eval-source-map" : "#source-map",
     plugins: [
-        new DefinePlugin({
-            "process.env.NODE_ENV": JSON.stringify(NODE_ENV)
-        }),
         new CopyPlugin([
             {
                 from: path.join(__dirname, "node_modules/openseadragon/build/openseadragon/images"),
@@ -92,9 +77,7 @@ module.exports = {
                 to: path.join(__dirname, "htdocs", "quire-icons")
             }
         ]),
-        new ExtractTextPlugin({ filename: "styles.[hash].css" }),
         new StyleLintPlugin({ quiet: false }),
-        new CommonsChunkPlugin({ name: "commons", minChunks: 2 }),
         new HtmlWebpackPlugin({
             template: "frontend/html.pug",
             inject: false,
@@ -102,32 +85,11 @@ module.exports = {
         }),
         new HtmlWebpackHarddiskPlugin()
 
-    ]
+    ].concat(
+        env.NODE_ENV == "production"
+            ? [
+                new ClosureCompilerPlugin({ concurrency: 3 })
+            ]
+        : []
+    )
 };
-
-switch (NODE_ENV) {
-case "development":
-    module.exports.plugins = module.exports.plugins.concat([
-        //new BundleAnalyzerPlugin()
-    ]);
-    break;
-case "production":
-    module.exports.plugins = module.exports.plugins.concat([
-        new LoaderOptionsPlugin({
-            minimize: true,
-            debug: false
-        }),
-        new UglifyJsPlugin({
-            beautify: false,
-            mangle: {
-                screw_ie8: true,
-                keep_fnames: true
-            },
-            compress: {
-                screw_ie8: true
-            },
-            comments: false
-        })
-    ]);
-    break;
-}

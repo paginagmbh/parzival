@@ -1,7 +1,3 @@
-const chai = require("chai");
-
-chai.should();
-
 const { parse, compare, within } = require("../lib/verse");
 
 describe("verse", () => {

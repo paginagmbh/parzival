@@ -15,6 +15,7 @@ module.exports = {
         pages() {
             const { manuscript } = this;
             const { sigil, pages } = manuscript;
+            // https://assets.pagina-dh.de/parzival/images/v-002v_files/9/0_0.jpeg
             return pages.map(page => ({
 
                 page,
