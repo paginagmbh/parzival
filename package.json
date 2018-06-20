@@ -58,8 +58,8 @@
     "xmlbuilder": "^10.0.0"
   },
   "scripts": {
-    "clean": "rimraf htdocs",
-    "build": "webpack",
+    "clean": "rimraf htdocs transcripts/conversion/*.xml",
+    "build": "node --require babel-register scripts/build",
     "test": "mocha",
     "lint": "eslint frontend",
     "dev": "webpack-dev-server --open --hot",

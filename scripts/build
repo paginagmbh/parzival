@@ -1,0 +1,31 @@
+#!/usr/bin/env node
+// -*- mode: JS2 -*-
+
+import "babel-polyfill";
+
+import path from "path";
+import { spawnSync } from "child_process";
+
+const basedir = path.resolve(__dirname, "..");
+const transcriptDir = path.resolve(basedir, "transcripts", "conversion");
+
+const stdio = "inherit";
+
+function run(cwd, ...args) {
+    const { status } = spawnSync(...args, { cwd, stdio });
+    if (status == 0) {
+        return;
+    }
+    throw new Error(args);
+}
+
+run(transcriptDir, "docker", [
+    "run", "-it", "--rm",
+    "-v", `${transcriptDir}:/data`,
+    "--env", "TUSTEP_CMD=xmlexport",
+    "--env", "TUSTEP_INI=tustep.ini",
+    "--env", "TUSTEP_MEM=00300000",
+    "tustep"
+]);
+
+run(basedir, "webpack");
