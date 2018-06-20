@@ -68,9 +68,8 @@ module.exports = {
             const { sigil } = manuscript;
 
             return page.map(page => page === undefined ? undefined : [
-                "https://assets.pagina-dh.de/iiif",
-                `/parzival-${sigil.toLowerCase()}-${page}.ptif`,
-                "info.json"
+                "https://assets.pagina-dh.de/parzival/images",
+                `${sigil.toLowerCase()}-${page}.dzi`
             ].join("/"));
         },
 

@@ -15,14 +15,13 @@ module.exports = {
         pages() {
             const { manuscript } = this;
             const { sigil, pages } = manuscript;
-            // https://assets.pagina-dh.de/parzival/images/v-002v_files/9/0_0.jpeg
             return pages.map(page => ({
 
                 page,
                 src: [
-                    "https://assets.pagina-dh.de/iiif",
-                    `/parzival-${sigil.toLowerCase()}-${page}.ptif`,
-                    "full", ",256", "0", "default.jpg"
+                    "https://assets.pagina-dh.de/parzival/images",
+                    `${sigil.toLowerCase()}-${page}_files`,
+                    "8", "0_0.jpeg"
                 ].join("/"),
                 key: [sigil, page].join("_")
 
