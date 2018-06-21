@@ -6,6 +6,8 @@ import "babel-polyfill";
 import path from "path";
 import { spawnSync } from "child_process";
 
+import { toHtml } from "../build/transcripts";
+
 const basedir = path.resolve(__dirname, "..");
 const transcriptDir = path.resolve(basedir, "transcripts", "conversion");
 
@@ -27,5 +29,7 @@ run(transcriptDir, "docker", [
     "--env", "TUSTEP_MEM=00300000",
     "tustep"
 ]);
+
+toHtml(transcriptDir);
 
 run(basedir, "webpack");
