@@ -2,31 +2,14 @@ import path from "path";
 import fs from "fs";
 
 import globby from "globby";
-import sax from "sax";
 
 import m from "../lib/manuscript";
 import v from "../lib/verse";
+import markup from "../lib/markup";
 
 function sort(a, b) {
     let diff = a.manuscript.localeCompare(b.manuscript);
     return diff == 0 ? a.num - b.num : diff;
-}
-
-function parse(file, handler, data={}) {
-    return new Promise((resolve, reject) => {
-        const saxStream = sax.createStream(true, { xmlns: true });
-
-        for (const event in handler) {
-            if (sax.EVENTS.indexOf(event) >= 0) {
-                saxStream.on(event, handler[event].bind(data));
-            }
-        }
-
-        saxStream.on("error", reject);
-        saxStream.on("end", () => resolve(data));
-
-        fs.createReadStream(file).pipe(saxStream).on("error", reject);
-    });
 }
 
 function xmlId(el) {
@@ -55,143 +38,41 @@ function breakSigil(el) {
     return m.parsePageSigil(xmlId(el));
 }
 
-function textOfNode(node) {
-    if (node.text) {
-        return node.text;
-    }
+const { start, ln, emptyText, not, contextual } = markup.filters;
 
-    let separator;
-
-    switch (node.type) {
-    case "l":
-        separator = "";
-        break;
-    default:
-        separator = "\n";
-    }
-
-    return node.contents.map(textOfNode).join(separator);
-}
-
-function mergeNodes(prev, next) {
-    if (prev.type == "text" && next.type == "text") {
-        return [{
-            type: "text",
-            contents: [],
-            cdata: [prev.cdata, next.cdata].join("")
-        }];
-    }
-    return [prev, next];
-}
-
-function compactNode(node) {
-    node.contents = node.contents
-        .map(compactNode)
-        .reduce((contents, next) => {
-            if (contents.length == 0) {
-                contents.push(next);
-                return contents;
+async function parse({ source, manuscript, text }) {
+    return (await markup.events(fs.createReadStream(source)))
+        .filter(contextual(
+            start(ln("TEI", "del", "choice")),
+            start(ln("text", "reg", "corr", "ex"))
+        ))
+        .filter(contextual(
+            start(ln("note")),
+            () => false
+        ))
+        .map(markup.whitespace.compress(
+            start(ln("div", "subst", "choice")),
+            markup.whitespace.xmlSpace
+        ))
+        .map(markup.whitespace.breakLines(
+            start(ln("l", "cb"))
+        ))
+        .filter(not(emptyText()))
+        .map(event => {
+            switch (event.event) {
+            case "start":
+                switch (event.local) {
+                case "pb":
+                case "cb":
+                    event = { ...event, ...breakSigil(event), manuscript, text };
+                    break;
+                case "l":
+                    event = { ...event, ...verseSigil(event), manuscript, text };
+                    break;
+                }
             }
-            const prev = contents.pop();
-            mergeNodes(prev, next).forEach(result => contents.push(result));
-            return contents;
-        }, []);
-
-    return node;
-}
-
-function traverse(root, callback) {
-    const path = [];
-    return (function traverse(node) {
-        let result = [ callback(node, path) ];
-
-        path.push(node);
-        node.contents.forEach(child => {
-            traverse(child, path).forEach(r => result.push(r));
+            return event;
         });
-        path.pop();
-
-        return result;
-    })(root);
-}
-
-class Parser {
-
-    constructor(manuscript, text) {
-        this.stack = [];
-        this.locator = { manuscript, text };
-        this.model = [{ type: "model", attributes: {}, contents: [], text: "" }];
-    }
-
-    parse(file) {
-        return new Promise((resolve, reject) => {
-            const saxStream = sax.createStream(true, { xmlns: true });
-
-            saxStream.on("opentag", this.opentag.bind(this));
-            saxStream.on("closetag", this.closetag.bind(this));
-            saxStream.on("text", this.cdata.bind(this));
-            saxStream.on("cdata", this.cdata.bind(this));
-            saxStream.on("error", reject);
-            saxStream.on("end", () => resolve(compactNode(this.model.pop())));
-
-            fs.createReadStream(file).pipe(saxStream).on("error", reject);
-        });
-    }
-
-    opentag(el) {
-        this.stack.unshift(el);
-
-        const { local, uri, attributes } = el;
-        switch (uri) {
-        case "http://www.tei-c.org/ns/1.0":
-            switch (local) {
-            case "cb":
-                Object.assign(this.locator, breakSigil(el));
-                break;
-            case "l":
-                this.down(local, { ...attributes, ...verseSigil(el), ...this.locator });
-                break;
-            default:
-                this.down(local, attributes);
-                break;
-            }
-        }
-    }
-
-    closetag() {
-        const { local, uri } = this.stack.shift();
-
-        switch (uri) {
-        case "http://www.tei-c.org/ns/1.0":
-            switch (local) {
-            case "cb":
-                break;
-            default:
-                this.up();
-                break;
-            }
-        }
-    }
-
-    cdata(cdata) {
-        this.down("text", { cdata });
-        return this.up();
-    }
-
-    down(type, attributes = {}, contents = []) {
-        const node = { type, attributes, contents };
-
-        const parent = this.model.pop();
-        parent.contents.push(node);
-        this.model.push(parent);
-
-        this.model.push(node);
-        return node;
-    }
-
-    up() {
-        return this.model.pop();
-    }
 }
 
 export async function toHtml(cwd) {
@@ -208,11 +89,16 @@ export async function toHtml(cwd) {
 
               return { source, manuscript, text, num };
           })
-          .sort(sort);
+          .sort(sort)
+    ;
 
-    for (const { manuscript, text, source } of sources) {
-        const model = await new Parser(manuscript, text).parse(source);
-        console.log(JSON.stringify(model, null, 2));
-    }
+    const transcript = (await Promise.all(sources.map(parse)))
+          .reduce((all, one) => all.concat(one), []);
 
+    console.log(
+        transcript
+            .filter(markup.filters.text())
+            .map(({ text }) => text)
+            .join("")
+    );
 }

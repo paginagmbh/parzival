@@ -20,7 +20,7 @@ function run(cwd, ...args) {
     }
     throw new Error(args);
 }
-
+/*
 run(transcriptDir, "docker", [
     "run", "-it", "--rm",
     "-v", `${transcriptDir}:/data`,
@@ -30,6 +30,6 @@ run(transcriptDir, "docker", [
     "tustep"
 ]);
 
-toHtml(transcriptDir);
-
 run(basedir, "webpack");
+*/
+toHtml(transcriptDir);
