@@ -28,7 +28,10 @@ const components = {
 };
 
 (async () => {
-    window.transcript = await (await fetch("/transcript.json")).json();
+    window.transcript = await (await fetch(
+        "/transcript.json", { credentials: "same-origin" }
+    )).json();
+
     window.parzivalApp = new Vue({
         name, el, template,  components, store, router
     });
