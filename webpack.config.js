@@ -18,6 +18,7 @@ module.exports = {
             "font-awesome/scss/font-awesome.scss",
             "./frontend/index.scss",
             "babel-polyfill",
+            "whatwg-fetch",
             "./frontend/index.js"
         ]
     },

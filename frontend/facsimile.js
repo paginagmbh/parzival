@@ -1,5 +1,4 @@
 const { assign } = Object;
-const $ = require("jquery");
 
 const debounce = require("lodash.debounce");
 
@@ -12,7 +11,8 @@ module.exports = {
     name: "facsimile",
 
     components: {
-        Navbar: require("./facsimile-navbar"),
+        Navbar: require("./navbar"),
+        FacsimileNavbar: require("./facsimile-navbar"),
         Carousel: require("./facsimile-carousel"),
         Quire: require("./quire")
     },
@@ -103,7 +103,7 @@ module.exports = {
     },
 
     mounted() {
-        const [ element ] = $(this.$el).find(".parzival-facsimile");
+        const element = this.$el.querySelector(".parzival-facsimile");
         const osd = this.osd = OpenSeadragon({
             prefixUrl, element,
             showNavigator: true,

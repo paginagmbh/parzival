@@ -1,8 +1,7 @@
-const $ = require("jquery");
-
 const Vue = require("vue");
 
 const VueLazyload = require("vue-lazyload");
+const { focus } = require("vue-focus");
 
 const Vuex = require("vuex");
 const VueRouter = require("vue-router");
@@ -12,12 +11,15 @@ Vue.use(VueLazyload);
 Vue.use(Vuex);
 Vue.use(VueRouter);
 
+Vue.directive("focus", focus);
+
 const store = require("./store");
 const router = require("./router");
 
 sync(store, router);
 
-const [ el ] = $(".parzival-app");
+const name = "parzival";
+const el = document.querySelector(".parzival-app");
 
 const template = require("./index.pug")();
 
@@ -25,12 +27,9 @@ const components = {
     Navbar: require("./navbar")
 };
 
-window.parzivalApp = new Vue({
-    el, template,  components, store, router,
-
-    name: "parzival",
-
-    mounted() {
-        $("html").removeClass("setting-up");
-    }
-});
+(async () => {
+    window.transcript = await (await fetch("/transcript.json")).json();
+    window.parzivalApp = new Vue({
+        name, el, template,  components, store, router
+    });
+})();

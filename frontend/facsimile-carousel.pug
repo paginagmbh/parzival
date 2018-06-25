@@ -1,10 +1,10 @@
-.modal(:class=`{ "is-active": visible}`)
+.modal(:class=`{ "is-active": visible}` @keyup.esc="closeCarousel" v-focus="visible" tabindex="1000")
   .modal-background
-  .modal-content
+  .modal-content()
     .section.parzival-facsimile-carousel(v-if="visible")
       .columns.is-multiline.is-gapless.is-tablet
         .column.is-3-tablet.is-one-fifth-desktop.is-2-fullhd(v-for="p in pages" :key="p.key")
-          .parzival-facsimile-slide(:data-page="p.page" @click=`gotoPage({ page: p.page })`)
+          .parzival-facsimile-slide(:class="{ 'is-active': activeSlide(p) }" @click=`gotoPage({ page: p.page })`)
             img(v-lazy="p.src" :alt="p.page")
             p {{ p.page }}
   button.modal-close.is-large(aria-label="close" @click="closeCarousel")

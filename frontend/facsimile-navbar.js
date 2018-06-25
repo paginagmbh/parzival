@@ -1,5 +1,3 @@
-const $ = require("jquery");
-
 const { assign } = Object;
 const { max, min } = Math;
 
@@ -141,13 +139,5 @@ module.exports = {
 
     }, mapActions(
         ["gotoPage"]
-    )),
-
-    created() {
-        this.$html = $("html").addClass("has-navbar-fixed-bottom");
-    },
-
-    destroyed() {
-        this.$html.removeClass("has-navbar-fixed-bottom");
-    }
+    ))
 };

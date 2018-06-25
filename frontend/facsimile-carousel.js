@@ -1,6 +1,5 @@
 const { assign } = Object;
 
-const $ = require("jquery");
 const scrollIntoView = require("scroll-into-view");
 
 const { mapActions, mapGetters, mapMutations, mapState } = require("vuex");
@@ -36,28 +35,8 @@ module.exports = {
 
     methods: assign({
 
-        highlight() {
-            this.$nextTick().then(() => {
-                if (!this.visible) {
-                    return;
-                }
-                let page = this.page.filter(p => p);
-
-                const $slides = $(this.$el).find(".parzival-facsimile-slide");
-
-                $slides.removeClass("is-active");
-                page.forEach((p, pi) => {
-                    const [ slide ] = $slides
-                          .filter(`[data-page='${p}']`)
-                          .addClass("is-active");
-
-                    if (pi == 0) {
-                        scrollIntoView(slide);
-                    }
-                });
-
-
-            });
+        activeSlide({ page }) {
+            return this.page.some(p => (page == p));
         }
 
     }, mapMutations(
@@ -66,25 +45,13 @@ module.exports = {
         ["gotoPage"]
     )),
 
-    mounted() {
-        $(document).on("keypress", this.escapeHandler = (e) => {
-            if (!this.visible) {
-                return;
+    watch: {
+        visible() {
+            if (this.visible) {
+                this.$nextTick(
+                    () => scrollIntoView(this.$el.querySelector(".is-active"))
+                );
             }
-            switch (e.keyCode) {
-            case 27: // esc
-                this.closeCarousel();
-                break;
-            }
-        });
-        this.highlight();
-    },
-
-    updated() {
-        this.highlight();
-    },
-
-    beforeDestroy() {
-        $(document).off("keypress", this.escapeHandler);
+        }
     }
 };

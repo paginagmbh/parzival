@@ -1,5 +1,3 @@
-const $ = require("jquery");
-
 const { mapGetters } = require("vuex");
 
 module.exports = {
@@ -9,34 +7,15 @@ module.exports = {
 
     computed: mapGetters("metadata", ["manuscripts", "manuscript"]),
 
-    created() {
-        this.$html = $("html").addClass("has-navbar-fixed-top");
-    },
+    data: () => ({ menu: false, msDrop: false }),
 
-    destroyed() {
-        this.$html.removeClass("has-navbar-fixed-top");
-    },
+    methods: {
+        toggleMenu() {
+            this.menu = !this.menu;
+        },
 
-    mounted() {
-        const $el = $(this.$el);
-        this.$burger = $el.find(".navbar-burger");
-        this.$menu = $el.find(".navbar-menu");
-        this.menuToggle = () => {
-            this.$burger.toggleClass("is-active");
-            this.$menu.toggleClass("is-active");
-        };
-
-        this.$burger.on("click", this.menuToggle);
-
-        this.$dropdowns = $el.find(".has-dropdown");
-        this.dropdownToggle = function() {
-            $(this).toggleClass("is-active");
-        };
-        this.$dropdowns.on("click", this.dropdownToggle);
-    },
-
-    beforeDestroy() {
-        this.$dropdowns.off("click", this.dropdownToggle);
-        this.$burger.off("click", this.menuToggle);
+        toggleMsDrop() {
+            this.msDrop = !this.msDrop;
+        }
     }
 };
