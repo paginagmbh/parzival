@@ -2,7 +2,7 @@ const { mapGetters, mapState } = require("vuex");
 
 module.exports = {
     name: "quire",
-    template: `<figure class="image parzival-quire-view" v-if="quireIconPath"><img :src="quireIconPath"></figure>`,
+    template: require("./quire.pug")(),
 
     computed: {
         ...mapState(["mode"]),
