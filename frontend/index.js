@@ -4,6 +4,8 @@ const VueLazyload = require("vue-lazyload");
 const { focus } = require("vue-focus");
 
 const Vuex = require("vuex");
+const { mapGetters } = Vuex;
+
 const VueRouter = require("vue-router");
 const { sync } = require("vuex-router-sync");
 
@@ -18,14 +20,6 @@ const router = require("./router");
 
 sync(store, router);
 
-const name = "parzival";
-const el = document.querySelector(".parzival-app");
-
-const template = require("./index.pug")();
-
-const components = {
-    Navbar: require("./navbar")
-};
 
 (async () => {
     window.transcript = await (await fetch(
@@ -33,6 +27,35 @@ const components = {
     )).json();
 
     window.parzivalApp = new Vue({
-        name, el, template,  components, store, router
+        name: "parzival",
+
+        el: document.querySelector(".parzival-app"),
+        template: require("./index.pug")(),
+
+        store, router,
+
+        computed: mapGetters("metadata", ["manuscript", "pageTitle"]),
+
+        watch: {
+            manuscript() {
+                this.updateTitle();
+            },
+
+            pageTitle() {
+                this.updateTitle();
+            }
+        },
+
+        mounted() {
+            this.updateTitle();
+        },
+
+        methods: {
+            updateTitle() {
+                const { manuscript, pageTitle } = this;
+                const { title, sigil } = manuscript;
+                document.title = `Nuwer Parzifal – ${title} (${sigil}) – ${pageTitle}`;
+            }
+        }
     });
 })();
