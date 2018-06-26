@@ -1,8 +1,9 @@
 const VueRouter = require("vue-router");
 
 const Facsimile = require("./facsimile");
-const Placeholder = require("./placeholder");
 const Overview = require("./overview");
+const Placeholder = require("./placeholder");
+const Text = require("./text");
 
 const routes = [
     { path: "/", name: "home",
@@ -20,11 +21,14 @@ const routes = [
     { path: "/:manuscript/:page", name: "_facsimile",
       redirect: "/:manuscript/:page/double-page/facsimile" },
 
+    { path: "/:manuscript/:page/:mode/overview", name: "overview",
+      component: Overview },
+
     { path: "/:manuscript/:page/:mode/facsimile", name: "facsimile",
       component: Facsimile },
 
-    { path: "/:manuscript/:page/:mode/overview", name: "overview",
-      component: Overview },
+    { path: "/:manuscript/:page/:mode/text", name: "text",
+      component: Text },
 
     { path: "*", name: "default",
       redirect: "/" }

@@ -10,6 +10,12 @@ nav.parzival-facsimile-navbar.navbar.is-fixed-bottom.is-light(role="navigation" 
       .navbar-item
         .field.is-grouped
           .control
+            router-link.button(:to='gotoView("facsimile")' title="Textansicht")
+              i.fa.fa-file-image-o
+          .control
+            router-link.button(:to='gotoView("text")' title="Textansicht")
+              i.fa.fa-file-text-o
+          .control
             router-link.button(:to='gotoMode("single-page")' title="Einzelseitenansicht")
               i.fa.fa-file-o
           .control

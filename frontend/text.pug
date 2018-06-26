@@ -1,0 +1,11 @@
+.parzival-text-view
+  navbar
+  .container
+    section.section
+      .columns.is-multiline
+        .column.is-6(v-for="c in Object.keys(columns)" :key="c")
+          p.title {{ c }}
+          p(v-for="v, vi in columns[c].verses" :key="vi")
+            span.verse {{ v.verse }}
+            span(v-html="v.html")
+  facsimile-navbar

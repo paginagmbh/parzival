@@ -79,6 +79,16 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
   height: 50px;
 }
 
+.parzival-text-view {
+  .verse {
+    color: $info;
+    font-size: $size-7;
+    margin-right: 1rem;
+  }
+  .hi-red {
+    color: $danger;
+  }
+}
 .page-label {
   color: $white;
   font-size: $size-4;

@@ -20,42 +20,35 @@ const router = require("./router");
 
 sync(store, router);
 
+window.parzivalApp = new Vue({
+    name: "parzival",
 
-(async () => {
-    window.transcript = await (await fetch(
-        "/transcript.json", { credentials: "same-origin" }
-    )).json();
+    el: document.querySelector(".parzival-app"),
+    template: require("./index.pug")(),
 
-    window.parzivalApp = new Vue({
-        name: "parzival",
+    store, router,
 
-        el: document.querySelector(".parzival-app"),
-        template: require("./index.pug")(),
+    computed: mapGetters("metadata", ["manuscript", "pageTitle"]),
 
-        store, router,
-
-        computed: mapGetters("metadata", ["manuscript", "pageTitle"]),
-
-        watch: {
-            manuscript() {
-                this.updateTitle();
-            },
-
-            pageTitle() {
-                this.updateTitle();
-            }
-        },
-
-        mounted() {
+    watch: {
+        manuscript() {
             this.updateTitle();
         },
 
-        methods: {
-            updateTitle() {
-                const { manuscript, pageTitle } = this;
-                const { title, sigil } = manuscript;
-                document.title = `Nuwer Parzifal – ${title} (${sigil}) – ${pageTitle}`;
-            }
+        pageTitle() {
+            this.updateTitle();
         }
-    });
-})();
+    },
+
+    mounted() {
+        this.updateTitle();
+    },
+
+    methods: {
+        updateTitle() {
+            const { manuscript, pageTitle } = this;
+            const { title, sigil } = manuscript;
+            document.title = `Nuwer Parzifal – ${title} (${sigil}) – ${pageTitle}`;
+        }
+    }
+});
