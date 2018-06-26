@@ -4,6 +4,7 @@ const metadata = require("./metadata.json");
 
 const quire = require("../../lib/quire");
 const { parsePageSigil, pageSigil } = require("../../lib/manuscript");
+const verse = require("../../lib/verse");
 
 const manuscripts = metadata.map(manuscript => assign(manuscript, {
     singlePages: manuscript.pages.map(p => [ p ]),
@@ -34,19 +35,13 @@ module.exports = {
             return metadata;
         },
 
-        manuscript(state, getters, { route }) {
-            const { params } = route;
-            return findManuscript(params.sigil || "");
+        manuscript(state, getters, { manuscript }) {
+            return findManuscript(manuscript);
         },
 
-        pageMode(state, getters, { route }) {
-            const { params } = route;
-            return params.mode || "single-page";
-        },
-
-        pages(state, { manuscript, pageMode }) {
+        pages(state, { manuscript }, { mode }) {
             const { singlePages, doublePages } = manuscript;
-            switch (pageMode) {
+            switch (mode) {
             case "double-page":
                 return doublePages;
             default:
@@ -54,42 +49,29 @@ module.exports = {
             }
         },
 
-        index(state, { pages }, { route }) {
-            const { params } = route;
-            const { page } = params;
+        index(state, { pages }, { page }) {
             return findPages(pages, page);
+        },
+
+        prevPage(state, { index, pages }) {
+            const prev = index - 1;
+            return (prev < 0) ? undefined : pages[prev].filter(p => p).shift();
+        },
+
+        nextPage(state, { index, pages }) {
+            const { length } = pages;
+
+            const next = index + 1;
+            return (next >= length) ? undefined : pages[next].filter(p => p).shift();
         },
 
         page(state, { pages, index }) {
             return pages[index];
         },
 
-        tileSources(state, { manuscript, page }) {
-            const { sigil } = manuscript;
-
-            return page.map(page => page === undefined ? undefined : [
-                "https://assets.pagina-dh.de/parzival/images",
-                `${sigil.toLowerCase()}-${page}.dzi`
-            ].join("/"));
-        },
-
-        quireIcon(state, { manuscript, page, pageMode }) {
-            const { quires } = manuscript;
-            const [ icons ] = page.filter(p => p).map(p => quires[p]);
-            if (!icons) {
-                return undefined;
-            }
-            const { singlePage, doublePage } = icons;
-            switch (pageMode) {
-            case "double-page":
-                return doublePage;
-            default:
-                return singlePage;
-            }
-        },
-
-        quireIconPath(state, { quireIcon }) {
-            return quireIcon ? `/quire-icons/${quireIcon}.gif` : quireIcon;
+        pageTitle(state, { page }) {
+            page = page.filter(p => p).map(p => p.replace(/^0+/, ""));
+            return `Bl. ${page.join(", ")}`;
         },
 
         verses(state, { manuscript, page }) {
@@ -100,6 +82,18 @@ module.exports = {
             const b = pageColumns.pop() || a;
 
             return [a.start, b.end];
+        },
+
+        verseTitle(state, { verses }) {
+            const [start, end] = verses;
+            const [startType, endType] = [start, end].map(verse.type);
+
+            return [
+                startType, verse.toString(start),
+                "–",
+                startType == endType ? "" : endType, verse.toString(end)
+            ].filter(c => c).join(" ");
+
         }
     }
 };

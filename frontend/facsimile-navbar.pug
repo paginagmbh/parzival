@@ -1,4 +1,4 @@
-nav.navbar.is-fixed-bottom.is-light(role="navigation" aria-label="pagination")
+nav.parzival-facsimile-navbar.navbar.is-fixed-bottom.is-light(role="navigation" aria-label="pagination")
   .navbar-menu.is-active
     .navbar-start
       .navbar-item
@@ -6,15 +6,14 @@ nav.navbar.is-fixed-bottom.is-light(role="navigation" aria-label="pagination")
           ul
             li.is-active: a {{ pageTitle }}
             li.is-active: a {{ verseTitle }}
-
     .navbar-end
       .navbar-item
         .field.is-grouped
           .control
-            router-link.button(:class='{ "is-primary": mode == "single-page"}' :to='{ name: "facsimile", params: { mode: "single-page" } }' title="Einzelseitenansicht")
+            router-link.button(:to='gotoMode("single-page")' title="Einzelseitenansicht")
               i.fa.fa-file-o
           .control
-            router-link.button(:class='{ "is-primary": mode == "double-page"}' :to='{ name: "facsimile", params: { mode: "double-page" } }' title="Doppelseitenansicht")
+            router-link.button(:to='gotoMode("double-page")' title="Doppelseitenansicht")
               i.fa.fa-files-o
           .control.has-icons-left
             input.input(type="text" placeholder="z. B. 30v oder 123 oder 700.20[1]" v-model.trim="query" @keyup.enter="search" :class='{ "is-danger": notFound }')
@@ -24,8 +23,8 @@ nav.navbar.is-fixed-bottom.is-light(role="navigation" aria-label="pagination")
           .control
             button.button(@click="searchPage" title="Suche Blatt") Blatt
           .control
-            router-link.button(:to='{ name: "facsimile", params: { sigil: manuscript.sigil, page: prevPage } }' :disabled="prevPage === undefined" title="Vorherige Seite")
+            router-link.button(:to='gotoPage(prevPage)' :disabled="!prevPage" title="Vorherige Seite")
               i.fa.fa-angle-left
           .control
-            router-link.button(:to='{ name: "facsimile", params: { sigil: manuscript.sigil, page: nextPage } }' :disabled="nextPage === undefined" title="Nächste Seite")
+            router-link.button(:to='gotoPage(nextPage)' :disabled="!nextPage" title="Nächste Seite")
               i.fa.fa-angle-right

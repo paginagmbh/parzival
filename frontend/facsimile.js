@@ -1,5 +1,3 @@
-const { assign } = Object;
-
 const debounce = require("lodash.debounce");
 
 const { mapGetters, mapMutations } = require("vuex");
@@ -7,25 +5,27 @@ const { mapGetters, mapMutations } = require("vuex");
 const OpenSeadragon = require("openseadragon");
 const prefixUrl = "/openseadragon/images/";
 
+const { dzi } = require("./images");
+
 module.exports = {
     name: "facsimile",
+    mixins: [require("./routing"), require("./routing-view")],
 
     components: {
         Navbar: require("./navbar"),
         FacsimileNavbar: require("./facsimile-navbar"),
-        Carousel: require("./facsimile-carousel"),
         Quire: require("./quire")
     },
 
     template: require("./facsimile.pug")(),
 
-    computed: assign(
-        {},
-        mapGetters("facsimile", ["initialViewport"]),
-        mapGetters("metadata", ["tileSources"])
-    ),
+    computed: {
+        ...mapGetters("facsimile", ["initialViewport"]),
+        ...mapGetters("metadata", ["manuscript", "page"])
+    },
 
-    methods: assign({
+    methods: {
+        ...mapMutations("facsimile", ["viewportChange"]),
 
         openPages() {
             if (!this.osd) {
@@ -34,8 +34,10 @@ module.exports = {
             this.imageOpen = false;
             this.osd.close();
 
-            const { tileSources } = this;
-            let { length } = tileSources;
+            const { manuscript, page } = this;
+            const { sigil } = manuscript;
+
+            let { length } = page;
             const width = 1 / length;
 
             const success = () => {
@@ -49,11 +51,16 @@ module.exports = {
                 }
             };
 
-            tileSources.map((tileSource, ti) => (tileSource === undefined ? undefined : {
-                tileSource, width, x: (ti * width), success
-            })).filter(ts => ts).forEach(
-                tiledImage => this.osd.addTiledImage(tiledImage)
-            );
+            page.forEach((page, pi) => {
+                if (page !== undefined) {
+                    this.osd.addTiledImage({
+                        tileSource: dzi(sigil, page),
+                        width,
+                        x: (pi * width),
+                        success
+                    });
+                }
+            });
         },
 
         withOpenImage(fn) {
@@ -90,10 +97,14 @@ module.exports = {
             this.rotate(90);
         }
 
-    }, mapMutations("facsimile", ["viewportChange", "openCarousel"])),
+    },
 
     watch: {
-        tileSources() {
+        manuscript() {
+            this.openPages();
+        },
+
+        page() {
             this.openPages();
         }
     },

@@ -2,6 +2,7 @@ const { mapGetters } = require("vuex");
 
 module.exports = {
     name: "navbar",
+    mixins: [require("./routing")],
 
     template: require("./navbar.pug")(),
 

@@ -12,7 +12,7 @@ nav.navbar.is-fixed-top.is-dark(role="navigation" aria-label="main navigation")
       .navbar-item.has-dropdown(@click="toggleMsDrop" :class="{ 'is-active': msDrop }")
         a.navbar-link Handschriften
         .navbar-dropdown
-          router-link.navbar-item(v-for='m in manuscripts'  :key='m.sigil' :class='{ "is-active": (m === manuscript)}' :to='{ name: "facsimile", params: { sigil: m.sigil, page: "001r" } }') {{ m.title }}
+          router-link.navbar-item(v-for='m in manuscripts'  :key='m.sigil' :class='{ "is-active": (m === manuscript)}' :to='gotoManuscript(m.sigil)') {{ m.title }}
     .navbar-end
       router-link.navbar-item(to="/about") Einführung
       router-link.navbar-item(to="/materials") Materialien

@@ -85,10 +85,11 @@ function columns(transcript) {
                 switch (event.local) {
                 case "cb": {
                     const { manuscript } = event;
+                    const page = m.pageSigil(event);
                     const column = m.columnSigil(event);
                     const [current] = columns;
                     if (!current || current.column != column) {
-                        columns.unshift({ manuscript, column, contents: [] });
+                        columns.unshift({ manuscript, page, column, contents: [] });
                     }
                     break;
                 }
@@ -160,6 +161,17 @@ function verses(columns) {
         return column;
     });
 }
+
+function index(columns) {
+    return columns.reduce((idx, column) => {
+        let { manuscript, page  } = column;
+        manuscript = idx[manuscript] || (idx[manuscript] = {});
+        page = manuscript[page] || (manuscript[page] = []);
+        page.push(column);
+        return idx;
+    }, {});
+}
+
 export default async function toHtml(cwd) {
     const sources = (await globby("**/*.xml", { cwd }))
           .map(f => {
@@ -180,5 +192,5 @@ export default async function toHtml(cwd) {
     const transcript = (await Promise.all(sources.map(parse)))
           .reduce((all, one) => all.concat(one), []);
 
-    return verses(columns(transcript));
+    return index(verses(columns(transcript)));
 }

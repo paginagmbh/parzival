@@ -19,16 +19,16 @@ module.exports = {
     },
 
     mutations: {
-        openCarousel(state) {
-            state.carousel = true;
+        toggleCarousel(state) {
+            Object.assign(state, {carousel: !state.carousel });
         },
 
         closeCarousel(state) {
-            state.carousel = false;
+            Object.assign(state, { carousel: false });
         },
 
         viewportChange(state, { viewport }) {
-            state.viewport = viewport;
+            Object.assign(state, { viewport });
         }
     }
 };
