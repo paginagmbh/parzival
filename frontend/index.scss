@@ -25,8 +25,7 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
     position: absolute;
     top: $navbar-height;
     left: 0;
-    margin: $gap;
-    z-index: 900;
+    margin: 0.5 * $gap;
   }
 
 }
@@ -67,24 +66,11 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
   position: fixed;
   left: 0;
   bottom: $navbar-height;
-  margin: $gap;
+  margin: 0.5 * $gap;
   background: rgba($white, 0.7);
 
   width: 150px;
   height: 50px;
-
-  .parzival-quire {
-    fill: none;
-    stroke: $grey;
-    stroke-width: 1px;
-
-    &.is-active {
-      stroke: $black;
-      stroke-width: 2px;
-    }
-  }
-
-
 }
 
 .page-label {

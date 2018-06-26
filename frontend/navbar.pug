@@ -2,7 +2,7 @@ nav.navbar.is-fixed-top.is-dark(role="navigation" aria-label="main navigation")
   .navbar-brand
     router-link.navbar-item.has-text-weight-bold(to="/").
       Nuwer Parzifal – {{ manuscript.title }}
-    button.button.navbar-burger(@click="toggleMenu" :class="{'is-active': menu }")
+    button.button.is-dark.navbar-burger(@click="toggleMenu" :class="{'is-active': menu }")
       span
       span
       span
@@ -13,9 +13,9 @@ nav.navbar.is-fixed-top.is-dark(role="navigation" aria-label="main navigation")
         a.navbar-link Handschriften
         .navbar-dropdown
           router-link.navbar-item(v-for='m in manuscripts'  :key='m.sigil' :class='{ "is-active": (m === manuscript)}' :to='{ name: "facsimile", params: { sigil: m.sigil, page: "001r" } }') {{ m.title }}
-  .navbar-end
-    router-link.navbar-item(to="/about") Einführung
-    router-link.navbar-item(to="/materials") Materialien
-    router-link.navbar-item.is-info(to="/help")
-      span.icon: i.fa.fa-info(aria-hidden="true")
-      span Hilfe
+    .navbar-end
+      router-link.navbar-item(to="/about") Einführung
+      router-link.navbar-item(to="/materials") Materialien
+      router-link.navbar-item.is-info(to="/help")
+        span.icon: i.fa.fa-info(aria-hidden="true")
+        span Hilfe
