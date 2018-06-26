@@ -39,7 +39,7 @@ function breakSigil(el) {
     return m.parsePageSigil(xmlId(el));
 }
 
-const { start, ln, emptyText, not, contextual } = markup.filters;
+const { start, ln, attr, emptyText, negate, every, some, contextual } = markup.filters;
 
 async function parse({ source, manuscript, text }, index=0) {
     return (await markup.events(fs.createReadStream(source)))
@@ -48,7 +48,7 @@ async function parse({ source, manuscript, text }, index=0) {
             start(ln("text", "reg", "corr", "ex"))
         ))
         .filter(contextual(
-            start(ln("note", "text")),
+            start(every(ln("text", "note"), negate(attr("type", "Kapitelüberschrift")))),
             start(ln("l", "cb"))
         ))
         .map(markup.whitespace.compress(
@@ -59,7 +59,7 @@ async function parse({ source, manuscript, text }, index=0) {
             start(ln("l", "cb")),
             index == 0
         ))
-        .filter(not(emptyText()))
+        .filter(negate(emptyText()))
         .map(event => {
             switch (event.event) {
             case "start":
