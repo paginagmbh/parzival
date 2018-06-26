@@ -26,7 +26,7 @@ module.exports = {
         search(e, fn=search) {
             let { manuscript, query } = this;
             const page = fn(manuscript, query);
-            this.notFound = page !== undefined;
+            this.notFound = page === undefined;
             if (page) {
                 this.$router.push(this.gotoPage(page));
             }
