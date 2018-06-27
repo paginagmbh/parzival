@@ -80,6 +80,7 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
 }
 
 .parzival-text-view {
+  font-size: $size-6;
   .verse {
     color: $info;
     font-size: $size-7;
@@ -87,6 +88,20 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
   }
   .hi-red {
     color: $danger;
+  }
+
+  .lb {
+    color: $grey-light;
+  }
+
+  .table td, .table th {
+    border: none;
+    vertical-align: middle;
+    padding: 0 0.5em;
+  }
+
+  .table th {
+    text-align: right
   }
 }
 .page-label {

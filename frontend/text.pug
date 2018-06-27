@@ -1,11 +1,16 @@
 .parzival-text-view
   navbar
-  .container
-    section.section
-      .columns.is-multiline
-        .column.is-6(v-for="c in Object.keys(columns)" :key="c")
-          p.title {{ c }}
-          p(v-for="v, vi in columns[c].verses" :key="vi")
-            span.verse {{ v.verse }}
-            span(v-html="v.html")
+  .container-fluid
+    .section
+      .columns(v-for="p in page" :key="p")
+        .column.is-8
+          p.subtitle Faksimile
+        .column.is-4
+          .section.parzival-column(v-for='c in [p + "a", p + "b"]' :key="c")
+            p.subtitle {{ c }}
+            table.table.is-narrow(v-if="columns[c]")
+              tbody
+                tr(v-for="v, vi in columns[c].verses" :key="vi")
+                  th.verse {{ v.verse }}
+                  td(v-html="v.html")
   facsimile-navbar

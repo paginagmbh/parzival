@@ -11,6 +11,7 @@ module.exports = {
     },
 
     computed: {
+        ...mapGetters("metadata", ["pageTitle", "page"]),
         ...mapGetters("text", ["columns"])
     },
 

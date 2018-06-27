@@ -39,7 +39,9 @@ function breakSigil(el) {
     return m.parsePageSigil(xmlId(el));
 }
 
-const { start, ln, attr, emptyText, negate, every, some, contextual } = markup.filters;
+const { start, ln, attr, emptyText, negate, every, contextual } = markup.filters;
+
+const heading = attr("type", "Kapitelüberschrift");
 
 async function parse({ source, manuscript, text }, index=0) {
     return (await markup.events(fs.createReadStream(source)))
@@ -48,8 +50,8 @@ async function parse({ source, manuscript, text }, index=0) {
             start(ln("text", "reg", "corr", "ex"))
         ))
         .filter(contextual(
-            start(every(ln("text", "note"), negate(attr("type", "Kapitelüberschrift")))),
-            start(ln("l", "cb"))
+            start(every(ln("text", "note"), negate(heading))),
+            start(ln("l", "lb", "cb"))
         ))
         .map(markup.whitespace.compress(
             () => false,
@@ -131,6 +133,7 @@ function hi(event) {
 function verses(columns) {
     return columns.map(column => {
         const { contents } =  column;
+        let inHeading = false;
         const verses = contents.reduce((verses, event) => {
             if (event.event == "start" && event.local == "l") {
                 verses.unshift({ verse: v.toString(event), html: "" });
@@ -147,9 +150,22 @@ function verses(columns) {
                 return verses;
             }
 
+            if (heading(event)) {
+                inHeading = event.event === "start";
+                return verses;
+            }
+
             switch (event.local) {
             case "hi":
                 current.html += hi(event);
+                break;
+            case "lb":
+                if (event.event === "start") {
+                    current.html += `<span class="lb">¶</span>`;
+                    if (inHeading) {
+                        current.html += `<br class="lb">`;
+                    }
+                }
                 break;
             }
 
