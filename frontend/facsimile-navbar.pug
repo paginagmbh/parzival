@@ -9,18 +9,6 @@ nav.parzival-facsimile-navbar.navbar.is-fixed-bottom.is-light(role="navigation" 
     .navbar-end
       .navbar-item
         .field.is-grouped
-          .control
-            router-link.button(:to='gotoView("facsimile")' title="Textansicht")
-              i.fa.fa-file-image-o
-          .control
-            router-link.button(:to='gotoView("text")' title="Textansicht")
-              i.fa.fa-file-text-o
-          .control
-            router-link.button(:to='gotoMode("single-page")' title="Einzelseitenansicht")
-              i.fa.fa-file-o
-          .control
-            router-link.button(:to='gotoMode("double-page")' title="Doppelseitenansicht")
-              i.fa.fa-files-o
           .control.has-icons-left
             input.input(type="text" placeholder="z. B. 30v oder 123 oder 700.20[1]" v-model.trim="query" @keyup.enter="search" :class='{ "is-danger": notFound }')
             span.icon.is-left: i.fa.fa-search

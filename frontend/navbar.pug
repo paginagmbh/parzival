@@ -1,21 +1,70 @@
-nav.navbar.is-fixed-top.is-dark(role="navigation" aria-label="main navigation")
-  .navbar-brand
-    router-link.navbar-item.has-text-weight-bold(to="/").
-      Nuwer Parzifal – {{ manuscript.title }}
-    button.button.is-dark.navbar-burger(@click="toggleMenu" :class="{'is-active': menu }")
-      span
-      span
-      span
-
-  .navbar-menu(:class="{'is-active': menu }")
-    .navbar-start
-      .navbar-item.has-dropdown(@click="toggleMsDrop" :class="{ 'is-active': msDrop }")
-        a.navbar-link Handschriften
-        .navbar-dropdown
-          router-link.navbar-item(v-for='m in manuscripts'  :key='m.sigil' :class='{ "is-active": (m === manuscript)}' :to='gotoManuscript(m.sigil)') {{ m.title }}
-    .navbar-end
-      router-link.navbar-item(to="/about") Einführung
-      router-link.navbar-item(to="/materials") Materialien
-      router-link.navbar-item.is-info(to="/help")
-        span.icon: i.fa.fa-info(aria-hidden="true")
-        span Hilfe
+.parzival-navigation
+  nav.navbar.is-dark(role="navigation" aria-label="main navigation")
+    .navbar-brand
+      router-link.navbar-item(to="/").has-text-weight-bold Nuwer Parzifal
+      button.button.is-dark.navbar-burger(@click='toggle("menu")' :class="{'is-active': menu }")
+        span
+        span
+        span
+    .navbar-menu(:class="{'is-active': menu }")
+      .navbar-start
+        .navbar-item.has-dropdown(@click='toggle("msDrop")' :class="{ 'is-active': msDrop }")
+          a.navbar-link.has-text-weight-bold {{ manuscript.sigil }} – {{ manuscript.title }}
+          .navbar-dropdown
+            router-link.navbar-item(v-for='m in manuscripts'  :key='m.sigil'
+              :to='gotoManuscript(m.sigil)').
+                {{ m.sigil}} – {{ m.title }}
+        .navbar-item.has-dropdown(@click='toggle("menuDrop")' :class="{ 'is-active': menuDrop }")
+          a.navbar-link(to="/about")
+            span.icon: i.fa.fa-info
+            span Info
+          .navbar-dropdown
+            router-link.navbar-item(to="/about") Zum Projekt
+            router-link.navbar-item(to="/materials") Materialien
+            router-link.navbar-item.is-info(to="/help") Hilfe
+      .navbar-end
+        .navbar-item
+          a.button.is-dark(:class='{ "is-active": searchDrop }' @click='toggle("searchDrop")')
+            i.fa.fa-search
+        .navbar-item
+          router-link.button.is-dark(:to='gotoPage(prevPage)' :disabled="!prevPage" title="Vorherige Seite")
+            i.fa.fa-angle-left
+        .navbar-item
+          router-link.button.is-dark(:to='gotoPage(nextPage)' :disabled="!nextPage" title="Nächste Seite")
+            i.fa.fa-angle-right
+        .navbar-item
+          router-link.button.is-dark(tag="button" :to='gotoMode("overview")')
+            i.fa.fa-th
+        .navbar-item
+          router-link.button.is-dark(:to='gotoMode("text")' title="Text")
+            i.fa.fa-file-text-o
+        .navbar-item
+          router-link.button.is-dark(:to='gotoMode("double-page")' title="Doppelseite")
+            i.fa.fa-files-o
+        .navbar-item
+          router-link.button.is-dark(:to='gotoMode("single-page")' title="Einzelseite")
+            i.fa.fa-file-o
+  .modal.is-active(v-show="searchDrop")
+    .modal-background
+    .modal-content
+      .hero.is-large
+        .hero-body
+          .container
+            .field.is-grouped
+              .control.has-icons-left
+                input.input(type="text" placeholder="z. B. 30v oder 123 oder 700.20[1]" v-model.trim="query" @keyup.esc='toggle("searchDrop")' v-focus="searchDrop"  @keyup.enter="search" :class='{ "is-danger": notFound }')
+                span.icon.is-left: i.fa.fa-search
+              .control
+                button.button.is-primary(@click="searchVerse" title="Suche Vers") Vers
+              .control
+                button.button(@click="searchPage" title="Suche Blatt") Blatt
+    button.modal-close.is-large(aria-label="close" @click='toggle("searchDrop")')
+  nav.navbar.is-hidden.is-light(role="navigation" aria-label="pagination")
+    .navbar-menu.is-active
+      .navbar-start
+        .navbar-item
+          nav.breadcrumb(aria-label="breadcrumbs")
+            ul
+              li.is-active: a {{ manuscript.sigil }} – {{ manuscript.title }}
+              li.is-active: a {{ pageTitle }}
+              li.is-active: a {{ verseTitle }}

@@ -7,7 +7,7 @@ const Text = require("./text");
 
 const routes = [
     { path: "/", name: "home",
-      redirect: "/V/114v/double-page/facsimile" },
+      redirect: "/V/114v/double-page" },
 
     { path: "/about", name: "about",
       component: Placeholder },
@@ -18,16 +18,19 @@ const routes = [
     { path: "/help", name: "help",
       component: Placeholder },
 
-    { path: "/:manuscript/:page", name: "_facsimile",
-      redirect: "/:manuscript/:page/double-page/facsimile" },
+    { path: "/:manuscript/:page", name: "page",
+      redirect: "/:manuscript/:page/double-page"},
 
-    { path: "/:manuscript/:page/:mode/overview", name: "overview",
+    { path: "/:manuscript/:page/overview", name: "overview",
       component: Overview },
 
-    { path: "/:manuscript/:page/:mode/facsimile", name: "facsimile",
+    { path: "/:manuscript/:page/double-page", name: "double-page",
       component: Facsimile },
 
-    { path: "/:manuscript/:page/:mode/text", name: "text",
+    { path: "/:manuscript/:page/single-page", name: "single-page",
+      component: Facsimile },
+
+    { path: "/:manuscript/:page/text", name: "text",
       component: Text },
 
     { path: "*", name: "default",

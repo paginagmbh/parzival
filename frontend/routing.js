@@ -18,13 +18,8 @@ module.exports = {
         },
 
         gotoMode(mode) {
-            return this.goto({ mode });
-        },
-
-        gotoView(view) {
             const { params } = this.route;
-            return { name: view , params};
-
+            return { name: mode , params};
         }
     }
 };

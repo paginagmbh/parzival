@@ -1,8 +1,4 @@
-const { assign } = Object;
-
 const Vuex = require("vuex");
-
-const router = require("../router");
 
 const modules = {
     facsimile: require("./facsimile"),
@@ -16,19 +12,18 @@ module.exports = new Vuex.Store({
     state: {
         manuscript: "V",
         page: "001r",
-        mode: "double-page",
-        view: "facsimile"
+        mode: "double-page"
     },
 
     getters: {
-        route({ manuscript, page, mode, view  }) {
-            return { name: view, params: { manuscript, page, mode } };
+        route({ manuscript, page, mode  }) {
+            return { name: mode, params: { manuscript, page } };
         }
     },
 
     mutations: {
-        update(state, { manuscript, page, mode, view }) {
-            Object.assign(state, { manuscript, page, mode, view });
+        update(state, { manuscript, page, mode }) {
+            Object.assign(state, { manuscript, page, mode });
         }
     }
 });

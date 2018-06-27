@@ -43,6 +43,7 @@ module.exports = {
             const { singlePages, doublePages } = manuscript;
             switch (mode) {
             case "double-page":
+            case "overview":
                 return doublePages;
             default:
                 return singlePages;

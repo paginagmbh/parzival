@@ -1,6 +1,6 @@
 const scrollIntoView = require("scroll-into-view");
 
-const { mapGetters, mapState } = require("vuex");
+const { mapGetters } = require("vuex");
 
 const { thumb } = require("./images");
 
@@ -32,13 +32,21 @@ module.exports = {
 
         activeSlide({ page }) {
             return this.page.some(p => (page == p));
+        },
+
+        scrollToActive() {
+            this.$nextTick(
+                () => scrollIntoView(this.$el.querySelector(".is-active"))
+            );
         }
 
     },
 
     mounted() {
-        this.$nextTick(
-            () => scrollIntoView(this.$el.querySelector(".is-active"))
-        );
+        this.scrollToActive();
+    },
+
+    activated() {
+        this.scrollToActive();
     }
 };

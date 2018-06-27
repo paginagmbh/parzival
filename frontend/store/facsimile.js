@@ -4,7 +4,6 @@ module.exports = {
     namespaced: true,
 
     state: {
-        carousel: false,
         viewport: new Rect(0, 0, 1, 0.5)
     },
 
@@ -19,14 +18,6 @@ module.exports = {
     },
 
     mutations: {
-        toggleCarousel(state) {
-            Object.assign(state, {carousel: !state.carousel });
-        },
-
-        closeCarousel(state) {
-            Object.assign(state, { carousel: false });
-        },
-
         viewportChange(state, { viewport }) {
             Object.assign(state, { viewport });
         }

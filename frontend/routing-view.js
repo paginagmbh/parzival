@@ -6,7 +6,7 @@ module.exports = {
 
         updateView() {
             const { name, params } = this.$route;
-            this.viewUpdate({ view: name, ...params });
+            this.viewUpdate({ mode: name, ...params });
         }
     },
 

@@ -5,13 +5,9 @@
     .level-left
       .level-item
         .field.is-grouped
-          .control
-            router-link.button.is-primary(tag="button" :to='gotoView("overview")')
-              i.fa.fa-th
           .control: button.button(@click="zoomIn"): i.fa.fa-search-plus
           .control: button.button(@click="zoomOut"): i.fa.fa-search-minus
           .control: button.button(@click="rotateLeft"): i.fa.fa-rotate-left
           .control: button.button(@click="rotateRight"): i.fa.fa-rotate-right
 
   quire
-  facsimile-navbar
