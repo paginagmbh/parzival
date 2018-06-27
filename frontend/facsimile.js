@@ -21,7 +21,7 @@ module.exports = {
 
     computed: {
         ...mapGetters("facsimile", ["initialViewport"]),
-        ...mapGetters("metadata", ["manuscript", "page"])
+        ...mapGetters("metadata", ["manuscript", "page", "pageTitle", "verseTitle"])
     },
 
     methods: {

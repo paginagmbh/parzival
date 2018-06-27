@@ -50,21 +50,13 @@
       .hero.is-large
         .hero-body
           .container
-            .field.is-grouped
+            .field
               .control.has-icons-left
-                input.input(type="text" placeholder="z. B. 30v oder 123 oder 700.20[1]" v-model.trim="query" @keyup.esc='toggle("searchDrop")' v-focus="searchDrop"  @keyup.enter="search" :class='{ "is-danger": notFound }')
+                input.input.is-large(type="text" placeholder="z. B. 30v oder 123 oder 700.20[1]" v-model.trim="query" @keyup.esc='toggle("searchDrop")' v-focus="searchDrop"  @keyup.enter="search" :class='{ "is-danger": notFound }')
                 span.icon.is-left: i.fa.fa-search
+            .field.is-grouped
               .control
-                button.button.is-primary(@click="searchVerse" title="Suche Vers") Vers
+                button.button.is-large.is-primary(@click="searchVerse" title="Suche Vers") Vers
               .control
-                button.button(@click="searchPage" title="Suche Blatt") Blatt
+                button.button.is-large(@click="searchPage" title="Suche Blatt") Blatt
     button.modal-close.is-large(aria-label="close" @click='toggle("searchDrop")')
-  nav.navbar.is-hidden.is-light(role="navigation" aria-label="pagination")
-    .navbar-menu.is-active
-      .navbar-start
-        .navbar-item
-          nav.breadcrumb(aria-label="breadcrumbs")
-            ul
-              li.is-active: a {{ manuscript.sigil }} – {{ manuscript.title }}
-              li.is-active: a {{ pageTitle }}
-              li.is-active: a {{ verseTitle }}

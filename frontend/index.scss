@@ -13,6 +13,16 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
   overflow: hidden;
 }
 
+.parzival-navigation {
+  .navbar-menu {
+    &.is-active {
+      .navbar-end {
+        display: none;
+      }
+    }
+  }
+}
+
 .parzival-facsimile-toolbar {
   height: $navbar-height;
 }
@@ -28,13 +38,21 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
     margin: 0.5 * $gap;
   }
 
+  .parzival-breadcrumb {
+    background: $white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0.25 * $gap;
+  }
+
 }
 
 .parzival-facsimile {
   height: calc(100vh - #{$navbar-height});
 
   .displayregion {
-    border-color: $info !important;
+    border-color: $white !important;
   }
 }
 
@@ -71,9 +89,8 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
 .parzival-quire-view {
   position: fixed;
   left: 0;
-  bottom: $navbar-height;
-  margin: 0.5 * $gap;
-  background: rgba($white, 0.7);
+  bottom: 0;
+  background: rgba($white, 0.5);
 
   width: 3 * $gap;
   height: $gap;
