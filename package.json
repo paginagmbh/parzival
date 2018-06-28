@@ -51,6 +51,7 @@
     "vue": "^2.5.13",
     "vue-focus": "^2.1.0",
     "vue-lazyload": "^1.2.2",
+    "vue-match-media": "^1.0.3",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1",
     "vuex-router-sync": "^5.0.0",

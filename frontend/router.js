@@ -7,7 +7,7 @@ const Text = require("./text");
 
 const routes = [
     { path: "/", name: "home",
-      redirect: "/V/114v/double-page" },
+      redirect: "/V/115v/text" },
 
     { path: "/about", name: "about",
       component: Placeholder },

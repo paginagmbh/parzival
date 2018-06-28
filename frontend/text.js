@@ -7,7 +7,7 @@ module.exports = {
     template: require("./text.pug")(),
     components: {
         Navbar: require("./navbar"),
-        FacsimileNavbar: require("./facsimile-navbar")
+        FacsimileViewer: require("./facsimile-viewer")
     },
 
     computed: {

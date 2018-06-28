@@ -1,7 +1,7 @@
-.modal.is-active(@keyup.esc="close" v-focus="true" tabindex="1000")
+.parzival-overview.modal.is-active(@keyup.esc="close" v-focus="true" tabindex="1000")
   .modal-background
   .modal-content
-    .section.parzival-facsimile-carousel
+    .section
       .columns.is-multiline.is-gapless.is-mobile
         .column.is-6-mobile.is-3-tablet.is-2-desktop.is-1-fullhd(v-for="p in pages" :key="p.key")
           router-link.parzival-facsimile-slide(tag="div" :to="gotoPage(p.page)" :class="{ 'is-active': activeSlide(p) }")
