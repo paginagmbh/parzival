@@ -9,16 +9,6 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
   overflow: hidden;
 }
 
-.parzival-navigation {
-  .navbar-menu {
-    &.is-active {
-      .navbar-end {
-        display: none;
-      }
-    }
-  }
-}
-
 .parzival-facsimile-viewer {
   background: $black;
   position: relative;
@@ -84,19 +74,35 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
   }
 }
 
-.parzival-page {
-  .parzival-page-facsimile {
-    height: calc(100vh - #{$navbar-height})
+/* stylelint-disable */
+@include until($tablet) {
+  .parzival-page-facsimile, .parzival-transcript-view {
+    height: calc(100vh - #{2 * $navbar-height})
+  }
+
+  .parzival-transcript-column, .parzival-facsimile-column {
+    height: 50%
   }
 }
-.parzival-text {
-  .columns {
-    height: calc(100vh - #{$navbar-height});
-  }
-  .parzival-facsimile-column, .parzival-text-column {
-    height: 100%;
-    overflow-y: auto;
 
+@include from($tablet) {
+  .parzival-page-facsimile, .parzival-transcript-view {
+    height: calc(100vh - #{$navbar-height})
+  }
+
+  .parzival-transcript-column, .parzival-facsimile-column {
+    height: 100%
+  }
+}
+/* stylelint-enable */
+
+
+.parzival-transcript {
+  .columns {
+    height: 100%;
+  }
+  .parzival-facsimile-column, .parzival-transcript-column {
+    overflow-y: auto;
   }
 
   font-size: $size-6;

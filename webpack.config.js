@@ -32,7 +32,7 @@ module.exports = {
             //"vue$": "vue/dist/vue.esm.js"
             "vue$": "vue/dist/vue.common.js",
             "vuex$": "vuex/dist/vuex.common.js",
-            "vue-media-queries$": "vue-media-queries/src/index.js",
+            "vue-match-media": "vue-match-media/dist/index.js",
             "vue-router$": "vue-router/dist/vue-router.common.js"
         }
     },

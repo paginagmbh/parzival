@@ -1,16 +1,17 @@
 const { mapGetters } = require("vuex");
 
 module.exports = {
-    name: "facsimile",
+    name: "page",
     mixins: [require("./routing-view")],
 
     components: {
         Navbar: require("./navbar"),
+        Navigation: require("./navigation"),
         FacsimileViewer: require("./facsimile-viewer"),
         Quire: require("./quire")
     },
 
-    template: require("./facsimile.pug")(),
+    template: require("./page.pug")(),
 
     computed: mapGetters("metadata", ["manuscript", "pageTitle", "verseTitle"])
 };

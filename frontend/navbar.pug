@@ -1,62 +1,25 @@
 .parzival-navigation
-  nav.navbar.is-dark(role="navigation" aria-label="main navigation")
+  nav.navbar.is-fixed-top.is-dark(role="navigation" aria-label="main navigation")
     .navbar-brand
       router-link.navbar-item(to="/").has-text-weight-bold Nuwer Parzifal
-      button.button.is-dark.navbar-burger(@click='toggle("menu")' :class="{'is-active': menu }")
+      button.button.is-dark.navbar-burger(@click='toggle("menu")' :class='active("menu")')
         span
         span
         span
-    .navbar-menu(:class="{'is-active': menu }")
+    .navbar-menu(:class='active("menu")')
       .navbar-start
-        .navbar-item.has-dropdown(@click='toggle("msDrop")' :class="{ 'is-active': msDrop }")
+        .navbar-item.has-dropdown(@click='toggle("msDrop")' :class='active("msDrop")')
           a.navbar-link.has-text-weight-bold {{ manuscript.sigil }} – {{ manuscript.title }}
           .navbar-dropdown
             router-link.navbar-item(v-for='m in manuscripts'  :key='m.sigil'
               :to='gotoManuscript(m.sigil)').
                 {{ m.sigil}} – {{ m.title }}
-        .navbar-item.has-dropdown(@click='toggle("menuDrop")' :class="{ 'is-active': menuDrop }")
-          a.navbar-link(to="/about")
+        .navbar-item.has-dropdown(@click='toggle("menuDrop")' :class='active("menuDrop")')
+          router-link.navbar-link(to="/about")
             span.icon: i.fa.fa-info
             span Info
           .navbar-dropdown
             router-link.navbar-item(to="/about") Zum Projekt
             router-link.navbar-item(to="/materials") Materialien
             router-link.navbar-item.is-info(to="/help") Hilfe
-      .navbar-end
-        .navbar-item
-          a.button.is-dark(:class='{ "is-active": searchDrop }' @click='toggle("searchDrop")')
-            i.fa.fa-search
-        .navbar-item
-          router-link.button.is-dark(:to='gotoPage(prevPage)' :disabled="!prevPage" title="Vorherige Seite")
-            i.fa.fa-angle-left
-        .navbar-item
-          router-link.button.is-dark(:to='gotoPage(nextPage)' :disabled="!nextPage" title="Nächste Seite")
-            i.fa.fa-angle-right
-        .navbar-item
-          router-link.button.is-dark(tag="button" :to='gotoMode("overview")')
-            i.fa.fa-th
-        .navbar-item
-          router-link.button.is-dark(:to='gotoMode("text")' title="Text")
-            i.fa.fa-file-text-o
-        .navbar-item
-          router-link.button.is-dark(:to='gotoMode("double-page")' title="Doppelseite")
-            i.fa.fa-files-o
-        .navbar-item
-          router-link.button.is-dark(:to='gotoMode("single-page")' title="Einzelseite")
-            i.fa.fa-file-o
-  .modal.is-active(v-show="searchDrop")
-    .modal-background
-    .modal-content
-      .hero.is-large
-        .hero-body
-          .container
-            .field
-              .control.has-icons-left
-                input.input.is-large(type="text" placeholder="z. B. 30v oder 123 oder 700.20[1]" v-model.trim="query" @keyup.esc='toggle("searchDrop")' v-focus="searchDrop"  @keyup.enter="search" :class='{ "is-danger": notFound }')
-                span.icon.is-left: i.fa.fa-search
-            .field.is-grouped
-              .control
-                button.button.is-large.is-primary(@click="searchVerse" title="Suche Vers") Vers
-              .control
-                button.button.is-large(@click="searchPage" title="Suche Blatt") Blatt
-    button.modal-close.is-large(aria-label="close" @click='toggle("searchDrop")')
+      navigation.navbar-end(v-if="$mq.desktop")

@@ -1,12 +1,13 @@
 const { mapActions, mapGetters } = require("vuex");
 
 module.exports = {
-    name: "text",
+    name: "transcript",
     mixins: [require("./routing"), require("./routing-view")],
 
-    template: require("./text.pug")(),
+    template: require("./transcript.pug")(),
     components: {
         Navbar: require("./navbar"),
+        Navigation: require("./navigation"),
         FacsimileViewer: require("./facsimile-viewer")
     },
 

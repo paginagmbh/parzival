@@ -1,0 +1,17 @@
+.parzival-transcript
+  navbar
+  .parzival-transcript-view
+    .columns.is-gapless(v-for="p in page" :key="p")
+      .column.is-5-widescreen.is-3-fullhd.parzival-transcript-column
+        .section
+          template(v-for='c, ci in [p + "a", p + "b"]')
+            hr(v-if="ci > 0" :key='c + "-hr"')
+            table.table.is-narrow(v-if="columns[c]" :key='c + "-table"')
+              tbody
+                tr(v-for="v, vi in columns[c].verses" :key="vi")
+                  th.verse {{ v.verse }}
+                  td(v-html="v.html")
+      .column.parzival-facsimile-column
+        facsimile-viewer
+  nav.navbar.is-fixed-bottom.is-dark(v-if="!$mq.desktop")
+    navigation.navbar-brand

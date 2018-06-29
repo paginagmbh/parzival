@@ -9,7 +9,7 @@ const { mapGetters } = Vuex;
 const VueRouter = require("vue-router");
 const { sync } = require("vuex-router-sync");
 
-const MQ = require("vue-match-media/src").default;
+const MQ = require("vue-match-media");
 
 Vue.use(VueLazyload);
 Vue.use(Vuex);
@@ -31,7 +31,16 @@ window.parzivalApp = new Vue({
 
     store, router,
 
-    computed: mapGetters("metadata", ["manuscript", "pageTitle"]),
+    computed: {
+        ...mapGetters("metadata", ["manuscript", "pageTitle"]),
+
+        htmlClasses() {
+            return {
+                "has-navbar-fixed-top": true,
+                "has-navbar-fixed-bottom": !this.$mq.desktop
+            };
+        }
+    },
 
     mq: {
         mobile: "(max-width: 768px)",
@@ -48,14 +57,28 @@ window.parzivalApp = new Vue({
 
         pageTitle() {
             this.updateTitle();
+        },
+
+        htmlClasses() {
+            this.updateHtmlElement();
         }
     },
 
     mounted() {
+        this.updateHtmlElement();
         this.updateTitle();
     },
 
     methods: {
+        updateHtmlElement() {
+            const { classList } = document.querySelector("html");
+            for (const clz in this.htmlClasses) {
+                const value = this.htmlClasses[clz];
+                const method = value ? "add" : "remove";
+                classList[method](clz);
+            }
+        },
+
         updateTitle() {
             const { manuscript, pageTitle } = this;
             const { title, sigil } = manuscript;
