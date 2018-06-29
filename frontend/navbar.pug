@@ -9,17 +9,10 @@
     .navbar-menu(:class='active("menu")')
       .navbar-start
         .navbar-item.has-dropdown(@click='toggle("msDrop")' :class='active("msDrop")')
-          a.navbar-link.has-text-weight-bold {{ manuscript.sigil }} – {{ manuscript.title }}
+          a.navbar-link.
+            {{ manuscript.title }} ({{ manuscript.sigil}}) – {{ pageTitle }}
           .navbar-dropdown
             router-link.navbar-item(v-for='m in manuscripts'  :key='m.sigil'
               :to='gotoManuscript(m.sigil)').
                 {{ m.sigil}} – {{ m.title }}
-        .navbar-item.has-dropdown(@click='toggle("menuDrop")' :class='active("menuDrop")')
-          router-link.navbar-link(to="/about")
-            span.icon: i.fa.fa-info
-            span Info
-          .navbar-dropdown
-            router-link.navbar-item(to="/about") Zum Projekt
-            router-link.navbar-item(to="/materials") Materialien
-            router-link.navbar-item.is-info(to="/help") Hilfe
       navigation.navbar-end(v-if="$mq.desktop")

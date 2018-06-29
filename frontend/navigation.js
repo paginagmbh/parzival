@@ -12,7 +12,7 @@ module.exports = {
         "prevPage", "nextPage"
     ]),
 
-    data: () => ({ searchModal: false, query: "", notFound: false }),
+    data: () => ({ searchModal: false, query: "", notFound: false, info: false }),
 
     methods: {
         search(e, fn=search) {
@@ -35,6 +35,10 @@ module.exports = {
     },
 
     watch: {
+        $route() {
+            this.info = false;
+        },
+
         manuscript() {
             this.notFound = false;
         }

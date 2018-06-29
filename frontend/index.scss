@@ -30,25 +30,16 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
     margin: 0.5 * $gap;
   }
 
-  .parzival-breadcrumb {
-    background: $white;
+  .parzival-quire-view {
     position: absolute;
-    bottom: 0;
     right: 0;
-    padding: 0.25 * $gap;
+    bottom: 0;
+    margin: 0.5 * $gap;
+    background: rgba($white, 0.5);
+
+    width: 3 * $gap;
+    height: $gap;
   }
-
-}
-
-.parzival-quire-view {
-  position: absolute;
-  left: 0;
-  top: 2 * $navbar-height;
-  margin: 0.5 * $gap;
-  background: rgba($white, 0.5);
-
-  width: 3 * $gap;
-  height: $gap;
 }
 
 .parzival-overview {
@@ -75,9 +66,17 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
 }
 
 /* stylelint-disable */
-@include until($tablet) {
+.parzival-page-facsimile, .parzival-transcript-view {
+  height: calc(100vh - #{$navbar-height});
+}
+
+.parzival-transcript-column, .parzival-facsimile-column {
+  height: 100%
+}
+
+@include touch {
   .parzival-page-facsimile, .parzival-transcript-view {
-    height: calc(100vh - #{2 * $navbar-height})
+    height: calc(100vh - #{2 * $navbar-height});
   }
 
   .parzival-transcript-column, .parzival-facsimile-column {
@@ -85,15 +84,6 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
   }
 }
 
-@include from($tablet) {
-  .parzival-page-facsimile, .parzival-transcript-view {
-    height: calc(100vh - #{$navbar-height})
-  }
-
-  .parzival-transcript-column, .parzival-facsimile-column {
-    height: 100%
-  }
-}
 /* stylelint-enable */
 
 

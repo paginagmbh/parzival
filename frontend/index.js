@@ -37,7 +37,7 @@ window.parzivalApp = new Vue({
         htmlClasses() {
             return {
                 "has-navbar-fixed-top": true,
-                "has-navbar-fixed-bottom": !this.$mq.desktop
+                "has-navbar-fixed-bottom": this.$mq.touch
             };
         }
     },
@@ -45,6 +45,7 @@ window.parzivalApp = new Vue({
     mq: {
         mobile: "(max-width: 768px)",
         tablet: "(min-width: 769px)",
+        touch: "(max-width: 1087px)",
         desktop: "(min-width: 1088px)",
         widescreen: "(min-width: 1280px)",
         fullhd: "(min-width: 1472px)"

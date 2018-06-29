@@ -7,8 +7,7 @@ module.exports = {
     components: {
         Navbar: require("./navbar"),
         Navigation: require("./navigation"),
-        FacsimileViewer: require("./facsimile-viewer"),
-        Quire: require("./quire")
+        FacsimileViewer: require("./facsimile-viewer")
     },
 
     template: require("./page.pug")(),

@@ -1,4 +1,6 @@
 div
+  router-link.navbar-item(to="/")
+    span.icon: i.fa.fa-info
   .navbar-item
     a.button.is-dark(:class='active("searchModal")' @click='toggle("searchModal")')
       i.fa.fa-search
@@ -20,6 +22,7 @@ div
   .navbar-item
     router-link.button.is-dark(:to='gotoMode("single-page")' title="Einzelseite")
       i.fa.fa-file-o
+
   .modal(:class='active("searchModal")')
     .modal-background
     .modal-content

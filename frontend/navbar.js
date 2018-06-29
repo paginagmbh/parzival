@@ -9,7 +9,7 @@ module.exports = {
         Navigation: require("./navigation")
     },
 
-    computed: mapGetters("metadata", [ "manuscripts", "manuscript" ]),
+    computed: mapGetters("metadata", [ "manuscripts", "manuscript", "pageTitle" ]),
 
     data: () => ({  menu: false, menuDrop: false, msDrop: false }),
 

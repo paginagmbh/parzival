@@ -15,7 +15,12 @@ module.exports = {
 
     computed: {
         ...mapGetters("facsimile", ["initialViewport"]),
-        ...mapGetters("metadata", ["manuscript", "page"])
+        ...mapGetters("metadata", ["manuscript", "page", "quireIcon"]),
+
+        quireIconPath() {
+            const { quireIcon } = this;
+            return quireIcon ? `/quire-icons/${quireIcon}.gif` : quireIcon;
+        }
     },
 
     methods: {

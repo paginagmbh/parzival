@@ -95,6 +95,21 @@ module.exports = {
                 startType == endType ? "" : endType, verse.toString(end)
             ].filter(c => c).join(" ");
 
+        },
+
+        quireIcon(state, { manuscript, page }, { mode }) {
+            const { quires } = manuscript;
+            const [ icons ] = page.filter(p => p).map(p => quires[p]);
+            if (!icons) {
+                return undefined;
+            }
+            const { singlePage, doublePage } = icons;
+            switch (mode) {
+            case "double-page":
+                return doublePage;
+            default:
+                return singlePage;
+            }
         }
     }
 };
