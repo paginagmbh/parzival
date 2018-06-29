@@ -79,8 +79,11 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
     height: calc(100vh - #{2 * $navbar-height});
   }
 
-  .parzival-transcript-column, .parzival-facsimile-column {
-    height: 50%
+  .parzival-transcript-column {
+    height: 40%
+  }
+  .parzival-facsimile-column {
+    height: 60%
   }
 }
 
