@@ -13,7 +13,7 @@
                   tr(v-for="v, vi in columns[c].verses" :key="vi")
                     th.verse {{ v.verse }}
                     td(v-html="v.html")
-          p.notification(v-if="!available") Kein Transkript verfügbar.
+          p.notification(v-else) Kein Transkript verfügbar.
       .column.parzival-facsimile-column
         facsimile-viewer
   nav.navbar.is-fixed-bottom.is-dark.is-hidden-desktop

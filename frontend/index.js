@@ -4,7 +4,7 @@ const VueLazyload = require("vue-lazyload");
 const { focus } = require("vue-focus");
 
 const Vuex = require("vuex");
-const { mapGetters } = Vuex;
+const { mapActions, mapGetters } = Vuex;
 
 const VueRouter = require("vue-router");
 const { sync } = require("vuex-router-sync");
@@ -52,11 +52,17 @@ window.parzivalApp = new Vue({
         }
     },
 
+    created() {
+        this.loadText();
+    },
+
     mounted() {
         this.updateTitle();
     },
 
     methods: {
+        ...mapActions("text", {"loadText": "load" }),
+
         updateTitle() {
             const { manuscript, pageTitle } = this;
             const { title, sigil } = manuscript;

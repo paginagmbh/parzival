@@ -1,6 +1,4 @@
-function source(page) {
-    return "/transcript.json";
-}
+let transcript = {};
 
 module.exports = {
     namespaced: true,
@@ -10,10 +8,12 @@ module.exports = {
     },
 
     getters: {
-        columns(state, getters, rootState, rootGetters) {
+        pages({ transcript }, getters, rootState) {
             const { manuscript } = rootState;
-            const pages = (state.transcript || {})[manuscript] || {};
+            return (transcript || {})[manuscript] || {};
+        },
 
+        columns(state, { pages }, rootState, rootGetters) {
             return rootGetters["metadata/page"].map(p => {
                 if (p === undefined) {
                     return [];
@@ -27,33 +27,22 @@ module.exports = {
     },
 
     mutations: {
-        merge(state, { sources }) {
-            state.transcript = sources.reduce((transcript, source) => Object.assign(
-                transcript, { ...source }
-            ), state.transcript || {});
+        merge(state, transcript) {
+            Object.assign(state, { transcript });
         }
     },
 
     actions: {
-        async load({ commit, state, rootState, rootGetters }) {
-            const { manuscript } = rootState;
-            const page = rootGetters["metadata/page"].filter(p => p);
-            const { transcript } = state;
+        async load({ commit, state }) {
+            let { transcript } = state;
+            if (transcript) {
+                return;
+            }
+            transcript = await fetch(
+                "/transcript.json", { credentials: "same-origin" }
+            ).then(resp => resp.json());
 
-            const loaded = (transcript || {})[manuscript] || {};
-            let sources = Object.keys(
-                page.filter(p => !(p in loaded)).map(source).reduce(
-                    (sources, source) => ({ ...sources, [source]: true }),
-                    {}
-                )
-            ).sort();
-
-            sources = await Promise.all(sources.map(
-                source => fetch(source, { credentials: "same-origin" })
-                    .then(resp => resp.json())
-            ));
-
-            commit("merge", { sources });
+            commit("merge", transcript);
         }
     }
 };

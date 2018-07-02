@@ -12,15 +12,20 @@ module.exports = {
 
     computed: {
         ...mapGetters("metadata", ["manuscript", "page"]),
+        ...mapGetters("text", { "transcript": "pages" }),
 
         pages() {
-            const { manuscript } = this;
-            const { sigil, pages } = manuscript;
-            return pages.map(page => ({
-                page,
-                src: thumb(sigil, page),
-                key: [sigil, page].join("_")
-            }));
+            const { manuscript, transcript } = this;
+            const { sigil } = manuscript;
+            return manuscript.pages.map(page => {
+                const columns = transcript[page] || {};
+                const verses = Object.keys(columns)
+                      .some(c => columns[c].verses.length > 0);
+
+                const src = thumb(sigil, page);
+                const key = [sigil, page].join("_");
+                return { page, verses, src, key };
+            });
         }
 
     },
@@ -28,6 +33,10 @@ module.exports = {
     methods: {
         close() {
             this.$router.back();
+        },
+
+        transcriptClass({ verses }) {
+            return { "is-italic": verses, "has-text-weight-bold": verses };
         },
 
         activeSlide({ page }) {

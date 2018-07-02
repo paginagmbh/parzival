@@ -6,25 +6,10 @@ const quire = require("../../lib/quire");
 const { parsePageSigil, pageSigil } = require("../../lib/manuscript");
 const verse = require("../../lib/verse");
 
-const manuscripts = metadata.map(manuscript => assign(manuscript, {
-    singlePages: manuscript.pages.map(p => [ p ]),
-    doublePages: quire.leafs(manuscript.pages.map(parsePageSigil)).map(
-        leaf => leaf.map(p => p ? pageSigil(p) : undefined)
-    )
-}));
-
-function findManuscript(sigil) {
-    const [ first ] = manuscripts;
-    return manuscripts.find(m => m.sigil == sigil) || first;
-}
-
-function findPages(pages, sigil="") {
-    for (let pi = 0, pl = pages.length; pi < pl; pi++) {
-        if (pages[pi].indexOf(sigil) >= 0) {
-            return pi;
-        }
-    }
-    return 0;
+for (const manuscript  of metadata) {
+    manuscript.singlePages = manuscript.pages.map(p => [ p ]);
+    manuscript.doublePages = quire.leafs(manuscript.pages.map(parsePageSigil))
+        .map(leaf => leaf.map(p => p ? pageSigil(p) : undefined));
 }
 
 module.exports = {
@@ -35,8 +20,9 @@ module.exports = {
             return metadata;
         },
 
-        manuscript(state, getters, { manuscript }) {
-            return findManuscript(manuscript);
+        manuscript(state, { manuscripts }, { manuscript }) {
+            const [ first ] = manuscripts;
+            return manuscripts.find(m => m.sigil == manuscript.sigil) || first;
         },
 
         pages(state, { manuscript }, { mode }) {
@@ -51,7 +37,12 @@ module.exports = {
         },
 
         index(state, { pages }, { page }) {
-            return findPages(pages, page);
+            for (let pi = 0, pl = pages.length; pi < pl; pi++) {
+                if (pages[pi].indexOf(page) >= 0) {
+                    return pi;
+                }
+            }
+            return 0;
         },
 
         prevPage(state, { index, pages }) {

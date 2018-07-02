@@ -24,13 +24,5 @@ module.exports = {
             }
             return false;
         }
-    },
-
-    methods: {
-        ...mapActions("text", ["load"])
-    },
-
-    mounted() {
-        this.load();
     }
 };
