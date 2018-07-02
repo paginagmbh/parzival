@@ -91,7 +91,7 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
 
 
 .parzival-transcript {
-  .columns {
+  .parzival-transcript-view > .columns {
     height: 100%;
   }
   .parzival-facsimile-column, .parzival-transcript-column {

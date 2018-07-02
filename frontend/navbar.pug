@@ -15,4 +15,4 @@
             router-link.navbar-item(v-for='m in manuscripts'  :key='m.sigil'
               :to='gotoManuscript(m.sigil)').
                 {{ m.sigil}} – {{ m.title }}
-      navigation.navbar-end(v-if="$mq.desktop")
+      navigation.navbar-end.is-hidden-touch

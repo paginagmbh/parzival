@@ -8,7 +8,7 @@ module.exports = {
     mixins: [require("./activation"), require("./routing")],
 
     computed: mapGetters("metadata", [
-        "manuscripts", "manuscript",
+        "manuscripts", "manuscript", "pageTitle",
         "prevPage", "nextPage"
     ]),
 

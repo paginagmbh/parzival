@@ -31,16 +31,7 @@ window.parzivalApp = new Vue({
 
     store, router,
 
-    computed: {
-        ...mapGetters("metadata", ["manuscript", "pageTitle"]),
-
-        htmlClasses() {
-            return {
-                "has-navbar-fixed-top": true,
-                "has-navbar-fixed-bottom": this.$mq.touch
-            };
-        }
-    },
+    computed: mapGetters("metadata", ["manuscript", "pageTitle"]),
 
     mq: {
         mobile: "(max-width: 768px)",
@@ -58,28 +49,14 @@ window.parzivalApp = new Vue({
 
         pageTitle() {
             this.updateTitle();
-        },
-
-        htmlClasses() {
-            this.updateHtmlElement();
         }
     },
 
     mounted() {
-        this.updateHtmlElement();
         this.updateTitle();
     },
 
     methods: {
-        updateHtmlElement() {
-            const { classList } = document.querySelector("html");
-            for (const clz in this.htmlClasses) {
-                const value = this.htmlClasses[clz];
-                const method = value ? "add" : "remove";
-                classList[method](clz);
-            }
-        },
-
         updateTitle() {
             const { manuscript, pageTitle } = this;
             const { title, sigil } = manuscript;

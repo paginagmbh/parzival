@@ -12,8 +12,18 @@ module.exports = {
     },
 
     computed: {
-        ...mapGetters("metadata", ["pageTitle", "page"]),
-        ...mapGetters("text", ["columns"])
+        ...mapGetters("metadata", ["manuscript", "pageTitle", "verseTitle", "page"]),
+        ...mapGetters("text", ["columns"]),
+
+        available() {
+            const { columns } = this;
+            for (const column in columns) {
+                if (columns[column].verses.length > 0) {
+                    return true;
+                }
+            }
+            return false;
+        }
     },
 
     methods: {
