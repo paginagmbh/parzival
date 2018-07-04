@@ -22,7 +22,7 @@ module.exports = {
 
         manuscript(state, { manuscripts }, { manuscript }) {
             const [ first ] = manuscripts;
-            return manuscripts.find(m => m.sigil == manuscript.sigil) || first;
+            return manuscripts.find(m => m.sigil == manuscript) || first;
         },
 
         pages(state, { manuscript }, { mode }) {

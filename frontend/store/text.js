@@ -8,8 +8,7 @@ module.exports = {
     },
 
     getters: {
-        pages({ transcript }, getters, rootState) {
-            const { manuscript } = rootState;
+        pages({ transcript }, getters, { manuscript }) {
             return (transcript || {})[manuscript] || {};
         },
 
