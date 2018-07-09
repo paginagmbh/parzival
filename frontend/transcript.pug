@@ -11,8 +11,8 @@
               table.table.is-narrow(v-if="columns[c]")
                 tbody
                   tr(v-for="v, vi in columns[c].verses" :key="vi")
-                    th.has-text-info.is-light.is-size-7 {{ v.verse }}
-                    td.has-junicode.is-size-5(v-html="v.html")
+                    th.has-text-info.is-size-7 {{ v.verse }}
+                    td.has-junicode.is-size-5-mobile.is-size-5-desktop.is-size-6-tablet(v-html="v.html")
           p.notification(v-else) Kein Transkript verfügbar.
       .column.parzival-facsimile-column
         facsimile-viewer
