@@ -134,6 +134,11 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
     color: $danger;
   }
 
+  .hi-fleuronee, .hi-lombarde {
+    font-size: larger;
+    font-weight: bold;
+  }
+
   .lb {
     color: $grey-light;
   }
