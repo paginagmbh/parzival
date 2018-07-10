@@ -14,9 +14,11 @@ module.exports = {
     mode: env.NODE_ENV || "development",
     context: __dirname,
     entry: {
-        "index": [
+        "styles": [
             "font-awesome/scss/font-awesome.scss",
-            "./frontend/index.scss",
+            "./frontend/index.scss"
+        ],
+        "app": [
             "babel-polyfill",
             "whatwg-fetch",
             "./frontend/index.js"
@@ -25,7 +27,7 @@ module.exports = {
     output: {
         path: contentBase,
         filename: "[name].[hash].js",
-        publicPath: ""
+        publicPath: "/"
     },
     resolve: {
         alias: {
@@ -58,10 +60,16 @@ module.exports = {
             }
         }, {
             test: /\.woff2?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-            use: "url-loader"
+            use: {
+                loader: "url-loader",
+                options: { limit: 8192 }
+            }
         }, {
             test: /\.(otf|ttf|eot|svg)(\?[\s\S]+)?$/,
-            use: "file-loader"
+            use: {
+                loader: "url-loader",
+                options: { limit: 8192 }
+            }
         }, {
             test: /\.pug$/,
             use: ["babel-loader", "pug-loader"]
