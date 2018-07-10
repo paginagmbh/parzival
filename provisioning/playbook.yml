@@ -84,14 +84,17 @@
         - "srv-bern.mount"
       notify: restart unibe-ch services
 
-    - name: Start and enable systemd services
+    - name: Start and enable VPN
       systemd:
-        name: "{{ item }}"
+        name: "vpnc-unibe-ch.service"
         enabled: yes
         state: started
-      with_items:
-        - "vpnc-unibe-ch.service"
-        - "srv-bern.mount"
+
+    - name: Start and enable /srv/bern mount
+      systemd:
+        name: "srv-bern.mount"
+        enabled: yes
+        state: started
 
     - name: Schedule periodic checks of the Bern University mount
       cron:
