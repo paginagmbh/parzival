@@ -20,6 +20,7 @@
     - geerlingguy.firewall
     - geerlingguy.security
     - geerlingguy.postfix
+    - geerlingguy.java
     - geerlingguy.nodejs
     - geerlingguy.git
     - geerlingguy.nginx
