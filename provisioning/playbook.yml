@@ -89,6 +89,12 @@
         name: "vpnc-unibe-ch.service"
         enabled: yes
         state: started
+      register: vpn_start
+
+    - name: Wait for VPN to come up
+      pause:
+        seconds: 10
+      when: vpn_start|changed
 
     - name: Start and enable /srv/bern mount
       systemd:
