@@ -1,4 +1,12 @@
 htdocs/
 node_modules/
+
 .DS_Store
 transcripts/conversion/*.xml
+
+provisioning/roles/*.*
+provisioning/ubuntu-xenial-16.04-cloudimg-console.log
+provisioning/ubuntu-bionic-18.04-cloudimg-console.log
+provisioning/vault-password
+.vagrant/
+*.retry

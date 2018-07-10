@@ -1,0 +1,44 @@
+---
+firewall_allowed_tcp_ports:
+  - "22"
+  - "80"
+  - "443"
+
+security_ssh_password_authentication: "yes"
+security_ssh_permit_root_login: "yes"
+
+postfix_aliases:
+  - user: root
+    alias: "gregor.middell@pagina.gmbh"
+
+certbot_install_from_source: true
+certbot_create_if_missing: true
+certbot_admin_email: "gregor.middell@pagina.gmbh"
+
+nodejs_version: "8.x"
+
+nginx_conf_template: "{{ playbook_dir }}/templates/nginx.conf.j2"
+nginx_remove_default_vhost: true
+nginx_extra_http_options: |
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Scheme $scheme;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header Host $http_host;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection "upgrade";
+
+htpasswd_user: "parzival"
+htpasswd_password: "{{ lookup('passwordstore', 'Uni-Bern/Parzival/htpasswd') }}"
+
+web_project_name: "dh-parzival"
+web_project_user: "parzival"
+web_project_gitlab_repo: "git@code.pagina.gmbh:pagina-dh/dh-parzival.git"
+
+parzival_vpn_secret: "{{ lookup('passwordstore', 'Uni-Bern/Parzival/VPN/Secret') }}"
+parzival_vpn_user: "og17b949"
+parzival_vpn_password: "{{ lookup('passwordstore', 'Uni-Bern/Parzival/VPN/Password') }}"
+
+parzival_smb_mount_path: "/srv/bern"
+parzival_smb_host_ip: "130.92.41.50"
+parzival_smb_user: "gasperlin"
+parzival_smb_password: "{{ lookup('passwordstore', 'Uni-Bern/Parzival/SMB/Password') }}"
