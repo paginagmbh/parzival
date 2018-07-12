@@ -7,6 +7,7 @@ transcripts/conversion/*.xml
 provisioning/roles/*.*
 provisioning/ubuntu-xenial-16.04-cloudimg-console.log
 provisioning/ubuntu-bionic-18.04-cloudimg-console.log
+provisioning/vars/secrets.json
 provisioning/vault-password
 .vagrant/
 *.retry

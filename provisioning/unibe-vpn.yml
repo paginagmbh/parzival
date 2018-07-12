@@ -1,0 +1,68 @@
+---
+- name: Install Cisco-VPN client and CIFS client
+  apt:
+    pkg: "{{ item }}"
+  with_items:
+    - "vpnc"
+    - "cifs-utils"
+
+- name: Configure VPN to Bern University
+  template:
+    src: "{{ item.name }}.j2"
+    dest: "/etc/vpnc/{{ item.name }}"
+    owner: "root"
+    group: "root"
+    mode: "{{ item.mode }}"
+  with_items:
+    - name: "unibe.ch.conf"
+      mode: "0400"
+    - name: "unibe.ch-script"
+      mode: "0500"
+    - name: "unibe.ch-smb-credentials"
+      mode: "0400"
+
+- name: Create Bern University mount point
+  file:
+    path: "/srv/bern"
+    state: directory
+
+- name: Configure systemd services
+  template:
+    src: "{{ item }}.j2"
+    dest: "/etc/systemd/system/{{item}}"
+    mode: 0644
+  with_items:
+    - "vpnc-unibe-ch.service"
+    - "srv-bern.mount"
+  register: vpn_config
+
+- name: Start and enable VPN
+  systemd:
+    name: "vpnc-unibe-ch.service"
+    enabled: yes
+    state: started
+  register: vpn_start
+
+- name: Restart VPN
+  systemd:
+    name: "vpnc-unibe-ch.service"
+    state: restarted
+  when: not vpn_start|changed and vpn_config|changed
+
+- name: Wait for VPN to come up
+  pause:
+    seconds: 10
+  when: vpn_start|changed or vpn_config|changed
+
+- name: Start and enable /srv/bern mount
+  systemd:
+    name: "srv-bern.mount"
+    enabled: yes
+    state: started
+
+- name: Schedule periodic checks of the Bern University mount
+  cron:
+    minute: "*/5"
+    name: "srv-bern-mount-check"
+    job: >
+      systemctl -q is-failed srv-bern.mount && systemctl start srv-bern.mount

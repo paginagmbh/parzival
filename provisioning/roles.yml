@@ -8,11 +8,4 @@
 - geerlingguy.security,1.5.0
 - geerlingguy.postfix,2.0.0
 - williamyeh.reset-locale,1.0.0
-- name: "pagina.tustep"
-  scm: "git"
-  src: "git@code.pagina.gmbh:pagina-dh/ansible-role-tustep.git"
-  version: "v1.1.0"
-- name: "pagina.web-project"
-  scm: "git"
-  src: "git@code.pagina.gmbh:pagina-dh/ansible-role-web-project.git"
-  version: "v1.5.0"
+- gremid.tustep,v1.2.1

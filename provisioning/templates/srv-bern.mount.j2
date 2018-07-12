@@ -4,8 +4,8 @@ Wants=network.target vpnc-unibe-ch.service
 After=network.target vpnc-unibe-ch.service
 
 [Mount]
-What=//{{ parzival_smb_host_ip }}/Pagina-Bern
-Where={{ parzival_smb_mount_path }}
+What=//{{ parzival.smb.host_ip }}/Pagina-Bern
+Where=/srv/bern
 Type=cifs
 Options=ro,noexec,noserverino,credentials=/etc/vpnc/unibe.ch-smb-credentials
 StandardOutput=syslog

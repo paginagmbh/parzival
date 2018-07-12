@@ -11,7 +11,7 @@ nginx_vhosts:
       return 301 https://parzival.pagina-dh.de$request_uri;
 
   - listen: "443 ssl"
-    root: "/srv/dh-parzival/htdocs"
+    root: "/srv/parzival/htdocs"
     server_name: "parzival.pagina-dh.de"
     filename: "parzival.pagina-dh.de-ssl.conf"
     extra_parameters: |

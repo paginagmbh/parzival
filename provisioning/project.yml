@@ -1,0 +1,56 @@
+---
+- name: Set root mail alias
+  lineinfile:
+    path: "/etc/aliases"
+    line: "root  gregor.middell@pagina.gmbh"
+  register: aliases
+
+- name: update aliases
+  command: newaliases
+  when: aliases|changed
+
+- name: Create parzival user
+  user:
+    name: "parzival"
+    group: "www-data"
+    shell: "/bin/bash"
+
+- name: Configure SSH public key
+  authorized_key:
+    user: "parzival"
+    key: "{{ parzival.gitlab.id_rsa_pub }}"
+
+- name: Configure SSH private key
+  copy:
+    content: "{{ parzival.gitlab.id_rsa }}"
+    dest: "~parzival/.ssh/id_rsa"
+    owner: "parzival"
+    group: "www-data"
+    mode: "0600"
+
+- name: Create project root
+  file:
+    path: "/srv/parzival"
+    state: directory
+    owner: "parzival"
+    group: "www-data"
+    mode: "0770"
+
+- name: Update project
+  git:
+    repo: "git@code.pagina.gmbh:pagina-dh/dh-parzival.git"
+    version: "{{ parzival_version }}"
+    recursive: True
+    dest: "/srv/parzival"
+    umask: "0007"
+    accept_hostkey: True
+  become: True
+  become_user: "parzival"
+  register: git_checkout
+
+- name: Build project
+  command: >
+    /bin/bash -l -c 'cd /srv/parzival && npm install && npm run build'
+  become: True
+  become_user: "parzival"
+  when: git_checkout|changed

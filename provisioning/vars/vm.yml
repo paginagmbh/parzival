@@ -2,7 +2,7 @@
 nginx_vhosts:
   - listen: "80 default_server"
     server_name: "vm.local"
-    root: "/srv/dh-parzival/htdocs"
+    root: "/srv/parzival/htdocs"
     extra_parameters: |
       sendfile off;
 
