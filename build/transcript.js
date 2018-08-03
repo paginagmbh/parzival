@@ -46,7 +46,7 @@ const heading = attr("type", "Kapitelüberschrift");
 async function parse({ source, manuscript, text }, index=0) {
     return (await markup.events(fs.createReadStream(source)))
         .filter(contextual(
-            start(ln("TEI", "del", "choice")),
+            start(ln("TEI", "choice")),
             start(ln("text", "reg", "corr", "ex"))
         ))
         .filter(contextual(
@@ -127,7 +127,24 @@ function hi(event) {
     if (rend.includes("Lombarde")) {
         classes.push("hi-lombarde");
     }
+    if (rend.includes("Prachtinitiale")) {
+        classes.push("hi-prachtinitiale");
+    }
     return `<span class="${classes.join(" ")}" data-rend="${rend}">`;
+}
+
+function supplied(event) {
+    if (event.event == "end") {
+        return ")</span>";
+    }
+    return `<span class="supplied ${event.local}">(`;
+}
+
+function edited(event) {
+    if (event.event == "end") {
+        return "</span>";
+    }
+    return `<span class="edited ${event.local}">`;
 }
 
 function verses(columns) {
@@ -156,12 +173,21 @@ function verses(columns) {
             }
 
             switch (event.local) {
+            case "reg":
+            case "corr":
+            case "ex":
+                current.html += supplied(event);
+                break;
             case "hi":
                 current.html += hi(event);
                 break;
+            case "del":
+            case "add":
+                current.html += edited(event);
+                break;
             case "lb":
                 if (event.event === "start") {
-                    current.html += `<span class="lb">¶</span>`;
+                    current.html += `<span class="lb">|</span>`;
                     if (inHeading) {
                         current.html += `<br class="lb">`;
                     }

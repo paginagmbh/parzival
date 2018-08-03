@@ -134,13 +134,32 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
     color: $danger;
   }
 
-  .hi-fleuronee, .hi-lombarde {
-    font-size: larger;
+  .hi-fleuronee, .hi-lombarde, .hi-prachtinitiale {
     font-weight: bold;
   }
 
+  .hi-fleuronee, .hi-lombarde {
+    font-size: $size-4;
+  }
+
+  .hi-prachtinitiale {
+    font-size: $size-3;
+  }
+
   .lb {
-    color: $grey-light;
+    color: $grey;
+  }
+
+  .supplied {
+    color: darken($green, 15%);
+  }
+
+  .edited {
+    font-style: italics;
+
+    &.del {
+      text-decoration: line-through;
+    }
   }
 
   .table td, .table th {
