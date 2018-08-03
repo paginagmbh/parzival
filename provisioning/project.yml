@@ -9,7 +9,7 @@
   command: newaliases
   when: aliases|changed
 
-- name: Create parzival user
+- name: Create project user
   user:
     name: "parzival"
     group: "www-data"
