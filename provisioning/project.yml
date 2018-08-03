@@ -16,9 +16,12 @@
     shell: "/bin/bash"
 
 - name: Configure SSH public key
-  authorized_key:
-    user: "parzival"
-    key: "{{ parzival.gitlab.id_rsa_pub }}"
+  copy:
+    content: "{{ parzival.gitlab.id_rsa_pub }}"
+    dest: "~parzival/.ssh/id_rsa.pub"
+    owner: "parzival"
+    group: "www-data"
+    mode: "0644"
 
 - name: Configure SSH private key
   copy:
