@@ -22,7 +22,7 @@ verseSigil = (el) ->
 
   variant = (c for c in components when isNaN c)
   variant = if variant.length is 0 then undefined else variant
-  console.log { nums, plus, variant }
+
   { nums, plus, variant }
 
 breakSigil = (el) -> m.parsePageSigil (xmlId el)
