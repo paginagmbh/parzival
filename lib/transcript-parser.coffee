@@ -16,13 +16,13 @@ verseSigil = (el) ->
   { nums, plus } = v.parse components.shift()
   components = ((parseInt c, 10) or c for c in components)
 
-  if nums.length is 2 or (nums[0] is 733 and nums[1] >= 100000)
+  if nums.length is 2 and nums[0] is 733 and nums[1] >= 100000
     nums = [ nums[1] - 100000 ]
   plus = (c for c in components when not isNaN c)
 
   variant = (c for c in components when isNaN c)
   variant = if variant.length is 0 then undefined else variant
-
+  console.log { nums, plus, variant }
   { nums, plus, variant }
 
 breakSigil = (el) -> m.parsePageSigil (xmlId el)

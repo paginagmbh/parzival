@@ -69,12 +69,10 @@
   "scripts": {
     "configure": "cake configure",
     "clean": "cake clean",
-    "build": "node --require babel-register scripts/build",
+    "build": "cake build",
     "test": "mocha",
     "lint": "eslint frontend",
     "dev": "webpack-dev-server --open --hot",
-    "metadata": "node build/metadata.js",
-    "deploy": "npm run build && rsync -avz htdocs/ root@parzival.pagina-dh.de:/var/www/",
-    "transcript-sync": "rsync -avz --delete root@parzival.pagina-dh.de:/srv/bern/Transkriptionen/ transcripts"
+    "metadata": "node build/metadata.js"
   }
 }
