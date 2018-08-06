@@ -36,7 +36,7 @@ module.exports = {
         },
 
         transcriptClass({ verses }) {
-            return { "is-italic": verses, "has-text-weight-bold": verses };
+            return { available: verses };
         },
 
         activeSlide({ page }) {

@@ -89,10 +89,18 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
     p {
       margin: #{0.25 * $gap} #{0.5 * $gap};
       text-align: center;
+
+      &.available {
+        color: $primary;
+        font-weight: bold;
+      }
     }
 
     &.is-active p {
-      background: rgba($primary, 0.7);
+      background: $primary;
+      &.available {
+        background: $white;
+      }
     }
   }
 }
@@ -130,28 +138,44 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
     overflow-y: auto;
   }
 
-  .hi-red {
-    color: $danger;
-  }
-
-  .hi-fleuronee, .hi-lombarde, .hi-prachtinitiale {
+  .hi {
     font-weight: bold;
-  }
 
-  .hi-fleuronee, .hi-lombarde {
-    font-size: $size-4;
-  }
+    &.red {
+      color: $danger;
+    }
 
-  .hi-prachtinitiale {
-    font-size: $size-3;
+    &.fleuronee, &.lombarde {
+      font-size: $size-4;
+    }
+
+    &.prachtinitiale {
+      font-size: $size-3;
+    }
   }
 
   .lb {
     color: $grey;
+
+    &.wb::before {
+      content: " "
+    }
+
+    &.wb::after {
+      content: " "
+    }
   }
 
   .supplied {
     color: darken($green, 15%);
+
+    &.ex::before {
+      content: "("
+    }
+
+    &.ex::after {
+      content: ")"
+    }
   }
 
   .edited {

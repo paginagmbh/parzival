@@ -8,8 +8,8 @@
     - name: Include secret settings
       include_vars: "{{ item }}"
       with_first_found:
-        - "vars/secrets.json"
-        - "vars/secrets.yml"
+        - "../config/secrets.json"
+        - "../config/secrets.default.json"
 
     - name: Include settings for VM
       include_vars: "vars/vm.yml"

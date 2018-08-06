@@ -1,3 +1,5 @@
+config/secrets.json
+
 htdocs/
 node_modules/
 
@@ -5,9 +7,6 @@ node_modules/
 transcripts/conversion/*.xml
 
 provisioning/roles/*.*
-provisioning/ubuntu-xenial-16.04-cloudimg-console.log
-provisioning/ubuntu-bionic-18.04-cloudimg-console.log
-provisioning/vars/secrets.json
-provisioning/vault-password
+provisioning/ubuntu-*-cloudimg-console.log
 .vagrant/
 *.retry
