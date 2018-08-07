@@ -12,7 +12,10 @@ module.exports = {
     },
 
     computed: {
-        ...mapGetters("metadata", ["manuscript", "pageTitle", "verseTitle", "page"]),
+        ...mapGetters("metadata", [
+            "manuscript", "headings",
+            "pageTitle", "verseTitle", "page"
+        ]),
         ...mapGetters("text", ["columns"]),
 
         available() {
@@ -23,6 +26,34 @@ module.exports = {
                 }
             }
             return false;
+        },
+
+        transcript() {
+            return this.page.map(page => {
+                return [page + "a", page + "b"].map(column => {
+                    const contents = [];
+                    if (column in this.columns) {
+                        for (const verse of this.columns[column].verses) {
+                            let headings = (this.headings[column] || {});
+                            if (verse.verse in headings) {
+                                contents.push({
+                                    type: "heading",
+                                    heading: headings[verse.verse]
+                                });
+                            }
+                            contents.push({ type: "verse", ...verse });
+                        }
+                    }
+                    return contents;
+                });
+            });
+        }
+    },
+
+    methods: {
+        heading(column, { verse }) {
+            return (this.headings[column] || {})[verse] || [];
         }
     }
+
 };

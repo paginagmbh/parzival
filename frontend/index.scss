@@ -138,6 +138,51 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
     overflow-y: auto;
   }
 
+  .parzival-column-heading {
+    color: $info;
+    margin: $size-5 0;
+  }
+  .table .parzival-heading {
+    font-style: italic;
+    text-align: right;
+    //border-bottom: 1px solid $grey;
+    //background: $grey-lighter;
+    padding: $size-7 $size-6;
+
+    @include mobile {
+      font-size: $size-6
+    }
+
+    @include tablet {
+      font-size: $size-7
+    }
+
+    @include desktop {
+      font-size: $size-6
+    }
+  }
+
+  .parzival-verse-num {
+    color: $info;
+    font-size: $size-7
+  }
+
+  .parzival-verse {
+    font-family: "Junicode", serif;
+
+    @include mobile {
+      font-size: $size-5
+    }
+
+    @include tablet {
+      font-size: $size-6
+    }
+
+    @include desktop {
+      font-size: $size-5
+    }
+  }
+
   .hi {
     font-weight: bold;
 

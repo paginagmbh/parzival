@@ -4,7 +4,7 @@ const quire = require("../../lib/quire");
 const { parsePageSigil, pageSigil } = require("../../lib/manuscript");
 const verse = require("../../lib/verse");
 
-for (const manuscript  of metadata) {
+for (const manuscript  of metadata.manuscripts) {
     manuscript.singlePages = manuscript.pages.map(p => [ p ]);
     manuscript.doublePages = quire.leafs(manuscript.pages.map(parsePageSigil))
         .map(leaf => leaf.map(p => p ? pageSigil(p) : undefined));
@@ -15,7 +15,7 @@ module.exports = {
 
     getters: {
         manuscripts() {
-            return metadata;
+            return metadata.manuscripts;
         },
 
         manuscript(state, { manuscripts }, { manuscript }) {
@@ -62,6 +62,10 @@ module.exports = {
         pageTitle(state, { page }) {
             page = page.filter(p => p).map(p => p.replace(/^0+/, ""));
             return `Bl. ${page.join(", ")}`;
+        },
+
+        headings(state, { manuscript }) {
+            return metadata.headings[manuscript.sigil] || {};
         },
 
         verses(state, { manuscript, page }) {

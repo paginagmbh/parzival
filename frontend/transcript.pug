@@ -1,18 +1,23 @@
 .parzival-transcript
   navbar
   .parzival-transcript-view
-    .columns.is-desktop.is-gapless(v-for="p in page" :key="p")
+    .columns.is-desktop.is-gapless(v-for="p, pi in transcript" :key="pi")
       .column.is-4-fullhd.parzival-transcript-column
         .section
-          h2.subtitle {{ manuscript.sigil }} – {{ pageTitle }} – {{ verseTitle }}
+          h2.subtitle {{ manuscript.sigil }} – {{ verseTitle }}
           .columns.is-multiline.is-gapless(v-if="available")
-            .column.is-full-desktop(v-for='c, ci in [p + "a", p + "b"]' :key="ci")
-              hr.is-hidden-touch(v-if="ci > 0")
-              table.table.is-narrow(v-if="columns[c]")
+            .column.is-full-desktop(v-for='c, ci in p' :key="ci")
+              h3.parzival-column-heading.subtitle {{ pageTitle + ["a", "b"][ci] }}
+              table.table.is-fullwidth.is-narrow(v-if="c.length > 0")
                 tbody
-                  tr(v-for="v, vi in columns[c].verses" :key="vi")
-                    th.has-text-info.is-size-7 {{ v.verse }}
-                    td.has-junicode.is-size-5-mobile.is-size-5-desktop.is-size-6-tablet(v-html="v.html")
+                  tr(v-for="t, ti in c" :key="ti")
+                    template(v-if="t.type == 'heading'")
+                      td.parzival-heading(colspan="2")
+                        div(v-for="h, hi in t.heading" :key="hi") [{{ h }}]
+                    template(v-if="t.type == 'verse'")
+                      th.parzival-verse-num {{ t.verse }}
+                      td.parzival-verse(v-html="t.html")
+              p.notification(v-else) Kein Transkript verfügbar.
           p.notification(v-else) Kein Transkript verfügbar.
       .column.parzival-facsimile-column
         facsimile-viewer

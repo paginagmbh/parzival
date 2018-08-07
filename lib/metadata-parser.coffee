@@ -66,6 +66,25 @@ metadata =
       hand = this.hands[if leaf <= 48 then "R1" else "R2"]
       { leaf, page, column, start, end, hand };
 
+headings =
+  V:
+    "115rb":
+      "0[1][1]": ["Prosaüberleitung zum ›Nuwen Parzifal‹ mit Jahresangabe 1336"]
+    "115va":
+      "0[1][3]": ["Blattberechnungen"]
+      "0[1][4]": ["Blattberechnungen"]
+      "0[1]": [
+        "Sieben Minneliedstrophen (›Rappoltsteiner Florilegium‹)",
+        "Walther von der Vogelweide (Walther 62, IV [L. 93,7])"]
+      "0[13]": ["Walther von Mezze (KLD 62, III,1)"]
+    "115vb":
+      "0[20]": ["Gottfried von Neifen (KLD 15, II,1)"]
+      "0[27]": ["Gottfried von Neifen (KLD 15, II,2)"]
+      "0[34]": ["Gottfried von Neifen (KLD 15, II,3)"]
+      "0[42]": ["Reinmar der Alte (MF XXI, XII, 3)"]
+      "0[51]": ["Reinmar von Brennenberg (KLD 44, IV, 4)"]
+    "116ra":
+      "1": ["Klaus Wisse und Philipp Colin, ›Nuwer Parzifal‹"]
 
 module.exports = () ->
   quireTypes = await globby "*.gif", { cwd: quireIconsDir }
@@ -161,4 +180,4 @@ module.exports = () ->
       p: p
       np: np
 
-  manuscripts
+  { manuscripts, headings }
