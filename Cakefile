@@ -58,8 +58,16 @@ task "configure", "Configures project, e.g. imports credentials", () ->
   xfs.outputJson secretsPath, secrets, { spaces: 2 }
 
 task "build", "Builds the project", () ->
+  await invoke "metadata"
   await invoke "xml-transcripts"
   spawnNpmBin "webpack", ["-p", "--silent"]
+
+task "metadata", "Processes metadata (verse concordances, quire structures)", () ->
+  metadataParser = require "./lib/metadata-parser"
+
+  metadata = await metadataParser()
+  metadataPath = path.resolve cwd, "lib", "metadata.json"
+  xfs.outputJson metadataPath, metadata, { spaces: 2 }
 
 task "xml-transcripts", "Generate XML transcripts from TUStep sources", () ->
   transcript = require "./lib/transcript-parser"

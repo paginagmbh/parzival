@@ -1,6 +1,4 @@
-const { assign } = Object;
-
-const metadata = require("./metadata.json");
+const metadata = require("../../lib/metadata.json");
 
 const quire = require("../../lib/quire");
 const { parsePageSigil, pageSigil } = require("../../lib/manuscript");
