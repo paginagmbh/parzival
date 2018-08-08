@@ -109,12 +109,16 @@ module.exports =
       verse = false if e.event is "end" and e.local is "l"
 
     lastChar = ""
+    verseIndex = {}
     index = {}
     for column in columns.reverse()
       verses = []
       inHeading = false
       for e in column.contents
         if e.event is "start" and e.local is "l"
+          verse = v.toString e
+          verseIndex[verse] ?= {}
+          verseIndex[verse][column.manuscript] ?= column.column
           verses.unshift
             verse: v.toString e
             html: ""
@@ -147,4 +151,8 @@ module.exports =
       manuscript = index[manuscript] ?= {}
       page = manuscript[page] ?= []
       page.push { column..., verses: verses.reverse() }
+
+    for v of verseIndex when (Object.keys verseIndex[v]).length is 1
+      delete verseIndex[v]
+
     index
