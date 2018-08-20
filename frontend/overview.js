@@ -1,33 +1,31 @@
 const scrollIntoView = require("scroll-into-view");
 
-const { mapGetters } = require("vuex");
-
 const { thumb } = require("./images");
+
+const { metadata } = window.parzival;
+const { transcript } = window.parzival.transcript;
 
 module.exports = {
     name: "overview",
-    mixins: [require("./routing")],
+    props: ["manuscript", "pages"],
 
+    mixins: [require("./manuscript-location")],
     template: require("./overview.pug")(),
 
     computed: {
-        ...mapGetters("metadata", ["manuscript", "page"]),
-        ...mapGetters("text", { "transcript": "pages" }),
+        manuscriptPages() {
+            const { manuscript } = this;
+            const { pages } = metadata.manuscripts
+                  .find(({ sigil }) => sigil == manuscript);
 
-        pages() {
-            const { manuscript, transcript } = this;
-            const { sigil } = manuscript;
-            return manuscript.pages.map(page => {
-                const columns = transcript[page] || {};
-                const verses = Object.keys(columns)
-                      .some(c => columns[c].verses.length > 0);
-
-                const src = thumb(sigil, page);
-                const key = [sigil, page].join("_");
+            return pages.map(page => {
+                const verses = ["a", "b"]
+                      .some(c => transcript[manuscript][`${page}${c}`]);
+                const src = thumb(manuscript, page);
+                const key = [manuscript, page].join("_");
                 return { page, verses, src, key };
             });
         }
-
     },
 
     methods: {
@@ -35,12 +33,25 @@ module.exports = {
             this.$router.back();
         },
 
+        pageRoute({ page }) {
+            const { manuscript } = this;
+            const { params, query } = this.$route;
+            return {
+                name: "facsimile",
+                query,
+                params: {
+                    ...params,
+                    pages: this.resolve(manuscript, page)
+                }
+            };
+        },
+
         transcriptClass({ verses }) {
             return { available: verses };
         },
 
         activeSlide({ page }) {
-            return this.page.some(p => (page == p));
+            return this.pageList.some(p => (page == p));
         },
 
         scrollToActive() {

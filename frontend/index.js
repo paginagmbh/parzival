@@ -4,7 +4,7 @@ const VueLazyload = require("vue-lazyload");
 const { focus } = require("vue-focus");
 
 const Vuex = require("vuex");
-const { mapActions, mapGetters } = Vuex;
+const { mapGetters } = Vuex;
 
 const VueRouter = require("vue-router");
 const { sync } = require("vuex-router-sync");
@@ -31,7 +31,7 @@ window.parzivalApp = new Vue({
 
     store, router,
 
-    computed: mapGetters("metadata", ["manuscript", "pageTitle"]),
+    computed: mapGetters(["title"]),
 
     mq: {
         mobile: "(max-width: 768px)",
@@ -43,17 +43,9 @@ window.parzivalApp = new Vue({
     },
 
     watch: {
-        manuscript() {
-            this.updateTitle();
-        },
-
-        pageTitle() {
+        title() {
             this.updateTitle();
         }
-    },
-
-    created() {
-        this.loadText();
     },
 
     mounted() {
@@ -61,12 +53,8 @@ window.parzivalApp = new Vue({
     },
 
     methods: {
-        ...mapActions("text", {"loadText": "load" }),
-
         updateTitle() {
-            const { manuscript, pageTitle } = this;
-            const { title, sigil } = manuscript;
-            document.title = `Nuwer Parzifal – ${title} (${sigil}) – ${pageTitle}`;
+            document.title = this.title;
         }
     }
 });

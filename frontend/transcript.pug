@@ -1,7 +1,7 @@
 .parzival-transcript
   navbar
   .parzival-transcript-view
-    .columns.is-desktop.is-gapless(v-for="p, pi in transcript" :key="pi")
+    .columns.is-desktop.is-gapless(v-for="c, ci in transcript" :key="ci")
       .column.is-4-fullhd.parzival-transcript-column
         .section
           h2.subtitle {{ manuscript.sigil }} – {{ verseTitle }}

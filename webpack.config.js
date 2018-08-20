@@ -3,7 +3,6 @@ const { env } = process;
 const path = require("path");
 
 const CopyPlugin = require("copy-webpack-plugin");
-const StyleLintPlugin = require("stylelint-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const HtmlWebpackHarddiskPlugin = require("html-webpack-harddisk-plugin");
 const ClosureCompilerPlugin = require("webpack-closure-compiler");
@@ -22,6 +21,12 @@ module.exports = {
             "babel-polyfill",
             "whatwg-fetch",
             "./frontend/index.js"
+        ],
+        "metadata": [
+            "./frontend/parzival-metadata.js"
+        ],
+        "transcript": [
+            "./frontend/parzival-transcript.js"
         ]
     },
     output: {
@@ -30,6 +35,7 @@ module.exports = {
         publicPath: "/"
     },
     resolve: {
+        extensions: [".coffee", ".js"],
         alias: {
             //"vue$": "vue/dist/vue.esm.js"
             "vue$": "vue/dist/vue.common.js",
@@ -40,6 +46,13 @@ module.exports = {
     },
     module: {
         rules: [{
+            test: /\.coffee$/,
+            include: [
+                path.resolve(__dirname, "frontend"),
+                path.resolve(__dirname, "lib")
+            ],
+            use: "coffee-loader"
+        },{
             test: /\.js$/,
             include: [
                 path.resolve(__dirname, "frontend"),
@@ -75,6 +88,7 @@ module.exports = {
             use: ["babel-loader", "pug-loader"]
         }]
     },
+    devtool: "source-map",
     devServer: { contentBase, historyApiFallback: true },
     plugins: [
         new CopyPlugin([
@@ -87,7 +101,6 @@ module.exports = {
                 to: path.join(__dirname, "htdocs", "quire-icons")
             }
         ]),
-        new StyleLintPlugin({ quiet: false }),
         new HtmlWebpackPlugin({
             template: "frontend/html.pug",
             inject: false,

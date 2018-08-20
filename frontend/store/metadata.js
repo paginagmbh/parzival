@@ -1,3 +1,4 @@
+const text = require("../text");
 const metadata = require("../../lib/metadata.json");
 
 const quire = require("../../lib/quire");
@@ -90,19 +91,8 @@ module.exports = {
 
         },
 
-        quireIcon(state, { manuscript, page }, { mode }) {
-            const { quires } = manuscript;
-            const [ icons ] = page.filter(p => p).map(p => quires[p]);
-            if (!icons) {
-                return undefined;
-            }
-            const { singlePage, doublePage } = icons;
-            switch (mode) {
-            case "double-page":
-                return doublePage;
-            default:
-                return singlePage;
-            }
+        quireIcon(state, { page }, { manuscript, mode }) {
+            return text.quireIcon(manuscript, page, mode);
         }
     }
 };

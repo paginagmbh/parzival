@@ -8,11 +8,13 @@
         span
     .navbar-menu(:class='active("menu")')
       .navbar-start
-        .navbar-item.has-dropdown(@click='toggle("msDrop")' :class='active("msDrop")')
+        .navbar-item.has-dropdown(@click='toggle("msDrop")'
+          :class='active("msDrop")')
           a.navbar-link.
-            {{ manuscript.title }} ({{ manuscript.sigil}}) – {{ pageTitle }}
+            {{ manuscriptTitle }} ({{ manuscript }}) – {{ pageTitle }}
           .navbar-dropdown
-            router-link.navbar-item(v-for='m in manuscripts'  :key='m.sigil'
-              :to='gotoManuscript(m.sigil)').
-                {{ m.sigil}} – {{ m.title }}
-      navigation.navbar-end.is-hidden-touch
+            router-link.navbar-item(v-for='m in manuscripts' :key='m.sigil'
+              :to='routes.manuscripts[m.sigil]').
+                {{ m.sigil }} – {{ m.title }}
+      navigation.navbar-end.is-hidden-touch(:manuscript="manuscript"
+        :pages="pages")

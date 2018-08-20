@@ -59,7 +59,8 @@ task "configure", "Configures project, e.g. imports credentials", () ->
 
 task "build", "Builds the project", () ->
   await invoke "metadata"
-  await invoke "xml-transcripts"
+  await invoke "tustep2xml"
+  await invoke "xml2json"
   spawnNpmBin "webpack", ["-p", "--silent"]
 
 task "metadata", "Processes metadata (verse concordances, quire structures)", () ->
@@ -69,40 +70,31 @@ task "metadata", "Processes metadata (verse concordances, quire structures)", ()
   metadataPath = path.resolve cwd, "lib", "metadata.json"
   xfs.outputJson metadataPath, metadata, { spaces: 2 }
 
-task "xml-transcripts", "Generate XML transcripts from TUStep sources", () ->
-  transcript = require "./lib/transcript-parser"
+transcriptsDir = path.resolve cwd, "transcripts", "conversion"
 
+task "tustep2xml", "Generate XML transcripts from TUStep sources", () ->
   tustepEnv = Object.assign {}, process.env,
     "TUSTEP_CMD": "xmlexport"
     "TUSTEP_INI": "tustep.ini"
     "TUSTEP_MEM": "00300000"
 
-  transcriptsDir = path.resolve cwd, "transcripts", "conversion"
-
   spawn "tustep", [], { env: tustepEnv, cwd: transcriptsDir }
 
-  transcripts = await globby path.resolve transcriptsDir, "*.xml"
+task "xml2json", "Generate JSON transcripts from XML sources", () ->
+  sources = await globby path.resolve transcriptsDir, "*.xml"
 
-  transcripts = for source in transcripts
+  sources = for source in sources
     basename = path.basename source, "_neu.xml"
-    [, manuscript, text, num] = basename.match /(v{1,2})(n?p)([0-9]+)/
-
+    [, manuscript, index] = basename.match /(v{1,2})n?p([0-9]+)/
     manuscript = manuscript.toUpperCase()
-    text = text.toUpperCase()
-    num = parseInt num, 10
+    num = parseInt index, 10
+    { source, manuscript, index }
 
-    { source, manuscript, text, num }
+  sources = sources.sort (a, b) ->
+     (a.manuscript.localeCompare b.manuscript) or (a.index - b.index)
 
-  transcripts.sort (a, b) ->
-    diff = a.manuscript.localeCompare b.manuscript
-    if diff is 0 then a.num - b.num else diff
+  transcriptParser = require "./lib/transcript-parser"
+  transcript = await transcriptParser sources
 
-  transcripts = (transcript.parse source, si for source, si in transcripts)
-  transcripts = await Promise.all transcripts
-
-  transcripts = transcripts.reduce ((all, one) -> all.concat one), []
-
-  transcripts = transcript.index transcripts
-
-  transcriptsPath = path.resolve cwd, "htdocs", "transcript.json"
-  xfs.outputJson transcriptsPath, transcripts, { spaces: 2 }
+  transcriptPath = path.resolve cwd, "lib", "transcript.json"
+  xfs.outputJson transcriptPath, transcript, { spaces: 2 }

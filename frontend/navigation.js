@@ -1,26 +1,41 @@
-const { mapGetters } = require("vuex");
-
 const { search, searchVerse, searchPage } = require("../lib/search");
+
+const { metadata } = window.parzival;
 
 module.exports = {
     name: "navigation",
     template: require("./navigation.pug")(),
-    mixins: [require("./activation"), require("./routing")],
 
-    computed: mapGetters("metadata", [
-        "manuscripts", "manuscript", "pageTitle",
-        "prevPage", "nextPage"
-    ]),
+    mixins: [
+        require("./activation"),
+        require("./manuscript-location")
+    ],
 
-    data: () => ({ searchModal: false, query: "", notFound: false, info: false }),
+    props: ["manuscript", "pages"],
+
+    data: () => ({
+        searchModal: false,
+        query: "",
+        notFound: false,
+        info: false
+    }),
 
     methods: {
         search(e, fn=search) {
-            let { manuscript, query } = this;
+            const { query } = this;
+            const manuscript = metadata.manuscripts
+                .find(({ sigil }) => sigil == this.manuscript);
             const page = fn(manuscript, query);
             this.notFound = page === undefined;
             if (page) {
-                this.$router.push(this.gotoPage(page));
+                const { name, params, query } = this.$route;
+                this.$router.push({
+                    name, query,
+                    params: {
+                        ...params,
+                        pages: this.resolve(this.manuscript, page)
+                    }
+                });
                 this.toggle("searchModal");
             }
         },

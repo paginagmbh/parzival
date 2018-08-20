@@ -1,28 +1,28 @@
 div
   .navbar-item.is-hidden-desktop.
-    {{ manuscript.sigil }} – {{ pageTitle }}
+    {{ manuscriptTitle }} – {{ pageTitle }}
   router-link.navbar-item(to="/")
     span.icon: i.fa.fa-info
   .navbar-item
     a.button.is-dark(:class='active("searchModal")' @click='toggle("searchModal")')
       i.fa.fa-search
   .navbar-item
-    router-link.button.is-dark(:to='gotoPage(prevPage)' :disabled="!prevPage" title="Vorherige Seite")
+    router-link.button.is-dark(:to='routes.prevPage' :disabled="!routes.prevPage" title="Vorherige Seite")
       i.fa.fa-angle-left
   .navbar-item
-    router-link.button.is-dark(:to='gotoPage(nextPage)' :disabled="!nextPage" title="Nächste Seite")
+    router-link.button.is-dark(:to='routes.nextPage' :disabled="!routes.nextPage" title="Nächste Seite")
       i.fa.fa-angle-right
   .navbar-item
-    router-link.button.is-dark(tag="button" :to='gotoMode("overview")')
+    router-link.button.is-dark(tag="button" :to='routes.overview')
       i.fa.fa-th
   .navbar-item
-    router-link.button.is-dark(:to='gotoMode("text")' title="Text")
+    router-link.button.is-dark(:to='routes.transcript' title="Text")
       i.fa.fa-file-text-o
   .navbar-item
-    router-link.button.is-dark(:to='gotoMode("double-page")' title="Doppelseite")
+    router-link.button.is-dark(:to='routes.doublePage' title="Doppelseite")
       i.fa.fa-files-o
   .navbar-item
-    router-link.button.is-dark(:to='gotoMode("single-page")' title="Einzelseite")
+    router-link.button.is-dark(:to='routes.singlePage' title="Einzelseite")
       i.fa.fa-file-o
 
   .modal(:class='active("searchModal")')
@@ -33,11 +33,18 @@ div
           .container
             .field
               .control.has-icons-left
-                input.input.is-medium(type="text" placeholder="z. B. 30v oder 123 oder 700.20[1]" v-model.trim="query" @keyup.esc='toggle("searchModal")' v-focus="searchModal"  @keyup.enter="search" :class='{ "is-danger": notFound }')
+                input.input.is-medium(type="text"
+                  placeholder="z. B. 30v oder 123 oder 700.20[1]"
+                  v-model.trim="query"
+                  v-focus="searchModal"
+                  @keyup.esc='toggle("searchModal")'
+                  @keyup.enter="search" :class='{ "is-danger": notFound }')
                 span.icon.is-left: i.fa.fa-search
             .field.is-grouped
               .control
-                button.button.is-medium.is-primary(@click="searchVerse" title="Suche Vers") Vers
+                button.button.is-medium.is-primary(@click="searchVerse"
+                  title="Suche Vers") Vers
               .control
-                button.button.is-medium(@click="searchPage" title="Suche Blatt") Blatt
+                button.button.is-medium(@click="searchPage"
+                  title="Suche Blatt") Blatt
       button.modal-close.is-large(aria-label="close" @click='toggle("searchModal")')

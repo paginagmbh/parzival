@@ -1,17 +1,23 @@
-const { mapGetters } = require("vuex");
+const { metadata } = window.parzival;
 
 module.exports = {
     name: "navbar",
-    mixins: [require("./activation"), require("./routing")],
+    props: ["manuscript", "pages"],
 
+    mixins: [ require("./activation"), require("./manuscript-location")],
     template: require("./navbar.pug")(),
+
     components: {
         Navigation: require("./navigation")
     },
 
-    computed: mapGetters("metadata", [ "manuscripts", "manuscript", "pageTitle" ]),
-
     data: () => ({  menu: false, menuDrop: false, msDrop: false }),
+
+    computed: {
+        manuscripts() {
+            return metadata.manuscripts;
+        }
+    },
 
     watch: {
         $route() {
