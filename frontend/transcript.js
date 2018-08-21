@@ -58,7 +58,7 @@ module.exports = {
             const column = el.getAttribute("data-column");
             const page = column.replace(/[ab]$/, "");
 
-            this.$router.replace(this.toPage(page));
+            this.$router.replace(this.turnedPage(this.toPage(page)));
         }
     },
 
