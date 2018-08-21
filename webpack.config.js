@@ -5,7 +5,6 @@ const path = require("path");
 const CopyPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const HtmlWebpackHarddiskPlugin = require("html-webpack-harddisk-plugin");
-const ClosureCompilerPlugin = require("webpack-closure-compiler");
 
 const contentBase = path.join(__dirname, "htdocs");
 
@@ -109,11 +108,5 @@ module.exports = {
         }),
         new HtmlWebpackHarddiskPlugin()
 
-    ].concat(
-        env.NODE_ENV == "production"
-            ? [
-                new ClosureCompilerPlugin({ concurrency: 3 })
-            ]
-        : []
-    )
+    ]
 };
