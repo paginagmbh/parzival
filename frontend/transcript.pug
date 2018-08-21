@@ -1,11 +1,10 @@
-.parzival-transcript
-  navbar(:manuscript="manuscript" :pages="pages")
+container.parzival-transcript(:manuscript="manuscript" :pages="pages")
   .parzival-transcript-view
     .tile.is-ancestor
       .tile.is-parent(:class="classes.orientation")
-        .tile.is-child(:class="classes.transcriptWidth" ref="pageContainer")
+        .tile.is-child(:class="classes.transcript")
           article.message(v-for="t in transcript"
-            :key="t.column" :class="t.columnClass" :data-column="t.column" ref="columns")
+            :key="manuscript + t.column" :class="t.columnClass" :data-column="t.column" ref="columns")
             .message-header
               p {{ manuscript }} – {{ t.column }}
             .message-body
@@ -20,5 +19,3 @@
                       td.parzival-verse(v-html="l.html")
         .tile.is-child
           facsimile-viewer(:manuscript="manuscript" :pages="pages")
-  nav.navbar.is-fixed-bottom.is-dark.is-hidden-desktop
-    navigation.navbar-brand(:manuscript="manuscript" :pages="pages")

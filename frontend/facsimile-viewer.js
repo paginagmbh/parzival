@@ -148,6 +148,7 @@ module.exports = {
             showNavigator: true,
             showNavigationControl: false,
             showRotationControl: false,
+            navigatorPosition: "TOP_LEFT",
             debugMode: false
         });
 

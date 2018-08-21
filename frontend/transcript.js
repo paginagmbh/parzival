@@ -8,23 +8,26 @@ module.exports = {
     mixins: [require("./manuscript-location")],
 
     components: {
-        Navbar: require("./navbar"),
-        Navigation: require("./navigation"),
+        Container: require("./container"),
         FacsimileViewer: require("./facsimile-viewer")
     },
     template: require("./transcript.pug")(),
 
     computed: {
-        classes() {
-            return {
-                orientation: { "is-vertical": this.$mq.touch },
-                transcriptWidth: { "is-4": this.$mq.desktop }
-            };
-        },
-
         transcript() {
-            const { manuscript, page } = this;
-            return Object.keys(transcript[manuscript]).sort().map(column => {
+            const { manuscript, pageList } = this;
+            const columns = pageList.reduce((columns, page) => {
+                if (page) {
+                    for (let column of ["a", "b"]) {
+                        column = `${page}${column}`;
+                        if (column in transcript[manuscript]) {
+                            columns.push(column);
+                        }
+                    }
+                }
+                return columns;
+            }, []);
+            return columns.map(column => {
                 const columnHeadings = (headings[manuscript] || {})[column] || {};
                 return {
                     column,
@@ -47,29 +50,13 @@ module.exports = {
                     )
                 };
             });
+        },
+
+        classes() {
+            return {
+                orientation: { "is-vertical": this.$mq.touch },
+                transcript: { "is-4": this.$mq.desktop }
+            };
         }
-    },
-
-    methods: {
-        columnVisible({ direction, el, going }) {
-            if (!direction || going != "in") {
-                return;
-            }
-            const column = el.getAttribute("data-column");
-            const page = column.replace(/[ab]$/, "");
-
-            this.$router.replace(this.turnedPage(this.toPage(page)));
-        }
-    },
-
-    mounted() {
-        const options = {
-            root: this.$refs.pageContainer,
-            rootMargin: "-15% 0% -65% 0%"
-        };
-
-        this.$refs.columns.forEach(el => {
-            this.$addObserver(el, this.columnVisible.bind(this), options);
-        });
-  }
+    }
 };

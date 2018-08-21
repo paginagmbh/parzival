@@ -1,12 +1,4 @@
-.parzival-page
-  navbar(:manuscript="manuscript" :pages="pages")
-  .parzival-page-facsimile
-    facsimile-viewer(:manuscript="manuscript" :pages="pages")
-    .parzival-breadcrumb.is-hidden
-      nav.breadcrumb(aria-label="breadcrumbs")
-        ul
-          li.is-active: a {{ manuscript }} – {{ manuscriptTitle }}
-          li.is-active: a {{ pageTitle }}
-          li.is-active: a {{ verseTitle }}
-  nav.navbar.is-fixed-bottom.is-hidden-desktop
-    navigation.navbar-brand(:manuscript="manuscript" :pages="pages")
+container(:manuscript="manuscript" :pages="pages")
+  .parzival-page
+    .parzival-page-facsimile
+      facsimile-viewer(:manuscript="manuscript" :pages="pages")

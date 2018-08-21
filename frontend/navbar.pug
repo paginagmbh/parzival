@@ -1,4 +1,4 @@
-.parzival-navigation
+.parzival-navbar
   nav.navbar.is-fixed-top.is-dark(role="navigation" aria-label="main navigation")
     .navbar-brand
       router-link.navbar-item(to="/").has-text-weight-bold Nuwer Parzifal
@@ -16,5 +16,3 @@
             router-link.navbar-item(v-for='m in manuscripts' :key='m.sigil'
               :to='routes.manuscripts[m.sigil]').
                 {{ m.sigil }} – {{ m.title }}
-      navigation.navbar-end.is-hidden-touch(:manuscript="manuscript"
-        :pages="pages")

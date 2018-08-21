@@ -16,6 +16,7 @@ window.parzivalApp = new Vue({
     name: "parzival",
 
     el: document.querySelector(".parzival-app"),
+
     template: require("./index.pug")(),
 
     router: require("./router"),

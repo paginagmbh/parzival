@@ -5,8 +5,7 @@ module.exports = {
     mixins: [require("./manuscript-location")],
 
     components: {
-        Navbar: require("./navbar"),
-        Navigation: require("./navigation"),
+        Container: require("./container"),
         FacsimileViewer: require("./facsimile-viewer")
     },
 

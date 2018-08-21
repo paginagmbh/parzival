@@ -1,0 +1,78 @@
+.parzival-container
+  slot
+  .parzival-navigation-controls
+    .field.has-addons
+      .control
+        router-link.button.is-info(to="/" title="Startseite/ Informationen")
+          i.fa.fa-home
+      .control
+        router-link.button(:to="routes.otherManuscript"
+          title="Handschrift wechseln")
+          i.fa.fa-exchange
+      .control
+        a.button(:class='active("overviewModal")' @click='toggle("overviewModal")')
+          i.fa.fa-th
+      .control
+        a.button(:class='active("searchModal")' @click='toggle("searchModal")')
+          i.fa.fa-search
+      .control
+        router-link.button(:to='routes.prevPage'
+          :disabled="!routes.prevPage" title="Vorherige Seite")
+          i.fa.fa-angle-left
+      .control
+        router-link.button(:to='routes.nextPage'
+          :disabled="!routes.nextPage" title="Nächste Seite")
+          i.fa.fa-angle-right
+      .control
+        router-link.button(:to='routes.singlePage' title="Einzelseite")
+          i.fa.fa-file-o
+      .control
+        router-link.button(:to='routes.doublePage' title="Doppelseite")
+          i.fa.fa-files-o
+      .control
+        router-link.button(:to='routes.transcript' :disabled="!hasTranscript"
+          title="Text")
+          i.fa.fa-file-text-o
+
+  .parzival-location.subtitle.
+    {{ manuscript }} – {{ pageTitle }}
+
+  .parzival-overview.modal(:class='active("overviewModal")'
+    @keyup.esc='toggle("overviewModal")' v-focus="overviewModal" tabindex="1000")
+    .modal-background
+    .modal-content
+      .section
+        .columns.is-multiline.is-gapless.is-mobile
+          .column.is-6-mobile.is-3-tablet.is-2-desktop.is-1-fullhd(
+            v-for="p in manuscriptPages" :key="p.key")
+            router-link.parzival-facsimile-slide(tag="div"
+              :to="pageRoute(p)" :class="{ 'is-active': activeSlide(p) }")
+              img(v-lazy="p.src" :alt="p.page")
+              p(:class="transcriptClass(p)") {{ p.page }}
+    button.modal-close.is-large(aria-label="close"
+      @click='toggle("overviewModal")')
+
+  .parzival-search.modal(:class='active("searchModal")' tabindex="1001")
+    .modal-background
+    .modal-content
+      .hero.is-large
+        .hero-body
+          .container
+            .field
+              .control.has-icons-left
+                input.input.is-medium(type="text"
+                  placeholder="z. B. 30v oder 123 oder 700.20[1]"
+                  v-model.trim="query"
+                  v-focus="searchModal"
+                  @keyup.esc='toggle("searchModal")'
+                  @keyup.enter="search" :class='{ "is-danger": notFound }')
+                span.icon.is-left: i.fa.fa-search
+            .field.is-grouped
+              .control
+                button.button.is-medium.is-primary(@click="searchVerse"
+                  title="Suche Vers") Vers
+              .control
+                button.button.is-medium(@click="searchPage"
+                  title="Suche Blatt") Blatt
+      button.modal-close.is-large(aria-label="close"
+        @click='toggle("searchModal")')

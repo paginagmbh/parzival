@@ -2,6 +2,7 @@ const { parsePageSigil, pageSigil } = require("../lib/manuscript");
 const quire = require("../lib/quire");
 
 const { metadata } = window.parzival;
+const { transcript } = window.parzival.transcript;
 
 const pages = {
     single: {},
@@ -53,6 +54,18 @@ module.exports = {
             return this.pageList.find(p => p);
         },
 
+        hasTranscript() {
+            const columns = transcript[this.manuscript || ""] || {};
+            for (const page of this.pageList) {
+                for (const column of ["a", "b"]) {
+                    if (columns[`${page}${column}`]) {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        },
+
         manuscriptTitle() {
             return metadata.manuscripts[this.manuscript].title;
         },
@@ -66,11 +79,17 @@ module.exports = {
         },
 
         routes() {
+            const manuscripts = {
+                V: this.turnedPage(this.toPage("001r", "V")),
+                VV: this.turnedPage(this.toPage("001r", "VV"))
+            };
+
             return {
-                manuscripts: {
-                    V: this.turnedPage(this.toPage("001r", "V")),
-                    VV: this.turnedPage(this.toPage("001r", "VV"))
-                },
+                manuscripts,
+
+                otherManuscript: this.manuscript == "V"
+                    ? manuscripts.VV
+                    : manuscripts.V,
 
                 prevPage: this.prevPage(this.turnedPage(this.toPage())),
 
@@ -83,7 +102,7 @@ module.exports = {
 
                 transcript: {
                     ...this.turnedPage(this.toPage(null, null, 1)),
-                    name: "transcript"
+                    name: this.hasTranscript ? "transcript" : "facsimile"
                 },
 
                 doublePage: {

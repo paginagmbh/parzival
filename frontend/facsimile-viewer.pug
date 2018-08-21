@@ -1,12 +1,9 @@
 .parzival-facsimile-viewer
   .parzival-facsimile
-  .parzival-facsimile-nav.level
-    .level-left
-      .level-item
-        .field.is-grouped
-          .control: button.button(@click="zoomIn"): i.fa.fa-search-plus
-          .control: button.button(@click="zoomOut"): i.fa.fa-search-minus
-          .control: button.button(@click="rotateLeft"): i.fa.fa-rotate-left
-          .control: button.button(@click="rotateRight"): i.fa.fa-rotate-right
+  .parzival-facsimile-nav.field.has-addons
+    .control: button.button(@click="zoomIn"): i.fa.fa-search-plus
+    .control: button.button(@click="zoomOut"): i.fa.fa-search-minus
+    .control: button.button(@click="rotateLeft"): i.fa.fa-rotate-left
+    .control: button.button(@click="rotateRight"): i.fa.fa-rotate-right
   figure.image.parzival-quire-view(v-if="quireIconPath")
     img(:src="quireIconPath")
