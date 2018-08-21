@@ -1,27 +1,16 @@
 const Vue = require("vue");
-
+const VueRouter = require("vue-router");
+const MQ = require("vue-match-media");
 const VueLazyload = require("vue-lazyload");
+const VueWaypoint = require("vue-waypoint").default;
 const { focus } = require("vue-focus");
 
-const Vuex = require("vuex");
-const { mapGetters } = Vuex;
-
-const VueRouter = require("vue-router");
-const { sync } = require("vuex-router-sync");
-
-const MQ = require("vue-match-media");
-
-Vue.use(VueLazyload);
-Vue.use(Vuex);
 Vue.use(VueRouter);
 Vue.use(MQ);
+Vue.use(VueLazyload);
+Vue.use(VueWaypoint);
 
 Vue.directive("focus", focus);
-
-const store = require("./store");
-const router = require("./router");
-
-sync(store, router);
 
 window.parzivalApp = new Vue({
     name: "parzival",
@@ -29,9 +18,11 @@ window.parzivalApp = new Vue({
     el: document.querySelector(".parzival-app"),
     template: require("./index.pug")(),
 
-    store, router,
+    router: require("./router"),
 
-    computed: mapGetters(["title"]),
+    data: {
+        title: "Nuwer Parzifal"
+    },
 
     mq: {
         mobile: "(max-width: 768px)",

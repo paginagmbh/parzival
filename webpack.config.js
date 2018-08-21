@@ -19,6 +19,7 @@ module.exports = {
         ],
         "app": [
             "babel-polyfill",
+            "intersection-observer",
             "whatwg-fetch",
             "./frontend/index.js"
         ],

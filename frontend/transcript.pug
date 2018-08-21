@@ -1,25 +1,24 @@
 .parzival-transcript
-  navbar
+  navbar(:manuscript="manuscript" :pages="pages")
   .parzival-transcript-view
-    .columns.is-desktop.is-gapless(v-for="c, ci in transcript" :key="ci")
-      .column.is-4-fullhd.parzival-transcript-column
-        .section
-          h2.subtitle {{ manuscript.sigil }} – {{ verseTitle }}
-          .columns.is-multiline.is-gapless(v-if="available")
-            .column.is-full-desktop(v-for='c, ci in p' :key="ci")
-              h3.parzival-column-heading.subtitle {{ pageTitle + ["a", "b"][ci] }}
-              table.table.is-fullwidth.is-narrow(v-if="c.length > 0")
+    .tile.is-ancestor
+      .tile.is-parent(:class="classes.orientation")
+        .tile.is-child(:class="classes.transcriptWidth" ref="pageContainer")
+          article.message(v-for="t in transcript"
+            :key="t.column" :class="t.columnClass" :data-column="t.column" ref="columns")
+            .message-header
+              p {{ manuscript }} – {{ t.column }}
+            .message-body
+              table.table.is-fullwidth
                 tbody
-                  tr(v-for="t, ti in c" :key="ti")
-                    template(v-if="t.type == 'heading'")
+                  tr(v-for="l, li in t.contents" :key="li")
+                    template(v-if="l.type == 'heading'")
                       td.parzival-heading(colspan="2")
-                        div(v-for="h, hi in t.heading" :key="hi") [{{ h }}]
-                    template(v-if="t.type == 'verse'")
-                      th.parzival-verse-num {{ t.verse }}
-                      td.parzival-verse(v-html="t.html")
-              p.notification(v-else) Kein Transkript verfügbar.
-          p.notification(v-else) Kein Transkript verfügbar.
-      .column.parzival-facsimile-column
-        facsimile-viewer
+                        div(v-for="h, hi in l.heading" :key="hi") [{{ h }}]
+                    template(v-if="l.type == 'verse'")
+                      th.parzival-verse-num {{ l.verse }}
+                      td.parzival-verse(v-html="l.html")
+        .tile.is-child
+          facsimile-viewer(:manuscript="manuscript" :pages="pages")
   nav.navbar.is-fixed-bottom.is-dark.is-hidden-desktop
-    navigation.navbar-brand
+    navigation.navbar-brand(:manuscript="manuscript" :pages="pages")

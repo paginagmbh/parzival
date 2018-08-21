@@ -1,7 +1,6 @@
 {
-  "manuscripts": [
-    {
-      "sigil": "V",
+  "manuscripts": {
+    "V": {
       "title": "Karlsruhe, Bad. Landesbibl., Donaueschingen 97",
       "columns": [
         {
@@ -51880,8 +51879,7 @@
         }
       ]
     },
-    {
-      "sigil": "VV",
+    "VV": {
       "title": "Roma, Biblioteca Casanatense, Ms. 1409",
       "columns": [
         {
@@ -80160,7 +80158,7 @@
         }
       ]
     }
-  ],
+  },
   "headings": {
     "V": {
       "115rb": {

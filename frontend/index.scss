@@ -106,38 +106,38 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
 }
 
 /* stylelint-disable */
-.parzival-page-facsimile, .parzival-transcript-view {
-  height: calc(100vh - #{$navbar-height});
-}
 
-.parzival-transcript-column, .parzival-facsimile-column {
-  height: 100%
+@include desktop {
+  .parzival-page-facsimile, .parzival-transcript-view {
+    height: calc(100vh - #{$navbar-height});
+  }
 }
 
 @include touch {
   .parzival-page-facsimile, .parzival-transcript-view {
     height: calc(100vh - #{2 * $navbar-height});
   }
-
-  .parzival-transcript-column {
-    height: 40%
-  }
-  .parzival-facsimile-column {
-    height: 60%
-  }
 }
 
 /* stylelint-enable */
 
-
 .parzival-transcript {
-  .parzival-transcript-view > .columns {
-    height: 100%;
-  }
-  .parzival-facsimile-column, .parzival-transcript-column {
-    overflow-y: auto;
-  }
+  .parzival-transcript-view .tile {
 
+    &.is-ancestor {
+      margin-bottom: -0.75rem !important;
+    }
+
+    &.is-ancestor, &.is-parent, &.is-child {
+      background-color: $black;
+      height: 100%;
+      overflow-y: auto;
+    }
+
+    .message {
+      margin: 1.5rem;
+    }
+  }
   .parzival-column-heading {
     color: $info;
     margin: $size-5 0;

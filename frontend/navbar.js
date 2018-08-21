@@ -15,7 +15,8 @@ module.exports = {
 
     computed: {
         manuscripts() {
-            return metadata.manuscripts;
+            return Object.keys(metadata.manuscripts).sort()
+                .map(sigil => ({ sigil, ...metadata.manuscripts[sigil] }));
         }
     },
 

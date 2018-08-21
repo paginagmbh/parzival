@@ -28,9 +28,7 @@ module.exports = {
         quireIconPath() {
             const { manuscript, pageList } = this;
             const [ page ] = pageList;
-
-            let { quires } = metadata.manuscripts
-                .find(({ sigil }) => sigil == manuscript);
+            let { quires } = metadata.manuscripts[manuscript];
 
             let quireIcon = undefined;
             if (page in quires) {

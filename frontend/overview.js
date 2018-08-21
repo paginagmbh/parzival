@@ -15,9 +15,7 @@ module.exports = {
     computed: {
         manuscriptPages() {
             const { manuscript } = this;
-            const { pages } = metadata.manuscripts
-                  .find(({ sigil }) => sigil == manuscript);
-
+            const { pages } = metadata.manuscripts[manuscript];
             return pages.map(page => {
                 const verses = ["a", "b"]
                       .some(c => transcript[manuscript][`${page}${c}`]);
@@ -34,16 +32,7 @@ module.exports = {
         },
 
         pageRoute({ page }) {
-            const { manuscript } = this;
-            const { params, query } = this.$route;
-            return {
-                name: "facsimile",
-                query,
-                params: {
-                    ...params,
-                    pages: this.resolve(manuscript, page)
-                }
-            };
+            return { ...this.toPage(page), name: "facsimile" };
         },
 
         transcriptClass({ verses }) {

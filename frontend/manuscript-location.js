@@ -13,8 +13,8 @@ const sequences = {
     double: {}
 };
 
-for (const manuscript of metadata.manuscripts) {
-    const { sigil } = manuscript;
+for (const sigil in metadata.manuscripts) {
+    const manuscript = metadata.manuscripts[sigil];
     for (const key of ["single", "double"]) {
         pages[key][sigil] = [];
         sequences[key][sigil] = {};
@@ -54,10 +54,7 @@ module.exports = {
         },
 
         manuscriptTitle() {
-            return metadata.manuscripts
-                .filter(({ sigil }) => sigil == this.manuscript)
-                .map(({ title }) => title)
-                .shift();
+            return metadata.manuscripts[this.manuscript].title;
         },
 
         pageTitle() {
@@ -69,53 +66,57 @@ module.exports = {
         },
 
         routes() {
-            const { manuscript, page } = this;
-            const { name, params, query } = this.$route;
             return {
                 manuscripts: {
-                    V: {
-                        name, query,
-                        params: {
-                            ...params,
-                            manuscript: "V",
-                            pages: this.resolve("V", "001r")
-                        }
-                    },
-                    VV: {
-                        name, query,
-                        params: {
-                            ...params,
-                            manuscript: "VV",
-                            pages: this.resolve("VV", "001r")
-                        }
-                    }
+                    V: this.turnedPage(this.toPage("001r", "V")),
+                    VV: this.turnedPage(this.toPage("001r", "VV"))
                 },
 
-                prevPage: {
-                    name, query,
-                    params: { ...params, pages: this.prevPage(manuscript, page) }
-                },
-                nextPage: {
-                    name, query,
-                    params: { ...params, pages: this.nextPage(manuscript, page) }
+                prevPage: this.prevPage(this.turnedPage(this.toPage())),
+
+                nextPage: this.nextPage(this.turnedPage(this.toPage())),
+
+                overview: {
+                    ...this.toPage(),
+                    name: "overview"
                 },
 
-                transcript: { name: "transcript", params, query },
-                overview: { name: "overview", params, query },
+                transcript: {
+                    ...this.turnedPage(this.toPage(null, null, 1)),
+                    name: "transcript"
+                },
 
                 doublePage: {
-                    name, query,
-                    params: { ...params, pages: this.resolve(manuscript, page, 2) }
+                    ...this.turnedPage(this.toPage(null, null, 2)),
+                    name: "facsimile"
                 },
+
                 singlePage: {
-                    name, query,
-                    params: { ...params, pages: this.resolve(manuscript, page, 1) }                    }
+                    ...this.turnedPage(this.toPage(null, null, 1)),
+                    name: "facsimile"
+                }
             };
         }
     },
 
     methods: {
-        nextPage(manuscript, page) {
+        turnedPage(route) {
+            if (!route.query) {
+                return route;
+            }
+            let { x, y, width } = route.query;
+            if (x && y && width) {
+                x = (
+                    Math.round((1 - (parseFloat(width) || "1")) * 50) / 100
+                ).toString();
+                y = "0";
+                return { ...route, query: { ...route.query, x, y } };
+            }
+            return route;
+        },
+
+        nextPage(route) {
+            const { manuscript, page } = this;
             const count = Math.min(2, this.pageList.length);
             const key = count == 2 ? "double" : "single";
             const { length } = pages[key][manuscript];
@@ -123,25 +124,35 @@ module.exports = {
                 sequences[key][manuscript][page] + count,
                 length - 1
             );
-            return pages[key][manuscript][index];
+            const next =  pages[key][manuscript][index];
+            return { ...route, params: { ...route.params, pages: next } };
         },
 
-        prevPage(manuscript, page) {
+        prevPage(route) {
+            const { manuscript, page } = this;
             const count = Math.min(2, this.pageList.length);
             const key = count == 2 ? "double" : "single";
             const index = Math.max(0, sequences[key][manuscript][page] - count);
-            return pages[key][manuscript][index];
+            const prev = pages[key][manuscript][index];
+            return { ...route, params: { ...route.params, pages: prev } };
         },
 
-        resolve(manuscript, page, count) {
+        toPage(page, manuscript, count) {
+            const { name, query, params } = this.$route;
+            manuscript = manuscript || params.manuscript;
+            page = page || this.page;
             count = count || this.pageList.length;
             switch (count) {
             case 2:
-                return pages.double[manuscript][sequences.double[manuscript][page]];
+                page = pages.double[manuscript][sequences.double[manuscript][page]];
+                break;
             case 1:
             default:
-                return pages.single[manuscript][sequences.single[manuscript][page]];
+                page = pages.single[manuscript][sequences.single[manuscript][page]];
+                break;
             }
+
+            return { name, query, params: { ...params, manuscript, pages: page } };
         }
     }
 };

@@ -137,7 +137,7 @@ module.exports = () ->
 
   quires = quires.reduce ((all, one) -> all.concat one), []
 
-  manuscripts = []
+  manuscripts = {}
   for manuscript in ["K", "R"]
     verses = []
     data = metadata[manuscript]
@@ -171,8 +171,7 @@ module.exports = () ->
     np = (v for v in verses when verse.np v.start).sort verseSort
 
     { sigil, title } = data
-    manuscripts.push
-      sigil: sigil
+    manuscripts[sigil] =
       title: title
       columns: verses
       pages: pages

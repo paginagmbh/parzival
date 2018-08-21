@@ -23,19 +23,11 @@ module.exports = {
     methods: {
         search(e, fn=search) {
             const { query } = this;
-            const manuscript = metadata.manuscripts
-                .find(({ sigil }) => sigil == this.manuscript);
+            const manuscript = metadata.manuscripts[this.manuscript];
             const page = fn(manuscript, query);
             this.notFound = page === undefined;
             if (page) {
-                const { name, params, query } = this.$route;
-                this.$router.push({
-                    name, query,
-                    params: {
-                        ...params,
-                        pages: this.resolve(this.manuscript, page)
-                    }
-                });
+                this.$router.push(this.toPage(page));
                 this.toggle("searchModal");
             }
         },
