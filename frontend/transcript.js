@@ -35,8 +35,11 @@ module.exports = {
                     page: column.replace(/[ab]$/, ""),
                     contents: transcript[manuscript][column].reduce(
                         (contents, verse) => {
+                            const displayed = verse.verse.replace(
+                                    /827.30\[([0-9]+)]/, "Ep. $1"
+                            );
                             const verseContents = [
-                                { type: "verse", ...verse }
+                                { type: "verse", ...verse, verse: displayed }
                             ];
                             if (verse.verse in columnHeadings) {
                                 verseContents.unshift({
@@ -57,6 +60,15 @@ module.exports = {
                 orientation: { "is-vertical": this.$mq.touch },
                 transcript: { "is-4": this.$mq.desktop }
             };
+        }
+    },
+
+    watch: {
+        transcript() {
+            const { transcript } = this.$refs;
+            if (transcript) {
+                transcript.scrollTop = 0;
+            }
         }
     }
 };

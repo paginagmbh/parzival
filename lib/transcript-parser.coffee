@@ -41,7 +41,9 @@ hi = (e) ->
     when "start"
       classes = ["hi"]
       rend = markup.attr e, "rend", ""
+      size = rend.match /([0-9]+)\-zeilig/
 
+      classes.push "lines-#{size[1]}" if size?
       classes.push "red" if rend is "rot"
       classes.push "fleuronee" if rend.includes "Fleuronee"
       classes.push "lombarde" if rend.includes "Lombarde"

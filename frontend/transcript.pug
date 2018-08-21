@@ -2,7 +2,8 @@ container.parzival-transcript(:manuscript="manuscript" :pages="pages")
   .parzival-transcript-view
     .tile.is-ancestor
       .tile.is-parent(:class="classes.orientation")
-        .tile.is-child(:class="classes.transcript")
+        .tile.is-child(ref="transcript" v-if="transcript.length > 0"
+          :class="classes.transcript" )
           article.message(v-for="t in transcript"
             :key="manuscript + t.column" :class="t.columnClass" :data-column="t.column" ref="columns")
             .message-header

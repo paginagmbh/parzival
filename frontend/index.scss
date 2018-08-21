@@ -227,18 +227,25 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
   }
 
   .hi {
-    font-weight: bold;
 
     &.red {
       color: $danger;
     }
 
-    &.fleuronee, &.lombarde {
-      font-size: $size-4;
+    &.lines-7, &.lines-6, &.lines-5, &.lines-4 {
+      font-size: $size-3;
+      font-weight: bold;
+      color: $danger;
     }
 
-    &.prachtinitiale {
-      font-size: $size-3;
+    &.lines-3 {
+      font-size: $size-4;
+      font-weight: bold;
+      color: $danger;
+    }
+
+    &.lines-2, &.lines-1 {
+      font-size: $size-5;
     }
   }
 
@@ -255,7 +262,9 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
   }
 
   .supplied {
-    color: darken($green, 15%);
+    &.corr {
+      text-decoration: underline dotted;
+    }
 
     &.ex::before {
       content: "("
