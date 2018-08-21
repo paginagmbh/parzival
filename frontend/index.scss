@@ -59,8 +59,8 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
   }
 
   .parzival-navigation-controls {
-    top: 0.75rem;
-    right: 0.75rem;
+    top: 1.5rem;
+    right: 1.5rem;
   }
 
   .parzival-quire-view {
@@ -76,8 +76,8 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
   }
 
   .parzival-navigation-controls {
-    bottom: 0.75rem;
-    left: 0.75rem;
+    bottom: 1.5rem;
+    left: 1.5rem;
   }
 
   .parzival-quire-view {
@@ -101,9 +101,9 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
 
   .parzival-facsimile-nav {
     background: transparent;
-    position: absolute;
-    bottom: 0.75rem;
-    right: 0.75rem;
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
   }
 
   .parzival-quire-view {
