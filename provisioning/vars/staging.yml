@@ -1,4 +1,7 @@
 ---
+security_autoupdate_mail_to: "root"
+security_autoupdate_mail_on_error: false
+
 certbot_certs:
   - domains: [ "parzival.pagina-dh.de" ]
 
