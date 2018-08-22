@@ -6,6 +6,8 @@ const CopyPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const HtmlWebpackHarddiskPlugin = require("html-webpack-harddisk-plugin");
 
+const config = require("./config");
+
 const contentBase = path.join(__dirname, "htdocs");
 
 module.exports = {
@@ -89,7 +91,20 @@ module.exports = {
         }]
     },
     devtool: "source-map",
-    devServer: { contentBase, historyApiFallback: true },
+    devServer: {
+        contentBase,
+        historyApiFallback: true,
+        proxy: [{
+            context: ["/iiif"],
+            target: process.env.PARZIVAL_PROXY_TARGET ||
+                "https://parzival.pagina-dh.de",
+            changeOrigin: true,
+            logLevel: "debug",
+            secure: false,
+            auth: [config.parzival.http.user, config.parzival.http.password]
+                .filter(c => c).join(":") || undefined
+        }]
+    },
     plugins: [
         new CopyPlugin([
             {

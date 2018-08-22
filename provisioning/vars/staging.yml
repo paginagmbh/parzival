@@ -35,4 +35,10 @@ nginx_vhosts:
         try_files $uri $uri/ /index.html;
       }
 
+      location /iiif {
+        include fastcgi_params;
+        fastcgi_pass iipsrv;
+      }
+
+
 web_project_version: "development"

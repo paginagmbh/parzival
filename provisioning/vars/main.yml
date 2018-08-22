@@ -22,5 +22,8 @@ nginx_extra_http_options: |
     proxy_set_header Host $http_host;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection "upgrade";
+nginx_upstreams:
+  - name: iipsrv
+    servers: [ "unix:{{ iipsrv_socket }}" ]
 
 parzival_version: "development"
