@@ -36,8 +36,12 @@
         router-link.button(:to='routes.transcript' title="Transkript")
           i.fa.fa-file-text-o
 
-  .parzival-location.subtitle.
-    {{ manuscript }} – {{ pageTitle }}
+  .parzival-location.box
+    nav.breadcrumb
+      ol
+        li.is-active: a {{ manuscript }}
+        li.is-active: a {{ pageTitle }}
+        li.is-active: a {{ verseTitle }}
 
   .parzival-overview.modal(:class='active("overviewModal")'
     @keyup.esc='toggle("overviewModal")' v-focus="overviewModal" tabindex="1000")

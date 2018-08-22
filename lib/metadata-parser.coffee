@@ -9,7 +9,7 @@ csvStringify = require "csv-stringify/lib/sync"
 
 
 quire = require "./quire"
-{ equal, pageSigil, parsePageSigil, pageRange, pageSeq } = require "./manuscript"
+{ equal, columnSigil, pageSigil, parsePageSigil, pageRange, pageSeq } = require "./manuscript"
 verse = require "./verse"
 
 verseSort = (a, b) ->
@@ -139,7 +139,7 @@ module.exports = () ->
 
   manuscripts = {}
   for manuscript in ["K", "R"]
-    verses = []
+    verses = {}
     data = metadata[manuscript]
     records = await xfs.readFile data.verses, { encoding }
     records = records.split /[\n\r]+/
@@ -155,9 +155,12 @@ module.exports = () ->
         assert.ok (verse.compare start, end) <= 0
         assert.ok start.nums.length is end.nums.length
 
-        verses.push { parsed..., start, end }
+        verses[columnSigil parsed] = { parsed..., start, end }
 
-    pages = verses.reduce ((idx, c) -> { idx..., [pageSigil c]: true }), {}
+    pages = (Object.keys verses)
+      .map((c) -> c.replace /[ab]$/, "")
+      .reduce ((idx, p) -> { idx..., [p]: true }), {}
+
     pages = (Object.keys pages).sort()
 
     msQuires = {}
@@ -167,8 +170,8 @@ module.exports = () ->
         { singlePage, doublePage } = q
         msQuires[p] = { singlePage, doublePage }
 
-    p = (v for v in verses when verse.p v.start).sort verseSort
-    np = (v for v in verses when verse.np v.start).sort verseSort
+    p = (v for c, v of verses when verse.p v.start).sort verseSort
+    np = (v for c, v of verses when verse.np v.start).sort verseSort
 
     { sigil, title } = data
     manuscripts[sigil] =

@@ -1,5 +1,6 @@
 const { parsePageSigil, pageSigil } = require("../lib/manuscript");
 const quire = require("../lib/quire");
+const verse = require("../lib/verse");
 
 const { metadata } = window.parzival;
 const { transcript } = window.parzival.transcript;
@@ -71,11 +72,26 @@ module.exports = {
         },
 
         pageTitle() {
-            return this.pageList.filter(p => p).join(",");
+            return "Bl. " + this.pageList.filter(p => p).join(",");
         },
 
         verseTitle() {
-            return "?";
+            const { columns } = metadata.manuscripts[this.manuscript];
+            let start = undefined;
+            let end = undefined;
+            for (const page of this.pageList) {
+                if (page) {
+                    for (const column of ["a", "b"]) {
+                        const sigil = `${page}${column}`;
+                        if (sigil in columns) {
+                            const verses = columns[sigil];
+                            start = start || verses.start;
+                            end = verses.end;
+                        }
+                    }
+                }
+            }
+            return [verse.toString(start), verse.toString(end)].join("-");
         },
 
         routes() {
