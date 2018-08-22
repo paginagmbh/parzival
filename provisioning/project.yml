@@ -2,7 +2,8 @@
 - name: Set root mail alias
   lineinfile:
     path: "/etc/aliases"
-    line: "root  gregor.middell@pagina.gmbh"
+    line: "root:  gregor.middell@pagina.gmbh"
+    regexp: "^root"
   register: aliases
 
 - name: update aliases
@@ -14,6 +15,14 @@
     name: "parzival"
     group: "www-data"
     shell: "/bin/bash"
+
+- name: Configure SSH
+  file:
+    path: "~parzival/.ssh"
+    state: directory
+    owner: "parzival"
+    group: "www-data"
+    mode: "0700"
 
 - name: Configure SSH public key
   copy:
@@ -30,6 +39,18 @@
     owner: "parzival"
     group: "www-data"
     mode: "0600"
+
+- name: Install vips for image processing
+  apt:
+    pkg: libvips-tools
+
+- name: Create IIIF image root
+  file:
+    path: "{{ iipsrv_data }}"
+    state: directory
+    owner: "parzival"
+    group: "www-data"
+    mode: "0775"
 
 - name: Create project root
   file:

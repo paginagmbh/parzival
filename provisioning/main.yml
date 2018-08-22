@@ -30,6 +30,7 @@
     - geerlingguy.nginx
     - geerlingguy.certbot
     - gremid.tustep
+    - gremid.iipsrv
 
   tasks:
     - include_tasks: htpasswd.yml
