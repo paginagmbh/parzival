@@ -1,7 +1,22 @@
-section.parzival-home.hero.is-dark.is-fullheight
+.parzival-home.is-dark.hero.is-fullheight
   .hero-body
     .container
       .title Nuwer Parzifal
-      router-link.subtitle(to="/V/115r/transcript")
-        span.icon: i.fa.fa-angle-right
-        span Zu den Handschriften
+      .subtitle.
+        Original und Kopie des ›Rappoltsteiner Parzifal‹
+        #[br]
+        Handschriftliche Überlieferung und Textgenese im 14. Jahrhundert
+      .field.is-grouped
+        .control
+          router-link.button.is-light.is-outlined.is-medium(
+            to="/V/115v/transcript" :disabled="true")
+            span.icon: i.fa.fa-angle-right
+            span Einleitendes
+        .control
+          router-link.button.is-primary.is-outlined.is-medium(
+            to="/V/115v/transcript")
+            span.icon: i.fa.fa-angle-right
+            span Zu den Handschriften
+
+      a(href="http://www.parzival.unibe.ch/").is-italic.
+        Teil des Parzival-Projekts an der Universität Bern.
