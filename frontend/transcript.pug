@@ -2,8 +2,12 @@ container.parzival-transcript(:manuscript="manuscript" :pages="pages")
   .parzival-transcript-view
     .tile.is-ancestor
       .tile.is-parent(:class="classes.orientation")
-        .tile.is-child(ref="transcript" v-if="transcript.length > 0"
-          :class="classes.transcript" )
+        .tile.is-child(ref="transcript" :class="classes.transcript")
+          .box.is-link(v-if="transcript.length > 0")
+            pagination(:manuscript="manuscript" :pages="pages")
+          article.message.is-warning(v-if="transcript.length == 0")
+            .message-body
+              p Kein Transkript für diese Seite
           article.message(v-for="t in transcript"
             :key="manuscript + t.column" :class="t.columnClass" :data-column="t.column" ref="columns")
             .message-header
@@ -18,5 +22,7 @@ container.parzival-transcript(:manuscript="manuscript" :pages="pages")
                     template(v-if="l.type == 'verse'")
                       th.parzival-verse-num {{ l.verse }}
                       td.parzival-verse(v-html="l.html")
+          .box.is-link
+            pagination(:manuscript="manuscript" :pages="pages")
         .tile.is-child
           facsimile-viewer(:manuscript="manuscript" :pages="pages")

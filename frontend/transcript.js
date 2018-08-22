@@ -9,7 +9,8 @@ module.exports = {
 
     components: {
         Container: require("./container"),
-        FacsimileViewer: require("./facsimile-viewer")
+        FacsimileViewer: require("./facsimile-viewer"),
+        Pagination: require("./pagination")
     },
     template: require("./transcript.pug")(),
 

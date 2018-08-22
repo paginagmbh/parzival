@@ -41,6 +41,19 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
   overflow: hidden;
 }
 
+.parzival-home:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.2;
+  background-image: url("/iiif/v001r.ptif/100,100,2000,2000/1000,/0/default.jpg");
+  background-size: cover;
+}
+
 .parzival-location {
   color: $white-ter;
   background-color: rgba($black, 0.75);
@@ -177,7 +190,7 @@ $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
       overflow-y: auto;
     }
 
-    .message {
+    .message, .box {
       margin: 1.5rem;
     }
   }

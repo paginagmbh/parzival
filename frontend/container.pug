@@ -4,16 +4,19 @@
     .field.has-addons
       .control
         router-link.button.is-info(to="/" title="Startseite/ Informationen")
-          i.fa.fa-home
+          span Über diese Site
+          span.icon: i.fa.fa-home
       .control
         router-link.button(:to="routes.otherManuscript"
           title="Handschrift wechseln")
           i.fa.fa-exchange
       .control
-        a.button(:class='active("overviewModal")' @click='toggle("overviewModal")')
+        a.button(:class='active("overviewModal")' @click='toggle("overviewModal")'
+          title="Handschriftenüberblick")
           i.fa.fa-th
       .control
-        a.button(:class='active("searchModal")' @click='toggle("searchModal")')
+        a.button(:class='active("searchModal")' @click='toggle("searchModal")'
+          title="Suche in der Handschrift")
           i.fa.fa-search
       .control
         router-link.button(:to='routes.prevPage'
@@ -30,8 +33,7 @@
         router-link.button(:to='routes.doublePage' title="Doppelseite")
           i.fa.fa-files-o
       .control
-        router-link.button(:to='routes.transcript' :disabled="!hasTranscript"
-          title="Text")
+        router-link.button(:to='routes.transcript' title="Transkript")
           i.fa.fa-file-text-o
 
   .parzival-location.subtitle.

@@ -102,7 +102,7 @@ module.exports = {
 
                 transcript: {
                     ...this.turnedPage(this.toPage(null, null, 1)),
-                    name: this.hasTranscript ? "transcript" : "facsimile"
+                    name: "transcript"
                 },
 
                 doublePage: {
