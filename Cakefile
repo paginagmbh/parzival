@@ -98,3 +98,25 @@ task "xml2json", "Generate JSON transcripts from XML sources", () ->
 
   transcriptPath = path.resolve cwd, "lib", "transcript.json"
   xfs.outputJson transcriptPath, transcript, { spaces: 2 }
+
+task "img2ptif", "Generate pyramidal TIFF images for IIIF service", () ->
+  imageDir = process.env.PARZIVAL_IMAGE_BASE ? "/srv/bern"
+  ptifDir = process.env.PARZIVAL_PTIF_BASE ? "/var/www/iiif"
+
+  for base in ["HS V unkomprimiert", "HS VV unkomprimiert"]
+    base = path.resolve imageDir, base
+    patterns = (path.resolve base, p for p in ["VV*.JPG", "*.tif"])
+    images = await globby patterns
+    for image in images
+      ext = path.extname image
+      imageBase = path.basename image, ext
+      imageBase = imageBase.toLowerCase()
+      if not imageBase.match(/^v{1,2}[0-9]{3}[rv]$/) then continue
+      ptif = path.resolve ptifDir, "#{imageBase}.ptif"
+      if not await xfs.pathExists ptif
+        spawn "vips", [
+          "tiffsave",
+          image, ptif
+          "--tile", "--pyramid",
+          "--compression=jpeg",
+          "--tile-width", "256", "--tile-height", "256"]
