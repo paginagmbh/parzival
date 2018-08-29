@@ -68,6 +68,9 @@ module.exports = {
             test: /\.css$/,
             use: ["style-loader", "css-loader", "postcss-loader"]
         }, {
+            test: /\.html$/,
+            use: ["raw-loader"]
+        }, {
             test: /\.(png|jpg|gif)$/,
             use: {
                 loader: "url-loader",

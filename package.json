@@ -45,6 +45,7 @@
     "postcss-sass": "^0.3.2",
     "pug": "^2.0.0-rc.4",
     "pug-loader": "^2.3.0",
+    "raw-loader": "^0.5.1",
     "sass-loader": "^7.0.3",
     "sax": "^1.2.4",
     "scroll-into-view": "^1.9.1",
