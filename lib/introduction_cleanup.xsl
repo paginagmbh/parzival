@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="2.0">
-    <xsl:output encoding="UTF-8" indent="yes" method="html"/>
+    <xsl:output encoding="UTF-8" indent="yes" method="html" />
     <xsl:param name="parzival-website-url" select="'https://parzival.pagina-dh.de/'"/>
 
     <xsl:template match="/">
-        <xsl:apply-templates/>
+        <xsl:apply-templates />
     </xsl:template>
 
     <xsl:template match="*" mode="#all">
@@ -43,7 +43,7 @@
                             <xsl:with-param name="manuscript" select="regex-group(1)"/>
                             <xsl:with-param name="pages" select="regex-group(2)"/>
                             <xsl:with-param name="type">facsimile</xsl:with-param>
-                            <xsl:with-param name="text" select="$link-text"/>
+                            <xsl:with-param name="text" select="normalize-space($link-text)"/>
                         </xsl:call-template>
                     </xsl:matching-substring>
                 </xsl:analyze-string>
@@ -78,10 +78,19 @@
     </xsl:template>
 
     <xsl:template match="h1 | h2 | h3 | h4 | h5 | h6">
-        <xsl:variable name="level" select="number(substring-after(local-name(.), 'h')) + 2"/>
-        <xsl:element name="{concat('h', $level)}">
-            <xsl:apply-templates select="* | @* | text() | comment()"/>
-        </xsl:element>
+        <xsl:choose>
+            <xsl:when test="ancestor::div[@id eq 'frontmatter']">
+                <xsl:element name="{local-name(.)}">
+                    <xsl:apply-templates select="* | @* | text() | comment()"/>
+                </xsl:element>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:variable name="level" select="number(substring-after(local-name(.), 'h')) + 2"/>
+                <xsl:element name="{concat('h', $level)}">
+                    <xsl:apply-templates select="* | @* | text() | comment()"/>
+                </xsl:element>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 
     <xsl:template match="p">
@@ -165,8 +174,7 @@
                           | text()[preceding-sibling::text()[contains(., '&#xA0;')]]
                           | *[preceding-sibling::*[contains(., '&#xA0;')]] 
                           | text()[preceding-sibling::*[contains(., '&#xA0;')]]"
-                    mode="contentbox-right"
-                />
+                    mode="contentbox-right" />
             </div>
             <div style="clear:both"/>
         </xsl:if>
@@ -199,9 +207,11 @@
     </xsl:template>
     
     <xsl:template match="span[@class eq 'MsoFootnoteReference']">
-        <sup>
-            <xsl:value-of select="normalize-space(.)"/>
-        </sup>
+        <xsl:if test="normalize-space(.) ne ''">
+            <sup>
+                <xsl:value-of select="normalize-space(.)"/>
+            </sup>
+        </xsl:if>
     </xsl:template>
     
     <xsl:template match="@style" mode="#all">
@@ -216,6 +226,16 @@
                         </xsl:non-matching-substring>
                     </xsl:analyze-string>
                 </xsl:attribute>
+            </xsl:when>
+            <xsl:when test="contains(., 'font-size:') and ancestor::div[@class = 'footnotes']">
+            <!-- remove font-size style from footnote text -->
+                <xsl:attribute name="style">
+                    <xsl:analyze-string select="." regex="font-size:\s*[0-9\.]+pt;|;font-size:\s*[0-9\.]+pt|font-size:\s*[0-9\.]+pt">
+                        <xsl:non-matching-substring>
+                            <xsl:value-of select="."/>
+                        </xsl:non-matching-substring>
+                    </xsl:analyze-string>
+                </xsl:attribute>                
             </xsl:when>
             <xsl:when test=". eq 'font-size:9.0pt'">
                 <xsl:attribute name="style">font-size:0.9rem</xsl:attribute>
