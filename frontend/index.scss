@@ -4,6 +4,7 @@ $modal-z: 1000;
 $modal-content-width: calc(100vw - $modal-content-spacing-mobile);
 
 @import "~bulma/bulma.sass";
+@import "./introduction.scss";
 
 @font-face {
   font-family: "Junicode";

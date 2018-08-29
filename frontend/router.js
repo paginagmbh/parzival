@@ -13,6 +13,9 @@ const routes = [
     { path: "/:manuscript/:pages/transcript", name: "transcript",
       component: require("./transcript"), props: true },
 
+    { path: "/introduction", name: "introduction",
+      component: require("./introduction") },
+
     { path: "*", name: "default",
       redirect: "/" }
 ];

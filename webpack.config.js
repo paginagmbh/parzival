@@ -114,6 +114,10 @@ module.exports = {
             {
                 from: path.join(__dirname, "frontend", "quire-icons"),
                 to: path.join(__dirname, "htdocs", "quire-icons")
+            },
+            {
+                from: path.join(__dirname, "frontend", "img"),
+                to: path.join(__dirname, "htdocs", "img")
             }
         ]),
         new HtmlWebpackPlugin({
