@@ -33,6 +33,11 @@
     - gremid.iipsrv
 
   tasks:
+    - name: Make sure /usr/sbin is on $PATH
+      cronvar:
+        name: PATH
+        value: "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+
     - include_tasks: htpasswd.yml
       when: parzival.http.password  != ''
       static: False

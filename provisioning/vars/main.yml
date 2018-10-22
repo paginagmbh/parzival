@@ -10,6 +10,7 @@ security_ssh_permit_root_login: "yes"
 certbot_install_from_source: true
 certbot_create_if_missing: true
 certbot_admin_email: "gregor.middell@pagina.gmbh"
+certbot_auto_renew_options: "--quiet --no-self-upgrade --nginx"
 
 nodejs_version: "8.x"
 
