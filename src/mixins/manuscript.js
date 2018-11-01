@@ -142,6 +142,10 @@ export default {
       return transcript.transcript
     },
 
+    collation () {
+      return transcript.collation
+    },
+
     turnedPage (route) {
       if (!route.query) {
         return route
