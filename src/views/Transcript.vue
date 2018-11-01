@@ -24,7 +24,10 @@
                       </td>
                     </template>
                     <template v-if="l.type == 'verse'">
-                      <th class="parzival-verse-num">{{ l.verse }}</th>
+                      <th class="parzival-verse-num parzival-verse-focus"
+                          :class="{ 'is-active': verse === l.verse }"
+                          @click="updateVerse(l.verse)"
+                          v-waypoint="verseWaypoint">{{ l.verse }}</th>
                       <td class="parzival-verse" v-html="l.html"></td>
                     </template>
                   </tr>

@@ -1,3 +1,5 @@
+import debounce from 'lodash.debounce'
+
 export default {
   name: 'transcript',
   props: ['manuscript', 'pages'],
@@ -49,6 +51,40 @@ export default {
         orientation: { 'is-vertical': this.$mq.touch },
         transcript: { 'is-4': this.$mq.desktop }
       }
+    },
+
+    verseWaypoint () {
+      const setVerse = debounce(
+        this.updateVerse.bind(this),
+        500,
+        { leading: true, trailing: true }
+      )
+      return {
+        active: true,
+        callback: ({ el, going, direction }) => {
+          if (direction && going === 'in') {
+            setVerse(el.textContent)
+          }
+        },
+        options: {
+          root: null,
+          rootMargin: this.$mq.touch ? '-15% 0% -75% 0%' : '-35% 0% -55% 0%',
+          thresholds: [0, 100]
+        }
+      }
+    },
+
+    verse () {
+      return this.$route.query.verse
+    }
+  },
+
+  methods: {
+    updateVerse (verse) {
+      this.$router.replace({
+        ...this.$route,
+        query: { ...this.$route.query, verse }
+      })
     }
   },
 

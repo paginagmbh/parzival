@@ -223,7 +223,13 @@ $fa-font-path: '~font-awesome/fonts';
 
   .parzival-verse-num {
     color: $info;
-    font-size: $size-7
+    font-size: $size-7;
+    &.parzival-verse-focus {
+      cursor: pointer;
+    }
+    &.is-active {
+      color: $primary;
+    }
   }
 
   .parzival-verse {
