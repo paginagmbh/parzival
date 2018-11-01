@@ -17,17 +17,19 @@
             <div class="message-body">
               <table class="table is-fullwidth">
                 <tbody>
-                  <tr v-for="(l, li) in t.contents" :key="li">
+                  <tr v-for="(l, li) in t.contents" :key="li"
+                      class="parzival-verse-focus"
+                      :class="{ 'is-active': l.type === 'verse' && verse === l.verse }"
+                      @click="updateVerse(l.verse)">
                     <template v-if="l.type == 'heading'">
                       <td class="parzival-heading" colspan="2">
                         <div v-for="(h, hi) in l.heading" :key="hi">[{{ h }}]</div>
                       </td>
                     </template>
                     <template v-if="l.type == 'verse'">
-                      <th class="parzival-verse-num parzival-verse-focus"
-                          :class="{ 'is-active': verse === l.verse }"
-                          @click="updateVerse(l.verse)"
-                          v-waypoint="verseWaypoint">{{ l.verse }}</th>
+                      <th class="parzival-verse-num" v-waypoint="verseWaypoint">
+                        {{ l.verse }}
+                      </th>
                       <td class="parzival-verse" v-html="l.html"></td>
                     </template>
                   </tr>

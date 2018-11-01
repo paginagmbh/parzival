@@ -93,6 +93,21 @@ export default {
       return [verse.toString(start), verse.toString(end)].join('-')
     },
 
+    otherManuscript () {
+      return this.manuscript === 'V' ? 'VV' : 'V'
+    },
+
+    verse () {
+      return this.$route.query.verse
+    },
+
+    otherPage () {
+      const { verse, otherManuscript } = this
+      if (!verse) return undefined
+      return ((this.collation()[verse] || {})[otherManuscript] || '')
+        .replace(/[ab]$/, '') || undefined
+    },
+
     routes () {
       const manuscripts = {
         V: this.turnedPage(this.toPage('001r', 'V')),
@@ -102,18 +117,13 @@ export default {
       return {
         manuscripts,
 
-        otherManuscript: this.manuscript === 'V'
-          ? manuscripts.VV
-          : manuscripts.V,
+        otherManuscript: this.otherPage
+          ? this.toPage(this.otherPage, this.otherManuscript)
+          : manuscripts[this.otherManuscript],
 
         prevPage: this.prevPage(this.turnedPage(this.toPage())),
 
         nextPage: this.nextPage(this.turnedPage(this.toPage())),
-
-        overview: {
-          ...this.toPage(),
-          name: 'overview'
-        },
 
         transcript: {
           ...this.turnedPage(this.toPage(null, null, 1)),

@@ -201,6 +201,17 @@ $fa-font-path: '~font-awesome/fonts';
     color: $info;
     margin: $size-5 0;
   }
+
+  .table tr {
+    &.parzival-verse-focus {
+      cursor: pointer;
+    }
+    &.is-active {
+      border: 1px solid $grey-lighter;
+      background: $white-ter;
+    }
+  }
+
   .table .parzival-heading {
     font-style: italic;
     text-align: right;
@@ -224,12 +235,6 @@ $fa-font-path: '~font-awesome/fonts';
   .parzival-verse-num {
     color: $info;
     font-size: $size-7;
-    &.parzival-verse-focus {
-      cursor: pointer;
-    }
-    &.is-active {
-      color: $primary;
-    }
   }
 
   .parzival-verse {

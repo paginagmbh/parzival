@@ -87,7 +87,7 @@ export default {
 
         this.$router.replace({
           ...this.$route,
-          query: { x, y, width, height }
+          query: { ...this.$route.query, x, y, width, height }
         })
       })
     },

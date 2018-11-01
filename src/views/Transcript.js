@@ -56,14 +56,14 @@ export default {
     verseWaypoint () {
       const setVerse = debounce(
         this.updateVerse.bind(this),
-        500,
+        250,
         { leading: true, trailing: true }
       )
       return {
         active: true,
         callback: ({ el, going, direction }) => {
-          if (direction && going === 'in') {
-            setVerse(el.textContent)
+          if (going === 'in') {
+            setVerse(el.textContent.trim())
           }
         },
         options: {
@@ -72,10 +72,6 @@ export default {
           thresholds: [0, 100]
         }
       }
-    },
-
-    verse () {
-      return this.$route.query.verse
     }
   },
 
