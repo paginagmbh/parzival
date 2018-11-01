@@ -74,7 +74,7 @@
 
 - name: Build project
   command: >
-    /bin/bash -l -c 'cd /srv/parzival && npm install && npm run build'
+    /bin/bash -l -c 'cd /srv/parzival && npm ci && npm run build'
   become: True
   become_user: "parzival"
   when: git_checkout|changed
