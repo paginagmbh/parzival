@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 
 import MQ from 'vue-match-media'
+import VueMeta from 'vue-meta'
 import VueLazyload from 'vue-lazyload'
 import VueWaypoint from 'vue-waypoint'
 import { focus } from 'vue-focus'
@@ -18,6 +19,7 @@ import Pagination from '@/components/Pagination.vue'
 import '@/assets/sass/app.scss'
 
 Vue.use(MQ)
+Vue.use(VueMeta)
 Vue.use(VueLazyload)
 Vue.use(VueWaypoint)
 
@@ -33,12 +35,11 @@ Vue.component('pagination', Pagination)
 
 Vue.config.productionTip = false
 
+const title = 'Nuwer Parzifal'
+
 new Vue({
   router,
   render: h => h(App),
-  data: {
-    title: 'Nuwer Parzifal'
-  },
   mq: {
     mobile: '(max-width: 768px)',
     tablet: '(min-width: 769px)',
@@ -47,17 +48,13 @@ new Vue({
     widescreen: '(min-width: 1280px)',
     fullhd: '(min-width: 1472px)'
   },
-  watch: {
-    title () {
-      this.updateTitle()
-    }
-  },
-  mounted () {
-    this.updateTitle()
-  },
-  methods: {
-    updateTitle () {
-      document.title = this.title
+  metaInfo () {
+    return {
+      title,
+      titleTemplate: `%s | ${title}`,
+      htmlAttrs: {
+        lang: 'de'
+      }
     }
   }
 }).$mount('#app')

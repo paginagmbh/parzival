@@ -1,4 +1,4 @@
-<template functional>
+<template>
 <div class="parzival-home is-dark hero is-fullheight">
   <div class="hero-body">
     <div class="container">
@@ -26,5 +26,10 @@
 </template>
 
 <script>
-export default { name: 'parzival-home' }
+export default {
+  name: 'parzival-home',
+  metaInfo () {
+    return { title: 'Einstieg' }
+  }
+}
 </script>

@@ -34,6 +34,7 @@
     "vue-focus": "^2.1.0",
     "vue-lazyload": "^1.2.2",
     "vue-match-media": "^1.0.3",
+    "vue-meta": "^1.5.5",
     "vue-router": "^3.0.1",
     "vue-waypoint": "^3.2.2",
     "xmlbuilder": "^10.0.0"

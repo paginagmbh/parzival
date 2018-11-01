@@ -14,6 +14,10 @@ export default {
     info: false
   }),
 
+  metaInfo () {
+    return { title: [this.pageTitle, this.manuscriptTitle].join(', ') }
+  },
+
   computed: {
     manuscriptPages () {
       const { manuscript } = this

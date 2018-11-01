@@ -1,5 +1,4 @@
-
-<template functional>
+<template>
 <div id="introduction">
     <nav style="width:100%" class="nav"><span width="25%" class="nav" style="text-weight: bold">EINFÜHRUNG</span><span width="25%" class="nav">
           <router-link to="/">STARTSEITE</router-link></span><span width="25%" class="nav">
@@ -4817,3 +4816,12 @@
     </div>
 </div>
 </template>
+
+<script>
+export default {
+  name: 'parzival-introduction',
+  metaInfo () {
+    return { title: 'Einleitung' }
+  }
+}
+</script>
