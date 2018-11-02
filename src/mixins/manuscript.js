@@ -90,6 +90,7 @@ export default {
           }
         }
       }
+      if (!start || !end) return ''
       return [verse.toString(start), verse.toString(end)].join('-')
     },
 
@@ -97,11 +98,11 @@ export default {
       return this.manuscript === 'V' ? 'VV' : 'V'
     },
 
-    otherPage () {
+    otherPages () {
       const { verse, otherManuscript } = this
       if (!verse) return undefined
       return ((this.collation()[verse] || {})[otherManuscript] || '')
-        .replace(/[ab]$/, '') || undefined
+        .replace(/[ab]$/, '') || ''
     },
 
     routes () {
@@ -110,12 +111,16 @@ export default {
         VV: this.toPage('001r', 'VV')
       }
 
+      let otherManuscript = manuscripts[this.otherManuscript]
+      if (this.otherPages) {
+        const route = this.toPage(this.otherPages, this.otherManuscript)
+        const verse = this.verse || route.params.verse
+        otherManuscript = { ...route, params: { ...route.params, verse } }
+      }
       return {
         manuscripts,
 
-        otherManuscript: this.otherPage
-          ? this.toPage(this.otherPage, this.otherManuscript)
-          : manuscripts[this.otherManuscript],
+        otherManuscript,
 
         prevPage: this.prevPage(this.toPage()),
 
@@ -124,6 +129,11 @@ export default {
         transcript: {
           ...this.toPage(null, null, 1),
           name: 'transcript'
+        },
+
+        synopsis: {
+          ...this.toPage(null, null, 1),
+          name: 'synopsis'
         },
 
         doublePage: {
@@ -162,7 +172,8 @@ export default {
         length - 1
       )
       const next = pages[key][manuscript][index]
-      return { ...route, params: { ...route.params, pages: next } }
+      const verse = this.firstVerse(next.replace(/,.+$/, ''), manuscript)
+      return { ...route, params: { ...route.params, pages: next, verse } }
     },
 
     prevPage (route) {
@@ -171,13 +182,17 @@ export default {
       const key = count === 2 ? 'double' : 'single'
       const index = Math.max(0, sequences[key][manuscript][page] - count)
       const prev = pages[key][manuscript][index]
-      return { ...route, params: { ...route.params, pages: prev } }
+      const verse = this.firstVerse(prev.replace(/,.+$/, ''), manuscript)
+      return { ...route, params: { ...route.params, pages: prev, verse } }
     },
 
     toPage (page, manuscript, count) {
       const { name, query, params } = this.$route
-      manuscript = manuscript || params.manuscript
+      manuscript = manuscript || params.manuscript || this.manuscript
       page = page || this.page
+
+      const verse = this.firstVerse(page, manuscript, this.verse)
+
       count = count || this.pageList.length
       switch (count) {
         case 2:
@@ -189,7 +204,16 @@ export default {
           break
       }
 
-      return { name, query, params: { ...params, manuscript, pages: page } }
+      return { name, query, params: { ...params, manuscript, pages: page, verse } }
+    },
+
+    firstVerse (page, manuscript, verse) {
+      return ['a', 'b']
+        .map(c => `${page}${c}`)
+        .map(c => this.transcript()[manuscript][c])
+        .filter(verses => verses && verses.length > 0)
+        .map(verses => verses.some(v => v.verse === verse) ? verse : verses[0].verse)
+        .shift()
     }
   }
 }

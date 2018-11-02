@@ -3,11 +3,13 @@
   <div class="parzival-transcript-view">
     <div class="tile is-ancestor">
       <div class="tile is-parent" :class="{ 'is-vertical': this.$mq.touch }">
-        <div class="tile is-child" :class="{ 'is-4': this.$mq.desktop }">
-          <transcript-viewer :manuscript="manuscript" :pages="pages" :verse="verse"/>
+        <div class="tile is-child" :class="{ 'is-6': this.$mq.desktop }">
+          <transcript-viewer :manuscript="manuscript" :pages="pages"
+                             :verse="verse" :syncScrolling="false"/>
         </div>
         <div class="tile is-child">
-          <facsimile-viewer :manuscript="manuscript" :pages="pages" />
+          <transcript-viewer :manuscript="otherManuscript" :pages="otherPages"
+                             :verse="verse" v-if="otherPages"/>
         </div>
       </div>
     </div>
@@ -17,7 +19,7 @@
 
 <script>
 export default {
-  name: 'transcript',
+  name: 'synopsis',
   props: ['manuscript', 'pages', 'verse']
 }
 </script>

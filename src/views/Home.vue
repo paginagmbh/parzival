@@ -15,7 +15,7 @@
           </router-link>
         </div>
         <div class="control">
-          <router-link class="button is-primary is-outlined is-medium" to="/transcript/V/115v">
+          <router-link class="button is-primary is-outlined is-medium" :to="routes.transcript">
             <span class="icon"><i class="fa fa-angle-right"></i></span><span>Zu den Handschriften</span>
           </router-link>
         </div>
@@ -27,7 +27,14 @@
 
 <script>
 export default {
-  name: 'parzival-home',
+  name: 'home',
+  data () {
+    return {
+      manuscript: 'V',
+      pages: '115v',
+      verse: '1'
+    }
+  },
   metaInfo () {
     return { title: 'Einstieg' }
   }

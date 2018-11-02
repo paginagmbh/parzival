@@ -7,6 +7,7 @@ import VueMeta from 'vue-meta'
 import VueLazyload from 'vue-lazyload'
 import VueWaypoint from 'vue-waypoint'
 import { focus } from 'vue-focus'
+import VueScrollTo from 'vue-scrollto'
 
 import ActivationMixin from '@/mixins/activation'
 import ImagesMixin from '@/mixins/images'
@@ -15,6 +16,7 @@ import ManuscriptMixin from '@/mixins/manuscript'
 import Container from '@/components/Container.vue'
 import FacsimileViewer from '@/components/FacsimileViewer.vue'
 import Pagination from '@/components/Pagination.vue'
+import TranscriptViewer from '@/components/TranscriptViewer.vue'
 
 import '@/assets/sass/app.scss'
 
@@ -22,6 +24,7 @@ Vue.use(MQ)
 Vue.use(VueMeta)
 Vue.use(VueLazyload)
 Vue.use(VueWaypoint)
+Vue.use(VueScrollTo)
 
 Vue.directive('focus', focus)
 
@@ -32,6 +35,7 @@ Vue.mixin(ManuscriptMixin)
 Vue.component('container', Container)
 Vue.component('facsimile-viewer', FacsimileViewer)
 Vue.component('pagination', Pagination)
+Vue.component('transcript-viewer', TranscriptViewer)
 
 Vue.config.productionTip = false
 

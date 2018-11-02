@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 import Home from '@/views/Home.vue'
 import Facsimile from '@/views/Facsimile.vue'
+import Synopsis from '@/views/Synopsis.vue'
 import Transcript from '@/views/Transcript.vue'
 
 Vue.use(Router)
@@ -22,6 +23,11 @@ export default new Router({
     { path: '/transcript/:manuscript/:pages/:verse?',
       name: 'transcript',
       component: Transcript,
+      props: true },
+
+    { path: '/synopsis/:manuscript/:pages/:verse?',
+      name: 'synopsis',
+      component: Synopsis,
       props: true },
 
     { path: '/introduction',

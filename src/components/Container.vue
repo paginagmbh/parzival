@@ -26,6 +26,9 @@
       <div class="control">
         <router-link class="button" :to="routes.transcript" title="Transkript"><i class="fa fa-file-text-o"></i></router-link>
       </div>
+      <div class="control">
+        <router-link class="button" :to="routes.synopsis" title="Synopsis"><i class="fa fa-link"></i></router-link>
+      </div>
     </div>
   </div>
   <div class="parzival-location box">
