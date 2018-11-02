@@ -88,7 +88,7 @@ export default {
     },
 
     verse () {
-        this.scrollToActive()
+      this.scrollToActive()
     }
   }
 }
