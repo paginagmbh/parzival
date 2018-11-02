@@ -208,12 +208,19 @@ export default {
     },
 
     firstVerse (page, manuscript, verse) {
-      return ['a', 'b']
-        .map(c => `${page}${c}`)
-        .map(c => this.transcript()[manuscript][c])
-        .filter(verses => verses && verses.length > 0)
-        .map(verses => verses.some(v => v.verse === verse) ? verse : verses[0].verse)
-        .shift()
+      let candidate
+      for (const columnSigil of ['a', 'b']) {
+        const column = `${page}${columnSigil}`
+        const verses = this.transcript()[manuscript][column]
+        if (!verses) continue
+        for (const v of verses) {
+          candidate = candidate || v.verse
+          if (v.verse === verse) {
+            return verse
+          }
+        }
+      }
+      return candidate
     }
   }
 }
