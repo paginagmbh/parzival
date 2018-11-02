@@ -2,7 +2,7 @@
 <div id="introduction">
     <nav style="width:100%" class="nav"><span width="25%" class="nav" style="text-weight: bold">EINFÜHRUNG</span><span width="25%" class="nav">
           <router-link to="/">STARTSEITE</router-link></span><span width="25%" class="nav">
-          <router-link to="/V/115v/transcript">ZU DEN HANDSCHRIFTEN</router-link></span></nav>
+          <router-link to="/transcript/V/115v">ZU DEN HANDSCHRIFTEN</router-link></span></nav>
     <div id="frontmatter">
        <h1>Original und Kopie des ›Rappoltsteiner Parzifal‹ ‒<br/> Handschriftliche Überlieferung und Textgenese im 14. Jahrhundert</h1>
        <h2 style="margin-top:3em">Einleitung</h2>
@@ -50,7 +50,7 @@
           Landesbibliothek,
                           <a href="https://digital.blb-karlsruhe.de/blbhs/Handschriften/content/titleinfo/101664">Donaueschingen 97</a> (im Folgenden
                           Hs. V), und Roma, Biblioteca Casanatense,
-          <router-link to="/VV/001r/facsimile">Ms. 1409</router-link>
+          <router-link to="/facsimile/VV/001r">Ms. 1409</router-link>
                           (im Folgenden Hs. V'). Die nach dem Entstehungsort benannte Textsammlung ›Rappoltsteiner
           Parzifal‹<a href="#_ftn1" id="_ftnref1" title="Rappoltsteiner Parzifal"><sup>[1]</sup></a> enthält in Hs. V Wolframs von Eschenbach ›Parzival‹<a href="#_ftn2" id="_ftnref2"><sup>[2]</sup>
                                      </a>sowie daran anschließend die ›Nuwer Parzifal‹ genannte Kompilation aus ›Conte du Graal‹
@@ -124,7 +124,7 @@
           <a href="#_Toc389815994">Kap. 1.5.1</a>).<a href="#_ftn7" id="_ftnref7"><sup>[7]</sup></a>
           Nicht bekannt ist freilich, wie viele Vorstufen bzw. Entwürfe der vorliegenden
           Fassung vorausgingen. Ein bemerkter und korrigierter Augensprung auf Bl.
-          <router-link to="/V/300v/facsimile">300v</router-link>b, 5.
+          <router-link to="/facsimile/V/300v">300v</router-link>b, 5.
           Zeile von unten (NP 36200/36201; Sch. 839.39/40), weist darauf hin, dass
           zumindest Teile von V von einer Vorlage abgeschrieben wurden und es sich beim
           Codex Donaueschingen 97 um eine »Reinschrift des Originals« handelt.<a href="#_ftn8" id="_ftnref8"><sup>[8]</sup></a>
@@ -150,22 +150,22 @@
           oder Raum Straßburg/Colmar) oder Basel   ·   bis 1336
        </p>
        <p class="MsoNormal">Blattzählung mit Tinte von alter Hand oben in der Blattmitte
-          <router-link to="/V/001r/facsimile">1</router-link><i>–</i><router-link to="/V/072r/facsimile">72</router-link>
+          <router-link to="/facsimile/V/001r">1</router-link><i>–</i><router-link to="/facsimile/V/072r">72</router-link>
           (die Zahl 55 übersprungen), moderne Blattzählung mit Bleistift oben rechts
           (wird im Folgenden zitiert), beginnt ab Bl.
-          <router-link to="/V/003r/facsimile">3</router-link>. 320
+          <router-link to="/facsimile/V/003r">3</router-link>. 320
           von ursprünglich 322 Blättern mit einer Lücke von 2 Blättern nach Bl.
-          <router-link to="/V/169v/facsimile">169</router-link>
+          <router-link to="/facsimile/V/169v">169</router-link>
           (heute reguläres Quinternio
-          <router-link to="/V/162r/facsimile">162</router-link>–<router-link to="/V/171v/facsimile">171</router-link> mit
-          Bindfäden zwischen <router-link to="/V/166v/facsimile">166</router-link> und
-          <router-link to="/V/167r/facsimile">167</router-link>). Die Bll.
-          <router-link to="/V/176r/facsimile">176</router-link> und
-          <router-link to="/V/177r/facsimile">177</router-link> sind falsch eingebunden und gehören hinter Bl.
-          <router-link to="/V/179v/facsimile">179</router-link>. Unterschiedlich dickes Pergament, ab Bl.
-          <router-link to="/V/286r/facsimile">286</router-link>
+          <router-link to="/facsimile/V/162r">162</router-link>–<router-link to="/facsimile/V/171v">171</router-link> mit
+          Bindfäden zwischen <router-link to="/facsimile/V/166v">166</router-link> und
+          <router-link to="/facsimile/V/167r">167</router-link>). Die Bll.
+          <router-link to="/facsimile/V/176r">176</router-link> und
+          <router-link to="/facsimile/V/177r">177</router-link> sind falsch eingebunden und gehören hinter Bl.
+          <router-link to="/facsimile/V/179v">179</router-link>. Unterschiedlich dickes Pergament, ab Bl.
+          <router-link to="/facsimile/V/286r">286</router-link>
           dickeres. Sehr dünne Stellen (nach Rasuren) mit Pergamentstreifen überklebt
-          (z.B. Bl. <router-link to="/V/023r/facsimile">23r</router-link>).
+          (z.B. Bl. <router-link to="/facsimile/V/023r">23r</router-link>).
        </p>
        <p class="MsoNormal"><b>Einband</b>: ### x ### großer Holzdeckel
           der Zeit mit braunem Leder bezogen (<a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/495092">Vorder-</a>
@@ -183,7 +183,7 @@
           Abklatsche einer zweispaltigen Handschrift des 13./14. Jahrhunderts (siehe <a href="#_Toc389815990">Kap.
           1.4.1</a>). <a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/496511">Hinterspiegel</a>:
           Spiegelblatt
-          <router-link to="/V/320r/facsimile">320</router-link>/<a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/496505">Spiegelblatt
+          <router-link to="/facsimile/V/320r">320</router-link>/<a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/496505">Spiegelblatt
              recto</a> losgelöst, auf dem <a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/496506">Spiegelblatt
              verso</a> Reste einer Urkunde und eines Nekrologs (?) des 14. Jahrhunderts aufgeklebt,
           auf dem <a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/496511">Hinterdeckel
@@ -191,75 +191,75 @@
        </p>
        <p class="MsoNormal" style="text-indent:.1pt"><b>Buchblock</b>:
           38,5–39 x 27 cm. <b>Lagen</b>:<a href="#_ftn9" id="_ftnref9"><sup>[9]</sup></a> 2 V
-          <router-link to="/V/020v/facsimile">20</router-link>
+          <router-link to="/facsimile/V/020v">20</router-link>
           + II
-          <router-link to="/V/024v/facsimile">24</router-link>
+          <router-link to="/facsimile/V/024v">24</router-link>
           + 5 VI
-          <router-link to="/V/084v/facsimile">84</router-link>
+          <router-link to="/facsimile/V/084v">84</router-link>
           + III
-          <router-link to="/V/090v/facsimile">90</router-link>
+          <router-link to="/facsimile/V/090v">90</router-link>
           + I
-          <router-link to="/V/092v/facsimile">92</router-link>
+          <router-link to="/facsimile/V/092v">92</router-link>
           + II
-          <router-link to="/V/096v/facsimile">96</router-link>
+          <router-link to="/facsimile/V/096v">96</router-link>
           + VI
-          <router-link to="/V/108v/facsimile">108</router-link>
+          <router-link to="/facsimile/V/108v">108</router-link>
           + (IV-1)
-          <router-link to="/V/115v/facsimile">115</router-link>
+          <router-link to="/facsimile/V/115v">115</router-link>
           + (VI-2)
-          <router-link to="/V/125v/facsimile">125</router-link><sup> </sup>+ (VI+I
-          <router-link to="/V/133r/facsimile">133</router-link><sup>/</sup><router-link to="/V/134v/facsimile">134</router-link>)
-          <router-link to="/V/139v/facsimile">139</router-link>
+          <router-link to="/facsimile/V/125v">125</router-link><sup> </sup>+ (VI+I
+          <router-link to="/facsimile/V/133r">133</router-link><sup>/</sup><router-link to="/facsimile/V/134v">134</router-link>)
+          <router-link to="/facsimile/V/139v">139</router-link>
           + V
-          <router-link to="/V/149v/facsimile">149</router-link>
+          <router-link to="/facsimile/V/149v">149</router-link>
           + VI
-          <router-link to="/V/161v/facsimile">161</router-link>
+          <router-link to="/facsimile/V/161v">161</router-link>
           + V
-          <router-link to="/V/171v/facsimile">171</router-link>
+          <router-link to="/facsimile/V/171v">171</router-link>
           + (V+I
-          <router-link to="/V/176r/facsimile">176</router-link><sup>/</sup><router-link to="/V/177v/facsimile">177</router-link>)
-          <router-link to="/V/183v/facsimile">183</router-link>
+          <router-link to="/facsimile/V/176r">176</router-link><sup>/</sup><router-link to="/facsimile/V/177v">177</router-link>)
+          <router-link to="/facsimile/V/183v">183</router-link>
           + VI
-          <router-link to="/V/195v/facsimile">195</router-link>
+          <router-link to="/facsimile/V/195v">195</router-link>
           + V
-          <router-link to="/V/205v/facsimile">205</router-link>
+          <router-link to="/facsimile/V/205v">205</router-link>
           + III
-          <router-link to="/V/211v/facsimile">211</router-link>
+          <router-link to="/facsimile/V/211v">211</router-link>
           + II
-          <router-link to="/V/215v/facsimile">215</router-link>
+          <router-link to="/facsimile/V/215v">215</router-link>
           + V
-          <router-link to="/V/225v/facsimile">225</router-link>
+          <router-link to="/facsimile/V/225v">225</router-link>
           + VI
-          <router-link to="/V/237v/facsimile">237</router-link>
+          <router-link to="/facsimile/V/237v">237</router-link>
           + II
-          <router-link to="/V/247v/facsimile">247</router-link>
+          <router-link to="/facsimile/V/247v">247</router-link>
           + I
-          <router-link to="/V/249v/facsimile">249</router-link>
+          <router-link to="/facsimile/V/249v">249</router-link>
           + IV
-          <router-link to="/V/257v/facsimile">257</router-link>
+          <router-link to="/facsimile/V/257v">257</router-link>
           + II
-          <router-link to="/V/261v/facsimile">261</router-link>
+          <router-link to="/facsimile/V/261v">261</router-link>
           + (V+I
-          <router-link to="/V/270r/facsimile">270</router-link><sup>/</sup><router-link to="/V/271v/facsimile">271</router-link>)<sup>273</sup>
+          <router-link to="/facsimile/V/270r">270</router-link><sup>/</sup><router-link to="/facsimile/V/271v">271</router-link>)<sup>273</sup>
           + 2 VI
-          <router-link to="/V/297v/facsimile">297</router-link>
+          <router-link to="/facsimile/V/297v">297</router-link>
           + V
-          <router-link to="/V/307v/facsimile">307</router-link>
+          <router-link to="/facsimile/V/307v">307</router-link>
           + VI
-          <router-link to="/V/319v/facsimile">319</router-link>
+          <router-link to="/facsimile/V/319v">319</router-link>
           + I
-          <router-link to="/V/320r/facsimile">320</router-link><sup>/</sup><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/496505"><sup>Spiegelbl.</sup></a>
+          <router-link to="/facsimile/V/320r">320</router-link><sup>/</sup><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/496505"><sup>Spiegelbl.</sup></a>
           (einige Reklamante noch erkennbar: Bll.
-          <router-link to="/V/060v/facsimile">60v</router-link>,
-          <router-link to="/V/072v/facsimile">72v</router-link>,
-          <router-link to="/V/084v/facsimile">84v</router-link>,
-          <router-link to="/V/090v/facsimile">90v</router-link>,
-          <router-link to="/V/096v/facsimile">96v</router-link>,
-          <router-link to="/V/108v/facsimile">108v</router-link>,
-          <router-link to="/V/139v/facsimile">139v</router-link>,
-          <router-link to="/V/149v/facsimile">149v</router-link>,
-          <router-link to="/V/161v/facsimile">161v</router-link>,
-          <router-link to="/V/273v/facsimile">273v</router-link>). <b>Schriftraum</b>:
+          <router-link to="/facsimile/V/060v">60v</router-link>,
+          <router-link to="/facsimile/V/072v">72v</router-link>,
+          <router-link to="/facsimile/V/084v">84v</router-link>,
+          <router-link to="/facsimile/V/090v">90v</router-link>,
+          <router-link to="/facsimile/V/096v">96v</router-link>,
+          <router-link to="/facsimile/V/108v">108v</router-link>,
+          <router-link to="/facsimile/V/139v">139v</router-link>,
+          <router-link to="/facsimile/V/149v">149v</router-link>,
+          <router-link to="/facsimile/V/161v">161v</router-link>,
+          <router-link to="/facsimile/V/273v">273v</router-link>). <b>Schriftraum</b>:
           ### cm; zweispaltig, Verse abgesetzt, Versalien in eigener Spalte durch
           unterschiedlich ausgeprägte Tintenlinien begrenzt (33–33,5 x 17–19,5 cm) 33 x
           20 oder 19–19,5 x 22–23. Endpunkte (Einritzungen) für die Zeilen noch sichtbar,
@@ -269,33 +269,33 @@
           in roter Tinte (im Folgenden mit &lt;…&gt; markiert), Namen rot gestrichelt. Teilweise
           sehr filigrane Fleuroné-Initialen von zwei unterschiedlichen Malerhänden (siehe
           <a href="#_Toc389815986">Kap. 1.3.2.1</a>), rote, blaue und teilweise grüne (Bl.
-          <router-link to="/V/287v/facsimile">287v</router-link>b) Lombarden
+          <router-link to="/facsimile/V/287v">287v</router-link>b) Lombarden
           mit Verzierung (siehe <a href="#_Toc389815987">Kap. 1.3.2.2</a>), eine Vorgabe des Buchstabens ist z.B. auf
-          Bl. <router-link to="/V/028r/facsimile">28r</router-link>a
+          Bl. <router-link to="/facsimile/V/028r">28r</router-link>a
           erkennbar. Ungerade Versanfänge rubriziert. <b>Korrekturen/Nachträge</b>:
           Praktisch keine Korrekturen (siehe <a href="#_Toc389815984">Kap. 1.3.1.1</a>). Zu den Nachträgen siehe
           <a href="#_Toc389815992">Kap. 1.4.3</a> und <a href="#_Toc389815994">1.5.1</a>. Apokopierte Formen scheinen nachträglich ergänzt worden zu sein
-          (z.B. Bll. <router-link to="/V/154r/facsimile">154r</router-link>a,
-          <router-link to="/V/155r/facsimile">155r</router-link>b,
-          <router-link to="/V/159v/facsimile">159v</router-link>b und
-          <router-link to="/V/161v/facsimile">161v</router-link>a).
+          (z.B. Bll. <router-link to="/facsimile/V/154r">154r</router-link>a,
+          <router-link to="/facsimile/V/155r">155r</router-link>b,
+          <router-link to="/facsimile/V/159v">159v</router-link>b und
+          <router-link to="/facsimile/V/161v">161v</router-link>a).
           Mit Tinte korrespondierende Zeichen, die darauf hinweisen, dass die Blätter
-          <router-link to="/V/176r/facsimile">176</router-link> und
-          <router-link to="/V/177r/facsimile">177</router-link>
+          <router-link to="/facsimile/V/176r">176</router-link> und
+          <router-link to="/facsimile/V/177r">177</router-link>
           falsch eingebunden wurden: Bl.
-          <router-link to="/V/175v/facsimile">175v</router-link>b unter
+          <router-link to="/facsimile/V/175v">175v</router-link>b unter
           der Spalte, und Bl.
-          <router-link to="/V/178r/facsimile">178r</router-link>a, nach
+          <router-link to="/facsimile/V/178r">178r</router-link>a, nach
           erster Zeile (x in Kreis); Bl.
-          <router-link to="/V/176r/facsimile">176r</router-link>a, nach
+          <router-link to="/facsimile/V/176r">176r</router-link>a, nach
           erster Zeile, und Bl.
-          <router-link to="/V/179v/facsimile">179v</router-link>a,
+          <router-link to="/facsimile/V/179v">179v</router-link>a,
           unterer Rand (Hantel/Brille), sowie Bl.
-          <router-link to="/V/177v/facsimile">177v</router-link>b,
+          <router-link to="/facsimile/V/177v">177v</router-link>b,
           unter der Spalte, und Bl. 180ra, erste Zeile (x). Bleistiftanmerkungen auf dem
                           <a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/495093">Vorderspiegel</a>
           (Auflösung Abkürzungen der Devisen, siehe <a href="#_Toc389815994">Kap. 1.5.1</a>) sowie auf Bl.
-          <router-link to="/V/115r/facsimile">115r</router-link>b (<i>Lachmann
+          <router-link to="/facsimile/V/115r">115r</router-link>b (<i>Lachmann
              S. 345.</i>). <b>Zustand</b>: Abgegriffen, fleckig, Einband abgenutzt, mit
           Löchern durch Wurmfraß.
        </p>
@@ -307,7 +307,7 @@
              von Eschenbach, ›Parzival‹; Minneliedstrophen; Klaus Wisse und Philipp Colin,
              ›Nuwer Parzifal‹</b></div>
        <div style="clear:both"></div>
-       <div class="contentbox-left"><router-link to="/V/001r/facsimile">1r</router-link>a–<router-link to="/V/115r/facsimile">115r</router-link>b</div>
+       <div class="contentbox-left"><router-link to="/facsimile/V/001r">1r</router-link>a–<router-link to="/facsimile/V/115r">115r</router-link>b</div>
        <div class="contentbox-right">[1.]<b>
              Wolfram von Eschenbach, ›Parzival‹ (Fassung *T), Buch I–XIV</b> (L. 1.1–733.30)
           <b>mit Prologus und Einschüben</b><a href="#_ftn12" id="_ftnref12"><sup>[12]</sup></a></div>
@@ -320,7 +320,7 @@
        </div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/001r/facsimile">1r</router-link>a–<router-link to="/V/017v/facsimile">17v</router-link>a
+          <router-link to="/facsimile/V/001r">1r</router-link>a–<router-link to="/facsimile/V/017v">17v</router-link>a
        </div>
        <div class="contentbox-right">[1.1]
           <b>Wolframs ›Parzival‹, Buch I–II</b> (L. 1.1–112.10): <span class="pinit"><i>I</i></span><i>ſt
@@ -333,7 +333,7 @@
                 Parcifals vatter was</span>.&gt;</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/017v/facsimile">17v</router-link>b–<router-link to="/V/020r/facsimile">20r</router-link>b
+          <router-link to="/facsimile/V/017v">17v</router-link>b–<router-link to="/facsimile/V/020r">20r</router-link>b
        </div>
        <div class="contentbox-right">[1.2]
           <b>Prologus</b> nach der ›Élucidation‹, dt., mit abweichendem Beginn (L. 112.11<sup>2</sup>,
@@ -360,7 +360,7 @@
        </div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/020r/facsimile">20r</router-link>b
+          <router-link to="/facsimile/V/020r">20r</router-link>b
        </div>
        <div class="contentbox-right">[1.3]
           <b>gereimte Überleitung</b> (L. 112.13<sup>1–6</sup>; Sch. LXX): <i>&lt;<span class="titel1">Der prologus ſi hin geleit / nv hoͤrent </span><span class="hvh">P</span><span class="titel1">arcifals kintheit… – …Als ir har nach beuinden wol / dis buͦch es
@@ -370,7 +370,7 @@
        <div class="contentbox-right metadata">Textausgabe: <span style="font-variant:small-caps">Chen</span> (2015), S. 291.</div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/020r/facsimile">20r</router-link>b–<router-link to="/V/029v/facsimile">29v</router-link>b
+          <router-link to="/facsimile/V/020r">20r</router-link>b–<router-link to="/facsimile/V/029v">29v</router-link>b
        </div>
        <div class="contentbox-right">[1.4]
           <b>Wolframs ›Parzival‹, Buch II–III</b> (L. 112.13–175.4): <span class="init"><i>S</i></span><i>ines vater froͤde vnd des not / beide ſin leben vnde ſin tot… – …
@@ -379,7 +379,7 @@
              wúrt in nam vn(d) fvͦrt in wid(er).</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/029v/facsimile">29v</router-link>b
+          <router-link to="/facsimile/V/029v">29v</router-link>b
        </div>
        <div class="contentbox-right">[1.5]
           <b>Einschub: Chrétien de Troyes, ›Roman de Perceval ou le Conte du Graal‹</b> (CdGr
@@ -388,7 +388,7 @@
              wart</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/029v/facsimile">29v</router-link>b–<router-link to="/V/037r/facsimile">37r</router-link>b
+          <router-link to="/facsimile/V/029v">29v</router-link>b–<router-link to="/facsimile/V/037r">37r</router-link>b
        </div>
        <div class="contentbox-right">[1.6]
             <b>Wolframs ›Parzival‹, Buch III–IV</b> (L. 175.5–223.30):<a href="#_ftn13" id="_ftnref13"><sup>[13]</sup></a>
@@ -396,7 +396,7 @@
              allen ſinen manne(n) / Schiet er alleine dannen</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/037r/facsimile">37r</router-link>b
+          <router-link to="/facsimile/V/037r">37r</router-link>b
        </div>
        <div class="contentbox-right">[1.7]
             <b>Bittgesuch</b> (L. 223.30<sup>1–18</sup>; Sch. XLIX): <i>Got vnd v́wer
@@ -407,7 +407,7 @@
        <div class="contentbox-right metadata">Lit. zum Text: <span style="font-variant:small-caps">Scholz</span> (1987), S. 98f.</div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/037r/facsimile">37r</router-link>b–<router-link to="/V/051v/facsimile">51v</router-link>b
+          <router-link to="/facsimile/V/037r">37r</router-link>b–<router-link to="/facsimile/V/051v">51v</router-link>b
        </div>
        <div class="contentbox-right">[1.8]
           <b>Wolframs ›Parzival‹, Buch V–VI</b> (L. 224.1–319.18): <span class="init"><i>S</i></span><i>wer
@@ -415,7 +415,7 @@
              werden vrowen / Die man weinende muͤſte ſchowen</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/051v/facsimile">51v</router-link>b
+          <router-link to="/facsimile/V/051v">51v</router-link>b
        </div>
        <div class="contentbox-right">[1.9]
           <b>Einschub: Chrétiens ›Perceval‹</b> (CdGr 4688–4700 und 4721–4722) (L. 319.18<sup>1–18</sup>;
@@ -424,7 +424,7 @@
              geſvnt</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/051v/facsimile">51v</router-link>b–<router-link to="/V/115r/facsimile">115r</router-link>b
+          <router-link to="/facsimile/V/051v">51v</router-link>b–<router-link to="/facsimile/V/115r">115r</router-link>b
        </div>
        <div class="contentbox-right">[1.10]
           <b>Wolframs ›Parzival‹, Buch VI–XIV</b> (L. 319.19–733.30): <i>Kvndrie was do
@@ -432,7 +432,7 @@
              morgens clagen / Do er danna(n) ſchiet. do begvnd es tagen</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-            <router-link to="/V/115r/facsimile">115r</router-link>b
+            <router-link to="/facsimile/V/115r">115r</router-link>b
        </div>
        <div class="contentbox-right"><b>Prosaüberleitung
             zum ›Nuwen Parzifal‹ mit Jahresangabe 1336 </b>(NP 0-1<sup>1–2</sup>; Sch.
@@ -457,7 +457,7 @@
        <div class="contentbox-right metadata">Lit. zum Text: <span style="font-variant:small-caps">Scholz</span> (1987), S. 97, Anm. 3.</div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/115v/facsimile">115v</router-link>a
+          <router-link to="/facsimile/V/115v">115v</router-link>a
        </div>
        <div class="contentbox-right"><b>Blattberechnungen</b>
             (NP 0-1<sup>3–4</sup>; Sch. XIIIf.): <i>&lt;<span class="titel1">Der alte
@@ -474,7 +474,7 @@
        <div class="contentbox-right metadata">Lit. zum Text: <span style="font-variant:small-caps">Schorbach</span> (1888), S. XIV.</div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-           <router-link to="/V/115v/facsimile">115v</router-link>a
+           <router-link to="/facsimile/V/115v">115v</router-link>a
        </div>
        <div class="contentbox-right"><b>Verse auf Spruchband in szenischer Figureninitiale W</b></div>
        <div style="clear:both"></div>
@@ -502,7 +502,7 @@
             <span style="font-variant:small-caps">Chen</span> (2015), S. 316; <span style="font-variant:small-caps">Sietz</span> (2017), S. 96.</div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-           <router-link to="/V/115v/facsimile">115v</router-link>a–<router-link to="/V/115v/facsimile">115v</router-link>b
+           <router-link to="/facsimile/V/115v">115v</router-link>a–<router-link to="/facsimile/V/115v">115v</router-link>b
        </div>
        <div class="contentbox-right">[2.] <b>Sieben Minneliedstrophen</b> (›Rappoltsteiner Florilegium‹) (ohne Autorzuweisungen)</div>
        <div style="clear:both"></div>
@@ -645,7 +645,7 @@
             (1967); <span style="font-variant:small-caps">Chen</span> (2015), S. 315.</div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/116r/facsimile">116r</router-link>a–<router-link to="/V/302r/facsimile">302r</router-link>a
+          <router-link to="/facsimile/V/116r">116r</router-link>a–<router-link to="/facsimile/V/302r">302r</router-link>a
        </div>
        <div class="contentbox-right">[3.]<b> Klaus Wisse und Philipp Colin, ›Nuwer Parzifal‹</b> (1., 2. und 3. Fortsetzung
            zu Chrétiens ›Conte du Graal‹ [›Perceval‹], dt., Wolfram von Eschenbach,
@@ -654,7 +654,7 @@
        </div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-           <router-link to="/V/116r/facsimile">116r</router-link>a–<router-link to="/V/120v/facsimile">120v</router-link>b
+           <router-link to="/facsimile/V/116r">116r</router-link>a–<router-link to="/facsimile/V/120v">120v</router-link>b
        </div>
        <div class="contentbox-right">[3.1]
           <b>›Première Continuation‹ zu Chrétien de Troyes, ›Roman de Perceval ou le
@@ -663,14 +663,14 @@
             – …</i></span><i>Dvrch kriegen brvn vo(n) mielant.</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-           <router-link to="/V/120v/facsimile">120v</router-link>b
+           <router-link to="/facsimile/V/120v">120v</router-link>b
        </div>
        <div class="contentbox-right">[3.2]
             <b>Überleitung</b> (NP 946–965; Sch. 22.38–23.11): <i>Er vorhte ſv́ aber nv́t
             ein ſant… – …Gelobet wart zvͦ handena(n)</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-            <router-link to="/V/120v/facsimile">120v</router-link>b–<router-link to="/V/150v/facsimile">150v</router-link>a
+            <router-link to="/facsimile/V/120v">120v</router-link>b–<router-link to="/facsimile/V/150v">150v</router-link>a
        </div>
        <div class="contentbox-right">[3.3]
           <b>›Première Continuation‹</b>, Mischredaktion, Ep. I,10 und II,1 bis III,14, dt.
@@ -678,26 +678,26 @@
             v́ch vor geſaget han<span class="ras">… – …</span>Hies er karados briebras</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-           <router-link to="/V/150v/facsimile">150v</router-link>a
+           <router-link to="/facsimile/V/150v">150v</router-link>a
        </div>
        <div class="contentbox-right">[3.4]
            <b>Einschub</b> (Übersetzung des franz. Namens) (NP 6785–6786; Sch. 153.32–33):
            <i>Briebras klein arm genenet iſt | Wand man ez wol kos alle vriſt</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-           <router-link to="/V/150v/facsimile">150v</router-link>a–<router-link to="/V/154r/facsimile">154r</router-link>b
+           <router-link to="/facsimile/V/150v">150v</router-link>a–<router-link to="/facsimile/V/154r">154r</router-link>b
        </div>
        <div class="contentbox-right">[3.5]
            <b>›Première Continuation‹</b>, Mischredaktion, Ep. III,14–16, dt. (Roach I, 8003–8729)
            (NP 6787–7499; Sch. 153.34–169.28): <i>Do der ſlange was an behaft<span class="ras">… – …</span>Dar vmbe ſv́ ſprach trinkent ſich(er)</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-           <router-link to="/V/154r/facsimile">154r</router-link>b
+           <router-link to="/facsimile/V/154r">154r</router-link>b
        </div>
        <div class="contentbox-right">[3.6] <b>Einschub</b> (NP 7500–7506; Sch. 169.29–35): <i>Karados deſte froͤlicher… – …Mit froͤiden alſus do lebet er</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/154r/facsimile">154r</router-link>b–<router-link to="/V/165r/facsimile">165r</router-link>b
+          <router-link to="/facsimile/V/154r">154r</router-link>b–<router-link to="/facsimile/V/165r">165r</router-link>b
        </div>
        <div class="contentbox-right">[3.7]
             <b>›Première Continuation‹</b>, Mischredaktion, Ep. III,16 und IV,1 bis V,4, dt.
@@ -705,14 +705,14 @@
             kv́nig artus lange waz<span class="ras">… – …</span>Ir foͤrhtetne ſin zvͦ vil gar</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-           <router-link to="/V/165r/facsimile">165r</router-link>b
+           <router-link to="/facsimile/V/165r">165r</router-link>b
        </div>
        <div class="contentbox-right">[3.8]
             <b>Einschub</b> (NP 9664–9668; Sch. 217.25–29): <i>Daz kvmet von crankem
             h(er)zen dar… – …Daz im tet harte groſen pin</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-           <router-link to="/V/165r/facsimile">165r</router-link>b
+           <router-link to="/facsimile/V/165r">165r</router-link>b
        </div>
        <div class="contentbox-right">[3.9]
             <b>›Première Continuation‹</b>, Mischredaktion, Ep. V,4 und V, 6–8, dt. (Roach
@@ -720,14 +720,14 @@
             gervͦwete hette<span class="ras">… – …Do wart er gehei</span>ſſen dodinas</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-           <router-link to="/V/179v/facsimile">179v</router-link>b
+           <router-link to="/facsimile/V/179v">179v</router-link>b
        </div>
        <div class="contentbox-right">[3.10]
             <b>Einschub</b> (Übersetzung des franz. Namens) (NP 12494; Sch. 281.8): <i>Daz
             giht in tv́ſch toͤrlin</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-           <router-link to="/V/179v/facsimile">179v</router-link>b–<router-link to="/V/185v/facsimile">185v</router-link>a
+           <router-link to="/facsimile/V/179v">179v</router-link>b–<router-link to="/facsimile/V/185v">185v</router-link>a
        </div>
        <div class="contentbox-right">[3.11]
             <b>›Première Continuation‹</b>, Mischredaktion, Ep. V,8 bis VI,8, dt. (Roach I,
@@ -735,7 +735,7 @@
             iu(n)cfrowe fin<span class="ras">… – …Al</span>ſe ich vor ſeite vn(d) aber ſage</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-            <router-link to="/V/185v/facsimile">185v</router-link>a
+            <router-link to="/facsimile/V/185v">185v</router-link>a
        </div>
        <div class="contentbox-right">[3.12]
             <b>›Seconde Continuation‹ zu Chrétien de Troyes, ›Roman de Perceval ou le Conte
@@ -744,7 +744,7 @@
             ez erging</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-            <router-link to="/V/185v/facsimile">185v</router-link>a
+            <router-link to="/facsimile/V/185v">185v</router-link>a
        </div>
        <div class="contentbox-right">[3.13]
             <b>Explizit und Überleitung</b> (ohne Vorlage) (NP 13980<sup>0</sup>; Sch. 314.5–12):
@@ -754,7 +754,7 @@
             oventv́r die er begie in | dem welſchen bvͦche daz ze tv́ſche | broht iſt&gt;</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-            <router-link to="/V/185v/facsimile">185v</router-link>a
+            <router-link to="/facsimile/V/185v">185v</router-link>a
        </div>
        <div class="contentbox-right">[3.14]
             <b>Harmonisierung des Chrétien-Text mit dem</b>
@@ -763,7 +763,7 @@
             kv́rzlich… – …Do er geſtreit mit gawan vn(d) gramolanz&gt;</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/185v/facsimile">185v</router-link>a–<router-link to="/V/191v/facsimile">191v</router-link>a
+          <router-link to="/facsimile/V/185v">185v</router-link>a–<router-link to="/facsimile/V/191v">191v</router-link>a
        </div>
        <div class="contentbox-right">[3.15]
             <b>›Seconde Continuation‹</b>, Mischredaktion, Prolog und Ep. 1–9, dt. (Roach
@@ -771,14 +771,14 @@
             ſage ich v́ch daz er zehant… – …Ich banz min ros hie veſteklich</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-            <router-link to="/V/191v/facsimile">191v</router-link>a
+            <router-link to="/facsimile/V/191v">191v</router-link>a
        </div>
        <div class="contentbox-right">[3.16]
             <b>Einschub</b> (ohne Vorlage) (NP 15134–15140; Sch. 340.6–12): <i>Hv́tte do
             ich reit harin… – …Sone(n) vinde ich <span class="titel1">oͮch min ros niht</span></i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/191v/facsimile">191v</router-link>a–<router-link to="/V/251v/facsimile">251v</router-link>a
+          <router-link to="/facsimile/V/191v">191v</router-link>a–<router-link to="/facsimile/V/251v">251v</router-link>a
        </div>
        <div class="contentbox-right"><span lang="EN-US">a [3.17] <b>›Seconde
             Continuation‹ zu Chrétien de Troyes, ›Roman de Perceval ou le Conte du Graal‹</b>,
@@ -786,7 +786,7 @@
             340.13–610.27): <i>Were ich in dem garten die riht… – …Parzefal tro<span class="titel1">ſte ſich zvͦ dem mol</span></i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/251v/facsimile">251v</router-link>a–<router-link to="/V/263v/facsimile">263v</router-link>b
+          <router-link to="/facsimile/V/251v">251v</router-link>a–<router-link to="/facsimile/V/263v">263v</router-link>b
        </div>
        <div class="contentbox-right"><span lang="EN-US">b [3.18] <b>›Troisième
             Continuation‹ zu Chrétien de Troyes, ›Roman de Perceval ou le Conte du Graal‹</b>,
@@ -795,14 +795,14 @@
             hýmelrich</span></i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/263v/facsimile">263v</router-link>b–<router-link to="/V/264r/facsimile">264r</router-link>b
+          <router-link to="/facsimile/V/263v">263v</router-link>b–<router-link to="/facsimile/V/264r">264r</router-link>b
        </div>
        <div class="contentbox-right">[3.19]
             <b>Einschub</b> (NP 29042–29120; Sch. 667.5–668.42): <i>Aber Sagremors mvͤ<span class="titel1">ſte ſo</span> man <span class="titel1">ſ</span>eit… – …Der biderbe
             ritter <span class="titel1">zvͦ</span> im <span class="titel1">ſprach</span></i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/264r/facsimile">264r</router-link>b–<router-link to="/V/302r/facsimile">302r</router-link>a
+          <router-link to="/facsimile/V/264r">264r</router-link>b–<router-link to="/facsimile/V/302r">302r</router-link>a
        </div>
        <div class="contentbox-right"><span lang="EN-US">a [3.20] <b>›Troisième
             Continuation‹</b>, Ep. 5–29, dt. </span>(Roach V, 34909–42292) (NP 29121–36447;
@@ -810,26 +810,26 @@
             gemach… – …Do z<span class="titel1">vͦ</span> hofe . alle die naht</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-            <router-link to="/V/302r/facsimile">302r</router-link>a–<router-link to="/V/317v/facsimile">317v</router-link>a
+            <router-link to="/facsimile/V/302r">302r</router-link>a–<router-link to="/facsimile/V/317v">317v</router-link>a
        </div>
        <div class="contentbox-right">[3.21] <b>Wolframs ›Parzival‹, Buch XV–XVI</b> (L. 734.1–827.30), mit Einschüben aus
             der <b>›Troisième Continuation‹</b>, in deutscher Übertragung</div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-            <router-link to="/V/302r/facsimile">302r</router-link>a–<router-link to="/V/307v/facsimile">307v</router-link>a [3.21.1]
+            <router-link to="/facsimile/V/302r">302r</router-link>a–<router-link to="/facsimile/V/307v">307v</router-link>a [3.21.1]
             (L. 734.1<sup>0</sup> und L. 734.1–769.28): <i>&lt;<span class="init">H</span><span class="titel1">ie kvmmet parzefal. zvͦ ſime bruͦder | vn(d) vindet den von
             geſchiht. fervis an|ſchefin. vn(d) wurt mit i(m)me vehtende&gt;</span></i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right"><span class="init"><i>V</i></span><i>jl lúte. des hat verdroſſen… – …Die úch mit ſtrite ſint bekant</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-            <router-link to="/V/307v/facsimile">307v</router-link>a–b [3.21.2] Einschub: ›Troisième
+            <router-link to="/facsimile/V/307v">307v</router-link>a–b [3.21.2] Einschub: ›Troisième
             Continuation‹, Ep. 29, dt. (Roach V, 42335–42354) (L. 769.28<sup>1–20</sup>;
             Sch. LI): <span class="pinit"><i>S</i></span><i>v́ rettent mitteinand(er) vil gar…
             – …Trurte der kv́nig. vn(d) alle die ritterſchaft</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/V/307v/facsimile">307v</router-link>b
+          <router-link to="/facsimile/V/307v">307v</router-link>b
           [3.21.3] (L. 769.28<sup>21–22</sup> [Anpassung an Wolfram von Eschenbach,
           ›Parzival‹], L. 769.29<sup>a</sup>–769.30<sup>a</sup> und 769.30<sup>1–2</sup>;
           Sch. LI): <i>Dar nach ſprach der heiden rich</i> | <i>Kv́nig Artus. nv hoͤre mich</i>
@@ -837,57 +837,57 @@
           | <i>An den mir iſt gelungen</i> | <i>Die ich alle han betwungen</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-            <router-link to="/V/307v/facsimile">307v</router-link>b–<router-link to="/V/308r/facsimile">308r</router-link>b [3.21.4]
+            <router-link to="/facsimile/V/307v">307v</router-link>b–<router-link to="/facsimile/V/308r">308r</router-link>b [3.21.4]
             <b>Wolframs ›Parzival‹, Buch XV</b> (L. 770.1–772.30): <span class="init"><b><i>D</i></b></span><i>er
             kv́nig. <span class="ls">Papi</span><span class="ras">rus vo(n)</span> Togriente… –
             …Die wene ich genennet han</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/V/308r/facsimile">308r</router-link>b–<router-link to="/V/308v/facsimile">v</router-link>a [3.21.5]
+          <router-link to="/facsimile/V/308r">308r</router-link>b–<router-link to="/facsimile/V/308v">v</router-link>a [3.21.5]
           <b>Einschub: ›Troisième Continuation‹</b>, Ep. 29, dt. (Roach V, 42355–42428) (L.
           772.30<sup>1–74</sup>; Sch. LI–LIII): <span class="init"><b><i>D</i></b></span><i>Ar
              nach ſeite ab(er) parzefal… – …Vn(d) hies es gehalten wol</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/V/308v/facsimile">308v</router-link>a–<router-link to="/V/310r/facsimile">310r</router-link>b [3.21.6]
+          <router-link to="/facsimile/V/308v">308v</router-link>a–<router-link to="/facsimile/V/310r">310r</router-link>b [3.21.6]
           <b>Wolframs ›Parzival‹, Buch XV</b> (L. 773.1–784.28)
        </div>
        <div style="clear:both"></div>
        <div class="contentbox-right"><span class="init"><b><i>D</i></b></span><i>Er heiden waz von h(er)zen fro… – …An den ſelben ziten</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/V/310r/facsimile">310r</router-link>b–<router-link to="/V/310v/facsimile">v</router-link>a [3.21.7]
+          <router-link to="/facsimile/V/310r">310r</router-link>b–<router-link to="/facsimile/V/310v">v</router-link>a [3.21.7]
           <b>Einschub: ›Troisième Continuation‹</b>, Ep. 29 und 30, dt. (Roach V, 42464–42468
           und 42469–42473) (L. <span class="versheader">784.<a id="784.28"></a>28<sup>1–10</sup></span>;
           Sch. LIII–LIV): <i>Kv́nig artus in groſze froͤude kam… – …Sv́ gelobetenz i(m)me alzehant</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/V/310v/facsimile">310v</router-link>a–b [3.21.8]
+          <router-link to="/facsimile/V/310v">310v</router-link>a–b [3.21.8]
           <b>Wolframs ›Parzival‹, Buch XV</b> (L. 784.29–786.30): <i>Sv́ ſtuͦndent uf
              úb(er) al den ring… – …Kvndrie. vn(d) diſe zwene hin rittenz <span class="k">*</span><span class="ras">ſie</span></i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/V/310v/facsimile">310v</router-link>b [3.21.9]
+          <router-link to="/facsimile/V/310v">310v</router-link>b [3.21.9]
           <b>Einschub</b> (L. 786.30<sup>1–2</sup>; Sch. LIV): <i>Kv́nig artus. vn(d) die
              tovelrunder alle / Mit in mit groſzeme ſchalle</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/V/310v/facsimile">310v</router-link>b–<router-link to="/V/311r/facsimile">311r</router-link>a [3.21.10]
+          <router-link to="/facsimile/V/310v">310v</router-link>b–<router-link to="/facsimile/V/311r">311r</router-link>a [3.21.10]
           <b>Wolframs ›Parzival‹, Buch XVI</b> (L. 787.1–789.2): <span class="init"><i>A</i></span><i>nfortas.
              vn(d) die ſine… – …Vn(d) Fereuis der vech gemal</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/V/311r/facsimile">311r</router-link>a
+          <router-link to="/facsimile/V/311r">311r</router-link>a
           [3.21.11] <b>Einschub</b> (L. 789.2<sup>1–2</sup>; Sch. LIV): <i>Vn(d) kv́nig
              artus der riche / Sv́ alleſament gliche</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/V/311r/facsimile">311r</router-link>a–<router-link to="/V/311v/facsimile">v</router-link>b [3.21.12]
+          <router-link to="/facsimile/V/311r">311r</router-link>a–<router-link to="/facsimile/V/311v">v</router-link>b [3.21.12]
           <b>Wolframs ›Parzival‹, Buch XVI</b> (L. 789.3–793.28): <i>Mit froͤude uffe
              Muntſchalfaſche ritt… – …Den ſwarzen vn(d) den wiſſen</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/V/311v/facsimile">311v</router-link>b
+          <router-link to="/facsimile/V/311v">311v</router-link>b
           [3.21.13] <b>Einschub</b> (L. 793.28<sup>1</sup>–29<sup>0</sup>; Sch. LIV): <i>Vn(d)
              die touelrunder alle gar / Die mit artuſe. worent ku(m)men dar</i></div>
        <div style="clear:both"></div>
@@ -897,28 +897,28 @@
        </div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-            <router-link to="/V/311v/facsimile">311v</router-link>b–<router-link to="/V/315r/facsimile">315r</router-link>b
+            <router-link to="/facsimile/V/311v">311v</router-link>b–<router-link to="/facsimile/V/315r">315r</router-link>b
             [3.21.14] <b>Wolframs ›Parzival‹, Buch XVI</b> (L. 793.29–816.4): <span class="init"><i>U</i></span><i>f Munſchalfaſche wart do geritten… – …Der doch
             durch minne vnſa(n)fte lag</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/V/315r/facsimile">315r</router-link>b
+          <router-link to="/facsimile/V/315r">315r</router-link>b
           [3.21.15] <b>Einschub</b> (L. 816.4<sup>1–4</sup>; Sch. LIV): <i>Oͮch liez man
              nv́t vnder wegen… – …Wart oͮch herlich genomen war</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/V/315v/facsimile">315v</router-link>b–<router-link to="/V/316r/facsimile">316r</router-link>a
+          <router-link to="/facsimile/V/315v">315v</router-link>b–<router-link to="/facsimile/V/316r">316r</router-link>a
           [3.21.16] <b>Wolframs ›Parzival‹, Buch XVI</b> (L. 816.5–820.16): <i>Wie alle
              der templeiſen diet… – …Lot in got rehten ſin beiagen</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-            <router-link to="/V/316r/facsimile">316r</router-link><span lang="EN-US">a–b [3.21.17] <b>Einschub: ›Troisième
+            <router-link to="/facsimile/V/316r">316r</router-link><span lang="EN-US">a–b [3.21.17] <b>Einschub: ›Troisième
             Continuation‹</b>, Ep. 30, dt. </span>(Roach V, 42478–42526) und sechs
             Schlussverse (L. 820.16<sup>1–54</sup>; Sch. LIV–LVI): <span class="init"><i>S</i></span><i>v́
             worent zvͦ hofe alle fro… – …Wider heim in ſin lant</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/V/316r/facsimile">316r</router-link>b–<router-link to="/V/316v/facsimile">v</router-link>b [3.21.18]
+          <router-link to="/facsimile/V/316r">316r</router-link>b–<router-link to="/facsimile/V/316v">v</router-link>b [3.21.18]
           <b>Wolframs ›Parzival‹, Buch XVI</b> (L. 820.17–823.10): <span class="init"><i>F</i></span><i>Roͤde
              vn(d) kvrzewile pflag… – …Waz frowe úber manige lant ſo wit</i></div>
        <div style="clear:both"></div>
@@ -928,7 +928,7 @@
             bleib aldo fúr wor… – …Kv́nig malvn froͤmmeclich</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-            <router-link to="/V/316v/facsimile">316v</router-link>b–<router-link to="/V/317v/facsimile">317v</router-link>a [3.21.20]
+            <router-link to="/facsimile/V/316v">316v</router-link>b–<router-link to="/facsimile/V/317v">317v</router-link>a [3.21.20]
             <b>Wolframs ›Parzival‹, Buch XVI</b> (L. 823.11–827.30) mit Explizit (L. 827.30<sup>1-0</sup>;
             Sch. 845.14–17): <span class="init"><i>D</i></span><i>ie rehte mere v́ch komen
             ſint… – …Die muͦz mir ſvͤzſer worte jehen</i></div>
@@ -937,7 +937,7 @@
                 hie noch geſchriben | ſtat daz het pfilippes kolin gemaht&gt;</span></i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/317v/facsimile">317v</router-link>a–<router-link to="/V/320v/facsimile">320v</router-link>a
+          <router-link to="/facsimile/V/317v">317v</router-link>a–<router-link to="/facsimile/V/320v">320v</router-link>a
        </div>
        <div class="contentbox-right">[4.]
           <b>Philipp Colin, Epilog zum ›Rappoltsteiner Parzifal‹</b> (L. 827.30<sup>1–559</sup>; Sch. 845.18–858.26 und XV):
@@ -968,7 +968,7 @@
              <span style="font-variant:small-caps">Chen</span> (2015), S. 321–329.</div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/320v/facsimile">320v</router-link>a
+          <router-link to="/facsimile/V/320v">320v</router-link>a
        </div>
        <div class="contentbox-right"><b>Blattberechnung</b>
           (L. 827.30<sup>560–561</sup>; Sch. XV): &lt;<i>Vnde iſt der beider vor vn(d)
@@ -983,7 +983,7 @@
        <div class="contentbox-right metadata">Lit. zum Text: <span style="font-variant:small-caps">Schorbach</span> (1888), S. XV.</div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/320v/facsimile">320v</router-link>a
+          <router-link to="/facsimile/V/320v">320v</router-link>a
        </div>
        <div class="contentbox-right"><b>Kolophon
              </b>(gereimt) (L. 827.30<sup>562–571</sup>; Sch. XVI): <i>&lt;Diz ſol nieman
@@ -1004,7 +1004,7 @@
        <div class="contentbox-right metadata">Lit. zum Text: <span style="font-variant:small-caps">Thomas</span> (1997).</div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/320v/facsimile">320v</router-link>a
+          <router-link to="/facsimile/V/320v">320v</router-link>a
        </div>
        <div class="contentbox-right">[5.]
           <b>8. Minneliedstrophe</b>, dt. (Nachtrag des 14. Jh.s) (L. 827.30<sup>572–579</sup>):
@@ -1025,7 +1025,7 @@
             <span style="font-variant:small-caps">Chen</span> (2015), S. 315.</div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/V/320v/facsimile">320v</router-link>a
+          <router-link to="/facsimile/V/320v">320v</router-link>a
        </div>
        <div class="contentbox-right">[6.] <b>Minneliedstrophe</b>, afr. (Nachtrag des 14. Jh.s) (L. 827.30<sup>557-04</sup>):
           <i><span style="font-size:0.9rem">ly douz ſouenir de m:y dame jolie | :::ſtes me
@@ -1225,8 +1225,8 @@
        <p class="MsoNormal">Als Jahr der Vollendung des ›Rappoltsteiner
           Parzifal‹ bzw. des ›Nuwen Parzifal‹ wird innerhalb einer Prosaüberleitung auf
           Bl.
-          <router-link to="/V/115r/facsimile">115r</router-link>b–
-          <router-link to="/V/115v/facsimile">v</router-link>a von
+          <router-link to="/facsimile/V/115r">115r</router-link>b–
+          <router-link to="/facsimile/V/115v">v</router-link>a von
           Hs. V das Jahr 1336 angegeben:<a href="#_ftn35" id="_ftnref35"><sup>[35]</sup></a></p>
        <blockquote class="Blockquote" style="text-indent:.1pt">
                           <span class="titel1">
@@ -1490,17 +1490,17 @@
           beziehungsweise in Konstanz entstanden.<sup>[64]</sup></p>
        <p class="MsoNormal">                Isolierte
           Freidank-Verse wie derjenige auf dem Spruchband auf Bl.
-          <router-link to="/V/115v/facsimile">115v</router-link>a von
+          <router-link to="/facsimile/V/115v">115v</router-link>a von
           Hs. V überlieferte (FR 110,21f.) sind im Mittelalter keine Seltenheit. Aus der
           Frühen Neuzeit hat sich beispielsweise eine Balkenmalerei des 16. Jahrhunderts
           auf der Frontseite eines Gebäudes in Fritzlar (Markt 28) erhalten, die den Vers
           gemeinsam mit den Versen FR 62,12f. wiedergibt.<a href="#_ftn65" id="_ftnref65"><sup>[65]</sup></a></p>
        <p class="MsoNormal">                Die sieben bekannten
           Minneliedstrophen im sogenannten ›Rappoltsteiner Florilegium‹ auf demselben
-          <router-link to="/V/115v/facsimile">115v</router-link> sind
+          <router-link to="/facsimile/V/115v">115v</router-link> sind
           einzeln weit verbreitet, finden sich in dieser Zusammenstellung jedoch lediglich
           in Hs. V und Hs. V',<a href="#_ftn66" id="_ftnref66"><sup>[66]</sup></a> die auf Bl.
-          <router-link to="/V/320v/facsimile">320v</router-link>a
+          <router-link to="/facsimile/V/320v">320v</router-link>a
           nachgetragene Zusatzstrophe wiederum überliefert nur Hs. V.
        </p>
        <h4><a id="_Toc389815982"></a><a id="_Ref379010745"></a>1.3 Genese der Handschrift V
@@ -1515,7 +1515,7 @@
        </p>
        <h5><a id="_Toc389815983"></a><a id="_Ref379014675"></a>1.3.1 Die Schreiber</h5>
        <p class="MsoNormal"><a id="_Ref381536263"></a>Auf Bl.
-          <router-link to="/V/320v/facsimile">320v</router-link>a von
+          <router-link to="/facsimile/V/320v">320v</router-link>a von
           Hs. V wird in einem mit roter Tinte geschriebenen Kolophon ein Schreiber <i>Henſelin
              </i>sowie ein weiterer, aus Ohnenheim (seit 1301 rappoltsteinischer
           Pfandbesitz,<a href="#_ftn67" id="_ftnref67"><sup>[67]</sup></a> heute: Département
@@ -1558,31 +1558,31 @@
           unterscheiden, die vermutlich zu unterschiedlichen Zeiten am Codex geschrieben
           haben.<a href="#_ftn74" id="_ftnref74"><sup>[74]</sup></a> Von der Schreiberhand I stammt
           das erste Doppelblatt (Bl.
-          <router-link to="/V/001r/facsimile">1</router-link>/<router-link to="/V/010v/facsimile">10</router-link>) der
+          <router-link to="/facsimile/V/001r">1</router-link>/<router-link to="/facsimile/V/010v">10</router-link>) der
           Handschrift. Dieses umfasst die von Hand II beschriebenen Blätter
-          <router-link to="/V/002r/facsimile">2</router-link>–<router-link to="/V/009v/facsimile">9</router-link> der
+          <router-link to="/facsimile/V/002r">2</router-link>–<router-link to="/facsimile/V/009v">9</router-link> der
           ersten Lage und scheint das ursprüngliche Blatt dieser Lage ersetzt zu haben. Hand
           II schrieb zudem die zweite Lage (Bl.
-          <router-link to="/V/011r/facsimile">11</router-link>–<router-link to="/V/020v/facsimile">20</router-link>), die
+          <router-link to="/facsimile/V/011r">11</router-link>–<router-link to="/facsimile/V/020v">20</router-link>), die
           auch den Prologus beinhaltet, taucht später im Codex allerdings nicht mehr auf.
           Von der Schreiberhand III stammt der umfangreichste Teil der Handschrift. Sie
           hat mit wenigen Ausnahmen alle Blätter der 3.–35. Lage (Bl.
-          <router-link to="/V/021r/facsimile">21</router-link>–<router-link to="/V/274v/facsimile">274</router-link>)
+          <router-link to="/facsimile/V/021r">21</router-link>–<router-link to="/facsimile/V/274v">274</router-link>)
           beschrieben. Eine weitere Schreiberhand (Nr. IV) verantwortet den zweiten Teil
           von Buch XVI aus Wolframs ›Parzival‹ (L. 799.01–827.30) mit Einschüben, den
           Epilog des ›Nuwen Parzifal‹ sowie das Explicit der Handschrift (Bl.
-          <router-link to="/V/312v/facsimile">312v</router-link>b–<router-link to="/V/320v/facsimile">320v</router-link>a). Von
+          <router-link to="/facsimile/V/312v">312v</router-link>b–<router-link to="/facsimile/V/320v">320v</router-link>a). Von
           der Schreiberhand V schließlich, bei der es sich möglicherweise um Hand III in
           anderem Duktus handelt, stammen im gesamten Codex neben dem Kolophon lediglich
           die vermutlich erst beim Abschluss der Handschrift eingetragenen sieben
           Minneliedstrophen auf Bl.
-          <router-link to="/V/115v/facsimile">115v</router-link>a/b
+          <router-link to="/facsimile/V/115v">115v</router-link>a/b
           sowie eine Blattberechnung am Schluss von Hs. V (Bl.
-          <router-link to="/V/320v/facsimile">320v</router-link>a).<a href="#_ftn75" id="_ftnref75"><sup>[75]</sup></a>
+          <router-link to="/facsimile/V/320v">320v</router-link>a).<a href="#_ftn75" id="_ftnref75"><sup>[75]</sup></a>
           Zudem korrigierte die Schreiberhand V herausgeschnittene und wieder eingeklebte
           Blätter in der sechsten, siebten und neunten Lage der Handschrift und beschrieb
           das gesamte Bl.
-          <router-link to="/V/069r/facsimile">69</router-link>.<a id="_Ref355268284"></a><a href="#_ftn76" id="_ftnref76"><sup>[76]</sup></a></p>
+          <router-link to="/facsimile/V/069r">69</router-link>.<a id="_Ref355268284"></a><a href="#_ftn76" id="_ftnref76"><sup>[76]</sup></a></p>
        <p class="MsoNormal">Auf die Lagen verteilt waren die fünf Schreiber wie folgt tätig:</p>
        <table style="border:0">
           <colgroup>
@@ -1599,21 +1599,21 @@
              <tr>
                 <td>Hand I</td>
                 <td>Bl.
-                   <router-link to="/V/001r/facsimile">1</router-link>
+                   <router-link to="/facsimile/V/001r">1</router-link>
                 </td>
                 <td>L. 1.01–7.20</td>
              </tr>
              <tr>
                 <td>Hand II</td>
                 <td>Bl.
-                   <router-link to="/V/002r/facsimile">2</router-link>–<router-link to="/V/009v/facsimile">9</router-link>
+                   <router-link to="/facsimile/V/002r">2</router-link>–<router-link to="/facsimile/V/009v">9</router-link>
                 </td>
                 <td>L. 7.21–60.24</td>
              </tr>
              <tr>
                 <td>Hand I</td>
                 <td>Bl.
-                   <router-link to="/V/010r/facsimile">10</router-link>
+                   <router-link to="/facsimile/V/010r">10</router-link>
                 </td>
                 <td>L. 60.25–67.14</td>
              </tr>
@@ -1634,7 +1634,7 @@
              <tr>
                 <td>Hand II</td>
                 <td>Bl.
-                   <router-link to="/V/011r/facsimile">11</router-link>–<router-link to="/V/020v/facsimile">20</router-link>
+                   <router-link to="/facsimile/V/011r">11</router-link>–<router-link to="/facsimile/V/020v">20</router-link>
                 </td>
                 <td>L. 67.15–116.30 (inkl. Prolog)</td>
              </tr>
@@ -1655,24 +1655,24 @@
              <tr>
                 <td>Hand III</td>
                 <td>Bl.
-                    <router-link to="/V/021r/facsimile">21</router-link>–<router-link to="/V/108v/facsimile">108</router-link>
+                    <router-link to="/facsimile/V/021r">21</router-link>–<router-link to="/facsimile/V/108v">108</router-link>
                 </td>
                 <td>L. 117.01–692.25</td>
              </tr>
              <tr>
                 <td colspan="3"><i>(in diesem Bereich wurden auf mehreren der herausgeschnittenen und wieder eingeklebten
-                    Blättern </i><router-link to="/V/050r/facsimile">50</router-link><i>, </i><router-link to="/V/051r/facsimile">51</router-link><i>,
-                    </i><router-link to="/V/055r/facsimile">55</router-link><i>,</i>
-                    <router-link to="/V/056r/facsimile">56</router-link><i>,</i>
-                    <router-link to="/V/057r/facsimile">57</router-link><i>,</i>
-                    <router-link to="/V/059r/facsimile">59</router-link><i>,</i>
-                    <router-link to="/V/063r/facsimile">63</router-link><i>,</i>
-                    <router-link to="/V/064r/facsimile">64</router-link><i>,</i>
-                    <router-link to="/V/065r/facsimile">65</router-link><i>,</i>
-                    <router-link to="/V/066r/facsimile">66</router-link><i>,</i>
-                    <router-link to="/V/069r/facsimile">69</router-link><i> und</i>
-                    <router-link to="/V/087r/facsimile">87</router-link><i> Korrekturen von Hand V vorgenommen; Bl.</i>
-                    <router-link to="/V/069r/facsimile">69</router-link> <i>stammt gänzlich von ihr)</i>
+                    Blättern </i><router-link to="/facsimile/V/050r">50</router-link><i>, </i><router-link to="/facsimile/V/051r">51</router-link><i>,
+                    </i><router-link to="/facsimile/V/055r">55</router-link><i>,</i>
+                    <router-link to="/facsimile/V/056r">56</router-link><i>,</i>
+                    <router-link to="/facsimile/V/057r">57</router-link><i>,</i>
+                    <router-link to="/facsimile/V/059r">59</router-link><i>,</i>
+                    <router-link to="/facsimile/V/063r">63</router-link><i>,</i>
+                    <router-link to="/facsimile/V/064r">64</router-link><i>,</i>
+                    <router-link to="/facsimile/V/065r">65</router-link><i>,</i>
+                    <router-link to="/facsimile/V/066r">66</router-link><i>,</i>
+                    <router-link to="/facsimile/V/069r">69</router-link><i> und</i>
+                    <router-link to="/facsimile/V/087r">87</router-link><i> Korrekturen von Hand V vorgenommen; Bl.</i>
+                    <router-link to="/facsimile/V/069r">69</router-link> <i>stammt gänzlich von ihr)</i>
                 </td>
              </tr>
           </tbody>
@@ -1692,7 +1692,7 @@
              <tr>
                 <td>Hand I</td>
                 <td>Bl.
-                   <router-link to="/V/109r/facsimile">109</router-link>–<router-link to="/V/115v/facsimile">115v</router-link>a
+                   <router-link to="/facsimile/V/109r">109</router-link>–<router-link to="/facsimile/V/115v">115v</router-link>a
                 </td>
                 <td>L. 692.26–733.30 und NP 0-1<sup>1–2 </sup>(inkl. Prosaüberleitung)
                 </td>
@@ -1700,7 +1700,7 @@
              <tr>
                 <td>Hand V</td>
                 <td>Bl.
-                   <router-link to="/V/115v/facsimile">115v</router-link>a–b
+                   <router-link to="/facsimile/V/115v">115v</router-link>a–b
                 </td>
                 <td>NP 0-1<sup>3</sup>–0-55 (Sch. XIIIf.) (Blattberechnung und 7 Minneliedstrophen)
                 </td>
@@ -1722,35 +1722,35 @@
              <tr>
                 <td>Hand III</td>
                 <td>Bl.
-                   <router-link to="/V/116r/facsimile">116</router-link>–<router-link to="/V/124v/facsimile">124</router-link>
+                   <router-link to="/facsimile/V/116r">116</router-link>–<router-link to="/facsimile/V/124v">124</router-link>
                 </td>
                 <td>NP 1–1761 (Sch. 1.1–41.2)</td>
              </tr>
              <tr>
                 <td>Hand I</td>
                 <td>Bl.
-                   <router-link to="/V/125r/facsimile">125</router-link>
+                   <router-link to="/facsimile/V/125r">125</router-link>
                 </td>
                 <td>NP 1762–1955 (Sch. 41.3–45.20)</td>
              </tr>
              <tr>
                 <td>Hand III</td>
                 <td>Bl.
-                   <router-link to="/V/126r/facsimile">126</router-link>
+                   <router-link to="/facsimile/V/126r">126</router-link>
                 </td>
                 <td>NP 1956–31113 (Sch. 45.21–716.45)</td>
              </tr>
              <tr>
                 <td>Hand I</td>
                 <td>Bl.
-                   <router-link to="/V/274v/facsimile">274v</router-link>b–<router-link to="/V/312v/facsimile">312v</router-link>b
+                   <router-link to="/facsimile/V/274v">274v</router-link>b–<router-link to="/facsimile/V/312v">312v</router-link>b
                 </td>
                 <td>NP 31114–36426 (Sch. 716.46–846.13) und L. 734.01–798.30</td>
              </tr>
              <tr>
                 <td>Hand IV</td>
                 <td>Bl.
-                   <router-link to="/V/312v/facsimile">312v</router-link>b–<router-link to="/V/320v/facsimile">320v</router-link>a
+                   <router-link to="/facsimile/V/312v">312v</router-link>b–<router-link to="/facsimile/V/320v">320v</router-link>a
                 </td>
                 <td>L. 799.01–827.30 und L. 827.30<sup>1–559</sup> (Sch. 845.14–858.26) (Epilog und Explicit)
                 </td>
@@ -1758,7 +1758,7 @@
              <tr>
                 <td>Hand V</td>
                 <td>Bl.
-                   <router-link to="/V/320v/facsimile">320v</router-link>a
+                   <router-link to="/facsimile/V/320v">320v</router-link>a
                 </td>
                 <td>L. 827.30<sup>560–579 </sup>(Blattberechnung und Kolophon)
                 </td>
@@ -1777,7 +1777,7 @@
           Korrekturprozesses veranschaulicht und in chronologischer Abfolge dargestellt werden:
        </p>
        <p class="MsoNormal">1. Der Schreiber III kopiert auf Bl.
-          <router-link to="/V/040v/facsimile">40v</router-link>b
+          <router-link to="/facsimile/V/040v">40v</router-link>b
           den ›Parzival‹-Text nach einer Vorlage, die den ›Parzival‹ Wolframs von
           Eschenbach in einer *T-Fassung enthielt.
        </p>
@@ -1786,7 +1786,7 @@
           247.19–20 bemerkt. Der Schreiber V, der die Überprüfung vermutlich vorgenommen
           hat, trägt die fehlenden Verse am Rand nach: <i>Niht langer er do habete | v:ſte
              vf die b::</i> (vgl. Bl.
-          <router-link to="/V/040v/facsimile">40v</router-link>b,
+          <router-link to="/facsimile/V/040v">40v</router-link>b,
           linker Rand).
        </p>
        <p class="MsoNormal">3. Bei einem weiteren
@@ -1797,7 +1797,7 @@
           eine ›Parzival‹-Handschrift der *m-Fassung, sondern eine Handschrift mit dem
           Wortlaut der *QR-Gruppe, in der das <i>do</i> fehlt: <i>Niht langer er habete |
              Vaſte vf die brucke er trabte</i> (vgl. Bl.
-          <router-link to="/V/040v/facsimile">40v</router-link>b).
+          <router-link to="/facsimile/V/040v">40v</router-link>b).
           Die Randglosse wird wieder radiert.
        </p>
        <h5><a id="_Toc389815985"></a><a id="_Ref379125439"></a><span style="font-variant:small-caps">1.3.2 </span>Buchschmuck</h5>
@@ -1818,161 +1818,161 @@
           rot-blau gebrochene Fleuronné-Initialen der <span style="letter-spacing:1.0pt">Malerhand
              I</span> finden sich im ersten Teil der Handschrift mit dem ›Parzival‹ Wolframs
           von Eschenbach (Bl.
-          <router-link to="/V/001r/facsimile">1r</router-link>–<router-link to="/V/115r/facsimile">115r</router-link>).
+          <router-link to="/facsimile/V/001r">1r</router-link>–<router-link to="/facsimile/V/115r">115r</router-link>).
           Die ersten sechs dieser Initialen (Bll.
-          <router-link to="/V/017v/facsimile">17v</router-link>b
+          <router-link to="/facsimile/V/017v">17v</router-link>b
           [vierzeilig],
-          <router-link to="/V/020r/facsimile">20r</router-link>b
+          <router-link to="/facsimile/V/020r">20r</router-link>b
           [vierzeilig],
-          <router-link to="/V/022v/facsimile">22v</router-link>a
+          <router-link to="/facsimile/V/022v">22v</router-link>a
           [vierzeilig],
-          <router-link to="/V/025v/facsimile">25v</router-link>a
+          <router-link to="/facsimile/V/025v">25v</router-link>a
           [dreizeilig],
-          <router-link to="/V/054v/facsimile">54v</router-link>a [fünfzeilig]
+          <router-link to="/facsimile/V/054v">54v</router-link>a [fünfzeilig]
           und
-          <router-link to="/V/080r/facsimile">80r</router-link>a
+          <router-link to="/facsimile/V/080r">80r</router-link>a
           [vierzeilig]) sind mit Drôlerien und zoomorphen Mischwesen geschmückt; sie folgen
           jeweils einer roten Überschrift. Keine solche Überschrift findet sich vor der
           siebten, einfacher gestalteten vierzeiligen Initiale auf Bl.
-          <router-link to="/V/114v/facsimile">114v</router-link>b.<a href="#_ftn79" id="_ftnref79"><sup>[79]</sup></a>
+          <router-link to="/facsimile/V/114v">114v</router-link>b.<a href="#_ftn79" id="_ftnref79"><sup>[79]</sup></a>
        </p>
        <p class="MsoNormal">Von der <span style="letter-spacing:1.0pt">Malerhand II</span> hingegen stammen acht – im
           Vergleich mit der ersten Malerhand einfacher geschmückte – drei- bis vierzeilige
           Initialen im zweiten Teil mit dem ›Nuwen Parzifal‹ (Bl.
-          <router-link to="/V/115v/facsimile">115v</router-link>–<router-link to="/V/320v/facsimile">320v</router-link>) (Bll.
-          <router-link to="/V/116r/facsimile">116r</router-link>a
+          <router-link to="/facsimile/V/115v">115v</router-link>–<router-link to="/facsimile/V/320v">320v</router-link>) (Bll.
+          <router-link to="/facsimile/V/116r">116r</router-link>a
           [vierzeilig],
-          <router-link to="/V/126r/facsimile">126r</router-link>a
+          <router-link to="/facsimile/V/126r">126r</router-link>a
           [dreizeilig],
-          <router-link to="/V/140v/facsimile">140v</router-link>a
+          <router-link to="/facsimile/V/140v">140v</router-link>a
           [dreizeilig],
-          <router-link to="/V/141v/facsimile">141v</router-link>b
+          <router-link to="/facsimile/V/141v">141v</router-link>b
           [dreizeilig],
-          <router-link to="/V/154r/facsimile">154r</router-link>b
+          <router-link to="/facsimile/V/154r">154r</router-link>b
           [vierzeilig],
-          <router-link to="/V/159r/facsimile">159r</router-link>b [dreizeilig],
-          <router-link to="/V/198v/facsimile">198v</router-link>b [dreizeilig]
+          <router-link to="/facsimile/V/159r">159r</router-link>b [dreizeilig],
+          <router-link to="/facsimile/V/198v">198v</router-link>b [dreizeilig]
           und
-          <router-link to="/V/307v/facsimile">307v</router-link>a
+          <router-link to="/facsimile/V/307v">307v</router-link>a
           [vierzeilig]), die – mit Ausnahme der ersten, den ›Nuwen Parzifal‹
           einleitendend Initiale – ebenfalls einer roten Überschrift folgen. Die
           Malerhand II verantwortet zudem die achtzeilige Figureninitiale auf Bl.
-          <router-link to="/V/115v/facsimile">115v</router-link>a
+          <router-link to="/facsimile/V/115v">115v</router-link>a
           sowie die erweiterte Verzierung der von Malerhand I gefertigten und verzierten vierzeiligen
           I-Lombarde auf dem Eröffnungsblatt
-          <router-link to="/V/001r/facsimile">1r</router-link>a: Unter
+          <router-link to="/facsimile/V/001r">1r</router-link>a: Unter
           Verwendung der Farben rot, blau und grün und analog zur Ausschmückung der
           Lombarde auf Bl.
-          <router-link to="/V/287v/facsimile">287v</router-link>b
+          <router-link to="/facsimile/V/287v">287v</router-link>b
           (Vogel auch auf Bl.
-          <router-link to="/V/160v/facsimile">160v</router-link>a)
+          <router-link to="/facsimile/V/160v">160v</router-link>a)
           und analog zur Zierleiste mit Medaillon auf Bl.
-          <router-link to="/V/288v/facsimile">288v</router-link>a hat
+          <router-link to="/facsimile/V/288v">288v</router-link>a hat
           die Malerhand II diese Lombarde auf Bl.
-          <router-link to="/V/001r/facsimile">1r</router-link>a nachträglich
+          <router-link to="/facsimile/V/001r">1r</router-link>a nachträglich
           zu einer Eingangsinitiale erweitert.<a href="#_ftn80" id="_ftnref80"><sup>[80]</sup></a></p>
        <h6><a id="_Toc389815987"></a><a id="_Ref379015022"></a>1.3.2.2 Lombarden</h6>
-       <p class="MsoNormal">Bei den rot-blau und grün (Bl. <router-link to="/V/288v/facsimile">288v</router-link>a)
+       <p class="MsoNormal">Bei den rot-blau und grün (Bl. <router-link to="/facsimile/V/288v">288v</router-link>a)
           alternierenden, außer bei den Majuskeln I und P jeweils zweizeiligen <span style="letter-spacing:1.0pt">Lombarden</span>
           mit vorgeschriebenen Buchstaben (gut sichtbar auf Bl.
-          <router-link to="/V/030r/facsimile">30r</router-link>b) finden
+          <router-link to="/facsimile/V/030r">30r</router-link>b) finden
           sich in beiden Teilen von beiden Malerhänden I und II Fleuroné-Ausschmücken in
           der Gegenfarbe und in grün (Bl.
-          <router-link to="/V/287v/facsimile">287v</router-link>b).<a href="#_ftn81" id="_ftnref81"><sup>[81]</sup></a>
+          <router-link to="/facsimile/V/287v">287v</router-link>b).<a href="#_ftn81" id="_ftnref81"><sup>[81]</sup></a>
           Auch hier stammen die qualitativ anspruchsvolleren Verzierungen von der
           Malerhand I:<a id="_Ref355250946"></a><a href="#_ftn82" id="_ftnref82"><sup>[82]</sup></a>
        </p>
        <div>
           <figure style="max-width:24%"><img id="Bild1" src="img/image001.png" alt="Beschreibung: Bildschirmfoto 2017-11-06 um 09" />
              <figcaption>
-                <router-link to="/V/024v/facsimile">24v</router-link>b
+                <router-link to="/facsimile/V/024v">24v</router-link>b
              </figcaption>
           </figure>
           <figure style="max-width:24%"><img src="img/image002.png" alt="Beschreibung: Bildschirmfoto 2017-11-06 um 10" />
              <figcaption>
-                <router-link to="/V/030v/facsimile">30v</router-link>b
+                <router-link to="/facsimile/V/030v">30v</router-link>b
              </figcaption>
           </figure>
           <figure style="max-width:24%"><img id="Bild3" src="img/image003.png" alt="Beschreibung: Bildschirmfoto 2017-11-0 um 10" />
              <figcaption>
-                <router-link to="/V/032r/facsimile">32r</router-link>b
+                <router-link to="/facsimile/V/032r">32r</router-link>b
              </figcaption>
           </figure>
           <figure style="max-width:24%"><img id="Bild4" src="img/image004.png" alt="Beschreibung: Bildschirmfoto 2017-11-06 um 10" />
              <figcaption>
-                <router-link to="/V/032v/facsimile">32v</router-link>a
+                <router-link to="/facsimile/V/032v">32v</router-link>a
              </figcaption>
           </figure>
        </div>
        <div>
           <figure style="max-width:24%"><img id="Bild29" src="img/image005.png" alt="Beschreibung: Bildschirmfoto 2017-11-06 um 10" />
              <figcaption>
-                <router-link to="/V/032v/facsimile">32v</router-link>b
+                <router-link to="/facsimile/V/032v">32v</router-link>b
              </figcaption>
           </figure>
           <figure style="max-width:24%"><img id="Bild30" src="img/image006.png" alt="Beschreibung: Bildschirmfoto 2017-11-06 um 10" />
              <figcaption>
-                <router-link to="/V/042r/facsimile">42r</router-link>b
+                <router-link to="/facsimile/V/042r">42r</router-link>b
              </figcaption>
           </figure>
           <figure style="max-width:24%"><img id="Bild31" src="img/image007.png" alt="Beschreibung: Bildschirmfoto 2017-11-06 um 10" />
              <figcaption>
-                <router-link to="/V/043r/facsimile">43r</router-link>a
+                <router-link to="/facsimile/V/043r">43r</router-link>a
              </figcaption>
           </figure>
           <figure style="max-width:24%"><img id="Bild32" src="img/image008.png" alt="Beschreibung: Bildschirmfoto 2017-11-06 um 10" />
              <figcaption>
-                <router-link to="/V/043v/facsimile">43v</router-link>b
+                <router-link to="/facsimile/V/043v">43v</router-link>b
              </figcaption>
           </figure>
        </div>
        <p class="MsoNormal">Die Lombarden auf den neu eingeklebten Blättern der sechsten und siebten Lage des ersten Teils (Bll.
-          <router-link to="/V/050r/facsimile">50</router-link>,
-          <router-link to="/V/051r/facsimile">51</router-link>,
-          <router-link to="/V/055r/facsimile">55</router-link>,
-          <router-link to="/V/056r/facsimile">56</router-link>,
-          <router-link to="/V/057r/facsimile">57</router-link>,
-          <router-link to="/V/063r/facsimile">63</router-link>,
-          <router-link to="/V/064r/facsimile">64</router-link>/<router-link to="/V/069r/facsimile">69</router-link>,
-          <router-link to="/V/066r/facsimile">66</router-link> und
-          <router-link to="/V/087r/facsimile">87</router-link>) hingegen
+          <router-link to="/facsimile/V/050r">50</router-link>,
+          <router-link to="/facsimile/V/051r">51</router-link>,
+          <router-link to="/facsimile/V/055r">55</router-link>,
+          <router-link to="/facsimile/V/056r">56</router-link>,
+          <router-link to="/facsimile/V/057r">57</router-link>,
+          <router-link to="/facsimile/V/063r">63</router-link>,
+          <router-link to="/facsimile/V/064r">64</router-link>/<router-link to="/facsimile/V/069r">69</router-link>,
+          <router-link to="/facsimile/V/066r">66</router-link> und
+          <router-link to="/facsimile/V/087r">87</router-link>) hingegen
           wurden auschließlich von der Malerhand II verziert:<a id="_Ref354148322"></a></p>
        <div>
           <figure style="max-width:24%"><img id="Bild5" src="img/image009.png" alt="Beschreibung: V_50va" />
              <figcaption>
-                <router-link to="/V/050v/facsimile">50v</router-link>a
+                <router-link to="/facsimile/V/050v">50v</router-link>a
              </figcaption>
           </figure>
           <figure style="max-width:24%"><img id="Bild6" src="img/image010.png" alt="Beschreibung: V_55ra" />
              <figcaption>
-                <router-link to="/V/055r/facsimile">55r</router-link>a
+                <router-link to="/facsimile/V/055r">55r</router-link>a
              </figcaption>
           </figure>
           <figure style="max-width:24%"><img id="Bild7" src="img/image011.png" alt="Beschreibung: V_66ra" />
              <figcaption>
-                <router-link to="/V/066r/facsimile">66r</router-link>a
+                <router-link to="/facsimile/V/066r">66r</router-link>a
              </figcaption>
           </figure>
           <figure style="max-width:24%"><img id="Bild8" src="img/image012.png" alt="Beschreibung: V_69ra" />
              <figcaption>
-                <router-link to="/V/069r/facsimile">69r</router-link>a
+                <router-link to="/facsimile/V/069r">69r</router-link>a
              </figcaption>
           </figure>
        </div>
        <p class="MsoNormal">Wie Fadenausläufer auf den übriggebliebenen Fälzen der herausgeschnittenen Blätter
-          <router-link to="/V/066r/facsimile">66</router-link>r und
-          <router-link to="/V/069r/facsimile">69</router-link>r und
-          <router-link to="/V/087r/facsimile">87</router-link>r
+          <router-link to="/facsimile/V/066r">66</router-link>r und
+          <router-link to="/facsimile/V/069r">69</router-link>r und
+          <router-link to="/facsimile/V/087r">87</router-link>r
           zeigen, waren diese bereits verziert, als sie durch neue Blätter ersetzt wurden.
           Auf Bl.
-          <router-link to="/V/066r/facsimile">66</router-link>r
+          <router-link to="/facsimile/V/066r">66</router-link>r
           stammten die Verzierungen gemäß den noch erkennbaren Fadenausläfern auf dem
           Falz von der Malerhand I.<a href="#_ftn83" id="_ftnref83"><sup>[83]</sup></a> Die Lombarden von
           Malerhand II auf den neu beschriebenen Blättern wurden teilweise vor dem Beschneiden
           und Einkleben verziert (Bl.
-          <router-link to="/V/087r/facsimile">87</router-link>r), teilweise
+          <router-link to="/facsimile/V/087r">87</router-link>r), teilweise
           erst nachdem das neue Blatt eingeklebt worden ist (Bl.
-          <router-link to="/V/069r/facsimile">69</router-link>r).
+          <router-link to="/facsimile/V/069r">69</router-link>r).
        </p>
        <p class="MsoNormal">Für die Genese
           von Hs. V lässt sich aus diesen Beobachtungen Folgendes Ablesen: Die Verzierung
@@ -2006,7 +2006,7 @@
        <div>
           <figure style="max-width:24%"><img src="img/image013.png" alt="Beschreibung: V_80ra" />
              <figcaption>V
-                <router-link to="/V/080r/facsimile">80r</router-link>a
+                <router-link to="/facsimile/V/080r">80r</router-link>a
              </figcaption>
           </figure>
           <figure style="max-width:24%"><img id="Bild10" src="img/image014.png" alt="Beschreibung: WettF0009_172rb" />
@@ -2026,7 +2026,7 @@
           </figure>
           <figure style="max-width:24%"><img src="img/image018.png" alt="Beschreibung: V_Init_25va" />
              <figcaption>V
-                <router-link to="/V/025v/facsimile">25v</router-link>a
+                <router-link to="/facsimile/V/025v">25v</router-link>a
              </figcaption>
           </figure>
        </div>
@@ -2036,7 +2036,7 @@
           </figure>
           <figure style="max-width:24%"><img id="Bild14" src="img/image020.png" alt="Beschreibung: Bildschirmfoto 2016-02-01 um 09" />
              <figcaption>V
-                <router-link to="/V/054v/facsimile">54v</router-link>a
+                <router-link to="/facsimile/V/054v">54v</router-link>a
              </figcaption>
           </figure>
           <figure style="max-width:24%"><img id="Bild12" src="img/image021.png" alt="Beschreibung: Macintosh HDX:Users:richard:Desktop:Bildschirmfoto 2018-01-31 um 14.44.18.png" />
@@ -2046,7 +2046,7 @@
        </div>
        <div>
           <figure style="max-width:24%"><img id="Bild15" src="img/image022.png" alt="Beschreibung: V_10vb" />V
-             <router-link to="/V/010v/facsimile">10v</router-link>b
+             <router-link to="/facsimile/V/010v">10v</router-link>b
           </figure>
           <figure style="max-width:24%"><img id="Bild16" src="img/image023.png" alt="Beschreibung: L_7v" />L <a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348253">7v</a></figure>
           <figure style="max-width:24%"><img id="Bild17" src="img/image024.png" alt="Beschreibung: L_11v" />L<a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348261">11v</a></figure>
@@ -2096,27 +2096,27 @@
        <p class="MsoNormal">Mindestens einmal wurde die Hs. V
           neu gebunden, wobei von den ursprünglich 322 Blättern ein Bogen, also zwei
           Blätter (nach dem im inneren Rand stark verschmutzten Bl.
-          <router-link to="/V/169v/facsimile">169v</router-link>) verloren
+          <router-link to="/facsimile/V/169v">169v</router-link>) verloren
           gingen.<a href="#_ftn93" id="_ftnref93"><sup>[93]</sup></a> Im Vergleich zur
           Abschrift (Hs. V'), die an der entsprechenden Stelle (Bl.
-          <router-link to="/VV/056r/facsimile">56r</router-link>b–
-          <router-link to="/VV/058r/facsimile">58r</router-link>b)
+          <router-link to="/facsimile/VV/056r">56r</router-link>b–
+          <router-link to="/facsimile/VV/058r">58r</router-link>b)
           keine Lücken aufweist, fehlen in der Hs. V die 380 Verse NP 10558–10938 (Sch.
           237.29–246.22), die in Hs. V acht Spalten gefüllt haben müssen, was genau vier
           Seiten oder zwei Blättern entspricht. Ausserdem wurden bei der Neubindung die Blätter
-          <router-link to="/V/176r/facsimile">176</router-link>
+          <router-link to="/facsimile/V/176r">176</router-link>
           und
-          <router-link to="/V/177r/facsimile">177</router-link>
+          <router-link to="/facsimile/V/177r">177</router-link>
           falsch eingeheftet; sie gehören eigentlich hinter Bl.
-          <router-link to="/V/179v/facsimile">179</router-link>, was
+          <router-link to="/facsimile/V/179v">179</router-link>, was
           die richtige Reihenfolge Bl.
-          <router-link to="/V/175r/facsimile">175</router-link>, Bl.
-          <router-link to="/V/178r/facsimile">178</router-link>, Bl.
-          <router-link to="/V/179r/facsimile">179</router-link>, Bl.
-          <router-link to="/V/176r/facsimile">176</router-link>, Bl.
-          <router-link to="/V/177r/facsimile">177</router-link> und
+          <router-link to="/facsimile/V/175r">175</router-link>, Bl.
+          <router-link to="/facsimile/V/178r">178</router-link>, Bl.
+          <router-link to="/facsimile/V/179r">179</router-link>, Bl.
+          <router-link to="/facsimile/V/176r">176</router-link>, Bl.
+          <router-link to="/facsimile/V/177r">177</router-link> und
           Bl.
-          <router-link to="/V/180r/facsimile">180</router-link>
+          <router-link to="/facsimile/V/180r">180</router-link>
           ergibt. Darauf verweisen verschiedene mit Tinte gezeichnete korrespondierende
           Zeichen auf den genannten Blättern (siehe Kap.
           <a href="#_Toc389815971">1.1.1</a>).<a href="#_ftn94" id="_ftnref94"><sup>[94]</sup></a></p>
@@ -2199,11 +2199,11 @@
           Besitzerfamilien von Rappoltstein und von Helfenstein zuweisbaren Benutzereinträgen
           aus dem 16. Jahrhundert auf dem <a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/495093">Vorderspiegel</a>
           und in der Handschrift (siehe <a href="#_Toc389815993">Kap. 1.5</a>) finden sich auf der letzten Seite von
-          Hs. V (Bl. <router-link to="/V/320v/facsimile">320v</router-link>)
+          Hs. V (Bl. <router-link to="/facsimile/V/320v">320v</router-link>)
           sowie auf dem jetzt losgelösten <a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/496505">Hinterspiegel</a>
           Einträge und Federproben, die noch aus dem 14. Jahrhundert stammen. Im
           Anschluss an eine achte mhd. Minneliedstrophe folgt auf Bl.
-          <router-link to="/V/320v/facsimile">320v</router-link>a mit
+          <router-link to="/facsimile/V/320v">320v</router-link>a mit
           brauner Tinte ein anonym überlieferter afr. Minnetext, in dem ein Dame
           angesprochen wird:<a href="#_ftn101" id="_ftnref101"><sup>[101]</sup></a></p>
        <p class="verse"><span lang="fro"><i>ly douz ſouenir de m:y dame jolie</i></span></p>
@@ -2221,7 +2221,7 @@
        <p class="verse"><span lang="fro"><i>::: me rit de :::</i></span></p>
        <p class="verse"><span lang="fro"><i>::: li ſovenir rev::ir</i></span></p>
        <p class="MsoNormal">In der Mitte der Spalte von Bl.
-          <router-link to="/V/320v/facsimile">320v</router-link>b
+          <router-link to="/facsimile/V/320v">320v</router-link>b
           steht mit schwarzer Tinte in großen (imitierten?) gotischen Minuskeln der
           Spruch <i>· ich · bin · gern · | lie·p·:· </i>(L. <span class="versheader">27.<a id="827.30"></a>30<sup>557-02</sup></span>). Am oberen Rand derselben Spalte
           finden sich auf zwei Zeilen verteilt heute unleserliche, identische (?)
@@ -2277,7 +2277,7 @@
           der Einträge von 1552 sind zudem verantwortlich für zwei weitere Bücherzeichen
           mit kurzen Versen im inneren von Hs. V. Von der ersten Schreiberhand stammt
           nämlich eine Marginalie auf Bl.
-          <router-link to="/V/080v/facsimile">80v</router-link> mit den
+          <router-link to="/facsimile/V/080v">80v</router-link> mit den
           Versen L. 506.9–509.15 aus dem Beginn des zehnten Buchs von Wolframs ›Parzival‹,
           in denen berichtet wird, wie der Ritter Gawan das erste Mal auf seine künftige
           Frau Orgeluse trifft und ihr seine Ritterdienste anbietet (L. 508.15–509.9).<a href="#_ftn111" id="_ftnref111"><sup>[111]</sup></a>
@@ -2292,10 +2292,10 @@
        </p>
        <p class="verse"><i>Got halcʒ jn <span class="titel1">ſ</span>einer húot</i><a href="#_ftn112" id="_ftnref112"><sup>[112]</sup></a></p>
        <p class="MsoNormal">(Hs. V, Bl.
-          <router-link to="/V/080v/facsimile">80v</router-link>)
+          <router-link to="/facsimile/V/080v">80v</router-link>)
        </p>
        <p class="MsoNormal">Rechts von diesem Spruch, unterhalb der rechten Spalte von Bl.
-          <router-link to="/V/080v/facsimile">80v</router-link> wird mit
+          <router-link to="/facsimile/V/080v">80v</router-link> wird mit
           der Jahresangabe 1552 zudem das erste der genannten, ebenfalls von derselben
           Hand geschriebene Bücherzeichen mit der Devise <i>IVTG</i> sowie der Nennung
           von <i>EFZRapolſtein</i> und <i>GGZ helffenſtein</i> wiederholt. Darunter folgt
@@ -2308,7 +2308,7 @@
        <p class="MsoNormal">Eine weitere
           Marginalie stammt von der zweiten Schreiberhand der Einträge im Vorderspiegel.
           Sie findet sich am unteren Rand von Bl.
-          <router-link to="/V/153v/facsimile">153v</router-link> (NP 7328–7426;
+          <router-link to="/facsimile/V/153v">153v</router-link> (NP 7328–7426;
           Sch. 165.40–168.1) mit der Schilderung der Liebesbeziehung zwischen König
           Karados und Gyngenier aus der Treueprobe der Szene vom magischen Horn im Buch
           Karados, das innerhalb der ›Première Continuation‹ zu Chrétiens ›Conte du
@@ -2338,7 +2338,7 @@
        <p class="verse">
             <i>vnd jn erle<span class="titel1">ſ</span>t | vom ʒerband</i><a href="#_ftn116" id="_ftnref116"><sup>[116]</sup></a>
        </p>
-       <p class="MsoNormal">(Hs. V, Bl. <router-link to="/V/153v/facsimile">153v</router-link>)
+       <p class="MsoNormal">(Hs. V, Bl. <router-link to="/facsimile/V/153v">153v</router-link>)
        </p>
        <h5><a id="_Toc389815995"></a>1.5.2 V in der Fürstlich Fürstenbergischen Bibliothek in Donaueschingen</h5>
        <p class="MsoNormal">Über Elisabeth von
@@ -2353,8 +2353,8 @@
           Teilbibliotheken gelangte im Jahr 1768 auch Hs. V in den neu errichteten
           Bibliotheksraum der Fürstlich Fürstenbergischen Hofbibliothek in Donaueschingen
           (schwarzer Stempel auf den Bll.
-          <router-link to="/V/001r/facsimile">1r</router-link> und
-          <router-link to="/V/320v/facsimile">320v</router-link>: <i>HOCHF
+          <router-link to="/facsimile/V/001r">1r</router-link> und
+          <router-link to="/facsimile/V/320v">320v</router-link>: <i>HOCHF
              · FÜRSTENB · BIBLIOTHEKE +</i>).<a href="#_ftn117" id="_ftnref117"><sup>[117]</sup></a></p>
        <p class="MsoNormal">                Erstmals ausdrücklich
           erwähnt wird die Aufbewahrung der Handschrift mit die Signatur <i>37.9.</i>
@@ -2409,13 +2409,13 @@
        </p>
        <p class="MsoNormal">Blattzählung: III + 181 Bll. + I
           Bl. Moderne Paginierung (oben rechts) in Drucktypen
-          <router-link to="/VV/001r/facsimile">1</router-link><i>–</i><router-link to="/VV/181r/facsimile">181</router-link>
+          <router-link to="/facsimile/VV/001r">1</router-link><i>–</i><router-link to="/facsimile/VV/181r">181</router-link>
           (wird im Folgenden zitiert). Alte Bleistiftzählung (oben rechts)
-          <router-link to="/VV/001r/facsimile">1</router-link><i>–</i><router-link to="/VV/181r/facsimile">182</router-link>
+          <router-link to="/facsimile/VV/001r">1</router-link><i>–</i><router-link to="/facsimile/VV/181r">182</router-link>
           (springt von
-          <router-link to="/VV/071r/facsimile">71</router-link>
+          <router-link to="/facsimile/VV/071r">71</router-link>
           auf
-          <router-link to="/VV/072r/facsimile">73</router-link>).
+          <router-link to="/facsimile/VV/072r">73</router-link>).
           Pergament unterschiedlicher Dicke mit Löchern (genäht). Vordere und hintere Vorsatzblätter
           aus Papier des 16. Jahrhunderts mit Wasserzeichen Kreis, von Stern überhöht |||
           60 mm, sehr ähnlich BR 488 (Ferrara 1583).
@@ -2440,221 +2440,221 @@
        </p>
        <p class="MsoNormal"><b>Buchblock</b>: 39 x 27,5 cm,
           am Längsschnitt zwei schwarze Tintenstriche. Von Bl.
-          <router-link to="/VV/001r/facsimile">1</router-link> fehlt
+          <router-link to="/facsimile/VV/001r">1</router-link> fehlt
           oben ein gemäß stehengebliebener Buchstabenunterlägen mit Tinte beschriebener
           Streifen von 0,4–0,8 cm (siehe dazu <a href="#_Toc389816007">Kap. 2.3.2</a>). <b>Lagen</b>: II (Vorderspiegel,
           3 Vorsatzbll.) + 7 IV
-          <router-link to="/VV/056v/facsimile">56</router-link>
+          <router-link to="/facsimile/VV/056v">56</router-link>
           + (I-1)
-          <router-link to="/VV/057v/facsimile">57</router-link>
+          <router-link to="/facsimile/VV/057v">57</router-link>
           + III
-          <router-link to="/VV/063v/facsimile">63</router-link>
+          <router-link to="/facsimile/VV/063v">63</router-link>
           + 5 IV
-          <router-link to="/VV/103v/facsimile">103</router-link>
+          <router-link to="/facsimile/VV/103v">103</router-link>
           + III
-          <router-link to="/VV/109v/facsimile">109</router-link>
+          <router-link to="/facsimile/VV/109v">109</router-link>
           + (I-1)
-          <router-link to="/VV/110v/facsimile">110</router-link>
+          <router-link to="/facsimile/VV/110v">110</router-link>
           + 8 IV
-          <router-link to="/VV/174v/facsimile">174</router-link>
+          <router-link to="/facsimile/VV/174v">174</router-link>
           + (IV-1)
-          <router-link to="/VV/181v/facsimile">181</router-link>
+          <router-link to="/facsimile/VV/181v">181</router-link>
           (mit einem Nachsatzbl., Hinterspiegel). Kustoden und Reklamanten der beiden
           Schreiber am Lagendende: Schreiber I (Bl.
-          <router-link to="/VV/001r/facsimile">1r</router-link>a–<router-link to="/VV/048v/facsimile">48v</router-link>b): Kustoden
+          <router-link to="/facsimile/VV/001r">1r</router-link>a–<router-link to="/facsimile/VV/048v">48v</router-link>b): Kustoden
           Bll.
-          <router-link to="/VV/008v/facsimile">8v</router-link>:
+          <router-link to="/facsimile/VV/008v">8v</router-link>:
           <i>·i<sup>9</sup>·</i>;
-          <router-link to="/VV/016v/facsimile">16v</router-link>: <i>·ii·</i>;
-          <router-link to="/VV/024v/facsimile">24v</router-link>: <i>·iii</i>;
-          <router-link to="/VV/032v/facsimile">32v</router-link>: <i>·iiij·</i>;
-          <router-link to="/VV/040v/facsimile">40v</router-link>: <i>·v<sup>9</sup>·</i> und
-          <router-link to="/VV/048v/facsimile">48v</router-link>: <i>·vj·</i>;
+          <router-link to="/facsimile/VV/016v">16v</router-link>: <i>·ii·</i>;
+          <router-link to="/facsimile/VV/024v">24v</router-link>: <i>·iii</i>;
+          <router-link to="/facsimile/VV/032v">32v</router-link>: <i>·iiij·</i>;
+          <router-link to="/facsimile/VV/040v">40v</router-link>: <i>·v<sup>9</sup>·</i> und
+          <router-link to="/facsimile/VV/048v">48v</router-link>: <i>·vj·</i>;
           Reklamant: Bl.
-          <router-link to="/VV/032v/facsimile">32v</router-link>.
+          <router-link to="/facsimile/VV/032v">32v</router-link>.
           Schreiber II (Bl.
-          <router-link to="/VV/049r/facsimile">49r</router-link>a–<router-link to="/VV/181v/facsimile">181v</router-link>b, identisch
+          <router-link to="/facsimile/VV/049r">49r</router-link>a–<router-link to="/facsimile/VV/181v">181v</router-link>b, identisch
           mit Rubrikenindikator [?]): Kustoden (ev. nicht durchwegs von Schreiber II)
           Bll.
-          <router-link to="/VV/056v/facsimile">56v</router-link>:
+          <router-link to="/facsimile/VV/056v">56v</router-link>:
           <i>·vii·</i>;
-          <router-link to="/VV/071v/facsimile">71v</router-link>: <i>vij</i>
+          <router-link to="/facsimile/VV/071v">71v</router-link>: <i>vij</i>
           (auf Rasur);
-          <router-link to="/VV/079v/facsimile">79v</router-link>: <i>·viii·</i>;
-          <router-link to="/VV/087v/facsimile">87v</router-link>:
+          <router-link to="/facsimile/VV/079v">79v</router-link>: <i>·viii·</i>;
+          <router-link to="/facsimile/VV/087v">87v</router-link>:
           Kustode nicht mehr lesbar;
-          <router-link to="/VV/095v/facsimile">95v</router-link>: <i>·x·</i>;
-          <router-link to="/VV/109v/facsimile">109v</router-link>:
+          <router-link to="/facsimile/VV/095v">95v</router-link>: <i>·x·</i>;
+          <router-link to="/facsimile/VV/109v">109v</router-link>:
           <i>·<s>I</s>·</i> (von anderer Hand);
-          <router-link to="/VV/110v/facsimile">110v</router-link>: <i>·<s>II</s>·</i>
+          <router-link to="/facsimile/VV/110v">110v</router-link>: <i>·<s>II</s>·</i>
           (von anderer Hand). Reklamenten Bll.
-          <router-link to="/VV/056v/facsimile">56v</router-link>,
-          <router-link to="/VV/063v/facsimile">63v</router-link>,
-          <router-link to="/VV/109v/facsimile">109v</router-link>,
-          <router-link to="/VV/110v/facsimile">110v</router-link>,
-          <router-link to="/VV/118v/facsimile">118v</router-link>,
-          <router-link to="/VV/126v/facsimile">126v</router-link>,
-          <router-link to="/VV/134v/facsimile">134v</router-link>,
-          <router-link to="/VV/142v/facsimile">142v</router-link>,
-          <router-link to="/VV/150v/facsimile">150v</router-link>,
-          <router-link to="/VV/158v/facsimile">158v</router-link>,
-          <router-link to="/VV/166v/facsimile">166v</router-link>,
-          <router-link to="/VV/174v/facsimile">174v</router-link>,
-          <router-link to="/VV/176v/facsimile">176v</router-link>. Zudem
+          <router-link to="/facsimile/VV/056v">56v</router-link>,
+          <router-link to="/facsimile/VV/063v">63v</router-link>,
+          <router-link to="/facsimile/VV/109v">109v</router-link>,
+          <router-link to="/facsimile/VV/110v">110v</router-link>,
+          <router-link to="/facsimile/VV/118v">118v</router-link>,
+          <router-link to="/facsimile/VV/126v">126v</router-link>,
+          <router-link to="/facsimile/VV/134v">134v</router-link>,
+          <router-link to="/facsimile/VV/142v">142v</router-link>,
+          <router-link to="/facsimile/VV/150v">150v</router-link>,
+          <router-link to="/facsimile/VV/158v">158v</router-link>,
+          <router-link to="/facsimile/VV/166v">166v</router-link>,
+          <router-link to="/facsimile/VV/174v">174v</router-link>,
+          <router-link to="/facsimile/VV/176v">176v</router-link>. Zudem
           findet sich eine nach der Bindung erfolgte (meistens mit Abklatschen auf
           gegenüberliegender Seite = m.A.) fortlaufende Zählung der Quaternionen zur
           Bestimmung des Umfangs von einer weiteren Hand: Bll.
-          <router-link to="/VV/064v/facsimile">64v</router-link>: <i>viij</i>;
-          <router-link to="/VV/072v/facsimile">72v</router-link>: <i>ix</i>;
-          <router-link to="/VV/080v/facsimile">80v</router-link>: <i>x</i>
+          <router-link to="/facsimile/VV/064v">64v</router-link>: <i>viij</i>;
+          <router-link to="/facsimile/VV/072v">72v</router-link>: <i>ix</i>;
+          <router-link to="/facsimile/VV/080v">80v</router-link>: <i>x</i>
           (m.A.);
-          <router-link to="/VV/088v/facsimile">88v</router-link>:
+          <router-link to="/facsimile/VV/088v">88v</router-link>:
           <i>xj</i>;
-          <router-link to="/VV/096v/facsimile">96v</router-link>:
+          <router-link to="/facsimile/VV/096v">96v</router-link>:
           <i>xij</i> (m.A.);
-          <router-link to="/VV/104v/facsimile">104v</router-link>: <i>xiij</i>
+          <router-link to="/facsimile/VV/104v">104v</router-link>: <i>xiij</i>
           (m.A.);
-          <router-link to="/VV/112v/facsimile">112v</router-link>:
+          <router-link to="/facsimile/VV/112v">112v</router-link>:
           <i>xiiij</i> (m.A.);
-          <router-link to="/VV/120v/facsimile">120v</router-link>: <i>xv</i>
+          <router-link to="/facsimile/VV/120v">120v</router-link>: <i>xv</i>
           (m.A.);
-          <router-link to="/VV/128v/facsimile">128v</router-link>:
+          <router-link to="/facsimile/VV/128v">128v</router-link>:
           <i>xvj</i> (m.A.);
-          <router-link to="/VV/136v/facsimile">136v</router-link>: <i>xvii</i>
+          <router-link to="/facsimile/VV/136v">136v</router-link>: <i>xvii</i>
           (m.A.);
-          <router-link to="/VV/144v/facsimile">144v</router-link>:
+          <router-link to="/facsimile/VV/144v">144v</router-link>:
           <i>xviij</i> (m.A.);
-          <router-link to="/VV/152v/facsimile">152v</router-link>: <i>xix</i>
+          <router-link to="/facsimile/VV/152v">152v</router-link>: <i>xix</i>
           (m.A.);
-          <router-link to="/VV/160v/facsimile">160v</router-link>:
+          <router-link to="/facsimile/VV/160v">160v</router-link>:
           <i>xx</i> (m.A.);
-          <router-link to="/VV/176v/facsimile">176v</router-link>: <i>xxij</i>
+          <router-link to="/facsimile/VV/176v">176v</router-link>: <i>xxij</i>
           (m.A.);
-          <router-link to="/VV/168v/facsimile">168v</router-link>:
+          <router-link to="/facsimile/VV/168v">168v</router-link>:
           <i>xxj</i> (m.A.) (über der Zahl eine verwischte Zahl <i>xvi</i> [?]). Der
           Lagenbestimmer schreibt auf Bl.
-          <router-link to="/VV/181v/facsimile">181v</router-link>b
+          <router-link to="/facsimile/VV/181v">181v</router-link>b
           als Ergebnis der Zählung (insgesamt 23 Quaternionen): <span class="k"><i><s>xij j
                    quaterne</s> .</i></span><span class="ls"><i>x. quat(er)ne </i>(= 13 und 10
              Quaternionen?)</span>
                           <b>Schriftraum</b>: ca. 30,4-31 x 19,4-7 cm; zweispaltig,
           Verse abgesetzt, Versalien in eigener Spalte (0,7 cm) durch Tintenlinien
           begrenzt (29,7 [Bl.
-          <router-link to="/VV/001r/facsimile">1</router-link>–<router-link to="/VV/008v/facsimile">8</router-link>] und 31
+          <router-link to="/facsimile/VV/001r">1</router-link>–<router-link to="/facsimile/VV/008v">8</router-link>] und 31
           [meist] x 9 cm, Abstand zwischen den Spalten: 1,3 cm, Abstände der Linien zu
           den Seitenrändern: oben 3 cm, unten 6,5 cm, links 2 cm, rechts 5,5 cm). Endpunkte
           (Einstichlöcher) für die Zeilen am Seitenrand außen, für die vertikale
           Liniierung oben und unter noch sichtbar, 46–48 Zeilen pro Spalte. <b>Schrift</b>:
           Textura, zwei Hände (Bl.
-          <router-link to="/VV/001r/facsimile">1r</router-link>a–<router-link to="/VV/048v/facsimile">48v</router-link>b =
+          <router-link to="/facsimile/VV/001r">1r</router-link>a–<router-link to="/facsimile/VV/048v">48v</router-link>b =
           Schreiber I; Bl.
-          <router-link to="/VV/049r/facsimile">49r</router-link>a–<router-link to="/VV/181v/facsimile">181v</router-link>b =
+          <router-link to="/facsimile/VV/049r">49r</router-link>a–<router-link to="/facsimile/VV/181v">181v</router-link>b =
           Schreiber II). <b>Ausstattung</b>: Eingangsinitiale mit filigrane Fleuroné-Initialen
           (siehe <a href="#_Toc389815985">Kap. 1.3.2</a>), rote und blaue Lombarden (Bll.
-          <router-link to="/VV/001r/facsimile">1</router-link>–<router-link to="/VV/048v/facsimile">48</router-link>
+          <router-link to="/facsimile/VV/001r">1</router-link>–<router-link to="/facsimile/VV/048v">48</router-link>
           teilweise mit kleinen Buchstaben vorgeschrieben, vorgesehene zwei Zeilen nach
           Überschriften teilweise dreizeilig). ### Überschriften in roter (Bl.
-          <router-link to="/VV/077v/facsimile">77v</router-link> in
+          <router-link to="/facsimile/VV/077v">77v</router-link> in
           blauer) Tinte (im Folgenden mit &lt;…&gt; markiert), die Überschriften 1–4
           (Bll.
-          <router-link to="/VV/003r/facsimile">3r</router-link>a,
-          <router-link to="/VV/004r/facsimile">4r</router-link>a,
-          <router-link to="/VV/006r/facsimile">6r</router-link>a und
-          <router-link to="/VV/008v/facsimile">8v</router-link>b) von
+          <router-link to="/facsimile/VV/003r">3r</router-link>a,
+          <router-link to="/facsimile/VV/004r">4r</router-link>a,
+          <router-link to="/facsimile/VV/006r">6r</router-link>a und
+          <router-link to="/facsimile/VV/008v">8v</router-link>b) von
           Schreiber I, ab Bl.
-          <router-link to="/VV/011v/facsimile">11v</router-link>a bis
+          <router-link to="/facsimile/VV/011v">11v</router-link>a bis
           zum Ende der Handschrift von Schreiber II, der die Überschriften teilweise mit
           dünner Schrift dt. oder lat. an den Rändern vorgeschrieben hat (vgl. Bl.
-          <router-link to="/VV/016v/facsimile">16v</router-link>,
+          <router-link to="/facsimile/VV/016v">16v</router-link>,
           unterer Blattrand, mitte), diese Anweisungen an den Rubrikator weichen von den
           Überschriften der Vorlage V ab. Die für die Überschriften vorgesehenen zwei,
           drei oder sieben (Bl.
-          <router-link to="/VV/073v/facsimile">73v</router-link>b)
+          <router-link to="/facsimile/VV/073v">73v</router-link>b)
           Zeilen werden teilweise nicht ausfüllt. Die Handschrift ist durchgängig mit
           zweizeiligen (z.T. auch drei-, zu Beginn einer letzten Zeile auch einzeilig,
           z.B. Bl.
-          <router-link to="/VV/035v/facsimile">35v</router-link>b),
+          <router-link to="/facsimile/VV/035v">35v</router-link>b),
           alternierend in roter und blauer Farbe gemalten Lombarden mit z.T. einfachen
           Verzierungen versehen; eine Vorgabe des Buchstabens ist z.B. auf Bl.
-          <router-link to="/VV/048v/facsimile">48v</router-link>b
+          <router-link to="/facsimile/VV/048v">48v</router-link>b
           erkennbar. Die Lombarden sind vor den von Hand B stammenden Überschriften angefertigt
           worden (vgl. z.B. Bl.
-          <router-link to="/VV/045v/facsimile">45v</router-link>a,
-          <router-link to="/VV/050r/facsimile">50r</router-link>b). Rubrizierung
+          <router-link to="/facsimile/VV/045v">45v</router-link>a,
+          <router-link to="/facsimile/VV/050r">50r</router-link>b). Rubrizierung
           der Versanfänge (Versalien) Bll.
-          <router-link to="/VV/001r/facsimile">1r</router-link>–<router-link to="/VV/008v/facsimile">8v</router-link>,
-          <router-link to="/VV/035r/facsimile">35r</router-link>b (Zeile
+          <router-link to="/facsimile/VV/001r">1r</router-link>–<router-link to="/facsimile/VV/008v">8v</router-link>,
+          <router-link to="/facsimile/VV/035r">35r</router-link>b (Zeile
           1–23),
-          <router-link to="/VV/058v/facsimile">58v</router-link>,
-          <router-link to="/VV/059r/facsimile">59r</router-link>,
-          <router-link to="/VV/083v/facsimile">83v</router-link>a (Zeile
+          <router-link to="/facsimile/VV/058v">58v</router-link>,
+          <router-link to="/facsimile/VV/059r">59r</router-link>,
+          <router-link to="/facsimile/VV/083v">83v</router-link>a (Zeile
           1–38) und
-          <router-link to="/VV/083v/facsimile">v</router-link>b
+          <router-link to="/facsimile/VV/083v">v</router-link>b
           (Zeile 1–33), Bll.
-          <router-link to="/VV/092v/facsimile">92v</router-link>–<router-link to="/VV/094r/facsimile">94r</router-link>,
-          <router-link to="/VV/114v/facsimile">114v</router-link>–<router-link to="/VV/115r/facsimile">115r</router-link>,
-          <router-link to="/VV/123v/facsimile">123v</router-link>–<router-link to="/VV/124r/facsimile">124r</router-link>,
-          <router-link to="/VV/130v/facsimile">130v</router-link>–<router-link to="/VV/131r/facsimile">131r</router-link>,
-          <router-link to="/VV/145v/facsimile">145v</router-link>,
-          <router-link to="/VV/146v/facsimile">146v</router-link>–<router-link to="/VV/147v/facsimile">147v</router-link>,
-          <router-link to="/VV/148v/facsimile">148v</router-link>–<router-link to="/VV/159v/facsimile">159v</router-link>
+          <router-link to="/facsimile/VV/092v">92v</router-link>–<router-link to="/facsimile/VV/094r">94r</router-link>,
+          <router-link to="/facsimile/VV/114v">114v</router-link>–<router-link to="/facsimile/VV/115r">115r</router-link>,
+          <router-link to="/facsimile/VV/123v">123v</router-link>–<router-link to="/facsimile/VV/124r">124r</router-link>,
+          <router-link to="/facsimile/VV/130v">130v</router-link>–<router-link to="/facsimile/VV/131r">131r</router-link>,
+          <router-link to="/facsimile/VV/145v">145v</router-link>,
+          <router-link to="/facsimile/VV/146v">146v</router-link>–<router-link to="/facsimile/VV/147v">147v</router-link>,
+          <router-link to="/facsimile/VV/148v">148v</router-link>–<router-link to="/facsimile/VV/159v">159v</router-link>
           (lediglich die Versoseiten),
-          <router-link to="/VV/160r/facsimile">160r</router-link>–<router-link to="/VV/160v/facsimile">v</router-link>.
+          <router-link to="/facsimile/VV/160r">160r</router-link>–<router-link to="/facsimile/VV/160v">v</router-link>.
           <b>Korrekturen/Nachträge</b>:
           Wenige Korrekturen von der jeweiligen Schreiberhand in schwarzer Tinte und
           durch Streichung mit roter (z.B. Bl.
-          <router-link to="/VV/026v/facsimile">26v</router-link>b: <span class="titel1"><i><s>ſ</s></i></span><i><s>pringen</s></i> <span class="titel1"><i>ſ</i></span><i>ingen</i>)
+          <router-link to="/facsimile/VV/026v">26v</router-link>b: <span class="titel1"><i><s>ſ</s></i></span><i><s>pringen</s></i> <span class="titel1"><i>ſ</i></span><i>ingen</i>)
           und schwarzer (z.B Bl.
-          <router-link to="/VV/059v/facsimile">59v</router-link>a)
+          <router-link to="/facsimile/VV/059v">59v</router-link>a)
           Tinte oder durch Verweiszeichen (z.B. Bl.
-          <router-link to="/VV/032v/facsimile">32v</router-link>a).
+          <router-link to="/facsimile/VV/032v">32v</router-link>a).
           Vereinzelt Korrekturen von anderer, spät. Hand (z.B. Bl.
-          <router-link to="/VV/072v/facsimile">72v</router-link>b). Bl.
-          <router-link to="/VV/005r/facsimile">5r</router-link>:
+          <router-link to="/facsimile/VV/072v">72v</router-link>b). Bl.
+          <router-link to="/facsimile/VV/005r">5r</router-link>:
           Markierung (schwarze Tinte) der Verse NP 741–776 mit Strich entlang der Spalte
           sowie mit Zeigehand; Bl.
-          <router-link to="/VV/008v/facsimile">8v</router-link>b und
-          <router-link to="/VV/013r/facsimile">13r</router-link>a
+          <router-link to="/facsimile/VV/008v">8v</router-link>b und
+          <router-link to="/facsimile/VV/013r">13r</router-link>a
           jeweils zwei Griffelkreuze; Bl.
-          <router-link to="/VV/014r/facsimile">14r</router-link>,
+          <router-link to="/facsimile/VV/014r">14r</router-link>,
           unterer Rand, mitte, schwarze Tinte: <i>M</i> oder <i>III</i> (?); Bl.
-          <router-link to="/VV/057v/facsimile">57v</router-link>b bemerkter
+          <router-link to="/facsimile/VV/057v">57v</router-link>b bemerkter
           und durch Streichung korrigierter Augensprung; Bl.
-          <router-link to="/VV/061r/facsimile">61r</router-link>b:
+          <router-link to="/facsimile/VV/061r">61r</router-link>b:
           Vers nachgetragen; Bl.
-          <router-link to="/VV/063v/facsimile">63v</router-link>
+          <router-link to="/facsimile/VV/063v">63v</router-link>
           Notiz von der Schreiberhand II: <i>die erst</i> (neben der Kustode); Bl.
-          <router-link to="/VV/080r/facsimile">80r</router-link>
+          <router-link to="/facsimile/VV/080r">80r</router-link>
           Schraffur am Rand; Bl.
-          <router-link to="/VV/090r/facsimile">90r</router-link>b:
+          <router-link to="/facsimile/VV/090r">90r</router-link>b:
           Zwei Verse gestrichen; Bl.
-          <router-link to="/VV/096v/facsimile">96v</router-link>
+          <router-link to="/facsimile/VV/096v">96v</router-link>
           unleserlicher Randeintrag; Bl.
-          <router-link to="/VV/126r/facsimile">126r</router-link> auf
+          <router-link to="/facsimile/VV/126r">126r</router-link> auf
           Höhe der Lagenbestimmungen: <i>e<span class="titel1">ſ</span>t</i> (?); Bl.
-          <router-link to="/VV/148v/facsimile">148v</router-link>,
+          <router-link to="/facsimile/VV/148v">148v</router-link>,
           linker Rand: Unvollständige Zeichnung mit Tinte: Kübelhelm mit Helmzier (Hörner)
           und Helmdecke; Bl.
-          <router-link to="/VV/150r/facsimile">150r</router-link>:
+          <router-link to="/facsimile/VV/150r">150r</router-link>:
           Kreis am Rand; Bl.
-          <router-link to="/VV/177r/facsimile">177r</router-link>
+          <router-link to="/facsimile/VV/177r">177r</router-link>
           Kreuz am Rand. <b>Zustand</b>: Pergament teilweise fleckig, großer Tintenfleck
           auf Bl.
-          <router-link to="/VV/111r/facsimile">111r</router-link>b
+          <router-link to="/facsimile/VV/111r">111r</router-link>b
           und
-          <router-link to="/VV/112v/facsimile">112v</router-link>a
+          <router-link to="/facsimile/VV/112v">112v</router-link>a
           (mit Textverlust), Risse und Löcher im Pergament vor der Beschriftung teilweise
           genäht, Fäden verloren (vgl. Bll.
-          <router-link to="/VV/058r/facsimile">58</router-link>,
-          <router-link to="/VV/060r/facsimile">60</router-link>,
-          <router-link to="/VV/067r/facsimile">67</router-link>,
-          <router-link to="/VV/087r/facsimile">87</router-link>,
-          <router-link to="/VV/136r/facsimile">136</router-link>,
-          <router-link to="/VV/142r/facsimile">142</router-link>,
-          <router-link to="/VV/170r/facsimile">170</router-link> und
-          <router-link to="/VV/172r/facsimile">172</router-link>), letztes
+          <router-link to="/facsimile/VV/058r">58</router-link>,
+          <router-link to="/facsimile/VV/060r">60</router-link>,
+          <router-link to="/facsimile/VV/067r">67</router-link>,
+          <router-link to="/facsimile/VV/087r">87</router-link>,
+          <router-link to="/facsimile/VV/136r">136</router-link>,
+          <router-link to="/facsimile/VV/142r">142</router-link>,
+          <router-link to="/facsimile/VV/170r">170</router-link> und
+          <router-link to="/facsimile/VV/172r">172</router-link>), letztes
           Papierblatt des ersten Binio verso verschmutzt durch Abdruck Stempel auf Bl.
-          <router-link to="/VV/001r/facsimile">1r</router-link> am
+          <router-link to="/facsimile/VV/001r">1r</router-link> am
           Rand.
        </p>
        <p class="MsoNormal"><b>Schreibsprache</b>:
@@ -2666,7 +2666,7 @@
              Parzifal‹ (stark gekürzt)</b></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/001r/facsimile">1r</router-link>a
+          <router-link to="/facsimile/VV/001r">1r</router-link>a
        </div>
        <div class="contentbox-right"><b>Prosaüberleitung
              zum ›Nuwen Parzifal‹ mit Jahresangabe 1336 </b>(NP 0-1<sup>2</sup>; Sch. XIII):
@@ -2692,7 +2692,7 @@
        <div class="contentbox-right metadata">Lit. zum Text: <span style="font-variant:small-caps">Scholz</span> (1987), S. 97, Anm.3.</div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/001r/facsimile">1r</router-link>a–<router-link to="/VV/001r/facsimile">1r</router-link>b
+          <router-link to="/facsimile/VV/001r">1r</router-link>a–<router-link to="/facsimile/VV/001r">1r</router-link>b
        </div>
        <div class="contentbox-right">[1.] <b>Sieben Minneliedstrophen</b> (›Rappoltsteiner Florilegium‹) (ohne Autorzuweisungen)</div>
        <div style="clear:both"></div>
@@ -2856,7 +2856,7 @@
        </div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/001r/facsimile">1r</router-link>b–<router-link to="/VV/171r/facsimile">171r</router-link>b
+          <router-link to="/facsimile/VV/001r">1r</router-link>b–<router-link to="/facsimile/VV/171r">171r</router-link>b
        </div>
        <div class="contentbox-right">[2.]<b>
              Klaus Wisse und Philipp Colin, ›Nuwer Parzifal‹</b> (stark gekürzt gegenüber V)
@@ -2866,7 +2866,7 @@
        </div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/001r/facsimile">1r</router-link>b–<router-link to="/VV/006r/facsimile">6r</router-link>b
+          <router-link to="/facsimile/VV/001r">1r</router-link>b–<router-link to="/facsimile/VV/006r">6r</router-link>b
        </div>
        <div class="contentbox-right">[2.1]
           <b>›Première Continuation‹ zu Chrétien de Troyes, ›Roman de Perceval ou le
@@ -2876,14 +2876,14 @@
              von mielant</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/006r/facsimile">6r</router-link>b
+          <router-link to="/facsimile/VV/006r">6r</router-link>b
        </div>
        <div class="contentbox-right">[2.2]
           <b>Überleitung</b> (NP 946–965; Sch. 22.38–23.11): <i>Er vorhte ſie aber niht
              einn ſant… – …Gelobet wart zv handen an</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/006r/facsimile">6r</router-link>b–<router-link to="/VV/036v/facsimile">36v</router-link>b
+          <router-link to="/facsimile/VV/006r">6r</router-link>b–<router-link to="/facsimile/VV/036v">36v</router-link>b
        </div>
        <div class="contentbox-right">[2.3]
           <b>›Première Continuation‹</b>, Mischredaktion, Ep. I,10 und II,1 bis III,14,
@@ -2891,28 +2891,28 @@
              ich v́ch vor geſaget han<span class="ras">… – …</span>Hiez er karados briebras</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/036v/facsimile">36v</router-link>b
+          <router-link to="/facsimile/VV/036v">36v</router-link>b
        </div>
        <div class="contentbox-right">[2.4]
           <b>Einschub</b> (Übersetzung des franz. Namens) (NP 6785–6786; Sch. 153.32–33):
           <i>Briebras klein arm genennet iſt | Wan man ez wol kos alle friſt</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/036v/facsimile">36v</router-link>b–<router-link to="/VV/040v/facsimile">40v</router-link>a
+          <router-link to="/facsimile/VV/036v">36v</router-link>b–<router-link to="/facsimile/VV/040v">40v</router-link>a
        </div>
        <div class="contentbox-right">[2.5]
           <b>›Première Continuation‹</b>, Mischredaktion, Ep. III,14–16, dt. (Roach I,
           8003–8729) (NP 6787–7499; Sch. 153.34–169.28): <i>Da der ſlange was anbehaft<span class="ras">… – …</span>Dar vmb ſie ſprach trinkent ſicher</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/040v/facsimile">40v</router-link>a
+          <router-link to="/facsimile/VV/040v">40v</router-link>a
        </div>
        <div class="contentbox-right">[2.6]
           <b>Einschub</b> (NP 7500–7506; Sch. 169.29–35): <i>Karados deſte froͤlicher… –
              …Mit frevden alſus da lebt er</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/040v/facsimile">40v</router-link>a–<router-link to="/VV/051v/facsimile">51v</router-link>b
+          <router-link to="/facsimile/VV/040v">40v</router-link>a–<router-link to="/facsimile/VV/051v">51v</router-link>b
        </div>
        <div class="contentbox-right">[2.7]
           <b>›Première Continuation‹</b>, Mischredaktion, Ep. III,16 und IV,1 bis V,4,
@@ -2921,14 +2921,14 @@
              gar</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/051v/facsimile">51v</router-link>b
+          <router-link to="/facsimile/VV/051v">51v</router-link>b
        </div>
        <div class="contentbox-right">[2.8]
           <b>Einschub</b> (NP 9664–9668; Sch. 271.25–29): <i>Daz kvmet von krankem herzen
              dar… – …Daz ime tet harte groſzen pin</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/051v/facsimile">51v</router-link>b–<router-link to="/VV/066r/facsimile">66r</router-link>a
+          <router-link to="/facsimile/VV/051v">51v</router-link>b–<router-link to="/facsimile/VV/066r">66r</router-link>a
        </div>
        <div class="contentbox-right">[2.9]
           <b>›Première Continuation‹</b>, Mischredaktion, Ep. V,4 und V, 6–8, dt. (Roach
@@ -2937,14 +2937,14 @@
              hette<span class="ras">… – …Do wart er gehei</span>ſzen dedimaz</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/066r/facsimile">66r</router-link>a
+          <router-link to="/facsimile/VV/066r">66r</router-link>a
        </div>
        <div class="contentbox-right">[2.10]
           <b>Einschub</b> (Übersetzung des franz. Namens) (NP 12494; Sch. 281.8): <i>Daz
              gicht in ducz terlin</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/066r/facsimile">66r</router-link>a–<router-link to="/VV/073v/facsimile">73v</router-link>a
+          <router-link to="/facsimile/VV/066r">66r</router-link>a–<router-link to="/facsimile/VV/073v">73v</router-link>a
        </div>
        <div class="contentbox-right">[2.11]
           <b>›Première Continuation‹</b>, Mischredaktion, Ep. V,8 bis VI,8, dt. (Roach I,
@@ -2952,7 +2952,7 @@
           gegenüber V): <span class="init"><i>Die </i></span><i>ſchone ivncfrouwe fin<span class="ras">… – …Al</span>s ich vor ſeite vnd aber ſage</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/073v/facsimile">73v</router-link>a–b
+          <router-link to="/facsimile/VV/073v">73v</router-link>a–b
        </div>
        <div class="contentbox-right">[2.12]
           <b>›Seconde Continuation‹ zu Chrétien de Troyes, ›Roman de Perceval ou le Conte
@@ -2961,7 +2961,7 @@
              yme erging</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/073v/facsimile">73v</router-link>b
+          <router-link to="/facsimile/VV/073v">73v</router-link>b
        </div>
        <div class="contentbox-right">[2.13]
           <b>Explizit und Überleitung</b> (ohne Vorlage) (NP 13980<sup>0</sup>; Sch.
@@ -2969,7 +2969,7 @@
              mit dem | horne&gt;</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/073v/facsimile">73v</router-link>b
+          <router-link to="/facsimile/VV/073v">73v</router-link>b
        </div>
        <div class="contentbox-right">[2.14]
           <b>Harmonisierung des Chrétien-Text mit dem ›Parzival‹ Wolframs von
@@ -2977,7 +2977,7 @@
              – …Do er geſtreit mit gawan vnd gramolanz&gt;</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/073v/facsimile">73v</router-link>b–<router-link to="/VV/079v/facsimile">79v</router-link>a
+          <router-link to="/facsimile/VV/073v">73v</router-link>b–<router-link to="/facsimile/VV/079v">79v</router-link>a
        </div>
        <div class="contentbox-right">[2.15]
           <b>›Seconde Continuation‹</b>, Mischredaktion, Prolog und Ep. 1–9, dt. (Roach
@@ -2986,14 +2986,14 @@
              ros hie veſteclich</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/079v/facsimile">79v</router-link>a
+          <router-link to="/facsimile/VV/079v">79v</router-link>a
        </div>
        <div class="contentbox-right">[2.16]
           <b>Einschub</b> (ohne Vorlage) (NP 15134–15140; Sch. 340.6–12): <i>Hute dar ich
              reit herin… – …So envinde ich <span class="titel1">ouch min ros nicht</span></i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/079v/facsimile">79v</router-link>a–<router-link to="/VV/134v/facsimile">134v</router-link>a
+          <router-link to="/facsimile/VV/079v">79v</router-link>a–<router-link to="/facsimile/VV/134v">134v</router-link>a
        </div>
        <div class="contentbox-right"><span lang="fr">[2.17] <b>›Seconde
                 Continuation‹ zu Chrétien de Troyes, ›Roman de Perceval ou le Conte du Graal‹</b>,
@@ -3002,7 +3002,7 @@
              dy richt… – …Parzifal tro<span class="titel1">ſte ſich zv dem mol</span></i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/134v/facsimile">134v</router-link>a–<router-link to="/VV/171r/facsimile">171r</router-link>b
+          <router-link to="/facsimile/VV/134v">134v</router-link>a–<router-link to="/facsimile/VV/171r">171r</router-link>b
        </div>
        <div class="contentbox-right"><span lang="EN-US">[2.18] <b>›Troisième
                 Continuation‹ zu Chrétien de Troyes, ›Roman de Perceval ou le Conte du Graal‹</b>,
@@ -3011,7 +3011,7 @@
              nacht</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/171r/facsimile">171r</router-link>b–<router-link to="/VV/179v/facsimile">179v</router-link>b
+          <router-link to="/facsimile/VV/171r">171r</router-link>b–<router-link to="/facsimile/VV/179v">179v</router-link>b
        </div>
        <div class="contentbox-right">[2.19]
           <b>Wolframs ›Parzival‹, Buch XV–XVI</b> (L. 734.1–827.30), mit Einschüben aus
@@ -3020,7 +3020,7 @@
        </div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/VV/171r/facsimile">171r</router-link>b–<router-link to="/VV/174v/facsimile">174v</router-link>a [2.19.1]
+          <router-link to="/facsimile/VV/171r">171r</router-link>b–<router-link to="/facsimile/VV/174v">174v</router-link>a [2.19.1]
           <b>Wolframs ›Parzival‹, Buch XV</b> (L. 734.1<sup>0</sup> und L. 734.1–768.30):
           <i>&lt;<span class="titel1">Hie komet parzifal zv ſinem bruder | ferevis vnd
                 vichtet mit yme&gt;</span></i></div>
@@ -3028,13 +3028,13 @@
        <div class="contentbox-right"><span class="init"><b><i>V</i></b></span><i>il lute dez hat verdroſzen… – …Danne min got Juppiter</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/VV/174v/facsimile">174v</router-link><span lang="EN-US">a [2.19.2] <b>Einschub: ›Troisième
+          <router-link to="/facsimile/VV/174v">174v</router-link><span lang="EN-US">a [2.19.2] <b>Einschub: ›Troisième
                 Continuation‹</b>, Ep. 29, dt. </span>(Roach V, 42335–42354) (L. 769.28<sup>1–20</sup>;
           Sch. LI): <span class="init"><b><i>S</i></b></span><i>ie retten mit einander vil
              gar… – …Trurte alle die ritterſchaft</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/VV/174v/facsimile">174v</router-link>a [2.19.3]
+          <router-link to="/facsimile/VV/174v">174v</router-link>a [2.19.3]
           <b>Einschübe</b> (L. 769.28<sup>21–22</sup> = Anpassung an Wolfram von
           Eschenbach, ›Parzival‹; 769.29<sup>a</sup>–769.30<sup>a</sup> und 769.30<sup>2</sup>;
           Sch. LI): <i>Dar nach ſprach der heiden rich | Kunic artus nv hore mich | Jch
@@ -3042,18 +3042,18 @@
              betwungen</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/VV/174v/facsimile">174v</router-link>a–b
+          <router-link to="/facsimile/VV/174v">174v</router-link>a–b
           [2.19.4] <b>Wolframs ›Parzival‹, Buch XV</b> (770.1–772.5<sup>4</sup>): <span class="init"><b><i>D</i></b></span><i>er kvnig papirus von trogriente… – …Der iſt
              nach vile aldo zv ſtunt</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/VV/174v/facsimile">174v</router-link>b–<router-link to="/VV/175r/facsimile">175r</router-link><span lang="EN-US">a [2.19.5] <b>Einschub: ›Troisième
+          <router-link to="/facsimile/VV/174v">174v</router-link>b–<router-link to="/facsimile/VV/175r">175r</router-link><span lang="EN-US">a [2.19.5] <b>Einschub: ›Troisième
                 Continuation‹</b>, Ep. 29, dt. </span>(Roach V, 42335–42428) (772.30<sup>1–71-a</sup>;
           Sch. LI–LIII): <i>Dar nach ſeite aber parzifal… – …Waz ie der ritter im tet
              bekant</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/VV/175r/facsimile">175r</router-link>a–<router-link to="/VV/176r/facsimile">176r</router-link><span lang="EN-US">a [2.19.6] <b>Wolframs ›Parzival‹,
+          <router-link to="/facsimile/VV/175r">175r</router-link>a–<router-link to="/facsimile/VV/176r">176r</router-link><span lang="EN-US">a [2.19.6] <b>Wolframs ›Parzival‹,
                 Buch XV</b> (773.1–784.28)</span></div>
        <div style="clear:both"></div>
        <div class="contentbox-right"><span lang="goh"><span class="init"><b><i>D</i></b></span><i>er heiden was von herzen fro… – …An den
@@ -3061,74 +3061,74 @@
        </div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/VV/176r/facsimile">176r</router-link>a [2.19.7]
+          <router-link to="/facsimile/VV/176r">176r</router-link>a [2.19.7]
           <b>Einschub: ›Troisième Continuation‹</b>, Ep. 29 und 30, dt. (Roach V, 42464–42468
           und 42469–42473) (<span class="versheader">784.28<sup>1–10</sup></span>; Sch.
           LIII–LIV): <i>Kvnig artus in groſze freude quam… – …Sie gelobetens ime
              allzuhant</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/VV/176r/facsimile">176r</router-link>a–
-          <router-link to="/VV/176v/facsimile">v</router-link>a [2.19.8]
+          <router-link to="/facsimile/VV/176r">176r</router-link>a–
+          <router-link to="/facsimile/VV/176v">v</router-link>a [2.19.8]
           <b>Wolframs ›Parzival‹, Buch XV</b> (L. 784.29–786.30): <i>Sie ſtunden vf vber
              al den ring… – …Kvndrie vnd die zwene hin riten ſie</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/VV/176v/facsimile">176v</router-link>a [2.19.9]
+          <router-link to="/facsimile/VV/176v">176v</router-link>a [2.19.9]
           <b>Einschub</b> (L. 786.30<sup>1–2</sup>; Sch. LIV): <i>Kvnig artus vnd die
              tauelrunder alle. | riten mit in mit groſzem ſchalle</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/VV/176v/facsimile">176v</router-link>a [2.19.10]
+          <router-link to="/facsimile/VV/176v">176v</router-link>a [2.19.10]
           <b>Wolframs ›Parzival‹, Buch XVI</b> (L. 787.1–789.2): <span class="init"><b><i>A</i></b></span><i>nfortes
              vnd die ſine… – …Vnd ferevis der ferch gemal</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/VV/176v/facsimile">176v</router-link>a [2.19.11]
+          <router-link to="/facsimile/VV/176v">176v</router-link>a [2.19.11]
           <b>Einschub</b> (L. 789.2<sup>1–2</sup>; Sch. LIV): <i>Vnd kunig artus der
              riche | Vnd ſie alleſamt geliche</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/VV/176v/facsimile">176v</router-link>a–
-          <router-link to="/VV/177r/facsimile">177r</router-link>a [2.19.12]
+          <router-link to="/facsimile/VV/176v">176v</router-link>a–
+          <router-link to="/facsimile/VV/177r">177r</router-link>a [2.19.12]
           <b>Wolframs ›Parzival‹, Buch XVI</b> (L. 789.3–793.28): <i>Mit freude uf
              Muntſchalfaſche riten… – …Den ſwarczen vnd den wiſen</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/VV/177r/facsimile">177r</router-link>a [2.19.13]
+          <router-link to="/facsimile/VV/177r">177r</router-link>a [2.19.13]
           <b>Einschub</b> (L. 793.28<sup>1-2</sup>; Sch. LIV): <i>Vnd die tauelrunder
              alle gar | Die mit artuſe waren kome(n) dar</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/VV/177r/facsimile">177r</router-link><span lang="EN-US">a–</span><router-link to="/VV/178v/facsimile">178v</router-link><span lang="EN-US">b [2.19.14] <b>Wolframs ›Parzival‹,
+          <router-link to="/facsimile/VV/177r">177r</router-link><span lang="EN-US">a–</span><router-link to="/facsimile/VV/178v">178v</router-link><span lang="EN-US">b [2.19.14] <b>Wolframs ›Parzival‹,
                 Buch XVI</b> (L. 793.29–807.30; 807.20-1–2; 815.1-a–2-a; 816.9-a–820.8): <i>Vf
                 mvnſchalfaſche wart geriten… – … </i></span><i>Mit verſagen er ſich werte</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/VV/178v/facsimile">178v</router-link>b–<router-link to="/VV/179r/facsimile">179r</router-link>b [2.19.15]
+          <router-link to="/facsimile/VV/178v">178v</router-link>b–<router-link to="/facsimile/VV/179r">179r</router-link>b [2.19.15]
           <b>Einschub: ›Troisième Continuation‹</b>, Ep. 30, dt. (Roach V, 42478–42526)
           und sechs Schlussverse (L. 820.16<sup>1–54</sup>; Sch. LIV–LVI): <span class="init"><b><i>D</i></b></span><i>: waren ſie alle zu hofe fro … – …Wider
              heim in ſin lant</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/VV/179r/facsimile">179r</router-link>b–
-          <router-link to="/VV/179v/facsimile">v</router-link>a [2.19.16]
+          <router-link to="/facsimile/VV/179r">179r</router-link>b–
+          <router-link to="/facsimile/VV/179v">v</router-link>a [2.19.16]
           <b>Wolframs ›Parzival‹, Buch XVI</b> (L. 820.17–823.10): <span class="init"><b><i>F</i></b></span><i>reude
              vnd kurzewile do pflag… – …Waz frouwe vber manig lant wit</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/VV/179v/facsimile">179v</router-link><span lang="EN-US">a [2.19.17] <b>Einschub: ›Troisième
+          <router-link to="/facsimile/VV/179v">179v</router-link><span lang="EN-US">a [2.19.17] <b>Einschub: ›Troisième
                 Continuation‹</b>, Ep. 30, dt. </span>(Roach V, 42527–42552) und zwei
           Schlussverse (L. 823.10<sup>1–28</sup>; Sch. LVI): <span class="init"><b><i>P</i></b></span><i>arzifal
              bleip aldo fur war… – …Kvnig malun gar frumklich</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-right">
-          <router-link to="/VV/179v/facsimile">179v</router-link>a–b [2.19.18]
+          <router-link to="/facsimile/VV/179v">179v</router-link>a–b [2.19.18]
           <b>Wolframs ›Parzival‹, Buch XVI</b> (L. 823.11-a–827.30): <i>Ouch ſage ich uch
              von lohelagrin… – …Die mvz mir ſuſzer worte iehen</i></div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/179v/facsimile">179v</router-link>b–<router-link to="/VV/181v/facsimile">181v</router-link>b
+          <router-link to="/facsimile/VV/179v">179v</router-link>b–<router-link to="/facsimile/VV/181v">181v</router-link>b
        </div>
        <div class="contentbox-right">[3.] <b>Philipp Colin, Epilog zum ›Rappoltsteiner Parzifal‹</b> (L. 827.30<sup>1–558</sup>;
           Sch. 845.18–858.26 und <span style="font-size:0.9rem">XV</span>) (um die 180 Minusverse gegenüber V):
@@ -3156,7 +3156,7 @@
        </div>
        <div style="clear:both"></div>
        <div class="contentbox-left">
-          <router-link to="/VV/181v/facsimile">181v</router-link>b
+          <router-link to="/facsimile/VV/181v">181v</router-link>b
        </div>
        <div class="contentbox-right"><b>Blattberechnung</b>
           (L. 827.30<sup>558-0</sup>): <span class="k"><i><s>xij y quaterne</s> .</i></span><span class="ls"><i>x. quat(er)ne</i></span></div>
@@ -3188,21 +3188,21 @@
        <p class="MsoNormal">Von dem ersten der beiden am
           Codex beteiligten Schreiber<a href="#_ftn130" id="_ftnref130"><sup>[130]</sup></a> stammen das Initium der
           Eingangsseite in roter Tinte (Bl.
-          <router-link to="/VV/001r/facsimile">1r</router-link>a)
+          <router-link to="/facsimile/VV/001r">1r</router-link>a)
           sowie die ersten sechs mit schwarzer Tinte beschriebenen Lagen (Bl.
-          <router-link to="/VV/001r/facsimile">1r</router-link>a–<router-link to="/VV/048v/facsimile">48v</router-link>b),
+          <router-link to="/facsimile/VV/001r">1r</router-link>a–<router-link to="/facsimile/VV/048v">48v</router-link>b),
           die er jeweils mit römischen Ziffern numeriert. Auf Bl.
-          <router-link to="/VV/049r/facsimile">49r</router-link>a
+          <router-link to="/facsimile/VV/049r">49r</router-link>a
           setzt auf einer neuen Lage der zweite Schreiber ein und kopiert den restlichen
           Text, wobei er die Lagen ebenfalls mit römischen Ziffern nummeriert. Die vier
           ersten (Bl.
-          <router-link to="/VV/003r/facsimile">3r</router-link>a,
-          <router-link to="/VV/004r/facsimile">4r</router-link>a,
-          <router-link to="/VV/006r/facsimile">6r</router-link>a und
-          <router-link to="/VV/008v/facsimile">8v</router-link>b) der
+          <router-link to="/facsimile/VV/003r">3r</router-link>a,
+          <router-link to="/facsimile/VV/004r">4r</router-link>a,
+          <router-link to="/facsimile/VV/006r">6r</router-link>a und
+          <router-link to="/facsimile/VV/008v">8v</router-link>b) der
           roten Überschriften sind von der ersten Schreiberhand verantwortet, die
           wahrscheinlich auch die bis Bl.
-          <router-link to="/VV/008v/facsimile">8v</router-link>
+          <router-link to="/facsimile/VV/008v">8v</router-link>
           reichende Rubrizierung ausgeführt hat.
        </p>
        <p class="MsoNormal">                Wie ein
@@ -3278,7 +3278,7 @@
              </tr>
              <tr>
                 <td>
-                   <router-link to="/VV/001r/facsimile">Roma, Biblioteca Casanatense, Ms. 1409</router-link> (V')
+                   <router-link to="/facsimile/VV/001r">Roma, Biblioteca Casanatense, Ms. 1409</router-link> (V')
                 </td>
                 <td>≥ 39 x 27</td>
                 <td>29–32 x 19–20</td>
@@ -3403,9 +3403,9 @@
           196 Kisten auf Maultieren in die Biblioteca Apostolica Vaticana im Vatikan
           gebracht. Die Hs. V' gelangte getrennt von den anderen Epenhandschriften in der
           Kiste mit der Capsanummer <i>C. 91</i> (siehe Bl.
-          <router-link to="/VV/001r/facsimile">1r</router-link>,
+          <router-link to="/facsimile/VV/001r">1r</router-link>,
           oberer Rand) nach Rom, wo sie die Signatur <i>1248</i> (siehe Bl.
-          <router-link to="/VV/001r/facsimile">1r</router-link>,
+          <router-link to="/facsimile/VV/001r">1r</router-link>,
           oberer Rand) erhielt<a href="#_ftn154" id="_ftnref154"><sup>[154]</sup></a> und um die Mitte des
           17. Jahrhunderts neu gebunden wurde.<a href="#_ftn155" id="_ftnref155"><sup>[155]</sup></a> Als Vorsatzblätter
           eingebunden wurde bei dieser Neubindung italienisches Papier aus dem Ende des
@@ -4191,8 +4191,8 @@
           </div>
           <div id="ftn81">
              <p class="MsoFootnoteText"><a href="#_ftnref81" id="_ftn81"><sup>[81]</sup></a>         <span style="">Eine
-                   einzeilige, blaue Lombarde auf Bl. </span><router-link to="/V/022r/facsimile">22r</router-link><span style="">b folgt
-                   einer ebenfalls blauen, zweizeiligen Lombarde auf Bl. </span><router-link to="/V/022r/facsimile">22r</router-link><span style="">a.</span></p>
+                   einzeilige, blaue Lombarde auf Bl. </span><router-link to="/facsimile/V/022r">22r</router-link><span style="">b folgt
+                   einer ebenfalls blauen, zweizeiligen Lombarde auf Bl. </span><router-link to="/facsimile/V/022r">22r</router-link><span style="">a.</span></p>
           </div>
           <div id="ftn82">
              <p class="MsoFootnoteText"><a href="#_ftnref82" id="_ftn82"><sup>[82]</sup></a>         <span style="">Vgl. <span style="font-variant:small-caps">Obhof</span> (2009), S. 375.</span></p>
@@ -4258,7 +4258,7 @@
           <div id="ftn93">
              <p class="MsoFootnoteText"><a href="#_ftnref93" id="_ftn93"><sup>[93]</sup></a>         <span style="">Dass
                    der Umfang von Hs. V ursprünglich tatsächlich 322 Blätter umfasst hat, zeigt
-                   auch die Blattberechnung auf Bl. </span><router-link to="/V/320v/facsimile">320v</router-link><span style="">a, die in
+                   auch die Blattberechnung auf Bl. </span><router-link to="/facsimile/V/320v">320v</router-link><span style="">a, die in
                    Sexternionen den Umfang (nicht den Lagenaufbau) der Handschrift angibt, was
                    möglicherweise der Berechnung des Schreiberlohns diente; vgl. <span style="font-variant:small-caps">Schorbach</span> (1888), S. XV.</span></p>
           </div>
@@ -4428,7 +4428,7 @@
                    zeigen Fehler in Hs. V, die nur beim direkten Textvergleich entstanden sein
                    können, wie bspw. die durch einen Augensprung verursachte, nachträglich
                    korrigierte Dittographie (Wiederholung der drei Verse NP 10855–10857 nach Vers
-                   NP 10861) auf Bl. </span><router-link to="/VV/057v/facsimile">57v</router-link><span style="">b (die
+                   NP 10861) auf Bl. </span><router-link to="/facsimile/VV/057v">57v</router-link><span style="">b (die
                    entsprechende Stelle fehlt in Hs. V infolge Blattverlust).</span></p>
           </div>
           <div id="ftn123">
@@ -4438,7 +4438,7 @@
           </div>
           <div id="ftn124">
              <p class="MsoFootnoteText"><a href="#_ftnref124" id="_ftn124"><sup>[124]</sup></a>       <span style="">Vgl.
-                   dazu bspw. Hs. V', Bl. </span><router-link to="/VV/170v/facsimile">170v</router-link><span style="">, 2. Zeile
+                   dazu bspw. Hs. V', Bl. </span><router-link to="/facsimile/VV/170v">170v</router-link><span style="">, 2. Zeile
                    von unten (NP 36202<sup>1</sup>), wo der Schreiber II <i>Siner</i> aus der
                    Vorlage schreibt, sich dann jedoch für eine Kürzung entscheidet, das bereits
                    geschriebe Wort streicht und mit einer eigenen Formulieren fortfährt.</span></p>
@@ -4668,7 +4668,7 @@
                                            <sup>[151]</sup>
                                        </a>
                                     <span style=""> Hs. V', </span>
-                <router-link to="/VV/001r/facsimile">1r</router-link>
+                <router-link to="/facsimile/VV/001r">1r</router-link>
                                     <span style="">: Im
                    Gegensatz zu den anderen genannten Handschriften wurde in Hs. V' die Inhaltsangabe
                    weggeschnitten.</span>
