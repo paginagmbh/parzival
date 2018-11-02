@@ -1,5 +1,5 @@
 <template>
-<container class="parzival-transcript" :manuscript="manuscript" :pages="pages">
+<container class="parzival-transcript" :manuscript="manuscript" :pages="pages" :verse="verse">
   <div class="parzival-transcript-view">
     <div class="tile is-ancestor">
       <div class="tile is-parent" :class="classes.orientation">

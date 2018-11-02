@@ -14,12 +14,12 @@ export default new Router({
       name: 'home',
       component: Home },
 
-    { path: '/:manuscript/:pages/facsimile',
+    { path: '/facsimile/:manuscript/:pages/:verse?',
       name: 'facsimile',
       component: Facsimile,
       props: true },
 
-    { path: '/:manuscript/:pages/transcript',
+    { path: '/transcript/:manuscript/:pages/:verse?',
       name: 'transcript',
       component: Transcript,
       props: true },

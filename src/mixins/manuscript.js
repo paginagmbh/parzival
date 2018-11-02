@@ -97,10 +97,6 @@ export default {
       return this.manuscript === 'V' ? 'VV' : 'V'
     },
 
-    verse () {
-      return this.$route.query.verse
-    },
-
     otherPage () {
       const { verse, otherManuscript } = this
       if (!verse) return undefined
@@ -110,8 +106,8 @@ export default {
 
     routes () {
       const manuscripts = {
-        V: this.turnedPage(this.toPage('001r', 'V')),
-        VV: this.turnedPage(this.toPage('001r', 'VV'))
+        V: this.toPage('001r', 'V'),
+        VV: this.toPage('001r', 'VV')
       }
 
       return {
@@ -121,22 +117,22 @@ export default {
           ? this.toPage(this.otherPage, this.otherManuscript)
           : manuscripts[this.otherManuscript],
 
-        prevPage: this.prevPage(this.turnedPage(this.toPage())),
+        prevPage: this.prevPage(this.toPage()),
 
-        nextPage: this.nextPage(this.turnedPage(this.toPage())),
+        nextPage: this.nextPage(this.toPage()),
 
         transcript: {
-          ...this.turnedPage(this.toPage(null, null, 1)),
+          ...this.toPage(null, null, 1),
           name: 'transcript'
         },
 
         doublePage: {
-          ...this.turnedPage(this.toPage(null, null, 2)),
+          ...this.toPage(null, null, 2),
           name: 'facsimile'
         },
 
         singlePage: {
-          ...this.turnedPage(this.toPage(null, null, 1)),
+          ...this.toPage(null, null, 1),
           name: 'facsimile'
         }
       }
@@ -154,21 +150,6 @@ export default {
 
     collation () {
       return transcript.collation
-    },
-
-    turnedPage (route) {
-      if (!route.query) {
-        return route
-      }
-      let { x, y, width } = route.query
-      if (x && y && width) {
-        x = (
-          Math.round((1 - (parseFloat(width) || '1')) * 50) / 100
-        ).toString()
-        y = '0'
-        return { ...route, query: { ...route.query, x, y } }
-      }
-      return route
     },
 
     nextPage (route) {

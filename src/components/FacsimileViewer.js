@@ -1,21 +1,28 @@
 import debounce from 'lodash.debounce'
 import OpenSeadragon from 'openseadragon'
 
+const viewportKey = 'parzival.facsimileViewport'
+const defaultViewport = { x: 0, y: 0, width: 1, height: 0.5 }
+const storeViewport = (viewport) => {
+  sessionStorage[viewportKey] = JSON.stringify(viewport)
+  return viewport
+}
+const storedViewport = () => {
+  try {
+    return JSON.parse(sessionStorage[viewportKey] || JSON.stringify(defaultViewport))
+  } catch (e) {
+    return defaultViewport
+  }
+}
 export default {
   name: 'facsimile-viewer',
   props: ['manuscript', 'pages'],
 
+  data () {
+    return { viewport: storedViewport() }
+  },
+
   computed: {
-    viewport () {
-      let { x, y, width, height } = this.$route.query
-      x = parseFloat(x || '0') || 0
-      y = parseFloat(y || '0') || 0
-      width = parseFloat(width || '1') || 1
-      height = parseFloat(height || '0.5') || 0.5
-
-      return new OpenSeadragon.Rect(x, y, width, height, 0)
-    },
-
     quireIconPath () {
       const { manuscript, pageList } = this
       const [ page ] = pageList
@@ -50,9 +57,13 @@ export default {
 
       const success = () => {
         if (--length === 0) {
+          let { x, y, width, height } = this.viewport
+          x = Math.round((1 - (width || 1)) * 50) / 100
+          y = 0
+
           this.imageOpen = true
           this.osd.viewport.fitBounds(
-            this.viewport,
+            new OpenSeadragon.Rect(x, y, width, height, 0),
             true
           )
           this.updateViewport()
@@ -83,12 +94,9 @@ export default {
         viewport = viewport.getConstrainedBounds()
 
         const [x, y, width, height] = ['x', 'y', 'width', 'height']
-          .map(k => (Math.round(viewport[k] * 100) / 100).toString())
+          .map(k => (Math.round(viewport[k] * 100) / 100))
 
-        this.$router.replace({
-          ...this.$route,
-          query: { ...this.$route.query, x, y, width, height }
-        })
+        this.viewport = { x, y, width, height }
       })
     },
 
@@ -123,6 +131,10 @@ export default {
 
     pages () {
       this.openPages()
+    },
+
+    viewport () {
+      storeViewport(this.viewport)
     }
   },
 

@@ -2,7 +2,7 @@ import debounce from 'lodash.debounce'
 
 export default {
   name: 'transcript',
-  props: ['manuscript', 'pages'],
+  props: ['manuscript', 'pages', 'verse'],
 
   computed: {
     transcriptText () {
@@ -79,7 +79,7 @@ export default {
     updateVerse (verse) {
       this.$router.replace({
         ...this.$route,
-        query: { ...this.$route.query, verse }
+        params: { ...this.$route.params, verse }
       })
     }
   },

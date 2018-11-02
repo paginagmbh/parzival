@@ -4,7 +4,7 @@ import { search, searchVerse, searchPage } from '../lib/search'
 
 export default {
   name: 'container',
-  props: ['manuscript', 'pages'],
+  props: ['manuscript', 'pages', 'verse'],
 
   data: () => ({
     overviewModal: false,

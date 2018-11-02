@@ -15,7 +15,7 @@
           </router-link>
         </div>
         <div class="control">
-          <router-link class="button is-primary is-outlined is-medium" to="/V/115v/transcript">
+          <router-link class="button is-primary is-outlined is-medium" to="/transcript/V/115v">
             <span class="icon"><i class="fa fa-angle-right"></i></span><span>Zu den Handschriften</span>
           </router-link>
         </div>
