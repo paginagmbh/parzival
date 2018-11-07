@@ -1,45 +1,38 @@
 <template>
 <div class="parzival-container">
-  <slot></slot>
-  <div class="parzival-navigation-controls">
-    <div class="field has-addons">
-      <div class="control">
-        <router-link class="button is-info" to="/" title="Startseite/ Informationen"><span>Über diese Site</span><span class="icon"><i class="fa fa-home"></i></span></router-link>
+  <nav class="navbar is-dark">
+    <div class="navbar-brand">
+      <router-link class="navbar-item is-info" to="/" title="Startseite/ Informationen">
+        <span class="icon"><i class="fa fa-home"></i></span>
+        <span class="is-hidden-mobile">Nuwer Parzifal</span>
+      </router-link>
+    </div>
+    <div class="navbar-menu is-active">
+      <div class="navbar-start">
+        <router-link class="navbar-item" :to="routes.singlePage" title="Einzelseite"><i class="fa fa-file-o"></i></router-link>
+        <router-link class="navbar-item" :to="routes.doublePage" title="Doppelseite"><i class="fa fa-files-o"></i></router-link>
+        <router-link class="navbar-item" :to="routes.transcript" title="Transkript"><i class="fa fa-file-text-o"></i></router-link>
+        <router-link class="navbar-item" :to="routes.synopsis" title="Synopsis"><i class="fa fa-link"></i></router-link>
       </div>
-      <div class="control">
-        <router-link class="button" :to="routes.otherManuscript" title="Handschrift wechseln"><i class="fa fa-exchange"></i></router-link>
-      </div>
-      <div class="control"><a class="button" :class="active('overviewModal')" @click="toggle('overviewModal')" title="Handschriftenüberblick"><i class="fa fa-th"></i></a></div>
-      <div class="control"><a class="button" :class="active('searchModal')" @click="toggle('searchModal')" title="Suche in der Handschrift"><i class="fa fa-search"></i></a></div>
-      <div class="control">
-        <router-link class="button" :to="routes.prevPage" :disabled="!routes.prevPage" title="Vorherige Seite"><i class="fa fa-angle-left"></i></router-link>
-      </div>
-      <div class="control">
-        <router-link class="button" :to="routes.nextPage" :disabled="!routes.nextPage" title="Nächste Seite"><i class="fa fa-angle-right"></i></router-link>
-      </div>
-      <div class="control">
-        <router-link class="button" :to="routes.singlePage" title="Einzelseite"><i class="fa fa-file-o"></i></router-link>
-      </div>
-      <div class="control">
-        <router-link class="button" :to="routes.doublePage" title="Doppelseite"><i class="fa fa-files-o"></i></router-link>
-      </div>
-      <div class="control">
-        <router-link class="button" :to="routes.transcript" title="Transkript"><i class="fa fa-file-text-o"></i></router-link>
-      </div>
-      <div class="control">
-        <router-link class="button" :to="routes.synopsis" title="Synopsis"><i class="fa fa-link"></i></router-link>
+      <div class="navbar-end">
+        <div class="navbar-item is-hidden-mobile">
+          <nav class="breadcrumb">
+            <ol>
+              <li class="is-active"><a>{{ manuscript }}</a></li>
+              <li class="is-active"><a>{{ pageTitle }}</a></li>
+              <li class="is-active"><a>{{ verseTitle }}</a></li>
+            </ol>
+          </nav>
+        </div>
+        <a class="navbar-item" :class="active('overviewModal')" @click="toggle('overviewModal')" title="Handschriftenüberblick"><i class="fa fa-th"></i></a>
+        <a class="navbar-item" :class="active('searchModal')" @click="toggle('searchModal')" title="Suche in der Handschrift"><i class="fa fa-search"></i></a>
+        <router-link class="navbar-item is-size-4" :to="routes.otherManuscript" title="Handschrift wechseln"><i class="fa fa-exchange"></i></router-link>
+        <router-link class="navbar-item is-size-4" :to="routes.prevPage" :disabled="!routes.prevPage" title="Vorherige Seite"><i class="fa fa-angle-left"></i></router-link>
+        <router-link class="navbar-item is-size-4" :to="routes.nextPage" :disabled="!routes.nextPage" title="Nächste Seite"><i class="fa fa-angle-right"></i></router-link>
       </div>
     </div>
-  </div>
-  <div class="parzival-location box">
-    <nav class="breadcrumb">
-      <ol>
-        <li class="is-active"><a>{{ manuscript }}</a></li>
-        <li class="is-active"><a>{{ pageTitle }}</a></li>
-        <li class="is-active"><a>{{ verseTitle }}</a></li>
-      </ol>
-    </nav>
-  </div>
+  </nav>
+  <slot></slot>
   <div class="parzival-overview modal" :class="active('overviewModal')" @keyup.esc="toggle('overviewModal')" v-focus="overviewModal" tabindex="1000">
     <div class="modal-background"></div>
     <div class="modal-content">

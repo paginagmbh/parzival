@@ -73,7 +73,7 @@ export default {
   created () {
     const fn = scroller()
     this.scrollToActive = debounce(() => this.$nextTick(() => fn(
-      this.$el.querySelector('tr.is-active'), 500,
+      this.$el.querySelector('th.is-active'), 500,
       { container: this.$el, offset: -this.$el.offsetHeight / 3, force: true }
     )), 500)
   },

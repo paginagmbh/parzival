@@ -1,24 +1,20 @@
 <template>
 <div class="parzival-transcript-viewer">
-  <pagination v-if="text.length > 0" :manuscript="manuscript" :pages="pages"></pagination>
-  <article class="message is-warning" v-if="text.length == 0">
+  <article class="message is-large is-warning" v-if="text.length == 0">
     <div class="message-body">
       <p>Kein Transkript für diese Seite</p>
     </div>
   </article>
-  <article class="message" v-for="t in text"
+  <article class="parzival-transcript-column"
+           v-for="t in text"
            :key="manuscript + t.column"
-           :class="{ 'is-primary': t.columnSigil === 'a', 'is-light': t.columnSigil === 'b'}"
            :data-column="t.column" ref="columns">
-    <div class="message-header">
-      <p>{{ manuscript }} – {{ t.column }}</p>
-    </div>
-    <div class="message-body">
+    <header>{{ manuscript }} – {{ t.column }}</header>
+    <section class="section">
       <table class="table is-fullwidth">
         <tbody>
           <tr v-for="(l, li) in t.contents" :key="li"
               class="parzival-verse-focus"
-              :class="{ 'is-active': l.type === 'verse' && verse === l.verse }"
               @click="updateVerse(l.verse)">
             <template v-if="l.type == 'heading'">
               <td class="parzival-heading" colspan="2">
@@ -27,7 +23,7 @@
             </template>
             <template v-if="l.type == 'verse'">
               <th class="parzival-verse-num"
-                  :class="{ 'is-italic': l.otherPage }"
+                  :class="{ 'is-active': l.type === 'verse' && verse === l.verse }"
                   v-waypoint="verseWaypoint">
                 <span>{{ l.verse }}</span>
               </th>
@@ -36,9 +32,8 @@
           </tr>
         </tbody>
       </table>
-    </div>
+    </section>
   </article>
-  <pagination :manuscript="manuscript" :pages="pages"></pagination>
 </div>
 </template>
 
