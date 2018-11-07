@@ -1,8 +1,10 @@
 import { basename, extname, resolve } from 'path'
+import cp from 'child_process'
+
 import globby from 'globby'
 import xfs from 'fs-extra'
 
-import { spawn } from './util'
+import { cwd, encoding } from './util'
 
 const imageDir = process.env.PARZIVAL_IMAGE_BASE || '/srv/bern'
 const ptifDir = process.env.PARZIVAL_PTIF_BASE || '/var/www/iiif'
@@ -19,13 +21,17 @@ const convert = async () => {
       const ptif = resolve(ptifDir, `${imageBase}.ptif`)
       if (await xfs.pathExists(ptif)) continue
 
-      spawn('vips', [
+      const result = cp.spawnSync('vips', [
         'tiffsave',
         image, ptif,
         '--tile', '--pyramid',
         '--compression=jpeg',
         '--tile-width', '256', '--tile-height', '256'
-      ])
+      ], { cwd, encoding, stdio: 'inherit' })
+
+      if (result.status !== 0) {
+        await xfs.remove(ptif)
+      }
     }
   }
 }
