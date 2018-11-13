@@ -40,6 +40,8 @@ for (const sigil in metadata.manuscripts) {
   }
 }
 
+const sigil = (manuscript) => manuscript === 'VV' ? 'V\'' : manuscript
+
 export default {
   computed: {
     pageList () {
@@ -66,12 +68,16 @@ export default {
       return false
     },
 
+    manuscriptSigil () {
+      return sigil(this.manuscript)
+    },
+
     manuscriptTitle () {
       return metadata.manuscripts[this.manuscript].title
     },
 
     pageTitle () {
-      return 'Bl. ' + this.pageList.filter(p => p).join(',')
+      return 'Bl. ' + this.pageList.filter(p => p).map(this.numTitle).join(',')
     },
 
     verseTitle () {
@@ -98,11 +104,20 @@ export default {
       return this.manuscript === 'V' ? 'VV' : 'V'
     },
 
+    otherManuscriptSigil () {
+      return sigil(this.otherManuscript)
+    },
+
     otherPages () {
       const { verse, otherManuscript } = this
       if (!verse) return undefined
       return ((this.collation()[verse] || {})[otherManuscript] || '')
         .replace(/[ab]$/, '') || ''
+    },
+
+    otherPageTitle () {
+      if (!this.otherPages) return undefined
+      return 'Bl. ' + this.numTitle(this.otherPages)
     },
 
     routes () {
@@ -221,6 +236,10 @@ export default {
         }
       }
       return candidate
+    },
+
+    numTitle (number) {
+      return number.replace(/^0*/, '')
     }
   }
 }

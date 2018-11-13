@@ -8,10 +8,11 @@
   <article class="parzival-transcript-column"
            v-for="t in text"
            :key="manuscript + t.column"
+           :data-manuscript="manuscript"
            :data-column="t.column" ref="columns">
-    <header>{{ manuscript }} – {{ t.column }}</header>
+    <header>{{ manuscriptSigil }} – {{ numTitle(t.column) }}</header>
     <section class="section">
-      <table class="table is-fullwidth">
+      <table class="table">
         <tbody>
           <tr v-for="(l, li) in t.contents" :key="li"
               class="parzival-verse-focus"

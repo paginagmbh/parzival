@@ -3,24 +3,28 @@
   <div class="tile is-ancestor">
     <div class="tile" :class="{ 'is-vertical': $mq.touch }">
       <div class="tile is-vertical is-parent">
-        <nav class="tile is-child hero is-primary is-small">
+        <nav class="tile is-child hero is-small" :data-manuscript="manuscript">
           <div class="hero-body title has-text-centered">
-            {{ manuscript }} – {{ pages }}
+            {{ manuscriptSigil }} – {{ pageTitle }}
           </div>
         </nav>
         <transcript-viewer class="tile is-child"
                            :manuscript="manuscript" :pages="pages"
                            :verse="verse" :syncScrolling="false" />
+        <facsimile-viewer class="tile is-child" v-if="$mq.desktop"
+                          :manuscript="manuscript" :pages="pages" />
       </div>
       <div class="tile is-vertical is-parent">
-        <nav class="tile is-child hero is-info is-small">
+        <nav class="tile is-child hero is-small" :data-manuscript="otherManuscript">
           <div class="hero-body title has-text-centered">
-            {{ otherManuscript }} – {{ otherPages }}
+            {{ otherManuscriptSigil }} – {{ otherPageTitle }}
           </div>
         </nav>
         <transcript-viewer class="tile is-child"
                            :manuscript="otherManuscript" :pages="otherPages"
                            :verse="verse" v-if="otherPages"/>
+        <facsimile-viewer class="tile is-child" v-if="$mq.desktop"
+                          :manuscript="otherManuscript" :pages="otherPages" />
       </div>
     </div>
   </div>
