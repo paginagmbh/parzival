@@ -14,7 +14,7 @@
         <facsimile-viewer class="tile is-child" v-if="$mq.desktop"
                           :manuscript="manuscript" :pages="pages" />
       </div>
-      <div class="tile is-vertical is-parent">
+      <div class="tile is-vertical is-parent" v-if="otherPages">
         <nav class="tile is-child hero is-small" :data-manuscript="otherManuscript">
           <div class="hero-body title has-text-centered">
             {{ otherManuscriptSigil }} – {{ otherPageTitle }}
@@ -25,6 +25,15 @@
                            :verse="verse" v-if="otherPages"/>
         <facsimile-viewer class="tile is-child" v-if="$mq.desktop"
                           :manuscript="otherManuscript" :pages="otherPages" />
+      </div>
+      <div class="tile is-child hero is-large is-dark" v-if="!otherPages && hasTranscript">
+        <div class="hero-body">
+          <article class="message is-large is-warning">
+            <div class="message-body">
+              <p>Keine Entsprechung für diesen Vers</p>
+            </div>
+          </article>
+        </div>
       </div>
     </div>
   </div>

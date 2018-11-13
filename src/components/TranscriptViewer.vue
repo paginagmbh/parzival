@@ -1,10 +1,15 @@
 <template>
 <div class="parzival-transcript-viewer">
-  <article class="message is-large is-warning" v-if="text.length == 0">
-    <div class="message-body">
-      <p>Kein Transkript für diese Seite</p>
+  <div class="hero" v-if="text.length == 0">
+    <div class="hero-body">
+      <article class="message is-large is-warning">
+        <div class="message-body">
+          <p>Kein Transkript für diese Seite</p>
+        </div>
+      </article>
     </div>
-  </article>
+  </div>
+
   <article class="parzival-transcript-column"
            v-for="t in text"
            :key="manuscript + t.column"
