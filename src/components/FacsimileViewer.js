@@ -73,7 +73,7 @@ export default {
       pageList.forEach((page, pi) => {
         if (page !== undefined) {
           this.osd.addTiledImage({
-            tileSource: this.dzi(manuscript, page),
+            tileSource: this.iiif(manuscript, page),
             width,
             x: (pi * width),
             success

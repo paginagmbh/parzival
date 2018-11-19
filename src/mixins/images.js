@@ -10,6 +10,10 @@ export default {
 
     thumb (sigil, page) {
       return `${dziBase(sigil, page)}_files/8/0_0.jpeg`
+    },
+
+    iiif (sigil, page) {
+      return `/iiif/${sigil.toLowerCase()}${page}.ptif/info.json`
     }
   }
 }
