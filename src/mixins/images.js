@@ -2,6 +2,8 @@ const base = 'https://assets.pagina-dh.de'
 const dziTiles = `${base}/parzival/images`
 const dziBase = (sigil, page) => `${dziTiles}/${sigil.toLowerCase()}-${page}`
 
+const iiifBase = (sigil, page) => `/iiif/${sigil.toLowerCase()}${page}.ptif`
+
 export default {
   methods: {
     dzi (sigil, page) {
@@ -9,11 +11,11 @@ export default {
     },
 
     thumb (sigil, page) {
-      return `${dziBase(sigil, page)}_files/8/0_0.jpeg`
+      return `${iiifBase(sigil, page)}/full/300,/0/default.jpg`
     },
 
     iiif (sigil, page) {
-      return `/iiif/${sigil.toLowerCase()}${page}.ptif/info.json`
+      return `${iiifBase(sigil, page)}/info.json`
     }
   }
 }
