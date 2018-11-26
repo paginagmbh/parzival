@@ -41,6 +41,19 @@
        <p class="tocentry"><a href="#_Toc389816006">&#160;&#160;&#160;&#160;2.3.1 Lamprecht von Brun als Besitzer von Handschrift V'?</a></p>
        <p class="tocentry"><a href="#_Toc389816007">&#160;&#160;&#160;&#160;2.3.2 Handschrift V' – Der Cod. Pal. germ. 317 der Heidelberger Palatina</a></p>
        <p class="tocentry"><a href="#_Toc389816008">&#160;&#160;&#160;&#160;2.3.3 Heutiger Standort von Handschrift V': Die Biblioteca Casanatense in Rom</a></p>
+       <p class="tocentry"><a href="#p3">3 Verzeichnisse</a></p>
+       <p class="tocentry"><a href="#p3_1">&#160;&#160;3.1 Abkürzungsverzeichnis</a></p>
+       <p class="tocentry"><a href="#p3_1_1">&#160;&#160;&#160;&#160;3.1.1 Abgekürzte Bezeichnungen von Bibliotheken und Archiven</a></p>
+       <p class="tocentry"><a href="#p3_1_2">&#160;&#160;&#160;&#160;3.1.2 Sigla von Handschriften und Handschriftenfragmenten</a></p>
+       <p class="tocentry"><a href="#p3_1_3">&#160;&#160;&#160;&#160;3.1.3 Sigle Druck</a></p>
+       <p class="tocentry"><a href="#p3_1_4">&#160;&#160;&#160;&#160;3.1.4 Kodikologische Abkürzungen</a></p>
+       <p class="tocentry"><a href="#p3_1_5">&#160;&#160;&#160;&#160;3.1.5 Abgekürzt zitierte Werktitel und Textausgaben</a></p>
+       <p class="tocentry"><a href="#p3_2">&#160;&#160;3.2 Verzeichnis der Handschriften</a></p>
+       <p class="tocentry"><a href="#p3_3">&#160;&#160;3.3 Quellen- und Literaturverzeichnis</a></p>
+       <p class="tocentry"><a href="#p3_3_1">&#160;&#160;&#160;&#160;3.3.1 Textausgaben und gedruckte Quellen</a></p>
+       <p class="tocentry"><a href="#p3_3_2">&#160;&#160;&#160;&#160;3.3.2 Handschriften- und Ausstellungskataloge</a></p>
+       <p class="tocentry"><a href="#p3_3_3">&#160;&#160;&#160;&#160;3.3.3 Quellensammlungen und Handbücher</a></p>
+       <p class="tocentry"><a href="#p3_3_4">&#160;&#160;&#160;&#160;3.3.4 Forschungsliteratur</a></p>
        <p class="tocentry"><a href="#endOfText"/></p>
        <hr/>
     </div>
@@ -57,107 +70,59 @@
          Hinsicht als »Glücksfall« beurteilt. Immer wieder wird hingewiesen auf die ausführlichen Angaben zur Genese der Handschrift im Epilog des
          ›Rappoltsteiner Parzifal‹ sowie auf die Tatsache, dass es sich bei Hs. V um eine Originalhandschrift handelt, also um jenes Exemplar, das
          der Auftraggeber in Bestellung gegeben hat.<a id="_Ref348945462"/><a href="#_ftn4" id="_ftnref4"><sup>[4]</sup></a></p>
-       <p class="MsoNormal">Die ungewöhnliche Fülle an Informationen zur Entstehung des ›Rappoltsteiner Parzifal‹, die der Epilog
-          liefert, hat die Forschung seit der (Wieder-)Entdeckung des Werkes allerdings dazu
-          verleitet, das Fehlen historisch bezeugter Fakten zum Leben des Auftraggebers sowie
-          zu den am Herstellungsprozess der Handschrift beteiligten Personen auszublenden
-          und mögliche Fiktionen als gesicherte Tatsachen darzustellen.<a href="#_ftn5" id="_ftnref5"><sup>[5]</sup></a>
-          Gleichzeitig wurden die beiden Entstehungsvorgänge ‘Genese des Werks
-          ›Rappoltsteiner Parzifal‹’ und ‘Genese der Handschrift’ meist nicht getrennt, sondern
-          als ein einziger Vorgang betrachtet. Dies führte zu einer Vernachlässigung oder
-          Ausblendung möglicher, heute verlorener Vor- und Zwischenstufen, die vor oder
-          zwischen Text und Codex liegen, sowie zu einer vereinfachten Beschreibung der Entstehung
-          der Handschrift. Die im durchkomponierten Epilog äußerst romanhaften,
-          fingierten Entstehungszusammenhänge haben außerdem zum Weiterdenken und zur Ausschmückung
-          des Geschilderten verleitet, wie dies bereits bei der Darstellung von
-                          <span style="font-variant:small-caps">Joseph Victor von Scheffel</span> in seinen
-          1855 veröffentlichten ›Sämtlichen Werken‹ der Fall ist:
-       </p>
-       <blockquote class="Blockquote">»Des
-          edlen Herrn Ulrich von Rappoltstein Geschlecht war Träger eines Lehens über die
-          fahrenden Leute im Elsaß, dessen Grenze bis an den Hagenauer Forst lief. Dies
-          und ritterliche Freude an Minne und Milde mag den reichen Freiherrn bewogen haben,
-          sich als Beschützer der Dichtkunst das Werk Manessiers verdeutschen zu lassen.
-          Im Jahr 1331 rückte zu diesem Behuf mit Manessiers französischem Buche nachfolgend
-          verzeichnete, aus fünf, sage fünf Personen bestehende Gesellschaft bei ihm ein:
-          1. zwei Dichter, Claus Wisse und Philipp Kolin, Goldschmied von Straßburg; 2.
-          ein Dolmetsch, Sampson Pine, ein Jude; 3. zwei Schreiber, Henselin der junge
-          und der von Ohnheim, ein alter. […] Dieses fahrende Volk, dessen Verpflegung
-          manches Stückfaß elsässischen Weines verschlungen haben mag, beeilte sich nicht
-          allzusehr und überreichte erst im Jahre 1336 die vollendete, mit manchem
-          Korrekturstreiflein überklebte, aber als stattlicher Foliant geschriebene
-          Arbeit, von der sie bemerkten: ›und alles daz hie nach geschriben stat, daz ist
-          ouch Parzeval‹ ihrem Schirmherrn, dabei ihn launig über die Kosten tröstend, die
-          sie selber auf 200 Pfund anschlugen.«<a href="#_ftn6" id="_ftnref6">
-                                 <sup>[6]</sup>
-                             </a>
+       <p class="MsoNormal">Die ungewöhnliche Fülle an Informationen zur Entstehung des ›Rappoltsteiner Parzifal‹, die der Epilog liefert, hat die
+         Forschung seit der (Wieder-)Entdeckung des Werkes allerdings dazu verleitet, das Fehlen historisch bezeugter Fakten zum Leben des
+         Auftraggebers sowie zu den am Herstellungsprozess der Handschrift beteiligten Personen auszublenden und mögliche Fiktionen als gesicherte
+         Tatsachen darzustellen.<a href="#_ftn5" id="_ftnref5"><sup>[5]</sup></a> Gleichzeitig wurden die beiden Entstehungsvorgänge ‘Genese des Werks
+         ›Rappoltsteiner Parzifal‹’ und ‘Genese der Handschrift’ meist nicht getrennt, sondern als ein einziger Vorgang betrachtet. Dies führte zu
+         einer Vernachlässigung oder Ausblendung möglicher, heute verlorener Vor- und Zwischenstufen, die vor oder zwischen Text und Codex liegen,
+         sowie zu einer vereinfachten Beschreibung der Entstehung der Handschrift. Die im durchkomponierten Epilog äußerst romanhaften, fingierten
+         Entstehungszusammenhänge haben außerdem zum Weiterdenken und zur Ausschmückung des Geschilderten verleitet, wie dies bereits bei der
+         Darstellung von <span style="font-variant:small-caps">Joseph Victor von Scheffel</span> in seinen 1855 veröffentlichten ›Sämtlichen
+         Werken‹ der Fall ist:</p>
+       <blockquote class="Blockquote">»Des edlen Herrn Ulrich von Rappoltstein Geschlecht war Träger eines Lehens über die fahrenden Leute im Elsaß,
+         dessen Grenze bis an den Hagenauer Forst lief. Dies und ritterliche Freude an Minne und Milde mag den reichen Freiherrn bewogen haben, sich
+         als Beschützer der Dichtkunst das Werk Manessiers verdeutschen zu lassen. Im Jahr 1331 rückte zu diesem Behuf mit Manessiers französischem
+         Buche nachfolgend verzeichnete, aus fünf, sage fünf Personen bestehende Gesellschaft bei ihm ein: 1. zwei Dichter, Claus Wisse und Philipp
+         Kolin, Goldschmied von Straßburg; 2. ein Dolmetsch, Sampson Pine, ein Jude; 3. zwei Schreiber, Henselin der junge und der von Ohnheim, ein
+         alter. […] Dieses fahrende Volk, dessen Verpflegung manches Stückfaß elsässischen Weines verschlungen haben mag, beeilte sich nicht
+         allzusehr und überreichte erst im Jahre 1336 die vollendete, mit manchem Korrekturstreiflein überklebte, aber als stattlicher Foliant
+         geschriebene Arbeit, von der sie bemerkten: ›und alles daz hie nach geschriben stat, daz ist ouch Parzeval‹ ihrem Schirmherrn, dabei ihn
+         launig über die Kosten tröstend, die sie selber auf 200 Pfund anschlugen.«<a href="#_ftn6" id="_ftnref6"><sup>[6]</sup></a>
        </blockquote>
-       <p class="MsoNormal">In den folgenden Ausführungen werden
-          die in der Forschung zum ›Rappoltsteiner Parzifal‹ oftmals vermischten Ebenen,
-          die <span style="letter-spacing:1.0pt">materielle</span> der Handschrift und die
-          <span style="letter-spacing:1.0pt">inhaltliche</span> des Textes, getrennt
-          betrachtet. Zunächst wird mit ausführlichen Handschriftenbeschreibungen und Inhaltsangaben
-          der beiden bekannten Textträger des ›Rappoltsteiner Parzifal‹ (Hs. V) bzw. dessen
-          ›Nuwer Parzifal‹ (Hs. V') die materielle, historisch belegte Grundlage bereitgestellt
-          (Kap. 1.1 und 2.1). Anschließend werden die erhobenen Daten ausgewertet und in
-          einem größeren Kontext verortet. Dies geschieht im Hinblick auf die Darstellung
-          der Genese der Texte (Kap. 1.2), ihrer Verschriftlichung (Kap. 1.3 und 2.2) sowie bezüglich
-          der Geschichte nach der Erstanfertigung (Kap. 1.4) und der Besitzgeschichte (Kap. 1.5) der
-          Handschriften.
-       </p>
-       <h3><a id="_Toc389815969"/><a id="_Ref379010577"/>1 Original: Handschrift V –
-          Karlsruhe, Badische Landesbibliothek, Donaueschingen 97</h3>
-       <p class="MsoNormal">Als schlüssiges Indiz dafür, dass
-          es sich bei Hs. V um die »<span style="letter-spacing:1.0pt">Originalhandschrift</span>«
-          handelt, »wie sie unter den Augen der Dichter für Ulrich von Rappoltstein
-          hergestellt wurde«, führt der Herausgeber <span style="font-variant:small-caps">Karl Schorbach</span> die Tatsache an, dass
-          sich der Codex noch im 16. Jahrhundert in Familienbesitz befand (siehe
-          <a href="#_Toc389815994">Kap. 1.5.1</a>).<a href="#_ftn7" id="_ftnref7"><sup>[7]</sup></a>
-          Nicht bekannt ist freilich, wie viele Vorstufen bzw. Entwürfe der vorliegenden
-          Fassung vorausgingen. Ein bemerkter und korrigierter Augensprung auf Bl.
-          <router-link to="/facsimile/V/300v">300v</router-link>b, 5.
-          Zeile von unten (NP 36200/36201; Sch. 839.39/40), weist darauf hin, dass
-          zumindest Teile von Hs. V von einer Vorlage abgeschrieben wurden und es sich beim
-          Codex Donaueschingen 97 um eine »Reinschrift des Originals« handelt.<a href="#_ftn8" id="_ftnref8"><sup>[8]</sup></a>
-          Der Originalitätswert der Donaueschinger Handschrift wird dadurch allerdings
-          nicht gemindert.
-       </p>
+       <p class="MsoNormal">In den folgenden Ausführungen werden die in der Forschung zum ›Rappoltsteiner Parzifal‹ oftmals vermischten Ebenen, die
+         <span style="letter-spacing:1.0pt">materielle</span> der Handschrift und die <span style="letter-spacing:1.0pt">inhaltliche</span> des Textes,
+         getrennt betrachtet. Zunächst wird mit ausführlichen Handschriftenbeschreibungen und Inhaltsangaben der beiden bekannten Textträger des
+         ›Rappoltsteiner Parzifal‹ (Hs. V) bzw. dessen ›Nuwer Parzifal‹ (Hs. V') die materielle, historisch belegte Grundlage bereitgestellt (Kap. 1.1
+         und 2.1). Anschließend werden die erhobenen Daten ausgewertet und in einem größeren Kontext verortet. Dies geschieht im Hinblick auf die Darstellung
+         der Genese der Texte (Kap. 1.2), ihrer Verschriftlichung (Kap. 1.3 und 2.2) sowie bezüglich der Geschichte nach der Erstanfertigung (Kap. 1.4)
+         und der Besitzgeschichte (Kap. 1.5) der Handschriften.</p>
+       <h3><a id="_Toc389815969"/>1 Original: Handschrift V – Karlsruhe, Badische Landesbibliothek, Donaueschingen 97</h3>
+       <p class="MsoNormal">Als schlüssiges Indiz dafür, dass es sich bei Hs. V um die »<span style="letter-spacing:1.0pt">Originalhandschrift</span>«
+         handelt, »wie sie unter den Augen der Dichter für Ulrich von Rappoltstein hergestellt wurde«, führt der Herausgeber <span
+         style="font-variant:small-caps">Karl Schorbach</span> die Tatsache an, dass sich der Codex noch im 16. Jahrhundert in Familienbesitz befand
+         (siehe <a href="#_Toc389815994">Kap. 1.5.1</a>).<a href="#_ftn7" id="_ftnref7"><sup>[7]</sup></a> Nicht bekannt ist freilich, wie viele
+         Vorstufen bzw. Entwürfe der vorliegenden Fassung vorausgingen. Ein bemerkter und korrigierter Augensprung auf Bl. <router-link
+         to="/facsimile/V/300v">300v</router-link>b, 5. Zeile von unten (NP 36200/36201; Sch. 839.39/40), weist darauf hin, dass zumindest Teile von Hs.
+         V von einer Vorlage abgeschrieben wurden und es sich beim Codex Donaueschingen 97 um eine »Reinschrift des Originals« handelt.<a href="#_ftn8"
+         id="_ftnref8"><sup>[8]</sup></a> Der Originalitätswert der Donaueschinger Handschrift wird dadurch allerdings nicht gemindert.</p>
        <p class="MsoNormal">Die Beschreibung des Codex und dessen Inhalt ergibt folgendes Bild:</p>
-       <h4>
-         <a id="_Toc389815970"/>
-         <a id="_Ref379010634"/>1.1 Beschreibung der Handschrift V
-       </h4>
-       <h5>
-       <a id="_Toc389815971"/><a id="_Ref381880245"/>
-         <a id="_Ref379125563"/>1.1.1 Äußere Beschreibung<a href="#_ftn9" id="_ftnref9"><sup>[9]</sup></a>
-       </h5>
-
-       <p class="MsoNormal" style="text-indent:.1pt"><b>›Rappoltsteiner
-             Parzifal‹: Wolfram von Eschenbach, ›Parzival‹; Minneliedstrophen; Klaus Wisse
-             und Philipp Colin, ›Nuwer Parzifal‹</b>
-       </p>
-       <p class="MsoNormal">Ulrich von Rappoltstein   ·   Perg.,
-          320 (von ursprünglich 322) Bll.   ·   38,5–39,0 x 27 cm   ·   Elsass (Straßburg
-          oder Raum Straßburg/Colmar) oder Basel   ·   bis 1336
-       </p>
-       <p class="MsoNormal">Blattzählung mit Tinte von alter Hand oben in der Blattmitte
-          <i><router-link to="/facsimile/V/001r">1</router-link>–<router-link to="/facsimile/V/072r">72</router-link></i>
-          (die Zahl 55 übersprungen), moderne Blattzählung mit Bleistift oben rechts
-          (wird im Folgenden zitiert), beginnt ab Bl.
-          <router-link to="/facsimile/V/003r">3</router-link>. 320
-          von ursprünglich 322 Blättern mit einer Lücke von 2 Blättern nach Bl.
-          <router-link to="/facsimile/V/169v">169</router-link>
-          (heute reguläres Quinternio
-          <router-link to="/facsimile/V/162r">162</router-link>–<router-link to="/facsimile/V/171v">171</router-link> mit
-          Bindfäden zwischen <router-link to="/facsimile/V/166v">166</router-link> und
-          <router-link to="/facsimile/V/167r">167</router-link>). Die Bll.
-          <router-link to="/facsimile/V/176r">176</router-link> und
-          <router-link to="/facsimile/V/177r">177</router-link> sind falsch eingebunden und gehören hinter Bl.
-          <router-link to="/facsimile/V/179v">179</router-link>. Unterschiedlich dickes Pergament (z.B. Bl. <router-link to="/facsimile/V/086r">86</router-link> sehr dünn), ab Bl.
-          <router-link to="/facsimile/V/286r">286</router-link>
-          dickeres. Sehr dünne Stellen (nach Rasuren) mit Pergamentstreifen überklebt
-          (z.B. Bll. <router-link to="/facsimile/V/023r">23r</router-link>b und <router-link to="/facsimile/V/062r">62r</router-link>b).
-       </p>
+       <h4><a id="_Toc389815970"/>1.1 Beschreibung der Handschrift V</h4>
+       <h5><a id="_Toc389815971"/>1.1.1 Äußere Beschreibung<a href="#_ftn9" id="_ftnref9"><sup>[9]</sup></a></h5>
+       <p class="MsoNormal" style="text-indent:.1pt"><b>›Rappoltsteiner Parzifal‹: Wolfram von Eschenbach, ›Parzival‹; Minneliedstrophen; Klaus
+         Wisse und Philipp Colin, ›Nuwer Parzifal‹</b></p>
+       <p class="MsoNormal">Ulrich von Rappoltstein   ·   Perg., 320 (von ursprünglich 322) Bll.   ·   38,5–39,0 x 27 cm   ·   Elsass (Straßburg
+         oder Raum Straßburg/Colmar) oder Basel   ·   bis 1336</p>
+       <p class="MsoNormal">Blattzählung mit Tinte von alter Hand oben in der Blattmitte <i><router-link to="/facsimile/V/001r">1</router-link>–<router-link
+         to="/facsimile/V/072r">72</router-link></i> (die Zahl 55 übersprungen), moderne Blattzählung mit Bleistift oben rechts (wird im Folgenden zitiert),
+         beginnt ab Bl. <router-link to="/facsimile/V/003r">3</router-link>. 320 von ursprünglich 322 Blättern mit einer Lücke von 2 Blättern nach Bl.
+          <router-link to="/facsimile/V/169v">169</router-link> (heute reguläres Quinternio <router-link to="/facsimile/V/162r">162</router-link>–<router-link
+          to="/facsimile/V/171v">171</router-link> mit Bindfäden zwischen <router-link to="/facsimile/V/166v">166</router-link> und <router-link
+          to="/facsimile/V/167r">167</router-link>). Die Bll. <router-link to="/facsimile/V/176r">176</router-link> und <router-link to="/facsimile/V/177r">177</router-link>
+          sind falsch eingebunden und gehören hinter Bl. <router-link to="/facsimile/V/179v">179</router-link>. Unterschiedlich dickes Pergament (z.B. Bl.
+          <router-link to="/facsimile/V/086r">86</router-link> sehr dünn), ab Bl. <router-link to="/facsimile/V/286r">286</router-link> dickeres. Sehr dünne
+          Stellen (nach Rasuren) mit Pergamentstreifen überklebt (z.B. Bll. <router-link to="/facsimile/V/023r">23r</router-link>b und <router-link
+          to="/facsimile/V/062r">62r</router-link>b).</p>
        <p class="MsoNormal"><b>Einband</b>: 41 x 27,5 cm großer Holzdeckel
           der Zeit mit braunem Leder bezogen (<a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/495092">Vorder-</a>
           und <a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/496517">Hinterdeckel</a>
@@ -4568,6 +4533,781 @@
              </p>
           </div>
        </div>
+    </div>
+    <hr/>
+    <div class="verzeichnisse">
+      <h1 id="p3">3&nbsp;Verzeichnisse</h1>
+      <h2 id="p3_1">3.1&nbsp;Abkürzungsverzeichnis</h2>
+      <h3 id="p3_1_1">3.1.1&nbsp;Abgekürzte Bezeichnungen von Bibliotheken und Archiven</h3>
+      <table>
+        <tbody>
+          <tr>
+            <td>BAV</td>
+            <td>Biblioteca Apostolica Vaticana (Vatikanstadt)</td>
+          </tr>
+          <tr>
+            <td>BLB</td>
+            <td>Badische Landesbibliothek (Karlsruhe)</td>
+          </tr>
+          <tr>
+            <td>BSB</td>
+            <td>Bayerische Staatsbibliothek (München)</td>
+          </tr>
+          <tr>
+            <td>GLA</td>
+            <td>Generallandesarchiv (Karlsruhe)</td>
+          </tr>
+          <tr>
+            <td>KB</td>
+            <td>Kantonsbibliothek</td>
+          </tr>
+          <tr>
+            <td>KBR</td>
+            <td>Koninklijke Bibliotheek van België/Bibliothèque royale de Belgique (Brüssel)</td>
+          </tr>
+          <tr>
+            <td>ÖNB</td>
+            <td>Österreichische Nationalbibliothek (Wien)</td>
+          </tr>
+          <tr>
+            <td>SB</td>
+            <td>Staatsbibliothek</td>
+          </tr>
+          <tr>
+            <td>SBB-PK</td>
+            <td>Staatsbibliothek Berlin – Preußischer Kulturbesitz</td>
+          </tr>
+          <tr>
+            <td>SLUB</td>
+            <td>Sächsische Landesbibliothek – Staats- und Universitätsbibliothek (Dresden)</td>
+          </tr>
+          <tr>
+            <td>SNM</td>
+            <td>Schweizerisches Nationalmuseum</td>
+          </tr>
+          <tr>
+            <td>StA</td>
+            <td>Staatsarchiv</td>
+          </tr>
+          <tr>
+            <td>StB</td>
+            <td>Stadtbibliothek</td>
+          </tr>
+          <tr>
+            <td>UB</td>
+            <td>Universitätsbibliothek</td>
+          </tr>
+          <tr>
+            <td>WLB</td>
+            <td>Württembergische Landesbibliothek (Stuttgart)</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 id="p3_1_2">3.1.2&nbsp;Sigla von Handschriften und Handschriftenfragmenten</h3>
+      <table>
+        <tbody>
+          <tr>
+            <td>Fr. 26</td>
+            <td>München, BSB, <a
+href="http://daten.digitale-sammlungen.de/0010/bsb00107437/images/index.html?fip=193.174.98.30&amp;id=00107437&amp;seite=1">Cgm 5249/3c</a></td>
+          </tr>
+          <tr>
+            <td>Fr. 32</td>
+            <td>Zürich, StA, C VI 1, VI, Nr. 6a und Nr. 6b; Zürich, ZB, Ms. Car. C 182</td>
+          </tr>
+          <tr>
+            <td>Fr. 42</td>
+            <td>München, BSB, <a
+href="http://daten.digitale-sammlungen.de/0010/bsb00107438/images/index.html?fip=193.174.98.30&amp;id=00107438&amp;seite=">Cgm 5249/3b</a></td>
+          </tr>
+          <tr>
+            <td>L</td>
+            <td>Karlsruhe, BLB, <a
+href="https://digital.blb-karlsruhe.de/blbhs/content/titleinfo/1164333">Lichtenthal 141</a></td>
+          </tr>
+          <tr>
+            <td>m</td>
+            <td>Wien, ÖNB, <a
+href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3227927&amp;order=1&amp;view=SINGLE">Cod. 2914</a></td>
+          </tr>
+          <tr>
+            <td>n</td>
+            <td>Heidelberg, UB, <a href="https://digi.ub.uni-heidelberg.de/diglit/cpg339i">Cod. Pal. germ. 339</a></td>
+          </tr>
+          <tr>
+            <td>o</td>
+            <td>Dresden, SLUB, <a href="http://digital.slub-dresden.de/werkansicht/dlf/12735/1/">Mscr.Dresd.M.66</a></td>
+          </tr>
+          <tr>
+            <td>Q</td>
+            <td>Karlsruhe, BLB, <a href="https://digital.blb-karlsruhe.de/urn/urn:nbn:de:bsz:31-36683">Donaueschingen 70</a></td>
+          </tr>
+          <tr>
+            <td>R</td>
+            <td>Bern, Burgerbibliothek, <a href="https://www.e-codices.unifr.ch/de/list/one/bbb/AA0091">Cod. AA 91</a></td>
+          </tr>
+          <tr>
+            <td>T</td>
+            <td>Wien, ÖNB, <a href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_2973596&amp;order=1&amp;view=SINGLE">Cod. 2708</a></td>
+          </tr>
+          <tr>
+            <td>U</td>
+            <td>Wien, ÖNB, <a href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3396562&amp;order=1&amp;view=SINGLE">Cod. 2775</a></td>
+          </tr>
+          <tr>
+            <td>V</td>
+            <td>Karlsruhe, BLB, <a href="https://parzival.pagina-dh.de/facsimile/V/001r/single-page">Donaueschingen 97</a></td>
+          </tr>
+          <tr>
+            <td>V'</td>
+            <td>Roma, Biblioteca Casanatense, <a href="https://parzival.pagina-dh.de/facsimile/VV/001r/single-page">Ms. 1409</a></td>
+          </tr>
+          <tr>
+            <td>W</td>
+            <td>Aarau, Aargauer KB, <a href="http://www.e-codices.unifr.ch/de/list/one/kba/WettF0009">MsWettF 9</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 id="p3_1_3">3.1.3&nbsp;Sigle Druck</h3>
+      <table>
+        <tbody>
+          <tr>
+            <td>W</td>
+            <td>Gesamtkatalog der Wiegendrucke <a href="http://gesamtkatalogderwiegendrucke.de/docs/M51783.htm">M51783</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 id="p3_1_4">3.1.4&nbsp;Kodikologische Abkürzungen</h3>
+      <table>
+        <tbody>
+          <tr>
+            <td>Bl./Bll.</td>
+            <td>Blatt/Blätter (= Folium/Folia)</td>
+          </tr>
+          <tr>
+            <td>HD</td>
+            <td>Hinterdeckel</td>
+          </tr>
+          <tr>
+            <td>HDK</td>
+            <td>Hinterdeckelkante</td>
+          </tr>
+            <tr><td>HSp.</td>
+            <td>Hinterspiegel</td>
+          </tr>
+          <tr>
+            <td>S.</td>
+            <td>Seite/Seiten (= Pagina/Paginae)</td>
+          </tr>
+          <tr>
+            <td>VSp.</td>
+            <td>Vorderspiegel</td>
+          </tr>
+          <tr>
+            <td>VD</td>
+            <td>Vorderdeckel</td>
+          </tr>
+          <tr>
+            <td>VDK</td>
+            <td>Vorderdeckelkante</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 id="p3_1_5">3.1.5&nbsp;Abgekürzt zitierte Werktitel und Textausgaben</h3>
+      <table>
+        <tbody>
+          <tr>
+            <td>CdGr</td>
+            <td><span style='font-variant:small-caps'>Chrétien, ›Conte du Graal‹ (Ed. Busby)</span></td>
+          </tr>
+          <tr>
+            <td>FR</td>
+            <td>Freidank von <span style='font-variant:small-caps'>Wilhelm Grimm</span>. Zweite Ausgabe, Göttingen 1860, und
+              <span style='font-variant:small-caps'>H[einrich] E[ernst] Bezzenberger</span>, Freidankes Bescheidenheit, Halle 1872 [Nachdruck Aalen 1962].</td>
+          </tr>
+          <tr>
+            <td>KLD</td>
+            <td>Deutsche Liederdichter des 13. Jahrhunderts. 2 Bände, hrsg. von <span style='font-variant:small-caps'>Carl von Kraus</span>, 1952 und 1958,
+              2. Auflage durchgesehen von Gisela Kornrumpf, Tübingen 1978 [Nachdruck (Berlin/Boston) 2010].</td>
+          </tr>
+          <tr>
+            <td>L.</td>
+            <td><span style='font-variant:small-caps'>Wolfram, ›Parzival‹ (Ed. Lachmann/Knecht/Schirok)</span></td>
+          </tr>
+          <tr>
+            <td>NP</td>
+            <td>›Nuwer Parzifal‹</td>
+          </tr>
+          <tr>
+            <td>Roach I</td>
+            <td><span style='font-variant:small-caps'>First Continuation (Ed. Roach)</span></td>
+          </tr>
+          <tr>
+            <td>Roach II</td>
+            <td><span style='font-variant:small-caps'>Second Continuation (Ed. Roach)</span></td>
+          </tr>
+          <tr>
+            <td>Roach V</td>
+            <td><span style='font-variant:small-caps'>Third Continuation (Ed. Roach)</span></td>
+          </tr>
+          <tr>
+            <td>RUB</td>
+            <td><span style='font-variant:small-caps'>Rappoltsteinisches Urkundenbuch</span></td>
+          </tr>
+          <tr>
+            <td>Sch.</td>
+            <td><span style='font-variant:small-caps'>›Rappoltsteiner Parzifal‹ (Ed. Schorbach)</span></td>
+          </tr>
+          <tr>
+            <td><span style='font-variant:small-caps'>SUB</span></td>
+            <td>Urkundenbuch der Stadt Strassburg</td>
+          </tr>
+          <tr>
+            <td>Walther</td>
+            <td><span style='font-variant:small-caps'>Walther von der Vogelweide (Ed. Bein)</span></td>
+          </tr>
+          <tr>
+            <td><span style='font-variant:small-caps'>Walther, Überlieferung</span></td>
+            <td>Walther von der Vogelweide. Die gesamte Überlieferung der Texte und Melodien. Abbildungen, Materialien, Melodietranskriptionen, hrsg.
+              von <span style='font-variant:small-caps'>Horst Brunner</span>, <span style='font-variant:small-caps'>Ulrich Müller</span> und
+              <span style='font-variant:small-caps'>Franz Viktor Spechtler</span> (Litterae 7), Göppingen 1977.</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2 id="p3_2">3.2&nbsp;Verzeichnis der Handschriften</h2>
+      <div class="manuscript-list">
+        <p class="MsoNormal">Aarau, Aargauer Kantonsbibliothek</p>
+        <p class="MsoNormal"><a href="http://www.e-codices.unifr.ch/de/list/one/kba/WettF0009">MsWettF 9</a></p>
+        <p class="MsoNormal">MsMurF 2</p>
+      </div>
+      <div class="manuscript-list">
+        <p class="MsoNormal">Bamberg, Staatsbibliothek</p>
+        <p class="MsoNormal">Msc.Can.51</p>
+        <p class="MsoNormal">Msc.Can.58</p>
+      </div>
+      <div class="manuscript-list">
+        <p class="MsoNormal">Basel, Universitätsbibliothek</p>
+        <p class="MsoNormal">B VII 27</p>
+      </div>
+      <div class="manuscript-list">
+        <p class="MsoNormal">Berlin, Staatsbibliothek Berlin – Preußischer Kulturbesitz</p>
+        <p class="MsoNormal"><a href="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN665006985&amp;PHYSID=PHYS_0001&amp;DMDID=DMDLOG_0001">Ms. germ. fol. 923, Nr. 25</a></p>
+      </div>
+      <div class="manuscript-list">
+        <p class="MsoNormal">Bern, Burgerbibliothek</p>
+        <p class="MsoNormal"><a href="https://www.e-codices.unifr.ch/de/list/one/bbb/AA0091">Cod. AA 91</a></p>
+      </div>
+      <div class="manuscript-list">
+        <p class="MsoNormal">Bruxelles, Koninklijke Bibliotheek van België/Bibliothèque royale de Belgique</p>
+        <p class="MsoNormal">Ms. IV 950,11</p>
+      </div>
+      <div class="manuscript-list">
+        <p class="MsoNormal"><span lang="it">Città del Vaticano, Biblioteca Apostolica Vaticana</span></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_871?ui_lang=ger">Pal. lat. 871</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1245">Pal. lat. 1245</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1289?ui_lang=ger">Pal. lat. 1289</a></p>
+        <p class="MsoNormal"><a href="https://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1931?ui_lang=ger">Pal. lat. 1931</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1956/0075/image?sid=4c41143a06d8e9180a77a6f45ac0dca7">Pal. lat. 1956</a></p>
+      </div>
+      <div class="manuscript-list">
+        <p class="MsoNormal">Dresden, Sächsische Landesbibliothek – Staats- und Universitätsbibliothek</p>
+        <p class="MsoNormal"><a href="http://digital.slub-dresden.de/werkansicht/dlf/12735/1/">Mscr.Dresd.M.66</a></p>
+      </div>
+      <div class="manuscript-list">
+        <p class="MsoNormal">Freiburg i.Br., Augustinermuseum</p>
+        <p class="MsoNormal">Codex Adelhausen 3, Inv. Nr. 11725</p>
+      </div>
+      <div class="manuscript-list">
+        <p class="MsoNormal">Freiburg i.Br., Universitätsbibliothek</p>
+        <p class="MsoNormal"><a href="http://dl.ub.uni-freiburg.de/diglit/hs476">Hs. 476</a></p>
+        <p class="MsoNormal"><a href="http://dl.ub.uni-freiburg.de/diglit/hs301/0536?sid=877ccb6b032360fbbba7b1dd8daa2450">Hs. 301</a></p>
+      </div>
+      <div class="manuscript-list">
+        <p class="MsoNormal">Heidelberg, Universitätsbibliothek</p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg28">Cod. Pal. germ. 28</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg60">Cod. Pal. germ. 60</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg68">Cod. Pal. germ. 68</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg115">Cod. Pal. germ. 115</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg139">Cod. Pal. germ. 139</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg147?sid=90930507383b80b08aa227cc67f0c30c">Cod. Pal. germ. 147</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg163">Cod. Pal. germ. 163</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg167">Cod. Pal. germ. 167</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg214">Cod. Pal. germ. 214</a></p>
+        <p class="MsoNormal">Cod. Pal. germ. 317 (jetziger Standort: Roma, Biblioteca Casanatense <a
+        href="https://parzival.pagina-dh.de/facsimile/VV/001r/single-page">Ms. 1409</a>)</p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg333">Cod. Pal. germ. 333</a></p>
+        <p class="MsoNormal"><a href="https://digi.ub.uni-heidelberg.de/diglit/cpg339i">Cod. Pal. germ. 339</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg364">Cod. Pal. germ. 364</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg383">Cod. Pal. germ. 383</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg394/0001/image?sid=90930507383b80b08aa227cc67f0c30c">Cod. Pal. germ. 394</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg404">Cod. Pal. germ. 404</a></p>
+      </div>
+      <div class="manuscript-list">
+        <p class="MsoNormal">Karlsruhe, Badische Landesbibliothek</p>
+        <p class="MsoNormal"><a href="https://digital.blb-karlsruhe.de/urn/urn:nbn:de:bsz:31-36683">Donaueschingen 70</a></p>
+        <p class="MsoNormal"><a href="https://digital.blb-karlsruhe.de/blbhs/Handschriften/content/titleinfo/101664">Donaueschingen 97</a></p>
+        <p class="MsoNormal"><a href="https://digital.blb-karlsruhe.de/blbhs/content/titleinfo/1164333">Lichtenthal 141</a></p>
+        <p class="MsoNormal"><a href="https://digital.blb-karlsruhe.de/blbhs/content/titleinfo/131279">St. Peter perg. 57</a></p>
+      </div>
+      <div class="manuscript-list">
+        <p class="MsoNormal">Karlsruhe, Landesarchiv Baden-Württemberg. Generallandesarchiv Karlsruhe</p>
+        <p class="MsoNormal">Anniversarienbücher 64, 3</p>
+        <p class="MsoNormal"><a href="https://www2.landesarchiv-bw.de/ofs21/bild_zoom/thumbnails.php?bestand=21447&amp;id=8402990&amp;syssuche=&amp;logik=">Hfk-Hs Nr. 133, 20</a></p>
+      </div>
+      <div class="manuscript-list">
+        <p class="MsoNormal">Köln, Universitäts- und Stadtbibliothek</p>
+        <p class="MsoNormal">Cod. 5 P 62</p>
+      </div>
+      <div class="manuscript-list">
+        <p class="MsoNormal">München, Bayerische Staatsbibliothek</p>
+        <p class="MsoNormal"><a href="http://daten.digitale-sammlungen.de/0010/bsb00107437/images/index.html?fip=193.174.98.30&amp;id=00107437&amp;seite=1">Cgm 5249/3c</a></p>
+        <p class="MsoNormal"><a href="http://daten.digitale-sammlungen.de/0010/bsb00107438/images/index.html?fip=193.174.98.30&amp;id=00107438&amp;seite=">Cgm 5249/3b</a></p>
+        <p class="MsoNormal"><a href="http://daten.digitale-sammlungen.de/0003/bsb00035326/images/index.html?fip=193.174.98.30&amp;id=00035326&amp;seite=1">Cgm 8470</a></p>
+        <p class="MsoNormal"><a href="http://daten.digitale-sammlungen.de/~db/bsb00007174/images/index.html">Cod.icon. 312 c</a></p>
+      </div>
+      <div class="manuscript-list">
+        <p class="MsoNormal">Mons, Bibliothèque centrale</p>
+        <p class="MsoNormal"><a href="http://biblio.umons.ac.be/public/bv/Perceval-complet_004/">331/206 R2/C</a></p>
+      </div>
+      <div class="manuscript-list">
+        <p class="MsoNormal">Roma, Biblioteca Casanatense</p>
+        <p class="MsoNormal"><a href="https://parzival.pagina-dh.de/facsimile/VV/001r/single-page">Ms. 1409</a></p>
+      </div>
+      <div class="manuscript-list">
+        <p class="MsoNormal">Stuttgart, Württembergische Landesbibliothek</p>
+        <p class="MsoNormal"><a href="http://digital.wlb-stuttgart.de/sammlungen/sammlungsliste/werksansicht/?no_cache=1&amp;tx_dlf%5Bid%5D=2653&amp;tx_dlf%5Bpage%5D=2&amp;tx_dlf%5Bdouble%5D=0&amp;cHash=52449b2ada5fbb79ed3a18bafa2e5b8">Cod.Don.III.54</a></p>
+      </div>
+      <div class="manuscript-list">
+        <p class="MsoNormal">Wien, Österreichische Nationalbibliothek</p>
+        <p class="MsoNormal"><a href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_2973596&amp;order=1&amp;view=SINGLE">Cod. 2708</a></p>
+        <p class="MsoNormal"><a href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3396562&amp;order=1&amp;view=SINGLE">Cod. 2775</a></p>
+        <p class="MsoNormal"><a href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3227927&amp;order=1&amp;view=SINGLE">Cod. 2914</a></p>
+      </div>
+      <div class="manuscript-list">
+        <p class="MsoNormal">Zürich, Schweizerisches Nationalmuseum</p>
+        <p class="MsoNormal"><a href="https://www.e-codices.unifr.ch/de/list/one/snm/AG002760">AG 2760</a></p>
+      </div>
+      <div class="manuscript-list">
+        <p class="MsoNormal">Zürich, Staatsarchiv</p>
+        <p class="MsoNormal">C VI 1, VI, Nr. 6a</p>
+        <p class="MsoNormal">C VI 1, VI, Nr. 6b</p>
+      </div>
+      <div class="manuscript-list">
+        <p class="MsoNormal">Zürich, Zentralbibliothek</p>
+        <p class="MsoNormal">Ms. Car. C 182</p>
+      </div>
+      <h2 id="p3_3">3.3&nbsp;Quellen- und Literaturverzeichnis</h2>
+      <h3 id="p3_3_1">3.3.1&nbsp;Textausgaben und gedruckte Quellen</h3>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Chrétien, ›Conte du Graal‹ (Ed. Busby)</span> – <span lang="fr">Chrétien de Troyes,
+        Le Roman de Perceval ou Le Conte du Graal. Édition critique d’après tous les manuscrits par </span><span style='font-variant:small-caps'>Keith
+          Busby</span>, Tübingen 1993.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>›Élucidation‹ (Ed. Thompson)</span><span lang="en-US" > – <span style='font-variant:small-caps'>Albert Wilder Thompson,</span> The
+Elucidation. A Prologue to the Conte del Graal (Publications of the Institute
+of French Studies, Inc.), New York 1931, S. 86–101.</span></p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Friedrich von Hohenlohe, Rechtsbuch (Ed. Höfler)</span> – Friederich’s von Hohenlohe,
+        Bischof’s von Bamberg, Rechtsbuch (1348). Zum ersten Male hrsg. und mit einem Commentare begleitet von <span style='font-variant:small-caps'>C[arl
+          Adolf Constantin von] Höfler</span> (Quellensammlung für fränkische Geschichte 3), Bamberg 1852 [Neudruck Osnarbrück 1984].</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Gottfried von Neifen, Lieder (Ed. Haupt)</span> – Die Lieder Gottfrieds von Neifen,
+        hrsg. von <span style='font-variant:small-caps'>Moriz Haupt</span>, Leipzig 1851.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Gräberbuch (Ed. Röthinger/Signori)</span> –&nbsp;Das Gräberbuch des Basler Domstifts.
+        Badisches Generallandesarchiv Karlsruhe 64/4, eingeleitet und ediert von <span style='font-variant:small-caps'>Lisa Röthinger</span> und <span
+          style='font-variant:small-caps'>Gabriela Signori</span> (Quellen und Forschungen zur Basler Geschichte [16]), Basel 2009.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Nekrolog Pairis (Ed. Clauss)</span> – Das Nekrolog der Cisterzienser-Abtei Pairis, hrsg.
+        von <span style='font-variant:small-caps'>Joseph M. B. Clauss</span>, in: Bulletin de la Société pour la conservation des monuments historiques
+        d’Alsace, 2<sup>e</sup> série 22 (1908), S. 55–103.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>›Perceval‹, First Continuation (Ed. Roach)</span><span lang="EN-US"> – The First Continuation.
+        Redaction of Mss <i>T V D</i>, hrsg. von <span style='font-variant:small-caps'>William Roach</span> (The Continuations of the Old French ›Perceval‹
+        of Chretien de Troyes 1), Philadelphia 1949.</span></p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>›Perceval‹, Second Continuation (Ed. Roach)</span><span lang="EN-US"> – The Second Continuation,
+        hrsg. von <span style='font-variant:small-caps'>William Roach</span> (The Continuations of the Old French ›Perceval‹ of Chretien de Troyes 2),
+        Philadelphia 1971.</span></p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>›Perceval‹, Third Continuation (Ed. Roach)</span><span lang="EN-US"> – The Third Continuation
+        by Mannessier, hrsg. von <span style='font-variant:small-caps'>William Roach</span> (The Continuations of the Old French ›Perceval‹ of Chretien
+        de Troyes 5), Philadelphia 1983.</span></p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>›Rappoltsteiner Parzifal‹ (Ed. Schorbach)</span> – Parzifal von Claus Wisse und Philipp
+        Colin (1331–1336). Eine Ergänzung der Dichtung Wolframs von Eschenbach. Zum ersten Male hrsg. von <span style='font-variant:small-caps'>Karl
+          Schorbach</span> (Elsässische Litteraturdenkmäler aus dem XIV–XVII. Jahrhundert 5), Strassburg/London 1888 [Neudruck Berlin/New York 1974
+          und (Berlin/Boston 2010)].</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Walther von der Vogelweide (Ed. Bein)</span> – Walther von der Vogelweide, Leich,
+        Lieder, Sangsprüche. 15., veränderte und um Fassungseditionen erweiterte Auflage der Ausgabe Karl Lachmanns. Aufgrund der 14., von Christoph
+        Cormeau bearbeiteten Ausgabe neu hrsg., mit Erschließungshilfen und textkritischen Kommentaren versehen von <span style='font-variant:small-caps'>Thomas
+          Bein</span>. Edition der Melodien von Horst Brunner, Berlin/Boston 2013.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Wolfram, ›Parzival‹ (Ed. Lachmann/Knecht/Schirok)</span> – Wolfram von Eschenbach.
+        Parzival. Studienausgabe. 2. Auflage. Mittelhochdeutscher Text nach der sechsten Ausgabe von <span style='font-variant:small-caps'>Karl
+          Lachmann</span>, Übersetzung von <span style='font-variant:small-caps'>Peter Knecht</span>. Mit Einführungen zum Text der Lachmannschen
+          Ausgabe und in Probleme der ›Parzival‹-Interpretation von <span style='font-variant:small-caps'>Bernd Schirok</span> (de Gruyter Texte),
+          Berlin/New York 2003.</p>
+      <h3 id="p3_3_2">3.3.2&nbsp;Handschriften- und Ausstellungskataloge</h3>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Barack Kat. Donaueschingen</span> – Die Handschriften der Fürstlich-Fürstenbergischen
+        Hofbibliothek zu Donaueschingen, geordnet und beschr. von <span style='font-variant:small-caps'>K[arl] A[ugust] Barack</span>, Tübingen 1865.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Bretscher-Gisiger/Gamper Kat. Wettingen</span> – <span style='font-variant:small-caps'>Charlotte
+        Bretscher-Gisiger</span> und <span style='font-variant:small-caps'>Rudolf Gamper</span>, Katalog der mittelalterlichen Handschriften des Klosters
+        Wettingen. Aarau, Laufenburg, Lenzburg, Rheinfelden und Zofingen, Dietikon-Zürich 2009.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Heinzer Kat. Ausstellung</span> – Bewahrtes Kulturerbe. »Unberechenbare Zinsen«. Katalog
+        zur Ausstellung der vom Land Baden-Württemberg erworbenen Handschriften der Fürstlich Fürstenbergischen Hofbibliothek, hrsg. von <span
+          style='font-variant:small-caps'>Felix Heinzer</span>, Stuttgart <sup>2</sup>1994.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Heinzer/Stamm Kat. Lichtenthal</span> – Die Handschriften von Lichtenthal, beschr. von <span
+        style='font-variant:small-caps'>Felix Heinzer</span> und <span style='font-variant:small-caps'>Gerhard Stamm</span>. Mit einem Anhang: Die heute
+        noch im Kloster Lichtenhtal befindlichen Handschriften des 12. bis 16. Jahrhunderts, beschr. von Felix Heinzer (Die Handschriften der Badischen
+        Landesbibliothek in Karlsruhe 11), Wiesbaden 1987.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Jezler</span>/<span style='font-variant:small-caps'>Niederhäuser</span>/<span
+        style='font-variant:small-caps'>Jezler Kat. Ausstellung Ritterturnier</span> – Ritterturnier. Geschichte einer Festkultur, hrsg. von Peter
+        Jezler, Peter Niederhäuser und Elke Jezler [Begleitbuch zur Ausstellung ‘Ritterturnier – Geschichte einer Festkultur’, Museum zu Allerheiligen
+        Schaffhausen, 10. April – 21. September 2014], Luzern 2014.</p>
+      <p class="bib-entry"><span lang="de-CH">Leitschuh Kat. Bamberg – Katalog der Handschriften der Königlichen Bibliothek zu Bamberg, bearb.
+        von <span style='font-variant:small-caps'>Friedrich Leitschuh</span>, Band 1,1: Bibelhandschriften. Revidierter Nachdruck der Ausgabe von 1895,
+        Wiesbaden 1966.</span></p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Miller</span>/<span style='font-variant:small-caps'>Zimmermann Kat. Heidelberg</span>
+        – Die Codices Palatini germanici in der Universitätsbibliothek Heidelberg (Cod. Pal. germ. 304–495), bearb. von <span
+        style='font-variant:small-caps'>Matthias Miller</span> und <span style='font-variant:small-caps'>Karin Zimmermann </span>(Kataloge der
+        Universitätsbibliothek Heidelberg 8), Wiesbaden 2007.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Pfändtner/Westphal Kat. Bamberg</span> – Die Handschriften des 13. und 14.
+        Jahrhunderts der Staatsbibliothek Bamberg mit Nachträgen von Handschriften und Fragmenten des 10. bis 12. Jahrhunderts. Beschrieben
+        von <span style='font-variant:small-caps'>Karl-Georg Pfändtner</span> und <span style='font-variant:small-caps'>Stefanie Westphal</span>. Mit
+        einem Beitrag von <span style='font-variant:small-caps'>Gude Suckale-Redlefsen</span>. 2 Bände (Katalog der illuminierten Handschriften der
+        Staatsbibliothek Bamberg 3,1–2), Wiesbaden 2015.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Scheffel Kat. Donaueschingen</span> – Die Handschriften altdeutscher Dichtungen der
+        Fürstlich Fürstenbergischen Hofbibliothek zu Donaueschingen, geordnet und beschr. von <span style='font-variant:small-caps'>J[oseph] Vict[or]
+          Scheffel</span>, Stuttgart 1859.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Schuba Kat. Vaticana</span> – Die medizinischen Handschriften der Codices Palatini
+        Latini in der Vatikanischen Bibliothek, beschr. von <span style='font-variant:small-caps'>Ludwig Schuba</span> (Kataloge der Universitätsbibliothek
+        Heidelberg 1), Wiesbaden 1981.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Zimmermann Kat. Heidelberg</span> – Die Codices Palatini germanici in der
+        Universitätsbibliothek Heidelberg (Cod. Pal. germ. 1–181), bearb. von <span style='font-variant:small-caps'>Karin Zimmermann</span> unter
+        Mitwirkung von Sonja Glauch, Matthias Miller und Armin Schlechter (Kataloge der Universitätsbibliothek Heidelberg 6), Wiesbaden 2003.</p>
+      <h3 id="p3_3_3">3.3.3&nbsp;Quellensammlungen und Handbücher</h3>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Lexikon Stammbuchsprüche</span> – Lexikon der Stammbuchsprüche. Stechow‘s
+        Stammbuchsprüche-Schlüssel (S.S.S.S.), zusammengestellt von <span style='font-variant:small-caps'>Friedrich-Carl Freiherr v. Stechow</span>,
+        Neustadt/Aisch 1996.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Oberbadisches Geschlechterbuch</span> – Oberbadisches Geschlechterbuch, hrsg.
+        von der Badischen Historischen Kommission, bearb. von <span style='font-variant:small-caps'>J[ulius] Kindler von Knobloch</span> und (Band
+        3) <span style='font-variant:small-caps'>O[thmar] Freiherr von Stotzingen</span>, 3 Bände, Heidelberg 1898 (Band 1), 1905 (Band 2) und
+        1919 (Band 3).</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Stammbuch-Blätter</span> – Stammbuch-Blätter des norddeutschen Adels. Aus
+        Stammbüchern des 16. und 17. Jahrhunderts gesammelte wortgetreue Copieen der Inschriften und genaue Beschreibungen der Wappen. Ein Beitrag
+        zur Adels- und Culturgeschichte, hrsg. von <span style='font-variant:small-caps'>Ad[olf] M[atthias] Hildebrandt</span>, Berlin 1884.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Rappoltsteinisches Urkundenbuch</span> – Rappoltsteinisches Urkundenbuch 759–1500.
+        Quellen zur Geschichte der ehemaligen Herrschaft Rappoltstein im Elsass, hrsg. von <span style='font-variant:small-caps'>Karl Albrecht</span>,
+        5 Bände, Colmar 1891 (Band 1), 1892 (Band 2), 1894 (Band 3), 1896 (Band 4) und 1898 (Band 5).</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>›Regesta Imperii‹ VII,1,4</span> – Regesten Kaiser Ludwigs des Bayern (1314–1347) nach
+        Archiven und Bibliotheken geordnet, hrsg. von <span style='font-variant:small-caps'>Peter Acht</span>. Heft 4: Die Urkunden aus den Archiven
+        und Bibliotheken des Elsasses (Département Haut- und Bas-Rhin), bearb. von <span style='font-variant:small-caps'>Johannes Wetzel</span>,
+        Köln/Weimar/Wien 1998.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Stammtafeln</span> XI = Europäische Stammtafeln. Stammtafeln zur Geschichte der
+        europäischen Staaten. Neue Folge 11: Familien vom Mittel- und Oberrhein und aus Burgund, hrsg. von <span style='font-variant:small-caps'>Detlev
+          Schwennicke</span>, Berlin 1986.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Stammtafeln</span> XII = Europäische Stammtafeln. Stammtafeln zur Geschichte der
+        europäischen Staaten. Neue Folge 12: Schwaben, hrsg. von <span style='font-variant:small-caps'>Detlev Schwennicke</span>, Berlin 1992.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Urkundenbuch der Stadt Strassburg</span> – Urkundenbuch der Stadt Strassburg
+        (Urkunden und Akten der Stadt Strassburg. Erste Abtheilung: Urkundenbuch der Stadt Strassburg), Band 2: Politische Urkunden von 1266 bis
+        1332, bearb. von <span style='font-variant:small-caps'>Wilhelm Wiegand</span>, Strassburg 1886; Band 3: Privatrechtliche Urkunden und
+        Amtslisten von 1266 bis 1332, bearb. von <span style='font-variant:small-caps'>Aloys Schulte</span>, Strassburg 1884; Band 5: Politische
+        Urkunden von 1332 bis 1380, bearb. von <span style='font-variant:small-caps'>Hans Witte</span> und <span style='font-variant:small-caps'>Georg
+          Wolfram</span>, Strassburg, 1896.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Urkunden Augustiner</span> – Urkunden und Regesten zur Geschichte der
+        Augustinerklöster Würzburg und Münnerstadt. Von den Anfängen bis zur Mitte des 17. Jahrhunderts (Regesta Herbipolensia V). 2. Teilband,
+        bearb. von <span style='font-variant:small-caps'>Adolar Zumkeller </span>(Quellen und Forschungen zur Geschichte des Bistums und Hochstifts
+        Würzburg 18), Würzburg 1967.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Urkundenregesten Bistum Würzburg</span> – Urkundenregesten zur Geschichte der
+        kirchlichen Verwaltung des Bistums Würzburg im hohen uns späten Mittelalter (1136–1488) (Regesta Herbipolensia II), bearb. von <span
+        style='font-variant:small-caps'>Wilhelm Engel</span> (Quellen und Forschungen zur Geschichte des Bistums und Hochstifts Würzburg 9),
+        Würzburg 1954.</p>
+      <h3 id="p3_3_4">3.3.4&nbsp;Forschungsliteratur</h3>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Achnitz</span> (2012) – <span style='font-variant:small-caps'>Wolfgang Achnitz</span>,
+        Deutschsprachige Artusdichtung des Mittelalters. Eine Einführung (De Gruyter Studium), Berlin/Boston 2012.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Albrecht</span> (1891) – <span style='font-variant:small-caps'>Karl Albrecht</span>,
+        Einleitung, in: Rappoltsteinisches Urkundenbuch 759–1500. Quellen zur Geschichte der ehemaligen Herrschaft Rappoltstein im Elsass. Band 1,
+        hrsg. von Karl Albrecht, Colmar 1891, S. XI–XV.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Backes</span> (1992) – <span style='font-variant:small-caps'>Martina Backes</span>,
+        Das literarische Leben am kurpfälzischen Hof zu Heidelberg im 15. Jahrhundert. Ein Beitrag zur Gönnerforschung des Spätmittelalters
+        (Hermaea 68), Tübingen 1992.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Backes</span> (2009) – <span style='font-variant:small-caps'>Martina Backes</span>,
+        Literarische Kommunikationswege am Oberrhein, in: Kulturtopographie des deutschsprachigen Südwestens im späteren Mittelalter. Studien und Texte,
+        hrsg. von Barbara Fleith und René Wetzel (Kulturtopographie des alemannischen Raumes. Texte und Untersuchungen 1), Berlin/New York 2009, S.
+        1–11.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Barth</span> (1960a) – <span style='font-variant:small-caps'>Medard Barth</span>,
+        Zum Kult des hl. Thomas Becket im deutschen Sprachgebiet, in Skandinavien und Italien, in: Freiburger Diözesan-Archiv 80 (1960), S. 97–166.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Barth</span> (1960b) – <span style='font-variant:small-caps'>Medard Barth</span>,
+        Elsässer Pilger an den berühmten Wallfahrtsorten des Mittelalters, in: Freiburger Diözesan-Archiv 80 (1960), S. 167–189.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Bartholdi</span> (1861/62) – <span style='font-variant:small-caps'>Charles Bartholdi</span>,
+        Catalogue de la Bibliothèque des Seigneurs de Ribaupierre au seizième siècle, in: Curiosités d’Alsace 1 (1861/62), S. 36–51.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Becker</span> (1977) – <span style='font-variant:small-caps'>Peter Jörg Becker</span>,
+        Handschriften und Frühdrucke mittelhochdeutscher Epen. Eneide, Tristrant, Tristan, Erec, Iwein, Parzival, Willehalm, Jüngerer Titurel,
+        Nibelungenlied und ihre Reproduktion und Rezeption im späteren Mittelalter und in der frühen Neuzeit, Wiesbaden 1977.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Beckers</span> (1995) – <span style='font-variant:small-caps'>Hartmut Beckers</span>,
+        Brüsseler Bruchstücke aus Konrads ›Trojanerkrieg‹, in: Zeitschrift für deutsches Altertum und deutsche Literatur 124 (1995), S. 319–327.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Beer</span> (1959) – <span style='font-variant:small-caps'>Ellen J. Beer</span>,
+        Beiträge zur Oberrheinischen Buchmalerei in der ersten Hälfte des 14. Jahrhunderts unter besonderer Berücksichtigung der Initialornamentik,
+        Basel/Stuttgart 1959.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Beer</span> (1965) – Gotische Buchmalerei. Literatur von 1945 bis 1961. Fortsetzung
+        und Schluß, in: Zeitschrift für Kunstgeschichte 28 (1965), S. 134–158.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Bein</span> (1999) – <span style='font-variant:small-caps'>Thomas Bein</span>,
+        Walther und andere Lyriker im Rappoltsteiner Florilegium. Zum Spannungsfeld von Poetik, Textkritik und Edition, in: Mittelalterliche
+        Lyrik: <i>Probleme der Poetik</i>, hrsg. von Thomas Cramer und Ingrid Kasten (Philologische Studien und Quellen 154), Berlin 1999, S. 169–196.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Besch</span> (1962) – <span style='font-variant:small-caps'>Werner Besch</span>,
+        Vom ‚alten’ zum ‚nüwen’ Parzival, in: Der Deutschunterricht 14/1 (1962), S. 91–104.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Brieger</span> (1907) – <span style='font-variant:small-caps'>Rudolf Brieger</span>,
+        Die Herrschaft Rappoltstein. Ihre Entstehung und Entwicklung (Beiträge zur Landes- und Volkeskunde von Elsass-Lothringen 31), Strassburg 1907.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Buchheit</span> (2010) – <span style='font-variant:small-caps'>Nicolas Buchheit</span>,
+        Horizon universel, horizon régional. Réseaux et territoires des commanderies hospitalières de Basse-Alsace au XIII<sup>e</sup> et au
+        XIV<sup>e</sup> siècle. Band 2: Annexes – Sources et bibliographie – <i>Indices</i>, Diss. (masch.) Université de Strasbourg 2010.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Bünz</span> (1998) – <span style='font-variant:small-caps'>Enno Bünz</span>,
+        Stift Haug in Würzburg. Untersuchungen zur Geschichte eines fränkischen Kollegiatstiftes im Mittelalter. Teilband 2 (Veröffentlichungen
+        des Max-Planck-Instituts für Geschichte 128. Studien zur Germania Sacra 20), Göttingen 1998.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Bumke</span> (1997) – <span style='font-variant:small-caps'>Joachim Bumke</span>,
+        Autor und Werk. Beobachtungen zur höfischen Epik (ausgehend von der Donaueschinger Parzivalhandschrift G<sup>∂</sup>), in: Philologie
+        als Textwissenschaft. Alte und neue Horizonte, hrsg. von Helmut Tervooren und Horst Wenzel, Berlin et al. 1997 (Zeitschrift für deutsche
+        Philologie 116, Sonderheft), S. 87–114.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Busby</span> (1993) – <span style='font-variant:small-caps'>Keith Busby</span>,
+        Einleitung, in: Chrétien de Troyes, Le Roman de Perceval ou Le Conte du Graal. Édition critique d’après tous les manuscrits par Keith
+        Busby, Tübingen 1993, S. IX–XCI.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Chen</span> (2015) – <span style='font-variant:small-caps'>Yen-Chun Chen</span>, Ritter,
+        Minne und der Gral. Komplementarität und Kohärenzprobleme im ›Rappoltsteiner Parzifal‹ (Studien zur historischen Poetik 18), Heidelberg 2015.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Cormeau/Bein</span> (2013) – <span style='font-variant:small-caps'>Christoph Cormeau</span>/<span
+        style='font-variant:small-caps'>Thomas Bein</span>, Einleitung (Text der 14. Aufl. von Christoph Cormeau mit Kürzungen und Erweiterungen von
+        Thomas Bein), in: Walther von der Vogelweide, Leich, Lieder, Sangsprüche. 15., veränderte und um Fassungseditionen erweiterte Auflage der Ausgabe
+        Karl Lachmanns. Aufgrund der 14., von Christoph Cormeau bearbeiteten Ausgabe neu hrsg., mit Erschließungshilfen und textkritischen Kommentaren
+        versehen von Thomas Bein. Edition der Melodien von Horst Brunner, Berlin/Boston 2013, S. XV–XLV.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Cramer</span> (1983) – <span style='font-variant:small-caps'>Thomas Cramer</span>,
+        Aspekte des höfischen Romans im 14. Jahrhundert, in: Zur deutschen Literatur und Sprache des 14. Jahrhunderts. Dubliner Colloquium 1981, hrsg.
+        von Walter Haug, Timothy R. Jackson und Johannes Janota (Reihe Siegen. Beiträge zur Literatur- und Sprachwissenschaft 45), Heidelberg 1983, S. 208–220.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Emmerling</span> (2003) – <span style='font-variant:small-caps'>Sonja Emmerling</span>,
+        Geld und Liebe. Zum Epilog des ›Rappoltsteiner Parzifal‹, in: Forschungen zur deutschen Literatur des Spätmittelalters. Festschrift für Johannes
+        Janota, hrsg. von Horst Brunner und Werner Williams-Krapp, Tübingen 2003, S. 31–49.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Fasching</span> (2018) – Richard F. Fasching, Neue Erkenntnisse zum ‘Nuwen Parzifal’
+        und zu einer ‘Epenwerkstatt’ des 14. Jahrhunderts, erscheint in: Zeitschrift für deutsches Altertum und deutsche Literatur 147 (2018) (ca. 20 Seiten).</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Fechter</span> (1935) – <span style='font-variant:small-caps'>Werner Fechter</span>, Das
+        Publikum der mittelhochdeutschen Dichtung (Deutsche Forschungen 28), Frankfurt a.M. 1935 [Nachdrucke ebd. 1966 und Darmstadt 1972].</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Gamber</span> (1985) – <span style='font-variant:small-caps'>Ortwin Gamber</span>,
+        Ritterspiele und Turnierrüstung im Spätmittelalter, in: Das ritterliche Turnier im Mittelalter. Beiträge zu einer vergleichenden Formen- und
+        Verhaltensgeschichte des Rittertums, hrsg. von Josef Fleckenstein (Veröffentlichungen des Max-Planck-Instituts für Geschichte 80), Göttingen 1985, S. 513–531.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Gamber</span> (1989) – <span style='font-variant:small-caps'>Ortwin Gamber</span>, Art.
+        Helm, in: Lexikon des Mittelalters 4 (1989), Sp. 2123.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Geh</span> (1994) – <span style='font-variant:small-caps'>Hans-Peter Geh</span>, Der Erwerb
+        der Handschriftensammlung der Fürstlich-Fürstenbergischen Hofbibliothek Donaueschingen, in: Bücher für die Wissenschaft. Bibliotheken zwischen
+        Tradition und Fortschritt. Festschrift für Günter Gattermann zum 65. Geburtstag, hrsg. von Gert Kaiser in Verbindung mit Heinz Finger und Elisabeth
+        Niggermann, München/New Providence/London/Paris 1994, S. 283–291.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Geh</span> (<sup>2</sup>1994) – <span style='font-variant:small-caps'>Hans-Peter Geh</span>,
+        Die Erwerbung der Handschriften-Sammlung der F. F. Hofbibliothek Donaueschingen durch das Land Baden-Württemberg, in: Bewahrtes Kulturerbe.
+        »Unberechenbare Zinsen«. Katalog zur Ausstellung der vom Land Baden-Württemberg erworbenen Handschriften der Fürstlich Fürstenbergischen
+        Hofbibliothek, hrsg. von Felix Heinzer, Stuttgart <sup>2</sup>1994, S. 1–4.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Gérard</span> (1872) – <span style='font-variant:small-caps'>Charles Gérard</span>,
+        Les artistes de l’Alsace pendant le moyen-âge, Band 1, Colmar/Paris 1872.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Gerhardt</span> (1999) – <span style='font-variant:small-caps'>Dietrich Gerhardt</span>,
+        Zürich und Süsskind von Trimberg, in: Zeitschrift für deutsche Philologie 118 (1999), S. 103–110.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Gervinus</span> (1853) – <span style='font-variant:small-caps'>G[eorg] G[ottfried]
+        Gervinus</span>, Geschichte der Deutschen Dichtung. Zweiter Band. Vierte, gänzlich umgearbeitete Ausgabe, Leipzig 1853.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Ginsburger</span> (1968a) – <span style='font-variant:small-caps'>Moses Ginsburger</span>,
+        Art. Rappoltsweiler, in: Germania Judaica. Band 2. Von 1238 bis zur Mitte des 14. Jahrhunderts. 2. Halbband: Maastricht–Zwolle, hrsg. von Zvi
+        Avneri, Tübingen 1968, S. 674f.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Ginsburger</span> (1968b) – <span style='font-variant:small-caps'>Moses Ginsburger</span>,
+        Art. Straßburg, in: Germania Judaica. Band 2. Von 1238 bis zur Mitte des 14. Jahrhunderts. 2. Halbband: Maastricht–Zwolle, hrsg. von Zvi
+        Avneri, Tübingen 1968, S. 798–806.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Hartl</span> (1928) – <span style='font-variant:small-caps'>Eduard Hartl</span>, Die
+        jüngeren *G-Handschriften des Wolframschen Parzival. 1. Abteilung: Die Wiener Mischhandschriftengruppe *W
+        (G<sup>n</sup>G<sup>δ</sup>G<sup>μ</sup>G<sup>φ</sup>) (Eduard Hartl, Die Textgeschichte des Wolframschen Parzival. 1. Teil), Berlin/Leipzig 1928.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Heinzer</span> (1994) –
+        <span style='font-variant:small-caps'>Felix Heinzer</span>, Zur Geschichte der Fürstlich Fürstenbergischen Handschriftensammlung, in:
+        Bewahrtes Kulturerbe. »Unberechenbare Zinsen«. Katalog zur Ausstellung der vom Land Baden-Württemberg erworbenen Handschriften der Fürstlich
+        Fürstenbergischen Hofbibliothek, hrsg. von Felix Heinzer, Stuttgart <sup>2</sup>1994, S. 5–13.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Heinzer</span> (1995) – <span style='font-variant:small-caps'>Felix
+        Heinzer</span>, Die neuen Standorte der ehemals Donaueschinger Handschriftensammlung, in: Scriptorium 49 (1995), S. 312–319.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Heiser</span> (2002) – <span style='font-variant:small-caps'>Ines Heiser</span>,
+        Freidank-Inschriften, in: Zeitschrift für deutsches Altertum und deutsche Literatur 131 (2002), S. 488–493.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Heller</span> (1845) – <span style='font-variant:small-caps'>J[oseph] Heller</span>,
+        Zur Geschichte der Heidelberger Bibliothek, in: Serapeum. Zeitschrift für Bibliothekwissenschaft, Handschriftenkunde und ältere Litteratur
+        6 (1845), S. 251–253.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Heller</span> (1930) – <span style='font-variant:small-caps'>Edmund Kurt Heller</span>,
+        Studies on the Alsatian Parzival, in: The Germanic Review 5 (1930), S. 109–126.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps;'>Heller</span> (1934) – <span style='font-variant:small-caps'>Edmund Kurt Heller</span>,
+        The Story of the Magic Horn: A Study in the Development of a Mediaeval Folk Tale, in: Speculum 9 (1934), S. 38–50.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Herzhoff</span> (1904) – <span style='font-variant:small-caps'>Richard Herzhoff</span>,
+        Personificationen lebloser Dinge in der altfranzösischen Litteratur des 10. bis 12. Jahrhunderts. Teil 2: Personificationen von Abstracten, [o.O.] 1904.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Himmelstein</span> (1861) – <span style='font-variant:small-caps'>[Franz Xaver]
+        Himmelstein</span>, Das Frauenkloster Wechterswinkel, in: Archiv des historischen Vereins von Unterfranken und Aschaffenburg 15 (1861), S. 115–176.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Holland</span> (1854) – <span style='font-variant:small-caps'>W[ilhelm] L[udwig]
+        Holland</span>, Chestien von Troies. Eine literaturgeschichtliche Untersuchung, Tübingen 1854.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Holtorf</span> (1967) – <span style='font-variant:small-caps'>Arne Holtorf</span>, Eine Strophe
+        Reinmars von Brennenberg im Rappoltsteiner ›Parzival‹, in: Zeitschrift für deutsches Altertum 96 (1967), S. 321–328.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Holznagel</span> (1995) – <span style='font-variant:small-caps'>Franz-Josef Holznagel</span>,
+        Minnesang-Florilegien. Zur Lyriküberlieferung im Rappoltsteiner Parzifal, im Berner Hausbuch und in der Berliner Tristan-Handschrift N, in:
+        <i>„Dâ hœret ouch geloube zuo“</i>. Überlieferungs- und Echtheitsfragen zum Minnesang. Beiträge zum Festcolloquium für Günther Schweikle
+        anlässlich seines 65. Geburtstags, hrsg. von Rüdiger Krohn in Zusammenarbeit mit Wulf-Otto Dreeßen, Stuttgart/Leipzig 1995, S. 65–88.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Huber</span> (1973) – <span style='font-variant:small-caps'>Erna Huber</span>, Die
+        Fürstlich Fürstenbergische Hofbibliothek Donaueschingen, in: Librarium. Zeitschrift der Schweizerischen Bibliophilen-Gesellschaft 16 (1973), S. 7–18.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Jakob</span> (1998) – <span style='font-variant:small-caps'>Andreas Jakob</span>, Das
+        Kollegiatstift bei St. Martin in Forchheim. Grundlagen zur Geschichte von Stift und Pfarrei in der zweiten Hauptstadt des Hochstifts Bamberg
+        1354–1803 (Historischer Verein Bamberg. Schriftenreihe 35/1), Bamberg 1998.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Jäschke</span> (1994) – <span style='font-variant:small-caps'>Kurt-Ulrich Jäschke</span>,
+        Judenschutz – eine mittelalterliche Königstugend?, in: Juden in Deutschland. Lebenswelten und Einzelschicksale. Ringvorlesung der Philosophischen
+        Fakultät der Universität des Saarlandes im Wintersemester 1988/89, hrsg. von Reinhard Schneider (Annales Universitatis Saraviensis. Philosophische
+        Fakultät 1), St. Ingberg 1994, S. 35–149.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Jezler</span> (2014) –&nbsp;<span style='font-variant:small-caps'>Peter Jezler</span>,
+        Grundlagen, in: Ritterturnier. Geschichte einer Festkultur, hrsg. von Peter Jezler, Peter Niederhäuser und Elke Jezler [Begleitbuch zur
+        Ausstellung ‘Ritterturnier – Geschichte einer Festkultur’, Museum zu Allerheiligen Schaffhausen, 10. April – 21. September 2014], Luzern 2014, S. 15–23.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Keller</span> (1844) – <span style='font-variant:small-caps'>Adelbert Keller</span>,
+        Romvart. Beitræge zur Kunde mittelalterlicher Dichtung aus italiänischen Bibliotheken, Mannheim/Paris 1844.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Kerler</span> (1840) – <span style='font-variant:small-caps'>H[einrich] F[riedrich]
+        Kerler</span>, Geschichte der Grafen von Helfenstein nach den Quellen dargestellt, Ulm 1840.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Kimmenauer</span> (1959/60) – <span style='font-variant:small-caps'>A[lfred]
+        Kimmenauer</span>, Von Ulrichs IX. Bücher [!] und Bücherzeichen, in: Bulletin de la Société d’Histoire et d’Archéologie de Ribeauvillé 22 (1959/60), S. 20–22.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Klein</span> (2011) – <span style='font-variant:small-caps'>Klaus Klein</span>,
+        Beschreibendes Verzeichnis der Handschriften (Wolfram und Wolfram-Fortsetzer), in: Wolfram von Eschenbach. Ein Handbuch, hrsg. von
+        Joachim Heinzle, 2 Bde., Berlin/Boston 2011 [Studienausgabe in einem Band, Berlin/Boston 2014], S. 941–1002.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Koch</span> (2012) – <span style='font-variant:small-caps'>Jacky Koch</span>, L'art
+        de bâtir dans les châteaux forts en Alsace (X<sup>e</sup>–XIII<sup>e</sup> siècle). 2 Bände, Diss. (masch.) Université de Lorraine 2012.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Kreutz</span> (2005) – <span style='font-variant:small-caps'>Bernhard Kreutz</span>,
+        Art. Rappoltsweiler, in: <span style='font-variant:small-caps'>Monika Escher</span> und <span style='font-variant:small-caps'>Frank G.
+          Hirschmann</span>, Die urbanen Zentren des hohen und späteren Mittelalters. Vergleichende Untersuchungen zu Städten und Städtelandschaften im
+          Westen des Reiches und in Ostfrankreich. Band 2: Ortsartikel (Trier historische Forschungen 50/2), Trier 2005, S. 497–499.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Lorenz/Scherer</span> (1872) – <span style='font-variant:small-caps'>Ottokar
+        Lorenz</span> und <span style='font-variant:small-caps'>Wilhelm Scherer</span>, Geschichte des Elsasses von den ältesten Zeiten bis auf die
+        Gegenwart. Bilder aus dem politischen und geistigen Leben der deutschen Westmark. In zusammenhängender Erzählung. Zweite, neu durchgesehene
+        Auflage, Berlin 1872.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Manuwald</span> (2010) – <span style='font-variant:small-caps'>Henrike Manuwald</span>,
+        Eine blühende Nachkommenschaft und ein hürdennehmender Steuerberater: Zur medialen Struktur und Funktion von Wortillustrationen, in: Archiv
+        für Kulturgeschichte 92 (2010), S. 1–45.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Mentgen</span> (1995) – <span style='font-variant:small-caps'>Gerd Mentgen</span>,
+        Studien zur Geschichte der Juden im mittelalterlichen Elsaß (Forschungen zur Geschichte der Juden. Abteilung A: Abhandlungen 2), Hannover 1995.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Mertens</span> (<sup>2</sup>1994) – <span style='font-variant:small-caps'>Volker
+        Mertens</span>, ›unser kost sî angleit baz’‹ – »Gut angelegter Aufwand« in deutschen Handschriften, in: Bewahrtes Kulturerbe. »Unberechenbare
+        Zinsen«. Katalog zur Ausstellung der vom Land Baden-Württemberg erworbenen Handschriften der Fürstlich Fürstenbergischen Hofbibliothek, hrsg.
+        von Felix Heinzer, Stuttgart <sup>2</sup>1994, S. 34–39.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Mertens</span> (1998) – <span style='font-variant:small-caps'>Volker Mertens</span>,
+        Der deutsche Artusroman (Reclams Universal-Bibliothek 17609), Stuttgart 1998.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Meyer</span> (1881) – <span style='font-variant:small-caps'>Hans Meyer</span>, Die
+        Strassburger Goldschmiedezunft von ihrem Entstehen bis 1681. Urkunden und Darstellung. Ein Beitrag zur Gewerbegeschichte des Mittelalters
+        (Staats- und socialwissenschaftliche Forschungen 3/2), Leipzig 1881.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Miller</span> (2007) – <span style='font-variant:small-caps'>Matthias Miller</span>,
+        <i>Der welsch parcefall, perment, reimen, bretter, braun leder</i>. Zum ›Rappolsteiner [!] Parzifal‹ aus der Bibliotheca Palatina, in: Zeitschrift
+        für deutsches Altertum 136 (2007), S. 307–311.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Mone</span> (1862), <span style='font-variant:small-caps'>[Franz Joseph] Mone</span>,
+        Zur Geschichte der Heidelberger Bibliotheken, in: Zeitschrift für die Geschichte des Oberrheins 14 (1862), S. 142–147.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Niewöhner</span> (1936) – <span style='font-variant:small-caps'>Heinrich Niewöhner</span>,
+        Archivbeschreibung Donaueschingen, Früstl. Fürstenbergische Hofbibl. Hs. 97, 1936 (23 Bll.).</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Obhof</span> (2009) – <span style='font-variant:small-caps'>Ute Obhof</span>, Zur
+        Entstehung der Karlsruher Handschrift des ›Rappoltsteiner Parzifal‹: Die Initialen, in: Zeitschrift für deutsches Altertum 138 (2009), S. 374–383.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Rathgeber</span> (1874) – Die Herrschaft Rappoltstein. Beiträge zur Geschichtskunde des
+        Ober-Elsasses, zum Theil aus urkundlichen Quellen, hrsg. von <span style='font-variant:small-caps'>Julius Rathgeber</span>, Strassburg 1874.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Riezler</span> (1883) – <span style='font-variant:small-caps'>Sigmund Riezler</span>,
+        Geschichte des Fürstlichen Hauses Fürstenberg und seinen Ahnen bis zum Jahr 1509, Tübingen 1883.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Röhrich </span>(1832) – Geschichte der Reformation im Elsass und besonders in Strasburg,
+        nach gleichzeitigen Quellen bearb. von <span style='font-variant:small-caps'>Timotheus Wilhelm Röhrich</span>, Dritter Teil, Strasburg 1832.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Scheffel</span> (1855) –<span style='font-variant:small-caps'> J[oseph] Vict[or]
+        Scheffel</span>, Sämtliche Werke, Leipzig/Wien [1855].</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Schindele (1995) </span>– <span style='font-variant:small-caps'>Maria Pia Schindele</span>,
+        Frauen aus Adel und Bürgertum in gemeinsamer zisterziensischer Lebensordnung, in: 750 Jahre Zisterzienserinnen-Abtei Lichtenthal. Faszination
+        eines Klosters, hrsg. von Harald Siebenmorgen, Sigmaringen 1995, S. 35–42.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Schirok</span> (1982) – <span style='font-variant:small-caps'>Bernd Schirok</span>,
+        Parzivalrezeption im Mittelalter (Erträge der Forschung 174), Darmstadt 1982.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Schirok</span> (2003) – <span style='font-variant:small-caps'>Bernd Schirok</span>,
+        Handschriftenverzeichnis der siebenten Ausgabe, in: Wolfram von Eschenbach. Parzival. Studienausgabe. 2. Auflage. Mittelhochdeutscher Text
+        nach der sechsten Ausgabe von Karl Lachmann, Übersetzung von Peter Knecht. Mit Einführungen zum Text der Lachmannschen Ausgabe und in Probleme
+        der ›Parzival‹-Interpretation von Bernd Schirok (de Gruyter Texte), Berlin/New York 2003, S. XXXIII–LVII.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Schlechter</span>/<span style='font-variant:small-caps'>Stamm</span> (2000) –
+      <span style='font-variant:small-caps'>Armin Schlechter</span> und <span style='font-variant:small-caps'>Gerhard Stamm</span>, Einleitung zu:
+        Die Handschriften der Badischen Landesbibliothek in Karlsruhe XIII. Die kleinen Provenienzen, beschr. von Armin Schlechter und Gerhard
+        Stamm nach Vorarbeiten von Kurt Hannemann und Andreas Degkwitz, Wiesbaden 2000, S. 41–155.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Schmidt</span> (1871) – [<span style='font-variant:small-caps'>Charles Schmidt</span>],
+        Strassburger Gassen- &amp; Häuser-Namen im Mittelalter, Srassburg 1871.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Schneider</span> (2009) – <span style='font-variant:small-caps'>Karin Schneider</span>,
+        Gotische Schriften in deutscher Sprache. II. Die oberdeutschen Schriften von 1300 bis 1350. Text- und Tafelband, Wiesbaden 2009.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Schnelbögl</span> (1930) – <span style='font-variant:small-caps'>Fritz Schnelbögl</span>,
+        Die Heidelberger Handschriften 364 (Parzival G<sup>κ</sup> und Lohengrin A), 383 und 404, in: Beiträge zur Geschichte der deutschen Sprache
+        und Literatur 54 (1930), S. 1–64.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Schöffler</span> (1991) – <span style='font-variant:small-caps'>Ekhard Schöffler</span>,
+        Die Deutschordenskommende Münnerstadt. Untersuchungen zur Besitz-, Wirtschafts- und Personalgeschichte (Quellen und Studien zur Geschichte
+        des Deutschen Ordens 45), Marburg 1991.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Schöller</span> (2009) – <span style='font-variant:small-caps'>Robert Schöller</span>,
+        Die Fassung *T des ›Parzival‹ Wolframs von Eschenbach. Untersuchungen zur Überlieferung und zum Textprofil (Quellen und Forschungen zur
+        Literatur- und Kulturgeschichte 56), Berlin/New York 2009.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Scholz</span> (1987) – <span style='font-variant:small-caps'>Manfred Günter Scholz</span>,
+        Zum Verhältnis von Mäzen, Autor und Publikum im 14. und 15. Jahrhundert. ›Wilhelm von Österreich‹ – ›Rappoltsteiner Parzifal‹ – Michel Beheim, Darmstadt 1987.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Schorbach</span> (1888) – <span style='font-variant:small-caps'>Karl Schorbach</span>, Einleitung,
+        in: Parzifal von Claus Wisse und Philipp Colin (1331–1336). Eine Ergänzung der Dichtung Wolframs von Eschenbach. Zum ersten Male hrsg. von Karl
+        Schorbach (Elsässische Litteraturdenkmäler aus dem XIV–XVII. Jahrhundert 5), Strassburg/London 1888 [Neudruck Berlin/New York 1974 und (Berlin/Boston
+        2010)], S. VII–XLIV.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Schottenloher</span> (1907) – <span style='font-variant:small-caps'>[Karl] Schottenloher</span>,
+        Bamberger Privatbibliotheken aus alter und neuer Zeit, in: Zentralblatt für Bibliothekswesen 24 (1907), S. 417–460.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Schuba</span> (1981) – <span style='font-variant:small-caps'>Ludwig Schuba</span>, Einleitung,
+        in: Die medizinischen Handschriften der Codices Palatini Latini in der Vatikanischen Bibliothek, beschr. von Ludwig Schuba (Kataloge der
+        Universitätsbibliothek Heidelberg 1), Wiesbaden 1981, S. XVII–XXXVII.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Schwarzfuchs</span> (1995) – <span style='font-variant:small-caps'>Simon Schwarzfuchs</span>,
+        Art. Rappoltsweiler, in: Germania Judaica. Band 3: 1350–1519. 2. Teilband: Ortschaftsartikel Mährisch-Budwitz–Zwolle, hrsg. von Arye Maimon,
+        Mordechai Breuer und Yacov Guggenheim, Tübingen 1995, S. 1170f.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Schweitzer</span> (1844) – <span style='font-variant:small-caps'>Caspar Anton Schweitzer</span>,
+        Vollständiger Auszug aus den vorzüglichsten Kalendarien des ehemaligen Fürstenthums Bamberg (Domstift, Kloster Michelsberg, St. Stephan, St. Gangolf,
+        St. Jakob, Banz, Langheim, Karmeliten, Neunkirchen a. Br., St. Martin zu Forchheim), in: Bericht des Historischen Vereins für die Pflege der Geschichte
+        des ehemaligen Fürstbistums Bamberg 7 (1844), S. 67-319.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Seidel</span> (2002) – <span style='font-variant:small-caps'>Kurt Otto Seidel</span>,
+        <i>Tres digiti scribunt totum corpusque laborat</i>. Kolophone als Quelle für das Selbstverständnis mittelalterlicher Schreiber, in: Das
+        Mittelalter 7 (2002), S. 145–156.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Seror</span> (1989) – <span style='font-variant:small-caps'>Simon Seror</span>, Les Noms
+        des Juifs de France au Moyen Âge, Paris 1989.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Sietz</span> (2017) – <span style='font-variant:small-caps'>Fabian Sietz</span>,
+        Erzählstrategien im ›Rappoltsteiner Parzifal‹. Zyklizität als Kohärenzprinzip (Studien zur historischen Poetik 25), Heidelberg 2017.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Socin</span> (1903) = <span style='font-variant:small-caps'>Socin, Adolf</span>,
+        Mittelhochdeutsches Namenbuch nach oberrheinischen Quellen des zwölften und dreizehnten Jahrhunderts, Basel 1903.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Stolz</span> (2009) – <span style='font-variant:small-caps'>Michael Stolz</span>,
+        Die Berner ›Parzival‹-Handschrift –&nbsp;Wolframs Gralroman im städtischen Kontext des 15. Jahrhunderts, Einführung (Begleitheft) zu:
+        Berner Parzival-Handschrift (Burgerbibliothek, Cod. AA 91) mit Volltranskription und einer Einführung von Michael Stolz. DVD mit einem
+        Begleitheft. Konzept von Michael Stolz, Simbach/Inn 2009.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Stolz</span> (2010) – <span style='font-variant:small-caps'>Michael Stolz</span>,
+        „Copying processes“. Genetische und philologische Perspektiven, in: Materialität in der Editionswissenschaft, hrsg. von Martin Schubert
+        (Beihefte zu editio 32), Tübingen 2010, S. 275–291.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Stolz</span> (2012) – <span style='font-variant:small-caps'>Michael Stolz</span>,
+        Die Abschrift als Schreibszene. Der ›Nuwe Parzifal‹ in der Handschrift Rom, Biblioteca Casanatense, Mss. 1409, in: Finden – Gestalten – Vermitteln.
+        Schreibprozesse und ihre Brechungen in der mittelalterlichen Überlieferung. Freiburger Colloquium 2010. In Verbindung mit Susanne Köbele und
+        Klaus Ridder hrsg. von Eckart Conrad Lutz (Wolfram-Studien 22), Berlin 2012, S. 331–356.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Strohschneider</span> (2003/2014) – <span style='font-variant:small-caps'>Peter
+        Strohschneider</span>, Literarische Ligaturen. Philipp Colin über Paradoxien höfischer Kunstaufträge im Mittelalter, in: Kunst, Macht und
+        Institution. Studien zur Philosophischen Anthropologie, soziologischen Theorie und Kultursoziologie der Moderne, hrsg. von Joachim Fischer
+        und Hans Joas. Festschrift für Karl-Siegbert Rehbert, Frankfurt a.M./New York 2003, S. 537–556 [leicht umgearb. wieder abgedr. in: Peter
+        Strohschneider, Höfische Textgeschichten. Über Selbstentwürfe vormoderner Literatur, Heidelberg 2014 (Germanisch-Romanische Monatsschrift
+        Beiheft 55), S. 306–326, zitiert].</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Thomas</span> (1997) – <span style='font-variant:small-caps'>Heinz Thomas</span>, Wie
+        teuer war Dichten im 14. Jahrhundert?, in: Verstehen durch Vernunft. Festschrift für Werner Hoffmann, hrsg. von Burkhardt Krause (Philologica
+        Germanica 19), Wien 1997, S. 375–391.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Thompson</span> (1931) – <span style='font-variant:small-caps'>Albert Wilder
+        Thompson,</span> The Elucidation. A Prologue to the Conte del Graal (Publications of the Institute of French Studies, Inc.), New York 1931.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Uhland</span> (1840) – <span style='font-variant:small-caps'>L[udwig] Uhland</span>,
+        Zur Sammlung der Minnesänger, in: Taschenbuch für Geschichte und Alterthum in Süddeutschland [2] (1840), S. 259–263.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Viehhauser-Mery</span> (2009) – <span style='font-variant:small-caps'>Gabriel
+        Viehhauser-Mery</span>, Die ›Parzival‹-Überlieferung am Ausgang des Manuskriptzeitalters. Handschriften der Lauberwerkstatt und der
+        Strassburger Druck (Quellen und Forschungen zur Literatur- und Kulturgeschichte 55), Berlin/New York 2009.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>von der Hagen</span> (1818) – <span style='font-variant:small-caps'>Friedrich
+        Heinrich von der Hagen</span>, Briefe in die Heimat aus Deutschland, der Schweiz und Italien. In drei Bänden. Band 2, Breslau 1818.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>von Wegele</span> (1883) – <span style='font-variant:small-caps'>[Franz Xaver]
+        von Wegele</span>, Art. Lambert von Brunn, in: Allgemeine deutsche Biographie 17 (1883), S. 541–547.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Wagner</span> (1982) – <span style='font-variant:small-caps'>Heinrich Wagner</span>,
+        Neustadt a. d. Saale (Historischer Atlas von Bayern. Teil Franken. Reihe 1, Heft 27), München 1982.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Wagner</span> (1987) – <span style='font-variant:small-caps'>Heinrich Wagner</span>,
+        Regesten der Zisterzienserabtei Bildhausen 1158–1525 (Quellen und Forschungen zur Geschichte des Bistums und Hochstifts Würzburg 37), Würzburg 1987.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Wendehorst</span> (1982) – <span style='font-variant:small-caps'>Alfred Wendehorst</span>,
+        Art. Lamprecht v. Brunn, in: Allgemeine Deutsche Biographie 13 (1982), S. 463f.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Wetzel</span> (1995) – <span style='font-variant:small-caps'>Christoph Wetzel</span>,
+        Einführung und Kommentar, in: Biblia pauperum. Armenbibel. Die Bilderhandschrift des Codex Palatinus latinus 871 im Besitz der Biblioteca
+        Apostolica Vaticana. Einführung und Kommentar: Christoph Wetzel. Transkription und Übersetzung: Heike Drechlser (Belser Kunstbuchediton
+        berühmter Handschriften) Stuttgart/Zürich 1995, S. 7–24.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Wirth</span> (1982) – <span style='font-variant:small-caps'>Karl-August Wirth</span>,
+        Kommentarband zu: Die Biblia Pauperum im Codex Palatinus Latinus 871 der Biblioteca Apostolica Vaticana sowie ihre bebilderten Zusätze. Mit
+        einer kodikologischen Beschreibung der Handschrift, Mitteilungen über ihre Geschichte, der Transkription der Texte, sowie Erläuterungen
+        versehen von Karl-August Wirth (Codices e Vaticanis selecti 51), Zürich 1982.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Wittmann-Klemm</span> (1977) – <span style='font-variant:small-caps'>Dorothe
+        Wittmann-Klemm</span>, Studien zum ›Rappoltsteiner Parzifal‹ (Göppinger Arbeiten zur Germanistik 224), Göppingen 1977.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Zeilinger</span> (2012a) – <span style='font-variant:small-caps'>Gabriel Zeilinger</span>,
+        Art. Rappoltstein, in: Höfe und Residenzen im spätmittelalterlichen Reich. Grafen und Herren, 2 Teilbände, hrsg. von Werner Paravicini
+        (Residenzenforschung 15.IV), Teilband 2, Ostfildern 2012, S. 1149–1156.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Zeilinger</span> (2012b) – <span style='font-variant:small-caps'>Gabriel Zeilinger</span>,
+        Art. Rappoltsweiler, in: Höfe und Residenzen im spätmittelalterlichen Reich. Grafen und Herren, 2 Teilbände, hrsg. von Werner Paravicini
+        (Residenzenforschung 15.IV), Teilband 2, Ostfildern 2012, S. 1155f.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Zeilinger</span> (2013) – <span style='font-variant:small-caps'>Gabriel Zeilinger</span>,
+        Procurator, Schaffner und Vogt in der Urbanisierung der Herrschaft Rappoltstein (13.–15. Jahrhundert), in: Mittler zwischen Herrschaft und Gemeinde.
+        Die Rolle von Funktions- und Führungsgruppen in der mittelalterlichen Urbanisierung Zentraleuropas. Internationale Tagung, Kiel, 23.–25.11.2011,
+        hrsg. von Elisabeth Gruber et al. (Forschungen und Beiträge zur Wiener Stadtgeschichte 56), Innsbruck/Wien/Bozen 2013, S. 201–216.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Zimmermann</span> (2003) – <span style='font-variant:small-caps'>Karin Zimmermann</span>,
+        Einleitung, in: Die Codices Palatini germanici in der Universitätsbibliothek Heidelberg (Cod. Pal. germ. 1–181), bearb. von Karin Zimmermann unter
+        Mitwirkung von Sonja Glauch, Matthias Miller und Armin Schlechter (Kataloge der Universitätsbibliothek Heidelberg 6), Wiesbaden 2003, S. XI–XXVIII.</p>
     </div>
  </div>
 </template>

@@ -123,6 +123,24 @@
     }
   }
 
+  .verzeichnisse {
+    .bib-entry {
+      margin-bottom:0.8em;
+    }
+
+    .manuscript-list {
+      margin-bottom:1em;
+
+      p {
+        margin: 0
+      }
+    }
+
+    table td {
+      padding-right: 1em;
+    }
+  }
+
   a:link 		{ color:blue; text-decoration:none;}
   a:visited	{ color:blue; text-decoration:none;}
   a:hover		{ color:blue; text-decoration:underline;}
