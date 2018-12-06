@@ -102,8 +102,9 @@ module.exports = (sources) ->
   lastChar = ""
   inHeading = false
 
-  transcript = {}
-  collation = {}
+  html = {}
+  columns = {}
+  verses = {}
 
   manuscript = undefined
   column = undefined
@@ -117,12 +118,16 @@ module.exports = (sources) ->
           when "l"
             verse = v.toString e
 
-            collation[verse] ?= {}
-            collation[verse][manuscript] ?= column
+            html[verse] ?= {}
+            html[verse][manuscript] ?= {}
+            html[verse][manuscript][column] ?= ""
 
-            transcript[manuscript] ?= {}
-            transcript[manuscript][column] ?= []
-            transcript[manuscript][column].push (verse = { verse, html: "" })
+            columns[verse] ?= {}
+            columns[verse][manuscript] ?= column
+
+            verses[manuscript] ?= {}
+            verses[manuscript][column] ?= []
+            verses[manuscript][column].push verse
       when "end"
         switch e.local
           when "text" then manuscript = column = verse = undefined
@@ -131,11 +136,11 @@ module.exports = (sources) ->
       if e.event is "text"
         text = e.text.replace /\n/g, ""
         lastChar = text[-1..]
-        verse.html += escape text
+        html[verse][manuscript][column] += escape text
       else if (markup.attr e, "type") is "Kapitelüberschrift"
         inHeading = (e.event is "start")
       else
-        verse.html += switch e.local
+        html[verse][manuscript][column] += switch e.local
           when "reg", "corr", "ex" then supplied e
           when "hi" then hi e
           when "del", "add" then edited e
@@ -143,11 +148,11 @@ module.exports = (sources) ->
             classes = ["lb"]
             classes.push "wb" if lastChar.match /\s/
             classes = classes.join " "
-            html = ""
+            result = ""
             if e.event is "start"
-              html += "<span class=\"#{classes}\">|</span>"
-              html += "<br class=\"#{classes}\">" if inHeading
-            html
+              result += "<span class=\"#{classes}\">|</span>"
+              result += "<br class=\"#{classes}\">" if inHeading
+            result
           else ""
 
-  { transcript, collation }
+  { html, columns, verses }
