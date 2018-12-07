@@ -9,6 +9,7 @@ $breadcrumb-item-hover-colomb-item-hover-color: $grey-light;
 $breadcrumb-item-active-color: $white;
 $breadcrumb-item-separator-color: $grey-light;
 
+$warning: lighten($yellow, 10%);
 @import '~bulma/bulma.sass';
 
 
@@ -71,10 +72,6 @@ $fa-font-path: '~font-awesome/fonts';
   }
 
   .parzival-content {
-    tr.is-active td {
-      background: $warning;
-    }
-
     tr {
       cursor: pointer;
     }
@@ -88,9 +85,19 @@ $fa-font-path: '~font-awesome/fonts';
       vertical-align: middle;
     }
 
-    .parzival-verse-num {
+    .parzival-verse-num, .parzival-column {
       text-align: right;
-      width: 4rem;
+      width: 5%;
+    }
+
+    .parzival-verse {
+      width: 40%;
+    }
+
+    tr.is-active {
+      .parzival-verse-num, .parzival-column {
+        background: $warning;
+      }
     }
   }
 
@@ -228,12 +235,19 @@ $fa-font-path: '~font-awesome/fonts';
     cursor: pointer;
   }
 
-  .parzival-verse-num {
-    color: $info;
+  .parzival-verse-num, .parzival-column {
     font-size: $size-7;
     &.is-active {
       background: $warning;
     }
+  }
+
+  .parzival-verse-num {
+    color: $info;
+  }
+
+  .parzival-column {
+    color: $grey;
   }
 
   .parzival-verse {

@@ -32,6 +32,26 @@ export default {
   },
 
   methods: {
+    synopsis () {
+      let verses = Object.keys(transcript.html)
+
+      verses = verses.map(v.parse).sort(v.compare).map(v.toString)
+
+      verses = verses.map(verse => {
+        const row = [verse]
+        for (const manuscript of [this.manuscript, this.otherManuscript]) {
+          const columns = transcript.html[verse][manuscript] || {}
+          row.push(Object.keys(columns).sort().map(column => ({
+            column: this.numTitle(column),
+            html: columns[column]
+          })))
+        }
+        return row
+      })
+
+      return verses
+    },
+
     html (verse, manuscript) {
       const columns = transcript.html[verse][manuscript] || {}
       return Object.keys(columns).sort().map(c => columns[c]).join('') || '&ndash;'

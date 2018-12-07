@@ -17,15 +17,26 @@
       <div class="tile is-child">
         <table class="table is-fullwidth is-narrow is-striped parzival-content">
           <tbody>
-            <tr v-for="v in verses"
-                :key="v"
-                :class="{ 'is-active': v === verse }"
-                @click="updateVerse(v)">
+            <tr v-for="(r, ri) in synopsis()"
+                :key="ri"
+                :class="{ 'is-active': r[0] === verse }"
+                @click="updateVerse(r[0])">
               <td class="parzival-verse-num parzival-verse-focus"
-                  v-waypoint="verseWaypoint">{{ v }}</td>
-              <td class="parzival-verse" v-html="html(v, manuscript)"></td>
-              <td class="parzival-verse-num parzival-verse-focus">{{ v }}</td>
-              <td class="parzival-verse" v-html="html(v, otherManuscript)"></td>
+                  :class="{ 'is-active': r[0] === verse }"
+                  v-waypoint="verseWaypoint">{{ r[0] }}</td>
+              <td class="parzival-verse">
+                <div v-for="c in r[1]" :key="c.column"
+                     :title="c.column" v-html="c.html"></div>
+              </td>
+              <td class="parzival-column">{{ r[1].length ? r[1][0].column : '' }}</td>
+              <td class="parzival-verse-num parzival-verse-focus"
+                  :class="{ 'is-active': r[0] === verse }"
+                  v-waypoint="verseWaypoint">{{ r[0] }}</td>
+              <td class="parzival-verse">
+                <div v-for="c in r[2]" :key="c.column"
+                     :title="c.column" v-html="c.html"></div>
+              </td>
+              <td class="parzival-column">{{ r[2].length ? r[2][0].column : '' }}</td>
             </tr>
           </tbody>
         </table>
