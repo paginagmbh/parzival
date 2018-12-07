@@ -54,7 +54,7 @@ export default {
       const page = fn(manuscript, query)
       this.notFound = page === undefined
       if (page) {
-        this.$router.push(this.toPage(page))
+        this.$router.push(this.toPage(page, this.manuscript, undefined, query))
         this.toggle('searchModal')
       }
     },

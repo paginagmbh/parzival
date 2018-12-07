@@ -177,12 +177,12 @@ export default {
       return { ...route, params: { ...route.params, pages: prev, verse } }
     },
 
-    toPage (page, manuscript, count) {
+    toPage (page, manuscript, count, verse) {
       const { name, query, params } = this.$route
       manuscript = manuscript || params.manuscript || this.manuscript
       page = page || this.page
 
-      const verse = this.firstVerse(page, manuscript, this.verse)
+      verse = this.firstVerse(page, manuscript, verse || this.verse)
 
       count = count || this.pageList.length
       switch (count) {

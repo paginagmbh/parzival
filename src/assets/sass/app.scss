@@ -71,6 +71,14 @@ $fa-font-path: '~font-awesome/fonts';
   }
 
   .parzival-content {
+    tr.is-active td {
+      background: $warning;
+    }
+
+    tr {
+      cursor: pointer;
+    }
+
     th {
       text-align: center;
     }

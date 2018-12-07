@@ -17,8 +17,12 @@
       <div class="tile is-child">
         <table class="table is-fullwidth is-narrow is-striped parzival-content">
           <tbody>
-            <tr v-for="v in verses" :key="v">
-              <td class="parzival-verse-num parzival-verse-focus">{{ v }}</td>
+            <tr v-for="v in verses"
+                :key="v"
+                :class="{ 'is-active': v === verse }"
+                @click="updateVerse(v)">
+              <td class="parzival-verse-num parzival-verse-focus"
+                  v-waypoint="verseWaypoint">{{ v }}</td>
               <td class="parzival-verse" v-html="html(v, manuscript)"></td>
               <td class="parzival-verse-num parzival-verse-focus">{{ v }}</td>
               <td class="parzival-verse" v-html="html(v, otherManuscript)"></td>
