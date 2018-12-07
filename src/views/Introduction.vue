@@ -39,12 +39,12 @@
        <p class="tocentry"><a href="#_Toc389816004">&#160;&#160;&#160;&#160;2.2.3 Die nordfränkische ‘Epenwerkstatt’</a></p>
        <p class="tocentry"><a href="#_Toc389816005">&#160;&#160;2.3 Besitzgeschichte der Handschrift V'</a></p>
        <p class="tocentry"><a href="#_Toc389816006">&#160;&#160;&#160;&#160;2.3.1 Lamprecht von Brun als Besitzer von Handschrift V'?</a></p>
-       <p class="tocentry"><a href="#_Toc389816007">&#160;&#160;&#160;&#160;2.3.2 Handschrift V' – Der Cod. Pal. germ. 317 der Heidelberger Palatina</a></p>
+       <p class="tocentry"><a href="#_Toc389816007">&#160;&#160;&#160;&#160;2.3.2 Handschrift V' – der Cod. Pal. germ. 317 der Heidelberger Palatina</a></p>
        <p class="tocentry"><a href="#_Toc389816008">&#160;&#160;&#160;&#160;2.3.3 Heutiger Standort von Handschrift V': Die Biblioteca Casanatense in Rom</a></p>
        <p class="tocentry"><a href="#p3">3 Verzeichnisse</a></p>
        <p class="tocentry"><a href="#p3_1">&#160;&#160;3.1 Abkürzungsverzeichnis</a></p>
        <p class="tocentry"><a href="#p3_1_1">&#160;&#160;&#160;&#160;3.1.1 Abgekürzte Bezeichnungen von Bibliotheken und Archiven</a></p>
-       <p class="tocentry"><a href="#p3_1_2">&#160;&#160;&#160;&#160;3.1.2 Sigla von Handschriften und Handschriftenfragmenten</a></p>
+       <p class="tocentry"><a href="#p3_1_2">&#160;&#160;&#160;&#160;3.1.2 Siglen von Handschriften und Handschriftenfragmenten</a></p>
        <p class="tocentry"><a href="#p3_1_3">&#160;&#160;&#160;&#160;3.1.3 Sigle Druck</a></p>
        <p class="tocentry"><a href="#p3_1_4">&#160;&#160;&#160;&#160;3.1.4 Kodikologische Abkürzungen</a></p>
        <p class="tocentry"><a href="#p3_1_5">&#160;&#160;&#160;&#160;3.1.5 Abgekürzt zitierte Werktitel und Textausgaben</a></p>
@@ -798,40 +798,32 @@
           <b>Wolframs ›Parzival‹, Buch XVI</b> (L. 787.1–789.2): <span class="init"><i>A</i></span><i>nfortas.
              vn(d) die ſine… – …Vn(d) Fereuis der vech gemal</i></div>
        <div style="clear:both"/>
-       <div class="contentbox-right">
-          <router-link to="/facsimile/V/311r">311r</router-link>a
-          [3.21.11] <b>Einschub</b> (L. 789.2<sup>1–2</sup>; Sch. LIV): <i>Vn(d) kv́nig
+       <div class="contentbox-right"><router-link to="/facsimile/V/311r">311r</router-link>a [3.21.11] <b>Einschub</b> (L. 789.2<sup>1–2</sup>; Sch. LIV): <i>Vn(d) kv́nig
              artus der riche / Sv́ alleſament gliche</i></div>
        <div style="clear:both"/>
        <div class="contentbox-right">
           <router-link to="/facsimile/V/311r">311r</router-link>a–<router-link to="/facsimile/V/311v">v</router-link>b [3.21.12]
-          <b>Wolframs ›Parzival‹, Buch XVI</b> (L. 789.3–793.28): <i>Mit froͤude uffe
-             Muntſchalfaſche ritt… – …Den ſwarzen vn(d) den wiſſen</i></div>
+          <b>Wolframs ›Parzival‹, Buch XVI</b> (L. 789.3–793.28): <i>Mit froͤude uffe Muntſchalfaſche ritt… – …Den ſwarzen vn(d) den wiſſen</i></div>
        <div style="clear:both"/>
        <div class="contentbox-right">
-          <router-link to="/facsimile/V/311v">311v</router-link>b
-          [3.21.13] <b>Einschub</b> (L. 793.28<sup>1</sup>–29<sup>0</sup>; Sch. LIV): <i>Vn(d)
+          <router-link to="/facsimile/V/311v">311v</router-link>b [3.21.13] <b>Einschub</b> (L. 793.28<sup>1</sup>–29<sup>0</sup>; Sch. LIV): <i>Vn(d)
              die touelrunder alle gar / Die mit artuſe. worent ku(m)men dar</i></div>
        <div style="clear:both"/>
        <div class="contentbox-right"><i> &lt;<span class="init">H</span><span class="titel1">ie ku(m)met parzefal. vn(d) ſin bruͦder. | feruis anſcheuin. vn(d)
-                kv́nig art(us). vn(d) die | Tauelrund(er) alle zvͦ Mu(n)tſalfaſche zvͦ de(m)
-                Grole&gt;</span></i>
+             kv́nig art(us). vn(d) die | Tauelrund(er) alle zvͦ Mu(n)tſalfaſche zvͦ de(m) Grole&gt;</span></i>
        </div>
        <div style="clear:both"/>
-       <div class="contentbox-right">
-            <router-link to="/facsimile/V/311v">311v</router-link>b–<router-link to="/facsimile/V/315r">315r</router-link>b
+       <div class="contentbox-right"><router-link to="/facsimile/V/311v">311v</router-link>b–<router-link to="/facsimile/V/315r">315r</router-link>b
             [3.21.14] <b>Wolframs ›Parzival‹, Buch XVI</b> (L. 793.29–816.4): <span class="init"><i>U</i></span><i>f Munſchalfaſche wart do geritten… – …Der doch
             durch minne vnſa(n)fte lag</i></div>
        <div style="clear:both"/>
        <div class="contentbox-right">
-          <router-link to="/facsimile/V/315r">315r</router-link>b
-          [3.21.15] <b>Einschub</b> (L. 816.4<sup>1–4</sup>; Sch. LIV): <i>Oͮch liez man
+          <router-link to="/facsimile/V/315r">315r</router-link>b [3.21.15] <b>Einschub</b> (L. 816.4<sup>1–4</sup>; Sch. LIV): <i>Oͮch liez man
              nv́t vnder wegen… – …Wart oͮch herlich genomen war</i></div>
        <div style="clear:both"/>
        <div class="contentbox-right">
           <router-link to="/facsimile/V/315v">315v</router-link>b–<router-link to="/facsimile/V/316r">316r</router-link>a
-          [3.21.16] <b>Wolframs ›Parzival‹, Buch XVI</b> (L. 816.5–820.16): <i>Wie alle
-             der templeiſen diet… – …Lot in got rehten ſin beiagen</i></div>
+          [3.21.16] <b>Wolframs ›Parzival‹, Buch XVI</b> (L. 816.5–820.16): <i>Wie alle der templeiſen diet… – …Lot in got rehten ſin beiagen</i></div>
        <div style="clear:both"/>
        <div class="contentbox-right">
             <router-link to="/facsimile/V/316r">316r</router-link><span lang="EN-US">a–b [3.21.17] <b>Einschub: ›Troisième
@@ -866,24 +858,19 @@
        </div>
        <div style="clear:both"/>
        <div class="contentbox-left"/>
-       <div class="contentbox-right"><i><span class="init">D</span>iz het
-             gerimet her wolfram… – …Alle engele ſprechent ame<span class="hvh">N</span></i>
+       <div class="contentbox-right"><i><span class="init">D</span>iz het gerimet her wolfram… – …Alle engele ſprechent ame<span class="hvh">N</span></i>
        </div>
        <div style="clear:both"/>
        <div class="contentbox-left"/>
        <div class="contentbox-right"><span class="hvh">Expl.:<i>&lt;</i></span><i>Hie het der tútzſche vn(d) der welſche | Parzefal ein ende.&gt;</i></div>
        <div style="clear:both"/>
        <div class="contentbox-left"/>
-       <div class="contentbox-right metadata">Textausgabe:
-             <span style="font-variant:small-caps">Keller</span> (1844), S. 677–688 (nach
-             V'); <span style="font-variant:small-caps">Barack Kat. Donaueschingen</span>,
-             S. 89–92 (Auszüge); <span style="font-variant:small-caps">Scheffel Kat.
-                Donaueschingen</span>, S. 15–17 (Auszüge); <span style="font-variant:small-caps">Chen</span>
-             (2015), S. 325–329 (Auszüge).</div>
+       <div class="contentbox-right metadata">Textausgabe: <span style="font-variant:small-caps">Keller</span> (1844), S. 677–688 (nach V');
+         <span style="font-variant:small-caps">Barack Kat. Donaueschingen</span>, S. 89–92 (Auszüge); <span style="font-variant:small-caps">Scheffel Kat.
+         Donaueschingen</span>, S. 15–17 (Auszüge); <span style="font-variant:small-caps">Chen</span> (2015), S. 325–329 (Auszüge).</div>
        <div style="clear:both"/>
        <div class="contentbox-left"/>
-       <div class="contentbox-right metadata">Lit. zum
-             Text: <span style="font-variant:small-caps">Schorbach</span> (1888), S.
+       <div class="contentbox-right metadata">Lit. zum Text: <span style="font-variant:small-caps">Schorbach</span> (1888), S.
              XVIII–XXII; <span style="font-variant:small-caps">Wittmann-Klemm</span> (1977),
              S. 111–129; <span style="font-variant:small-caps">Cramer</span> (1983); <span style="font-variant:small-caps">Scholz</span> (1987), S. 97–111; <span style="font-variant:small-caps">Bumke</span> (1997); <span style="font-variant: small-caps">Thomas</span> (1997);<span style="font-variant:small-caps"> Emmerling</span>
              (2003); <span style="font-variant:small-caps">Strohschneider</span> (2003/2014);
@@ -907,8 +894,7 @@
        <div class="contentbox-left">
           <router-link to="/facsimile/V/320v">320v</router-link>a
        </div>
-       <div class="contentbox-right"><b>Kolophon
-             </b>(gereimt) (L. 827.30<sup>562–571</sup>; Sch. XVI): <i>&lt;Diz ſol nieman
+       <div class="contentbox-right"><b>Kolophon</b> (gereimt) (L. 827.30<sup>562–571</sup>; Sch. XVI): <i>&lt;Diz ſol nieman
              v(er)geſſen | Ob diſem buͦche ſint fúnf ior geſeſſen | Ze tihtende vn(d) ze
              ſchriben | Hie ſol ein ende bliben | Henſelin ſchrib(er) het oͮch vil
              geſchribe(n) h(er)an | Vn(d) wil noch nút ein ende han | Er gewan noch nie bart
@@ -916,10 +902,8 @@
              tore | Er trúget die vrowen mit ſime growe(n) hore&gt;</i></div>
        <div style="clear:both"/>
        <div class="contentbox-left"/>
-       <div class="contentbox-right metadata">Textausgabe:
-             <span style="font-variant:small-caps">Barack Kat. Donaueschingen</span>, S. 92:
-             <span style="font-variant:small-caps">Scheffel Kat. Donaueschingen</span>, S.
-             17; <span style="font-variant:small-caps">Schneider</span> (2009), S. 140.
+       <div class="contentbox-right metadata">Textausgabe: <span style="font-variant:small-caps">Barack Kat. Donaueschingen</span>, S. 92:
+             <span style="font-variant:small-caps">Scheffel Kat. Donaueschingen</span>, S. 17; <span style="font-variant:small-caps">Schneider</span> (2009), S. 140.
        </div>
        <div style="clear:both"/>
        <div class="contentbox-left"/>
@@ -942,20 +926,15 @@
             <span style="font-variant:small-caps">Chen</span> (2015), S. 315.</div>
        <div style="clear:both"/>
        <div class="contentbox-left"/>
-       <div class="contentbox-right metadata">Lit. zum
-            Text: <span style="font-variant:small-caps">Holtorf</span> (1967), S. 321;
+       <div class="contentbox-right metadata">Lit. zum Text: <span style="font-variant:small-caps">Holtorf</span> (1967), S. 321;
             <span style="font-variant:small-caps">Chen</span> (2015), S. 315.</div>
        <div style="clear:both"/>
-       <div class="contentbox-left">
-          <router-link to="/facsimile/V/320v">320v</router-link>a
-       </div>
+       <div class="contentbox-left"><router-link to="/facsimile/V/320v">320v</router-link>a</div>
        <div class="contentbox-right">[6.] <b>Minneliedstrophe</b>, afr. (Nachtrag des 14. Jh.s) (L. 827.30<sup>557-04</sup>):
-          <i><span style="font-size:0.9rem">ly douz ſouenir de m:y dame jolie | :::ſtes me
-                fait pl :::ment que je | ne pouroie deſp:::ny | (estre)(?) bien que je nay de
-                b(ien) f::: lay | <s>ſo:::</s> | ſouuenance gerant bien me fait(?) ly | ſovenir
-                e(t) li doucey pleſance loin: | me revient bons eſpoir q(ui) me ſouient | <span class="hvh"><u>(et) ſi me fa:t</u></span> rejouir(?) li bonz(?) ſovenir | quant
-                je reſ::: ::: :::oir | ::: ſanblance lay :::ce | ::: puiſance (?) q(ui) eſt
-                e(n) ly | ::: me rit de ::: | ::: li ſovenir rev::ir(?)</span></i></div>
+            <i>ly douz ſouenir de m:y dame jolie | :: triſtes me fait plus(?) (que)(?) riens que je | ne pouroie deſp:::ny | co(m)bien que je nay de b(ien) for que lay |
+            <s>ſo:::</s> | ſouuenance gerant bien me fait(?) ly | ſovenir e(t) li doucey pleſance loins | me revient bons eſpoir q(ui) me ſouient | <span class="hvh"><u>(et)
+              ſi me fa:t</u></span> rejouir(?) li bonz ſovenir | quant je reſ::: ::: :::oir | de loin(?) ſanblance lay :::be:te | ::: puiſance(?) q(ui) eſt e(n) ly |
+              ::: ces ::: me rit de ::: | ::: li ſov:nt reveir</i></div>
        <div style="clear:both"/>
        <div class="contentbox-left"/>
        <div class="contentbox-right">(L. 827.30<sup>557-04</sup>)</div>
@@ -1885,7 +1864,7 @@
           <router-link to="/facsimile/V/069r">69</router-link>r).
        </p>
        <p class="MsoNormal">Im zweiten Teil von Hs. V kann hauptsächlich die Malerhand II für die Ornamentierung der Lombarden verantwortlich
-          nachgewiesen werden. Lediglich bei den Lombarden auf den von Hand I beschriebenen Blättern <router-link to="/facsimile/V/125r">125</router-link>)
+          nachgewiesen werden. Lediglich bei den Lombarden auf den von Hand I beschriebenen Blättern <router-link to="/facsimile/V/125r">125</router-link>
           und <router-link to="/facsimile/V/274v">274r</router-link>b, letzter Abschnitt, bis <router-link to="/facsimile/V/285v">285v</router-link>b
           sowie bereits bei zwei aufeinander folgenden roten Lombarden auf Bl. <router-link to="/facsimile/V/274r">274r</router-link>b innerhalb des von
           Hand III geschriebenen Teils stammen die Verzierungen von der Malerhand I.
@@ -2428,7 +2407,7 @@
           <i>xxj</i> (m.A.) (über der Zahl eine verwischte Zahl <i>xvi</i> [?]). Der
           Lagenbestimmer schreibt auf Bl.
           <router-link to="/facsimile/VV/181v">181v</router-link>b als Ergebnis der Zählung (insgesamt 23 Quaternionen): <span class="k"><i><s>xij j
-            quaterne</s> .</i></span><span class="ls"><i>x. quat(er)ne </i>(= 13 und 10 Quaternionen?) </span> <b>Schriftraum</b>: 30,4–31 x 19,4–7 cm; zweispaltig,
+            quaterne</s> .</i></span><span class="ls"><i>x. quat(er)ne </i>(= 13 und 10 Quaternionen?)</span>. <b>Schriftraum</b>: 30,4–31 x 19,4–7 cm; zweispaltig,
           Verse abgesetzt, Versalien in eigener Spalte (0,7 cm) durch Tintenlinien begrenzt (29,7 [Bl.
           <router-link to="/facsimile/VV/001r">1</router-link>–<router-link to="/facsimile/VV/008v">8</router-link>] und 31
           [meist] x 9 cm, Abstand zwischen den Spalten: 1,3 cm, Abstände der Linien zu
@@ -3255,7 +3234,7 @@
           Werken interessiert gewesen wäre und die in der ‘Epenwerkstatt’ entstandenen
           Codices besessen oder gar in Auftrag gegeben hätte, findet sich nicht.
        </p>
-       <h5><a id="_Toc389816007"/><a id="_Ref381895864"/><a id="_Ref379125906"/>2.3.2 Handschrift V' – Der Cod. Pal. germ. 317 der Heidelberger Palatina</h5>
+       <h5><a id="_Toc389816007"/><a id="_Ref381895864"/><a id="_Ref379125906"/>2.3.2 Handschrift V' – der Cod. Pal. germ. 317 der Heidelberger Palatina</h5>
        <p class="MsoNormal">Wie <span style="font-variant: small-caps">Matthias Miller</span> 2007 als erster bemerkt hat, zählte Hs. V' spätestens
           ab 1581 bis 1623 zum Bestand der Heidelberger Palatina, wo sie unter der
           Signatur Cod. Pal. germ. 317 aufbewahrt wurde.<a href="#_ftn150" id="_ftnref150"><sup>[150]</sup></a>
@@ -3425,7 +3404,7 @@
           </div>
           <div id="ftn15">
              <p class="MsoFootnoteText"><a href="#_ftnref15" id="_ftn15"><sup>[15]</sup></a> Zu dieser und zu den folgenden Abkürzungen
-             der Textausgaben siehe Kap. 3.1.5 im Abkürzungsverzeichnis.</p>
+             der Textausgaben siehe <a href="#p3_1_5">Kap. 3.1.5</a> im Abkürzungsverzeichnis.</p>
           </div>
           <div id="ftn16">
              <p class="MsoFootnoteText"><a href="#_ftnref16" id="_ftn16"><sup>[16]</sup></a><span style=" font-variant:small-caps"> Emmerling</span> (2003),
@@ -4494,12 +4473,12 @@
              </p>
           </div>
           <div id="ftn158">
-             <p class="MsoFootnoteText"><a href="#_ftnref158" id="_ftn158"><sup>[158]</sup></a> Dasselbe Papier findet sich auch in den Codd. <a
+             <p class="MsoFootnoteText"><a href="#_ftnref158" id="_ftn158"><sup>[158]</sup></a> Dasselbe Papier findet sich in den Codd. <a
                href="http://digi.ub.uni-heidelberg.de/diglit/cpg167">Pal. germ. 167</a> (Sachsenspiegel und Schwabenspiegel) (Capsanummer: <i>C. 173</i>,
                alte römische Signatur: 1651) (<span style="font-variant:small-caps">Zimmermann Kat. Heidelberg</span>, S. 386) und <a
                href="http://digi.ub.uni-heidelberg.de/diglit/cpg333">333</a> (Ulrich von Etzenbach: Alexander, Alexander-Anhang) (<i>C. 92</i>)
                (<span style="font-variant:small-caps">Miller</span>/<span style="font-variant:small-caps">Zimmermann Kat. Heidelberg</span>,
-               S. 111 [Beschreibung Miller]) in diesen beiden Hss. zusammen mit gerautetem Wappenschild, das sich auch in folgenden Hss. findet: Codd. Pal. germ.
+               S. 111 [Beschreibung Miller]) in diesen beiden Hss. zusammen mit einem Wasserzeichen (gerauteter Wappenschild), das sich auch in folgenden Hss. findet: Codd. Pal. germ.
                <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg28">28</a> (<i>C. 179</i>), <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg60">60</a>
                (<i>C. 120</i>), <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg68">68</a> (<i>C. 128</i>), <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg115">
                <span style="">115</span></a> (<i>C. 84</i>), <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg139">139</a> (<i>C. 92</i>), <a
@@ -4603,7 +4582,7 @@
           </tr>
         </tbody>
       </table>
-      <h3 id="p3_1_2">3.1.2&nbsp;Sigla von Handschriften und Handschriftenfragmenten</h3>
+      <h3 id="p3_1_2">3.1.2&nbsp;Siglen von Handschriften und Handschriftenfragmenten</h3>
       <table>
         <tbody>
           <tr>
