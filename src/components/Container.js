@@ -2,6 +2,9 @@ import scrollIntoView from 'scroll-into-view'
 
 import { search, searchVerse, searchPage } from '../lib/search'
 
+import metadata from '../data/metadata.json'
+import transcript from '../data/transcript.json'
+
 export default {
   name: 'container',
   props: ['manuscript', 'pages', 'verse'],
@@ -21,10 +24,10 @@ export default {
   computed: {
     manuscriptPages () {
       const { manuscript } = this
-      const { pages } = this.metadata().manuscripts[manuscript]
+      const { pages } = metadata.manuscripts[manuscript]
       return pages.map(page => {
         const verses = ['a', 'b']
-          .some(c => this.transcript()[manuscript][`${page}${c}`])
+          .some(c => transcript.verses[manuscript][`${page}${c}`])
         const src = this.thumb(manuscript, page)
         const key = [manuscript, page].join('_')
         return { page, verses, src, key }
@@ -47,7 +50,7 @@ export default {
 
     search (e, fn = search) {
       const { query } = this
-      const manuscript = this.metadata().manuscripts[this.manuscript]
+      const manuscript = metadata.manuscripts[this.manuscript]
       const page = fn(manuscript, query)
       this.notFound = page === undefined
       if (page) {

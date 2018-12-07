@@ -1,6 +1,8 @@
 import debounce from 'lodash.debounce'
 import OpenSeadragon from 'openseadragon'
 
+import metadata from '../data/metadata.json'
+
 const viewportKey = 'parzival.facsimileViewport'
 const defaultViewport = { x: 0, y: 0, width: 1, height: 0.5 }
 const storeViewport = (viewport) => {
@@ -26,7 +28,7 @@ export default {
     quireIconPath () {
       const { manuscript, pageList } = this
       const [ page ] = pageList
-      let { quires } = this.metadata().manuscripts[manuscript]
+      let { quires } = metadata.manuscripts[manuscript]
 
       let quireIcon
       if (page in quires) {

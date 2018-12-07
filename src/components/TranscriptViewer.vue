@@ -1,5 +1,5 @@
 <template>
-<div class="parzival-transcript-viewer">
+<div class="parzival-transcript-viewer parzival-overflow-scroll">
   <div class="hero" v-if="text.length == 0">
     <div class="hero-body">
       <article class="message is-large is-warning">
@@ -17,7 +17,7 @@
            :data-column="t.column" ref="columns">
     <header>{{ manuscriptSigil }} – {{ numTitle(t.column) }}</header>
     <section class="section">
-      <table class="table">
+      <table class="table parzival-content">
         <tbody>
           <tr v-for="(l, li) in t.contents" :key="li"
               class="parzival-verse-focus"

@@ -15,7 +15,6 @@ import ManuscriptMixin from '@/mixins/manuscript'
 
 import Container from '@/components/Container.vue'
 import FacsimileViewer from '@/components/FacsimileViewer.vue'
-import Pagination from '@/components/Pagination.vue'
 import TranscriptViewer from '@/components/TranscriptViewer.vue'
 
 import '@/assets/sass/app.scss'
@@ -34,7 +33,6 @@ Vue.mixin(ManuscriptMixin)
 
 Vue.component('container', Container)
 Vue.component('facsimile-viewer', FacsimileViewer)
-Vue.component('pagination', Pagination)
 Vue.component('transcript-viewer', TranscriptViewer)
 
 Vue.config.productionTip = false

@@ -22,16 +22,16 @@ $fa-font-path: '~font-awesome/fonts';
   overflow: hidden;
 }
 
+.parzival-overflow-scroll {
+  min-height: unset;
+  overflow-y: scroll;
+}
+
 .parzival-container.parzival-fullheight {
   height: 100vh;
 
   > nav + * {
     height: calc(100vh - #{$navbar-height});
-
-    .parzival-transcript-viewer {
-      min-height: unset;
-      overflow-y: scroll;
-    }
   }
 
   .tile {
@@ -60,13 +60,29 @@ $fa-font-path: '~font-awesome/fonts';
   nav.tile {
     flex-grow: 0;
 
-    &[data-manuscript=V] {
+    [data-manuscript=V] {
       color: findColorInvert($grey-light);
       background: $grey-light;
     }
-    &[data-manuscript=VV] {
+    [data-manuscript=VV] {
       color: findColorInvert($grey-light);
       background: $grey-lighter;
+    }
+  }
+
+  .parzival-content {
+    th {
+      text-align: center;
+    }
+
+    td {
+      border: none;
+      vertical-align: middle;
+    }
+
+    .parzival-verse-num {
+      text-align: right;
+      width: 4rem;
     }
   }
 
@@ -155,6 +171,7 @@ $fa-font-path: '~font-awesome/fonts';
       }
     }
   }
+
   .parzival-column-heading {
     color: $info;
     margin: $size-5 0;
@@ -164,31 +181,43 @@ $fa-font-path: '~font-awesome/fonts';
     width: 80%;
     margin: 0 10%;
 
-    tr {
-      &.parzival-verse-focus {
-        cursor: pointer;
-      }
+    td, th {
+      border: none;
+      vertical-align: middle;
+      padding: 0 0.25rem;
     }
 
-    .parzival-heading {
-      font-style: italic;
+    th {
       text-align: right;
-      //border-bottom: 1px solid $grey;
-      //background: $grey-lighter;
-      padding: $size-7 $size-6;
+      width: 4rem;
 
-      @include mobile {
-        font-size: $size-6
-      }
-
-      @include tablet {
-        font-size: $size-7
-      }
-
-      @include desktop {
-        font-size: $size-6
-      }
     }
+  }
+}
+
+.parzival-content {
+  .parzival-heading {
+    font-style: italic;
+    text-align: right;
+    //border-bottom: 1px solid $grey;
+    //background: $grey-lighter;
+    padding: $size-7 $size-6;
+
+    @include mobile {
+      font-size: $size-6
+    }
+
+    @include tablet {
+      font-size: $size-7
+    }
+
+    @include desktop {
+      font-size: $size-6
+    }
+  }
+
+  .parzival-verse-focus {
+    cursor: pointer;
   }
 
   .parzival-verse-num {
@@ -213,73 +242,62 @@ $fa-font-path: '~font-awesome/fonts';
     @include desktop {
       font-size: $size-5
     }
-  }
 
-  .hi {
+    .hi {
 
-    &.red {
-      color: $danger;
+      &.red {
+        color: $danger;
+      }
+
+      &.lines-7, &.lines-6, &.lines-5, &.lines-4 {
+        font-size: $size-3;
+        font-weight: bold;
+        color: $danger;
+      }
+
+      &.lines-3 {
+        font-size: $size-4;
+        font-weight: bold;
+        color: $danger;
+      }
+
+      &.lines-2, &.lines-1 {
+        font-size: $size-5;
+      }
     }
 
-    &.lines-7, &.lines-6, &.lines-5, &.lines-4 {
-      font-size: $size-3;
-      font-weight: bold;
-      color: $danger;
+    .lb {
+      color: $grey;
+
+      &.wb::before {
+        content: " "
+      }
+
+      &.wb::after {
+        content: " "
+      }
     }
 
-    &.lines-3 {
-      font-size: $size-4;
-      font-weight: bold;
-      color: $danger;
+    .supplied {
+      &.corr {
+        text-decoration: underline dotted;
+      }
+
+      &.ex::before {
+        content: "("
+      }
+
+      &.ex::after {
+        content: ")"
+      }
     }
 
-    &.lines-2, &.lines-1 {
-      font-size: $size-5;
+    .edited {
+      font-style: italics;
+
+      &.del {
+        text-decoration: line-through;
+      }
     }
-  }
-
-  .lb {
-    color: $grey;
-
-    &.wb::before {
-      content: " "
-    }
-
-    &.wb::after {
-      content: " "
-    }
-  }
-
-  .supplied {
-    &.corr {
-      text-decoration: underline dotted;
-    }
-
-    &.ex::before {
-      content: "("
-    }
-
-    &.ex::after {
-      content: ")"
-    }
-  }
-
-  .edited {
-    font-style: italics;
-
-    &.del {
-      text-decoration: line-through;
-    }
-  }
-
-  .table td, .table th {
-    border: none;
-    vertical-align: middle;
-    padding: 0 0.25rem;
-  }
-
-  .table th {
-    text-align: right;
-    width: 4rem;
   }
 }

@@ -1,35 +1,39 @@
 import debounce from 'lodash.debounce'
 import { scroller } from 'vue-scrollto/src/scrollTo'
 
+import transcript from '../data/transcript.json'
+import metadata from '../data/metadata.json'
+
 export default {
   name: 'transcript-viewer',
   props: ['manuscript', 'pages', 'verse', 'syncScrolling'],
 
   computed: {
     text () {
-      const transcript = this.transcript()[this.manuscript]
-      const headings = this.metadata().headings[this.manuscript] || {}
+      const { manuscript, pageList } = this
+      const verses = transcript.verses[manuscript]
+      const headings = metadata.headings[manuscript] || {}
       const columns = []
-      for (const page of this.pageList) {
+      for (const page of pageList) {
         if (!page) continue
         for (const columnSigil of ['a', 'b']) {
           const column = `${page}${columnSigil}`
-          if (!(column in transcript)) continue
+          if (!(column in verses)) continue
 
           const columnHeadings = headings[column] || {}
           const contents = []
 
-          for (const verse of transcript[column]) {
-            if (verse.verse in columnHeadings) {
+          for (const verse of verses[column]) {
+            if (verse in columnHeadings) {
               contents.push({
                 type: 'heading',
-                heading: columnHeadings[verse.verse]
+                heading: columnHeadings[verse]
               })
             }
             contents.push({
               type: 'verse',
-              ...verse,
-              verse: verse.verse.replace(/827.30\[([0-9]+)]/, 'Ep. $1')
+              html: transcript.html[verse][manuscript][column],
+              verse: verse.replace(/827.30\[([0-9]+)]/, 'Ep. $1')
             })
           }
 
@@ -71,11 +75,17 @@ export default {
   },
 
   created () {
-    const fn = scroller()
-    this.scrollToActive = debounce(() => this.$nextTick(() => fn(
-      this.$el.querySelector('th.is-active'), 500,
-      { container: this.$el, offset: -this.$el.offsetHeight / 3, force: true }
-    )), 500)
+    const scroll = scroller()
+    this.scrollToActive = debounce(() => this.$nextTick(() => {
+      const active = this.$el.querySelector('th.is-active')
+      if (!active) return
+
+      scroll(active, 500, {
+        container: this.$el,
+        offset: -this.$el.offsetHeight / 3,
+        force: true
+      })
+    }), 500)
   },
 
   mounted () {

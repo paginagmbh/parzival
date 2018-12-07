@@ -56,18 +56,6 @@ export default {
       return this.pageList.find(p => p)
     },
 
-    hasTranscript () {
-      const columns = transcript[this.manuscript || ''] || {}
-      for (const page of this.pageList) {
-        for (const column of ['a', 'b']) {
-          if (columns[`${page}${column}`]) {
-            return true
-          }
-        }
-      }
-      return false
-    },
-
     manuscriptSigil () {
       return sigil(this.manuscript)
     },
@@ -111,7 +99,7 @@ export default {
     otherPages () {
       const { verse, otherManuscript } = this
       if (!verse) return undefined
-      return ((this.collation()[verse] || {})[otherManuscript] || '')
+      return ((transcript.columns[verse] || {})[otherManuscript] || '')
         .replace(/[ab]$/, '') || ''
     },
 
@@ -165,18 +153,6 @@ export default {
   },
 
   methods: {
-    metadata () {
-      return metadata
-    },
-
-    transcript () {
-      return transcript.transcript
-    },
-
-    collation () {
-      return transcript.collation
-    },
-
     nextPage (route) {
       const { manuscript, page } = this
       const count = Math.min(2, this.pageList.length)
@@ -226,11 +202,11 @@ export default {
       let candidate
       for (const columnSigil of ['a', 'b']) {
         const column = `${page}${columnSigil}`
-        const verses = this.transcript()[manuscript][column]
+        const verses = transcript.verses[manuscript][column]
         if (!verses) continue
         for (const v of verses) {
-          candidate = candidate || v.verse
-          if (v.verse === verse) {
+          candidate = candidate || v
+          if (v === verse) {
             return verse
           }
         }
