@@ -23,7 +23,8 @@
                 @click="updateVerse(r[0])">
               <td class="parzival-verse-num parzival-verse-focus"
                   :class="{ 'is-active': r[0] === verse }"
-                  v-waypoint="verseWaypoint">{{ r[0] }}</td>
+                  :data-verse="r[0]"
+                  v-waypoint="verseWaypoint">{{ verseDesc(r[0]) }}</td>
               <td class="parzival-verse">
                 <div v-for="c in r[1]" :key="c.column"
                      :title="c.column" v-html="c.html"></div>

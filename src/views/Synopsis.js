@@ -15,7 +15,7 @@ export default {
         active: false,
         callback: debounce(({ el, going, direction }) => {
           if (going === 'in') {
-            this.updateVerse(el.textContent.trim())
+            this.updateVerse(el.getAttribute('data-verse'))
           }
         }, 1000),
         options: {
@@ -34,7 +34,7 @@ export default {
       verses = verses.map(v.parse).sort(v.compare).map(v.toString)
 
       verses = verses.map(verse => {
-        const row = [this.verseDesc(verse)]
+        const row = [verse]
         for (const manuscript of [this.manuscript, this.otherManuscript]) {
           const columns = transcript.html[verse][manuscript] || {}
           row.push(Object.keys(columns).sort().map(column => ({
