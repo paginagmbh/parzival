@@ -216,6 +216,10 @@ export default {
 
     numTitle (number) {
       return number.replace(/^0*/, '')
+    },
+
+    verseDesc (verse) {
+      return verse.replace(/827.30\[([0-9]+)]/, 'Ep. $1')
     }
   }
 }

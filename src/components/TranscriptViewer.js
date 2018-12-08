@@ -33,7 +33,7 @@ export default {
             contents.push({
               type: 'verse',
               html: transcript.html[verse][manuscript][column],
-              verse: verse.replace(/827.30\[([0-9]+)]/, 'Ep. $1')
+              verse: this.verseDesc(verse)
             })
           }
 

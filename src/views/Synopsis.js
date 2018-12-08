@@ -9,10 +9,6 @@ export default {
   props: ['manuscript', 'pages', 'verse'],
 
   computed: {
-    verses () {
-      return Object.keys(transcript.html).map(v.parse).sort(v.compare).map(v.toString)
-    },
-
     verseWaypoint () {
       return {
         // FIXME: break mutual dependency between waypoint and scrollToActive()
@@ -38,7 +34,7 @@ export default {
       verses = verses.map(v.parse).sort(v.compare).map(v.toString)
 
       verses = verses.map(verse => {
-        const row = [verse]
+        const row = [this.verseDesc(verse)]
         for (const manuscript of [this.manuscript, this.otherManuscript]) {
           const columns = transcript.html[verse][manuscript] || {}
           row.push(Object.keys(columns).sort().map(column => ({
@@ -50,11 +46,6 @@ export default {
       })
 
       return verses
-    },
-
-    html (verse, manuscript) {
-      const columns = transcript.html[verse][manuscript] || {}
-      return Object.keys(columns).sort().map(c => columns[c]).join('') || '&ndash;'
     }
   },
 
