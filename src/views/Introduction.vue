@@ -4478,7 +4478,7 @@
                alte römische Signatur: 1651) (<span style="font-variant:small-caps">Zimmermann Kat. Heidelberg</span>, S. 386) und <a
                href="http://digi.ub.uni-heidelberg.de/diglit/cpg333">333</a> (Ulrich von Etzenbach: Alexander, Alexander-Anhang) (<i>C. 92</i>)
                (<span style="font-variant:small-caps">Miller</span>/<span style="font-variant:small-caps">Zimmermann Kat. Heidelberg</span>,
-               S. 111 [Beschreibung Miller]) in diesen beiden Hss. zusammen mit einem Wasserzeichen (gerauteter Wappenschild), das sich auch in folgenden Hss. findet: Codd. Pal. germ.
+               S. 111 [Beschreibung Miller]) zusammen mit einem Wasserzeichen (gerauteter Wappenschild), das sich auch in folgenden Hss. findet: Codd. Pal. germ.
                <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg28">28</a> (<i>C. 179</i>), <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg60">60</a>
                (<i>C. 120</i>), <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg68">68</a> (<i>C. 128</i>), <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg115">
                <span style="">115</span></a> (<i>C. 84</i>), <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg139">139</a> (<i>C. 92</i>), <a
