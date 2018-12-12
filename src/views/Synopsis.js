@@ -8,6 +8,10 @@ export default {
   name: 'synopsis',
   props: ['manuscript', 'pages', 'verse'],
 
+  data: () => ({
+    loading: true
+  }),
+
   computed: {
     verseWaypoint () {
       return {
@@ -63,6 +67,8 @@ export default {
 
     const scroll = scroller()
     this.scrollToActive = debounce(() => this.$nextTick(() => {
+      if (this.loading) return
+
       const active = this.$el.querySelector('tr.is-active td')
       if (!active) return
 
@@ -77,7 +83,10 @@ export default {
   },
 
   mounted () {
-    this.scrollToActive()
+    setTimeout(() => {
+      this.loading = false
+      this.scrollToActive()
+    }, 1000)
   },
 
   watch: {

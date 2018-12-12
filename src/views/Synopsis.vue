@@ -14,8 +14,9 @@
       </div>
     </nav>
     <div class="tile is-parent parzival-overflow-scroll">
-      <div class="tile is-child">
-        <table class="table is-fullwidth is-narrow is-striped parzival-content">
+      <div class="tile is-child" :class="{ 'is-loading': loading }">
+        <table class="table is-fullwidth is-narrow is-striped parzival-content"
+               v-if="!loading">
           <tbody>
             <tr v-for="(r, ri) in synopsis()"
                 :key="ri"

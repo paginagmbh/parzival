@@ -19,6 +19,20 @@ $fa-font-path: '~font-awesome/fonts';
 @import "./introduction.scss";
 @import "./junicode.scss";
 
+.is-loading {
+  pointer-events: none;
+  &:after {
+    @include loader;
+    position: fixed;
+    top: calc(50vh - 5em);
+    left: calc(50vw - 5em);
+    width: 10em;
+    height: 10em;
+    z-index: 2000;
+    border-width: 0.25em;
+  }
+}
+
 .modal-open {
   overflow: hidden;
 }
