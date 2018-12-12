@@ -37,7 +37,7 @@ Vue.component('transcript-viewer', TranscriptViewer)
 
 Vue.config.productionTip = false
 
-const title = 'Nuwer Parzifal'
+const title = 'Original und Kopie des ›Rappoltsteiner Parzifal‹'
 
 new Vue({
   router,

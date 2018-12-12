@@ -16,7 +16,10 @@ export const parse = (str) => {
     plus.push(parseInt(plusVerse, 10))
   }
 
-  return { nums, plus }
+  const extensionRe = /-a$/g
+  const extension = extensionRe.exec(str) && true
+
+  return { nums, plus, extension }
 }
 
 export const heading = (comp) => {
@@ -32,10 +35,11 @@ export const np = ({ nums }) => {
   return nums.length === 1
 }
 
-export const toString = ({ nums, plus }) => {
+export const toString = ({ nums, plus, extension }) => {
   return [
     nums.map(n => n.toString()).join('.'),
-    plus.map(n => `[${n}]`).join('')
+    plus.map(n => `[${n}]`).join(''),
+    extension ? '-a' : ''
   ].filter(c => c).join('')
 }
 
@@ -44,8 +48,8 @@ export const type = ({ nums }) => {
   return prefixes[nums.length]
 }
 
-export const title = ({ nums, plus }) => {
-  return [ type({ nums }), toString({ nums, plus }) ]
+export const title = ({ nums, plus, extension }) => {
+  return [ type({ nums }), toString({ nums, plus, extension }) ]
     .filter(c => c)
     .join(' ')
 }
@@ -69,8 +73,16 @@ const compareComponent = (a, b) => {
 }
 
 export const compare = (a, b) => {
-  const diff = compareComponent(a.nums, b.nums)
-  return diff === 0 ? compareComponent(a.plus, b.plus) : diff
+  let diff = compareComponent(a.nums, b.nums)
+  if (diff !== 0) return diff
+
+  diff = compareComponent(a.plus, b.plus)
+  if (diff !== 0) return diff
+
+  return compareComponent(
+    a.extension ? ['a'] : [],
+    b.extension ? ['a'] : []
+  )
 }
 
 export const within = ([startIncl, endIncl], v) => {

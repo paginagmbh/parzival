@@ -97,15 +97,34 @@ $fa-font-path: '~font-awesome/fonts';
     td {
       border: none;
       vertical-align: middle;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: inline-block;
     }
 
     .parzival-verse-num, .parzival-column {
       text-align: right;
-      width: 5%;
+      @include touch {
+        width: 10%;
+      }
+      @include desktop {
+        width: 5%;
+      }
     }
 
     .parzival-verse {
-      width: 40%;
+      @include touch {
+        width: 30%;
+      }
+      @include desktop {
+        width: 40%;
+      }
+    }
+
+    .parzival-verse-left {
+      @include desktop {
+        padding-left: 10%;
+      }
     }
 
     tr.is-active {
@@ -250,6 +269,7 @@ $fa-font-path: '~font-awesome/fonts';
   }
 
   .parzival-verse-num, .parzival-column {
+    font-family: $family-monospace;
     font-size: $size-7;
     &.is-active {
       background: $warning;

@@ -4,15 +4,15 @@
     <div class="navbar-brand">
       <router-link class="navbar-item is-info" to="/" title="Startseite/ Informationen">
         <span class="icon"><i class="fa fa-home"></i></span>
-        <span class="is-hidden-mobile">Nuwer Parzifal</span>
       </router-link>
     </div>
     <div class="navbar-menu is-active">
       <div class="navbar-start">
+        <router-link class="navbar-item" :to="routes.introduction" title="Einleitung"><i class="fa fa-info"></i></router-link>
         <router-link class="navbar-item" :to="routes.singlePage" title="Einzelseite"><i class="fa fa-file-o"></i></router-link>
         <router-link class="navbar-item" :to="routes.doublePage" title="Doppelseite"><i class="fa fa-files-o"></i></router-link>
-        <router-link class="navbar-item" :to="routes.transcript" title="Transkript"><i class="fa fa-file-text-o"></i></router-link>
-        <router-link class="navbar-item" :to="routes.synopsis" title="Synopsis"><i class="fa fa-link"></i></router-link>
+        <router-link class="navbar-item" :to="routes.transcript" title="Transkription"><i class="fa fa-file-text-o"></i></router-link>
+        <router-link class="navbar-item" :to="routes.synopsis" title="Synopse"><i class="fa fa-link"></i></router-link>
       </div>
       <div class="navbar-end">
         <div class="navbar-item is-hidden-mobile">
@@ -28,8 +28,8 @@
         <a class="navbar-item" :class="active('overviewModal')" @click="toggle('overviewModal')" title="Handschriftenüberblick"><i class="fa fa-th"></i></a>
         <a class="navbar-item" :class="active('searchModal')" @click="toggle('searchModal')" title="Suche in der Handschrift"><i class="fa fa-search"></i></a>
         <router-link class="navbar-item is-size-4" :to="routes.otherManuscript" title="Handschrift wechseln"><i class="fa fa-exchange"></i></router-link>
-        <router-link class="navbar-item is-size-4" :to="routes.prevPage" :disabled="!routes.prevPage" title="Vorherige Seite"><i class="fa fa-angle-left"></i></router-link>
-        <router-link class="navbar-item is-size-4" :to="routes.nextPage" :disabled="!routes.nextPage" title="Nächste Seite"><i class="fa fa-angle-right"></i></router-link>
+        <router-link class="navbar-item is-size-4" :to="routes.prevPage" :disabled="!routes.prevPage" title="Vorherige Seite"><i class="fa fa-chevron-left"></i></router-link>
+        <router-link class="navbar-item is-size-4" :to="routes.nextPage" :disabled="!routes.nextPage" title="Nächste Seite"><i class="fa fa-chevron-right"></i></router-link>
       </div>
     </div>
   </nav>

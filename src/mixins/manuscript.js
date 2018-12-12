@@ -96,6 +96,10 @@ export default {
       return sigil(this.otherManuscript)
     },
 
+    otherManuscriptTitle () {
+      return metadata.manuscripts[this.otherManuscript].title
+    },
+
     otherPages () {
       const { verse, otherManuscript } = this
       if (!verse) return undefined
@@ -128,6 +132,10 @@ export default {
         prevPage: this.prevPage(this.toPage()),
 
         nextPage: this.nextPage(this.toPage()),
+
+        introduction: {
+          name: 'introduction'
+        },
 
         transcript: {
           ...this.toPage(null, null, 1),

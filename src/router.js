@@ -15,22 +15,22 @@ export default new Router({
       name: 'home',
       component: Home },
 
-    { path: '/facsimile/:manuscript/:pages/:verse?',
+    { path: '/faksimile/:manuscript/:pages/:verse?',
       name: 'facsimile',
       component: Facsimile,
       props: true },
 
-    { path: '/transcript/:manuscript/:pages/:verse?',
+    { path: '/transkription/:manuscript/:pages/:verse?',
       name: 'transcript',
       component: Transcript,
       props: true },
 
-    { path: '/synopsis/:manuscript/:pages/:verse?',
+    { path: '/synopse/:manuscript/:pages/:verse?',
       name: 'synopsis',
       component: Synopsis,
       props: true },
 
-    { path: '/introduction',
+    { path: '/einleitung',
       name: 'introduction',
       component: () => import(
         /* webpackChunkName: "introduction" */ './views/Introduction.vue'

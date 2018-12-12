@@ -2,16 +2,16 @@
 <div class="parzival-home is-dark hero is-fullheight">
   <div class="hero-body">
     <div class="container">
-      <div class="title">Nuwer Parzifal</div>
-      <div class="subtitle">
+      <div class="title">
         Original und Kopie des ›Rappoltsteiner Parzifal‹
-        <br/>
+      </div>
+      <div class="subtitle">
         Handschriftliche Überlieferung und Textgenese im 14. Jahrhundert
       </div>
       <div class="field is-grouped">
         <div class="control">
-          <router-link class="button is-light is-outlined is-medium" to="/introduction">
-            <span class="icon"><i class="fa fa-angle-right"></i></span><span>Einleitendes</span>
+          <router-link class="button is-light is-outlined is-medium" :to="routes.introduction">
+            <span class="icon"><i class="fa fa-angle-right"></i></span><span>Einleitung</span>
           </router-link>
         </div>
         <div class="control">
@@ -36,7 +36,7 @@ export default {
     }
   },
   metaInfo () {
-    return { title: 'Einstieg' }
+    return { title: 'Startseite' }
   }
 }
 </script>

@@ -4,12 +4,12 @@
     <nav class="tile is-parent">
       <div class="tile is-child hero is-small" :data-manuscript="manuscript">
         <div class="hero-body has-text-centered">
-          <p class="subtitle">{{ manuscriptSigil }}</p>
+          <p class="subtitle">{{ manuscriptSigil }} ({{ manuscriptTitle }})</p>
         </div>
       </div>
       <div class="tile is-child hero is-small" :data-manuscript="otherManuscript">
         <div class="hero-body has-text-centered">
-          <p class="subtitle">{{ otherManuscriptSigil }}</p>
+          <p class="subtitle">{{ otherManuscriptSigil }} ({{ otherManuscriptTitle }})</p>
         </div>
       </div>
     </nav>
@@ -22,22 +22,22 @@
                 :key="ri"
                 :class="{ 'is-active': r[0] === verse }"
                 @click="updateVerse(r[0])">
+              <td class="parzival-column">{{ r[1].length ? r[1][0].column : '' }}</td>
               <td class="parzival-verse-num parzival-verse-focus"
                   :class="{ 'is-active': r[0] === verse }"
                   :data-verse="r[0]"
                   v-waypoint="verseWaypoint">{{ verseDesc(r[0]) }}</td>
-              <td class="parzival-verse">
+              <td class="parzival-verse parzival-verse-left">
                 <div v-for="c in r[1]" :key="c.column"
                      :title="c.column" v-html="c.html"></div>
               </td>
-              <td class="parzival-column">{{ r[1].length ? r[1][0].column : '' }}</td>
-              <td class="parzival-verse-num parzival-verse-focus"
-                  :class="{ 'is-active': r[0] === verse }"
-                  v-waypoint="verseWaypoint">{{ r[0] }}</td>
-              <td class="parzival-verse">
+              <td class="parzival-verse parzival-verse-right">
                 <div v-for="c in r[2]" :key="c.column"
                      :title="c.column" v-html="c.html"></div>
               </td>
+              <td class="parzival-verse-num parzival-verse-focus"
+                  :class="{ 'is-active': r[0] === verse }"
+                  v-waypoint="verseWaypoint">{{ r[0] }}</td>
               <td class="parzival-column">{{ r[2].length ? r[2][0].column : '' }}</td>
             </tr>
           </tbody>

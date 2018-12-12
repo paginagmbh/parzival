@@ -4,7 +4,7 @@
     <div class="hero-body">
       <article class="message is-large is-warning">
         <div class="message-body">
-          <p>Kein Transkript für diese Seite</p>
+          <p>Keine Transkription für diese Seite</p>
         </div>
       </article>
     </div>
