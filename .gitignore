@@ -3,7 +3,7 @@ htdocs/
 node_modules/
 src/config/secrets.json
 transcripts/conversion/*.xml
-
+transcripts/conversion/logfile
 # provisioning
 provisioning/roles/*.*
 provisioning/ubuntu-*-cloudimg-console.log
