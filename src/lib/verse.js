@@ -35,6 +35,22 @@ export const np = ({ nums }) => {
   return nums.length === 1
 }
 
+export const p2np = (v) => {
+  const { nums } = v
+  if (nums.length === 2 && nums[0] === 733 && nums[1] >= 100000) {
+    return { ...v, nums: [ nums[1] - 10000 ] }
+  }
+  return v
+}
+
+export const np2p = (v) => {
+  const { nums } = v
+  if (nums.length === 1) {
+    return { ...v, nums: [ 733, nums[0] + 10000 ] }
+  }
+  return v
+}
+
 export const toString = ({ nums, plus, extension }) => {
   return [
     nums.map(n => n.toString()).join('.'),
@@ -54,7 +70,11 @@ export const title = ({ nums, plus, extension }) => {
     .join(' ')
 }
 
-const compareComponent = (a, b) => {
+const numCmp = (a, b) => a - b
+
+const strCmp = (a, b) => a.localeCompare(b)
+
+const compareComponent = (a, b, cmp = numCmp) => {
   if (heading(a)) {
     return -1
   } else if (heading(b)) {
@@ -62,7 +82,7 @@ const compareComponent = (a, b) => {
   }
 
   for (let nn = 0, nl = Math.min(a.length, b.length); nn < nl; nn++) {
-    const diff = a[nn] - b[nn]
+    const diff = cmp(a[nn], b[nn])
     if (diff === 0) {
       continue
     }
@@ -73,16 +93,16 @@ const compareComponent = (a, b) => {
 }
 
 export const compare = (a, b) => {
+  a = np2p(a)
+  b = np2p(b)
+
   let diff = compareComponent(a.nums, b.nums)
   if (diff !== 0) return diff
 
   diff = compareComponent(a.plus, b.plus)
   if (diff !== 0) return diff
 
-  return compareComponent(
-    a.extension ? ['a'] : [],
-    b.extension ? ['a'] : []
-  )
+  return compareComponent(a.extension || [], b.extension || [], strCmp)
 }
 
 export const within = ([startIncl, endIncl], v) => {

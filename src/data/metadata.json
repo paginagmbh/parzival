@@ -41827,30 +41827,6 @@
         {
           "leaf": 115,
           "page": "v",
-          "column": "b",
-          "start": {
-            "nums": [
-              0
-            ],
-            "plus": [
-              16
-            ],
-            "extension": null
-          },
-          "end": {
-            "nums": [
-              0
-            ],
-            "plus": [
-              55
-            ],
-            "extension": null
-          },
-          "hand": "K5"
-        },
-        {
-          "leaf": 115,
-          "page": "v",
           "column": "a",
           "start": {
             "nums": [
@@ -41868,6 +41844,30 @@
             ],
             "plus": [
               15
+            ],
+            "extension": null
+          },
+          "hand": "K5"
+        },
+        {
+          "leaf": 115,
+          "page": "v",
+          "column": "b",
+          "start": {
+            "nums": [
+              0
+            ],
+            "plus": [
+              16
+            ],
+            "extension": null
+          },
+          "end": {
+            "nums": [
+              0
+            ],
+            "plus": [
+              55
             ],
             "extension": null
           },

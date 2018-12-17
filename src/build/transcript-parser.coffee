@@ -12,7 +12,6 @@ verseSigil = (el) ->
   sigil = (xmlId el).replace /^_+/, ""
 
   components = sigil.split "-"
-  console.log { sigil, components } if components.length > 1
 
   { nums, plus } = v.parse components.shift()
   components = ((parseInt c, 10) or c for c in components)
