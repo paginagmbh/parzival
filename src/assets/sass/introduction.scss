@@ -1,11 +1,10 @@
 #introduction {
 
   background-color:#F0F0F0;
-  font-family:Junicode;
+  font-family: Junicode;
   text-align:justify;
   font-size:1.2rem;
   line-height:1.8rem;
-  padding:2rem 4rem 2rem 4rem;
 
   blockquote {
     font-size: 0.9em;
@@ -83,6 +82,13 @@
     }
   }
 
+  .navbar-up {
+    position: fixed;
+    bottom: 2%;
+    left: 2%;
+    z-index: 1000;
+  }
+
   p {
     margin-top:15px;
     margin-bottom:15px;
@@ -150,5 +156,9 @@
   #toc .tocentry {
       margin-top: 0px;
       margin-bottom: 0px;
+  }
+
+  #toc, #content, #frontmatter, .verzeichnisse {
+    padding:0 8% 0 8%;
   }
 }
