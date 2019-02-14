@@ -1,8 +1,8 @@
 <template>
   <div id="introduction">
     <transition name="animate" leave-active-class="animated fadeOutUpBig" enter-active-class="animated fadeInDownBig">
-      <button class="navbar-up button" v-show="!navbarVisible" title="Nach oben">
-        <a href="#topNav"><span class="icon"><i class="fa fa-arrow-up" /></span></a>
+      <button class="navbar-up button" v-show="!navbarVisible" @click="scrollToTopNav" title="Nach oben">
+        <span class="icon"><i class="fa fa-arrow-up" /></span>
       </button>
     </transition>
     <nav style="width:100%" class="nav" id="topNav" ref="navbar" v-waypoint="{ active: true, callback: onNavbarWaypoint }"><span width="25%" class="nav" style="text-weight: bold">EINLEITUNG</span><span width="25%" class="nav">
@@ -5307,6 +5307,10 @@ export default {
   methods: {
     onNavbarWaypoint ({ going }) {
       this.navbarVisible = (going === 'in')
+    },
+
+    scrollToTopNav () {
+      this.$scrollTo('#topNav')
     }
   }
 }
