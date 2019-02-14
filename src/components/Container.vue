@@ -2,16 +2,16 @@
 <div class="parzival-container">
   <nav class="navbar is-dark">
     <div class="navbar-brand">
-      <router-link class="navbar-item is-info" to="/" title="Startseite/ Informationen">
-        <span class="icon"><i class="fa fa-home"></i></span>
-      </router-link>
+      <router-link class="navbar-item" :to="routes.introduction" title="Einleitung">Einleitung</router-link>
     </div>
     <div class="navbar-menu is-active">
       <div class="navbar-start">
-        <router-link class="navbar-item" :to="routes.introduction" title="Einleitung"><i class="fa fa-info"></i></router-link>
-        <router-link class="navbar-item" :to="routes.singlePage" title="Einzelseite"><i class="fa fa-file-o"></i></router-link>
-        <router-link class="navbar-item" :to="routes.doublePage" title="Doppelseite"><i class="fa fa-files-o"></i></router-link>
+        <router-link class="navbar-item is-info" to="/" title="Startseite/ Informationen">
+          <span class="icon"><i class="fa fa-home"></i></span>
+        </router-link>
         <router-link class="navbar-item" :to="routes.transcript" title="Transkription"><i class="fa fa-file-text-o"></i></router-link>
+        <router-link class="navbar-item" :to="routes.singlePage" title="Einzelseite"><i class="fa fa-file-o"></i></router-link>
+        <router-link class="navbar-item" :to="routes.doublePage" title="Doppelseite"><i class="fa fa-columns"></i></router-link>
         <router-link class="navbar-item" :to="routes.synopsis" title="Synopse"><i class="fa fa-link"></i></router-link>
       </div>
       <div class="navbar-end">

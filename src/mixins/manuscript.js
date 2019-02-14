@@ -227,7 +227,9 @@ export default {
     },
 
     verseDesc (verse) {
-      return verse.replace(/827.30\[([0-9]+)]/, 'Ep. $1')
+      return verse
+        .replace(/112.12\[([0-9]+)]/, 'Pr $1')
+        .replace(/827.30\[([0-9]+)]/, 'Ep $1')
     }
   }
 }
