@@ -7,12 +7,12 @@ import xfs from 'fs-extra'
 import { cwd, encoding } from './util'
 
 const imageDir = process.env.PARZIVAL_IMAGE_BASE || '/srv/bern'
-const ptifDir = process.env.PARZIVAL_PTIF_BASE || '/var/www/iiif'
+const ptifDir = process.env.PARZIVAL_PTIF_BASE || '/var/www/iiif/neu'
 
 const convert = async () => {
-  for (let base of ['HS V unkomprimiert', 'HS VV unkomprimiert']) {
+  for (let base of ['HS V neu unbeziffert', 'HS VV neu unbeziffert']) {
     base = resolve(imageDir, base)
-    for (const image of (await globby(['VV*.JPG', '*.tif'].map(p => resolve(base, p))))) {
+    for (const image of (await globby(['*.tif', '*.TIF'].map(p => resolve(base, p))))) {
       const ext = extname(image)
       const imageBase = basename(image, ext).toLowerCase()
 
@@ -31,6 +31,8 @@ const convert = async () => {
 
       if (result.status !== 0) {
         await xfs.remove(ptif)
+      } else {
+        console.log(ptif)
       }
     }
   }
