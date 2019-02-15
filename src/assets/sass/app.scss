@@ -337,11 +337,15 @@ $fa-font-path: '~font-awesome/fonts';
       }
     }
 
-    .supplied {
-      &.corr {
-        text-decoration: underline dotted;
-      }
+    .corr {
+      text-decoration: underline dotted;
+    }
 
+    .damage {
+      background: $grey-lighter;
+    }
+
+    .supplied {
       &.ex::before {
         content: "("
       }

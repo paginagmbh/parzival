@@ -27,11 +27,6 @@ verseSigil = (el) ->
 
 breakSigil = (el) -> m.parsePageSigil (xmlId el)
 
-orig = ({ event, local }) ->
-  switch event
-    when "start" then "<span class=\"orig #{local}\">"
-    else "</span>"
-
 supplied = ({ event, local }) ->
   switch event
     when "start" then "<span class=\"supplied #{local}\">"
@@ -40,6 +35,16 @@ supplied = ({ event, local }) ->
 edited = ({ event, local }) ->
   switch event
     when "start" then "<span class=\"edited #{local}\">"
+    else "</span>"
+
+damage = (e) ->
+  switch e.event
+    when "start"
+      agent = (markup.attr e, "agent", "").toLowerCase()
+      classes = ["damage"]
+      classes.push agent if agent
+      "<span class=\"#{classes.join " "}\">"
+
     else "</span>"
 
 hi = (e) ->
@@ -154,6 +159,7 @@ module.exports = (sources) ->
           when "reg", "corr", "ex" then supplied e
           when "hi" then hi e
           when "del", "add" then edited e
+          when "damage" then damage e
           when "lb"
             classes = ["lb"]
             classes.push "wb" if lastChar.match /\s/
