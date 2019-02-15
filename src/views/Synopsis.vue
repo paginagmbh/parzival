@@ -25,7 +25,7 @@
               <td class="parzival-column">{{ r[1].length ? r[1][0].column : '' }}</td>
               <td class="parzival-verse-num parzival-verse-focus"
                   :class="{ 'is-active': r[0] === verse }"
-                  :data-verse="r[0]">{{ verseDesc(r[0]) }}</td>
+                  :data-verse="r[0]">{{ verse2Desc(r[0]) }}</td>
               <td class="parzival-verse parzival-verse-left">
                 <div v-for="c in r[1]" :key="c.column"
                      :title="c.column" v-html="c.html"></div>
@@ -35,7 +35,7 @@
                      :title="c.column" v-html="c.html"></div>
               </td>
               <td class="parzival-verse-num parzival-verse-focus"
-                  :class="{ 'is-active': r[0] === verse }">{{ verseDesc(r[0]) }}</td>
+                  :class="{ 'is-active': r[0] === verse }">{{ verse2Desc(r[0]) }}</td>
               <td class="parzival-column">{{ r[2].length ? r[2][0].column : '' }}</td>
             </tr>
           </tbody>

@@ -49,7 +49,7 @@ export default {
     },
 
     search (e, fn = search) {
-      const { query } = this
+      const query = this.desc2Verse(this.query)
       const manuscript = metadata.manuscripts[this.manuscript]
       const page = fn(manuscript, query)
       this.notFound = page === undefined

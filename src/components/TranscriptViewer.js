@@ -33,7 +33,8 @@ export default {
             contents.push({
               type: 'verse',
               html: transcript.html[verse][manuscript][column],
-              verse: this.verseDesc(verse)
+              verse: verse,
+              desc: this.verse2Desc(verse)
             })
           }
 
@@ -53,7 +54,7 @@ export default {
         active: this.syncScrolling || false,
         callback: ({ el, going, direction }) => {
           if (going === 'in') {
-            setVerse(el.textContent.trim())
+            setVerse(el.getAttribute('data-verse'))
           }
         },
         options: {

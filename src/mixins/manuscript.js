@@ -226,10 +226,16 @@ export default {
       return number.replace(/^0*/, '')
     },
 
-    verseDesc (verse) {
+    verse2Desc (verse) {
       return verse
         .replace(/112.12\[([0-9]+)]/, 'Pr $1')
         .replace(/827.30\[([0-9]+)]/, 'Ep $1')
+    },
+
+    desc2Verse (desc) {
+      return desc
+        .replace(/Pr ([0-9]+)/, '112.12[$1]')
+        .replace(/Ep ([0-9]+)/, '827.30[$1]')
     }
   }
 }

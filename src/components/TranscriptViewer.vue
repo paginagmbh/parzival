@@ -30,8 +30,9 @@
             <template v-if="l.type == 'verse'">
               <th class="parzival-verse-num"
                   :class="{ 'is-active': l.type === 'verse' && verse === l.verse }"
+                  :data-verse="l.verse"
                   v-waypoint="verseWaypoint">
-                <span>{{ l.verse }}</span>
+                {{ l.desc }}
               </th>
               <td class="parzival-verse" v-html="l.html"></td>
             </template>
