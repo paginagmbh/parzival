@@ -27,6 +27,11 @@ verseSigil = (el) ->
 
 breakSigil = (el) -> m.parsePageSigil (xmlId el)
 
+orig = ({ event, local }) ->
+  switch event
+    when "start" then "<span class=\"orig #{local}\">"
+    else "</span>"
+
 supplied = ({ event, local }) ->
   switch event
     when "start" then "<span class=\"supplied #{local}\">"
@@ -61,7 +66,7 @@ parseSource = ({ source, manuscript }, index) ->
   transcript = await markup.events fs.createReadStream source
 
   isntMainText = (start ln "TEI", "choice")
-  isMainText = (start ln "text", "reg", "corr", "ex")
+  isMainText = (start ln "text", "orig", "reg", "corr", "ex")
   mainText = contextual isntMainText, isMainText
   transcript = (e for e in transcript when mainText e)
 
@@ -102,6 +107,7 @@ module.exports = (sources) ->
 
   lastChar = ""
   inHeading = false
+  inOrig = false
 
   html = {}
   columns = {}
@@ -129,11 +135,14 @@ module.exports = (sources) ->
             verses[manuscript] ?= {}
             verses[manuscript][column] ?= []
             verses[manuscript][column].push verse
+          when "orig"
+            inOrig = true
       when "end"
         switch e.local
           when "text" then manuscript = column = verse = undefined
           when "l" then verse = undefined
-    if verse?
+          when "orig" then inOrig = false
+    if verse? and not inOrig
       if e.event is "text"
         text = e.text.replace /\n/g, ""
         lastChar = text[-1..]
