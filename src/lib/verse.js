@@ -1,8 +1,3 @@
-export const heading = (comp) => {
-  const [ c0 ] = comp
-  return comp.length === 1 && c0 === 0
-}
-
 export const p = ({ nums }) => {
   return nums.length === 2
 }
@@ -34,7 +29,8 @@ export const parse = (str) => {
   if (!nums.match(/^[0-9.]+/g)) throw new Error(nums)
   nums = nums.split('.').map(n => parseInt(n, 10))
 
-  const isHeading = heading(nums)
+  const isHeading = (nums.length === 1 && nums[0] === 0) ||
+        (nums.length === 2 && nums[0] === 733 && nums[1] === 100000)
   const subscript = components.map(c => parseInt(c, 10)).filter(n => !isNaN(n))
 
   const plus = isHeading ? subscript : subscript.slice(0, 1)
@@ -67,9 +63,9 @@ export const title = ({ nums, plus, para }) => {
 }
 
 const compareComponent = (a, b, lengthFactor) => {
-  if (heading(a)) {
+  if (a.length > 0 && a[0] === 0) {
     return -1
-  } else if (heading(b)) {
+  } else if (b.length > 0 && b[0] === 0) {
     return 1
   }
 
@@ -98,4 +94,4 @@ export const within = ([startIncl, endIncl], v) => {
   return compare(startIncl, v) <= 0 && compare(endIncl, v) >= 0
 }
 
-export default { parse, toString, heading, p, np, type, compare, within }
+export default { parse, toString, p, np, type, compare, within }
