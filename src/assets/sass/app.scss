@@ -345,6 +345,10 @@ $fa-font-path: '~font-awesome/fonts';
       background: $grey-lighter;
     }
 
+    .anweisung {
+      font-style: italic;
+    }
+
     .supplied {
       &.ex::before {
         content: "("

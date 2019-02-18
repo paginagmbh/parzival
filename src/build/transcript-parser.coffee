@@ -10,26 +10,16 @@ xmlId = (el) -> (markup.attr el, "xml:id").replace /[^_]+_NEU/i, ""
 
 verseSigil = (el) ->
   sigil = (xmlId el).replace /^_+/, ""
-
-  components = sigil.split "-"
-
-  { nums, plus } = v.parse components.shift()
-  components = ((parseInt c, 10) or c for c in components)
-
-  if nums.length is 2 and nums[0] is 733 and nums[1] >= 100000
-    nums = [ nums[1] - 100000 ]
-  plus = (c for c in components when not isNaN c)
-
-  variant = (c for c in components when isNaN c)
-  variant = if variant.length is 0 then undefined else variant
-
-  { nums, plus, variant }
+  v.p2np v.parse sigil
 
 breakSigil = (el) -> m.parsePageSigil (xmlId el)
 
-supplied = ({ event, local }) ->
-  switch event
-    when "start" then "<span class=\"supplied #{local}\">"
+supplied = (e) ->
+  classes = ["supplied", e.local]
+  classes.push "anweisung" if (markup.attr e, "type", "") is "Anweisung"
+
+  switch e.event
+    when "start" then "<span class=\"#{classes.join " "}\">"
     else "</span>"
 
 edited = ({ event, local }) ->
@@ -65,7 +55,7 @@ hi = (e) ->
     else "</span>"
 
 parseSource = ({ source, manuscript }, index) ->
-  { start, ln, attr, emptyText, negate, every, contextual } = markup.filters
+  { start, ln, attr, emptyText, negate, every, contextual, element } = markup.filters
   ws = markup.whitespace
 
   transcript = await markup.events fs.createReadStream source
@@ -75,8 +65,14 @@ parseSource = ({ source, manuscript }, index) ->
   mainText = contextual isntMainText, isMainText
   transcript = (e for e in transcript when mainText e)
 
-  heading = attr "type", "Kapitelüberschrift"
-  isntVerseText = start every (ln "text", "note"), (negate heading)
+  paratext = (event) ->
+    (event.local is "note") and switch (markup.attr event, "type")
+      when "Kapitelüberschrift" then true
+      when "Anweisung", "Reklamante", "Kustode" then true
+      when "nota", "unl" then true
+      else false
+
+  isntVerseText = start every (ln "text", "note"), (negate paratext)
   isVerseText = start ln "l", "lb", "cb"
   verseText = contextual isntVerseText, isVerseText
   transcript = (e for e in transcript when verseText e)
@@ -156,7 +152,7 @@ module.exports = (sources) ->
         inHeading = (e.event is "start")
       else
         html[verse][manuscript][column] += switch e.local
-          when "reg", "corr", "ex" then supplied e
+          when "note", "reg", "corr", "ex" then supplied e
           when "hi" then hi e
           when "del", "add" then edited e
           when "damage" then damage e
