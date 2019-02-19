@@ -124,10 +124,18 @@ export default {
         const verse = this.verse || route.params.verse
         otherManuscript = { ...route, params: { ...route.params, verse } }
       }
+
+      const mainVerseRoute = this.verse ? this.toVerse(this.verse, 'V') : undefined
+      const synopsis = mainVerseRoute
+        ? { ...mainVerseRoute, name: 'synopsis' }
+        : undefined
+
       return {
         manuscripts,
 
         otherManuscript,
+
+        synopsis,
 
         prevPage: this.prevPage(this.toPage()),
 
@@ -140,11 +148,6 @@ export default {
         transcript: {
           ...this.toPage(null, null, 1),
           name: 'transcript'
-        },
-
-        synopsis: {
-          ...this.toPage(null, null, 1),
-          name: 'synopsis'
         },
 
         doublePage: {
@@ -227,8 +230,9 @@ export default {
       manuscript = manuscript || params.manuscript || this.manuscript
 
       const column = (transcript.columns[verse] || {})[manuscript]
-      let page = column ? column.replace(/[ab]$/, '') : this.page
+      if (!column) return undefined
 
+      let page = column.replace(/[ab]$/, '')
       count = count || this.pageList.length
       switch (count) {
         case 2:

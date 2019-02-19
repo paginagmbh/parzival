@@ -19,23 +19,24 @@
           <tbody>
             <tr v-for="(r, ri) in synopsis"
                 :key="ri"
-                :class="{ 'is-active': r[0] === verse }"
-                @click="updateVerse(r[0])">
-              <td class="parzival-column">{{ r[1].length ? r[1][0].column : '–' }}</td>
+                :class="{ 'is-active': r.active }"
+                @click="updateVerse(r.verse)">
+              <td class="parzival-column">{{ r.V.length ? r.V[0].column : '–' }}</td>
               <td class="parzival-verse-num parzival-verse-focus"
-                  :class="{ 'is-active': r[0] === verse }"
-                  :data-verse="r[0]">{{ verse2Desc(r[0]) }}</td>
+                  :class="{ 'is-active': r.active }"
+                  :data-verse="r.verse"
+                  v-waypoint="r.waypoint">{{ r.desc }}</td>
               <td class="parzival-verse parzival-verse-left">
-                <div v-for="c in r[1]" :key="c.column"
+                <div v-for="c in r.V" :key="c.column"
                      :title="c.column" v-html="c.html"></div>
               </td>
               <td class="parzival-verse parzival-verse-right">
-                <div v-for="c in r[2]" :key="c.column"
+                <div v-for="c in r.VV" :key="c.column"
                      :title="c.column" v-html="c.html"></div>
               </td>
               <td class="parzival-verse-num parzival-verse-focus"
-                  :class="{ 'is-active': r[0] === verse }">{{ verse2Desc(r[0]) }}</td>
-              <td class="parzival-column">{{ r[2].length ? r[2][0].column : '–' }}</td>
+                  :class="{ 'is-active': r.active }">{{ r.desc }}</td>
+              <td class="parzival-column">{{ r.VV.length ? r.VV[0].column : '–' }}</td>
             </tr>
           </tbody>
         </table>
@@ -45,10 +46,10 @@
       <div class="tile is-child hero is-small is-dark">
         <div class="hero-body">
           <nav class="pagination is-centered">
-            <router-link class="pagination-previous" :to="prevPage" :disabled="!prevPage">
+            <router-link class="pagination-previous" :to="prevSynopsis || ''" :disabled="!prevSynopsis">
               <i class="fa fa-chevron-left"></i>
             </router-link>
-            <router-link class="pagination-next" :to="nextPage" :disabled="!nextPage">
+            <router-link class="pagination-next" :to="nextSynopsis || ''" :disabled="!nextSynopsis">
               <i class="fa fa-chevron-right"></i>
             </router-link>
             <ul class="pagination-list">
@@ -56,7 +57,7 @@
                 <router-link class="pagination-link"
                    :class="{'is-current': p.index === page }"
                    :to="toVerse(p.title)">
-                  {{ p.title }}…
+                  {{ verse2Desc(p.title) }}…
                 </router-link>
               </li>
             </ul>

@@ -7,7 +7,7 @@
     </transition>
     <nav style="width:100%" class="nav" id="topNav" ref="navbar" v-waypoint="{ active: true, callback: onNavbarWaypoint }"><span width="25%" class="nav" style="text-weight: bold">EINLEITUNG</span><span width="25%" class="nav">
           <router-link to="/">STARTSEITE</router-link></span><span width="25%" class="nav">
-          <router-link to="/transkription/V/115v">ZU DEN HANDSCHRIFTEN</router-link></span></nav>
+          <router-link :to="routes.transcript">ZU DEN HANDSCHRIFTEN</router-link></span></nav>
     <div id="frontmatter">
       <h1>Original und Kopie des ›Rappoltsteiner Parzifal‹<br/> Handschriftliche Überlieferung und Textgenese im 14. Jahrhundert</h1>
       <h2 style="margin-top:3em">Einleitung</h2>
@@ -5302,7 +5302,12 @@ export default {
   metaInfo () {
     return { title: 'Einleitung' }
   },
-  data: () => ({ navbarVisible: true }),
+  data: () => ({
+    navbarVisible: true,
+    manuscript: 'V',
+    pages: '115v',
+    verse: '1'
+  }),
 
   methods: {
     onNavbarWaypoint ({ going }) {

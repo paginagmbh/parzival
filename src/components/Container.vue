@@ -12,7 +12,7 @@
         <router-link class="navbar-item" :to="routes.transcript" title="Transkription"><i class="fa fa-file-text-o"></i></router-link>
         <router-link class="navbar-item" :to="routes.singlePage" title="Einzelseite"><i class="fa fa-file-o"></i></router-link>
         <router-link class="navbar-item" :to="routes.doublePage" title="Doppelseite"><i class="fa fa-columns"></i></router-link>
-        <router-link class="navbar-item" :to="routes.synopsis" title="Synopse"><i class="fa fa-link"></i></router-link>
+        <router-link class="navbar-item" :to="routes.synopsis || ''" title="Synopse" :disabled="!routes.synopsis"><i class="fa fa-link"></i></router-link>
       </div>
       <div class="navbar-end">
         <div class="navbar-item is-hidden-mobile">
@@ -27,9 +27,15 @@
         </div>
         <a class="navbar-item" :class="active('overviewModal')" @click="toggle('overviewModal')" title="Handschriftenüberblick"><i class="fa fa-th"></i></a>
         <a class="navbar-item" :class="active('searchModal')" @click="toggle('searchModal')" title="Suche in der Handschrift"><i class="fa fa-search"></i></a>
-        <router-link class="navbar-item is-size-4" :to="routes.otherManuscript" title="Handschrift wechseln"><i class="fa fa-exchange"></i></router-link>
-        <router-link class="navbar-item is-size-4" :to="routes.prevPage" :disabled="!routes.prevPage" title="Vorherige Seite"><i class="fa fa-chevron-left"></i></router-link>
-        <router-link class="navbar-item is-size-4" :to="routes.nextPage" :disabled="!routes.nextPage" title="Nächste Seite"><i class="fa fa-chevron-right"></i></router-link>
+        <router-link class="navbar-item is-size-4" :to="routes.otherManuscript" title="Handschrift wechseln" v-if="$route.name !== 'synopsis'">
+          <i class="fa fa-exchange"></i>
+        </router-link>
+        <router-link class="navbar-item is-size-4" :to="routes.prevPage || ''" :disabled="!routes.prevPage"  v-if="$route.name !== 'synopsis'" title="Vorherige Seite">
+          <i class="fa fa-chevron-left"></i>
+        </router-link>
+        <router-link class="navbar-item is-size-4" :to="routes.nextPage || ''" :disabled="!routes.nextPage"  v-if="$route.name !== 'synopsis'" title="Nächste Seite">
+          <i class="fa fa-chevron-right"></i>
+        </router-link>
       </div>
     </div>
   </nav>

@@ -1,4 +1,3 @@
-import debounce from 'lodash.debounce'
 import { scroller } from 'vue-scrollto/src/scrollTo'
 
 import { binarySearch } from '../lib/search'
@@ -47,22 +46,51 @@ export default {
     },
 
     synopsis () {
-      return pages[this.page].rows.map(verse => {
-        const row = [ verse ]
-        for (const manuscript of [this.manuscript, this.otherManuscript]) {
+      const synopsis = []
+
+      let prevPage
+      for (const verse of pages[this.page].rows) {
+        const active = verse === this.verse
+        const desc = this.verse2Desc(verse)
+        const row = { verse, active, desc }
+        let nextPage
+        for (const manuscript of ['V', 'VV']) {
+          row[manuscript] = []
           const columns = transcript.html[verse][manuscript] || {}
-          row.push(Object.keys(columns).sort().map(column => ({
-            column: this.numTitle(column),
-            html: columns[column]
-          })))
+          for (const column of Object.keys(columns).sort()) {
+            nextPage = nextPage || column.replace(/[ab]$/, '')
+            row[manuscript].push({
+              column: this.numTitle(column),
+              html: columns[column]
+            })
+          }
         }
-        return row
-      })
+
+        row.waypoint = {
+          active: !prevPage || prevPage !== nextPage,
+          callback: ({ el, going, direction }) => {
+            if (going === 'in') {
+              const verseRoute = this.toVerse(el.getAttribute('data-verse'))
+              console.log(verseRoute.params.pages)
+              if (verseRoute.params.pages === this.pages) return
+              this.$router.replace(verseRoute)
+            }
+          },
+          options: {
+            root: this.$el
+          }
+        }
+
+        prevPage = nextPage
+
+        synopsis.push(row)
+      }
+      return synopsis
     },
 
     pagination () {
-      const first = Math.max(0, this.page - 5)
-      const last = Math.min(first + 10, pages.length - 1)
+      const first = Math.max(0, this.page - 3)
+      const last = Math.min(first + 6, pages.length - 1)
 
       const pagination = []
       for (let index = first; index <= last; index++) {
@@ -72,46 +100,29 @@ export default {
       return pagination
     },
 
-    prevPage () {
+    prevSynopsis () {
       return this.page === 0
         ? undefined
         : this.toVerse(pages[this.page - 1].title)
     },
 
-    nextPage () {
+    nextSynopsis () {
       return this.page === (pages.length - 1)
         ? undefined
         : this.toVerse(pages[this.page + 1].title)
-    },
-
-    verseWaypoint () {
-      return {
-        // FIXME: break mutual dependency between waypoint and scrollToActive()
-        active: false,
-        callback: debounce(({ el, going, direction }) => {
-          if (going === 'in') {
-            this.updateVerse(el.getAttribute('data-verse'))
-          }
-        }, 1000),
-        options: {
-          root: this.$el,
-          rootMargin: '-35% 0% -55% 0%',
-          thresholds: [0, 100]
-        }
-      }
     }
   },
 
   created () {
-    this.updateVerse = debounce((verse) => {
+    this.updateVerse = (verse) => {
       this.$router.replace(this.toVerse(verse))
-    }, 1000, { leading: true, trailing: false })
+    }
 
     const scroll = scroller()
-    this.scrollToActive = debounce(() => this.$nextTick(() => {
+    this.scrollToActive = () => this.$nextTick(() => {
       if (this.loading) return
 
-      const active = this.$el.querySelector('tr.is-active td')
+      const active = this.$el.querySelector('tr.is-active td.parzival-verse')
       if (!active) return
 
       const container = this.$el.querySelector('.parzival-overflow-scroll')
@@ -121,7 +132,7 @@ export default {
         offset: -container.offsetHeight / 3,
         force: true
       })
-    }), 500)
+    })
   },
 
   mounted () {
