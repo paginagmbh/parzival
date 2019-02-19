@@ -2,7 +2,7 @@ import { pageSigil } from './manuscript'
 import verse from './verse'
 
 /* https://oli.me.uk/2013/06/08/searching-javascript-arrays-with-a-binary-search/ */
-const binarySearch = (arr, searchElement, compare) => {
+export const binarySearch = (arr, searchElement, compare) => {
   let minIndex = 0
   let maxIndex = arr.length - 1
   let currentIndex
@@ -87,4 +87,4 @@ export const search = (manuscript, query) => {
     : searchVerse(manuscript, query)
 }
 
-export default { search, searchPage, searchVerse }
+export default { binarySearch, search, searchPage, searchVerse }

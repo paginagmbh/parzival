@@ -43,6 +43,10 @@ $fa-font-path: '~font-awesome/fonts';
   overflow-y: scroll;
 }
 
+.parzival-min-tile {
+  flex-grow: 0;
+}
+
 .parzival-container.parzival-fullheight {
   height: 100vh;
 
@@ -74,8 +78,6 @@ $fa-font-path: '~font-awesome/fonts';
 
 .parzival-synopsis {
   nav.tile {
-    flex-grow: 0;
-
     [data-manuscript=V] {
       color: findColorInvert($grey-light);
       background: $grey-light;

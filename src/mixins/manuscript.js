@@ -222,6 +222,27 @@ export default {
       return candidate
     },
 
+    toVerse (verse, manuscript, count) {
+      const { name, query, params } = this.$route
+      manuscript = manuscript || params.manuscript || this.manuscript
+
+      const column = (transcript.columns[verse] || {})[manuscript]
+      let page = column ? column.replace(/[ab]$/, '') : this.page
+
+      count = count || this.pageList.length
+      switch (count) {
+        case 2:
+          page = pages.double[manuscript][sequences.double[manuscript][page]]
+          break
+        case 1:
+        default:
+          page = pages.single[manuscript][sequences.single[manuscript][page]]
+          break
+      }
+
+      return { name, query, params: { ...params, manuscript, pages: page, verse } }
+    },
+
     numTitle (number) {
       return number.replace(/^0*/, '')
     },
