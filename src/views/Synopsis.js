@@ -127,11 +127,7 @@ export default {
 
       const container = this.$el.querySelector('.parzival-overflow-scroll')
 
-      scroll(active, 500, {
-        container,
-        offset: -container.offsetHeight / 3,
-        force: true
-      })
+      scroll(active, 500, { container })
     })
   },
 
