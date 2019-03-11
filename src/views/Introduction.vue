@@ -1131,7 +1131,7 @@
           Parzifal‹ bzw. des ›Nuwen Parzifal‹ wird innerhalb einer Prosaüberleitung auf
           Bl.
           <router-link to="/faksimile/V/115r">115r</router-link>b–
-          <router-link to="/faksimile/V/115v">v</router-link>a von
+        <router-link to="/faksimile/V/115v">v</router-link>a von
           Hs. V das Jahr 1336 angegeben:<a href="#_ftn36" id="_ftnref36"><sup>[36]</sup></a></p>
       <blockquote class="Blockquote" style="text-indent:.1pt">
                           <span class="titel1">
@@ -1372,7 +1372,7 @@
             Handschrift aus *m verwendet. In einem dritten Durchgang wurde schließlich noch
             eine Vorlage aus *QR nachverglichen. Die am Rand notierten Verse von *m wurden
             radiert und in den Text integriert, aber nur dann, wenn diese Verse auch in *QR
-            vorhanden waren.« <a href="#_ftn62" id="_ftnref62"><sup>[62]</sup></a>
+            vorhanden waren.«<a href="#_ftn62" id="_ftnref62"><sup>[62]</sup></a>
       </blockquote>
       <p class="MsoNormal">Die direkten Vorlagen von Hs. V
           aus den Fassungen *T und *m (für die Korrekturen sowie für den Grundbestand ab
@@ -2001,7 +2001,7 @@
           gingen.<a href="#_ftn94" id="_ftnref94"><sup>[94]</sup></a> Im Vergleich zur
           Abschrift (Hs. V'), die an der entsprechenden Stelle (Bl.
           <router-link to="/faksimile/VV/056r">56r</router-link>b–
-          <router-link to="/faksimile/VV/058r">58r</router-link>b)
+        <router-link to="/faksimile/VV/058r">58r</router-link>b)
           keine Lücken aufweist, fehlen in der Hs. V die 380 Verse NP 10558–10938 (Sch.
           237.29–246.22), die in Hs. V acht Spalten gefüllt haben müssen, was genau vier
           Seiten oder zwei Blättern entspricht. Ausserdem wurden bei der Neubindung die Blätter
@@ -2322,21 +2322,14 @@
           am Längsschnitt zwei schwarze Tintenstriche. Von Bl. <router-link to="/faksimile/VV/001r">1</router-link> fehlt
           oben ein gemäß stehengebliebener Buchstabenunterlängen mit Tinte beschriebener
           Streifen von 0,4–0,8 cm (siehe dazu <a href="#_Toc389816007">Kap. 2.3.2</a>). <b>Lagen</b>: II (Vorderspiegel,
-          3 Vorsatzblätter) + 7 IV <router-link to="/faksimile/VV/056v">56</router-link>
-          + (I-1)
-          <router-link to="/faksimile/VV/057v">57</router-link>
-          + III
-          <router-link to="/faksimile/VV/063v">63</router-link>
-          + 5 IV
-          <router-link to="/faksimile/VV/103v">103</router-link>
-          + III
-          <router-link to="/faksimile/VV/109v">109</router-link>
-          + (I-1)
-          <router-link to="/faksimile/VV/110v">110</router-link>
-          + 8 IV
-          <router-link to="/faksimile/VV/174v">174</router-link>
-          + (IV-1)
-          <router-link to="/faksimile/VV/181v">181</router-link>
+        3 Vorsatzblätter) + 7 IV<sup><router-link to="/faksimile/VV/056v">56</router-link></sup>
+          + (I-1)<sup><router-link to="/faksimile/VV/057v">57</router-link></sup>
+         + III<sup><router-link to="/faksimile/VV/063v">63</router-link></sup>
+          + 5 IV<sup><router-link to="/faksimile/VV/103v">103</router-link></sup>
+          + III<sup><router-link to="/faksimile/VV/109v">109</router-link></sup>
+          + (I-1)<sup><router-link to="/faksimile/VV/110v">110</router-link></sup>
+          + 8 IV<sup><router-link to="/faksimile/VV/174v">174</router-link></sup>
+          + (IV-1)<sup><router-link to="/faksimile/VV/181v">181</router-link></sup>
           (mit einem Nachsatzblatt, Hinterspiegel). Kustoden und Reklamanten der beiden
           Schreiber am Lagendende: Schreiber I (Bl.
           <router-link to="/faksimile/VV/001r">1r</router-link>a–<router-link to="/faksimile/VV/048v">48v</router-link>b): Kustoden
@@ -2365,7 +2358,7 @@
           <router-link to="/faksimile/VV/109v">109v</router-link>:
           <i>·<s>I</s>·</i> (von anderer Hand);
           <router-link to="/faksimile/VV/110v">110v</router-link>: <i>·<s>II</s>·</i>
-          (von anderer Hand). Reklamenten Bll.
+          (von anderer Hand). Reklamanten Bll.
           <router-link to="/faksimile/VV/056v">56v</router-link>,
           <router-link to="/faksimile/VV/063v">63v</router-link>,
           <router-link to="/faksimile/VV/109v">109v</router-link>,
@@ -3265,7 +3258,7 @@
       </p>
       <p class="Standartpetit" style="margin-top:0cm">[Nr. 6] Margraúe Wilhelms von
           Cranitʒ búch. Reimen | geſchrieben Perment. gleiches búnds.<a href="#_ftn155" id="_ftnref155"><sup>[155]</sup></a></p>
-      <p class="MsoNormal">Im Dreissigjährigen Krieg wurde
+      <p class="MsoNormal">Im Dreißigjährigen Krieg wurde
           der Codex im Jahr 1623 ohne Einband mit dem Großteil der Heidelberger Palatina in
           196 Kisten auf Maultieren in die Biblioteca Apostolica Vaticana im Vatikan
           gebracht. Die Hs. V' gelangte getrennt von den anderen Epenhandschriften in der
@@ -3948,7 +3941,7 @@
                   der Schreiberhände geht zurück auf Untersuchungen im Rahmen des </span><a href="http://www.parzival.unibe.ch/hsverz.html"><span style="">Berner
                       Parzival-Projekt</span></a><span style="">s 2013 von Marius
                   Gehrig, M.A. Ich danke Herrn Gehrig für die Möglichkeit, die Ergebnisse an
-                  dieser Stelle präsentieren zu können. Vgl. dazu auch <span style="font-variant: small-caps">Fasching</span> (2018), S. ###.</span></p>
+                  dieser Stelle präsentieren zu können. Vgl. dazu auch <span style="font-variant: small-caps">Fasching</span> (2018), S. 495f.</span></p>
           </div>
           <div id="ftn76">
             <p class="MsoFootnoteText"><a href="#_ftnref76" id="_ftn76"><sup>[76]</sup></a>         <span style=""> Vgl. <span style="font-variant:small-caps">Becker</span> (1977), S. 90.</span></p>
@@ -4212,7 +4205,7 @@
           </div>
           <div id="ftn123">
             <p class="MsoFootnoteText"><a href="#_ftnref123" id="_ftn123"><sup>[123]</sup></a>       <span style=""> Dies
-                  zeigen Fehler in Hs. V, die nur beim direkten Textvergleich entstanden sein
+              zeigen Fehler in Hs. V', die nur beim direkten Textvergleich entstanden sein
                   können, wie bspw. die durch einen Augensprung verursachte, nachträglich
                   korrigierte Dittographie (Wiederholung der drei Verse NP 10855–10857 nach Vers
                   NP 10861) auf Bl. </span><router-link to="/faksimile/VV/057v">57v</router-link><span style="">b (die
@@ -4230,7 +4223,7 @@
                   wo der Schreiber II einen ganzen Absatz der Vorlage (NP 29526–29589) überspringt und die ersten beiden
                   bereits kopierten Verse (<i>A: dem morgen ſie :it enpitten | Balde ire ſtraſʒe ſie riten</i>; nur unter UV-Licht lesbar)
                   dieses Abschnitts wieder ausradiert, oder
-                  Hs. V', Bl. </span><router-link to="/faksimile/VV/170v">170v</router-link><span style="">, 2. Zeile
+                  Hs. V', Bl. </span><router-link to="/faksimile/VV/170v">170v</router-link><span style="">a, 2. Zeile
                   von unten (NP 36202<sup>1</sup>), wo der Schreiber II <i>Siner</i> aus der
                   Vorlage schreibt, sich dann jedoch für eine Kürzung entscheidet, das bereits
                   geschriebene Wort streicht und mit einer eigenen Formulierung fortfährt.</span></p>
@@ -4250,7 +4243,7 @@
               gebrachte Vermutung, dass der erste Teil gar nicht abgeschrieben wurde (<span style="font-variant:small-caps">Stolz</span> [2012], S. 338), erscheint
               durchaus berechtigt, da Wolframs von Eschenbach <b>›</b>Parzival<b>‹</b> in der
               ‘Epenwerkstatt’, in der die Hs. V' entstand, vermutlich bereits kopiert worden war; siehe dazu
-              <a href="#_Toc389816004">Kap. 2.2.3</a> und <span style="font-variant:small-caps">Fasching</span> (2018), S. ###.</p>
+              <a href="#_Toc389816004">Kap. 2.2.3</a> und <span style="font-variant:small-caps">Fasching</span> (2018), S. 503.</p>
           </div>
           <div id="ftn128">
             <p class="MsoFootnoteText"><a href="#_ftnref128" id="_ftn128"><sup>[128]</sup></a> Der Biblioteca Casanatense in Rom danke ich für die
@@ -4302,23 +4295,23 @@
                   vorgestellt, die Hauptschäfte sind häufig mit Zacken verziert. Akzente fehlen
                   ganz, Abbreviaturen werden, da kein Platzmangel dazu zwingt, kaum verwendet.«
                   Zu den Abweichungen siehe <span style="font-variant:small-caps">Fasching</span>
-                  (2018), S. ###.</span></p>
+                  (2018), S. 499f.</span></p>
           </div>
           <div id="ftn135">
             <p class="MsoFootnoteText"><a href="#_ftnref135" id="_ftn135"><sup>[135]</sup></a> Siehe dazu <span
-              style="font-variant:small-caps">Fasching</span> (2018), S. ### (mit Schriftproben).</p>
+              style="font-variant:small-caps">Fasching</span> (2018), S. 501f. (mit Schriftproben).</p>
           </div>
           <div id="ftn136">
             <p class="MsoFootnoteText"><a href="#_ftnref136" id="_ftn136"><sup>[136]</sup></a> Zur
                   Tabelle, die auf derjenigen bei <span style="font-variant:small-caps">Beckers</span>
                   (1995), S. 322, basiert, siehe <span style="font-variant:small-caps">Fasching</span>
-                  (2018), S. ###. Für den Casanatense wurde vermutlich die Buchgröße der Vorlage
+                  (2018), S. 503. Für den Casanatense wurde vermutlich die Buchgröße der Vorlage
                   V übernommen.</p>
           </div>
           <div id="ftn137">
             <p class="MsoFootnoteText"><a href="#_ftnref137" id="_ftn137"><sup>[137]</sup></a> Zum
                   Inhalt der Codices siehe <span style="font-variant:small-caps">Fasching</span>
-                  (2018), S. ###–###.</p>
+                  (2018), S. 498–504.</p>
           </div>
           <div id="ftn138">
             <p class="MsoFootnoteText"><a href="#_ftnref138" id="_ftn138"><sup>[138]</sup></a> Ein klösterliches Skriptorium als Herstellungsort
@@ -4330,7 +4323,7 @@
               des Lohengrin], und 383, Bl. </span><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg383/0372/image"><span style="">183v</span></a>a [Schluß
               des Jüngeren Titurel]) schließen und am Blattrand von Cod. Pal. germ. 404, Bl. <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg404/0087/image">
               40r</a>a, stehe <i>dominus</i>, ist nicht stichhaltig. Diese Zusätze, die aus den Vorlagen stammen können, finden sich auch in textgeschichtlich
-              unabhängigen Parallelhandschriften; siehe dazu <span style="font-variant:small-caps">Fasching</span> (2018), S. ###.</p>
+              unabhängigen Parallelhandschriften; siehe dazu <span style="font-variant:small-caps">Fasching</span> (2018), S. 503.</p>
           </div>
           <div id="ftn139">
             <p class="MsoFootnoteText"><a href="#_ftnref139" id="_ftn139"><sup>[139]</sup></a> Vgl. <span lang="DE-CH" style="font-variant:small-caps">Wirth</span>
@@ -5059,7 +5052,7 @@ of French Studies, Inc.), New York 1931, S. 86–101.</span></p>
         Geld und Liebe. Zum Epilog des ›Rappoltsteiner Parzifal‹, in: Forschungen zur deutschen Literatur des Spätmittelalters. Festschrift für Johannes
         Janota, hrsg. von Horst Brunner und Werner Williams-Krapp, Tübingen 2003, S. 31–49.</p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Fasching</span> (2018) – Richard F. Fasching, Neue Erkenntnisse zum ‘Nuwen Parzifal’
-        und zu einer ‘Epenwerkstatt’ des 14. Jahrhunderts, erscheint in: Zeitschrift für deutsches Altertum und deutsche Literatur 147 (2018) (ca. 20 Seiten).</p>
+        und zu einer ‘Epenwerkstatt’ des 14. Jahrhunderts, in: Zeitschrift für deutsches Altertum und deutsche Literatur 147 (2018), S. 491–509.</p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Fechter</span> (1935) – <span style='font-variant:small-caps'>Werner Fechter</span>, Das
         Publikum der mittelhochdeutschen Dichtung (Deutsche Forschungen 28), Frankfurt a.M. 1935 [Nachdrucke ebd. 1966 und Darmstadt 1972].</p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Gamber</span> (1985) – <span style='font-variant:small-caps'>Ortwin Gamber</span>,
