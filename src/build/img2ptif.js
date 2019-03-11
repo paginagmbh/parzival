@@ -23,7 +23,9 @@ const convert = async () => {
     for (let base of bases) {
       const numbered = !base.includes('unbeziffert')
       base = resolve(imageDir, base)
-      const images = await globby(['*.tif', '*.TIF'].map(p => resolve(base, p)))
+      const images = await globby(
+        ['*.png', '*.PNG', '*.tif', '*.TIF'].map(p => resolve(base, p))
+      )
       for (const image of images) {
         const ext = extname(image)
         const imageBase = basename(image, ext).toLowerCase()
