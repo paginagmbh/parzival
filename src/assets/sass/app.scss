@@ -204,6 +204,13 @@ $fa-font-path: '~font-awesome/fonts';
 }
 
 .parzival-transcript-viewer {
+  position: relative;
+
+  .parzival-transcript-doc-toggle {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+  }
   .parzival-transcript-column {
     position: relative;
 
@@ -301,9 +308,10 @@ $fa-font-path: '~font-awesome/fonts';
     @include desktop {
       font-size: $size-5
     }
+  }
 
+  .parzival-verse, .parzival-sample {
     .hi {
-
       &.prachtinitiale {
         color: $info;
       }
@@ -312,6 +320,9 @@ $fa-font-path: '~font-awesome/fonts';
         color: $danger;
       }
 
+      &.bold {
+        font-weight: bold;
+      }
       &.lines-7, &.lines-6, &.lines-5, &.lines-4 {
         font-size: $size-3;
         font-weight: bold;

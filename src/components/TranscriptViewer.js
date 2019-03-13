@@ -8,6 +8,10 @@ export default {
   name: 'transcript-viewer',
   props: ['manuscript', 'pages', 'verse', 'syncScrolling'],
 
+  data: () => ({
+    transcriptDocModal: false
+  }),
+
   computed: {
     text () {
       const { manuscript, pageList } = this
