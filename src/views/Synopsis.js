@@ -32,6 +32,10 @@ export default {
   name: 'synopsis',
   props: ['manuscript', 'pages', 'verse'],
 
+  data: () => ({
+    scrolling: false
+  }),
+
   computed: {
     page () {
       const pageIndex = binarySearch(pages, v.parse(this.verse), (p, verse) => {
@@ -68,9 +72,9 @@ export default {
         row.waypoint = {
           active: !prevPage || prevPage !== nextPage,
           callback: ({ el, going, direction }) => {
+            if (this.scrolling) return
             if (going === 'in') {
               const verseRoute = this.toVerse(el.getAttribute('data-verse'))
-              console.log(verseRoute.params.pages)
               if (verseRoute.params.pages === this.pages) return
               this.$router.replace(verseRoute)
             }
@@ -118,16 +122,20 @@ export default {
     }
 
     const scroll = scroller()
-    this.scrollToActive = () => this.$nextTick(() => {
-      if (this.loading) return
-
-      const active = this.$el.querySelector('tr.is-active td.parzival-verse')
-      if (!active) return
-
-      const container = this.$el.querySelector('.parzival-overflow-scroll')
-
-      scroll(active, 500, { container })
-    })
+    this.scrollToActive = () => {
+      if (this.scrolling || this.loading) return
+      this.scrolling = true
+      this.$nextTick(() => {
+        const container = this.$el.querySelector('.parzival-overflow-scroll')
+        const active = this.$el.querySelector('tr.is-active td.parzival-verse')
+        if (!active) {
+          this.scrolling = false
+          return
+        }
+        const onDone = () => { this.scrolling = false }
+        scroll(active, 500, { container, onDone })
+      })
+    }
   },
 
   mounted () {
