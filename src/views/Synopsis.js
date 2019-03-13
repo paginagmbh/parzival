@@ -116,24 +116,25 @@ export default {
     }
   },
 
-  created () {
-    this.updateVerse = (verse) => {
+  methods: {
+    updateVerse (verse) {
       this.$router.replace(this.toVerse(verse))
     }
+  },
 
+  created () {
     const scroll = scroller()
     this.scrollToActive = () => {
-      if (this.scrolling || this.loading) return
-      this.scrolling = true
+      if (this.scrolling) return
       this.$nextTick(() => {
         const container = this.$el.querySelector('.parzival-overflow-scroll')
         const active = this.$el.querySelector('tr.is-active td.parzival-verse')
-        if (!active) {
-          this.scrolling = false
-          return
-        }
+        if (!active) return
+
+        const onStart = () => { this.scrolling = true }
         const onDone = () => { this.scrolling = false }
-        scroll(active, 500, { container, onDone })
+        const onCancel = () => { this.scrolling = false }
+        scroll(active, 500, { container, onStart, onDone, onCancel })
       })
     }
   },
