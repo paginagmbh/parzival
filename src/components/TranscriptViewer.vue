@@ -38,7 +38,7 @@
                   :class="{ 'is-active': l.type === 'verse' && verse === l.verse }"
                   :data-verse="l.verse"
                   v-waypoint="verseWaypoint">
-                {{ l.desc }}
+                {{ l.verse }}
               </th>
               <td class="parzival-verse" v-html="l.html"></td>
             </template>

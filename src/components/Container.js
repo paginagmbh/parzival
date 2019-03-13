@@ -49,12 +49,12 @@ export default {
     },
 
     search (e, fn = search) {
-      const query = this.desc2Verse(this.query)
+      const { query } = this
       const manuscript = metadata.manuscripts[this.manuscript]
-      const page = fn(manuscript, query)
+      const { page, verse } = fn(manuscript, query)
       this.notFound = page === undefined
       if (page) {
-        this.$router.push(this.toPage(page, this.manuscript, undefined, query))
+        this.$router.push(this.toPage(page, this.manuscript, undefined, verse))
         this.toggle('searchModal')
       }
     },

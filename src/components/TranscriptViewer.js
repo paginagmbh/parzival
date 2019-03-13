@@ -37,8 +37,7 @@ export default {
             contents.push({
               type: 'verse',
               html: transcript.html[verse][manuscript][column],
-              verse: verse,
-              desc: this.verse2Desc(verse)
+              verse: verse
             })
           }
 

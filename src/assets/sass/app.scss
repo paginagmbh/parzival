@@ -279,6 +279,7 @@ $fa-font-path: '~font-awesome/fonts';
   }
 
   .parzival-verse-num, .parzival-column {
+    white-space: nowrap;
     font-family: $family-monospace;
     font-size: $size-7;
     &.is-active {

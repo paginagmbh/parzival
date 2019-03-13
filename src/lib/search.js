@@ -52,16 +52,16 @@ export const searchPage = (manuscript, query) => {
   }
 
   leaf = Math.max(0, Math.min(999, leaf))
-  const sigil = pageSigil({ leaf, page })
-  if (manuscript.pages.indexOf(sigil) < 0) {
+  page = pageSigil({ leaf, page })
+  if (manuscript.pages.indexOf(page) < 0) {
     return undefined
   }
 
-  return sigil
+  return { page }
 }
 
 export const searchVerse = (manuscript, query) => {
-  query = query.replace(/[^0-9.[\]]/g, '')
+  query = query.replace(/[^EpPr0-9.[\]]/g, '')
 
   try {
     query = verse.parse(query)
@@ -78,11 +78,11 @@ export const searchVerse = (manuscript, query) => {
     return undefined
   }
 
-  return page
+  return { page, verse: verse.toString(query) }
 }
 
 export const search = (manuscript, query) => {
-  return /[rv]/.test(query)
+  return /[rv]$/.test(query)
     ? searchPage(manuscript, query)
     : searchVerse(manuscript, query)
 }

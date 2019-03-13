@@ -23,7 +23,11 @@ export const np2p = (v) => {
 }
 
 export const parse = (str) => {
-  const components = str.replace(/^NP /, '').split(/(?:-|\[|\])+/g).filter(c => c)
+  const components = str
+    .replace(/Pr\s*([0-9]+)/, '112.12[$1]')
+    .replace(/Ep\s*([0-9]+)/, '827.30[$1]')
+    .replace(/^NP /, '')
+    .split(/(?:-|\[|\])+/g).filter(c => c)
 
   let nums = components.shift()
   if (!nums.match(/^[0-9.]+/g)) throw new Error(nums)
@@ -44,22 +48,16 @@ export const parse = (str) => {
 }
 
 export const toString = ({ nums, plus, para }) => {
-  return [
+  const str = [
+    nums.length === 1 ? 'NP ' : '',
     nums.map(n => n.toString()).join('.'),
     (plus || []).map(n => `[${n}]`).join(''),
     (para || []).map(n => `[0${n}]`).join('')
   ].join('')
-}
 
-export const type = ({ nums }) => {
-  const prefixes = ['', 'Nuwer Parzifal', 'Parzival']
-  return prefixes[nums.length]
-}
-
-export const title = ({ nums, plus, para }) => {
-  return [ type({ nums }), toString({ nums, plus, para }) ]
-    .filter(c => c)
-    .join(' ')
+  return str
+    .replace(/112.12\[([0-9]+)]/, 'Pr $1')
+    .replace(/827.30\[([0-9]+)]/, 'Ep $1')
 }
 
 const compareComponent = (a, b, lengthFactor) => {
@@ -94,4 +92,4 @@ export const within = ([startIncl, endIncl], v) => {
   return compare(startIncl, v) <= 0 && compare(endIncl, v) >= 0
 }
 
-export default { parse, toString, p, np, type, compare, within }
+export default { parse, toString, p, np, compare, within }

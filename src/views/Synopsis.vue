@@ -25,7 +25,7 @@
               <td class="parzival-verse-num parzival-verse-focus"
                   :class="{ 'is-active': r.active }"
                   :data-verse="r.verse"
-                  v-waypoint="r.waypoint">{{ r.desc }}</td>
+                  v-waypoint="r.waypoint">{{ r.verse }}</td>
               <td class="parzival-verse parzival-verse-left">
                 <div v-for="c in r.V" :key="c.column"
                      :title="c.column" v-html="c.html"></div>
@@ -35,7 +35,7 @@
                      :title="c.column" v-html="c.html"></div>
               </td>
               <td class="parzival-verse-num parzival-verse-focus"
-                  :class="{ 'is-active': r.active }">{{ r.desc }}</td>
+                  :class="{ 'is-active': r.active }">{{ r.verse }}</td>
               <td class="parzival-column">{{ r.VV.length ? r.VV[0].column : '–' }}</td>
             </tr>
           </tbody>
@@ -57,7 +57,7 @@
                 <router-link class="pagination-link"
                    :class="{'is-current': p.index === page }"
                    :to="toVerse(p.title)">
-                  {{ verse2Desc(p.title) }}
+                  {{ p.title }}
                 </router-link>
               </li>
             </ul>

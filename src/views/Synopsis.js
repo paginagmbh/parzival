@@ -51,8 +51,7 @@ export default {
       let prevPage
       for (const verse of pages[this.page].rows) {
         const active = verse === this.verse
-        const desc = this.verse2Desc(verse)
-        const row = { verse, active, desc }
+        const row = { verse, active }
         let nextPage
         for (const manuscript of ['V', 'VV']) {
           row[manuscript] = []
