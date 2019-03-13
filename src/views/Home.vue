@@ -19,7 +19,8 @@
             <span class="icon"><i class="fa fa-angle-right"></i></span><span>Zu den Handschriften</span>
           </router-link>
         </div>
-      </div><a class="is-italic" href="http://www.parzival.unibe.ch/">Teil des Parzival-Projekts an der Universität Bern.</a>
+      </div>
+      <!--a class="is-italic" href="http://www.parzival.unibe.ch/">Teil des Parzival-Projekts an der Universität Bern.</a-->
     </div>
   </div>
 </div>
