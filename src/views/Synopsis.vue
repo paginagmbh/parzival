@@ -45,7 +45,7 @@
     <div class="tile is-parent parzival-min-tile" v-if="verse">
       <div class="tile is-child hero is-small is-dark">
         <div class="hero-body">
-          <nav class="pagination is-centered">
+          <nav class="pagination is-small is-centered">
             <router-link class="pagination-previous" :to="prevSynopsis || ''" :disabled="!prevSynopsis">
               <i class="fa fa-chevron-left"></i>
             </router-link>
@@ -57,7 +57,7 @@
                 <router-link class="pagination-link"
                    :class="{'is-current': p.index === page }"
                    :to="toVerse(p.title)">
-                  {{ verse2Desc(p.title) }}…
+                  {{ verse2Desc(p.title) }}
                 </router-link>
               </li>
             </ul>
