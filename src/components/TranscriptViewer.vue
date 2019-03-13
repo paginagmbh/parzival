@@ -3,8 +3,14 @@
   <div class="hero" v-if="text.length == 0">
     <div class="hero-body">
       <article class="message is-large is-warning">
-        <div class="message-body">
-          <p>Keine Transkription für diese Seite</p>
+        <div class="message-body content">
+          <p>Folgende Verse sind nicht transkribiert:</p>
+          <ul>
+            <li>NP 2000–7999;</li>
+            <li>NP 10000–10999;</li>
+            <li>NP 12000–14999;</li>
+            <li>NP 15208–250999.</li>
+          </ul>
         </div>
       </article>
     </div>
