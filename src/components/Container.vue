@@ -2,7 +2,7 @@
 <div class="parzival-container">
   <nav class="navbar is-dark">
     <div class="navbar-brand">
-      <router-link class="navbar-item" :to="routes.introduction" title="Einleitung">Einleitung</router-link>
+      <router-link class="navbar-item" :to="routes.introduction" title="Einführung">Einführung</router-link>
     </div>
     <div class="navbar-menu is-active">
       <div class="navbar-start">
@@ -15,7 +15,7 @@
         <router-link class="navbar-item" :to="routes.synopsis || ''" title="Synopse" :disabled="!routes.synopsis"><i class="fa fa-link"></i></router-link>
       </div>
       <div class="navbar-end">
-        <div class="navbar-item is-hidden-mobile">
+        <div class="navbar-item is-hidden-mobile" v-if="$route.name !== 'synopsis'">
           <nav class="breadcrumb">
             <ol>
               <li class="is-active"><a>{{ manuscriptSigil }}</a></li>

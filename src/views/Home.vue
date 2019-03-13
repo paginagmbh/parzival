@@ -11,7 +11,7 @@
       <div class="field is-grouped">
         <div class="control">
           <router-link class="button is-light is-outlined is-medium" :to="routes.introduction">
-            <span class="icon"><i class="fa fa-angle-right"></i></span><span>Einleitung</span>
+            <span class="icon"><i class="fa fa-angle-right"></i></span><span>Einführung</span>
           </router-link>
         </div>
         <div class="control">

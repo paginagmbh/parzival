@@ -30,7 +30,7 @@ export default new Router({
       component: Synopsis,
       props: true },
 
-    { path: '/einleitung',
+    { path: '/einfuehrung',
       name: 'introduction',
       component: () => import(
         /* webpackChunkName: "introduction" */ './views/Introduction.vue'

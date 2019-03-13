@@ -5,12 +5,12 @@
         <span class="icon"><i class="fa fa-arrow-up" /></span>
       </button>
     </transition>
-    <nav style="width:100%" class="nav" id="topNav" ref="navbar" v-waypoint="{ active: true, callback: onNavbarWaypoint }"><span width="25%" class="nav" style="text-weight: bold">EINLEITUNG</span><span width="25%" class="nav">
+    <nav style="width:100%" class="nav" id="topNav" ref="navbar" v-waypoint="{ active: true, callback: onNavbarWaypoint }"><span width="25%" class="nav" style="text-weight: bold">EINFÜHRUNG</span><span width="25%" class="nav">
           <router-link to="/">STARTSEITE</router-link></span><span width="25%" class="nav">
           <router-link :to="routes.transcript">ZU DEN HANDSCHRIFTEN</router-link></span></nav>
     <div id="frontmatter">
       <h1>Original und Kopie des ›Rappoltsteiner Parzifal‹<br/> Handschriftliche Überlieferung und Textgenese im 14. Jahrhundert</h1>
-      <h2 style="margin-top:3em">Einleitung</h2>
+      <h2 style="margin-top:3em">Einführung</h2>
       <h2 style="margin-top:3em">Richard F. Fasching</h2>
       <h2 style="margin-top:0.5em">Universität Bern</h2>
     </div>
@@ -5293,7 +5293,7 @@ of French Studies, Inc.), New York 1931, S. 86–101.</span></p>
 export default {
   name: 'parzival-introduction',
   metaInfo () {
-    return { title: 'Einleitung' }
+    return { title: 'Einführung' }
   },
   data: () => ({
     navbarVisible: true,
