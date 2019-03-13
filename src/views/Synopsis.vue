@@ -67,9 +67,9 @@
     </div>
     <div class="tile is-parent" v-if="$mq.desktop">
       <facsimile-viewer class="tile is-child"
-                        :manuscript="manuscript" :pages="pages" />
+                        :manuscript="manuscript" :pages="pages" :numbered="true" />
       <facsimile-viewer class="tile is-child"
-                        :manuscript="otherManuscript" :pages="otherPages" />
+                        :manuscript="otherManuscript" :pages="otherPages" :numbered="true" />
     </div>
   </div>
 </container>

@@ -7,7 +7,7 @@
                          :manuscript="manuscript" :pages="pages" :verse="verse"/>
 
       <facsimile-viewer class="tile is-child"
-                        :manuscript="manuscript" :pages="pages" />
+                        :manuscript="manuscript" :pages="pages" :numbered="true" />
     </div>
   </div>
 </container>

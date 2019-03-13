@@ -18,7 +18,7 @@ const storedViewport = () => {
 }
 export default {
   name: 'facsimile-viewer',
-  props: ['manuscript', 'pages'],
+  props: ['manuscript', 'pages', 'numbered'],
 
   data () {
     return { viewport: storedViewport() }
@@ -53,7 +53,7 @@ export default {
       this.imageOpen = false
       this.osd.close()
 
-      const { manuscript, pageList } = this
+      const { manuscript, pageList, numbered } = this
       let { length } = pageList
       const width = 1 / length
 
@@ -75,7 +75,7 @@ export default {
       pageList.forEach((page, pi) => {
         if (page !== undefined) {
           this.osd.addTiledImage({
-            tileSource: this.iiif(manuscript, page),
+            tileSource: this.iiif(manuscript, page, numbered),
             width,
             x: (pi * width),
             success
