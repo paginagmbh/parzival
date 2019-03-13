@@ -125,9 +125,8 @@ export default {
         otherManuscript = { ...route, params: { ...route.params, verse } }
       }
 
-      const mainVerseRoute = this.verse ? this.toVerse(this.verse, 'V') : undefined
-      const synopsis = mainVerseRoute
-        ? { ...mainVerseRoute, name: 'synopsis' }
+      const synopsis = this.verse
+        ? { ...this.toVerse(this.verse, 'V', 1), name: 'synopsis' }
         : undefined
 
       return {
