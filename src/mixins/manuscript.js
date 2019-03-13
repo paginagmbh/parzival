@@ -85,7 +85,7 @@ export default {
         }
       }
       if (!start || !end) return ''
-      return [verse.toString(start), verse.toString(end)].join('-')
+      return [verse.toString(start), verse.toString(end)].join(' - ')
     },
 
     otherManuscript () {
