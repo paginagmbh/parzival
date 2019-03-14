@@ -2,7 +2,7 @@
 <div class="parzival-transcript-viewer parzival-overflow-scroll">
   <div class="hero" v-if="text.length == 0">
     <div class="hero-body">
-      <article class="message is-large is-warning">
+      <article class="message">
         <div class="message-body content">
           <p>Folgende Verse sind nicht transkribiert:</p>
           <ul>
