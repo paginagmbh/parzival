@@ -17,6 +17,8 @@ breakSigil = (el) -> m.parsePageSigil (xmlId el)
 supplied = (e) ->
   classes = ["supplied", e.local]
   classes.push "anweisung" if (markup.attr e, "type", "") is "Anweisung"
+  classes.push "kustode" if (markup.attr e, "type", "") is "Kustode"
+  classes.push "reklamante" if (markup.attr e, "type", "") is "Reklamante"
 
   switch e.event
     when "start" then "<span class=\"#{classes.join " "}\">"
