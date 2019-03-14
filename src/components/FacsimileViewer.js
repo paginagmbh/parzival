@@ -1,8 +1,6 @@
 import debounce from 'lodash.debounce'
 import OpenSeadragon from 'openseadragon'
 
-import metadata from '../data/metadata.json'
-
 const viewportKey = 'parzival.facsimileViewport'
 const defaultViewport = { x: 0, y: 0, width: 1, height: 0.5 }
 const storeViewport = (viewport) => {
