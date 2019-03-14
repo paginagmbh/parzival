@@ -56,6 +56,22 @@ export default {
       return this.pageList.find(p => p)
     },
 
+    columns () {
+      const { columns } = metadata.manuscripts[this.manuscript]
+      const result = []
+      for (const page of this.pageList) {
+        if (page) {
+          for (const column of ['a', 'b']) {
+            const sigil = `${page}${column}`
+            if (sigil in columns) {
+              result.push(columns[sigil])
+            }
+          }
+        }
+      }
+      return result
+    },
+
     manuscriptSigil () {
       return sigil(this.manuscript)
     },
@@ -69,23 +85,26 @@ export default {
     },
 
     verseTitle () {
-      const { columns } = metadata.manuscripts[this.manuscript]
       let start
       let end
-      for (const page of this.pageList) {
-        if (page) {
-          for (const column of ['a', 'b']) {
-            const sigil = `${page}${column}`
-            if (sigil in columns) {
-              const verses = columns[sigil]
-              start = start || verses.start
-              end = verses.end
-            }
-          }
-        }
+      for (const column of this.columns) {
+        start = start || column.start
+        end = column.end
       }
       if (!start || !end) return ''
       return [verse.toString(start), verse.toString(end)].join(' - ')
+    },
+
+    hands () {
+      const hands = []
+      for (const column of this.columns) {
+        const { hand } = column
+        if (!hand) continue
+        if (hands.length > 0 && hands[0] === hand) continue
+        hands.unshift(hand)
+      }
+      hands.reverse()
+      return hands.length === 0 ? undefined : `Hand ${hands.join(' > ')}`
     },
 
     otherManuscript () {
