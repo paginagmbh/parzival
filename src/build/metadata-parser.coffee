@@ -26,11 +26,11 @@ metadata =
     sigil: "V"
     title: "Karlsruhe, Bad. Landesbibl., Donaueschingen 97"
     hands:
-      I: "K1"
-      II: "K2"
-      III: "K3"
-      IV: "K4"
-      V: "K5"
+      I: "I"
+      II: "II"
+      III: "III"
+      IV: "IV"
+      V: "V"
     verses: path.resolve metadataDir, "verses_v.txt"
     verseParser: (record, state) ->
       handMatch = /Schreiber ([IV]+):/.exec record
@@ -51,8 +51,8 @@ metadata =
     sigil: "VV"
     title: "Roma, Biblioteca Casanatense, Ms. 1409"
     hands:
-      R1: "R1"
-      R2: "R2"
+      R1: "I"
+      R2: "II"
     verses: path.resolve metadataDir, "verses_vv.txt"
     verseParser: (record) ->
       re = /Bl\. (\d+)([rv])([ab]): ([0-9.[\]]+) – ([0-9.[\]]+)/
@@ -67,7 +67,7 @@ metadata =
 headings =
   V:
     "115rb":
-      "0[1][1]": ["Prosaüberleitung zum ›Nuwen Parzifal‹ mit Jahresangabe 1336"]
+      "0[1][1]": ["Prosaüberleitung zum ›Nuwen Parzifal‹ mit Jahresangabe 1336"]
     "115va":
       "0[1][3]": ["Blattberechnungen"]
       "0[1][4]": ["Blattberechnungen"]
