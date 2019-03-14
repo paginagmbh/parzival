@@ -63,7 +63,7 @@ $fa-font-path: '~font-awesome/fonts';
   }
 }
 
-.parzival-home:before {
+.parzival-home-title:before {
   content: ' ';
   display: block;
   position: absolute;
@@ -76,6 +76,17 @@ $fa-font-path: '~font-awesome/fonts';
   background-size: cover;
 }
 
+.parzival-home-imprint {
+  h4 {
+    margin-top: 1rem;
+    margin-botton: 0.5rem;
+    font-size: $size-5;
+    font-weight: bold;
+  }
+  .staff p {
+    // font-size: $size-5
+  }
+}
 .parzival-synopsis {
   nav.tile {
     [data-manuscript=V] {
