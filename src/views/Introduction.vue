@@ -1359,7 +1359,7 @@
       <p class="MsoNormal">                Wolframs von
           Eschenbach ›Parzival‹ hingegen bringt der ›Rappoltsteiner Parzifal‹ nachweislich
           in einem mit einer *T- und mit einer *m-Fassung kontaminierten Text, in dem
-          unterschiedliche Stufen der Be- und Überarbeitung beobachtet werden können.<a href="#_ftn61" id="_ftnref61"><sup>[61]</sup></a> <span style="font-variant:small-caps">Robert Schöller</span> fasst die komplizierte
+          unterschiedliche Stufen der Be- und Überarbeitung beobachtet werden können.<a href="#_ftn61" id="_ftnref61"><sup>[61]</sup></a> <span style="font-variant:small-caps"> Robert Schöller</span> fasst die komplizierte
           Genese des ›Parzival‹-Textes in V wie folgt zusammen:
       </p>
       <blockquote class="Blockquote">»Der Text von ›Parzival‹ V wurde zunächst nach einer
