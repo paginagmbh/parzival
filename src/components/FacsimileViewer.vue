@@ -20,6 +20,14 @@
   <figure class="image parzival-quire-view" v-if="quireIconPath">
     <img :src="quireIconPath"/>
   </figure>
+  <nav class="breadcrumb parzival-quire-path" v-if="quireIconPath">
+    <ol>
+      <li class="is-active"><a>{{ quireTitle }}</a></li>
+      <li class="is-active"><a>{{ pageTitle }}</a></li>
+      <li class="is-active"><a>{{ hands }}</a></li>
+      <li class="is-active"><a>{{ verseTitle }}</a></li>
+    </ol>
+  </nav>
 </div>
 </template>
 

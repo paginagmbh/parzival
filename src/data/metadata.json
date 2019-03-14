@@ -22377,2555 +22377,3831 @@
       "quires": {
         "001r": {
           "singlePage": "L5p_01r",
-          "doublePage": "L5_01r"
+          "doublePage": "L5_01r",
+          "type": "L5",
+          "num": "1"
         },
         "001v": {
           "singlePage": "L5p_01v",
-          "doublePage": "L5_01v02r"
+          "doublePage": "L5_01v02r",
+          "type": "L5",
+          "num": "1"
         },
         "002r": {
           "singlePage": "L5p_02r",
-          "doublePage": "L5_01v02r"
+          "doublePage": "L5_01v02r",
+          "type": "L5",
+          "num": "1"
         },
         "002v": {
           "singlePage": "L5p_02v",
-          "doublePage": "L5_02v03r"
+          "doublePage": "L5_02v03r",
+          "type": "L5",
+          "num": "1"
         },
         "003r": {
           "singlePage": "L5p_03r",
-          "doublePage": "L5_02v03r"
+          "doublePage": "L5_02v03r",
+          "type": "L5",
+          "num": "1"
         },
         "003v": {
           "singlePage": "L5p_03v",
-          "doublePage": "L5_03v04r"
+          "doublePage": "L5_03v04r",
+          "type": "L5",
+          "num": "1"
         },
         "004r": {
           "singlePage": "L5p_04r",
-          "doublePage": "L5_03v04r"
+          "doublePage": "L5_03v04r",
+          "type": "L5",
+          "num": "1"
         },
         "004v": {
           "singlePage": "L5p_04v",
-          "doublePage": "L5_04v05r"
+          "doublePage": "L5_04v05r",
+          "type": "L5",
+          "num": "1"
         },
         "005r": {
           "singlePage": "L5p_05r",
-          "doublePage": "L5_04v05r"
+          "doublePage": "L5_04v05r",
+          "type": "L5",
+          "num": "1"
         },
         "005v": {
           "singlePage": "L5p_05v",
-          "doublePage": "L5_05v06r"
+          "doublePage": "L5_05v06r",
+          "type": "L5",
+          "num": "1"
         },
         "006r": {
           "singlePage": "L5p_06r",
-          "doublePage": "L5_05v06r"
+          "doublePage": "L5_05v06r",
+          "type": "L5",
+          "num": "1"
         },
         "006v": {
           "singlePage": "L5p_06v",
-          "doublePage": "L5_06v07r"
+          "doublePage": "L5_06v07r",
+          "type": "L5",
+          "num": "1"
         },
         "007r": {
           "singlePage": "L5p_07r",
-          "doublePage": "L5_06v07r"
+          "doublePage": "L5_06v07r",
+          "type": "L5",
+          "num": "1"
         },
         "007v": {
           "singlePage": "L5p_07v",
-          "doublePage": "L5_07v08r"
+          "doublePage": "L5_07v08r",
+          "type": "L5",
+          "num": "1"
         },
         "008r": {
           "singlePage": "L5p_08r",
-          "doublePage": "L5_07v08r"
+          "doublePage": "L5_07v08r",
+          "type": "L5",
+          "num": "1"
         },
         "008v": {
           "singlePage": "L5p_08v",
-          "doublePage": "L5_08v09r"
+          "doublePage": "L5_08v09r",
+          "type": "L5",
+          "num": "1"
         },
         "009r": {
           "singlePage": "L5p_09r",
-          "doublePage": "L5_08v09r"
+          "doublePage": "L5_08v09r",
+          "type": "L5",
+          "num": "1"
         },
         "009v": {
           "singlePage": "L5p_09v",
-          "doublePage": "L5_09v10r"
+          "doublePage": "L5_09v10r",
+          "type": "L5",
+          "num": "1"
         },
         "010r": {
           "singlePage": "L5p_10r",
-          "doublePage": "L5_09v10r"
+          "doublePage": "L5_09v10r",
+          "type": "L5",
+          "num": "1"
         },
         "010v": {
           "singlePage": "L5p_10v",
-          "doublePage": "L5_10v"
+          "doublePage": "L5_10v",
+          "type": "L5",
+          "num": "1"
         },
         "011r": {
           "singlePage": "L5p_01r",
-          "doublePage": "L5_01r"
+          "doublePage": "L5_01r",
+          "type": "L5",
+          "num": "2"
         },
         "011v": {
           "singlePage": "L5p_01v",
-          "doublePage": "L5_01v02r"
+          "doublePage": "L5_01v02r",
+          "type": "L5",
+          "num": "2"
         },
         "012r": {
           "singlePage": "L5p_02r",
-          "doublePage": "L5_01v02r"
+          "doublePage": "L5_01v02r",
+          "type": "L5",
+          "num": "2"
         },
         "012v": {
           "singlePage": "L5p_02v",
-          "doublePage": "L5_02v03r"
+          "doublePage": "L5_02v03r",
+          "type": "L5",
+          "num": "2"
         },
         "013r": {
           "singlePage": "L5p_03r",
-          "doublePage": "L5_02v03r"
+          "doublePage": "L5_02v03r",
+          "type": "L5",
+          "num": "2"
         },
         "013v": {
           "singlePage": "L5p_03v",
-          "doublePage": "L5_03v04r"
+          "doublePage": "L5_03v04r",
+          "type": "L5",
+          "num": "2"
         },
         "014r": {
           "singlePage": "L5p_04r",
-          "doublePage": "L5_03v04r"
+          "doublePage": "L5_03v04r",
+          "type": "L5",
+          "num": "2"
         },
         "014v": {
           "singlePage": "L5p_04v",
-          "doublePage": "L5_04v05r"
+          "doublePage": "L5_04v05r",
+          "type": "L5",
+          "num": "2"
         },
         "015r": {
           "singlePage": "L5p_05r",
-          "doublePage": "L5_04v05r"
+          "doublePage": "L5_04v05r",
+          "type": "L5",
+          "num": "2"
         },
         "015v": {
           "singlePage": "L5p_05v",
-          "doublePage": "L5_05v06r"
+          "doublePage": "L5_05v06r",
+          "type": "L5",
+          "num": "2"
         },
         "016r": {
           "singlePage": "L5p_06r",
-          "doublePage": "L5_05v06r"
+          "doublePage": "L5_05v06r",
+          "type": "L5",
+          "num": "2"
         },
         "016v": {
           "singlePage": "L5p_06v",
-          "doublePage": "L5_06v07r"
+          "doublePage": "L5_06v07r",
+          "type": "L5",
+          "num": "2"
         },
         "017r": {
           "singlePage": "L5p_07r",
-          "doublePage": "L5_06v07r"
+          "doublePage": "L5_06v07r",
+          "type": "L5",
+          "num": "2"
         },
         "017v": {
           "singlePage": "L5p_07v",
-          "doublePage": "L5_07v08r"
+          "doublePage": "L5_07v08r",
+          "type": "L5",
+          "num": "2"
         },
         "018r": {
           "singlePage": "L5p_08r",
-          "doublePage": "L5_07v08r"
+          "doublePage": "L5_07v08r",
+          "type": "L5",
+          "num": "2"
         },
         "018v": {
           "singlePage": "L5p_08v",
-          "doublePage": "L5_08v09r"
+          "doublePage": "L5_08v09r",
+          "type": "L5",
+          "num": "2"
         },
         "019r": {
           "singlePage": "L5p_09r",
-          "doublePage": "L5_08v09r"
+          "doublePage": "L5_08v09r",
+          "type": "L5",
+          "num": "2"
         },
         "019v": {
           "singlePage": "L5p_09v",
-          "doublePage": "L5_09v10r"
+          "doublePage": "L5_09v10r",
+          "type": "L5",
+          "num": "2"
         },
         "020r": {
           "singlePage": "L5p_10r",
-          "doublePage": "L5_09v10r"
+          "doublePage": "L5_09v10r",
+          "type": "L5",
+          "num": "2"
         },
         "020v": {
           "singlePage": "L5p_10v",
-          "doublePage": "L5_10v"
+          "doublePage": "L5_10v",
+          "type": "L5",
+          "num": "2"
         },
         "021r": {
           "singlePage": "L2p_01r",
-          "doublePage": "L2_01r"
+          "doublePage": "L2_01r",
+          "type": "L2",
+          "num": "3"
         },
         "021v": {
           "singlePage": "L2p_01v",
-          "doublePage": "L2_01v02r"
+          "doublePage": "L2_01v02r",
+          "type": "L2",
+          "num": "3"
         },
         "022r": {
           "singlePage": "L2p_02r",
-          "doublePage": "L2_01v02r"
+          "doublePage": "L2_01v02r",
+          "type": "L2",
+          "num": "3"
         },
         "022v": {
           "singlePage": "L2p_02v",
-          "doublePage": "L2_02v03r"
+          "doublePage": "L2_02v03r",
+          "type": "L2",
+          "num": "3"
         },
         "023r": {
           "singlePage": "L2p_03r",
-          "doublePage": "L2_02v03r"
+          "doublePage": "L2_02v03r",
+          "type": "L2",
+          "num": "3"
         },
         "023v": {
           "singlePage": "L2p_03v",
-          "doublePage": "L2_03v04r"
+          "doublePage": "L2_03v04r",
+          "type": "L2",
+          "num": "3"
         },
         "024r": {
           "singlePage": "L2p_04r",
-          "doublePage": "L2_03v04r"
+          "doublePage": "L2_03v04r",
+          "type": "L2",
+          "num": "3"
         },
         "024v": {
           "singlePage": "L2p_04v",
-          "doublePage": "L2_04v"
+          "doublePage": "L2_04v",
+          "type": "L2",
+          "num": "3"
         },
         "025r": {
           "singlePage": "L6p_01r",
-          "doublePage": "L6_01r"
+          "doublePage": "L6_01r",
+          "type": "L6",
+          "num": "4"
         },
         "025v": {
           "singlePage": "L6p_01v",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "4"
         },
         "026r": {
           "singlePage": "L6p_02r",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "4"
         },
         "026v": {
           "singlePage": "L6p_02v",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "4"
         },
         "027r": {
           "singlePage": "L6p_03r",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "4"
         },
         "027v": {
           "singlePage": "L6p_03v",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "4"
         },
         "028r": {
           "singlePage": "L6p_04r",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "4"
         },
         "028v": {
           "singlePage": "L6p_04v",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "4"
         },
         "029r": {
           "singlePage": "L6p_05r",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "4"
         },
         "029v": {
           "singlePage": "L6p_05v",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "4"
         },
         "030r": {
           "singlePage": "L6p_06r",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "4"
         },
         "030v": {
           "singlePage": "L6p_06v",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "4"
         },
         "031r": {
           "singlePage": "L6p_07r",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "4"
         },
         "031v": {
           "singlePage": "L6p_07v",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "4"
         },
         "032r": {
           "singlePage": "L6p_08r",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "4"
         },
         "032v": {
           "singlePage": "L6p_08v",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "4"
         },
         "033r": {
           "singlePage": "L6p_09r",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "4"
         },
         "033v": {
           "singlePage": "L6p_09v",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "4"
         },
         "034r": {
           "singlePage": "L6p_10r",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "4"
         },
         "034v": {
           "singlePage": "L6p_10v",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "4"
         },
         "035r": {
           "singlePage": "L6p_11r",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "4"
         },
         "035v": {
           "singlePage": "L6p_11v",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "4"
         },
         "036r": {
           "singlePage": "L6p_12r",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "4"
         },
         "036v": {
           "singlePage": "L6p_12v",
-          "doublePage": "L6_12v"
+          "doublePage": "L6_12v",
+          "type": "L6",
+          "num": "4"
         },
         "037r": {
           "singlePage": "L6p_01r",
-          "doublePage": "L6_01r"
+          "doublePage": "L6_01r",
+          "type": "L6",
+          "num": "5"
         },
         "037v": {
           "singlePage": "L6p_01v",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "5"
         },
         "038r": {
           "singlePage": "L6p_02r",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "5"
         },
         "038v": {
           "singlePage": "L6p_02v",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "5"
         },
         "039r": {
           "singlePage": "L6p_03r",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "5"
         },
         "039v": {
           "singlePage": "L6p_03v",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "5"
         },
         "040r": {
           "singlePage": "L6p_04r",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "5"
         },
         "040v": {
           "singlePage": "L6p_04v",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "5"
         },
         "041r": {
           "singlePage": "L6p_05r",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "5"
         },
         "041v": {
           "singlePage": "L6p_05v",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "5"
         },
         "042r": {
           "singlePage": "L6p_06r",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "5"
         },
         "042v": {
           "singlePage": "L6p_06v",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "5"
         },
         "043r": {
           "singlePage": "L6p_07r",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "5"
         },
         "043v": {
           "singlePage": "L6p_07v",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "5"
         },
         "044r": {
           "singlePage": "L6p_08r",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "5"
         },
         "044v": {
           "singlePage": "L6p_08v",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "5"
         },
         "045r": {
           "singlePage": "L6p_09r",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "5"
         },
         "045v": {
           "singlePage": "L6p_09v",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "5"
         },
         "046r": {
           "singlePage": "L6p_10r",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "5"
         },
         "046v": {
           "singlePage": "L6p_10v",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "5"
         },
         "047r": {
           "singlePage": "L6p_11r",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "5"
         },
         "047v": {
           "singlePage": "L6p_11v",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "5"
         },
         "048r": {
           "singlePage": "L6p_12r",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "5"
         },
         "048v": {
           "singlePage": "L6p_12v",
-          "doublePage": "L6_12v"
+          "doublePage": "L6_12v",
+          "type": "L6",
+          "num": "5"
         },
         "049r": {
           "singlePage": "L6p_01r",
-          "doublePage": "L6_01r"
+          "doublePage": "L6_01r",
+          "type": "L6",
+          "num": "6"
         },
         "049v": {
           "singlePage": "L6p_01v",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "6"
         },
         "050r": {
           "singlePage": "L6p_02r",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "6"
         },
         "050v": {
           "singlePage": "L6p_02v",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "6"
         },
         "051r": {
           "singlePage": "L6p_03r",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "6"
         },
         "051v": {
           "singlePage": "L6p_03v",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "6"
         },
         "052r": {
           "singlePage": "L6p_04r",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "6"
         },
         "052v": {
           "singlePage": "L6p_04v",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "6"
         },
         "053r": {
           "singlePage": "L6p_05r",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "6"
         },
         "053v": {
           "singlePage": "L6p_05v",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "6"
         },
         "054r": {
           "singlePage": "L6p_06r",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "6"
         },
         "054v": {
           "singlePage": "L6p_06v",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "6"
         },
         "055r": {
           "singlePage": "L6p_07r",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "6"
         },
         "055v": {
           "singlePage": "L6p_07v",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "6"
         },
         "056r": {
           "singlePage": "L6p_08r",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "6"
         },
         "056v": {
           "singlePage": "L6p_08v",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "6"
         },
         "057r": {
           "singlePage": "L6p_09r",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "6"
         },
         "057v": {
           "singlePage": "L6p_09v",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "6"
         },
         "058r": {
           "singlePage": "L6p_10r",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "6"
         },
         "058v": {
           "singlePage": "L6p_10v",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "6"
         },
         "059r": {
           "singlePage": "L6p_11r",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "6"
         },
         "059v": {
           "singlePage": "L6p_11v",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "6"
         },
         "060r": {
           "singlePage": "L6p_12r",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "6"
         },
         "060v": {
           "singlePage": "L6p_12v",
-          "doublePage": "L6_12v"
+          "doublePage": "L6_12v",
+          "type": "L6",
+          "num": "6"
         },
         "061r": {
           "singlePage": "L6p_01r",
-          "doublePage": "L6_01r"
+          "doublePage": "L6_01r",
+          "type": "L6",
+          "num": "7"
         },
         "061v": {
           "singlePage": "L6p_01v",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "7"
         },
         "062r": {
           "singlePage": "L6p_02r",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "7"
         },
         "062v": {
           "singlePage": "L6p_02v",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "7"
         },
         "063r": {
           "singlePage": "L6p_03r",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "7"
         },
         "063v": {
           "singlePage": "L6p_03v",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "7"
         },
         "064r": {
           "singlePage": "L6p_04r",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "7"
         },
         "064v": {
           "singlePage": "L6p_04v",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "7"
         },
         "065r": {
           "singlePage": "L6p_05r",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "7"
         },
         "065v": {
           "singlePage": "L6p_05v",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "7"
         },
         "066r": {
           "singlePage": "L6p_06r",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "7"
         },
         "066v": {
           "singlePage": "L6p_06v",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "7"
         },
         "067r": {
           "singlePage": "L6p_07r",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "7"
         },
         "067v": {
           "singlePage": "L6p_07v",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "7"
         },
         "068r": {
           "singlePage": "L6p_08r",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "7"
         },
         "068v": {
           "singlePage": "L6p_08v",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "7"
         },
         "069r": {
           "singlePage": "L6p_09r",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "7"
         },
         "069v": {
           "singlePage": "L6p_09v",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "7"
         },
         "070r": {
           "singlePage": "L6p_10r",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "7"
         },
         "070v": {
           "singlePage": "L6p_10v",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "7"
         },
         "071r": {
           "singlePage": "L6p_11r",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "7"
         },
         "071v": {
           "singlePage": "L6p_11v",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "7"
         },
         "072r": {
           "singlePage": "L6p_12r",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "7"
         },
         "072v": {
           "singlePage": "L6p_12v",
-          "doublePage": "L6_12v"
+          "doublePage": "L6_12v",
+          "type": "L6",
+          "num": "7"
         },
         "073r": {
           "singlePage": "L6p_01r",
-          "doublePage": "L6_01r"
+          "doublePage": "L6_01r",
+          "type": "L6",
+          "num": "8"
         },
         "073v": {
           "singlePage": "L6p_01v",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "8"
         },
         "074r": {
           "singlePage": "L6p_02r",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "8"
         },
         "074v": {
           "singlePage": "L6p_02v",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "8"
         },
         "075r": {
           "singlePage": "L6p_03r",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "8"
         },
         "075v": {
           "singlePage": "L6p_03v",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "8"
         },
         "076r": {
           "singlePage": "L6p_04r",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "8"
         },
         "076v": {
           "singlePage": "L6p_04v",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "8"
         },
         "077r": {
           "singlePage": "L6p_05r",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "8"
         },
         "077v": {
           "singlePage": "L6p_05v",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "8"
         },
         "078r": {
           "singlePage": "L6p_06r",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "8"
         },
         "078v": {
           "singlePage": "L6p_06v",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "8"
         },
         "079r": {
           "singlePage": "L6p_07r",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "8"
         },
         "079v": {
           "singlePage": "L6p_07v",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "8"
         },
         "080r": {
           "singlePage": "L6p_08r",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "8"
         },
         "080v": {
           "singlePage": "L6p_08v",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "8"
         },
         "081r": {
           "singlePage": "L6p_09r",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "8"
         },
         "081v": {
           "singlePage": "L6p_09v",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "8"
         },
         "082r": {
           "singlePage": "L6p_10r",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "8"
         },
         "082v": {
           "singlePage": "L6p_10v",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "8"
         },
         "083r": {
           "singlePage": "L6p_11r",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "8"
         },
         "083v": {
           "singlePage": "L6p_11v",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "8"
         },
         "084r": {
           "singlePage": "L6p_12r",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "8"
         },
         "084v": {
           "singlePage": "L6p_12v",
-          "doublePage": "L6_12v"
+          "doublePage": "L6_12v",
+          "type": "L6",
+          "num": "8"
         },
         "085r": {
           "singlePage": "L3p_01r",
-          "doublePage": "L3_01r"
+          "doublePage": "L3_01r",
+          "type": "L3",
+          "num": "9"
         },
         "085v": {
           "singlePage": "L3p_01v",
-          "doublePage": "L3_01v02r"
+          "doublePage": "L3_01v02r",
+          "type": "L3",
+          "num": "9"
         },
         "086r": {
           "singlePage": "L3p_02r",
-          "doublePage": "L3_01v02r"
+          "doublePage": "L3_01v02r",
+          "type": "L3",
+          "num": "9"
         },
         "086v": {
           "singlePage": "L3p_02v",
-          "doublePage": "L3_02v03r"
+          "doublePage": "L3_02v03r",
+          "type": "L3",
+          "num": "9"
         },
         "087r": {
           "singlePage": "L3p_03r",
-          "doublePage": "L3_02v03r"
+          "doublePage": "L3_02v03r",
+          "type": "L3",
+          "num": "9"
         },
         "087v": {
           "singlePage": "L3p_03v",
-          "doublePage": "L3_03v04r"
+          "doublePage": "L3_03v04r",
+          "type": "L3",
+          "num": "9"
         },
         "088r": {
           "singlePage": "L3p_04r",
-          "doublePage": "L3_03v04r"
+          "doublePage": "L3_03v04r",
+          "type": "L3",
+          "num": "9"
         },
         "088v": {
           "singlePage": "L3p_04v",
-          "doublePage": "L3_04v05r"
+          "doublePage": "L3_04v05r",
+          "type": "L3",
+          "num": "9"
         },
         "089r": {
           "singlePage": "L3p_05r",
-          "doublePage": "L3_04v05r"
+          "doublePage": "L3_04v05r",
+          "type": "L3",
+          "num": "9"
         },
         "089v": {
           "singlePage": "L3p_05v",
-          "doublePage": "L3_05v06r"
+          "doublePage": "L3_05v06r",
+          "type": "L3",
+          "num": "9"
         },
         "090r": {
           "singlePage": "L3p_06r",
-          "doublePage": "L3_05v06r"
+          "doublePage": "L3_05v06r",
+          "type": "L3",
+          "num": "9"
         },
         "090v": {
           "singlePage": "L3p_06v",
-          "doublePage": "L3_06v"
+          "doublePage": "L3_06v",
+          "type": "L3",
+          "num": "9"
         },
         "091r": {
           "singlePage": "L1p_01r",
-          "doublePage": "L1_01r"
+          "doublePage": "L1_01r",
+          "type": "L1",
+          "num": "10"
         },
         "091v": {
           "singlePage": "L1p_01v",
-          "doublePage": "L1_01v02r"
+          "doublePage": "L1_01v02r",
+          "type": "L1",
+          "num": "10"
         },
         "092r": {
           "singlePage": "L1p_02r",
-          "doublePage": "L1_01v02r"
+          "doublePage": "L1_01v02r",
+          "type": "L1",
+          "num": "10"
         },
         "092v": {
           "singlePage": "L1p_02v",
-          "doublePage": "L1_02v"
+          "doublePage": "L1_02v",
+          "type": "L1",
+          "num": "10"
         },
         "093r": {
           "singlePage": "L2p_01r",
-          "doublePage": "L2_01r"
+          "doublePage": "L2_01r",
+          "type": "L2",
+          "num": "11"
         },
         "093v": {
           "singlePage": "L2p_01v",
-          "doublePage": "L2_01v02r"
+          "doublePage": "L2_01v02r",
+          "type": "L2",
+          "num": "11"
         },
         "094r": {
           "singlePage": "L2p_02r",
-          "doublePage": "L2_01v02r"
+          "doublePage": "L2_01v02r",
+          "type": "L2",
+          "num": "11"
         },
         "094v": {
           "singlePage": "L2p_02v",
-          "doublePage": "L2_02v03r"
+          "doublePage": "L2_02v03r",
+          "type": "L2",
+          "num": "11"
         },
         "095r": {
           "singlePage": "L2p_03r",
-          "doublePage": "L2_02v03r"
+          "doublePage": "L2_02v03r",
+          "type": "L2",
+          "num": "11"
         },
         "095v": {
           "singlePage": "L2p_03v",
-          "doublePage": "L2_03v04r"
+          "doublePage": "L2_03v04r",
+          "type": "L2",
+          "num": "11"
         },
         "096r": {
           "singlePage": "L2p_04r",
-          "doublePage": "L2_03v04r"
+          "doublePage": "L2_03v04r",
+          "type": "L2",
+          "num": "11"
         },
         "096v": {
           "singlePage": "L2p_04v",
-          "doublePage": "L2_04v"
+          "doublePage": "L2_04v",
+          "type": "L2",
+          "num": "11"
         },
         "097r": {
           "singlePage": "L6p_01r",
-          "doublePage": "L6_01r"
+          "doublePage": "L6_01r",
+          "type": "L6",
+          "num": "12"
         },
         "097v": {
           "singlePage": "L6p_01v",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "12"
         },
         "098r": {
           "singlePage": "L6p_02r",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "12"
         },
         "098v": {
           "singlePage": "L6p_02v",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "12"
         },
         "099r": {
           "singlePage": "L6p_03r",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "12"
         },
         "099v": {
           "singlePage": "L6p_03v",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "12"
         },
         "100r": {
           "singlePage": "L6p_04r",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "12"
         },
         "100v": {
           "singlePage": "L6p_04v",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "12"
         },
         "101r": {
           "singlePage": "L6p_05r",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "12"
         },
         "101v": {
           "singlePage": "L6p_05v",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "12"
         },
         "102r": {
           "singlePage": "L6p_06r",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "12"
         },
         "102v": {
           "singlePage": "L6p_06v",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "12"
         },
         "103r": {
           "singlePage": "L6p_07r",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "12"
         },
         "103v": {
           "singlePage": "L6p_07v",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "12"
         },
         "104r": {
           "singlePage": "L6p_08r",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "12"
         },
         "104v": {
           "singlePage": "L6p_08v",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "12"
         },
         "105r": {
           "singlePage": "L6p_09r",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "12"
         },
         "105v": {
           "singlePage": "L6p_09v",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "12"
         },
         "106r": {
           "singlePage": "L6p_10r",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "12"
         },
         "106v": {
           "singlePage": "L6p_10v",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "12"
         },
         "107r": {
           "singlePage": "L6p_11r",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "12"
         },
         "107v": {
           "singlePage": "L6p_11v",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "12"
         },
         "108r": {
           "singlePage": "L6p_12r",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "12"
         },
         "108v": {
           "singlePage": "L6p_12v",
-          "doublePage": "L6_12v"
+          "doublePage": "L6_12v",
+          "type": "L6",
+          "num": "12"
         },
         "109r": {
           "singlePage": "L4w8p_01r",
-          "doublePage": "L4w8_01r"
+          "doublePage": "L4w8_01r",
+          "type": "L4",
+          "num": "13"
         },
         "109v": {
-          "singlePage": "L4w8p_01v",
-          "doublePage": "L4w8_01v02r"
+          "singlePage": "L4p_01v",
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "13"
         },
         "110r": {
-          "singlePage": "L4w8p_02r",
-          "doublePage": "L4w8_01v02r"
+          "singlePage": "L4p_02r",
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "13"
         },
         "110v": {
-          "singlePage": "L4w8p_02v",
-          "doublePage": "L4w8_02v03r"
+          "singlePage": "L4p_02v",
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "13"
         },
         "111r": {
-          "singlePage": "L4w8p_03r",
-          "doublePage": "L4w8_02v03r"
+          "singlePage": "L4p_03r",
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "13"
         },
         "111v": {
-          "singlePage": "L4w8p_03v",
-          "doublePage": "L4w8_03v04r"
+          "singlePage": "L4p_03v",
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "13"
         },
         "112r": {
-          "singlePage": "L4w8p_04r",
-          "doublePage": "L4w8_03v04r"
+          "singlePage": "L4p_04r",
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "13"
         },
         "112v": {
-          "singlePage": "L4w8p_04v",
-          "doublePage": "L4w8_04v05r"
+          "singlePage": "L4p_04v",
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "13"
         },
         "113r": {
-          "singlePage": "L4w8p_05r",
-          "doublePage": "L4w8_04v05r"
+          "singlePage": "L4p_05r",
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "13"
         },
         "113v": {
-          "singlePage": "L4w8p_05v",
-          "doublePage": "L4w8_05v06r"
+          "singlePage": "L4p_05v",
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "13"
         },
         "114r": {
-          "singlePage": "L4w8p_06r",
-          "doublePage": "L4w8_05v06r"
+          "singlePage": "L4p_06r",
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "13"
         },
         "114v": {
-          "singlePage": "L4w8p_06v",
-          "doublePage": "L4w8_06v07r"
+          "singlePage": "L4p_06v",
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "13"
         },
         "115r": {
-          "singlePage": "L4w8p_07r",
-          "doublePage": "L4w8_06v07r"
+          "singlePage": "L4p_07r",
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "13"
         },
         "115v": {
-          "singlePage": "L4w8p_07v",
-          "doublePage": "L4w8_07v"
+          "singlePage": "L4p_07v",
+          "doublePage": "L4_07v",
+          "type": "L4",
+          "num": "13"
         },
         "116r": {
           "singlePage": "L6w1_2p_01r",
-          "doublePage": "L6w1_2_01r"
+          "doublePage": "L6w1_2_01r",
+          "type": "L6",
+          "num": "14"
         },
         "116v": {
-          "singlePage": "L6w1_2p_01v",
-          "doublePage": "L6w1_2_01v02r"
+          "singlePage": "L6p_01v",
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "14"
         },
         "117r": {
-          "singlePage": "L6w1_2p_02r",
-          "doublePage": "L6w1_2_01v02r"
+          "singlePage": "L6p_02r",
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "14"
         },
         "117v": {
-          "singlePage": "L6w1_2p_02v",
-          "doublePage": "L6w1_2_02v03r"
+          "singlePage": "L6p_02v",
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "14"
         },
         "118r": {
-          "singlePage": "L6w1_2p_03r",
-          "doublePage": "L6w1_2_02v03r"
+          "singlePage": "L6p_03r",
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "14"
         },
         "118v": {
-          "singlePage": "L6w1_2p_03v",
-          "doublePage": "L6w1_2_03v04r"
+          "singlePage": "L6p_03v",
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "14"
         },
         "119r": {
-          "singlePage": "L6w1_2p_04r",
-          "doublePage": "L6w1_2_03v04r"
+          "singlePage": "L6p_04r",
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "14"
         },
         "119v": {
-          "singlePage": "L6w1_2p_04v",
-          "doublePage": "L6w1_2_04v05r"
+          "singlePage": "L6p_04v",
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "14"
         },
         "120r": {
-          "singlePage": "L6w1_2p_05r",
-          "doublePage": "L6w1_2_04v05r"
+          "singlePage": "L6p_05r",
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "14"
         },
         "120v": {
-          "singlePage": "L6w1_2p_05v",
-          "doublePage": "L6w1_2_05v06r"
+          "singlePage": "L6p_05v",
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "14"
         },
         "121r": {
-          "singlePage": "L6w1_2p_06r",
-          "doublePage": "L6w1_2_05v06r"
+          "singlePage": "L6p_06r",
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "14"
         },
         "121v": {
-          "singlePage": "L6w1_2p_06v",
-          "doublePage": "L6w1_2_06v07r"
+          "singlePage": "L6p_06v",
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "14"
         },
         "122r": {
-          "singlePage": "L6w1_2p_07r",
-          "doublePage": "L6w1_2_06v07r"
+          "singlePage": "L6p_07r",
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "14"
         },
         "122v": {
-          "singlePage": "L6w1_2p_07v",
-          "doublePage": "L6w1_2_07v08r"
+          "singlePage": "L6p_07v",
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "14"
         },
         "123r": {
-          "singlePage": "L6w1_2p_08r",
-          "doublePage": "L6w1_2_07v08r"
+          "singlePage": "L6p_08r",
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "14"
         },
         "123v": {
-          "singlePage": "L6w1_2p_08v",
-          "doublePage": "L6w1_2_08v09r"
+          "singlePage": "L6p_08v",
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "14"
         },
         "124r": {
-          "singlePage": "L6w1_2p_09r",
-          "doublePage": "L6w1_2_08v09r"
+          "singlePage": "L6p_09r",
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "14"
         },
         "124v": {
-          "singlePage": "L6w1_2p_09v",
-          "doublePage": "L6w1_2_09v10r"
+          "singlePage": "L6p_09v",
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "14"
         },
         "125r": {
-          "singlePage": "L6w1_2p_10r",
-          "doublePage": "L6w1_2_09v10r"
+          "singlePage": "L6p_10r",
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "14"
         },
         "125v": {
-          "singlePage": "L6w1_2p_10v",
-          "doublePage": "L6w1_2_10v"
+          "singlePage": "L6p_10v",
+          "doublePage": "L6_10v",
+          "type": "L6",
+          "num": "14"
         },
         "126r": {
           "singlePage": "L6mU7p_01r",
-          "doublePage": "L6mU7_01r"
+          "doublePage": "L6mU7_01r",
+          "type": "L6",
+          "num": "15"
         },
         "126v": {
-          "singlePage": "L6mU7p_01v",
-          "doublePage": "L6mU7_01v02r"
+          "singlePage": "L6p_01v",
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "15"
         },
         "127r": {
-          "singlePage": "L6mU7p_02r",
-          "doublePage": "L6mU7_01v02r"
+          "singlePage": "L6p_02r",
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "15"
         },
         "127v": {
-          "singlePage": "L6mU7p_02v",
-          "doublePage": "L6mU7_02v03r"
+          "singlePage": "L6p_02v",
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "15"
         },
         "128r": {
-          "singlePage": "L6mU7p_03r",
-          "doublePage": "L6mU7_02v03r"
+          "singlePage": "L6p_03r",
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "15"
         },
         "128v": {
-          "singlePage": "L6mU7p_03v",
-          "doublePage": "L6mU7_03v04r"
+          "singlePage": "L6p_03v",
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "15"
         },
         "129r": {
-          "singlePage": "L6mU7p_04r",
-          "doublePage": "L6mU7_03v04r"
+          "singlePage": "L6p_04r",
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "15"
         },
         "129v": {
-          "singlePage": "L6mU7p_04v",
-          "doublePage": "L6mU7_04v05r"
+          "singlePage": "L6p_04v",
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "15"
         },
         "130r": {
-          "singlePage": "L6mU7p_05r",
-          "doublePage": "L6mU7_04v05r"
+          "singlePage": "L6p_05r",
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "15"
         },
         "130v": {
-          "singlePage": "L6mU7p_05v",
-          "doublePage": "L6mU7_05v06r"
+          "singlePage": "L6p_05v",
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "15"
         },
         "131r": {
-          "singlePage": "L6mU7p_06r",
-          "doublePage": "L6mU7_05v06r"
+          "singlePage": "L6p_06r",
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "15"
         },
         "131v": {
-          "singlePage": "L6mU7p_06v",
-          "doublePage": "L6mU7_06v07r"
+          "singlePage": "L6p_06v",
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "15"
         },
         "132r": {
-          "singlePage": "L6mU7p_07r",
-          "doublePage": "L6mU7_06v07r"
+          "singlePage": "L6p_07r",
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "15"
         },
         "132v": {
-          "singlePage": "L6mU7p_07v",
-          "doublePage": "L6mU7_07v08r"
+          "singlePage": "L6p_07v",
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "15"
         },
         "133r": {
-          "singlePage": "L6mU7p_08r",
-          "doublePage": "L6mU7_07v08r"
+          "singlePage": "L6p_08r",
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "15"
         },
         "133v": {
-          "singlePage": "L6mU7p_08v",
-          "doublePage": "L6mU7_08v09r"
+          "singlePage": "L6p_08v",
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "15"
         },
         "134r": {
-          "singlePage": "L6mU7p_09r",
-          "doublePage": "L6mU7_08v09r"
+          "singlePage": "L6p_09r",
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "15"
         },
         "134v": {
-          "singlePage": "L6mU7p_09v",
-          "doublePage": "L6mU7_09v10r"
+          "singlePage": "L6p_09v",
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "15"
         },
         "135r": {
-          "singlePage": "L6mU7p_10r",
-          "doublePage": "L6mU7_09v10r"
+          "singlePage": "L6p_10r",
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "15"
         },
         "135v": {
-          "singlePage": "L6mU7p_10v",
-          "doublePage": "L6mU7_10v11r"
+          "singlePage": "L6p_10v",
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "15"
         },
         "136r": {
-          "singlePage": "L6mU7p_11r",
-          "doublePage": "L6mU7_10v11r"
+          "singlePage": "L6p_11r",
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "15"
         },
         "136v": {
-          "singlePage": "L6mU7p_11v",
-          "doublePage": "L6mU7_11v12r"
+          "singlePage": "L6p_11v",
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "15"
         },
         "137r": {
-          "singlePage": "L6mU7p_12r",
-          "doublePage": "L6mU7_11v12r"
+          "singlePage": "L6p_12r",
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "15"
         },
         "137v": {
-          "singlePage": "L6mU7p_12v",
-          "doublePage": "L6mU7_12v13r"
+          "singlePage": "L6p_12v",
+          "doublePage": "L6_12v13r",
+          "type": "L6",
+          "num": "15"
         },
         "138r": {
-          "singlePage": "L6mU7p_13r",
-          "doublePage": "L6mU7_12v13r"
+          "singlePage": "L6p_13r",
+          "doublePage": "L6_12v13r",
+          "type": "L6",
+          "num": "15"
         },
         "138v": {
-          "singlePage": "L6mU7p_13v",
-          "doublePage": "L6mU7_13v14r"
+          "singlePage": "L6p_13v",
+          "doublePage": "L6_13v14r",
+          "type": "L6",
+          "num": "15"
         },
         "139r": {
-          "singlePage": "L6mU7p_14r",
-          "doublePage": "L6mU7_13v14r"
+          "singlePage": "L6p_14r",
+          "doublePage": "L6_13v14r",
+          "type": "L6",
+          "num": "15"
         },
         "139v": {
-          "singlePage": "L6mU7p_14v",
-          "doublePage": "L6mU7_14v"
+          "singlePage": "L6p_14v",
+          "doublePage": "L6_14v",
+          "type": "L6",
+          "num": "15"
         },
         "140r": {
           "singlePage": "L5p_01r",
-          "doublePage": "L5_01r"
+          "doublePage": "L5_01r",
+          "type": "L5",
+          "num": "16"
         },
         "140v": {
           "singlePage": "L5p_01v",
-          "doublePage": "L5_01v02r"
+          "doublePage": "L5_01v02r",
+          "type": "L5",
+          "num": "16"
         },
         "141r": {
           "singlePage": "L5p_02r",
-          "doublePage": "L5_01v02r"
+          "doublePage": "L5_01v02r",
+          "type": "L5",
+          "num": "16"
         },
         "141v": {
           "singlePage": "L5p_02v",
-          "doublePage": "L5_02v03r"
+          "doublePage": "L5_02v03r",
+          "type": "L5",
+          "num": "16"
         },
         "142r": {
           "singlePage": "L5p_03r",
-          "doublePage": "L5_02v03r"
+          "doublePage": "L5_02v03r",
+          "type": "L5",
+          "num": "16"
         },
         "142v": {
           "singlePage": "L5p_03v",
-          "doublePage": "L5_03v04r"
+          "doublePage": "L5_03v04r",
+          "type": "L5",
+          "num": "16"
         },
         "143r": {
           "singlePage": "L5p_04r",
-          "doublePage": "L5_03v04r"
+          "doublePage": "L5_03v04r",
+          "type": "L5",
+          "num": "16"
         },
         "143v": {
           "singlePage": "L5p_04v",
-          "doublePage": "L5_04v05r"
+          "doublePage": "L5_04v05r",
+          "type": "L5",
+          "num": "16"
         },
         "144r": {
           "singlePage": "L5p_05r",
-          "doublePage": "L5_04v05r"
+          "doublePage": "L5_04v05r",
+          "type": "L5",
+          "num": "16"
         },
         "144v": {
           "singlePage": "L5p_05v",
-          "doublePage": "L5_05v06r"
+          "doublePage": "L5_05v06r",
+          "type": "L5",
+          "num": "16"
         },
         "145r": {
           "singlePage": "L5p_06r",
-          "doublePage": "L5_05v06r"
+          "doublePage": "L5_05v06r",
+          "type": "L5",
+          "num": "16"
         },
         "145v": {
           "singlePage": "L5p_06v",
-          "doublePage": "L5_06v07r"
+          "doublePage": "L5_06v07r",
+          "type": "L5",
+          "num": "16"
         },
         "146r": {
           "singlePage": "L5p_07r",
-          "doublePage": "L5_06v07r"
+          "doublePage": "L5_06v07r",
+          "type": "L5",
+          "num": "16"
         },
         "146v": {
           "singlePage": "L5p_07v",
-          "doublePage": "L5_07v08r"
+          "doublePage": "L5_07v08r",
+          "type": "L5",
+          "num": "16"
         },
         "147r": {
           "singlePage": "L5p_08r",
-          "doublePage": "L5_07v08r"
+          "doublePage": "L5_07v08r",
+          "type": "L5",
+          "num": "16"
         },
         "147v": {
           "singlePage": "L5p_08v",
-          "doublePage": "L5_08v09r"
+          "doublePage": "L5_08v09r",
+          "type": "L5",
+          "num": "16"
         },
         "148r": {
           "singlePage": "L5p_09r",
-          "doublePage": "L5_08v09r"
+          "doublePage": "L5_08v09r",
+          "type": "L5",
+          "num": "16"
         },
         "148v": {
           "singlePage": "L5p_09v",
-          "doublePage": "L5_09v10r"
+          "doublePage": "L5_09v10r",
+          "type": "L5",
+          "num": "16"
         },
         "149r": {
           "singlePage": "L5p_10r",
-          "doublePage": "L5_09v10r"
+          "doublePage": "L5_09v10r",
+          "type": "L5",
+          "num": "16"
         },
         "149v": {
           "singlePage": "L5p_10v",
-          "doublePage": "L5_10v"
+          "doublePage": "L5_10v",
+          "type": "L5",
+          "num": "16"
         },
         "150r": {
           "singlePage": "L6p_01r",
-          "doublePage": "L6_01r"
+          "doublePage": "L6_01r",
+          "type": "L6",
+          "num": "17"
         },
         "150v": {
           "singlePage": "L6p_01v",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "17"
         },
         "151r": {
           "singlePage": "L6p_02r",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "17"
         },
         "151v": {
           "singlePage": "L6p_02v",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "17"
         },
         "152r": {
           "singlePage": "L6p_03r",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "17"
         },
         "152v": {
           "singlePage": "L6p_03v",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "17"
         },
         "153r": {
           "singlePage": "L6p_04r",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "17"
         },
         "153v": {
           "singlePage": "L6p_04v",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "17"
         },
         "154r": {
           "singlePage": "L6p_05r",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "17"
         },
         "154v": {
           "singlePage": "L6p_05v",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "17"
         },
         "155r": {
           "singlePage": "L6p_06r",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "17"
         },
         "155v": {
           "singlePage": "L6p_06v",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "17"
         },
         "156r": {
           "singlePage": "L6p_07r",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "17"
         },
         "156v": {
           "singlePage": "L6p_07v",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "17"
         },
         "157r": {
           "singlePage": "L6p_08r",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "17"
         },
         "157v": {
           "singlePage": "L6p_08v",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "17"
         },
         "158r": {
           "singlePage": "L6p_09r",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "17"
         },
         "158v": {
           "singlePage": "L6p_09v",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "17"
         },
         "159r": {
           "singlePage": "L6p_10r",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "17"
         },
         "159v": {
           "singlePage": "L6p_10v",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "17"
         },
         "160r": {
           "singlePage": "L6p_11r",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "17"
         },
         "160v": {
           "singlePage": "L6p_11v",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "17"
         },
         "161r": {
           "singlePage": "L6p_12r",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "17"
         },
         "161v": {
           "singlePage": "L6p_12v",
-          "doublePage": "L6_12v"
+          "doublePage": "L6_12v",
+          "type": "L6",
+          "num": "17"
         },
         "162r": {
           "singlePage": "L5p_01r",
-          "doublePage": "L5_01r"
+          "doublePage": "L5_01r",
+          "type": "L5",
+          "num": "18"
         },
         "162v": {
           "singlePage": "L5p_01v",
-          "doublePage": "L5_01v02r"
+          "doublePage": "L5_01v02r",
+          "type": "L5",
+          "num": "18"
         },
         "163r": {
           "singlePage": "L5p_02r",
-          "doublePage": "L5_01v02r"
+          "doublePage": "L5_01v02r",
+          "type": "L5",
+          "num": "18"
         },
         "163v": {
           "singlePage": "L5p_02v",
-          "doublePage": "L5_02v03r"
+          "doublePage": "L5_02v03r",
+          "type": "L5",
+          "num": "18"
         },
         "164r": {
           "singlePage": "L5p_03r",
-          "doublePage": "L5_02v03r"
+          "doublePage": "L5_02v03r",
+          "type": "L5",
+          "num": "18"
         },
         "164v": {
           "singlePage": "L5p_03v",
-          "doublePage": "L5_03v04r"
+          "doublePage": "L5_03v04r",
+          "type": "L5",
+          "num": "18"
         },
         "165r": {
           "singlePage": "L5p_04r",
-          "doublePage": "L5_03v04r"
+          "doublePage": "L5_03v04r",
+          "type": "L5",
+          "num": "18"
         },
         "165v": {
           "singlePage": "L5p_04v",
-          "doublePage": "L5_04v05r"
+          "doublePage": "L5_04v05r",
+          "type": "L5",
+          "num": "18"
         },
         "166r": {
           "singlePage": "L5p_05r",
-          "doublePage": "L5_04v05r"
+          "doublePage": "L5_04v05r",
+          "type": "L5",
+          "num": "18"
         },
         "166v": {
           "singlePage": "L5p_05v",
-          "doublePage": "L5_05v06r"
+          "doublePage": "L5_05v06r",
+          "type": "L5",
+          "num": "18"
         },
         "167r": {
           "singlePage": "L5p_06r",
-          "doublePage": "L5_05v06r"
+          "doublePage": "L5_05v06r",
+          "type": "L5",
+          "num": "18"
         },
         "167v": {
           "singlePage": "L5p_06v",
-          "doublePage": "L5_06v07r"
+          "doublePage": "L5_06v07r",
+          "type": "L5",
+          "num": "18"
         },
         "168r": {
           "singlePage": "L5p_07r",
-          "doublePage": "L5_06v07r"
+          "doublePage": "L5_06v07r",
+          "type": "L5",
+          "num": "18"
         },
         "168v": {
           "singlePage": "L5p_07v",
-          "doublePage": "L5_07v08r"
+          "doublePage": "L5_07v08r",
+          "type": "L5",
+          "num": "18"
         },
         "169r": {
           "singlePage": "L5p_08r",
-          "doublePage": "L5_07v08r"
+          "doublePage": "L5_07v08r",
+          "type": "L5",
+          "num": "18"
         },
         "169v": {
           "singlePage": "L5p_08v",
-          "doublePage": "L5_08v09r"
+          "doublePage": "L5_08v09r",
+          "type": "L5",
+          "num": "18"
         },
         "170r": {
           "singlePage": "L5p_09r",
-          "doublePage": "L5_08v09r"
+          "doublePage": "L5_08v09r",
+          "type": "L5",
+          "num": "18"
         },
         "170v": {
           "singlePage": "L5p_09v",
-          "doublePage": "L5_09v10r"
+          "doublePage": "L5_09v10r",
+          "type": "L5",
+          "num": "18"
         },
         "171r": {
           "singlePage": "L5p_10r",
-          "doublePage": "L5_09v10r"
+          "doublePage": "L5_09v10r",
+          "type": "L5",
+          "num": "18"
         },
         "171v": {
           "singlePage": "L5p_10v",
-          "doublePage": "L5_10v"
+          "doublePage": "L5_10v",
+          "type": "L5",
+          "num": "18"
         },
         "172r": {
           "singlePage": "L5mU4p_01r",
-          "doublePage": "L5mU4_01r"
+          "doublePage": "L5mU4_01r",
+          "type": "L5",
+          "num": "19"
         },
         "172v": {
-          "singlePage": "L5mU4p_01v",
-          "doublePage": "L5mU4_01v02r"
+          "singlePage": "L5p_01v",
+          "doublePage": "L5_01v02r",
+          "type": "L5",
+          "num": "19"
         },
         "173r": {
-          "singlePage": "L5mU4p_02r",
-          "doublePage": "L5mU4_01v02r"
+          "singlePage": "L5p_02r",
+          "doublePage": "L5_01v02r",
+          "type": "L5",
+          "num": "19"
         },
         "173v": {
-          "singlePage": "L5mU4p_02v",
-          "doublePage": "L5mU4_02v03r"
+          "singlePage": "L5p_02v",
+          "doublePage": "L5_02v03r",
+          "type": "L5",
+          "num": "19"
         },
         "174r": {
-          "singlePage": "L5mU4p_03r",
-          "doublePage": "L5mU4_02v03r"
+          "singlePage": "L5p_03r",
+          "doublePage": "L5_02v03r",
+          "type": "L5",
+          "num": "19"
         },
         "174v": {
-          "singlePage": "L5mU4p_03v",
-          "doublePage": "L5mU4_03v04r"
+          "singlePage": "L5p_03v",
+          "doublePage": "L5_03v04r",
+          "type": "L5",
+          "num": "19"
         },
         "175r": {
-          "singlePage": "L5mU4p_04r",
-          "doublePage": "L5mU4_03v04r"
+          "singlePage": "L5p_04r",
+          "doublePage": "L5_03v04r",
+          "type": "L5",
+          "num": "19"
         },
         "175v": {
-          "singlePage": "L5mU4p_04v",
-          "doublePage": "L5mU4_04v05r"
+          "singlePage": "L5p_04v",
+          "doublePage": "L5_04v05r",
+          "type": "L5",
+          "num": "19"
         },
         "176r": {
-          "singlePage": "L5mU4p_05r",
-          "doublePage": "L5mU4_04v05r"
+          "singlePage": "L5p_05r",
+          "doublePage": "L5_04v05r",
+          "type": "L5",
+          "num": "19"
         },
         "176v": {
-          "singlePage": "L5mU4p_05v",
-          "doublePage": "L5mU4_05v06r"
+          "singlePage": "L5p_05v",
+          "doublePage": "L5_05v06r",
+          "type": "L5",
+          "num": "19"
         },
         "177r": {
-          "singlePage": "L5mU4p_06r",
-          "doublePage": "L5mU4_05v06r"
+          "singlePage": "L5p_06r",
+          "doublePage": "L5_05v06r",
+          "type": "L5",
+          "num": "19"
         },
         "177v": {
-          "singlePage": "L5mU4p_06v",
-          "doublePage": "L5mU4_06v07r"
+          "singlePage": "L5p_06v",
+          "doublePage": "L5_06v07r",
+          "type": "L5",
+          "num": "19"
         },
         "178r": {
-          "singlePage": "L5mU4p_07r",
-          "doublePage": "L5mU4_06v07r"
+          "singlePage": "L5p_07r",
+          "doublePage": "L5_06v07r",
+          "type": "L5",
+          "num": "19"
         },
         "178v": {
-          "singlePage": "L5mU4p_07v",
-          "doublePage": "L5mU4_07v08r"
+          "singlePage": "L5p_07v",
+          "doublePage": "L5_07v08r",
+          "type": "L5",
+          "num": "19"
         },
         "179r": {
-          "singlePage": "L5mU4p_08r",
-          "doublePage": "L5mU4_07v08r"
+          "singlePage": "L5p_08r",
+          "doublePage": "L5_07v08r",
+          "type": "L5",
+          "num": "19"
         },
         "179v": {
-          "singlePage": "L5mU4p_08v",
-          "doublePage": "L5mU4_08v09r"
+          "singlePage": "L5p_08v",
+          "doublePage": "L5_08v09r",
+          "type": "L5",
+          "num": "19"
         },
         "180r": {
-          "singlePage": "L5mU4p_09r",
-          "doublePage": "L5mU4_08v09r"
+          "singlePage": "L5p_09r",
+          "doublePage": "L5_08v09r",
+          "type": "L5",
+          "num": "19"
         },
         "180v": {
-          "singlePage": "L5mU4p_09v",
-          "doublePage": "L5mU4_09v10r"
+          "singlePage": "L5p_09v",
+          "doublePage": "L5_09v10r",
+          "type": "L5",
+          "num": "19"
         },
         "181r": {
-          "singlePage": "L5mU4p_10r",
-          "doublePage": "L5mU4_09v10r"
+          "singlePage": "L5p_10r",
+          "doublePage": "L5_09v10r",
+          "type": "L5",
+          "num": "19"
         },
         "181v": {
-          "singlePage": "L5mU4p_10v",
-          "doublePage": "L5mU4_10v11r"
+          "singlePage": "L5p_10v",
+          "doublePage": "L5_10v11r",
+          "type": "L5",
+          "num": "19"
         },
         "182r": {
-          "singlePage": "L5mU4p_11r",
-          "doublePage": "L5mU4_10v11r"
+          "singlePage": "L5p_11r",
+          "doublePage": "L5_10v11r",
+          "type": "L5",
+          "num": "19"
         },
         "182v": {
-          "singlePage": "L5mU4p_11v",
-          "doublePage": "L5mU4_11v12r"
+          "singlePage": "L5p_11v",
+          "doublePage": "L5_11v12r",
+          "type": "L5",
+          "num": "19"
         },
         "183r": {
-          "singlePage": "L5mU4p_12r",
-          "doublePage": "L5mU4_11v12r"
+          "singlePage": "L5p_12r",
+          "doublePage": "L5_11v12r",
+          "type": "L5",
+          "num": "19"
         },
         "183v": {
-          "singlePage": "L5mU4p_12v",
-          "doublePage": "L5mU4_12v"
+          "singlePage": "L5p_12v",
+          "doublePage": "L5_12v",
+          "type": "L5",
+          "num": "19"
         },
         "184r": {
           "singlePage": "L6p_01r",
-          "doublePage": "L6_01r"
+          "doublePage": "L6_01r",
+          "type": "L6",
+          "num": "20"
         },
         "184v": {
           "singlePage": "L6p_01v",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "20"
         },
         "185r": {
           "singlePage": "L6p_02r",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "20"
         },
         "185v": {
           "singlePage": "L6p_02v",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "20"
         },
         "186r": {
           "singlePage": "L6p_03r",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "20"
         },
         "186v": {
           "singlePage": "L6p_03v",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "20"
         },
         "187r": {
           "singlePage": "L6p_04r",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "20"
         },
         "187v": {
           "singlePage": "L6p_04v",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "20"
         },
         "188r": {
           "singlePage": "L6p_05r",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "20"
         },
         "188v": {
           "singlePage": "L6p_05v",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "20"
         },
         "189r": {
           "singlePage": "L6p_06r",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "20"
         },
         "189v": {
           "singlePage": "L6p_06v",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "20"
         },
         "190r": {
           "singlePage": "L6p_07r",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "20"
         },
         "190v": {
           "singlePage": "L6p_07v",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "20"
         },
         "191r": {
           "singlePage": "L6p_08r",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "20"
         },
         "191v": {
           "singlePage": "L6p_08v",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "20"
         },
         "192r": {
           "singlePage": "L6p_09r",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "20"
         },
         "192v": {
           "singlePage": "L6p_09v",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "20"
         },
         "193r": {
           "singlePage": "L6p_10r",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "20"
         },
         "193v": {
           "singlePage": "L6p_10v",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "20"
         },
         "194r": {
           "singlePage": "L6p_11r",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "20"
         },
         "194v": {
           "singlePage": "L6p_11v",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "20"
         },
         "195r": {
           "singlePage": "L6p_12r",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "20"
         },
         "195v": {
           "singlePage": "L6p_12v",
-          "doublePage": "L6_12v"
+          "doublePage": "L6_12v",
+          "type": "L6",
+          "num": "20"
         },
         "196r": {
           "singlePage": "L5p_01r",
-          "doublePage": "L5_01r"
+          "doublePage": "L5_01r",
+          "type": "L5",
+          "num": "21"
         },
         "196v": {
           "singlePage": "L5p_01v",
-          "doublePage": "L5_01v02r"
+          "doublePage": "L5_01v02r",
+          "type": "L5",
+          "num": "21"
         },
         "197r": {
           "singlePage": "L5p_02r",
-          "doublePage": "L5_01v02r"
+          "doublePage": "L5_01v02r",
+          "type": "L5",
+          "num": "21"
         },
         "197v": {
           "singlePage": "L5p_02v",
-          "doublePage": "L5_02v03r"
+          "doublePage": "L5_02v03r",
+          "type": "L5",
+          "num": "21"
         },
         "198r": {
           "singlePage": "L5p_03r",
-          "doublePage": "L5_02v03r"
+          "doublePage": "L5_02v03r",
+          "type": "L5",
+          "num": "21"
         },
         "198v": {
           "singlePage": "L5p_03v",
-          "doublePage": "L5_03v04r"
+          "doublePage": "L5_03v04r",
+          "type": "L5",
+          "num": "21"
         },
         "199r": {
           "singlePage": "L5p_04r",
-          "doublePage": "L5_03v04r"
+          "doublePage": "L5_03v04r",
+          "type": "L5",
+          "num": "21"
         },
         "199v": {
           "singlePage": "L5p_04v",
-          "doublePage": "L5_04v05r"
+          "doublePage": "L5_04v05r",
+          "type": "L5",
+          "num": "21"
         },
         "200r": {
           "singlePage": "L5p_05r",
-          "doublePage": "L5_04v05r"
+          "doublePage": "L5_04v05r",
+          "type": "L5",
+          "num": "21"
         },
         "200v": {
           "singlePage": "L5p_05v",
-          "doublePage": "L5_05v06r"
+          "doublePage": "L5_05v06r",
+          "type": "L5",
+          "num": "21"
         },
         "201r": {
           "singlePage": "L5p_06r",
-          "doublePage": "L5_05v06r"
+          "doublePage": "L5_05v06r",
+          "type": "L5",
+          "num": "21"
         },
         "201v": {
           "singlePage": "L5p_06v",
-          "doublePage": "L5_06v07r"
+          "doublePage": "L5_06v07r",
+          "type": "L5",
+          "num": "21"
         },
         "202r": {
           "singlePage": "L5p_07r",
-          "doublePage": "L5_06v07r"
+          "doublePage": "L5_06v07r",
+          "type": "L5",
+          "num": "21"
         },
         "202v": {
           "singlePage": "L5p_07v",
-          "doublePage": "L5_07v08r"
+          "doublePage": "L5_07v08r",
+          "type": "L5",
+          "num": "21"
         },
         "203r": {
           "singlePage": "L5p_08r",
-          "doublePage": "L5_07v08r"
+          "doublePage": "L5_07v08r",
+          "type": "L5",
+          "num": "21"
         },
         "203v": {
           "singlePage": "L5p_08v",
-          "doublePage": "L5_08v09r"
+          "doublePage": "L5_08v09r",
+          "type": "L5",
+          "num": "21"
         },
         "204r": {
           "singlePage": "L5p_09r",
-          "doublePage": "L5_08v09r"
+          "doublePage": "L5_08v09r",
+          "type": "L5",
+          "num": "21"
         },
         "204v": {
           "singlePage": "L5p_09v",
-          "doublePage": "L5_09v10r"
+          "doublePage": "L5_09v10r",
+          "type": "L5",
+          "num": "21"
         },
         "205r": {
           "singlePage": "L5p_10r",
-          "doublePage": "L5_09v10r"
+          "doublePage": "L5_09v10r",
+          "type": "L5",
+          "num": "21"
         },
         "205v": {
           "singlePage": "L5p_10v",
-          "doublePage": "L5_10v"
+          "doublePage": "L5_10v",
+          "type": "L5",
+          "num": "21"
         },
         "206r": {
           "singlePage": "L3p_01r",
-          "doublePage": "L3_01r"
+          "doublePage": "L3_01r",
+          "type": "L3",
+          "num": "22"
         },
         "206v": {
           "singlePage": "L3p_01v",
-          "doublePage": "L3_01v02r"
+          "doublePage": "L3_01v02r",
+          "type": "L3",
+          "num": "22"
         },
         "207r": {
           "singlePage": "L3p_02r",
-          "doublePage": "L3_01v02r"
+          "doublePage": "L3_01v02r",
+          "type": "L3",
+          "num": "22"
         },
         "207v": {
           "singlePage": "L3p_02v",
-          "doublePage": "L3_02v03r"
+          "doublePage": "L3_02v03r",
+          "type": "L3",
+          "num": "22"
         },
         "208r": {
           "singlePage": "L3p_03r",
-          "doublePage": "L3_02v03r"
+          "doublePage": "L3_02v03r",
+          "type": "L3",
+          "num": "22"
         },
         "208v": {
           "singlePage": "L3p_03v",
-          "doublePage": "L3_03v04r"
+          "doublePage": "L3_03v04r",
+          "type": "L3",
+          "num": "22"
         },
         "209r": {
           "singlePage": "L3p_04r",
-          "doublePage": "L3_03v04r"
+          "doublePage": "L3_03v04r",
+          "type": "L3",
+          "num": "22"
         },
         "209v": {
           "singlePage": "L3p_04v",
-          "doublePage": "L3_04v05r"
+          "doublePage": "L3_04v05r",
+          "type": "L3",
+          "num": "22"
         },
         "210r": {
           "singlePage": "L3p_05r",
-          "doublePage": "L3_04v05r"
+          "doublePage": "L3_04v05r",
+          "type": "L3",
+          "num": "22"
         },
         "210v": {
           "singlePage": "L3p_05v",
-          "doublePage": "L3_05v06r"
+          "doublePage": "L3_05v06r",
+          "type": "L3",
+          "num": "22"
         },
         "211r": {
           "singlePage": "L3p_06r",
-          "doublePage": "L3_05v06r"
+          "doublePage": "L3_05v06r",
+          "type": "L3",
+          "num": "22"
         },
         "211v": {
           "singlePage": "L3p_06v",
-          "doublePage": "L3_06v"
+          "doublePage": "L3_06v",
+          "type": "L3",
+          "num": "22"
         },
         "212r": {
           "singlePage": "L2p_01r",
-          "doublePage": "L2_01r"
+          "doublePage": "L2_01r",
+          "type": "L2",
+          "num": "23"
         },
         "212v": {
           "singlePage": "L2p_01v",
-          "doublePage": "L2_01v02r"
+          "doublePage": "L2_01v02r",
+          "type": "L2",
+          "num": "23"
         },
         "213r": {
           "singlePage": "L2p_02r",
-          "doublePage": "L2_01v02r"
+          "doublePage": "L2_01v02r",
+          "type": "L2",
+          "num": "23"
         },
         "213v": {
           "singlePage": "L2p_02v",
-          "doublePage": "L2_02v03r"
+          "doublePage": "L2_02v03r",
+          "type": "L2",
+          "num": "23"
         },
         "214r": {
           "singlePage": "L2p_03r",
-          "doublePage": "L2_02v03r"
+          "doublePage": "L2_02v03r",
+          "type": "L2",
+          "num": "23"
         },
         "214v": {
           "singlePage": "L2p_03v",
-          "doublePage": "L2_03v04r"
+          "doublePage": "L2_03v04r",
+          "type": "L2",
+          "num": "23"
         },
         "215r": {
           "singlePage": "L2p_04r",
-          "doublePage": "L2_03v04r"
+          "doublePage": "L2_03v04r",
+          "type": "L2",
+          "num": "23"
         },
         "215v": {
           "singlePage": "L2p_04v",
-          "doublePage": "L2_04v"
+          "doublePage": "L2_04v",
+          "type": "L2",
+          "num": "23"
         },
         "216r": {
           "singlePage": "L5p_01r",
-          "doublePage": "L5_01r"
+          "doublePage": "L5_01r",
+          "type": "L5",
+          "num": "24"
         },
         "216v": {
           "singlePage": "L5p_01v",
-          "doublePage": "L5_01v02r"
+          "doublePage": "L5_01v02r",
+          "type": "L5",
+          "num": "24"
         },
         "217r": {
           "singlePage": "L5p_02r",
-          "doublePage": "L5_01v02r"
+          "doublePage": "L5_01v02r",
+          "type": "L5",
+          "num": "24"
         },
         "217v": {
           "singlePage": "L5p_02v",
-          "doublePage": "L5_02v03r"
+          "doublePage": "L5_02v03r",
+          "type": "L5",
+          "num": "24"
         },
         "218r": {
           "singlePage": "L5p_03r",
-          "doublePage": "L5_02v03r"
+          "doublePage": "L5_02v03r",
+          "type": "L5",
+          "num": "24"
         },
         "218v": {
           "singlePage": "L5p_03v",
-          "doublePage": "L5_03v04r"
+          "doublePage": "L5_03v04r",
+          "type": "L5",
+          "num": "24"
         },
         "219r": {
           "singlePage": "L5p_04r",
-          "doublePage": "L5_03v04r"
+          "doublePage": "L5_03v04r",
+          "type": "L5",
+          "num": "24"
         },
         "219v": {
           "singlePage": "L5p_04v",
-          "doublePage": "L5_04v05r"
+          "doublePage": "L5_04v05r",
+          "type": "L5",
+          "num": "24"
         },
         "220r": {
           "singlePage": "L5p_05r",
-          "doublePage": "L5_04v05r"
+          "doublePage": "L5_04v05r",
+          "type": "L5",
+          "num": "24"
         },
         "220v": {
           "singlePage": "L5p_05v",
-          "doublePage": "L5_05v06r"
+          "doublePage": "L5_05v06r",
+          "type": "L5",
+          "num": "24"
         },
         "221r": {
           "singlePage": "L5p_06r",
-          "doublePage": "L5_05v06r"
+          "doublePage": "L5_05v06r",
+          "type": "L5",
+          "num": "24"
         },
         "221v": {
           "singlePage": "L5p_06v",
-          "doublePage": "L5_06v07r"
+          "doublePage": "L5_06v07r",
+          "type": "L5",
+          "num": "24"
         },
         "222r": {
           "singlePage": "L5p_07r",
-          "doublePage": "L5_06v07r"
+          "doublePage": "L5_06v07r",
+          "type": "L5",
+          "num": "24"
         },
         "222v": {
           "singlePage": "L5p_07v",
-          "doublePage": "L5_07v08r"
+          "doublePage": "L5_07v08r",
+          "type": "L5",
+          "num": "24"
         },
         "223r": {
           "singlePage": "L5p_08r",
-          "doublePage": "L5_07v08r"
+          "doublePage": "L5_07v08r",
+          "type": "L5",
+          "num": "24"
         },
         "223v": {
           "singlePage": "L5p_08v",
-          "doublePage": "L5_08v09r"
+          "doublePage": "L5_08v09r",
+          "type": "L5",
+          "num": "24"
         },
         "224r": {
           "singlePage": "L5p_09r",
-          "doublePage": "L5_08v09r"
+          "doublePage": "L5_08v09r",
+          "type": "L5",
+          "num": "24"
         },
         "224v": {
           "singlePage": "L5p_09v",
-          "doublePage": "L5_09v10r"
+          "doublePage": "L5_09v10r",
+          "type": "L5",
+          "num": "24"
         },
         "225r": {
           "singlePage": "L5p_10r",
-          "doublePage": "L5_09v10r"
+          "doublePage": "L5_09v10r",
+          "type": "L5",
+          "num": "24"
         },
         "225v": {
           "singlePage": "L5p_10v",
-          "doublePage": "L5_10v"
+          "doublePage": "L5_10v",
+          "type": "L5",
+          "num": "24"
         },
         "226r": {
           "singlePage": "L6p_01r",
-          "doublePage": "L6_01r"
+          "doublePage": "L6_01r",
+          "type": "L6",
+          "num": "25"
         },
         "226v": {
           "singlePage": "L6p_01v",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "25"
         },
         "227r": {
           "singlePage": "L6p_02r",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "25"
         },
         "227v": {
           "singlePage": "L6p_02v",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "25"
         },
         "228r": {
           "singlePage": "L6p_03r",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "25"
         },
         "228v": {
           "singlePage": "L6p_03v",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "25"
         },
         "229r": {
           "singlePage": "L6p_04r",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "25"
         },
         "229v": {
           "singlePage": "L6p_04v",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "25"
         },
         "230r": {
           "singlePage": "L6p_05r",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "25"
         },
         "230v": {
           "singlePage": "L6p_05v",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "25"
         },
         "231r": {
           "singlePage": "L6p_06r",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "25"
         },
         "231v": {
           "singlePage": "L6p_06v",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "25"
         },
         "232r": {
           "singlePage": "L6p_07r",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "25"
         },
         "232v": {
           "singlePage": "L6p_07v",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "25"
         },
         "233r": {
           "singlePage": "L6p_08r",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "25"
         },
         "233v": {
           "singlePage": "L6p_08v",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "25"
         },
         "234r": {
           "singlePage": "L6p_09r",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "25"
         },
         "234v": {
           "singlePage": "L6p_09v",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "25"
         },
         "235r": {
           "singlePage": "L6p_10r",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "25"
         },
         "235v": {
           "singlePage": "L6p_10v",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "25"
         },
         "236r": {
           "singlePage": "L6p_11r",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "25"
         },
         "236v": {
           "singlePage": "L6p_11v",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "25"
         },
         "237r": {
           "singlePage": "L6p_12r",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "25"
         },
         "237v": {
           "singlePage": "L6p_12v",
-          "doublePage": "L6_12v"
+          "doublePage": "L6_12v",
+          "type": "L6",
+          "num": "25"
         },
         "238r": {
-          "singlePage": "L5p_01r",
-          "doublePage": "L5_01r"
+          "singlePage": "L3p_01r",
+          "doublePage": "L3_01r",
+          "type": "L3",
+          "num": "26"
         },
         "238v": {
-          "singlePage": "L5p_01v",
-          "doublePage": "L5_01v02r"
+          "singlePage": "L3p_01v",
+          "doublePage": "L3_01v02r",
+          "type": "L3",
+          "num": "26"
         },
         "239r": {
-          "singlePage": "L5p_02r",
-          "doublePage": "L5_01v02r"
+          "singlePage": "L3p_02r",
+          "doublePage": "L3_01v02r",
+          "type": "L3",
+          "num": "26"
         },
         "239v": {
-          "singlePage": "L5p_02v",
-          "doublePage": "L5_02v03r"
+          "singlePage": "L3p_02v",
+          "doublePage": "L3_02v03r",
+          "type": "L3",
+          "num": "26"
         },
         "240r": {
-          "singlePage": "L5p_03r",
-          "doublePage": "L5_02v03r"
+          "singlePage": "L3p_03r",
+          "doublePage": "L3_02v03r",
+          "type": "L3",
+          "num": "26"
         },
         "240v": {
-          "singlePage": "L5p_03v",
-          "doublePage": "L5_03v04r"
+          "singlePage": "L3p_03v",
+          "doublePage": "L3_03v04r",
+          "type": "L3",
+          "num": "26"
         },
         "241r": {
-          "singlePage": "L5p_04r",
-          "doublePage": "L5_03v04r"
+          "singlePage": "L3p_04r",
+          "doublePage": "L3_03v04r",
+          "type": "L3",
+          "num": "26"
         },
         "241v": {
-          "singlePage": "L5p_04v",
-          "doublePage": "L5_04v05r"
+          "singlePage": "L3p_04v",
+          "doublePage": "L3_04v05r",
+          "type": "L3",
+          "num": "26"
         },
         "242r": {
-          "singlePage": "L5p_05r",
-          "doublePage": "L5_04v05r"
+          "singlePage": "L3p_05r",
+          "doublePage": "L3_04v05r",
+          "type": "L3",
+          "num": "26"
         },
         "242v": {
-          "singlePage": "L5p_05v",
-          "doublePage": "L5_05v06r"
+          "singlePage": "L3p_05v",
+          "doublePage": "L3_05v06r",
+          "type": "L3",
+          "num": "26"
         },
         "243r": {
-          "singlePage": "L5p_06r",
-          "doublePage": "L5_05v06r"
+          "singlePage": "L3p_06r",
+          "doublePage": "L3_05v06r",
+          "type": "L3",
+          "num": "26"
         },
         "243v": {
-          "singlePage": "L5p_06v",
-          "doublePage": "L5_06v07r"
+          "singlePage": "L3p_06v",
+          "doublePage": "L3_06v",
+          "type": "L3",
+          "num": "26"
         },
         "244r": {
-          "singlePage": "L5p_07r",
-          "doublePage": "L5_06v07r"
+          "singlePage": "L2p_01r",
+          "doublePage": "L2_01r",
+          "type": "L2",
+          "num": "27"
         },
         "244v": {
-          "singlePage": "L5p_07v",
-          "doublePage": "L5_07v08r"
+          "singlePage": "L2p_01v",
+          "doublePage": "L2_01v02r",
+          "type": "L2",
+          "num": "27"
         },
         "245r": {
-          "singlePage": "L5p_08r",
-          "doublePage": "L5_07v08r"
+          "singlePage": "L2p_02r",
+          "doublePage": "L2_01v02r",
+          "type": "L2",
+          "num": "27"
         },
         "245v": {
-          "singlePage": "L5p_08v",
-          "doublePage": "L5_08v09r"
+          "singlePage": "L2p_02v",
+          "doublePage": "L2_02v03r",
+          "type": "L2",
+          "num": "27"
         },
         "246r": {
-          "singlePage": "L5p_09r",
-          "doublePage": "L5_08v09r"
+          "singlePage": "L2p_03r",
+          "doublePage": "L2_02v03r",
+          "type": "L2",
+          "num": "27"
         },
         "246v": {
-          "singlePage": "L5p_09v",
-          "doublePage": "L5_09v10r"
+          "singlePage": "L2p_03v",
+          "doublePage": "L2_03v04r",
+          "type": "L2",
+          "num": "27"
         },
         "247r": {
-          "singlePage": "L5p_10r",
-          "doublePage": "L5_09v10r"
+          "singlePage": "L2p_04r",
+          "doublePage": "L2_03v04r",
+          "type": "L2",
+          "num": "27"
         },
         "247v": {
-          "singlePage": "L5p_10v",
-          "doublePage": "L5_10v"
+          "singlePage": "L2p_04v",
+          "doublePage": "L2_04v",
+          "type": "L2",
+          "num": "27"
         },
         "248r": {
           "singlePage": "L1p_01r",
-          "doublePage": "L1_01r"
+          "doublePage": "L1_01r",
+          "type": "L1",
+          "num": "28"
         },
         "248v": {
           "singlePage": "L1p_01v",
-          "doublePage": "L1_01v02r"
+          "doublePage": "L1_01v02r",
+          "type": "L1",
+          "num": "28"
         },
         "249r": {
           "singlePage": "L1p_02r",
-          "doublePage": "L1_01v02r"
+          "doublePage": "L1_01v02r",
+          "type": "L1",
+          "num": "28"
         },
         "249v": {
           "singlePage": "L1p_02v",
-          "doublePage": "L1_02v"
+          "doublePage": "L1_02v",
+          "type": "L1",
+          "num": "28"
         },
         "250r": {
           "singlePage": "L4p_01r",
-          "doublePage": "L4_01r"
+          "doublePage": "L4_01r",
+          "type": "L4",
+          "num": "29"
         },
         "250v": {
           "singlePage": "L4p_01v",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "29"
         },
         "251r": {
           "singlePage": "L4p_02r",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "29"
         },
         "251v": {
           "singlePage": "L4p_02v",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "29"
         },
         "252r": {
           "singlePage": "L4p_03r",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "29"
         },
         "252v": {
           "singlePage": "L4p_03v",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "29"
         },
         "253r": {
           "singlePage": "L4p_04r",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "29"
         },
         "253v": {
           "singlePage": "L4p_04v",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "29"
         },
         "254r": {
           "singlePage": "L4p_05r",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "29"
         },
         "254v": {
           "singlePage": "L4p_05v",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "29"
         },
         "255r": {
           "singlePage": "L4p_06r",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "29"
         },
         "255v": {
           "singlePage": "L4p_06v",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "29"
         },
         "256r": {
           "singlePage": "L4p_07r",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "29"
         },
         "256v": {
           "singlePage": "L4p_07v",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "29"
         },
         "257r": {
           "singlePage": "L4p_08r",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "29"
         },
         "257v": {
           "singlePage": "L4p_08v",
-          "doublePage": "L4_08v"
+          "doublePage": "L4_08v",
+          "type": "L4",
+          "num": "29"
         },
         "258r": {
           "singlePage": "L2p_01r",
-          "doublePage": "L2_01r"
+          "doublePage": "L2_01r",
+          "type": "L2",
+          "num": "30"
         },
         "258v": {
           "singlePage": "L2p_01v",
-          "doublePage": "L2_01v02r"
+          "doublePage": "L2_01v02r",
+          "type": "L2",
+          "num": "30"
         },
         "259r": {
           "singlePage": "L2p_02r",
-          "doublePage": "L2_01v02r"
+          "doublePage": "L2_01v02r",
+          "type": "L2",
+          "num": "30"
         },
         "259v": {
           "singlePage": "L2p_02v",
-          "doublePage": "L2_02v03r"
+          "doublePage": "L2_02v03r",
+          "type": "L2",
+          "num": "30"
         },
         "260r": {
           "singlePage": "L2p_03r",
-          "doublePage": "L2_02v03r"
+          "doublePage": "L2_02v03r",
+          "type": "L2",
+          "num": "30"
         },
         "260v": {
           "singlePage": "L2p_03v",
-          "doublePage": "L2_03v04r"
+          "doublePage": "L2_03v04r",
+          "type": "L2",
+          "num": "30"
         },
         "261r": {
           "singlePage": "L2p_04r",
-          "doublePage": "L2_03v04r"
+          "doublePage": "L2_03v04r",
+          "type": "L2",
+          "num": "30"
         },
         "261v": {
           "singlePage": "L2p_04v",
-          "doublePage": "L2_04v"
+          "doublePage": "L2_04v",
+          "type": "L2",
+          "num": "30"
         },
         "262r": {
           "singlePage": "L5mU8p_01r",
-          "doublePage": "L5mU8_01r"
+          "doublePage": "L5mU8_01r",
+          "type": "L5",
+          "num": "31"
         },
         "262v": {
-          "singlePage": "L5mU8p_01v",
-          "doublePage": "L5mU8_01v02r"
+          "singlePage": "L5p_01v",
+          "doublePage": "L5_01v02r",
+          "type": "L5",
+          "num": "31"
         },
         "263r": {
-          "singlePage": "L5mU8p_02r",
-          "doublePage": "L5mU8_01v02r"
+          "singlePage": "L5p_02r",
+          "doublePage": "L5_01v02r",
+          "type": "L5",
+          "num": "31"
         },
         "263v": {
-          "singlePage": "L5mU8p_02v",
-          "doublePage": "L5mU8_02v03r"
+          "singlePage": "L5p_02v",
+          "doublePage": "L5_02v03r",
+          "type": "L5",
+          "num": "31"
         },
         "264r": {
-          "singlePage": "L5mU8p_03r",
-          "doublePage": "L5mU8_02v03r"
+          "singlePage": "L5p_03r",
+          "doublePage": "L5_02v03r",
+          "type": "L5",
+          "num": "31"
         },
         "264v": {
-          "singlePage": "L5mU8p_03v",
-          "doublePage": "L5mU8_03v04r"
+          "singlePage": "L5p_03v",
+          "doublePage": "L5_03v04r",
+          "type": "L5",
+          "num": "31"
         },
         "265r": {
-          "singlePage": "L5mU8p_04r",
-          "doublePage": "L5mU8_03v04r"
+          "singlePage": "L5p_04r",
+          "doublePage": "L5_03v04r",
+          "type": "L5",
+          "num": "31"
         },
         "265v": {
-          "singlePage": "L5mU8p_04v",
-          "doublePage": "L5mU8_04v05r"
+          "singlePage": "L5p_04v",
+          "doublePage": "L5_04v05r",
+          "type": "L5",
+          "num": "31"
         },
         "266r": {
-          "singlePage": "L5mU8p_05r",
-          "doublePage": "L5mU8_04v05r"
+          "singlePage": "L5p_05r",
+          "doublePage": "L5_04v05r",
+          "type": "L5",
+          "num": "31"
         },
         "266v": {
-          "singlePage": "L5mU8p_05v",
-          "doublePage": "L5mU8_05v06r"
+          "singlePage": "L5p_05v",
+          "doublePage": "L5_05v06r",
+          "type": "L5",
+          "num": "31"
         },
         "267r": {
-          "singlePage": "L5mU8p_06r",
-          "doublePage": "L5mU8_05v06r"
+          "singlePage": "L5p_06r",
+          "doublePage": "L5_05v06r",
+          "type": "L5",
+          "num": "31"
         },
         "267v": {
-          "singlePage": "L5mU8p_06v",
-          "doublePage": "L5mU8_06v07r"
+          "singlePage": "L5p_06v",
+          "doublePage": "L5_06v07r",
+          "type": "L5",
+          "num": "31"
         },
         "268r": {
-          "singlePage": "L5mU8p_07r",
-          "doublePage": "L5mU8_06v07r"
+          "singlePage": "L5p_07r",
+          "doublePage": "L5_06v07r",
+          "type": "L5",
+          "num": "31"
         },
         "268v": {
-          "singlePage": "L5mU8p_07v",
-          "doublePage": "L5mU8_07v08r"
+          "singlePage": "L5p_07v",
+          "doublePage": "L5_07v08r",
+          "type": "L5",
+          "num": "31"
         },
         "269r": {
-          "singlePage": "L5mU8p_08r",
-          "doublePage": "L5mU8_07v08r"
+          "singlePage": "L5p_08r",
+          "doublePage": "L5_07v08r",
+          "type": "L5",
+          "num": "31"
         },
         "269v": {
-          "singlePage": "L5mU8p_08v",
-          "doublePage": "L5mU8_08v09r"
+          "singlePage": "L5p_08v",
+          "doublePage": "L5_08v09r",
+          "type": "L5",
+          "num": "31"
         },
         "270r": {
-          "singlePage": "L5mU8p_09r",
-          "doublePage": "L5mU8_08v09r"
+          "singlePage": "L5p_09r",
+          "doublePage": "L5_08v09r",
+          "type": "L5",
+          "num": "31"
         },
         "270v": {
-          "singlePage": "L5mU8p_09v",
-          "doublePage": "L5mU8_09v10r"
+          "singlePage": "L5p_09v",
+          "doublePage": "L5_09v10r",
+          "type": "L5",
+          "num": "31"
         },
         "271r": {
-          "singlePage": "L5mU8p_10r",
-          "doublePage": "L5mU8_09v10r"
+          "singlePage": "L5p_10r",
+          "doublePage": "L5_09v10r",
+          "type": "L5",
+          "num": "31"
         },
         "271v": {
-          "singlePage": "L5mU8p_10v",
-          "doublePage": "L5mU8_10v11r"
+          "singlePage": "L5p_10v",
+          "doublePage": "L5_10v11r",
+          "type": "L5",
+          "num": "31"
         },
         "272r": {
-          "singlePage": "L5mU8p_11r",
-          "doublePage": "L5mU8_10v11r"
+          "singlePage": "L5p_11r",
+          "doublePage": "L5_10v11r",
+          "type": "L5",
+          "num": "31"
         },
         "272v": {
-          "singlePage": "L5mU8p_11v",
-          "doublePage": "L5mU8_11v12r"
+          "singlePage": "L5p_11v",
+          "doublePage": "L5_11v12r",
+          "type": "L5",
+          "num": "31"
         },
         "273r": {
-          "singlePage": "L5mU8p_12r",
-          "doublePage": "L5mU8_11v12r"
+          "singlePage": "L5p_12r",
+          "doublePage": "L5_11v12r",
+          "type": "L5",
+          "num": "31"
         },
         "273v": {
-          "singlePage": "L5mU8p_12v",
-          "doublePage": "L5mU8_12v"
+          "singlePage": "L5p_12v",
+          "doublePage": "L5_12v",
+          "type": "L5",
+          "num": "31"
         },
         "274r": {
           "singlePage": "L6p_01r",
-          "doublePage": "L6_01r"
+          "doublePage": "L6_01r",
+          "type": "L6",
+          "num": "32"
         },
         "274v": {
           "singlePage": "L6p_01v",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "32"
         },
         "275r": {
           "singlePage": "L6p_02r",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "32"
         },
         "275v": {
           "singlePage": "L6p_02v",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "32"
         },
         "276r": {
           "singlePage": "L6p_03r",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "32"
         },
         "276v": {
           "singlePage": "L6p_03v",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "32"
         },
         "277r": {
           "singlePage": "L6p_04r",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "32"
         },
         "277v": {
           "singlePage": "L6p_04v",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "32"
         },
         "278r": {
           "singlePage": "L6p_05r",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "32"
         },
         "278v": {
           "singlePage": "L6p_05v",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "32"
         },
         "279r": {
           "singlePage": "L6p_06r",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "32"
         },
         "279v": {
           "singlePage": "L6p_06v",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "32"
         },
         "280r": {
           "singlePage": "L6p_07r",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "32"
         },
         "280v": {
           "singlePage": "L6p_07v",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "32"
         },
         "281r": {
           "singlePage": "L6p_08r",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "32"
         },
         "281v": {
           "singlePage": "L6p_08v",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "32"
         },
         "282r": {
           "singlePage": "L6p_09r",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "32"
         },
         "282v": {
           "singlePage": "L6p_09v",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "32"
         },
         "283r": {
           "singlePage": "L6p_10r",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "32"
         },
         "283v": {
           "singlePage": "L6p_10v",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "32"
         },
         "284r": {
           "singlePage": "L6p_11r",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "32"
         },
         "284v": {
           "singlePage": "L6p_11v",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "32"
         },
         "285r": {
           "singlePage": "L6p_12r",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "32"
         },
         "285v": {
           "singlePage": "L6p_12v",
-          "doublePage": "L6_12v"
+          "doublePage": "L6_12v",
+          "type": "L6",
+          "num": "32"
         },
         "286r": {
           "singlePage": "L6p_01r",
-          "doublePage": "L6_01r"
+          "doublePage": "L6_01r",
+          "type": "L6",
+          "num": "33"
         },
         "286v": {
           "singlePage": "L6p_01v",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "33"
         },
         "287r": {
           "singlePage": "L6p_02r",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "33"
         },
         "287v": {
           "singlePage": "L6p_02v",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "33"
         },
         "288r": {
           "singlePage": "L6p_03r",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "33"
         },
         "288v": {
           "singlePage": "L6p_03v",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "33"
         },
         "289r": {
           "singlePage": "L6p_04r",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "33"
         },
         "289v": {
           "singlePage": "L6p_04v",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "33"
         },
         "290r": {
           "singlePage": "L6p_05r",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "33"
         },
         "290v": {
           "singlePage": "L6p_05v",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "33"
         },
         "291r": {
           "singlePage": "L6p_06r",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "33"
         },
         "291v": {
           "singlePage": "L6p_06v",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "33"
         },
         "292r": {
           "singlePage": "L6p_07r",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "33"
         },
         "292v": {
           "singlePage": "L6p_07v",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "33"
         },
         "293r": {
           "singlePage": "L6p_08r",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "33"
         },
         "293v": {
           "singlePage": "L6p_08v",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "33"
         },
         "294r": {
           "singlePage": "L6p_09r",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "33"
         },
         "294v": {
           "singlePage": "L6p_09v",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "33"
         },
         "295r": {
           "singlePage": "L6p_10r",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "33"
         },
         "295v": {
           "singlePage": "L6p_10v",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "33"
         },
         "296r": {
           "singlePage": "L6p_11r",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "33"
         },
         "296v": {
           "singlePage": "L6p_11v",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "33"
         },
         "297r": {
           "singlePage": "L6p_12r",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "33"
         },
         "297v": {
           "singlePage": "L6p_12v",
-          "doublePage": "L6_12v"
+          "doublePage": "L6_12v",
+          "type": "L6",
+          "num": "33"
         },
         "298r": {
           "singlePage": "L5p_01r",
-          "doublePage": "L5_01r"
+          "doublePage": "L5_01r",
+          "type": "L5",
+          "num": "34"
         },
         "298v": {
           "singlePage": "L5p_01v",
-          "doublePage": "L5_01v02r"
+          "doublePage": "L5_01v02r",
+          "type": "L5",
+          "num": "34"
         },
         "299r": {
           "singlePage": "L5p_02r",
-          "doublePage": "L5_01v02r"
+          "doublePage": "L5_01v02r",
+          "type": "L5",
+          "num": "34"
         },
         "299v": {
           "singlePage": "L5p_02v",
-          "doublePage": "L5_02v03r"
+          "doublePage": "L5_02v03r",
+          "type": "L5",
+          "num": "34"
         },
         "300r": {
           "singlePage": "L5p_03r",
-          "doublePage": "L5_02v03r"
+          "doublePage": "L5_02v03r",
+          "type": "L5",
+          "num": "34"
         },
         "300v": {
           "singlePage": "L5p_03v",
-          "doublePage": "L5_03v04r"
+          "doublePage": "L5_03v04r",
+          "type": "L5",
+          "num": "34"
         },
         "301r": {
           "singlePage": "L5p_04r",
-          "doublePage": "L5_03v04r"
+          "doublePage": "L5_03v04r",
+          "type": "L5",
+          "num": "34"
         },
         "301v": {
           "singlePage": "L5p_04v",
-          "doublePage": "L5_04v05r"
+          "doublePage": "L5_04v05r",
+          "type": "L5",
+          "num": "34"
         },
         "302r": {
           "singlePage": "L5p_05r",
-          "doublePage": "L5_04v05r"
+          "doublePage": "L5_04v05r",
+          "type": "L5",
+          "num": "34"
         },
         "302v": {
           "singlePage": "L5p_05v",
-          "doublePage": "L5_05v06r"
+          "doublePage": "L5_05v06r",
+          "type": "L5",
+          "num": "34"
         },
         "303r": {
           "singlePage": "L5p_06r",
-          "doublePage": "L5_05v06r"
+          "doublePage": "L5_05v06r",
+          "type": "L5",
+          "num": "34"
         },
         "303v": {
           "singlePage": "L5p_06v",
-          "doublePage": "L5_06v07r"
+          "doublePage": "L5_06v07r",
+          "type": "L5",
+          "num": "34"
         },
         "304r": {
           "singlePage": "L5p_07r",
-          "doublePage": "L5_06v07r"
+          "doublePage": "L5_06v07r",
+          "type": "L5",
+          "num": "34"
         },
         "304v": {
           "singlePage": "L5p_07v",
-          "doublePage": "L5_07v08r"
+          "doublePage": "L5_07v08r",
+          "type": "L5",
+          "num": "34"
         },
         "305r": {
           "singlePage": "L5p_08r",
-          "doublePage": "L5_07v08r"
+          "doublePage": "L5_07v08r",
+          "type": "L5",
+          "num": "34"
         },
         "305v": {
           "singlePage": "L5p_08v",
-          "doublePage": "L5_08v09r"
+          "doublePage": "L5_08v09r",
+          "type": "L5",
+          "num": "34"
         },
         "306r": {
           "singlePage": "L5p_09r",
-          "doublePage": "L5_08v09r"
+          "doublePage": "L5_08v09r",
+          "type": "L5",
+          "num": "34"
         },
         "306v": {
           "singlePage": "L5p_09v",
-          "doublePage": "L5_09v10r"
+          "doublePage": "L5_09v10r",
+          "type": "L5",
+          "num": "34"
         },
         "307r": {
           "singlePage": "L5p_10r",
-          "doublePage": "L5_09v10r"
+          "doublePage": "L5_09v10r",
+          "type": "L5",
+          "num": "34"
         },
         "307v": {
           "singlePage": "L5p_10v",
-          "doublePage": "L5_10v"
+          "doublePage": "L5_10v",
+          "type": "L5",
+          "num": "34"
         },
         "308r": {
           "singlePage": "L6p_01r",
-          "doublePage": "L6_01r"
+          "doublePage": "L6_01r",
+          "type": "L6",
+          "num": "35"
         },
         "308v": {
           "singlePage": "L6p_01v",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "35"
         },
         "309r": {
           "singlePage": "L6p_02r",
-          "doublePage": "L6_01v02r"
+          "doublePage": "L6_01v02r",
+          "type": "L6",
+          "num": "35"
         },
         "309v": {
           "singlePage": "L6p_02v",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "35"
         },
         "310r": {
           "singlePage": "L6p_03r",
-          "doublePage": "L6_02v03r"
+          "doublePage": "L6_02v03r",
+          "type": "L6",
+          "num": "35"
         },
         "310v": {
           "singlePage": "L6p_03v",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "35"
         },
         "311r": {
           "singlePage": "L6p_04r",
-          "doublePage": "L6_03v04r"
+          "doublePage": "L6_03v04r",
+          "type": "L6",
+          "num": "35"
         },
         "311v": {
           "singlePage": "L6p_04v",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "35"
         },
         "312r": {
           "singlePage": "L6p_05r",
-          "doublePage": "L6_04v05r"
+          "doublePage": "L6_04v05r",
+          "type": "L6",
+          "num": "35"
         },
         "312v": {
           "singlePage": "L6p_05v",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "35"
         },
         "313r": {
           "singlePage": "L6p_06r",
-          "doublePage": "L6_05v06r"
+          "doublePage": "L6_05v06r",
+          "type": "L6",
+          "num": "35"
         },
         "313v": {
           "singlePage": "L6p_06v",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "35"
         },
         "314r": {
           "singlePage": "L6p_07r",
-          "doublePage": "L6_06v07r"
+          "doublePage": "L6_06v07r",
+          "type": "L6",
+          "num": "35"
         },
         "314v": {
           "singlePage": "L6p_07v",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "35"
         },
         "315r": {
           "singlePage": "L6p_08r",
-          "doublePage": "L6_07v08r"
+          "doublePage": "L6_07v08r",
+          "type": "L6",
+          "num": "35"
         },
         "315v": {
           "singlePage": "L6p_08v",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "35"
         },
         "316r": {
           "singlePage": "L6p_09r",
-          "doublePage": "L6_08v09r"
+          "doublePage": "L6_08v09r",
+          "type": "L6",
+          "num": "35"
         },
         "316v": {
           "singlePage": "L6p_09v",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "35"
         },
         "317r": {
           "singlePage": "L6p_10r",
-          "doublePage": "L6_09v10r"
+          "doublePage": "L6_09v10r",
+          "type": "L6",
+          "num": "35"
         },
         "317v": {
           "singlePage": "L6p_10v",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "35"
         },
         "318r": {
           "singlePage": "L6p_11r",
-          "doublePage": "L6_10v11r"
+          "doublePage": "L6_10v11r",
+          "type": "L6",
+          "num": "35"
         },
         "318v": {
           "singlePage": "L6p_11v",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "35"
         },
         "319r": {
           "singlePage": "L6p_12r",
-          "doublePage": "L6_11v12r"
+          "doublePage": "L6_11v12r",
+          "type": "L6",
+          "num": "35"
         },
         "319v": {
           "singlePage": "L6p_12v",
-          "doublePage": "L6_12v"
+          "doublePage": "L6_12v",
+          "type": "L6",
+          "num": "35"
         }
       },
       "p": [
@@ -58840,1451 +60116,2175 @@
       "quires": {
         "001r": {
           "singlePage": "L4p_01r",
-          "doublePage": "L4_01r"
+          "doublePage": "L4_01r",
+          "type": "L4",
+          "num": "1"
         },
         "001v": {
           "singlePage": "L4p_01v",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "1"
         },
         "002r": {
           "singlePage": "L4p_02r",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "1"
         },
         "002v": {
           "singlePage": "L4p_02v",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "1"
         },
         "003r": {
           "singlePage": "L4p_03r",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "1"
         },
         "003v": {
           "singlePage": "L4p_03v",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "1"
         },
         "004r": {
           "singlePage": "L4p_04r",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "1"
         },
         "004v": {
           "singlePage": "L4p_04v",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "1"
         },
         "005r": {
           "singlePage": "L4p_05r",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "1"
         },
         "005v": {
           "singlePage": "L4p_05v",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "1"
         },
         "006r": {
           "singlePage": "L4p_06r",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "1"
         },
         "006v": {
           "singlePage": "L4p_06v",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "1"
         },
         "007r": {
           "singlePage": "L4p_07r",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "1"
         },
         "007v": {
           "singlePage": "L4p_07v",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "1"
         },
         "008r": {
           "singlePage": "L4p_08r",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "1"
         },
         "008v": {
           "singlePage": "L4p_08v",
-          "doublePage": "L4_08v"
+          "doublePage": "L4_08v",
+          "type": "L4",
+          "num": "1"
         },
         "009r": {
           "singlePage": "L4p_01r",
-          "doublePage": "L4_01r"
+          "doublePage": "L4_01r",
+          "type": "L4",
+          "num": "2"
         },
         "009v": {
           "singlePage": "L4p_01v",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "2"
         },
         "010r": {
           "singlePage": "L4p_02r",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "2"
         },
         "010v": {
           "singlePage": "L4p_02v",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "2"
         },
         "011r": {
           "singlePage": "L4p_03r",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "2"
         },
         "011v": {
           "singlePage": "L4p_03v",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "2"
         },
         "012r": {
           "singlePage": "L4p_04r",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "2"
         },
         "012v": {
           "singlePage": "L4p_04v",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "2"
         },
         "013r": {
           "singlePage": "L4p_05r",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "2"
         },
         "013v": {
           "singlePage": "L4p_05v",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "2"
         },
         "014r": {
           "singlePage": "L4p_06r",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "2"
         },
         "014v": {
           "singlePage": "L4p_06v",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "2"
         },
         "015r": {
           "singlePage": "L4p_07r",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "2"
         },
         "015v": {
           "singlePage": "L4p_07v",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "2"
         },
         "016r": {
           "singlePage": "L4p_08r",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "2"
         },
         "016v": {
           "singlePage": "L4p_08v",
-          "doublePage": "L4_08v"
+          "doublePage": "L4_08v",
+          "type": "L4",
+          "num": "2"
         },
         "017r": {
           "singlePage": "L4p_01r",
-          "doublePage": "L4_01r"
+          "doublePage": "L4_01r",
+          "type": "L4",
+          "num": "3"
         },
         "017v": {
           "singlePage": "L4p_01v",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "3"
         },
         "018r": {
           "singlePage": "L4p_02r",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "3"
         },
         "018v": {
           "singlePage": "L4p_02v",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "3"
         },
         "019r": {
           "singlePage": "L4p_03r",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "3"
         },
         "019v": {
           "singlePage": "L4p_03v",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "3"
         },
         "020r": {
           "singlePage": "L4p_04r",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "3"
         },
         "020v": {
           "singlePage": "L4p_04v",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "3"
         },
         "021r": {
           "singlePage": "L4p_05r",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "3"
         },
         "021v": {
           "singlePage": "L4p_05v",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "3"
         },
         "022r": {
           "singlePage": "L4p_06r",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "3"
         },
         "022v": {
           "singlePage": "L4p_06v",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "3"
         },
         "023r": {
           "singlePage": "L4p_07r",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "3"
         },
         "023v": {
           "singlePage": "L4p_07v",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "3"
         },
         "024r": {
           "singlePage": "L4p_08r",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "3"
         },
         "024v": {
           "singlePage": "L4p_08v",
-          "doublePage": "L4_08v"
+          "doublePage": "L4_08v",
+          "type": "L4",
+          "num": "3"
         },
         "025r": {
           "singlePage": "L4p_01r",
-          "doublePage": "L4_01r"
+          "doublePage": "L4_01r",
+          "type": "L4",
+          "num": "4"
         },
         "025v": {
           "singlePage": "L4p_01v",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "4"
         },
         "026r": {
           "singlePage": "L4p_02r",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "4"
         },
         "026v": {
           "singlePage": "L4p_02v",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "4"
         },
         "027r": {
           "singlePage": "L4p_03r",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "4"
         },
         "027v": {
           "singlePage": "L4p_03v",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "4"
         },
         "028r": {
           "singlePage": "L4p_04r",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "4"
         },
         "028v": {
           "singlePage": "L4p_04v",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "4"
         },
         "029r": {
           "singlePage": "L4p_05r",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "4"
         },
         "029v": {
           "singlePage": "L4p_05v",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "4"
         },
         "030r": {
           "singlePage": "L4p_06r",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "4"
         },
         "030v": {
           "singlePage": "L4p_06v",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "4"
         },
         "031r": {
           "singlePage": "L4p_07r",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "4"
         },
         "031v": {
           "singlePage": "L4p_07v",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "4"
         },
         "032r": {
           "singlePage": "L4p_08r",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "4"
         },
         "032v": {
           "singlePage": "L4p_08v",
-          "doublePage": "L4_08v"
+          "doublePage": "L4_08v",
+          "type": "L4",
+          "num": "4"
         },
         "033r": {
           "singlePage": "L4p_01r",
-          "doublePage": "L4_01r"
+          "doublePage": "L4_01r",
+          "type": "L4",
+          "num": "5"
         },
         "033v": {
           "singlePage": "L4p_01v",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "5"
         },
         "034r": {
           "singlePage": "L4p_02r",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "5"
         },
         "034v": {
           "singlePage": "L4p_02v",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "5"
         },
         "035r": {
           "singlePage": "L4p_03r",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "5"
         },
         "035v": {
           "singlePage": "L4p_03v",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "5"
         },
         "036r": {
           "singlePage": "L4p_04r",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "5"
         },
         "036v": {
           "singlePage": "L4p_04v",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "5"
         },
         "037r": {
           "singlePage": "L4p_05r",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "5"
         },
         "037v": {
           "singlePage": "L4p_05v",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "5"
         },
         "038r": {
           "singlePage": "L4p_06r",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "5"
         },
         "038v": {
           "singlePage": "L4p_06v",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "5"
         },
         "039r": {
           "singlePage": "L4p_07r",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "5"
         },
         "039v": {
           "singlePage": "L4p_07v",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "5"
         },
         "040r": {
           "singlePage": "L4p_08r",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "5"
         },
         "040v": {
           "singlePage": "L4p_08v",
-          "doublePage": "L4_08v"
+          "doublePage": "L4_08v",
+          "type": "L4",
+          "num": "5"
         },
         "041r": {
           "singlePage": "L4p_01r",
-          "doublePage": "L4_01r"
+          "doublePage": "L4_01r",
+          "type": "L4",
+          "num": "6"
         },
         "041v": {
           "singlePage": "L4p_01v",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "6"
         },
         "042r": {
           "singlePage": "L4p_02r",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "6"
         },
         "042v": {
           "singlePage": "L4p_02v",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "6"
         },
         "043r": {
           "singlePage": "L4p_03r",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "6"
         },
         "043v": {
           "singlePage": "L4p_03v",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "6"
         },
         "044r": {
           "singlePage": "L4p_04r",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "6"
         },
         "044v": {
           "singlePage": "L4p_04v",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "6"
         },
         "045r": {
           "singlePage": "L4p_05r",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "6"
         },
         "045v": {
           "singlePage": "L4p_05v",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "6"
         },
         "046r": {
           "singlePage": "L4p_06r",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "6"
         },
         "046v": {
           "singlePage": "L4p_06v",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "6"
         },
         "047r": {
           "singlePage": "L4p_07r",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "6"
         },
         "047v": {
           "singlePage": "L4p_07v",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "6"
         },
         "048r": {
           "singlePage": "L4p_08r",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "6"
         },
         "048v": {
           "singlePage": "L4p_08v",
-          "doublePage": "L4_08v"
+          "doublePage": "L4_08v",
+          "type": "L4",
+          "num": "6"
         },
         "049r": {
           "singlePage": "L4p_01r",
-          "doublePage": "L4_01r"
+          "doublePage": "L4_01r",
+          "type": "L4",
+          "num": "7"
         },
         "049v": {
           "singlePage": "L4p_01v",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "7"
         },
         "050r": {
           "singlePage": "L4p_02r",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "7"
         },
         "050v": {
           "singlePage": "L4p_02v",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "7"
         },
         "051r": {
           "singlePage": "L4p_03r",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "7"
         },
         "051v": {
           "singlePage": "L4p_03v",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "7"
         },
         "052r": {
           "singlePage": "L4p_04r",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "7"
         },
         "052v": {
           "singlePage": "L4p_04v",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "7"
         },
         "053r": {
           "singlePage": "L4p_05r",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "7"
         },
         "053v": {
           "singlePage": "L4p_05v",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "7"
         },
         "054r": {
           "singlePage": "L4p_06r",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "7"
         },
         "054v": {
           "singlePage": "L4p_06v",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "7"
         },
         "055r": {
           "singlePage": "L4p_07r",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "7"
         },
         "055v": {
           "singlePage": "L4p_07v",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "7"
         },
         "056r": {
           "singlePage": "L4p_08r",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "7"
         },
         "056v": {
           "singlePage": "L4p_08v",
-          "doublePage": "L4_08v"
+          "doublePage": "L4_08v",
+          "type": "L4",
+          "num": "7"
         },
         "057r": {
           "singlePage": "L1w1p_01r",
-          "doublePage": "L1w1_01r"
+          "doublePage": "L1w1_01r",
+          "type": "L1",
+          "num": "8"
         },
         "057v": {
-          "singlePage": "L1w1p_01v",
-          "doublePage": "L1w1_01v"
+          "singlePage": "L1p_01v",
+          "doublePage": "L1_01v",
+          "type": "L1",
+          "num": "8"
         },
         "058r": {
           "singlePage": "L3p_01r",
-          "doublePage": "L3_01r"
+          "doublePage": "L3_01r",
+          "type": "L3",
+          "num": "9"
         },
         "058v": {
           "singlePage": "L3p_01v",
-          "doublePage": "L3_01v02r"
+          "doublePage": "L3_01v02r",
+          "type": "L3",
+          "num": "9"
         },
         "059r": {
           "singlePage": "L3p_02r",
-          "doublePage": "L3_01v02r"
+          "doublePage": "L3_01v02r",
+          "type": "L3",
+          "num": "9"
         },
         "059v": {
           "singlePage": "L3p_02v",
-          "doublePage": "L3_02v03r"
+          "doublePage": "L3_02v03r",
+          "type": "L3",
+          "num": "9"
         },
         "060r": {
           "singlePage": "L3p_03r",
-          "doublePage": "L3_02v03r"
+          "doublePage": "L3_02v03r",
+          "type": "L3",
+          "num": "9"
         },
         "060v": {
           "singlePage": "L3p_03v",
-          "doublePage": "L3_03v04r"
+          "doublePage": "L3_03v04r",
+          "type": "L3",
+          "num": "9"
         },
         "061r": {
           "singlePage": "L3p_04r",
-          "doublePage": "L3_03v04r"
+          "doublePage": "L3_03v04r",
+          "type": "L3",
+          "num": "9"
         },
         "061v": {
           "singlePage": "L3p_04v",
-          "doublePage": "L3_04v05r"
+          "doublePage": "L3_04v05r",
+          "type": "L3",
+          "num": "9"
         },
         "062r": {
           "singlePage": "L3p_05r",
-          "doublePage": "L3_04v05r"
+          "doublePage": "L3_04v05r",
+          "type": "L3",
+          "num": "9"
         },
         "062v": {
           "singlePage": "L3p_05v",
-          "doublePage": "L3_05v06r"
+          "doublePage": "L3_05v06r",
+          "type": "L3",
+          "num": "9"
         },
         "063r": {
           "singlePage": "L3p_06r",
-          "doublePage": "L3_05v06r"
+          "doublePage": "L3_05v06r",
+          "type": "L3",
+          "num": "9"
         },
         "063v": {
           "singlePage": "L3p_06v",
-          "doublePage": "L3_06v"
+          "doublePage": "L3_06v",
+          "type": "L3",
+          "num": "9"
         },
         "064r": {
           "singlePage": "L4p_01r",
-          "doublePage": "L4_01r"
+          "doublePage": "L4_01r",
+          "type": "L4",
+          "num": "10"
         },
         "064v": {
           "singlePage": "L4p_01v",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "10"
         },
         "065r": {
           "singlePage": "L4p_02r",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "10"
         },
         "065v": {
           "singlePage": "L4p_02v",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "10"
         },
         "066r": {
           "singlePage": "L4p_03r",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "10"
         },
         "066v": {
           "singlePage": "L4p_03v",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "10"
         },
         "067r": {
           "singlePage": "L4p_04r",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "10"
         },
         "067v": {
           "singlePage": "L4p_04v",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "10"
         },
         "068r": {
           "singlePage": "L4p_05r",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "10"
         },
         "068v": {
           "singlePage": "L4p_05v",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "10"
         },
         "069r": {
           "singlePage": "L4p_06r",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "10"
         },
         "069v": {
           "singlePage": "L4p_06v",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "10"
         },
         "070r": {
           "singlePage": "L4p_07r",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "10"
         },
         "070v": {
           "singlePage": "L4p_07v",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "10"
         },
         "071r": {
           "singlePage": "L4p_08r",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "10"
         },
         "071v": {
           "singlePage": "L4p_08v",
-          "doublePage": "L4_08v"
+          "doublePage": "L4_08v",
+          "type": "L4",
+          "num": "10"
         },
         "072r": {
           "singlePage": "L4p_01r",
-          "doublePage": "L4_01r"
+          "doublePage": "L4_01r",
+          "type": "L4",
+          "num": "11"
         },
         "072v": {
           "singlePage": "L4p_01v",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "11"
         },
         "073r": {
           "singlePage": "L4p_02r",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "11"
         },
         "073v": {
           "singlePage": "L4p_02v",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "11"
         },
         "074r": {
           "singlePage": "L4p_03r",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "11"
         },
         "074v": {
           "singlePage": "L4p_03v",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "11"
         },
         "075r": {
           "singlePage": "L4p_04r",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "11"
         },
         "075v": {
           "singlePage": "L4p_04v",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "11"
         },
         "076r": {
           "singlePage": "L4p_05r",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "11"
         },
         "076v": {
           "singlePage": "L4p_05v",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "11"
         },
         "077r": {
           "singlePage": "L4p_06r",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "11"
         },
         "077v": {
           "singlePage": "L4p_06v",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "11"
         },
         "078r": {
           "singlePage": "L4p_07r",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "11"
         },
         "078v": {
           "singlePage": "L4p_07v",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "11"
         },
         "079r": {
           "singlePage": "L4p_08r",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "11"
         },
         "079v": {
           "singlePage": "L4p_08v",
-          "doublePage": "L4_08v"
+          "doublePage": "L4_08v",
+          "type": "L4",
+          "num": "11"
         },
         "080r": {
           "singlePage": "L4p_01r",
-          "doublePage": "L4_01r"
+          "doublePage": "L4_01r",
+          "type": "L4",
+          "num": "12"
         },
         "080v": {
           "singlePage": "L4p_01v",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "12"
         },
         "081r": {
           "singlePage": "L4p_02r",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "12"
         },
         "081v": {
           "singlePage": "L4p_02v",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "12"
         },
         "082r": {
           "singlePage": "L4p_03r",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "12"
         },
         "082v": {
           "singlePage": "L4p_03v",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "12"
         },
         "083r": {
           "singlePage": "L4p_04r",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "12"
         },
         "083v": {
           "singlePage": "L4p_04v",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "12"
         },
         "084r": {
           "singlePage": "L4p_05r",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "12"
         },
         "084v": {
           "singlePage": "L4p_05v",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "12"
         },
         "085r": {
           "singlePage": "L4p_06r",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "12"
         },
         "085v": {
           "singlePage": "L4p_06v",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "12"
         },
         "086r": {
           "singlePage": "L4p_07r",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "12"
         },
         "086v": {
           "singlePage": "L4p_07v",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "12"
         },
         "087r": {
           "singlePage": "L4p_08r",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "12"
         },
         "087v": {
           "singlePage": "L4p_08v",
-          "doublePage": "L4_08v"
+          "doublePage": "L4_08v",
+          "type": "L4",
+          "num": "12"
         },
         "088r": {
           "singlePage": "L4p_01r",
-          "doublePage": "L4_01r"
+          "doublePage": "L4_01r",
+          "type": "L4",
+          "num": "13"
         },
         "088v": {
           "singlePage": "L4p_01v",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "13"
         },
         "089r": {
           "singlePage": "L4p_02r",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "13"
         },
         "089v": {
           "singlePage": "L4p_02v",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "13"
         },
         "090r": {
           "singlePage": "L4p_03r",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "13"
         },
         "090v": {
           "singlePage": "L4p_03v",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "13"
         },
         "091r": {
           "singlePage": "L4p_04r",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "13"
         },
         "091v": {
           "singlePage": "L4p_04v",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "13"
         },
         "092r": {
           "singlePage": "L4p_05r",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "13"
         },
         "092v": {
           "singlePage": "L4p_05v",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "13"
         },
         "093r": {
           "singlePage": "L4p_06r",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "13"
         },
         "093v": {
           "singlePage": "L4p_06v",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "13"
         },
         "094r": {
           "singlePage": "L4p_07r",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "13"
         },
         "094v": {
           "singlePage": "L4p_07v",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "13"
         },
         "095r": {
           "singlePage": "L4p_08r",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "13"
         },
         "095v": {
           "singlePage": "L4p_08v",
-          "doublePage": "L4_08v"
+          "doublePage": "L4_08v",
+          "type": "L4",
+          "num": "13"
         },
         "096r": {
           "singlePage": "L4p_01r",
-          "doublePage": "L4_01r"
+          "doublePage": "L4_01r",
+          "type": "L4",
+          "num": "14"
         },
         "096v": {
           "singlePage": "L4p_01v",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "14"
         },
         "097r": {
           "singlePage": "L4p_02r",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "14"
         },
         "097v": {
           "singlePage": "L4p_02v",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "14"
         },
         "098r": {
           "singlePage": "L4p_03r",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "14"
         },
         "098v": {
           "singlePage": "L4p_03v",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "14"
         },
         "099r": {
           "singlePage": "L4p_04r",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "14"
         },
         "099v": {
           "singlePage": "L4p_04v",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "14"
         },
         "100r": {
           "singlePage": "L4p_05r",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "14"
         },
         "100v": {
           "singlePage": "L4p_05v",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "14"
         },
         "101r": {
           "singlePage": "L4p_06r",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "14"
         },
         "101v": {
           "singlePage": "L4p_06v",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "14"
         },
         "102r": {
           "singlePage": "L4p_07r",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "14"
         },
         "102v": {
           "singlePage": "L4p_07v",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "14"
         },
         "103r": {
           "singlePage": "L4p_08r",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "14"
         },
         "103v": {
           "singlePage": "L4p_08v",
-          "doublePage": "L4_08v"
+          "doublePage": "L4_08v",
+          "type": "L4",
+          "num": "14"
         },
         "104r": {
           "singlePage": "L3p_01r",
-          "doublePage": "L3_01r"
+          "doublePage": "L3_01r",
+          "type": "L3",
+          "num": "15"
         },
         "104v": {
           "singlePage": "L3p_01v",
-          "doublePage": "L3_01v02r"
+          "doublePage": "L3_01v02r",
+          "type": "L3",
+          "num": "15"
         },
         "105r": {
           "singlePage": "L3p_02r",
-          "doublePage": "L3_01v02r"
+          "doublePage": "L3_01v02r",
+          "type": "L3",
+          "num": "15"
         },
         "105v": {
           "singlePage": "L3p_02v",
-          "doublePage": "L3_02v03r"
+          "doublePage": "L3_02v03r",
+          "type": "L3",
+          "num": "15"
         },
         "106r": {
           "singlePage": "L3p_03r",
-          "doublePage": "L3_02v03r"
+          "doublePage": "L3_02v03r",
+          "type": "L3",
+          "num": "15"
         },
         "106v": {
           "singlePage": "L3p_03v",
-          "doublePage": "L3_03v04r"
+          "doublePage": "L3_03v04r",
+          "type": "L3",
+          "num": "15"
         },
         "107r": {
           "singlePage": "L3p_04r",
-          "doublePage": "L3_03v04r"
+          "doublePage": "L3_03v04r",
+          "type": "L3",
+          "num": "15"
         },
         "107v": {
           "singlePage": "L3p_04v",
-          "doublePage": "L3_04v05r"
+          "doublePage": "L3_04v05r",
+          "type": "L3",
+          "num": "15"
         },
         "108r": {
           "singlePage": "L3p_05r",
-          "doublePage": "L3_04v05r"
+          "doublePage": "L3_04v05r",
+          "type": "L3",
+          "num": "15"
         },
         "108v": {
           "singlePage": "L3p_05v",
-          "doublePage": "L3_05v06r"
+          "doublePage": "L3_05v06r",
+          "type": "L3",
+          "num": "15"
         },
         "109r": {
           "singlePage": "L3p_06r",
-          "doublePage": "L3_05v06r"
+          "doublePage": "L3_05v06r",
+          "type": "L3",
+          "num": "15"
         },
         "109v": {
           "singlePage": "L3p_06v",
-          "doublePage": "L3_06v"
+          "doublePage": "L3_06v",
+          "type": "L3",
+          "num": "15"
         },
         "110r": {
           "singlePage": "L1w1p_01r",
-          "doublePage": "L1w1_01r"
+          "doublePage": "L1w1_01r",
+          "type": "L1",
+          "num": "16"
         },
         "110v": {
-          "singlePage": "L1w1p_01v",
-          "doublePage": "L1w1_01v"
+          "singlePage": "L1p_01v",
+          "doublePage": "L1_01v",
+          "type": "L1",
+          "num": "16"
         },
         "111r": {
           "singlePage": "L4p_01r",
-          "doublePage": "L4_01r"
+          "doublePage": "L4_01r",
+          "type": "L4",
+          "num": "17"
         },
         "111v": {
           "singlePage": "L4p_01v",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "17"
         },
         "112r": {
           "singlePage": "L4p_02r",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "17"
         },
         "112v": {
           "singlePage": "L4p_02v",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "17"
         },
         "113r": {
           "singlePage": "L4p_03r",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "17"
         },
         "113v": {
           "singlePage": "L4p_03v",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "17"
         },
         "114r": {
           "singlePage": "L4p_04r",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "17"
         },
         "114v": {
           "singlePage": "L4p_04v",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "17"
         },
         "115r": {
           "singlePage": "L4p_05r",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "17"
         },
         "115v": {
           "singlePage": "L4p_05v",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "17"
         },
         "116r": {
           "singlePage": "L4p_06r",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "17"
         },
         "116v": {
           "singlePage": "L4p_06v",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "17"
         },
         "117r": {
           "singlePage": "L4p_07r",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "17"
         },
         "117v": {
           "singlePage": "L4p_07v",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "17"
         },
         "118r": {
           "singlePage": "L4p_08r",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "17"
         },
         "118v": {
           "singlePage": "L4p_08v",
-          "doublePage": "L4_08v"
+          "doublePage": "L4_08v",
+          "type": "L4",
+          "num": "17"
         },
         "119r": {
           "singlePage": "L4p_01r",
-          "doublePage": "L4_01r"
+          "doublePage": "L4_01r",
+          "type": "L4",
+          "num": "18"
         },
         "119v": {
           "singlePage": "L4p_01v",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "18"
         },
         "120r": {
           "singlePage": "L4p_02r",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "18"
         },
         "120v": {
           "singlePage": "L4p_02v",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "18"
         },
         "121r": {
           "singlePage": "L4p_03r",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "18"
         },
         "121v": {
           "singlePage": "L4p_03v",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "18"
         },
         "122r": {
           "singlePage": "L4p_04r",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "18"
         },
         "122v": {
           "singlePage": "L4p_04v",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "18"
         },
         "123r": {
           "singlePage": "L4p_05r",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "18"
         },
         "123v": {
           "singlePage": "L4p_05v",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "18"
         },
         "124r": {
           "singlePage": "L4p_06r",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "18"
         },
         "124v": {
           "singlePage": "L4p_06v",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "18"
         },
         "125r": {
           "singlePage": "L4p_07r",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "18"
         },
         "125v": {
           "singlePage": "L4p_07v",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "18"
         },
         "126r": {
           "singlePage": "L4p_08r",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "18"
         },
         "126v": {
           "singlePage": "L4p_08v",
-          "doublePage": "L4_08v"
+          "doublePage": "L4_08v",
+          "type": "L4",
+          "num": "18"
         },
         "127r": {
           "singlePage": "L4p_01r",
-          "doublePage": "L4_01r"
+          "doublePage": "L4_01r",
+          "type": "L4",
+          "num": "19"
         },
         "127v": {
           "singlePage": "L4p_01v",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "19"
         },
         "128r": {
           "singlePage": "L4p_02r",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "19"
         },
         "128v": {
           "singlePage": "L4p_02v",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "19"
         },
         "129r": {
           "singlePage": "L4p_03r",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "19"
         },
         "129v": {
           "singlePage": "L4p_03v",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "19"
         },
         "130r": {
           "singlePage": "L4p_04r",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "19"
         },
         "130v": {
           "singlePage": "L4p_04v",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "19"
         },
         "131r": {
           "singlePage": "L4p_05r",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "19"
         },
         "131v": {
           "singlePage": "L4p_05v",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "19"
         },
         "132r": {
           "singlePage": "L4p_06r",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "19"
         },
         "132v": {
           "singlePage": "L4p_06v",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "19"
         },
         "133r": {
           "singlePage": "L4p_07r",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "19"
         },
         "133v": {
           "singlePage": "L4p_07v",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "19"
         },
         "134r": {
           "singlePage": "L4p_08r",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "19"
         },
         "134v": {
           "singlePage": "L4p_08v",
-          "doublePage": "L4_08v"
+          "doublePage": "L4_08v",
+          "type": "L4",
+          "num": "19"
         },
         "135r": {
           "singlePage": "L4p_01r",
-          "doublePage": "L4_01r"
+          "doublePage": "L4_01r",
+          "type": "L4",
+          "num": "20"
         },
         "135v": {
           "singlePage": "L4p_01v",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "20"
         },
         "136r": {
           "singlePage": "L4p_02r",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "20"
         },
         "136v": {
           "singlePage": "L4p_02v",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "20"
         },
         "137r": {
           "singlePage": "L4p_03r",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "20"
         },
         "137v": {
           "singlePage": "L4p_03v",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "20"
         },
         "138r": {
           "singlePage": "L4p_04r",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "20"
         },
         "138v": {
           "singlePage": "L4p_04v",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "20"
         },
         "139r": {
           "singlePage": "L4p_05r",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "20"
         },
         "139v": {
           "singlePage": "L4p_05v",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "20"
         },
         "140r": {
           "singlePage": "L4p_06r",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "20"
         },
         "140v": {
           "singlePage": "L4p_06v",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "20"
         },
         "141r": {
           "singlePage": "L4p_07r",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "20"
         },
         "141v": {
           "singlePage": "L4p_07v",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "20"
         },
         "142r": {
           "singlePage": "L4p_08r",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "20"
         },
         "142v": {
           "singlePage": "L4p_08v",
-          "doublePage": "L4_08v"
+          "doublePage": "L4_08v",
+          "type": "L4",
+          "num": "20"
         },
         "143r": {
           "singlePage": "L4p_01r",
-          "doublePage": "L4_01r"
+          "doublePage": "L4_01r",
+          "type": "L4",
+          "num": "21"
         },
         "143v": {
           "singlePage": "L4p_01v",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "21"
         },
         "144r": {
           "singlePage": "L4p_02r",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "21"
         },
         "144v": {
           "singlePage": "L4p_02v",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "21"
         },
         "145r": {
           "singlePage": "L4p_03r",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "21"
         },
         "145v": {
           "singlePage": "L4p_03v",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "21"
         },
         "146r": {
           "singlePage": "L4p_04r",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "21"
         },
         "146v": {
           "singlePage": "L4p_04v",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "21"
         },
         "147r": {
           "singlePage": "L4p_05r",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "21"
         },
         "147v": {
           "singlePage": "L4p_05v",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "21"
         },
         "148r": {
           "singlePage": "L4p_06r",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "21"
         },
         "148v": {
           "singlePage": "L4p_06v",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "21"
         },
         "149r": {
           "singlePage": "L4p_07r",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "21"
         },
         "149v": {
           "singlePage": "L4p_07v",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "21"
         },
         "150r": {
           "singlePage": "L4p_08r",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "21"
         },
         "150v": {
           "singlePage": "L4p_08v",
-          "doublePage": "L4_08v"
+          "doublePage": "L4_08v",
+          "type": "L4",
+          "num": "21"
         },
         "151r": {
           "singlePage": "L4p_01r",
-          "doublePage": "L4_01r"
+          "doublePage": "L4_01r",
+          "type": "L4",
+          "num": "22"
         },
         "151v": {
           "singlePage": "L4p_01v",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "22"
         },
         "152r": {
           "singlePage": "L4p_02r",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "22"
         },
         "152v": {
           "singlePage": "L4p_02v",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "22"
         },
         "153r": {
           "singlePage": "L4p_03r",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "22"
         },
         "153v": {
           "singlePage": "L4p_03v",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "22"
         },
         "154r": {
           "singlePage": "L4p_04r",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "22"
         },
         "154v": {
           "singlePage": "L4p_04v",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "22"
         },
         "155r": {
           "singlePage": "L4p_05r",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "22"
         },
         "155v": {
           "singlePage": "L4p_05v",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "22"
         },
         "156r": {
           "singlePage": "L4p_06r",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "22"
         },
         "156v": {
           "singlePage": "L4p_06v",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "22"
         },
         "157r": {
           "singlePage": "L4p_07r",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "22"
         },
         "157v": {
           "singlePage": "L4p_07v",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "22"
         },
         "158r": {
           "singlePage": "L4p_08r",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "22"
         },
         "158v": {
           "singlePage": "L4p_08v",
-          "doublePage": "L4_08v"
+          "doublePage": "L4_08v",
+          "type": "L4",
+          "num": "22"
         },
         "159r": {
           "singlePage": "L4p_01r",
-          "doublePage": "L4_01r"
+          "doublePage": "L4_01r",
+          "type": "L4",
+          "num": "23"
         },
         "159v": {
           "singlePage": "L4p_01v",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "23"
         },
         "160r": {
           "singlePage": "L4p_02r",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "23"
         },
         "160v": {
           "singlePage": "L4p_02v",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "23"
         },
         "161r": {
           "singlePage": "L4p_03r",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "23"
         },
         "161v": {
           "singlePage": "L4p_03v",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "23"
         },
         "162r": {
           "singlePage": "L4p_04r",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "23"
         },
         "162v": {
           "singlePage": "L4p_04v",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "23"
         },
         "163r": {
           "singlePage": "L4p_05r",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "23"
         },
         "163v": {
           "singlePage": "L4p_05v",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "23"
         },
         "164r": {
           "singlePage": "L4p_06r",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "23"
         },
         "164v": {
           "singlePage": "L4p_06v",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "23"
         },
         "165r": {
           "singlePage": "L4p_07r",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "23"
         },
         "165v": {
           "singlePage": "L4p_07v",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "23"
         },
         "166r": {
           "singlePage": "L4p_08r",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "23"
         },
         "166v": {
           "singlePage": "L4p_08v",
-          "doublePage": "L4_08v"
+          "doublePage": "L4_08v",
+          "type": "L4",
+          "num": "23"
         },
         "167r": {
           "singlePage": "L4p_01r",
-          "doublePage": "L4_01r"
+          "doublePage": "L4_01r",
+          "type": "L4",
+          "num": "24"
         },
         "167v": {
           "singlePage": "L4p_01v",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "24"
         },
         "168r": {
           "singlePage": "L4p_02r",
-          "doublePage": "L4_01v02r"
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "24"
         },
         "168v": {
           "singlePage": "L4p_02v",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "24"
         },
         "169r": {
           "singlePage": "L4p_03r",
-          "doublePage": "L4_02v03r"
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "24"
         },
         "169v": {
           "singlePage": "L4p_03v",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "24"
         },
         "170r": {
           "singlePage": "L4p_04r",
-          "doublePage": "L4_03v04r"
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "24"
         },
         "170v": {
           "singlePage": "L4p_04v",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "24"
         },
         "171r": {
           "singlePage": "L4p_05r",
-          "doublePage": "L4_04v05r"
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "24"
         },
         "171v": {
           "singlePage": "L4p_05v",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "24"
         },
         "172r": {
           "singlePage": "L4p_06r",
-          "doublePage": "L4_05v06r"
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "24"
         },
         "172v": {
           "singlePage": "L4p_06v",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "24"
         },
         "173r": {
           "singlePage": "L4p_07r",
-          "doublePage": "L4_06v07r"
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "24"
         },
         "173v": {
           "singlePage": "L4p_07v",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "24"
         },
         "174r": {
           "singlePage": "L4p_08r",
-          "doublePage": "L4_07v08r"
+          "doublePage": "L4_07v08r",
+          "type": "L4",
+          "num": "24"
         },
         "174v": {
           "singlePage": "L4p_08v",
-          "doublePage": "L4_08v"
+          "doublePage": "L4_08v",
+          "type": "L4",
+          "num": "24"
         },
         "175r": {
           "singlePage": "L4w8p_01r",
-          "doublePage": "L4w8_01r"
+          "doublePage": "L4w8_01r",
+          "type": "L4",
+          "num": "25"
         },
         "175v": {
-          "singlePage": "L4w8p_01v",
-          "doublePage": "L4w8_01v02r"
+          "singlePage": "L4p_01v",
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "25"
         },
         "176r": {
-          "singlePage": "L4w8p_02r",
-          "doublePage": "L4w8_01v02r"
+          "singlePage": "L4p_02r",
+          "doublePage": "L4_01v02r",
+          "type": "L4",
+          "num": "25"
         },
         "176v": {
-          "singlePage": "L4w8p_02v",
-          "doublePage": "L4w8_02v03r"
+          "singlePage": "L4p_02v",
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "25"
         },
         "177r": {
-          "singlePage": "L4w8p_03r",
-          "doublePage": "L4w8_02v03r"
+          "singlePage": "L4p_03r",
+          "doublePage": "L4_02v03r",
+          "type": "L4",
+          "num": "25"
         },
         "177v": {
-          "singlePage": "L4w8p_03v",
-          "doublePage": "L4w8_03v04r"
+          "singlePage": "L4p_03v",
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "25"
         },
         "178r": {
-          "singlePage": "L4w8p_04r",
-          "doublePage": "L4w8_03v04r"
+          "singlePage": "L4p_04r",
+          "doublePage": "L4_03v04r",
+          "type": "L4",
+          "num": "25"
         },
         "178v": {
-          "singlePage": "L4w8p_04v",
-          "doublePage": "L4w8_04v05r"
+          "singlePage": "L4p_04v",
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "25"
         },
         "179r": {
-          "singlePage": "L4w8p_05r",
-          "doublePage": "L4w8_04v05r"
+          "singlePage": "L4p_05r",
+          "doublePage": "L4_04v05r",
+          "type": "L4",
+          "num": "25"
         },
         "179v": {
-          "singlePage": "L4w8p_05v",
-          "doublePage": "L4w8_05v06r"
+          "singlePage": "L4p_05v",
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "25"
         },
         "180r": {
-          "singlePage": "L4w8p_06r",
-          "doublePage": "L4w8_05v06r"
+          "singlePage": "L4p_06r",
+          "doublePage": "L4_05v06r",
+          "type": "L4",
+          "num": "25"
         },
         "180v": {
-          "singlePage": "L4w8p_06v",
-          "doublePage": "L4w8_06v07r"
+          "singlePage": "L4p_06v",
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "25"
         },
         "181r": {
-          "singlePage": "L4w8p_07r",
-          "doublePage": "L4w8_06v07r"
+          "singlePage": "L4p_07r",
+          "doublePage": "L4_06v07r",
+          "type": "L4",
+          "num": "25"
         },
         "181v": {
-          "singlePage": "L4w8p_07v",
-          "doublePage": "L4w8_07v"
+          "singlePage": "L4p_07v",
+          "doublePage": "L4_07v",
+          "type": "L4",
+          "num": "25"
         }
       },
       "p": [

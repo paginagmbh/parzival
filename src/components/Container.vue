@@ -20,8 +20,6 @@
             <ol>
               <li class="is-active"><a>{{ manuscriptSigil }}</a></li>
               <li class="is-active is-hidden-touch"><a>{{ manuscriptTitle }}</a></li>
-              <li class="is-active"><a>{{ pageTitle }}</a></li>
-              <li class="is-active"><a>{{ verseTitle }}</a></li>
             </ol>
           </nav>
         </div>

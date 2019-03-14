@@ -168,6 +168,12 @@ $fa-font-path: '~font-awesome/fonts';
     width: 2 * $gap;
     height: 0.75 * $gap;
     left: 0.75rem;
+    bottom: 2.75rem;
+  }
+  .parzival-quire-path {
+    position: absolute;
+    background: rgba($black, 0.5);
+    left: 0.75rem;
     bottom: 0.75rem;
   }
 }

@@ -24,27 +24,6 @@ export default {
     return { viewport: storedViewport() }
   },
 
-  computed: {
-    quireIconPath () {
-      const { manuscript, pageList } = this
-      const [ page ] = pageList
-      let { quires } = metadata.manuscripts[manuscript]
-
-      let quireIcon
-      if (page in quires) {
-        switch (pageList.length) {
-          case 1:
-            quireIcon = quires[page].singlePage
-            break
-          case 2:
-            quireIcon = quires[page].doublePage
-            break
-        }
-      }
-      return quireIcon ? `/quire-icons/${quireIcon}.gif` : quireIcon
-    }
-  },
-
   methods: {
     openPages () {
       if (!this.osd) {

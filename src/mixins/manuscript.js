@@ -42,6 +42,15 @@ for (const sigil in metadata.manuscripts) {
 
 const sigil = (manuscript) => manuscript === 'VV' ? 'V\'' : manuscript
 
+const quireType2Name = {
+  'L1': 'Unio',
+  'L2': 'Binio',
+  'L3': 'Ternio',
+  'L4': 'Quaternio',
+  'L5': 'Quinternio',
+  'L6': 'Sexternio'
+}
+
 export default {
   computed: {
     pageList () {
@@ -54,6 +63,18 @@ export default {
 
     page () {
       return this.pageList.find(p => p)
+    },
+
+    manuscriptSigil () {
+      return sigil(this.manuscript)
+    },
+
+    manuscriptTitle () {
+      return metadata.manuscripts[this.manuscript].title
+    },
+
+    pageTitle () {
+      return 'Bl. ' + this.pageList.filter(p => p).map(this.numTitle).join(',')
     },
 
     columns () {
@@ -70,18 +91,6 @@ export default {
         }
       }
       return result
-    },
-
-    manuscriptSigil () {
-      return sigil(this.manuscript)
-    },
-
-    manuscriptTitle () {
-      return metadata.manuscripts[this.manuscript].title
-    },
-
-    pageTitle () {
-      return 'Bl. ' + this.pageList.filter(p => p).map(this.numTitle).join(',')
     },
 
     verseTitle () {
@@ -105,6 +114,45 @@ export default {
       }
       hands.reverse()
       return hands.length === 0 ? undefined : `Hand ${hands.join(' > ')}`
+    },
+
+    quires () {
+      const { quires } = metadata.manuscripts[this.manuscript]
+      const result = []
+      for (const page of this.pageList) {
+        if (page in quires) result.push(quires[page])
+      }
+      return result
+    },
+
+    uniqueQuires () {
+      const unique = []
+      for (const quire of this.quires) {
+        if (unique.length > 0 && unique[0].num === quire.num) continue
+        unique.unshift(quire)
+      }
+      unique.reverse()
+      return unique
+    },
+
+    quireTitle () {
+      const nums = this.uniqueQuires.map(({ num }) => num).join('/')
+      const names = this.uniqueQuires.map(({ type }) => quireType2Name[type] || type).join('/')
+      return `${nums}) ${names}`
+    },
+
+    quireIconPath () {
+      const [ quire ] = this.quires
+      let quireIcon
+      switch (this.pageList.length) {
+        case 1:
+          quireIcon = quire.singlePage
+          break
+        case 2:
+          quireIcon = quire.doublePage
+          break
+      }
+      return quireIcon ? `/quire-icons/${quireIcon}.gif` : quireIcon
     },
 
     otherManuscript () {

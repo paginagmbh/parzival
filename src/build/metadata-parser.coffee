@@ -102,12 +102,13 @@ module.exports = () ->
   quireTypes = (Object.keys quireTypes).reduce quireTypeIndexer, {}
 
   quires = await xfs.readFile quiresPath, { encoding }
-  quires = csvParse quires, { columns: ["manuscript", "pages", "quire"] }
+  quires = csvParse quires, { columns: ["manuscript", "pages", "num", "quire"] }
   quires = (q for q in quires when q.quire)
 
   quires = for q in quires
     { manuscript } = q
     type = q.quire
+    num = q.num
     quireType = quireTypes[type]
     { count, pages, leafs } = quireType
 
@@ -131,7 +132,8 @@ module.exports = () ->
                 .map (leaf) -> "#{type}_#{leaf}"
                 .shift()
       page = pageSigil page
-      { manuscript, page, singlePage, doublePage }
+      type = type.substring 0, 2
+      { manuscript, page, type, num, singlePage, doublePage }
 
   quires = quires.reduce ((all, one) -> all.concat one), []
 
@@ -165,8 +167,8 @@ module.exports = () ->
     for p in pages
       [ q ] = (q for q in quires when q.page is p and q.manuscript is manuscript)
       if q?
-        { singlePage, doublePage } = q
-        msQuires[p] = { singlePage, doublePage }
+        { singlePage, doublePage, type, num } = q
+        msQuires[p] = { singlePage, doublePage, type, num }
 
     p = (v for c, v of verses when verse.p v.start).sort verseSort
     np = (v for c, v of verses when verse.np v.start).sort verseSort
