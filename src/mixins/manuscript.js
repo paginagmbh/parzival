@@ -74,7 +74,7 @@ export default {
     },
 
     pageTitle () {
-      return 'Bl. ' + this.pageList.filter(p => p).map(this.numTitle).join(',')
+      return 'Bl. ' + this.pageList.filter(p => p).map(this.numTitle).join(', ')
     },
 
     columns () {
