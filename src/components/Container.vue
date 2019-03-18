@@ -12,7 +12,8 @@
         <router-link class="navbar-item" :to="routes.transcript" title="Transkription"><i class="fa fa-file-text-o"></i></router-link>
         <router-link class="navbar-item" :to="routes.singlePage" title="Einzelseite"><i class="fa fa-file-o"></i></router-link>
         <router-link class="navbar-item" :to="routes.doublePage" title="Doppelseite"><i class="fa fa-columns"></i></router-link>
-        <router-link class="navbar-item" :to="routes.synopsis || ''" title="Synopse" :disabled="!routes.synopsis"><i class="fa fa-link"></i></router-link>
+        <router-link class="navbar-item" :to="routes.synopsis"   title="Synopse"
+                     v-if="routes.synopsis"><i class="fa fa-link"></i></router-link>
       </div>
       <div class="navbar-end">
         <div class="navbar-item is-hidden-mobile" v-if="$route.name !== 'synopsis'">
