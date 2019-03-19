@@ -116,7 +116,17 @@ $fa-font-path: '~font-awesome/fonts';
       display: inline-block;
     }
 
-    .parzival-verse-num, .parzival-column {
+    .parzival-verse-num {
+      text-align: right;
+      @include touch {
+        width: 15%;
+      }
+      @include desktop {
+        width: 10%;
+      }
+    }
+
+    .parzival-column {
       text-align: right;
       @include touch {
         width: 10%;
@@ -128,10 +138,10 @@ $fa-font-path: '~font-awesome/fonts';
 
     .parzival-verse {
       @include touch {
-        width: 30%;
+        width: 25%;
       }
       @include desktop {
-        width: 40%;
+        width: 35%;
       }
     }
 
