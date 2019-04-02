@@ -192,9 +192,7 @@ export default {
         otherManuscript = { ...route, params: { ...route.params, verse } }
       }
 
-      const synopsis = this.verse
-        ? { ...this.toVerse(this.verse, 'V', 1), name: 'synopsis' }
-        : undefined
+      const synopsis = this.toSynopsis(this.verse)
 
       return {
         manuscripts,
@@ -211,27 +209,34 @@ export default {
           name: 'introduction'
         },
 
-        transcript: {
-          ...this.toPage(null, null, 1),
-          name: 'transcript'
-        },
+        transcript: this.toPerspective(
+          this.toPage(null, null, 1),
+          'transcript'
+        ),
 
-        doublePage: {
-          ...this.toPage(null, null, 2),
-          name: 'facsimile'
-        },
+        doublePage: this.toPerspective(
+          this.toPage(null, null, 2),
+          'facsimile'
+        ),
 
-        singlePage: {
-          ...this.toPage(null, null, 1),
-          name: 'facsimile'
-        }
+        singlePage: this.toPerspective(
+          this.toPage(null, null, 1),
+          'facsimile'
+        )
       }
     }
   },
 
   methods: {
+
+    toPerspective (route, name) {
+      return route ? { ...route, name } : undefined
+    },
+
     nextPage (route) {
       const { manuscript, page } = this
+      if (!page) return undefined
+
       const count = Math.min(2, this.pageList.length)
       const key = count === 2 ? 'double' : 'single'
       const { length } = pages[key][manuscript]
@@ -246,6 +251,8 @@ export default {
 
     prevPage (route) {
       const { manuscript, page } = this
+      if (!page) return undefined
+
       const count = Math.min(2, this.pageList.length)
       const key = count === 2 ? 'double' : 'single'
       const index = Math.max(0, sequences[key][manuscript][page] - count)
@@ -255,9 +262,11 @@ export default {
     },
 
     toPage (page, manuscript, count, verse) {
-      const { name, query, params } = this.$route
-      manuscript = manuscript || params.manuscript || this.manuscript
       page = page || this.page
+      if (!page) return undefined
+
+      let { name, query, params } = this.$route
+      manuscript = manuscript || params.manuscript || this.manuscript
 
       verse = this.firstVerse(page, manuscript, verse || this.verse)
 
@@ -272,7 +281,8 @@ export default {
           break
       }
 
-      return { name, query, params: { ...params, manuscript, pages: page, verse } }
+      params = { ...params, manuscript, pages: page, verse }
+      return { name, query, params }
     },
 
     firstVerse (page, manuscript, verse) {
@@ -311,6 +321,10 @@ export default {
       }
 
       return { name, query, params: { ...params, manuscript, pages: page, verse } }
+    },
+
+    toSynopsis (verse) {
+      return verse ? { name: 'synopsis', params: { verse } } : undefined
     },
 
     numTitle (number) {

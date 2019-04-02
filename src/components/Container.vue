@@ -25,7 +25,9 @@
             </ol>
           </nav>
         </div>
-        <a class="navbar-item" :class="active('overviewModal')" @click="toggle('overviewModal')" title="Handschriftenüberblick"><i class="fa fa-th"></i></a>
+        <a class="navbar-item" :class="active('overviewModal')" @click="toggle('overviewModal')" title="Handschriftenüberblick" v-if="$route.name !== 'synopsis'">
+          <i class="fa fa-th"></i>
+        </a>
         <a class="navbar-item" :class="active('searchModal')" @click="toggle('searchModal')" title="Suche in der Handschrift"><i class="fa fa-search"></i></a>
         <router-link class="navbar-item is-size-4" :to="routes.otherManuscript" title="Handschrift wechseln" v-if="$route.name !== 'synopsis'">
           <i class="fa fa-exchange"></i>
@@ -40,7 +42,7 @@
     </div>
   </nav>
   <slot></slot>
-  <div class="parzival-overview modal" :class="active('overviewModal')" @keyup.esc="toggle('overviewModal')" v-focus="overviewModal" tabindex="1000">
+  <div class="parzival-overview modal" :class="active('overviewModal')" @keyup.esc="toggle('overviewModal')" v-focus="overviewModal" tabindex="1000" v-if="$route.name !== 'synopsis'">
     <div class="modal-background"></div>
     <div class="modal-content">
       <div class="section">

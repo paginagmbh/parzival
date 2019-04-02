@@ -56,7 +56,7 @@
               <li v-for="(p, pi) in pagination" :key="pi">
                 <router-link class="pagination-link"
                    :class="{'is-current': p.index === page }"
-                   :to="toVerse(p.title)">
+                   :to="toSynopsis(p.title)">
                   {{ p.title }}
                 </router-link>
               </li>

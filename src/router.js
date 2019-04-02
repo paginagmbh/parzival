@@ -25,7 +25,7 @@ export default new Router({
       component: Transcript,
       props: true },
 
-    { path: '/synopse/:manuscript/:pages/:verse?',
+    { path: '/synopse/:verse',
       name: 'synopsis',
       component: Synopsis,
       props: true },

@@ -30,13 +30,20 @@ for (let vc = 0, vl = verses.length; vc < vl; vc++) {
 
 export default {
   name: 'synopsis',
-  props: ['manuscript', 'pages', 'verse'],
+  props: ['verse'],
 
   data: () => ({
+    manuscript: 'V',
     scrolling: false
   }),
 
   computed: {
+    pages () {
+      const { verse, manuscript } = this
+      return ((transcript.columns[verse] || {})[manuscript] || '')
+        .replace(/[ab]$/, '') || ''
+    },
+
     page () {
       const pageIndex = binarySearch(pages, v.parse(this.verse), (p, verse) => {
         if (v.compare(verse, p.start) < 0) {
@@ -74,8 +81,8 @@ export default {
           callback: ({ el, going, direction }) => {
             if (this.scrolling) return
             if (going === 'in') {
-              const verseRoute = this.toVerse(el.getAttribute('data-verse'))
-              if (verseRoute.params.pages === this.pages) return
+              const verseRoute = this.toSynopsis(el.getAttribute('data-verse'))
+              if (verseRoute.params.verse === this.verse) return
               this.$router.replace(verseRoute)
             }
           },
@@ -106,19 +113,19 @@ export default {
     prevSynopsis () {
       return this.page === 0
         ? undefined
-        : this.toVerse(pages[this.page - 1].title)
+        : this.toSynopsis(pages[this.page - 1].title)
     },
 
     nextSynopsis () {
       return this.page === (pages.length - 1)
         ? undefined
-        : this.toVerse(pages[this.page + 1].title)
+        : this.toSynopsis(pages[this.page + 1].title)
     }
   },
 
   methods: {
     updateVerse (verse) {
-      this.$router.replace(this.toVerse(verse))
+      this.$router.replace(this.toSynopsis(verse))
     }
   },
 
