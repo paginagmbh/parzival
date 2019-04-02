@@ -9,6 +9,7 @@
   "scripts": {
     "configure": "babel-node --config-file ./babel-node.config.js src/build/configure.js",
     "clean": "babel-node --config-file ./babel-node.config.js src/build/clean.js",
+    "img2dzi": "babel-node --config-file ./babel-node.config.js src/build/img2dzi.js",
     "img2ptif": "babel-node --config-file ./babel-node.config.js src/build/img2ptif.js",
     "build": "babel-node --config-file ./babel-node.config.js src/build/data.js && vue-cli-service build",
     "serve": "vue-cli-service serve",

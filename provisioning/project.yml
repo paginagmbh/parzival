@@ -44,13 +44,16 @@
   apt:
     pkg: libvips-tools
 
-- name: Create IIIF image root
+- name: Create IIIF/DZI image roots
   file:
-    path: "{{ iipsrv_data }}"
+    path: "{{ item }}"
     state: directory
     owner: "parzival"
     group: "www-data"
     mode: "0775"
+  with_items:
+    - "{{ iipsrv_data }}"
+    - "/var/www/dzi"
 
 - name: Create project root
   file:
