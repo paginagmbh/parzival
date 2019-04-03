@@ -21,6 +21,7 @@ supplied = (e) ->
   classes.push "kustode" if type is "Kustode"
   classes.push "reklamante" if type is "Reklamante"
   classes.push "nota" if type is "Notiz"
+  classes.push "marginalia" if type is "Marginalie"
 
   switch e.event
     when "start" then "<span class=\"#{classes.join " "}\">"
@@ -87,6 +88,7 @@ parseSource = ({ source, manuscript }, index) ->
     (event.local is "note") and switch (markup.attr event, "type")
       when "Kapitelüberschrift" then true
       when "Anweisung", "Reklamante", "Kustode", "Notiz" then true
+      when "Marginalie" then false # FIXME: should these be displayed too?
       else false
 
   isntVerseText = start every (ln "text", "note"), (negate paratext)
