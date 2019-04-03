@@ -30,7 +30,7 @@ const convert = async () => {
         const ext = extname(image)
         const imageBase = basename(image, ext).toLowerCase()
 
-        if (!imageBase.match(/^v{1,2}[0-9]{3}[rv]$/)) continue
+        if (!imageBase.match(/^v{1,2}(vs)?[0-9]{3}[rv]$/)) continue
 
         const suffix = numbered ? '_num' : ''
         const ptif = resolve(ptifDir, `${imageBase}${suffix}.ptif`)
