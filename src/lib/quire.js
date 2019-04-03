@@ -72,11 +72,11 @@ export const leafs = (pages) => {
 
   for (let pc = 0, pl = pages.length; pc < pl; pc++) {
     const last = (pc + 1) === pl
-    const { leaf, page } = pages[pc]
+    const page = pages[pc]
 
-    next.push({ leaf, page })
+    next.push(page)
 
-    switch (page) {
+    switch (page.page) {
       case 'r':
         if (!last) {
           leafs.push(next = [])

@@ -74,6 +74,7 @@ export default {
     },
 
     pageTitle () {
+      if (this.pageList.length === 0) return ''
       return 'Bl. ' + this.pageList.filter(p => p).map(this.numTitle).join(', ')
     },
 
@@ -142,6 +143,7 @@ export default {
     },
 
     quireIconPath () {
+      if (this.quires.length === 0) return undefined
       const [ quire ] = this.quires
       let quireIcon
       switch (this.pageList.length) {

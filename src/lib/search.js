@@ -41,9 +41,10 @@ export const searchByVerse = ({ np, p }, query) => {
 }
 
 export const searchPage = (manuscript, query) => {
-  query = query.replace(/[^0-9rv]/g, '')
+  query = query.replace(/[^0-9rvs]/g, '')
 
-  let [ , leaf, page ] = /^([0-9]+)([rv])?$/.exec(query)
+  let [ , prefix, leaf, page ] = /^(vs)?([0-9]+)([rv])?$/.exec(query)
+  prefix = prefix || ''
   leaf = leaf ? parseInt(leaf, 10) || undefined : undefined
   page = page || 'r'
 
@@ -52,7 +53,7 @@ export const searchPage = (manuscript, query) => {
   }
 
   leaf = Math.max(0, Math.min(999, leaf))
-  page = pageSigil({ leaf, page })
+  page = pageSigil({ prefix, leaf, page })
   if (manuscript.pages.indexOf(page) < 0) {
     return undefined
   }
