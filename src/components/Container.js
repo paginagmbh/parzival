@@ -73,7 +73,6 @@ export default {
       this.notFound = false
       this.$router.push(this.toPage(page, this.manuscript, undefined, verse))
       this.toggle('searchModal')
-
     },
 
     searchVerse (e) {
