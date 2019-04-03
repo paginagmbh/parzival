@@ -65,7 +65,12 @@
           <div class="container">
             <div class="field">
               <div class="control has-icons-left">
-                <input class="input is-medium" type="text" placeholder="z. B. 30v oder 123 oder 700.20[1]" v-model.trim="query" v-focus="searchModal" @keyup.esc="toggle('searchModal')" @keyup.enter="search" :class="{ 'is-danger': notFound }"/><span class="icon is-left"><i class="fa fa-search"></i></span>
+                <input class="input is-medium" type="text" placeholder="z. B. 30v, 123, 700.20[1], Ep 2 oder Pr 100" v-model.trim="query" v-focus="searchModal" @keyup.esc="toggle('searchModal')" @keyup.enter="searchAll" :class="{ 'is-danger': notFound }"/><span class="icon is-left"><i class="fa fa-search"></i></span>
+              </div>
+              <div class="help is-danger" v-if="notFound">
+                Ihre Suchanfrage lieferte kein Ergebnis.
+                Bitte beachten Sie u. a., das folgende Verse nicht transkribiert wurden:
+                NP&nbsp;2000–7999, NP&nbsp;10000–10999, NP&nbsp;12000–14999 und NP&nbsp;15208–25999.
               </div>
             </div>
             <div class="field is-grouped">
