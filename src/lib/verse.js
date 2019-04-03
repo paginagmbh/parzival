@@ -54,8 +54,8 @@ export const toString = ({ nums, plus }) => {
   ].join('')
 
   return str
-    .replace(/112.12\[([0-9]+)]/, 'Pr $1')
-    .replace(/827.30\[([0-9]+)]/, 'Ep $1')
+    .replace(/112.12\[([0-9]+)\]/, 'Pr $1')
+    .replace(/827.30\[([0-9]+)\]/, 'Ep $1')
 }
 
 const compareComponent = (a, b) => {
