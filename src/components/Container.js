@@ -64,7 +64,7 @@ export default {
       const { query } = this
       const manuscript = metadata.manuscripts[this.manuscript]
       const result = fn(manuscript, query)
-      if (!result || excludedVerse(v.parse(result.verse))) {
+      if (!result || (result.verse && excludedVerse(v.parse(result.verse)))) {
         this.notFound = true
         return
       }

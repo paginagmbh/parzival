@@ -51,14 +51,22 @@ const quireType2Name = {
   'L6': 'Sexternio'
 }
 
+const page2Pages = (manuscript, page, count) => {
+  switch (count) {
+    case 2:
+      return pages.double[manuscript][sequences.double[manuscript][page]]
+    case 1:
+    default:
+      return pages.single[manuscript][sequences.single[manuscript][page]]
+  }
+}
+
+const parsePages = (pages) => pages ? pages.toLowerCase().split(/,\s*/g) : []
+
 export default {
   computed: {
     pageList () {
-      const pages = this.pages || ''
-      if (pages === '') {
-        return []
-      }
-      return pages.toLowerCase().split(/,\s*/g)
+      return parsePages(this.pages)
     },
 
     page () {
@@ -247,8 +255,15 @@ export default {
         length - 1
       )
       const next = pages[key][manuscript][index]
-      const verse = this.firstVerse(next.replace(/,.+$/, ''), manuscript)
-      return { ...route, params: { ...route.params, pages: next, verse } }
+      const found = this.firstVerse(next, manuscript)
+      return {
+        ...route,
+        params: {
+          ...route.params,
+          pages: page2Pages(manuscript, found.page, count),
+          verse: found.verse
+        }
+      }
     },
 
     prevPage (route) {
@@ -259,48 +274,54 @@ export default {
       const key = count === 2 ? 'double' : 'single'
       const index = Math.max(0, sequences[key][manuscript][page] - count)
       const prev = pages[key][manuscript][index]
-      const verse = this.firstVerse(prev.replace(/,.+$/, ''), manuscript)
-      return { ...route, params: { ...route.params, pages: prev, verse } }
+      const found = this.firstVerse(prev, manuscript)
+      return {
+        ...route,
+        params: {
+          ...route.params,
+          pages: page2Pages(manuscript, found.page, count),
+          verse: found.verse
+        }
+      }
     },
 
-    toPage (page, manuscript, count, verse) {
-      page = page || this.page
-      if (!page) return undefined
+    toPage (toPages, manuscript, count, verse) {
+      toPages = toPages || this.pages
+      if (!toPages) return undefined
 
       let { name, query, params } = this.$route
       manuscript = manuscript || params.manuscript || this.manuscript
 
-      verse = this.firstVerse(page, manuscript, verse || this.verse)
-
+      const found = this.firstVerse(toPages, manuscript, verse || this.verse)
       count = count || this.pageList.length
-      switch (count) {
-        case 2:
-          page = pages.double[manuscript][sequences.double[manuscript][page]]
-          break
-        case 1:
-        default:
-          page = pages.single[manuscript][sequences.single[manuscript][page]]
-          break
-      }
 
-      params = { ...params, manuscript, pages: page, verse }
+      params = {
+        ...params,
+        manuscript,
+        pages: page2Pages(manuscript, found.page, count),
+        verse: found.verse
+      }
       return { name, query, params }
     },
 
-    firstVerse (page, manuscript, verse) {
-      let candidate
-      for (const columnSigil of ['a', 'b']) {
-        const column = `${page}${columnSigil}`
-        const verses = transcript.verses[manuscript][column]
-        if (!verses) continue
-        for (const v of verses) {
-          candidate = candidate || v
-          if (v === verse) {
-            return verse
+    firstVerse (pages, manuscript, verse) {
+      let pc
+      let vc
+      for (const page of parsePages(pages).filter(p => p)) {
+        pc = pc || page
+        for (const columnSigil of ['a', 'b']) {
+          const column = `${page}${columnSigil}`
+          const verses = transcript.verses[manuscript][column]
+          if (!verses) continue
+          for (const v of verses) {
+            vc = vc || v
+            if (v === verse) {
+              return { page, verse }
+            }
           }
         }
       }
-      return candidate
+      return { page: pc, verse: vc }
     },
 
     toVerse (verse, manuscript, count) {
