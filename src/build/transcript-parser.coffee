@@ -15,10 +15,11 @@ verseSigil = (el) ->
 breakSigil = (el) -> m.parsePageSigil (xmlId el)
 
 supplied = (e) ->
+  type = (markup.attr e, "type", "")
   classes = ["supplied", e.local]
-  classes.push "anweisung" if (markup.attr e, "type", "") is "Anweisung"
-  classes.push "kustode" if (markup.attr e, "type", "") is "Kustode"
-  classes.push "reklamante" if (markup.attr e, "type", "") is "Reklamante"
+  classes.push "anweisung" if type is "Anweisung"
+  classes.push "kustode" if type is "Kustode"
+  classes.push "reklamante" if type is "Reklamante"
 
   switch e.event
     when "start" then "<span class=\"#{classes.join " "}\">"
@@ -36,6 +37,20 @@ damage = (e) ->
       classes = ["damage"]
       classes.push agent if agent
       "<span class=\"#{classes.join " "}\">"
+
+    else "</span>"
+
+gap = (e) ->
+  switch e.event
+    when "start"
+      reason = (markup.attr e, "reason", "").toLowerCase()
+
+      classes = ["gap"]
+      classes.push "unreadable" if reason is "unleserlich"
+      classes.push "lost" if reason is "fragmentverlust"
+
+      placeholder = (markup.attr e, "quantity", "")
+      "<span class=\"#{classes.join " "}\">#{placeholder}"
 
     else "</span>"
 
@@ -158,6 +173,7 @@ module.exports = (sources) ->
           when "hi" then hi e
           when "del", "add" then edited e
           when "damage" then damage e
+          when "gap" then gap e
           when "lb"
             classes = ["lb"]
             classes.push "wb" if lastChar.match /\s/

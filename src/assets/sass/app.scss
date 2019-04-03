@@ -407,5 +407,15 @@ $fa-font-path: '~font-awesome/fonts';
         text-decoration: line-through;
       }
     }
+
+    .gap {
+      &.lost {
+        font-style: italics;
+      }
+
+      &.unreadable {
+        font-style: normal;
+      }
+    }
   }
 }
