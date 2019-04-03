@@ -1,5 +1,5 @@
 export const equal = (a, b) => {
-  for (const k of ['leaf', 'page', 'column']) {
+  for (const k of ['prefix', 'leaf', 'page', 'column']) {
     if (a[k] === b[k]) {
       continue
     }
@@ -20,30 +20,30 @@ export const pad = (num, length = 2) => {
 }
 
 export const parsePageSigil = (str) => {
-  let [, leaf, page, column] = str.trim().match(/([0-9]{1,3})([rv])([ab])?/)
+  let [, prefix, leaf, page, column] = str.trim().match(/(vs)?([0-9]{1,3})([rv])([ab])?/)
   leaf = parseInt(leaf, 10)
   if (!leaf || !page) {
     throw new Error(str)
   }
-  return { leaf, page, column }
+  return { prefix, leaf, page, column }
 }
 
-export const pageSigil = ({ leaf, page }, padLength = 2) => {
-  return [pad(leaf, padLength), page].join('')
+export const pageSigil = ({ prefix, leaf, page }, padLength = 2) => {
+  return [prefix || '', pad(leaf, padLength), page].join('')
 }
 
-export const columnSigil = ({ leaf, page, column }, padLength = 2) => {
-  return [pad(leaf, padLength), page, column].join('')
+export const columnSigil = ({ prefix, leaf, page, column }, padLength = 2) => {
+  return pageSigil({ prefix, leaf, page }, padLength) + column
 }
 
-export const nextPage = ({ leaf, page }) => {
+export const nextPage = ({ prefix, leaf, page }) => {
   if (page === 'r') {
     page = 'v'
   } else {
     leaf += 1
     page = 'r'
   }
-  return { leaf, page }
+  return { prefix, leaf, page }
 }
 
 export const pageRange = (start, end) => {

@@ -38,14 +38,14 @@ metadata =
         state.hand = this.hands[handMatch[1]];
         return undefined
 
-      re = /Bl\. (\d+)([rv])([ab]): (?:NP )?([0-9.[\]]+) - (?:NP )?([0-9.[\]]+)/
+      re = /Bl\. (vs)?(\d+)([rv])([ab]): (?:NP )?([0-9.[\]]+) - (?:NP )?([0-9.[\]]+)/
       match = re.exec record
       return undefined if not match?
 
-      [, leaf, page, column, start, end ] = match;
+      [, prefix, leaf, page, column, start, end ] = match;
       leaf = parseInt leaf, 10
       { hand } = state
-      { leaf, page, column, start, end, hand }
+      { prefix, leaf, page, column, start, end, hand }
 
   R:
     sigil: "VV"
@@ -55,14 +55,14 @@ metadata =
       R2: "II"
     verses: path.resolve metadataDir, "verses_vv.txt"
     verseParser: (record) ->
-      re = /Bl\. (\d+)([rv])([ab]): ([0-9.[\]]+) – ([0-9.[\]]+)/
+      re = /Bl\. (vs)?(\d+)([rv])([ab]): ([0-9.[\]]+) – ([0-9.[\]]+)/
       match = re.exec record
       return undefined if not match?
 
-      [, leaf, page, column, start, end ] = match;
+      [, prefix, leaf, page, column, start, end ] = match;
       leaf = parseInt leaf, 10
       hand = this.hands[if leaf <= 48 then "R1" else "R2"]
-      { leaf, page, column, start, end, hand };
+      { prefix, leaf, page, column, start, end, hand }
 
 headings =
   V:
@@ -140,6 +140,7 @@ module.exports = () ->
   manuscripts = {}
   for manuscript in ["K", "R"]
     verses = {}
+    pages = []
     data = metadata[manuscript]
     records = await xfs.readFile data.verses, { encoding }
     records = records.split /[\n\r]+/
@@ -149,19 +150,15 @@ module.exports = () ->
     for record in records
       parsed = parser record, parserState
       if parsed?
-        start = verse.parse parsed.start
-        end = verse.parse parsed.end
+        page = pageSigil parsed
+        pages.push page if (pages.length is 0) or (pages[pages.length - 1] isnt page)
+        if (parsed.start isnt "0") and (parsed.end isnt "0")
+          start = verse.parse parsed.start
+          end = verse.parse parsed.end
 
-        assert.ok (verse.compare start, end) <= 0
-        assert.ok start.nums.length is end.nums.length
-
-        verses[columnSigil parsed] = { parsed..., start, end }
-
-    pages = (Object.keys verses)
-      .map((c) -> c.replace /[ab]$/, "")
-      .reduce ((idx, p) -> { idx..., [p]: true }), {}
-
-    pages = (Object.keys pages).sort()
+          assert.ok (verse.compare start, end) <= 0
+          assert.ok start.nums.length is end.nums.length
+          verses[columnSigil parsed] = { parsed..., start, end }
 
     msQuires = {}
     for p in pages

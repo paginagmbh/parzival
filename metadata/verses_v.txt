@@ -1,6 +1,10 @@
 Verskonkordanz zu Handschrift Karlsruhe, Badische Landesbibliothek, Donaueschingen 97
 
 Schreiber I:
+Bl. vs1ra: 0 - 0
+Bl. vs1rb: 0 - 0
+Bl. vs1va: 0 - 0
+Bl. vs1vb: 0 - 0
 Bl. 1ra: 1.1 - 2.20
 Bl. 1rb: 2.21 - 4.10
 Bl. 1va: 4.11 - 5.30
@@ -1309,3 +1313,14 @@ Bl. 320va: 827.30[557] - 827.30[561]
 
 Schreiber V:
 Bl. 320va: 827.30[562] - 827.30[579]
+Bl. 320vb: 0 - 0
+Bl. 321ra: 0 - 0
+Bl. 321rb: 0 - 0
+Bl. 321va: 0 - 0
+Bl. 321vb: 0 - 0
+Bl. 322ra: 0 - 0
+Bl. 322rb: 0 - 0
+Bl. 322va: 0 - 0
+Bl. 322vb: 0 - 0
+Bl. 323ra: 0 - 0
+Bl. 323rb: 0 - 0
