@@ -1,6 +1,6 @@
 <template>
 <div class="parzival-transcript-viewer parzival-overflow-scroll">
-  <div class="hero" v-if="text.length == 0">
+  <div class="hero" v-if="verseTitle && text.length == 0">
     <div class="hero-body">
       <article class="message">
         <div class="message-body content">
