@@ -2306,7 +2306,7 @@
       </p>
       <p class="MsoNormal"><b>Einband</b>: Zwischen 1701 und 1800 entstandener, 40,5 x 28 cm großer <router-link to="/faksimile/VV/vs001r">Einband</router-link> (Kartondeckel mit hellem Schweinsleder
         bezogen) ohne Verzierung (<router-link to="/faksimile/VV/vs001r">Vorderdeckel</router-link> und <router-link to="/faksimile/VV/183v">Hinterdeckel</router-link> identisch). 5,5–6,0 cm breiter
-        </span><a href="https://parzival.pagina-dh.de/iiif/vv184r.ptif/full/800,/0/default.jpg">Rücken</a> mit
+        <a href="https://parzival.pagina-dh.de/iiif/vv184r.ptif/full/800,/0/default.jpg">Rücken</a> mit
           sieben Bünden. Im ersten Feld: <i>A.I. | I</i> (mit schwarzer Tinte), im zweiten Feld: <i>Parcefali Varior</i>[<i>um</i>]<i>
           | Rerum Natural</i>[<i>ium</i>]<i> | POEMA</i> (mit schwarzer Tinte, mit Bleistift unterstrichen), im
           vierten Feld die Ziffer <i>19</i> (mit schwarzer Tinte). Den <router-link to="/faksimile/VV/vs001v">Vorderspiegel</router-link> bildet das auf den Deckel innen
@@ -2521,7 +2521,7 @@
           auf Bl.
           <router-link to="/faksimile/VV/111v">111v</router-link>a/
           <router-link to="/faksimile/VV/112r">112r</router-link>b
-                (mit Textverlust) und Spuren davon auf dem </span><a href="https://parzival.pagina-dh.de/iiif/vv184v.ptif/full/800,/0/default.jpg">Längsschnitt</a>;
+                (mit Textverlust) und Spuren davon auf dem <a href="https://parzival.pagina-dh.de/iiif/vv184v.ptif/full/800,/0/default.jpg">Längsschnitt</a>;
                   Risse und Löcher im Pergament vor der Beschriftung teilweise
           genäht, Fäden verloren (vgl. Bll.
           <router-link to="/faksimile/VV/058r">58</router-link>,
@@ -4142,7 +4142,7 @@
                                       <i>1. Gemahl Georg v.
                       Rappolstein † 1555 | 2. &quot; </i>[Wiederholung <i>Gemahl</i>]<i> Heinrich
                       Graf v. Castell † 1595 – Sohn Heinrich † 1556. </i><span style="font-variant: small-caps">Fechter</span> (1935), S. 39, löst <i>EFZRapolſtein</i> mit Egenolf
-                  Freiherr von Rappoltstein auf.</span></p>
+                  Freiherr von Rappoltstein auf.</p>
           </div>
           <div id="ftn108">
             <p class="MsoFootnoteText"><a href="#_ftnref108" id="_ftn108"><sup>[108]</sup></a> Auflösung nach <span
