@@ -156,13 +156,21 @@ export default {
       let quireIcon
       switch (this.pageList.length) {
         case 1:
-          quireIcon = quire.singlePage
+          quireIcon = `/quire-icons/${quire.singlePage}.gif`
           break
         case 2:
-          quireIcon = quire.doublePage
+          switch (this.uniqueQuires.length) {
+            case 1:
+              quireIcon = `/quire-icons/${quire.doublePage}.gif`
+              break
+            default: {
+              const sigil = this.uniqueQuires.map(({ type }) => type).join('_')
+              quireIcon = `/quire-icons/transition/${sigil}.gif`
+            }
+          }
           break
       }
-      return quireIcon ? `/quire-icons/${quireIcon}.gif` : quireIcon
+      return quireIcon
     },
 
     otherManuscript () {
