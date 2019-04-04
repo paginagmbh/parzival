@@ -132,7 +132,6 @@ module.exports = () ->
                 .map (leaf) -> "#{type}_#{leaf}"
                 .shift()
       page = pageSigil page
-      type = type.substring 0, 2
       { manuscript, page, type, num, singlePage, doublePage }
 
   quires = quires.reduce ((all, one) -> all.concat one), []

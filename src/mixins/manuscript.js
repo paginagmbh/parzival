@@ -146,7 +146,7 @@ export default {
 
     quireTitle () {
       const nums = this.uniqueQuires.map(({ num }) => num).join('/')
-      const names = this.uniqueQuires.map(({ type }) => quireType2Name[type] || type).join('/')
+      const names = this.uniqueQuires.map(({ type }) => quireType2Name[type.substring(0, 2)] || type).join('/')
       return `${nums}) ${names}`
     },
 
