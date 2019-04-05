@@ -69,7 +69,7 @@
               </div>
               <div class="help is-danger" v-if="notFound">
                 Ihre Suchanfrage lieferte kein Ergebnis.
-                Bitte beachten Sie u. a., das folgende Verse nicht transkribiert wurden:
+                Bitte beachten Sie u. a., dass folgende Verse nicht transkribiert wurden:
                 NP&nbsp;2000–7999, NP&nbsp;10000–10999, NP&nbsp;12000–14999 und NP&nbsp;15208–25999.
               </div>
             </div>
