@@ -76,11 +76,11 @@ export default {
     },
 
     searchVerse (e) {
-      return this.search(e, searchVerse)
+      return this.searchAll(e, searchVerse)
     },
 
     searchPage (e) {
-      return this.search(e, searchPage)
+      return this.searchAll(e, searchPage)
     }
   },
 
