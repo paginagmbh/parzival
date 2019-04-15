@@ -63,6 +63,31 @@ const page2Pages = (manuscript, page, count) => {
 
 const parsePages = (pages) => pages ? pages.toLowerCase().split(/,\s*/g) : []
 
+const pageTitles = {
+  'V': {
+    'vs001r': 'Buchdeckel vorne',
+    'vs001v': 'Vorsatzblatt',
+    '321r': 'Vorsatzblatt',
+    '321v': 'Vorsatzblatt',
+    '322r': 'Buchdeckel',
+    '322v': 'Buchdeckel außen'
+  },
+  'VV': {
+    'vs001r': 'Buchdeckel vorne',
+    'vs001v': 'Vorsatzblatt',
+    'vs002r': 'Bl. Ir',
+    'vs002v': 'Bl. Iv',
+    'vs003r': 'Bl. IIr',
+    'vs003v': 'Bl. IIv',
+    'vs004r': 'Bl. IIIr',
+    'vs004v': 'Bl. IIIv',
+    '182r': 'Bl. IVr',
+    '182v': 'Bl. IVv',
+    '183r': 'Vorsatzblatt',
+    '183v': 'Buchdeckel außen'
+  }
+}
+
 export default {
   computed: {
     pageList () {
@@ -83,7 +108,18 @@ export default {
 
     pageTitle () {
       if (this.pageList.length === 0) return ''
-      return 'Bl. ' + this.pageList.filter(p => p).map(this.numTitle).join(', ')
+      let titles = []
+      for (const page of this.pageList) {
+        if (!page) continue
+        titles.push(pageTitles[this.manuscript][page] || `Bl. ${this.numTitle(page)}`)
+      }
+      if (titles.every(t => t.startsWith('Bl. '))) {
+        titles = titles.map(t => t.replace(/^Bl\. /, ''))
+        titles = `Bl. ${titles.join(', ')}`
+      } else {
+        titles = titles.join(', ')
+      }
+      return titles
     },
 
     columns () {
