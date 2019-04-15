@@ -64,8 +64,12 @@
         <div class="hero-body">
           <div class="container">
             <div class="field">
+              <label class="label has-text-light">
+                Ihre Suchanfrage<br>
+                z. B.  <i>30v</i>, <i>123</i>, <i>700.20[1]</i>, <i>Ep 2</i> oder <i>Pr 100</i>
+              </label>
               <div class="control has-icons-left">
-                <input class="input is-medium" type="text" placeholder="z. B. 30v, 123, 700.20[1], Ep 2 oder Pr 100" v-model.trim="query" v-focus="searchModal" @keyup.esc="toggle('searchModal')" @keyup.enter="searchAll" :class="{ 'is-danger': notFound }"/><span class="icon is-left"><i class="fa fa-search"></i></span>
+                <input class="input is-medium" type="text" placeholder="Suchanfrage" v-model.trim="query" v-focus="searchModal" @keyup.esc="toggle('searchModal')" @keyup.enter="searchAll" :class="{ 'is-danger': notFound }"/><span class="icon is-left"><i class="fa fa-search"></i></span>
               </div>
               <div class="help is-danger" v-if="notFound">
                 Ihre Suchanfrage lieferte kein Ergebnis.
