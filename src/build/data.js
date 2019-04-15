@@ -15,7 +15,12 @@ const metadata = async () => xfs.outputJson(
 )
 
 const transcripts = async () => {
-  const transcriptsDir = path('transcripts', 'conversion')
+  const transcriptsDir = path('src', 'tustep')
+  const xmlFiles = () => globby(resolve(transcriptsDir, '*.xml'))
+
+  for (const xf of (await xmlFiles())) {
+    await xfs.remove(xf)
+  }
 
   spawn('tustep', [], {
     env: {
@@ -27,15 +32,12 @@ const transcripts = async () => {
     cwd: transcriptsDir
   })
 
-  const sources = (await globby(resolve(transcriptsDir, '*.xml'))).map(source => {
-    const base = basename(source, '_neu.xml')
-    let [ , manuscript, index ] = base.match(/(v{1,2})n?p([0-9]+)/)
-    manuscript = manuscript.toUpperCase()
-    index = parseInt(index, 10)
-    return { source, manuscript, index }
+  const sources = (await xmlFiles()).map(source => {
+    const manuscript = basename(source, '_neu.xml').toUpperCase()
+    return { source, manuscript }
   })
 
-  sources.sort((a, b) => a.manuscript.localeCompare(b.manuscript) || (a.index - b.index))
+  sources.sort((a, b) => a.manuscript.localeCompare(b.manuscript))
 
   xfs.outputJson(
     path('src', 'data', 'transcript.json'),

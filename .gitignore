@@ -2,9 +2,8 @@
 htdocs/
 node_modules/
 src/config/secrets.json
-transcripts/conversion/*.xml
-transcripts/conversion/logfile
-# provisioning
+src/tustep/*.xml
+src/tustep/logfile
 provisioning/roles/*.*
 provisioning/ubuntu-*-cloudimg-console.log
 .vagrant/
