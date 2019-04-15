@@ -58,7 +58,13 @@ export const toString = ({ nums, plus }) => {
     .replace(/827.30\[([0-9]+)\]/, 'Ep $1')
 }
 
-const compareComponent = (a, b) => {
+const compareComponent = (a, b, plus) => {
+  // HACK: a single '0' always comes first
+  if (plus) {
+    if (a.length === 1 && a[0] === 0) return -1
+    if (b.length === 1 && b[0] === 0) return 1
+  }
+
   for (let nn = 0, nl = Math.max(a.length, b.length); nn < nl; nn++) {
     let an = nn < a.length ? a[nn] : 0
     let bn = nn < b.length ? b[nn] : 0
@@ -77,8 +83,8 @@ const compareComponent = (a, b) => {
 export const compare = (a, b) => {
   a = np2p(a)
   b = np2p(b)
-  return compareComponent(a.nums, b.nums) ||
-    compareComponent(a.plus || [], b.plus || [])
+  return compareComponent(a.nums, b.nums, false) ||
+    compareComponent(a.plus || [], b.plus || [], true)
 }
 
 export const within = ([startIncl, endIncl], v) => {
