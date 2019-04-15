@@ -58,9 +58,13 @@ $fa-font-path: '~font-awesome/fonts';
     margin: 0;
     padding: 0;
     &:not(.is-child) {
-      display: flex
+      display: flex;
+    }
+    &.is-child {
+      max-height: calc(100vh - #{$navbar-height});
     }
   }
+
 }
 
 .parzival-home-title:before {
@@ -351,7 +355,7 @@ $fa-font-path: '~font-awesome/fonts';
       &.bold {
         font-weight: bold;
       }
-      &.lines-7, &.lines-6, &.lines-5, &.lines-4 {
+      &.lines-9, &.lines-7, &.lines-6, &.lines-5, &.lines-4 {
         font-size: $size-3;
         font-weight: bold;
       }
