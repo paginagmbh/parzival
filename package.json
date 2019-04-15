@@ -27,7 +27,7 @@
     "intersection-observer": "^0.5.0",
     "lodash.debounce": "^4.0.8",
     "lodash.merge": "^4.6.1",
-    "openseadragon": "^2.3.1",
+    "openseadragon": "^2.4.0",
     "optional": "^0.1.4",
     "sax": "^1.2.4",
     "scroll-into-view": "^1.9.1",
