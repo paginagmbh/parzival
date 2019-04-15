@@ -28,12 +28,6 @@
           <tr v-for="(l, li) in t.contents" :key="li"
               class="parzival-verse-focus"
               @click="updateVerse(l.verse)">
-            <template v-if="l.type == 'heading'">
-              <td class="parzival-heading" colspan="2">
-                <div v-for="(h, hi) in l.heading" :key="hi">[{{ h }}]</div>
-              </td>
-            </template>
-            <template v-if="l.type == 'verse'">
               <th class="parzival-verse-num"
                   :class="{ 'is-active': l.type === 'verse' && verse === l.verse }"
                   :data-verse="l.verse"
@@ -41,7 +35,6 @@
                 {{ l.verse }}
               </th>
               <td class="parzival-verse" v-html="l.html"></td>
-            </template>
           </tr>
         </tbody>
       </table>

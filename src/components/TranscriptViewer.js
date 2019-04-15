@@ -2,7 +2,6 @@ import debounce from 'lodash.debounce'
 import { scroller } from 'vue-scrollto/src/scrollTo'
 
 import transcript from '../data/transcript.json'
-import metadata from '../data/metadata.json'
 
 export default {
   name: 'transcript-viewer',
@@ -16,7 +15,6 @@ export default {
     text () {
       const { manuscript, pageList } = this
       const verses = transcript.verses[manuscript]
-      const headings = metadata.headings[manuscript] || {}
       const columns = []
       for (const page of pageList) {
         if (!page) continue
@@ -24,21 +22,11 @@ export default {
           const column = `${page}${columnSigil}`
           if (!(column in verses)) continue
 
-          const columnHeadings = headings[column] || {}
           const contents = []
 
           for (const verse of verses[column]) {
-            if (verse in columnHeadings) {
-              contents.push({
-                type: 'heading',
-                heading: columnHeadings[verse]
-              })
-            }
-            contents.push({
-              type: 'verse',
-              html: transcript.html[verse][manuscript][column],
-              verse: verse
-            })
+            const html = transcript.html[verse][manuscript][column]
+            contents.push({ html, verse })
           }
 
           columns.push({ column, columnSigil, page, contents })
