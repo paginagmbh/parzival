@@ -406,10 +406,10 @@ $fa-font-path: '~font-awesome/fonts';
 
     .edited {
       font-style: italics;
+    }
 
-      &.del {
-        text-decoration: line-through;
-      }
+    .del {
+      text-decoration: line-through;
     }
 
     .gap {
