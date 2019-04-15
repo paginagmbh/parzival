@@ -70,8 +70,6 @@
             markiert wird der Textverlust infolge Beschnitts bei der Anweisung
             an den Rubrikator auf Bl. 139va von Hs. V'.</p>
 
-            <p>Erläuternde Zusätze erscheinen kursiv in eckigen Klammern.</p>
-
             <p>Initialen und Paratexte werden wie folgt ausgezeichnet:</p>
             <ul class="parzival-sample">
               <li><span class="hi red">rot</span> = rote Überschriften;</li>
@@ -81,9 +79,9 @@
 
             <p>Die unterschiedlichen Korrekturarten werden wie folgt unterschieden:</p>
             <ul class="parzival-sample">
-              <li><span class="damage">grau hinterlegt</span> = Korrektur durch aufgeklebtes Pergamentstück;</li>
+              <li><span class="damage">grau hinterlegt</span> und <span class="corr">unterpunktet</span> = Korrektur durch aufgeklebtes Pergamentstück;</li>
               <li><span class="damage">grau hinterlegt</span> und <span class="corr">unterpunktet</span> = Korrektur durch Rasur;</li>
-              <li><span class="corr">unterstrichelt</span> = Korrektur durch Streichung.</li>
+              <li><span class="del">durchgestrichen</span> = Korrektur durch Streichung.</li>
             </ul>
 
             <p>Die Verszählung erfolgt beim <b>›Nuwen Parzifal‹ (NP)</b> nach
@@ -105,7 +103,21 @@
             sechsten Ausgabe von Karl Lachmann, Übersetzung von Peter Knecht.
             Mit Einführungen zum Text der Lachmannschen Ausgabe und in Probleme
             der ›Parzival‹-Interpretation von Bernd Schirok (de Gruyter Texte),
-            Berlin/New York 2003.</p>
+              Berlin/New York 2003.</p>
+
+            <p>Zu den Abkürzungen siehe die
+              <router-link :to="{ name: 'introduction', hash: '#p3_1_5'}">
+                Einführung Kapitel 3.1.5.</router-link></p>
+
+            <p>„Die Ergänzung [0] am Ende einer Versnummer bezeichnet Kustoden, Reklamanten und Notizen in den Handschriften (in Kursivdruck).</p>
+
+            <p>Die Ergänzung [01][01] am Ende einer Versnummer bezeichnet eine Anweisung an den Rubrikator (in Kursivdruck) (betrifft nur V').</p>
+
+            <p>Die Ergänzung [01] am Ende einer Versnummer wird grundsätzlich bei Kapitelüberschriften und im Zusammenhang mit den kürzeren Texten auf Blatt 115r/v und Blatt 320v von Handschrift V verwendet. Folgen mehrere Paratexte aufeinander, werden diese der Reihenfolge nach mit [01], [02] usw. nummeriert (Beispiel siehe V', 793.28[01], 793.28[02]).</p>
+
+            <p>Die Ergänzung [1] am Ende einer Versnummer bezeichnet einen Plusvers oder einen doppelt abgeschriebenen Vers.</p>
+
+            <p>Zwischen senkrechte Striche gesetzt erscheinen erläuternde Zusätze wie Inhaltsangaben und Hinweise auf nicht transkribierte Abschnitte. Diese Erläuterungen werden je nach Position mit den Versnummerendungen [0], [01], [02], [1] oder [2] bezeichnet.</p>
           </div>
         </div>
       </div>
