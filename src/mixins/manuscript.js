@@ -124,13 +124,13 @@ export default {
 
     columns () {
       const { columns } = metadata.manuscripts[this.manuscript]
-      const result = []
+      let result = []
       for (const page of this.pageList) {
         if (page) {
           for (const column of ['a', 'b']) {
             const sigil = `${page}${column}`
             if (sigil in columns) {
-              result.push(columns[sigil])
+              result = result.concat(columns[sigil])
             }
           }
         }

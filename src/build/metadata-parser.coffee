@@ -137,7 +137,9 @@ module.exports = () ->
 
           assert.ok (verse.compare start, end) <= 0
           assert.ok start.nums.length is end.nums.length
-          verses[columnSigil parsed] = { parsed..., start, end }
+          column = columnSigil parsed
+          verses[column] = verses[column] || []
+          verses[column].push { parsed..., start, end }
 
     msQuires = {}
     for p in pages
@@ -146,8 +148,16 @@ module.exports = () ->
         { singlePage, doublePage, type, num } = q
         msQuires[p] = { singlePage, doublePage, type, num }
 
-    p = (v for c, v of verses when verse.p v.start).sort verseSort
-    np = (v for c, v of verses when verse.np v.start).sort verseSort
+    p = []
+    np = []
+
+    for c, vs of verses
+      for v in vs
+        if verse.p v.start then p.push v
+        if verse.np v.start then np.push v
+
+    p.sort verseSort
+    np.sort verseSort
 
     { sigil, title } = data
     manuscripts[sigil] =
