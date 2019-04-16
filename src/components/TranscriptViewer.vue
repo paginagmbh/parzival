@@ -29,7 +29,7 @@
               class="parzival-verse-focus"
               @click="updateVerse(l.verse)">
               <th class="parzival-verse-num"
-                  :class="{ 'is-active': l.type === 'verse' && verse === l.verse }"
+                  :class="{ 'is-active': verse === l.verse }"
                   :data-verse="l.verse"
                   v-waypoint="verseWaypoint">
                 {{ l.verse }}
@@ -109,7 +109,7 @@
               <router-link :to="{ name: 'introduction', hash: '#p3_1_5'}">
                 Einführung Kapitel 3.1.5.</router-link></p>
 
-            <p>„Die Ergänzung [0] am Ende einer Versnummer bezeichnet Kustoden, Reklamanten und Notizen in den Handschriften (in Kursivdruck).</p>
+            <p>Die Ergänzung [0] am Ende einer Versnummer bezeichnet Kustoden, Reklamanten und Notizen in den Handschriften (in Kursivdruck).</p>
 
             <p>Die Ergänzung [01][01] am Ende einer Versnummer bezeichnet eine Anweisung an den Rubrikator (in Kursivdruck) (betrifft nur V').</p>
 
