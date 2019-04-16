@@ -117,7 +117,7 @@
 
             <p>Die Ergänzung [1] am Ende einer Versnummer bezeichnet einen Plusvers oder einen doppelt abgeschriebenen Vers.</p>
 
-            <p>Zwischen senkrechte Striche gesetzt erscheinen erläuternde Zusätze wie Inhaltsangaben und Hinweise auf nicht transkribierte Abschnitte. Diese Erläuterungen werden je nach Position mit den Versnummerendungen [0], [01], [02], [1] oder [2] bezeichnet.</p>
+            <p>Zwischen senkrechte Striche gesetzt erscheinen in Kursivdruck erläuternde Zusätze wie Inhaltsangaben und Hinweise auf nicht transkribierte Abschnitte. Diese Erläuterungen werden je nach Position mit den Versnummerendungen [0], [01], [02], [1] oder [2] bezeichnet.</p>
           </div>
         </div>
       </div>

@@ -72,9 +72,11 @@
                 <input class="input is-medium" type="text" placeholder="Suchanfrage" v-model.trim="query" v-focus="searchModal" @keyup.esc="toggle('searchModal')" @keyup.enter="searchAll" :class="{ 'is-danger': notFound }"/><span class="icon is-left"><i class="fa fa-search"></i></span>
               </div>
               <div class="help is-danger" v-if="notFound">
-                Ihre Suchanfrage lieferte kein Ergebnis.
-                Bitte beachten Sie u. a., dass folgende Verse nicht transkribiert wurden:
-                NP&nbsp;2000–7999, NP&nbsp;10000–10999, NP&nbsp;12000–14999 und NP&nbsp;15208–25999.
+                Ihre Suchanfrage lieferte im ausgewählten Textzeugen kein Ergebnis.
+                Bitte beachten Sie, dass in Hs. V' die Bücher I bis XIV von Wolframs
+                ›Parzival‹ (Verse 1.1 bis 733.30) fehlen. Nicht transkribiert wurden
+                von Hs. V und Hs. V' die Abschnitte NP&nbsp;2000–7999,
+                NP&nbsp;10000–10999, NP&nbsp;12000–14999 und NP&nbsp;15208–25999.
               </div>
             </div>
             <div class="field is-grouped">
