@@ -49,7 +49,7 @@
         <div class="columns is-multiline is-gapless is-mobile">
           <div class="column is-6-mobile is-3-tablet is-2-desktop is-1-fullhd" v-for="p in manuscriptPages" :key="p.key">
             <router-link class="parzival-facsimile-slide" tag="div" :to="pageRoute(p)" :class="{ 'is-active': activeSlide(p) }"><img v-lazy="p.src" :alt="p.page"/>
-              <p :class="transcriptClass(p)">{{ numTitle(p.page) }}</p>
+              <p :class="transcriptClass(p)">{{ p.title }}</p>
             </router-link>
           </div>
         </div>

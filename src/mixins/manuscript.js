@@ -107,19 +107,7 @@ export default {
     },
 
     pageTitle () {
-      if (this.pageList.length === 0) return ''
-      let titles = []
-      for (const page of this.pageList) {
-        if (!page) continue
-        titles.push(pageTitles[this.manuscript][page] || `Bl. ${this.numTitle(page)}`)
-      }
-      if (titles.every(t => t.startsWith('Bl. '))) {
-        titles = titles.map(t => t.replace(/^Bl\. /, ''))
-        titles = `Bl. ${titles.join(', ')}`
-      } else {
-        titles = titles.join(', ')
-      }
-      return titles
+      return this.renderPageTitle(this.pageList)
     },
 
     columns () {
@@ -396,6 +384,22 @@ export default {
 
     numTitle (number) {
       return number.replace(/^0*/, '')
+    },
+
+    renderPageTitle (pageList) {
+      if (pageList.length === 0) return ''
+      let titles = []
+      for (const page of pageList) {
+        if (!page) continue
+        titles.push(pageTitles[this.manuscript][page] || `Bl. ${this.numTitle(page)}`)
+      }
+      if (titles.every(t => t.startsWith('Bl. '))) {
+        titles = titles.map(t => t.replace(/^Bl\. /, ''))
+        titles = `Bl. ${titles.join(', ')}`
+      } else {
+        titles = titles.join(', ')
+      }
+      return titles
     }
   }
 }

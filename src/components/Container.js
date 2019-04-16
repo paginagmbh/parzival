@@ -42,7 +42,8 @@ export default {
           .some(c => transcript.verses[manuscript][`${page}${c}`])
         const src = this.thumb(manuscript, page)
         const key = [manuscript, page].join('_')
-        return { page, verses, src, key }
+        const title = this.renderPageTitle([page]).replace(/^Bl\. /, '')
+        return { page, verses, src, key, title }
       })
     }
   },
