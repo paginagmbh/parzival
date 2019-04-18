@@ -2306,7 +2306,7 @@
       </p>
       <p class="MsoNormal"><b>Einband</b>: Zwischen 1701 und 1800 entstandener, 40,5 x 28 cm großer <router-link to="/faksimile/VV/vs001r">Einband</router-link> (Kartondeckel mit hellem Schweinsleder
         bezogen) ohne Verzierung (<router-link to="/faksimile/VV/vs001r">Vorderdeckel</router-link> und <router-link to="/faksimile/VV/183v">Hinterdeckel</router-link> identisch). 5,5–6,0 cm breiter
-        <a href="https://parzival.pagina-dh.de/iiif/vv184r.ptif/full/800,/0/default.jpg">Rücken</a> mit
+        <a :href="figure('VV', '184r')">Rücken</a> mit
           sieben Bünden. Im ersten Feld: <i>A.I. | I</i> (mit schwarzer Tinte), im zweiten Feld: <i>Parcefali Varior</i>[<i>um</i>]<i>
           | Rerum Natural</i>[<i>ium</i>]<i> | POEMA</i> (mit schwarzer Tinte, mit Bleistift unterstrichen), im
           vierten Feld die Ziffer <i>19</i> (mit schwarzer Tinte). Den <router-link to="/faksimile/VV/vs001v">Vorderspiegel</router-link> bildet das auf den Deckel innen
@@ -2316,13 +2316,13 @@
             1409.</i> (mit anderer Tinte). Rechts neben diesen drei Signaturen eine Marke (3,7 x 3,7 cm) mit der Aufschrift:
           <i>BIBLIOTECA</i> (horizontal oben); <i>ROMA</i> (horizontal unten); <i>REGIA</i> (vertikal links); <i>CASANATENSE</i> (vertikal rechts).
           Im Kreis: <i>Mss.</i>, darunter mit Stempel die Signatur <i>1409</i>. Eine identische, beschädigte Marke, die ursprünglich
-          im ersten Feld des <a href="https://parzival.pagina-dh.de/iiif/vv184r.ptif/full/800,/0/default.jpg">Rückens</a> aufgeklebt war,
+          im ersten Feld des <a :href="figure('VV', '184r')">Rückens</a> aufgeklebt war,
             liegt der Hs. bei. Auf der <router-link to="/faksimile/VV/vs004r">Rectoseite</router-link> des letzten, dritten Blattes des Binio aus Papier mit Tinte
           eine Inhaltsangabe des 18. Jahrhunderts: <i>Paracefali</i> [!] | <i>Poema lingua Germanica</i>, am unteren Blattrand mit Bleistift die
             Ziffer <i>I</i>. Den <router-link to="/faksimile/VV/183r">Hinterspiegel</router-link> bildet das zweite Blatt eines als hintere Vorsatzblätter verwendeten Unio desselben Papiers.
       </p>
       <p class="MsoNormal"><b>Buchblock</b>: 39–39,5 x 27–27,5 cm,
-        am <a href="https://parzival.pagina-dh.de/iiif/vv184v.ptif/full/400,/0/default.jpg">Längsschnitt</a> zwei schwarze Tintenstriche. Von Bl. <router-link to="/faksimile/VV/001r">1</router-link> fehlt
+        am <a :href="figure('VV', '184v')">Längsschnitt</a> zwei schwarze Tintenstriche. Von Bl. <router-link to="/faksimile/VV/001r">1</router-link> fehlt
           oben ein gemäß stehengebliebener Buchstabenunterlängen mit Tinte beschriebener
           Streifen von 0,4–0,8 cm (siehe dazu <a href="#_Toc389816007">Kap. 2.3.2</a>). <b>Lagen</b>: II (<router-link to="/faksimile/VV/vs001v">Vorderspiegel</router-link>,
         3 Vorsatzblätter) + 7 IV<sup><router-link to="/faksimile/VV/056v">56</router-link></sup>
@@ -2409,7 +2409,7 @@
           <i>xxj</i> (m.A.) (über der Zahl eine verwischte Zahl <i>xvi</i> [?]). Der
           Lagenbestimmer schreibt auf Bl.
           <router-link to="/faksimile/VV/181v">181v</router-link>b als Ergebnis der Zählung (insgesamt 23 Quaternionen): <span class="k"><i><s>xij j
-            quaterne</s> .</i></span><span class="ls"><i>x. quat(er)ne </i>(= 13 und 10 Quaternionen?)</span>. <a href="https://parzival.pagina-dh.de/iiif/vv186r.ptif/full/800,/0/default.jpg"><b>Schriftraum</b></a>: 30,4–31 x 19,4–7 cm; zweispaltig,
+            quaterne</s> .</i></span><span class="ls"><i>x. quat(er)ne </i>(= 13 und 10 Quaternionen?)</span>. <a :href="figure('VV', '186r')"><b>Schriftraum</b></a>: 30,4–31 x 19,4–7 cm; zweispaltig,
           Verse abgesetzt, Versalien in eigener Spalte (0,7 cm) durch Tintenlinien begrenzt (29,7 [Bl.
           <router-link to="/faksimile/VV/001r">1</router-link>–<router-link to="/faksimile/VV/008v">8</router-link>] und 31
           [meist] x 9 cm, Abstand zwischen den Spalten: 1,3 cm, Abstände der Linien zu
@@ -2521,7 +2521,7 @@
           auf Bl.
           <router-link to="/faksimile/VV/111v">111v</router-link>a/
           <router-link to="/faksimile/VV/112r">112r</router-link>b
-                (mit Textverlust) und Spuren davon auf dem <a href="https://parzival.pagina-dh.de/iiif/vv184v.ptif/full/800,/0/default.jpg">Längsschnitt</a>;
+                (mit Textverlust) und Spuren davon auf dem <a :href="figure('VV', '184v')">Längsschnitt</a>;
                   Risse und Löcher im Pergament vor der Beschriftung teilweise
           genäht, Fäden verloren (vgl. Bll.
           <router-link to="/faksimile/VV/058r">58</router-link>,

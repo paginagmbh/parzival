@@ -1,22 +1,21 @@
-const base = 'https://assets.pagina-dh.de'
-const dziTiles = `${base}/parzival/images`
-const dziBase = (sigil, page) => `${dziTiles}/${sigil.toLowerCase()}-${page}`
-
-const iiifBase = (sigil, page, numbered) =>
-  `/iiif/${sigil.toLowerCase()}${page}${numbered ? '_num' : ''}.ptif`
+const iiifBase = (sigil, page, numbered) => [
+  'http://www.parzival.unibe.ch:1024/rapp/',
+  `${sigil.toLowerCase()}${page}${numbered ? '_num' : ''}.j2k`
+].join('')
 
 export default {
   methods: {
-    dzi (sigil, page) {
-      return `${dziBase(sigil, page)}.dzi`
+    iiif (sigil, page, numbered = false) {
+      return `${iiifBase(sigil, page, numbered)}/info.json`
     },
 
     thumb (sigil, page, numbered = false) {
       return `${iiifBase(sigil, page, numbered)}/full/300,/0/default.jpg`
     },
 
-    iiif (sigil, page, numbered = false) {
-      return `${iiifBase(sigil, page, numbered)}/info.json`
+    figure (sigil, page, numbered = false) {
+      return `${iiifBase(sigil, page, numbered)}/full/800,/0/default.jpg`
     }
+
   }
 }
