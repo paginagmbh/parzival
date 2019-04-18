@@ -5,6 +5,7 @@ const proxyTarget = process.env.PARZIVAL_PROXY_TARGET ||
 
 module.exports = {
   outputDir: 'htdocs',
+  publicPath: '',
   devServer: {
     proxy: {
       '/iiif': {
