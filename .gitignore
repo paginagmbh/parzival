@@ -1,4 +1,5 @@
 
+config/
 htdocs/
 node_modules/
 src/config/secrets.json
