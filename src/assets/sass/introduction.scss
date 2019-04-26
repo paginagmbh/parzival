@@ -1,0 +1,164 @@
+#introduction {
+
+  background-color:#F0F0F0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:justify;
+  font-size:1.2rem;
+  line-height:1.8rem;
+
+  blockquote {
+    font-size: 0.9em;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  #content {
+    margin-top: 2rem;
+  }
+
+  .contentbox-left {
+      float: left;
+      width: 15%;
+  }
+
+  .contentbox-right {
+      float: right;
+      width: 85%;
+  }
+
+  figure {
+      display: inline-block;
+
+      figcaption {
+        text-align: left;
+      }
+  }
+
+  .footnotes {
+      font-size: 0.9rem;
+  }
+
+  #frontmatter {
+    margin: 0 0 3rem 0;
+  }
+
+  h1      {font-family:Arial,sans-serif; font-size:1.8rem; font-weight:bold; margin-top:3rem;text-align:left}
+  h2      {font-family:Arial,sans-serif; font-size:1.5rem; font-weight:bold; margin-top:3rem;text-align:left}
+  h3	    {font-family:Arial,sans-serif; font-size:1.4rem; font-weight:bold; margin-top:2.5rem;text-align:left}
+  h4	    {font-family:Arial,sans-serif; font-size:1.3rem; text-align:left; margin-top:2rem;}
+  h5	    {font-family:Arial,sans-serif; font-size:1.2rem; text-align:left}
+  h6	    {font-family:Arial,sans-serif; font-size:1.1rem; text-align:left}
+
+  hr {
+    background-color: black;
+  }
+
+  .metadata {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+
+  .motto {
+      float:right;
+      margin-top:5rem;
+      width: 50%;
+  }
+
+  .nav {
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+
+    a:link 		{ color:white; text-decoration:none;}
+    a:visited	{ color:white; text-decoration:none;}
+    a:hover		{ color:white; text-decoration:underline;}
+    a:active	{ color:white; text-decoration:none;}
+    a:focus		{ color:white; text-decoration:none;}
+
+    span {
+      margin:0 2rem 0 2rem;
+    }
+  }
+
+  .navbar-up {
+    position: fixed;
+    bottom: 2%;
+    left: 2%;
+    z-index: 1000;
+  }
+
+  p {
+    margin-top:15px;
+    margin-bottom:15px;
+
+    &.metadata {
+      margin:0;
+    }
+
+    &.verse {
+      margin:0;
+    }
+  }
+
+  sup {
+    font-size: 0.8rem;
+  }
+
+  table {
+      margin-top: 1rem;
+  }
+
+  th {
+      font-style: italic;
+      font-weight: normal;
+  }
+
+  ul {
+    list-style: disc;
+  }
+
+  .verse {
+    line-height: 1.2em;
+    text-align: left;
+
+    p {
+      margin:0;
+      padding:0;
+    }
+  }
+
+  .verzeichnisse {
+    .bib-entry {
+      margin-bottom:0.8em;
+    }
+
+    .manuscript-list {
+      margin-bottom:1em;
+
+      p {
+        margin: 0
+      }
+    }
+
+    table td {
+      padding-right: 1em;
+    }
+  }
+
+  a:link 		{ color:blue; text-decoration:none;}
+  a:visited	{ color:blue; text-decoration:none;}
+  a:hover		{ color:blue; text-decoration:underline;}
+  a:active	{ color:blue; text-decoration:none;}
+  a:focus		{ color:blue; text-decoration:none;}
+
+  #toc .tocentry {
+      margin-top: 0px;
+      margin-bottom: 0px;
+  }
+
+  #toc, #content, #frontmatter, .verzeichnisse {
+    padding:0 8% 0 8%;
+  }
+}

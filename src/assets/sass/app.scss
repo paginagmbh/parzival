@@ -1,0 +1,425 @@
+@import '~bulma/sass/utilities/initial-variables';
+
+$modal-z: 1000;
+$modal-content-width: calc(100vw - 160px);
+$navbar-breakpoint: 0px;
+
+$breadcrumb-item-color: $grey-light;
+$breadcrumb-item-hover-colomb-item-hover-color: $grey-light;
+$breadcrumb-item-active-color: $white;
+$breadcrumb-item-separator-color: $grey-light;
+
+$warning: lighten($yellow, 10%);
+@import '~bulma/bulma.sass';
+@import '~animate.css/animate.css';
+
+
+$fa-font-path: '~font-awesome/fonts';
+@import '~font-awesome/scss/font-awesome.scss';
+
+@import "./introduction.scss";
+@import "./junicode.scss";
+
+.is-loading {
+  pointer-events: none;
+  &:after {
+    @include loader;
+    position: fixed;
+    top: calc(50vh - 5em);
+    left: calc(50vw - 5em);
+    width: 10em;
+    height: 10em;
+    z-index: 2000;
+    border-width: 0.25em;
+  }
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+.parzival-overflow-scroll {
+  min-height: unset;
+  overflow-y: scroll;
+}
+
+.parzival-min-tile {
+  flex-grow: 0;
+}
+
+.parzival-container.parzival-fullheight {
+  height: 100vh;
+
+  > nav + * {
+    height: calc(100vh - #{$navbar-height});
+  }
+
+  .tile {
+    margin: 0;
+    padding: 0;
+    &:not(.is-child) {
+      display: flex;
+    }
+    &.is-child {
+      max-height: calc(100vh - #{$navbar-height});
+    }
+  }
+
+}
+
+.parzival-home-title:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.2;
+  background-image: url("../home-bg.jpg");
+  background-size: cover;
+}
+
+.parzival-home-imprint {
+  h4 {
+    margin-top: 1rem;
+    margin-botton: 0.5rem;
+    font-size: $size-5;
+    font-weight: bold;
+  }
+  .staff p {
+    // font-size: $size-5
+  }
+}
+.parzival-synopsis {
+  nav.tile {
+    [data-manuscript=V] {
+      color: findColorInvert($grey-light);
+      background: $grey-light;
+    }
+    [data-manuscript=VV] {
+      color: findColorInvert($grey-light);
+      background: $grey-lighter;
+    }
+  }
+
+  .parzival-content {
+    tr {
+      cursor: pointer;
+    }
+
+    th {
+      text-align: center;
+    }
+
+    td {
+      border: none;
+      vertical-align: middle;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: inline-block;
+    }
+
+    .parzival-verse-num {
+      text-align: right;
+      @include touch {
+        width: 15%;
+      }
+      @include desktop {
+        width: 10%;
+      }
+    }
+
+    .parzival-column {
+      text-align: right;
+      @include touch {
+        width: 10%;
+      }
+      @include desktop {
+        width: 5%;
+      }
+    }
+
+    .parzival-verse {
+      @include touch {
+        width: 25%;
+      }
+      @include desktop {
+        width: 35%;
+      }
+    }
+
+    .parzival-verse-left {
+      @include desktop {
+        padding-left: 10%;
+      }
+    }
+
+    tr.is-active {
+      .parzival-verse-num, .parzival-column {
+        background: $warning;
+      }
+    }
+  }
+
+  .parzival-facsimile-viewer {
+    flex-grow: 2;
+  }
+}
+
+.parzival-facsimile-viewer {
+  background: $black;
+  position: relative;
+  height: 100%;
+
+  .parzival-facsimile {
+    height: 100%;
+
+    .displayregion {
+      border-color: $white !important;
+    }
+  }
+
+  .parzival-facsimile-nav {
+    background: transparent;
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
+
+  .parzival-quire-view {
+    position: absolute;
+    background: rgba($white, 0.5);
+    width: 2 * $gap;
+    height: 0.75 * $gap;
+    left: 0.75rem;
+    bottom: 2.75rem;
+  }
+  .parzival-quire-path {
+    position: absolute;
+    background: rgba($black, 0.5);
+    left: 0.75rem;
+    bottom: 0.75rem;
+  }
+}
+
+.parzival-overview {
+  color: $white;
+
+  .parzival-facsimile-slide {
+    cursor: pointer;
+    img {
+      display: block;
+      width: auto;
+      height: 128px;
+      margin: 0 auto;
+    }
+
+    p {
+      margin: #{0.25 * $gap} #{0.5 * $gap};
+      text-align: center;
+
+      &.available {
+        color: $primary;
+        font-weight: bold;
+      }
+    }
+
+    &.is-active p {
+      background: $primary;
+      &.available {
+        background: $white;
+      }
+    }
+  }
+}
+
+.parzival-transcript-viewer {
+  position: relative;
+
+  .parzival-transcript-doc-toggle {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+  }
+  .parzival-transcript-column {
+    position: relative;
+
+    header {
+      position: absolute;
+      top: 5rem;
+      right: 0;
+      opacity: 0.25;
+      transform: rotate(90deg);
+      @include touch {
+        font-size: $size-4;
+      }
+
+      @include desktop {
+        font-size: $size-3;
+      }
+    }
+  }
+
+  .parzival-column-heading {
+    color: $info;
+    margin: $size-5 0;
+  }
+
+  .table {
+    width: 80%;
+    margin: 0 10%;
+
+    td, th {
+      border: none;
+      vertical-align: middle;
+      padding: 0 0.25rem;
+    }
+
+    th {
+      text-align: right;
+      width: 4rem;
+
+    }
+  }
+}
+
+.parzival-content {
+  .parzival-heading {
+    font-style: italic;
+    text-align: right;
+    //border-bottom: 1px solid $grey;
+    //background: $grey-lighter;
+    padding: $size-7 $size-6;
+
+    @include mobile {
+      font-size: $size-6
+    }
+
+    @include tablet {
+      font-size: $size-7
+    }
+
+    @include desktop {
+      font-size: $size-6
+    }
+  }
+
+  .parzival-verse-focus {
+    cursor: pointer;
+  }
+
+  .parzival-verse-num, .parzival-column {
+    white-space: nowrap;
+    font-family: $family-monospace;
+    font-size: $size-7;
+    &.is-active {
+      background: $warning;
+    }
+  }
+
+  .parzival-verse-num {
+    color: $info;
+  }
+
+  .parzival-column {
+    color: $grey;
+  }
+
+  .parzival-verse {
+    font-family: "Junicode", serif;
+
+    @include mobile {
+      font-size: $size-5
+    }
+
+    @include tablet {
+      font-size: $size-6
+    }
+
+    @include desktop {
+      font-size: $size-5
+    }
+  }
+
+  .parzival-verse, .parzival-sample {
+    .hi {
+      &.prachtinitiale {
+        color: $info;
+      }
+
+      &.red , &.lombarde, &.fleuronee {
+        color: $danger;
+      }
+
+      &.bold {
+        font-weight: bold;
+      }
+      &.lines-9, &.lines-7, &.lines-6, &.lines-5, &.lines-4 {
+        font-size: $size-3;
+        font-weight: bold;
+      }
+
+      &.lines-3, &.lines-2 {
+        font-size: $size-4;
+        font-weight: bold;
+      }
+
+      &.lines-1 {
+        font-size: $size-5;
+      }
+    }
+
+    .lb {
+      color: $grey;
+
+      &.wb::before {
+        content: " "
+      }
+
+      &.wb::after {
+        content: " "
+      }
+    }
+
+    .corr {
+      text-decoration: underline dotted;
+    }
+
+    .damage {
+      background: $grey-lighter;
+    }
+
+    .anweisung, .reklamante, .kustode, .nota {
+      font-style: italic;
+    }
+
+    .supplied {
+      &.ex::before {
+        content: "("
+      }
+
+      &.ex::after {
+        content: ")"
+      }
+    }
+
+    .edited {
+      font-style: italics;
+    }
+
+    .del {
+      text-decoration: line-through;
+    }
+
+    .gap {
+      &.lost {
+        font-style: italics;
+      }
+
+      &.unreadable {
+        font-style: normal;
+      }
+    }
+  }
+}

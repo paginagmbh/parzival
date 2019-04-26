@@ -1,0 +1,15 @@
+---
+nginx_vhosts:
+  - listen: "80 default_server"
+    server_name: "vm.local"
+    root: "/srv/parzival/htdocs"
+    extra_parameters: |
+      sendfile off;
+
+      charset UTF-8;
+
+      location / {
+        try_files $uri $uri/ /index.html;
+      }
+
+web_project_version: "development"

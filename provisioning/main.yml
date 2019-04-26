@@ -1,0 +1,50 @@
+- hosts:
+    - parzival.pagina-dh.de
+    - default
+  pre_tasks:
+    - name: Include basic settings
+      include_vars: "vars/main.yml"
+
+    - name: Include secret settings
+      include_vars: "{{ item }}"
+      with_first_found:
+        - "../src/config/secrets.json"
+        - "../src/config/secrets.default.json"
+
+    - name: Include settings for VM
+      include_vars: "vars/vm.yml"
+      when: inventory_hostname_short == "default"
+
+    - name: Include settings for Staging
+      include_vars: "vars/staging.yml"
+      when: ansible_fqdn == "parzival.pagina-dh.de"
+
+  roles:
+    - williamyeh.reset-locale
+    - geerlingguy.firewall
+    - geerlingguy.security
+    - geerlingguy.postfix
+    - geerlingguy.java
+    - geerlingguy.nodejs
+    - geerlingguy.git
+    - geerlingguy.nginx
+    - geerlingguy.certbot
+    - gremid.tustep
+    - gremid.iipsrv
+
+  tasks:
+    - name: Make sure /usr/sbin is on $PATH
+      cronvar:
+        name: PATH
+        value: "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+
+    - include_tasks: htpasswd.yml
+      when: parzival.http.password  != ''
+      static: False
+
+    - include_tasks: unibe-vpn.yml
+      when: parzival.vpn.secret  != ''
+      static: False
+
+    - include_tasks: project.yml
+      static: False

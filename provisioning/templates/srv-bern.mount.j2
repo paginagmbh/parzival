@@ -1,0 +1,15 @@
+[Unit]
+Description=Bern University/ Pagina SMB
+Wants=network.target vpnc-unibe-ch.service
+After=network.target vpnc-unibe-ch.service
+
+[Mount]
+What=//{{ parzival.smb.host_ip }}/Pagina-Bern
+Where=/srv/bern
+Type=cifs
+Options=ro,noexec,noserverino,credentials=/etc/vpnc/unibe.ch-smb-credentials
+StandardOutput=syslog
+StandardError=syslog
+
+[Install]
+WantedBy=multi-user.target

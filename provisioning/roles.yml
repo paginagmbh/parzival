@@ -1,0 +1,12 @@
+---
+- geerlingguy.certbot,3.0.0
+- geerlingguy.firewall,2.3.0
+- geerlingguy.java,1.8.1
+- geerlingguy.git,2.0.1
+- geerlingguy.nginx,2.5.0
+- geerlingguy.nodejs,4.1.2
+- geerlingguy.security,1.5.0
+- geerlingguy.postfix,2.0.0
+- williamyeh.reset-locale,1.0.0
+- gremid.tustep,v1.2.1
+- gremid.iipsrv,v1.2.0

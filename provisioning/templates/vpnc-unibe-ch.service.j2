@@ -1,0 +1,11 @@
+[Unit]
+Description=VPN to Bern University
+After=network.target
+
+[Service]
+ExecStart=/usr/sbin/vpnc unibe.ch
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
