@@ -7,6 +7,8 @@ src/tustep/*.xml
 src/tustep/logfile
 provisioning/roles/*.*
 provisioning/ubuntu-*-cloudimg-console.log
+public/image/
+public/quire-icons/
 .vagrant/
 *.retry
 
