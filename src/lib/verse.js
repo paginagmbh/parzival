@@ -24,9 +24,9 @@ export const np2p = (v) => {
 
 export const parse = (str) => {
   const components = str
-    .replace(/Pr\s*([0-9]+)/, '112.12[$1]')
-    .replace(/Ep\s*([0-9]+)/, '827.30[$1]')
-    .replace(/^NP /, '')
+    .replace(/Pr\s*([0-9]+)/i, '112.12[$1]')
+    .replace(/Ep\s*([0-9]+)/i, '827.30[$1]')
+    .replace(/^NP /i, '')
     .split(/(?:-|\[|\])+/g).filter(c => c)
 
   let nums = components.shift()

@@ -41,12 +41,12 @@ export const searchByVerse = ({ np, p }, query) => {
 }
 
 export const searchPage = (manuscript, query) => {
-  query = query.replace(/[^0-9rvs]/g, '')
+  query = query.replace(/[^0-9rvs]/gi, '')
 
-  let [ , prefix, leaf, page ] = /^(vs)?([0-9]+)([rv])?$/.exec(query)
+  let [ , prefix, leaf, page ] = /^(vs)?([0-9]+)([rv])?$/i.exec(query)
   prefix = prefix || ''
   leaf = leaf ? parseInt(leaf, 10) || undefined : undefined
-  page = page || 'r'
+  page = page.toLowerCase() || 'r'
 
   if (!leaf) {
     return undefined
@@ -62,7 +62,7 @@ export const searchPage = (manuscript, query) => {
 }
 
 export const searchVerse = (manuscript, query) => {
-  query = query.replace(/[^EpPr0-9.[\]]/g, '')
+  query = query.replace(/[^EpPr0-9.[\]]/gi, '')
 
   try {
     query = verse.parse(query)
@@ -83,7 +83,7 @@ export const searchVerse = (manuscript, query) => {
 }
 
 export const search = (manuscript, query) => {
-  return /[rv]$/.test(query)
+  return /[rv]$/i.test(query)
     ? searchPage(manuscript, query)
     : searchVerse(manuscript, query)
 }

@@ -40,11 +40,8 @@
 
     - include_tasks: htpasswd.yml
       when: parzival.http.password  != ''
-      static: False
 
     - include_tasks: unibe-vpn.yml
       when: parzival.vpn.secret  != ''
-      static: False
 
     - include_tasks: project.yml
-      static: False
