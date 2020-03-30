@@ -46,7 +46,7 @@ export const searchPage = (manuscript, query) => {
   let [ , prefix, leaf, page ] = /^(vs)?([0-9]+)([rv])?$/i.exec(query)
   prefix = prefix || ''
   leaf = leaf ? parseInt(leaf, 10) || undefined : undefined
-  page = page.toLowerCase() || 'r'
+  page = (page || 'r').toLowerCase()
 
   if (!leaf) {
     return undefined
