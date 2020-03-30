@@ -27,4 +27,4 @@ nginx_upstreams:
   - name: iipsrv
     servers: [ "unix:{{ iipsrv_socket }}" ]
 
-parzival_version: "development"
+parzival_version: "master"
