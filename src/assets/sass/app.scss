@@ -38,6 +38,11 @@ $fa-font-path: '~font-awesome/fonts';
   overflow: hidden;
 }
 
+.hero-body {
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+}
+
 .parzival-overflow-scroll {
   min-height: unset;
   overflow-y: scroll;
@@ -406,6 +411,8 @@ $fa-font-path: '~font-awesome/fonts';
 
     .edited {
       font-style: italics;
+      border-bottom: 0.4px dotted black;
+      outline-offset: -5px;
     }
 
     .del {
@@ -420,6 +427,19 @@ $fa-font-path: '~font-awesome/fonts';
       &.unreadable {
         font-style: normal;
       }
+    }
+
+    .add {
+      color: #71c451;
+    }
+
+    /*  Hinzufügung in roter Überschrift wird rot, nicht grün
+    .red .add {
+        color: $danger;
+    }
+    */
+    .klebung {
+      border: 1px black solid;
     }
   }
 }

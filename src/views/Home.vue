@@ -9,6 +9,9 @@
         <div class="subtitle">
           Handschriftliche Überlieferung und Textgenese im 14. Jahrhundert
         </div>
+        <div class="subtitle">
+          Ein Projekt des Schweizerischen Nationalfonds (2016–2019)
+        </div>
         <div class="field is-grouped">
           <div class="control">
             <router-link class="button is-light is-outlined is-medium" :to="routes.introduction">
@@ -52,6 +55,7 @@
 
             <h4>Programmierung:</h4>
             <p><a href="https://pagina.gmbh">pagina GmbH, Publikationstechnologien, Tübingen</a></p>
+            <p>Nicolas Kessler</p>
 
             <h4>Design:</h4>
             <p>pagina GmbH</p>
