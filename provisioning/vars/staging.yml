@@ -40,5 +40,4 @@ nginx_vhosts:
         fastcgi_pass iipsrv;
       }
 
-
 web_project_version: "development"

@@ -75,8 +75,7 @@
                 Ihre Suchanfrage lieferte im ausgewählten Textzeugen kein Ergebnis.
                 Bitte beachten Sie, dass in Hs. V' die Bücher I bis XIV von Wolframs
                 ›Parzival‹ (Verse 1.1 bis 733.30) fehlen. Nicht transkribiert wurden
-                von Hs. V und Hs. V' die Abschnitte NP&nbsp;2000–7999,
-                NP&nbsp;10000–10999, NP&nbsp;12000–14999 und NP&nbsp;15208–25999.
+                von Hs. V und Hs. V' die Abschnitte <span v-html="excludedVersesDisplayForm"/>.
               </div>
             </div>
             <div class="field is-grouped">

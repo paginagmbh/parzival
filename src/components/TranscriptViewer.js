@@ -8,10 +8,14 @@ export default {
   props: ['manuscript', 'pages', 'verse', 'syncScrolling'],
 
   data: () => ({
+    excludedVerses: require('@/data/excluded-verses').excludedVerses,
     transcriptDocModal: false
   }),
 
   computed: {
+    excludedVersesHtml () {
+      return '<ul>' + this.excludedVerses.map(v => v.join(' - ')).map(v => '<li>' + v + '</li>').join('') + '</ul>'
+    },
     text () {
       const { manuscript, pageList } = this
       const verses = transcript.verses[manuscript]

@@ -6,7 +6,7 @@ import { search, searchVerse, searchPage } from '../lib/search'
 import metadata from '../data/metadata.json'
 import transcript from '../data/transcript.json'
 
-const excludedVerses = [
+/* const excludedVerses = [
   ['NP 2000', 'NP 7999'],
   ['NP 10000', 'NP 10999'],
   ['NP 12000', 'NP 14999'],
@@ -15,7 +15,9 @@ const excludedVerses = [
 
 const excludedVerse = (verse) => excludedVerses.some(
   i => (v.compare(i.start, verse) <= 0) && (v.compare(verse, i.end) <= 0)
-)
+) */
+
+const excludedVerse = (verse) => false
 
 export default {
   name: 'container',
@@ -26,7 +28,8 @@ export default {
     searchModal: false,
     query: '',
     notFound: false,
-    info: false
+    info: false,
+    excludedVerses: require('@/data/excluded-verses').excludedVerses
   }),
 
   metaInfo () {
@@ -34,6 +37,19 @@ export default {
   },
 
   computed: {
+    excludedVersesDisplayForm () {
+      const fromTo = this.excludedVerses.map(v => v.join('-').replace(/\s/, '&nbsp;'))
+      let displayForm = ''
+      for (let i = 0; i < fromTo.length; i++) {
+        if (i === fromTo.length - 1) {
+          displayForm += ' und '
+        } else if (i > 0 && i < fromTo.length - 1) {
+          displayForm += ', '
+        }
+        displayForm += fromTo[i]
+      }
+      return displayForm
+    },
     manuscriptPages () {
       const { manuscript } = this
       const { pages } = metadata.manuscripts[manuscript]

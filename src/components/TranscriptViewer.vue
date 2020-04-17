@@ -5,12 +5,7 @@
       <article class="message">
         <div class="message-body content">
           <p>Folgende Verse sind nicht transkribiert:</p>
-          <ul>
-            <li>NP 2000–7999;</li>
-            <li>NP 10000–10999;</li>
-            <li>NP 12000–14999;</li>
-            <li>NP 15208–25999.</li>
-          </ul>
+          <div v-html="excludedVersesHtml"/>
         </div>
       </article>
     </div>
