@@ -9,9 +9,21 @@ nginx_vhosts:
   - listen: "80 default_server"
     server_name: "parzival.pagina-dh.de"
     filename: "parzival.pagina-dh.de.conf"
-    root: "/var/www"
+    root: "/srv/parzival/htdocs"
     extra_parameters: |
-      return 301 https://parzival.pagina-dh.de$request_uri;
+      charset UTF-8;
+
+      auth_basic "Parzival-Projekt - Rappoltsteiner Parzifal";
+      auth_basic_user_file htpasswd;
+
+      location / {
+        try_files $uri $uri/ /index.html;
+      }
+
+      location /iiif {
+        include fastcgi_params;
+        fastcgi_pass iipsrv;
+      }
 
   - listen: "443 ssl"
     root: "/srv/parzival/htdocs"

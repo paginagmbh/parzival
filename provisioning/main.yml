@@ -41,7 +41,7 @@
     - include_tasks: htpasswd.yml
       when: parzival.http.password  != ''
 
-    - include_tasks: unibe-vpn.yml
-      when: parzival.vpn.secret  != ''
+#    - include_tasks: unibe-vpn.yml
+#      when: parzival.vpn.secret  != ''
 
     - include_tasks: project.yml

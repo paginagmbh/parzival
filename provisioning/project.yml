@@ -31,6 +31,7 @@
     owner: "parzival"
     group: "www-data"
     mode: "0644"
+  when: parzival.gitlab.id_rsa_pub
 
 - name: Configure SSH private key
   copy:
@@ -39,6 +40,7 @@
     owner: "parzival"
     group: "www-data"
     mode: "0600"
+  when: parzival.gitlab.id_rsa
 
 - name: Install vips for image processing
   apt:
