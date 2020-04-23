@@ -2,10 +2,14 @@ import debounce from 'lodash.debounce'
 import { scroller } from 'vue-scrollto/src/scrollTo'
 
 import transcript from '../data/transcript.json'
+import TranscriptInfo from './TranscriptInfo'
 
 export default {
   name: 'transcript-viewer',
   props: ['manuscript', 'pages', 'verse', 'syncScrolling'],
+  components: {
+    TranscriptInfo
+  },
 
   data: () => ({
     excludedVerses: require('@/data/excluded-verses').excludedVerses,
