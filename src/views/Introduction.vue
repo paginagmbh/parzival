@@ -64,16 +64,14 @@
     <div id="content">
       <!--<h1>Original und Kopie des ›Rappoltsteiner Parzifal‹<br/> Handschriftliche Überlieferung und Textgenese im 14. Jahrhundert</h1>-->
       <p class="MsoNormal">Der ›Rappoltsteiner Parzifal‹ ist in zwei Handschriften überliefert: Karlsruhe, Badische Landesbibliothek,
-        <a href="https://digital.blb-karlsruhe.de/blbhs/Handschriften/content/titleinfo/101664">Donaueschingen 97</a> (im Folgenden Hs.
-        V), und Roma, Biblioteca Casanatense, <router-link to="/faksimile/VV/001r">Ms. 1409</router-link> (im Folgenden Hs. V'). Die nach
-        dem Entstehungsort benannte Textsammlung ›Rappoltsteiner Parzifal‹<a href="#_ftn1" id="_ftnref1" title="Rappoltsteiner Parzifal">
-          <sup>[1]</sup></a> enthält in Hs. V Wolframs von Eschenbach ›Parzival‹<a href="#_ftn2" id="_ftnref2"><sup>[2]</sup></a> sowie darin (zwischen den Büchern 14 und 15) eingelagert den ›Nuwen Parzifal‹, eine Kompilation  aus ›Conte du Graal‹ (›Perceval‹)-Fortsetzungen<a href="#_ftn3" id="_ftnref3"><sup>[3]</sup>
-        </a> in deutscher Übertragung. Die Hs. V' hingegen überliefert nur diesen ›Nuwen Parzifal‹ genannten Teil, der dort wie in Hs. V durch die abschließenden beiden Bücher 15 und 16
+        <a href="https://digital.blb-karlsruhe.de/blbhs/Handschriften/content/titleinfo/101664">Donaueschingen 97</a> (Hs. V: entstanden im Elsass, Raum Straßburg/Colmar, oder in Basel, vollendet 1336), und Roma, Biblioteca Casanatense, <router-link to="/faksimile/VV/001r">Ms. 1409</router-link> ((Hs. V': angefertigt in einer ,Epenwerkstatt‘ im Raum Franken, 2. Viertel des 14. Jhs.). Die nach
+        dem Entstehungsort benannte Textsammlung ›Rappoltsteiner Parzifal‹ enthält in Hs. V Wolframs von Eschenbach ›Parzival‹ (aus der Zeit um 1200/10)<a href="#_ftn1" id="_ftnref1"><sup>[1]</sup></a> sowie darin – zwischen den Büchern XIV und XV – eingelagert den ›Nuwen Parzifal‹,<a href="#_ftn2" id="_ftnref2"><sup>[2]</sup></a> eine Kompilation  aus ›Conte du Graal‹-Fortsetzungen (zu Chrétiens de Troyes um 1190 unvollendet hinterlassenem ›Perceval‹-Roman) in deutscher Übertragung,<a href="#_ftn3" id="_ftnref3"><sup>[3]</sup>
+        </a> mit einigen weiteren kürzeren Texten. Die Hs. V' hingegen überliefert nur diesen ›Nuwen Parzifal‹ genannten Teil, der dort wie in Hs. V durch die abschließenden beiden Bücher XV und XVI
         von Wolframs ›Parzival‹ ergänzt wird. Sie kann, wie im Folgenden noch näher zu erläutern sein wird,
         als direkte Abschrift der Hs. V gelten. Insbesondere der in Hs. V vorliegende Text wird in der Forschung in mehrfacher
         Hinsicht als »Glücksfall« beurteilt. Immer wieder wird hingewiesen auf die ausführlichen Angaben zur Genese der Handschrift im Epilog des
         ›Rappoltsteiner Parzifal‹ sowie auf die Tatsache, dass es sich bei Hs. V um eine Originalhandschrift handelt, also um jenes Exemplar, das
-        der Auftraggeber in Bestellung gegeben hat.<a id="_Ref348945462"/><a href="#_ftn4" id="_ftnref4"><sup>[4]</sup></a></p>
+        der Auftraggeber in Bestellung gegeben hat. Dabei bleibt allerdings zu berücksichtigen, dass der in der Forschung gebrauchte Begriff des ,Originals‘ stets die arbiträre Setzung eines ,Anfangs‘ impliziert<a id="_Ref348945462"/><a href="#_ftn4" id="_ftnref4"><sup>[4]</sup></a></p>
       <p class="MsoNormal">Die ungewöhnliche Fülle an Informationen zur Entstehung des ›Rappoltsteiner Parzifal‹, die der Epilog liefert, hat die
         Forschung seit der (Wieder-)Entdeckung des Werkes allerdings dazu verleitet, das Fehlen historisch bezeugter Fakten zum Leben des
         Auftraggebers sowie zu den am Herstellungsprozess der Handschrift beteiligten Personen auszublenden und mögliche Fiktionen als gesicherte
@@ -82,7 +80,7 @@
         einer Vernachlässigung oder Ausblendung möglicher, heute verlorener Vor- und Zwischenstufen, die vor oder zwischen Text und Codex liegen,
         sowie zu einer vereinfachten Beschreibung der Entstehung der Handschrift. Die im durchkomponierten Epilog äußerst romanhaften, fingierten
         Entstehungszusammenhänge haben außerdem zum Weiterdenken und zur Ausschmückung des Geschilderten verleitet, wie dies bereits bei der
-        Darstellung <span style="font-variant:small-caps">Josephs Victor von Scheffel</span> von 1855 der Fall ist:</p>
+        Darstellung <span style="font-variant:small-caps">Josephs Victor von Scheffel</span> von 1855 der Fall ist:<a href="#_ftn6" id="_ftnref6"><sup>[6]</sup></a></p>
       <blockquote class="Blockquote">Des edlen Herrn Ulrich von Rappoltstein Geschlecht war Träger eines Lehens über die fahrenden Leute im Elsaß,
         dessen Grenze bis an den Hagenauer Forst lief. Dies und ritterliche Freude an Minne und Milde mag den reichen Freiherrn bewogen haben, sich
         als Beschützer der Dichtkunst das Werk Manessiers verdeutschen zu lassen. Im Jahr 1331 rückte zu diesem Behuf mit Manessiers französischem
@@ -91,12 +89,12 @@
         alter. […] Dieses fahrende Volk, dessen Verpflegung manches Stückfaß elsässischen Weines verschlungen haben mag, beeilte sich nicht
         allzusehr und überreichte erst im Jahre 1336 die vollendete, mit manchem Korrekturstreiflein überklebte, aber als stattlicher Foliant
         geschriebene Arbeit, von der sie bemerkten: ›und alles daz hie nach geschriben stat, daz ist ouch Parzeval‹ ihrem Schirmherrn, dabei ihn
-        launig über die Kosten tröstend, die sie selber auf 200 Pfund anschlugen.<a href="#_ftn6" id="_ftnref6"><sup>[6]</sup></a>
+        launig über die Kosten tröstend, die sie selber auf 200 Pfund anschlugen.
       </blockquote>
       <p class="MsoNormal">In den folgenden Ausführungen werden die in der Forschung zum ›Rappoltsteiner Parzifal‹ oftmals vermischten Ebenen, die
         <span style="letter-spacing:1.0pt">materielle</span> der Handschrift und die <span style="letter-spacing:1.0pt">inhaltliche</span> des Textes,
-        jeweils getrennt betrachtet. Zunächst wird mit ausführlichen Handschriftenbeschreibungen und Inhaltsangaben der beiden bekannten Textträger des
-        ›Rappoltsteiner Parzifal‹ (Hs. V) bzw. dessen ›Nuwer Parzifal‹ (Hs. V') die materielle, historisch belegte Grundlage bereitgestellt (in <a href="#_Toc389815970">Kap. 1.1</a>
+        jeweils getrennt betrachtet. Zunächst wird mit ausführlichen Handschriftenbeschreibungen und Inhaltsangaben der beiden bekannten Textzeugen des
+        ›Rappoltsteiner Parzifal‹ die materielle, historisch belegte Grundlage bereitgestellt (in <a href="#_Toc389815970">Kap. 1.1</a>
           für Hs. V und <a href="#_Toc389815998">2.1</a> für Hs. V'). Anschließend werden die erhobenen Daten ausgewertet und in einem größeren Kontext
             verortet. Dies geschieht im Hinblick auf die Darstellung
             der Genese des Textes (in <a href="#_Toc389815973">Kap. 1.2</a>), seiner Verschriftlichung (in <a href="#_Toc389815982">Kap. 1.3</a> für Hs. V und
@@ -104,27 +102,27 @@
                 Erstanfertigung (in <a href="#_Ref389817114">Kap. 1.4</a>) sowie der Besitzgeschichte der Handschriften (in Kap.
                   <a href="#_Toc389815993">1.5</a> für Hs. V und <a href="#_Toc389816005">2.3</a> für Hs. V').</p>
       <h3><a id="_Toc389815969"/>1 Original: Handschrift V – Karlsruhe, Badische Landesbibliothek, Donaueschingen 97</h3>
-      <p class="MsoNormal">Als schlüssiges Indiz dafür, dass es sich bei Hs. V um die »<span style="letter-spacing:1.0pt">Originalhandschrift</span>«
-        handelt, »wie sie unter den Augen der Dichter für Ulrich von Rappoltstein hergestellt wurde«, führt der Herausgeber <span
+      <p class="MsoNormal">Als Indiz dafür, dass es sich bei Hs. V um die »<span style="letter-spacing:1.0pt">Originalhandschrift</span>«
+        handelt, führt der Herausgeber <span
         style="font-variant:small-caps">Karl Schorbach</span> die Tatsache an, dass
         der Codex in seiner besonderen, sorgfältig eingerichteten Textgestalt »unter
         den Augen der Dichter für Ulrich von Rappoltstein hergestellt wurde« und
-        sich noch im 16. Jahrhundert in Familienbesitz befand.<a href="#_ftn7" id="_ftnref7"><sup>[7]</sup></a> Nicht bekannt ist freilich, wie viele
-        Vorstufen bzw. Entwürfe der vorliegenden Fassung vorausgegangen sind. Ein bemerkter und korrigierter Augensprung auf Bl. <router-link
+        noch aus dem 16. Jahrhundert Einträge enthält, die auf den Familienbesitz verweisen.<a href="#_ftn7" id="_ftnref7"><sup>[7]</sup></a> Nicht bekannt ist freilich, wie viele
+        Vorstufen bzw. Entwürfe der vorliegenden Fassung vorausgegangen sind. Eine bemerkte und korrigierte Augenabirrung auf Bl. <router-link
         to="/faksimile/V/300v">300v</router-link>b, 5. Zeile von unten (NP 36200/36201; Sch. 839.39/40), weist darauf hin, dass zumindest Teile von Hs.
-        V von einer Vorlage abgeschrieben worden sind und es sich beim Codex Donaueschingen 97 um eine »Reinschrift des Originals« handelt.<a href="#_ftn8"
-        id="_ftnref8"><sup>[8]</sup></a> Der Originalitätswert der Donaueschinger Handschrift wird dadurch allerdings nicht gemindert.</p>
-      <p class="MsoNormal">Die Beschreibung des Codex und dessen Inhalt ergibt folgendes Bild:</p>
+        V von einer Vorlage abgeschrieben worden sind und der Codex Donaueschingen 97 eine »Reinschrift« darstellt.<a href="#_ftn8"
+        id="_ftnref8"><sup>[8]</sup></a> Angesichts dieser Umstände soll der Begriff des ,Originals‘ bzw. der ,Originalhandschrift‘ im Folgenden pragmatisch für den Sachverhalt verwendet werden, dass der Codex mit der darin überlieferten, aus Wolframs ›Parzival‹ und den ›Conte du Graal‹-Fortsetzungen bestehenden Textgestalt von dem Mäzen Ulrich von Rappoltstein in Auftrag gegeben worden und seinerseits zum Gegenstand einer in dem erwähnten Casanatense-Manuskript dokumentierten Abschrift geworden ist.</p>
+      <p class="MsoNormal">Die Beschreibung des Codex und dessen Inhalt ergeben folgendes Bild:<a href="#_ftn9" id="_ftnref9"><sup>[9]</sup></a></p>
       <h4><a id="_Toc389815970"/>1.1 Beschreibung der Handschrift V</h4>
-      <h5><a id="_Toc389815971"/>1.1.1 Äußere Beschreibung<a href="#_ftn9" id="_ftnref9"><sup>[9]</sup></a></h5>
+      <h5><a id="_Toc389815971"/>1.1.1 Äußere Beschreibung</h5>
       <p class="MsoNormal" style="text-indent:.1pt"><b>›Rappoltsteiner Parzifal‹: Wolfram von Eschenbach, ›Parzival‹; Minneliedstrophen; Klaus
         Wisse und Philipp Colin, ›Nuwer Parzifal‹</b></p>
-      <p class="MsoNormal">Ulrich von Rappoltstein   ·   Pergament, 320 (von ursprünglich 322) Bll.   ·   38,5–39,0 x 27 cm   ·   Elsass (Straßburg
+      <p class="MsoNormal">Entstanden im Auftrag eines ,Ulrich von Rappoltstein‘   ·   Pergament, 320 (von ursprünglich 322) Bll.   ·   38,5–39,0 x 27 cm   ·   Elsass (Straßburg
         oder Raum Straßburg/Colmar) oder Basel   ·   bis 1336</p>
       <p class="MsoNormal">Blattzählung mit Tinte von alter Hand oben in der Blattmitte <i><router-link to="/faksimile/V/001r">1</router-link>–<router-link
         to="/faksimile/V/072r">72</router-link></i> (die Zahl 55 übersprungen), moderne Blattzählung mit Bleistift oben rechts (wird im Folgenden zitiert),
         beginnt ab Bl. <router-link to="/faksimile/V/003r">3</router-link>. 320 von ursprünglich 322 Blättern mit einer Lücke von 2 Blättern nach Bl.
-          <router-link to="/faksimile/V/169v">169</router-link> (heute reguläres Quinternio <router-link to="/faksimile/V/162r">162</router-link>–<router-link
+          <router-link to="/faksimile/V/169v">169</router-link> (heute regulärer Quinternio <router-link to="/faksimile/V/162r">162</router-link>–<router-link
           to="/faksimile/V/171v">171</router-link> mit Bindfäden zwischen <router-link to="/faksimile/V/166v">166</router-link> und <router-link
           to="/faksimile/V/167r">167</router-link>). Die Bll. <router-link to="/faksimile/V/176r">176</router-link> und <router-link to="/faksimile/V/177r">177</router-link>
           sind falsch eingebunden und gehören hinter Bl. <router-link to="/faksimile/V/179v">179</router-link>. Unterschiedlich dickes Pergament (z.B. Bl.
@@ -197,9 +195,9 @@
           <router-link to="/faksimile/V/273v">273v</router-link>). <b>Schriftraum</b>:
           33–33,5 x 17–19,5 cm, zweispaltig (Spaltenbreite: 8,6–9,0 cm), Verse abgesetzt, Versalien in eigener Spalte durch
           unterschiedlich ausgeprägte Streicheisenlinien begrenzt (Vertikale teilweise mit Tinte). Endpunkte (Einritzungen) für die Zeilen noch sichtbar,
-          48–55 (meistens 49 oder 50) Zeilen pro Spalte. <b>Schrift</b>: Textura, fünf Hände
+          48–55 (meist 49 oder 50) Zeilen pro Spalte. <b>Schrift</b>: Textura, fünf Hände
           (siehe <a href="#_Toc389815983">Kap. 1.3.1</a>).<a href="#_ftn11" id="_ftnref11"><sup>[11]</sup></a><b> Ausstattung</b>: 127 Überschriften
-          in roter Tinte (im Folgenden mit &lt;…&gt; markiert), Namen rot gestrichelt. Fleuronnée-Initialen von zwei verschiedenen Malerhänden in unterschiedlicher Qualität mit roter und blauer, teilweise auch grüner (z.B. Bll. <router-link to="/faksimile/V/017v">17v</router-link>b und <router-link to="/faksimile/V/022v">22v</router-link>a) Farbe (siehe
+          und weitere Notate in roter Tinte (im Folgenden mit &lt;…&gt; markiert), Namen rot gestrichelt. Fleuronnée-Initialen von zwei verschiedenen Malerhänden in unterschiedlicher Qualität mit roter und blauer, teilweise auch grüner (z.B. Bll. <router-link to="/faksimile/V/017v">17v</router-link>b und <router-link to="/faksimile/V/022v">22v</router-link>a) Farbe (siehe
           <a href="#_Toc389815986">Kap. 1.3.2.1</a>), rote, blaue und auf Bl.
           <router-link to="/faksimile/V/288v">288v</router-link>a grüne zweizeilige Lombarden
           mit Verzierung (siehe <a href="#_Toc389815987">Kap. 1.3.2.2</a>), Repräsentanten oft noch gut erkennbar (z.B. auf den Bll. <router-link to="/faksimile/V/028r">28r</router-link>a, <router-link to="/faksimile/V/136v">136v</router-link>a, <router-link to="/faksimile/V/137r">137r</router-link>a, <router-link to="/faksimile/V/137v">137v</router-link>a, <router-link to="/faksimile/V/138r">138r</router-link>b und <router-link to="/faksimile/V/139r">139r</router-link>a. Ungerade Versanfänge rubriziert. <b>Korrekturen/Nachträge</b>:
@@ -259,7 +257,7 @@
             auentúre wurf geſpilt / vnd ir beginnen gezilt</i></div>
       <div style="clear:both"/>
       <div class="contentbox-left"/>
-      <div class="contentbox-right">Expl. (L. 112.10<sup>1</sup>; Sch.
+      <div class="contentbox-right">Explicit (L. 112.10<sup>1</sup>; Sch.
           XLVII): <i>&lt;<span class="titel1">Hie iſt kúnig Gamuretes buͦch vs. | der
                 Parcifals vatter was</span>.&gt;</i></div>
       <div style="clear:both"/>
@@ -267,7 +265,7 @@
           <router-link to="/faksimile/V/017v">17v</router-link>b–<router-link to="/faksimile/V/020r">20r</router-link>b
       </div>
       <div class="contentbox-right">[1.2]
-          <b>Prologus</b> nach der ›Élucidation‹, dt., mit abweichendem Beginn (L. 112.11<sup>1</sup>,
+          <b>Prologus</b>, dt. Übertragung der altfranzösischen ›Élucidation‹ (eines nachträglich zu Chrétiens de Troyes ›Perceval‹-Roman hinzugedichteten Vorspanns), mit abweichendem Beginn (L. 112.11<sup>1</sup>,
           112.11–12 und Pr 1–496; Sch. LVII–LXX): Inc.: <i>&lt;<span class="titel1">So hebet hie an der prologus von | Parcifal der vs welſchem zuͦ
                 tú=|ſchem iſt gemaht. Vnde vohet | hie ſine kintheit an.</span>&gt;</i></div>
       <div style="clear:both"/>
@@ -592,8 +590,8 @@
           <router-link to="/faksimile/V/116r">116r</router-link>a–<router-link to="/faksimile/V/302r">302r</router-link>a
       </div>
       <div class="contentbox-right">[3]<b> Klaus Wisse und Philipp Colin, ›Nuwer Parzifal‹</b> (1., 2. und 3. Fortsetzung
-          zu Chrétiens ›Conte du Graal‹ [›Perceval‹], dt., Wolfram von Eschenbach,
-          ›Parzival‹, Buch XV–XVI, sowie Einschübe) (NP 1–36447; Sch. 1.1–846.9 und L.
+          zu Chrétiens de Troyes ›Roman de Perceval ou le Conte du Graal‹, dt., Wolfram von Eschenbach,
+          ›Parzival‹, Buch XV–XVI, sowie Einschübe) (NP 1–36426; Sch. 1.1–846.9 und L.
           734.1–827.30 [›Parzival‹, Buch XV–XVI])
       </div>
       <div style="clear:both"/>
@@ -617,7 +615,7 @@
             <router-link to="/faksimile/V/120v">120v</router-link>b–<router-link to="/faksimile/V/150v">150v</router-link>a
       </div>
       <div class="contentbox-right">[3.3]
-          <b>›Première Continuation‹</b>, Mischredaktion, Episode I,10; II,1–III,14, dt.
+          <b>›Première Continuation‹</b>, Mischredaktion, Episode I,10 und II,1–III,14, dt.
             (Roach I, 2048–2053 und 2054–8002) (NP 966–6784; Sch. 23.12–153.31): <i>Alſ ich
             v́ch vor geſaget han<span class="ras">… – …</span>Hies er karados briebras</i></div>
       <div style="clear:both"/>
@@ -644,7 +642,7 @@
           <router-link to="/faksimile/V/154r">154r</router-link>b–<router-link to="/faksimile/V/165r">165r</router-link>b
       </div>
       <div class="contentbox-right">[3.7]
-            <b>›Première Continuation‹</b>, Mischredaktion, Episode III,16; IV,1–V,4, dt.
+            <b>›Première Continuation‹</b>, Mischredaktion, Episode III,16 und IV,1–V,4, dt.
             (Roach I, 8730–8734 und 8735–13424) (NP 7507–9663; Sch. 169.36–217.24): <i>Donoch
             kv́nig artus lange waz<span class="ras">… – …</span>Jr foͤrhtent ſin zvͦ vil gar</i></div>
       <div style="clear:both"/>
@@ -659,7 +657,7 @@
         <router-link to="/faksimile/V/165r">165r</router-link>b–<router-link to="/faksimile/V/179v">179v</router-link>b
       </div>
       <div class="contentbox-right">[3.9]
-            <b>›Première Continuation‹</b>, Mischredaktion, Episode V,4; V,6–8, dt. (Roach
+            <b>›Première Continuation‹</b>, Mischredaktion, Episode V,4 und V,6–8, dt. (Roach
             I, 13425–13852) (NP 9669–12493; Sch. 217.30–281.7): <i>Nv er ein weni(n)g
             gervͦwete hette<span class="ras">… – …Do wart er gehei</span>ſſen dodinas</i></div>
       <div style="clear:both"/>
@@ -691,7 +689,7 @@
             <router-link to="/faksimile/V/185v">185v</router-link>a
       </div>
       <div class="contentbox-right">[3.13]
-            <b>Explizit und Überleitung</b> (ohne Vorlage) (NP 13980<sup>0</sup>; Sch. 314.5–12):
+            <b>Überleitung</b> (ohne Vorlage) (NP 13980<sup>0</sup>; Sch. 314.5–12):
             <i>&lt;Hie nimet die ouentv́r ein ende vo(m)me | ſwan der den toten ritter
             brohte vffe | dem mer in eime ſchiffe zvͦ glomarga(n) | vn(de) wil nv ſagen
             vo(n) parzifale vn(de) kv|met zvͦ der bv́rge zvͦ dem horne vn(de) | iſt die erſte
@@ -759,6 +757,9 @@
       <div class="contentbox-right">[3.21] <b>Wolframs ›Parzival‹, Buch XV–XVI</b> (L. 734.1–827.30), mit Einschüben aus
             der <b>›Troisième Continuation‹</b> in deutscher Übertragung</div>
       <div style="clear:both"/>
+      <div class="contentbox-left"/>
+      <div class="contentbox-right metadata">Die Einschübe beziehen sich u.a. darauf, dass König Artus mit den Rittern der Tafelrunde die beiden Halbbrüder Parzival und Feirefiz beim Ritt auf die Gralburg begleitet, ehe Parzival dort den Gralkönig Anfortas heilt und selbst zum Gralherrscher gekürt wird (Zusatzverse u.a. nach L. 784.28, 786.30, 793.28, vgl. im Folgenden).</div>
+      <div style="clear:both"/>
       <div class="contentbox-right">
             <router-link to="/faksimile/V/302r">302r</router-link>a–<router-link to="/faksimile/V/307v">307v</router-link>a [3.21.1]
         <b>Wolframs ›Parzival‹, Buch XV</b> (L. 734.1<sup>1</sup> und L. 734.1–769.28): <i>&lt;<span class="init">H</span><span class="titel1">ie kvmmet parzefal. zvͦ ſime bruͦder | vn(de) vindet den von
@@ -776,7 +777,7 @@
           <router-link to="/faksimile/V/307v">307v</router-link>b
         [3.21.3] <b>Wolframs ›Parzival‹, Buch XV</b> (L. 769.28<sup>21–22</sup> [Anpassung an Wolfram von Eschenbach,
           ›Parzival‹], L. 769.29<sup>a</sup>–769.30<sup>a</sup> und 769.30<sup>1–2</sup>;
-          Sch. LI): <i>Dar nach ſprach der heiden rich</i> | <i>Kv́nig Artus. nv hoͤre mich</i>
+          Sch. LI, letzte 6 Verse in der Ergänzung zu L. 769.28): <i>Dar nach ſprach der heiden rich</i> | <i>Kv́nig Artus. nv hoͤre mich</i>
           | <i>Jch wil dir nennen alle die</i> | <i>Kv́nige. h(er)zogen. Grauen alhie</i>
           | <i>An den mir iſt gelungen</i> | <i>Die ich alle han betwungen</i></div>
       <div style="clear:both"/>
@@ -862,11 +863,11 @@
       <div style="clear:both"/>
       <div class="contentbox-right">
             <router-link to="/faksimile/V/316v">316v</router-link>b–<router-link to="/faksimile/V/317v">317v</router-link>a [3.21.20]
-            <b>Wolframs ›Parzival‹, Buch XVI</b> (L. 823.11–827.30) mit Explizit (Ep 1-1;
+            <b>Wolframs ›Parzival‹, Buch XVI</b> (L. 823.11–827.30) mit Explicit (Ep 1-1;
             Sch. 845.14–17): <span class="init"><b><i>D</i></b></span><i>ie rehte mere v́ch komen
             ſint… – …Die muͦz mir ſvͤzſer worte jehen</i></div>
       <div style="clear:both"/>
-      <div class="contentbox-right">Expl.:<i> &lt;<span class="titel1">Hie het der alte parzifal vn(de) der nvwe ein ende vn(de) waz rede
+      <div class="contentbox-right">Explicit:<i> &lt;<span class="titel1">Hie het der alte parzifal vn(de) der nvwe ein ende vn(de) waz rede
                 hie noch geſchriben | ſtat daz het pfilippes kolin gemaht&gt;</span></i></div>
       <div style="clear:both"/>
       <div class="contentbox-left">
@@ -881,7 +882,7 @@
       </div>
       <div style="clear:both"/>
       <div class="contentbox-left"/>
-      <div class="contentbox-right"><span class="hvh">Expl.:<i>&lt;</i></span><i>Hie het der tútzſche vn(de) der welſche | Parzefal ein ende.&gt;</i></div>
+      <div class="contentbox-right"><span class="hvh">Explicit:<i>&lt;</i></span><i>Hie het der tútzſche vn(de) der welſche | Parzefal ein ende.&gt;</i></div>
       <div style="clear:both"/>
       <div class="contentbox-left"/>
       <div class="contentbox-right metadata">Textausgabe: <span style="font-variant:small-caps">Keller</span> (1844), S. 677–688 (nach V'); <span style="font-variant:small-caps">Scheffel Kat.
@@ -914,13 +915,13 @@
       </div>
       <div class="contentbox-right"><b>Kolophon</b> (gereimt) (Ep 558-3<sup>1–10</sup>; Sch. XVI): <i>&lt;Diz ſol nieman
             v(er)geſſen | Ob diſem buͦche ſint fúnf ior geſeſſen | Ze tihtende vn(de) ze
-            ſchriben | Hie ſol ein ende b:::en | Henſelin ſchrib(er) het oͮch vil
+            ſchriben | Hie ſol ein ende b::en | Henſelin ſchrib(er) het oͮch vil
             geſchribe(n) h(er)an | Vn(de) wil noch nút ein ende han | Er gewan noch nie bart
             | Vn(de) iſt oͮch den vinen vroͤwelin zart | Der von Onhein iſt ein reht(er)
             tore | Er trúget die vrowen mit ſime growe(n) hore&gt;</i></div>
       <div style="clear:both"/>
       <div class="contentbox-left"/>
-      <div class="contentbox-right metadata">Textausgabe:n<span style="font-variant:small-caps">Scheffel Kat. Donaueschingen</span>, S. 17;
+      <div class="contentbox-right metadata">Textausgabe:<span style="font-variant:small-caps">Scheffel Kat. Donaueschingen</span>, S. 17;
         <span style="font-variant:small-caps">Barack Kat. Donaueschingen</span>, S. 92; <span style="font-variant:small-caps">Schneider</span> (2009), S. 140.
       </div>
       <div style="clear:both"/>
@@ -931,7 +932,7 @@
           <router-link to="/faksimile/V/320v">320v</router-link>a
       </div>
       <div class="contentbox-right">[5]
-          <b>8. Minneliedstrophe</b>, dt. (Nachtrag des 14. Jh.s) (Ep 558-4<sup>1–8</sup>):
+          <b>8. Minneliedstrophe</b>, dt. (Nachtrag des 14. Jhs.) (Ep 558-4<sup>1–8</sup>):
           <span class="init"><b><i>M</i></b></span><i>it dem muͦte vn(de) mit dem libe. / mag ich
             wol wenken wene ich | wil. / Daz ich ez aber iemer tribe. / Kurtz lang wening
             oder vil. / So wil min herze von ir niht. / Der ich mich nv zvͦ dienſte binde.
@@ -948,7 +949,7 @@
             <span style="font-variant:small-caps">Chen</span> (2015), S. 315.</div>
       <div style="clear:both"/>
       <div class="contentbox-left"><router-link to="/faksimile/V/320v">320v</router-link>a</div>
-      <div class="contentbox-right">[6] <b>Minneliedstrophe</b>, afr. (Nachtrag des 14. Jh.s) (Ep 558-5<sup>1–14</sup>):
+      <div class="contentbox-right">[6] <b>Minneliedstrophe</b>, afr. (Nachtrag des 14. Jhs.) (Ep 558-5<sup>1–14</sup>):
             <i>ly douz ſouenir de m:y dame jolie | :: triſtes me fait plus (que) riens que je | ne pouroie deſp:::ny | co(m)bien que je nay de b(ien) for que lay |
             <s>ſo:::</s> | ſouuenance gerant bien me fait ly | ſovenir e(t) li doucey pleſance loins | me revient bons eſpoir q(ui) me ſouient | <span class="hvh"><u>(et)
               ſi me fa:t</u></span> rejouir li bonz ſovenir | quant je reſ:::oir | de loin ſanblance lay :::be:te | ::: puiſance q(ui) eſt e(n) ly |
@@ -973,8 +974,8 @@
             (Nr. 26); <span style="font-variant:small-caps">Heinzer Kat. Ausstellung, </span>S.
             92f. (Beschreibung Armin Schlechter, Abb. S. 93: Hs. Bl. 115v); <span style="font-variant:small-caps">Mertens</span>
             (<sup>2</sup>1994), S. 34; <span style="font-variant:small-caps">Schöller</span> (2009), S. 102–113;
-        <span style="font-variant:small-caps">Schneider</span> (2009), Textbd., S. 141f.,
-            Tafelbd., Abb. 137 und 138. Vgl. auch die Beschreibung von <span style="font-variant:small-caps">Ute Obhof</span>
+        <span style="font-variant:small-caps">Schneider</span> (2009), S. 141f. sowie
+            Abb. 137 und 138. Vgl. auch die Beschreibung von <span style="font-variant:small-caps">Ute Obhof</span>
             auf der Internet-Plattform ‚<a href="http://www.manuscripta-mediaevalia.de/?xdbdtdn!%22obj%2031576740%22&amp;dmode=doc">Manuscripta Mediaevalia</a>’,
             die Angaben im Handschriftenverzeichnis des <a href="http://www.parzival.unibe.ch/hsverz.html">Berner Parzival-Projekts</a>
         sowie im <a href="http://handschriftencensus.de/5020">Handschriftencensus</a>, mit Link auf das von der Badischen Landesbibliothek Karlsruhe bereitgestellte Digitalisat).</p>
@@ -990,35 +991,33 @@
             <p>(Ep 338–342; Sch. 853.16–20)</p>
       </div>
       <div style="clear:both"/>
-      <h4><a id="_Toc389815973"/><a id="_Ref379010691"/>1.2 Genese des Textes – die Konzeption des <i>minnebuoch</i></h4>
-      <p class="MsoNormal">Die Genese des Textes ›Nuwer Parzifal‹ sowie die Entstehungsgeschichte der gesamten (?) Hs. V werden im 558
+      <h4><a id="_Toc389815973"/><a id="_Ref379010691"/>1.2 Genese des Textes – seine Konzeption des <i>minnebuoch</i></h4>
+      <p class="MsoNormal">Die Genese des Textes sowie die Entstehungsgeschichte der gesamten (?) Hs. V werden im 558
           Verse umfassenden Epilog (Ep 1–558; Sch. 845.18–858.26) in
-          Form eines »eigene[n], abgeschlossene[n] Stück[s] Kleinepik«<a href="#_ftn16" id="_ftnref16"><sup>[16]</sup></a>
-          ausführlich ,erzählt’. Das im Epilog Dargestellte – Faktisches wie auch
-          Fiktionales – ist Teil der literarischen Inszenierung. Darin erwählt die
-          Personifikation <i>Minne</i> – nachdem die Personifikation <i>Milte</i><a href="#_ftn17" id="_ftnref17"><sup>[17]</sup></a>
-          sie auf ihn aufmerksam gemacht hat – einen Ulrich von Rappoltstein zu ihrem
+          Form eines »eigene(n), abgeschlossene(n) Stück(s) Kleinepik«<a href="#_ftn16" id="_ftnref16"><sup>[16]</sup></a>
+          ausführlich ,erzählt’. Der Epilog vollzieht auf diese Weise eine Faktisches wie Fiktionales vermischende literarische Inszenierung mit Personifikationen: So erwählt die
+          personifizierte <i>Minne</i> – veranlasst durch die personifizierte <i>Milte</i><a href="#_ftn17" id="_ftnref17"><sup>[17]</sup></a>
+           – einen Ulrich von Rappoltstein zu ihrem
           besonderen Diener und beauftragt ihn, ein <i>minnebuoch </i>(vgl. Ep 184;
           Sch. 849.44) schreiben zu lassen. Nicht gesagt wird, ob es sich bei diesem Buch
           um den gesamten ›Rappoltsteiner Parzifal‹ oder lediglich um den ›Nuwen Parzifal‹
           handelt. Der in der Tradition der Minne- und Ehrenreden verfasste Epilog<a href="#_ftn18" id="_ftnref18"><sup>[18]</sup></a>
           besteht aus kunstvoll ineinander verschachtelten Gesprächssituationen zwischen
-          der <i>Minne</i>, der <i>Milte</i>, dem Auftraggeber Ulrich von Rappoltstein
+          <i>Minne</i>, <i>Milte</i>, dem Auftraggeber Ulrich von Rappoltstein
           und dessen Herzen sowie aus Schilderungen der Entstehung von Text und
-          Textträger durch einen Erzähler, der in der Rolle des Dichter-Ich auftritt. Der
+          Textträger durch einen Erzähler, der als Dichter-Ich auftritt. Der
           Epilog lässt sich inhaltlich wie folgt gliedern:<a href="#_ftn19" id="_ftnref19"> <sup>[19]</sup></a></p>
-      <p class="metadata">Überschrift mit Zuweisungen</p>
+      <p class="metadata">Überschrift mit Zuweisung des Epilogs an Philipp Colin (Ep 1-0; Sch. 845.14–17), verbunden mit den bereits aus den Blattberechnungen (Hs. V, Bl. 115va, NP 0-13f.) bekannten Titelbezeichnungen der Teile des ›Rappoltsteiner Parzifal‹, die in den folgenden Versen mittels Verfasserangaben präzisiert werden:</p>
       <ul class="metadata">
-          <li>des Epilogs an Philipp Colin (Ep 1-0; Sch. 845.14–17),</li>
-          <li>der Verfasserschaft von Wolframs von Eschenbach ›Parzival‹ (Ep 1–24; Sch. 845.18–846.16),</li>
-          <li>der Verfasserschaft des ›Rappoltsteiner Parzifal‹ an Philipp Colin (Ep 25–31; Sch. 846.17–23).</li>
+          <li><i>der alte parzifal</i>: Wolframs von Eschenbach ›Parzival‹ (vgl. Ep 1–24; Sch. 845.18–846.16),</li>
+          <li><i>der nvwe </i>[<i>parzifal</i>]: Philipp Colins <i>buͦch ... in túzſch gerimet</i>  (vgl. Ep 25–31; Sch. 846.17–23).</li>
       </ul>
       <p class="metadata">Schilderung
             der im Auftraggeber wachsenden Minne sowie Betrachtung über die Minne (Ep 32–79; Sch. 846.24–847.31).
       </p>
       <p class="metadata">Schilderung
             des Verhältnisses von <i>Minne </i>und<i> Milte</i> und ihrer Beteiligung an
-            den Geschichten der Tafelrunder (Ep 80–116; Sch. 847.32–848.22).
+            den Erzählungen über die Ritter der Tafelrunde (Ep 80–116; Sch. 847.32–848.22).
       </p>
       <p class="metadata" style="margin-left:35.45pt">Gespräch zwischen <i>Minne</i> und <i>Milte</i> über
             den (noch nicht namentlich genannten) Auftraggeber mit der Ankündigung der <i>Minne</i>,
@@ -1032,8 +1031,8 @@
       <p class="metadata" style="margin-left:35.45pt">Einleitung des
             Minnebriefs der <i>Minne</i> an Ulrich (Ep 168–192; Sch. 849.28–850.6).
       </p>
-      <p class="metadata" style="margin-left:35.45pt">Minnebrief der <i>Minne</i>
-            an das Herz Ulrichs (Ep 192–246; Sch. 850.6–851.14).
+      <p class="metadata" style="margin-left:35.45pt">Minnebrief der <i>Minne</i>, gerichtet
+            an Ulrichs Herz (Ep 192–246; Sch. 850.6–851.14).
       </p>
       <p class="metadata" style="margin-left:35.45pt;text-indent: -35.45pt">Das Dichter-Ich leitet zur Reaktion von
             Ulrichs Herz (in Form allegorischer Dialoge) über (Ep 247–255; Sch. 851.15–23).
@@ -1062,13 +1061,13 @@
           Buch besessen habe, in das König Artus selbst die Erzählungen der Ritter der
           Tafelrunde schreiben ließ und in dem er gerne las.<a href="#_ftn22" id="_ftnref22"><sup>[22]</sup></a>
           Ulrich wird dabei nicht nur als Artus’ Erbe und Blutsverwandter dargestellt,<a href="#_ftn23" id="_ftnref23"><sup>[23]</sup></a>
-          sondern auch als »vorbildliche[r] Minner[]«.<a href="#_ftn24" id="_ftnref24"><sup>[24]</sup></a></p>
-      <p class="MsoNormal">                Im Epilog wird mit
+          sondern auch als »vorbildliche(r) Minner[]«.<a href="#_ftn24" id="_ftnref24"><sup>[24]</sup></a></p>
+      <p class="MsoNormal">                Im Epilog wird also mit
           fiktiven und allegorischen Mitteln ein Gönnerverhältnis inszeniert, das von
           faktischen Gegebenheiten geprägt zu sein scheint. Die Angaben zur Genese der
-          Handschrift sind abgesehen von offensichtlichen literarischen Stilisierungen (Liebesbrief
-          der <i>Minne</i>) jedoch schlüssig und dürften größtenteils die historischen
-          Begebenheiten wiedergeben. Sie werden im Folgenden nachgezeichnet.
+          Handschrift sind im Kontext der literarischen Stilisierung (Liebesbrief
+          der <i>Minne</i>) jedoch schlüssig und dürften sich auf historische
+          Sachverhalte beziehen, die im Folgenden nachgezeichnet werden sollen.
       </p>
       <h5>
                           <a id="_Toc389815974"/>
@@ -1079,16 +1078,16 @@
                           <a id="_Ref381537686"/>
                           <a id="_Ref381367850"/>1.2.1 Der Auftraggeber Ulrich von Rappoltstein
       </h5>
-      <p class="MsoNormal">Laut Epilog wurde der
+      <p class="MsoNormal">Gemäß dem Epilog wurde der
           ›Rappoltsteiner Parzifal‹ von einem an mehreren Stellen namentlich genannten
           Ulrich, Freiherr von Rappoltstein (Ribeaupierre),<a href="#_ftn25" id="_ftnref25"><sup>[25]</sup></a>
           in Auftrag gegeben. Stammsitz und Zentrum der Herrschaft der edelfreien Familie
           von Rappoltstein war der auf das 8. Jahrhundert zurückgehende, nördlich von
           Colmar gelegene Ort Rappoltsweiler (Ribeauvillé) mit drei oberhalb davon
           erbauten Höhenburgen. Die ab Ende des 13. Jahrhunderts befestigte Kleinstadt
-          Rappoltsweiler erhielten die Herren von Rappoltstein als Lehen des Basler
-          Bischofs. Rappoltsweiler war geteilt in die folgenden vier, separat verwalteten
-          Quartiere, von denen jedes durch eine eigene Ringmauer abgegrenzt war: (1) der
+          Rappoltsweiler hatten die Herren von Rappoltstein als Lehen des Basler
+          Bischofs erhalten. Zu Rappoltsweiler gehörten die folgenden separat verwalteten
+          Stadtviertel, von denen jedes durch eine eigene Ringmauer abgegrenzt war: (1) der
           Siedlungskern (später: <span style="letter-spacing:1.0pt">Altstadt</span>), (2)
           die oberhalb (westlich) gelegene <span style="letter-spacing:1.0pt">Neustadt</span>,
           (3) die unterhalb (östlich) gelegene <span style="letter-spacing:1.0pt">Unterstadt</span>
@@ -1102,13 +1101,13 @@
           Entstehungszeitraum der Handschrift bekannten Trägern des Namens Ulrich von
           Rappoltstein aus drei Generationen kommen folgende als Auftraggeber der
           Handschrift in Frage:<a href="#_ftn27" id="_ftnref27"><sup>[27]</sup></a></p>
-      <p class="MsoNormal">1. Der erste ist der Edelmann <span style="letter-spacing:1.0pt">Ulrich,</span> unverheirateter Sohn des Ritters und
+      <p class="MsoNormal">1. Der Edelmann <span style="letter-spacing:1.0pt">Ulrich,</span> unverheirateter Sohn des Ritters und
           Herren zu Hoh(en)-Rappoltstein Anselm († 1311) und Bruder des 1335 bereits
           verstorbenen Johann, Herr zu Hoh(en)-Rappoltstein. 1310 ist Ulrich als Student
           in Bologna belegt<a href="#_ftn28" id="_ftnref28"><sup>[28]</sup></a> und noch 1335 als
           Domherr (Canonicus) in Straßburg tätig.<a href="#_ftn29" id="_ftnref29"><sup>[29]</sup></a></p>
       <p class="MsoNormal">2. Ein weiterer <span style="letter-spacing:1.0pt">Ulrich</span>, Sohn des Heinrich III., war 1313
-          noch minderjährig und ist 1328 als Komptur der Dorlisheimer Johanniter bezeugt.<a href="#_ftn30" id="_ftnref30"><sup>[30]</sup></a></p>
+          noch minderjährig und ist 1328 als Komtur der Dorlisheimer Johanniter bezeugt.<a href="#_ftn30" id="_ftnref30"><sup>[30]</sup></a></p>
       <p class="MsoNormal">3. Der Sohn Johanns, des Ritters
           und Herren zu Hohen-Rappoltstein und ab 1321 auch zu Hohenack († 1362), <span style="letter-spacing:1.0pt">Ulrich IV</span>., der im Jahr 1337 Domherr in
           Basel und Kirchherr von Reichenweier (Riquewihr) war.<a href="#_ftn31" id="_ftnref31"><sup>[31]</sup></a>
@@ -1123,20 +1122,17 @@
           nachgewiesen werden, welcher Ulrich der Auftraggeber des ›Rappoltsteiner
           Parzifal‹ war, favorisiert werden jedoch der Sohn des Anselm (1.) und der Sohn
           des Johann (3.).<a href="#_ftn34" id="_ftnref34"><sup>[34]</sup></a> Diese beiden wurden
-          zusammen mit Johann, Bruder des letztgenannten Ulrich 1341 von den kinderlosen
+          zusammen mit Johann, dem Bruder des letztgenannten Ulrich, 1341 von den kinderlosen
           Herren von Hoh(en)rappoltstein und Herren der Niederstadt, Johann und Anselm,
-          Söhne des Johann, Herr von Hoh(en)rappoltstein, als Erben des Lehens
-          eingesetzt, das sie nach dem baldigen Tod von Johann und Anselm auch übernommen
-          haben.<a href="#_ftn35" id="_ftnref35"><sup>[35]</sup></a></p>
+          den Söhnen des Johann, Herrn von Hoh(en)rappoltstein, als Erben des Lehens
+          eingesetzt, das sie nach dem baldigen Tod von Johann und Anselm auch übernahmen.<a href="#_ftn35" id="_ftnref35"><sup>[35]</sup></a></p>
       <h6>
                           <a id="_Toc389815975"/>
                           <a id="_Ref381368028"/>1.2.1.1 Abfassungszeit
       </h6>
-      <p class="MsoNormal">Als Jahr der Vollendung des ›Rappoltsteiner
-          Parzifal‹ bzw. des ›Nuwen Parzifal‹ wird innerhalb einer Prosaüberleitung auf
+      <p class="MsoNormal">Das Jahr der Vollendung wird in Hs. V innerhalb der Prosaüberleitung auf
           Bl.
-          <router-link to="/faksimile/V/115r">115r</router-link>b–<router-link to="/faksimile/V/115v">v</router-link>a von
-          Hs. V das Jahr 1336 angegeben:<a href="#_ftn36" id="_ftnref36"><sup>[36]</sup></a></p>
+          <router-link to="/faksimile/V/115r">115r</router-link>b–<router-link to="/faksimile/V/115v">v</router-link>a mit 1336 angegeben:<a href="#_ftn36" id="_ftnref36"><sup>[36]</sup></a></p>
       <blockquote class="Blockquote" style="text-indent:.1pt">
                           <span class="titel1">
                                 <i>
@@ -1147,33 +1143,32 @@
                                     </i>
                             </span>
                           <span class="titel1">
-                                <span style="font-size:0.9rem">(NP 0<sup>1-02</sup>)</span>
+                                <span style="font-size:0.9rem">(NP 0-1<sup>2</sup>, B. 115va)</span>
                             </span>
       </blockquote>
       <p class="MsoNormal">Zu recht hat <span style="font-variant:small-caps">Manfred Günter Scholz</span> darauf
-          hingewiesen, dass nicht zu entscheiden ist, ob es sich bei dieser Angabe um das
-          Jahr der Abfassung des ›Nuwen Parzifal‹ oder dessen Niederschrift oder
-          vielleicht der Vollendung der gesamten Hs. V handelt.<a href="#_ftn37" id="_ftnref37"><sup>[37]</sup></a>
-          Jedenfalls erstreckte sich die Gesamtherstellung der Handschrift gemäß Angaben
-          im Epilog und im Kolophon auf fünf Jahre.<a href="#_ftn38" id="_ftnref38"><sup>[38]</sup></a></p>
+          hingewiesen, dass nicht zu entscheiden ist, ob sich die Jahresangabe zeitlich auf die Vollendung des ›Nuwen Parzifal‹, seiner Niederschrift oder
+          vielleicht der der gesamten Hs. V bezieht.<a href="#_ftn37" id="_ftnref37"><sup>[37]</sup></a>
+          Jedenfalls hat sich die Gesamtherstellung der Handschrift gemäß Angaben
+          im Epilog und im Kolophon auf fünf Jahre (d.h. also wohl: auf die Jahre von 1331 bis 1336) erstreckt.<a href="#_ftn38" id="_ftnref38"><sup>[38]</sup></a></p>
       <h6>
                           <a id="_Toc389815976"/>1.2.1.2 Abfassungsort
       </h6>
       <p class="MsoNormal"><span style="font-variant:small-caps">Schorbach</span>
-          vermutet, daß die Hs. V in der Burg Groß-Rappoltstein (St. Ulrichsburg)
+          vermutet, dass die Hs. V in der Burg Groß-Rappoltstein (St. Ulrichsburg)
           entstanden ist.<a href="#_ftn39" id="_ftnref39"><sup>[39]</sup></a> Während der
           Abfassungszeit des ›Rappoltsteiner Parzifal‹ in den 30er-Jahren des 14.
           Jahrhunderts war der Edelmann Johann von Rappoltstein († 1362), Herr zu
           Groß-Rappoltstein und Herr in der Rappoltsweiler Neustadt und Oberstadt.<a href="#_ftn40" id="_ftnref40"><sup>[40]</sup></a>
           Er war der Ehemann der Elisabeth von Geroldseck,<a href="#_ftn41" id="_ftnref41"><sup>[41]</sup></a>
           der Bruder der Sophia, Äbtissin von Andlau,<a href="#_ftn42" id="_ftnref42"><sup>[42]</sup></a> und der Vater Johanns
-          und Ulrichs IV., der als Auftraggeber des ›Rappoltsteiner Parzifal‹ infrage
+          und Ulrichs IV., der als Auftraggeber des ›Rappoltsteiner Parzifal‹ in Frage
           kommt (siehe <a href="#_Toc389815974">Kap. 1.2.1</a>). Ob Ulrich IV. zum Zeitpunkt der Fertigstellung von
           Hs. V noch auf der Burg Groß-Rappoltstein wohnhaft war oder bereits als Domherr
           in Basel weilte, ist nicht bekannt. Der zweite Ulrich, der als Auftraggeber
           diskutiert wird, nämlich der Sohn des Anselm, war während der Abfassung des
           Textes und der Herstellung der Handschrift wahrscheinlich noch Domherr in
-          Straßburg. Sowohl die Burg Groß-Rappoltstein wie auch die Städte Basel und
+          Straßburg. Sowohl die Burg Groß-Rappoltstein als auch die Städte Basel und
           Straßburg können somit als Entstehungsort des ›Rappoltsteiner Parzifal‹ und der
           Hs. V in Betracht gezogen werden.
       </p>
@@ -1191,15 +1186,15 @@
       <p class="MsoNormal">Bereits in einer vorangehenden Rubrik
           wird Philipp Colin (<span class="titel1"><i>pfilippes kolin</i></span>) als
           Verfasser des Epilogs genannt.<a href="#_ftn43" id="_ftnref43"><sup>[43]</sup></a> Der Epilog seinerseits
-          enthält eine Darstellung der Genese des Textes, in der Colin als kluger
-          (kundiger?) Goldschmied<a href="#_ftn44" id="_ftnref44"><sup>[44]</sup></a> aus oder wohnhaft in
-          Straßburg vorgestellt wird, der als Konzepteur und Dichter das vorliegende Buch
+          stellt Colin als klugen
+          (kundigen?) Goldschmied<a href="#_ftn44" id="_ftnref44"><sup>[44]</sup></a> aus oder wohnhaft in
+          Straßburg vor, der das vorliegende Buch
           für seinen Herrn aus französischen in deutsche Reime gebracht habe.<a href="#_ftn45" id="_ftnref45"><sup>[45]</sup></a>
         Nach den anfänglichen Nennungen in der dritten Person tritt ab Vers Ep 163 (Sch. 849.23) ein wohl auf Philipp Colin verweisender
         Ich-Erzähler auf.<a href="#_ftn46" id="_ftnref46"><sup>[46]</sup></a> An späterer Stelle berechnet dieser für die
           Herstellung des ›Rappoltsteiner Parzifal‹ Kosten in der Höhe von 200 (vermutlich
           Straßburger) Pfund Pfennigen (87,5 Mark Silber), den Gegenwert dessen, was
-        <i>ein minner in kvrzer ſtunt | An eime orſze verſtichet</i> (eines Turnierpferds?, Ep 405–411; Sch. 854.37–43). Es wird m Epilog jedoch nicht gesagt, wer
+        <i>ein minner in kvrzer ſtunt | An eime orſze verſtichet</i> (eines Turnierpferds?, Ep 405–411; Sch. 854.37–43). Es wird im Epilog jedoch nicht gesagt, wer
           von den am Entstehungsprozess beteiligten Personen (siehe Kap. <a href="#_Toc389815979">1.2.2.2</a>,
           <a href="#_Toc389815980">1.2.2.3</a>, <a href="#_Toc389815983">1.3.1</a> und
           <a href="#_Toc389815985">1.3.2</a>) von dieser Summe profitieren konnte und ob darin ein
@@ -1217,8 +1212,8 @@
           Anteil für 20 Mark Silber verkauft hatte.<a href="#_ftn52" id="_ftnref52"><sup>[52]</sup></a></p>
       <h6><a id="_Toc389815979"/><a id="_Ref381896925"/><a id="_Ref381536118"/><a id="_Ref379125397"/>1.2.2.2 Klaus Wisse</h6>
       <p class="MsoNormal">Mitten im Epilog, im Anschluss an
-        die erwähnte Androhung einer ,Minnestrafe‘ an Ulrich von Rappoltstein durch die Minne (Ep 338–342; Sch. 853.16–20) und nach dem erteilten Auftrag, das
-          Werk zu dichten, wird gemäß dem Wortlaut von Hs. V über die Entstehung des ›Rappoltsteiner
+        die oben zitierte Androhung einer ,Bannsetzung‘ Ulrichs von Rappoltstein durch die Minne (Ep 338–342; Sch. 853.16–20) und nach dem erteilten Auftrag, das
+          Werk abzufassen, wird gemäß dem Wortlaut von Hs. V über die Entstehung des ›Rappoltsteiner
           Parzifal‹ Folgendes berichtet:
       </p>
       <p class="verse">
@@ -1335,30 +1330,30 @@
           oberen und niederen Stadt zu Rappoltsweiler dem damaligen Herren in der
           Oberstadt, Johannes von Rappoltstein, Vater Ulrichs IV.<a href="#_ftn56" id="_ftnref56"><sup>[56]</sup></a>
           Falls auch Samson Pine der seit Beginn des 14. Jahrhunderts nachweisbaren jüdischen Gemeinde
-          in Rappoltsweiler<a href="#_ftn57" id="_ftnref57"><sup>[57]</sup></a> angehört hat, wäre er als
+          in Rappoltsweiler<a href="#_ftn57" id="_ftnref57"><sup>[57]</sup></a> angehört hat, könnte er als
           Leibeigener des Johannes von Rappoltstein zur Mitarbeit am ›Rappoltsteiner
-          Parzifal‹ verpflichtet worden.
+          Parzifal‹ verpflichtet worden sein.
       </p>
       <h5><a id="_Toc389815981"/>1.2.3 Benutzte Vorlagen</h5>
-      <p class="MsoNormal">Als Vorlagen für den
+      <p class="MsoNormal">Als Quellen für den
           ›Rappoltsteiner Parzifal‹ dienten den Kompilatoren und Redaktoren
-          unterschiedliche deutsche und französische Quellen. Von den für Hs. V benutzten
+          unterschiedliche deutsche und französische Texte. Von den für Hs. V benutzten
           handschriftlichen Vorlagen hat sich allerdings keine erhalten. Trotz dieses
           Verlusts können aus der Fülle der noch bekannten Überlieferungszeugen Handschriften
-          ausgemacht werden, die den im ›Rappoltsteiner Parzifal‹ überlieferten Textfassungen
+          ermittelt werden, die den im ›Rappoltsteiner Parzifal‹ überlieferten Textfassungen
           näher stehen als andere.
       </p>
-      <p class="MsoNormal">Der Prologus folgt einer Fassung der altfranzösischen ›Élucidation‹, die der einzig bekannten
-          Handschrift mit dem Verstext, dem Codex Mons, Bibliothèque centrale, <a href="http://biblio.umons.ac.be/public/bv/Perceval-complet_004/">331/206 R2/C</a>,
+      <p class="MsoNormal">So folgt der Prologus einer Versfassung der altfranzösischen ›Élucidation‹, die dem Text der einzig bekannten
+          Handschrift, des Codex Mons, Bibliothèque centrale, <a href="http://biblio.umons.ac.be/public/bv/Perceval-complet_004/">331/206 R2/C</a>,
           aus dem 13. Jahrhundert zwar nahesteht, sich an einigen Stellen jedoch mit der
-          altfranzösischen Prosafassung im Pariser Druck von 1530 gegen ihn verhält.<a href="#_ftn58" id="_ftnref58"><sup>[58]</sup></a>
-          Für die Verwendung von Textstellen aus Chretiens de Troyes ›Conte du Graal‹,
+          altfranzösischen Prosafassung im Pariser Druck von 1530 gegen diesen verhält.<a href="#_ftn58" id="_ftnref58"><sup>[58]</sup></a>
+          Für die Verwendung von Textstellen aus Chrétiens de Troyes ›Conte du Graal‹,
           die in der Vorlage wahrscheinlich mit der ›Élucidation‹ gemeinsam überliefert
-          wurden, kann keine der von <span style="font-variant:small-caps">Keith Busby</span>
-          in seiner Ausgabe<a href="#_ftn59" id="_ftnref59"><sup>[59]</sup></a> berücksichtigten
+          wurden, kann keine der in <span style="font-variant:small-caps">Keith Busbys</span>
+          Ausgabe<a href="#_ftn59" id="_ftnref59"><sup>[59]</sup></a> berücksichtigten
           Handschriften in eine direkte Verbindung zum ›Rappoltsteiner Parzifal‹ gebracht
           werden.<a href="#_ftn60" id="_ftnref60"><sup>[60]</sup></a> Dasselbe gilt auch für
-          Stellen aus den ›Continuations‹ zu Chretiens ›Conte du Graal‹, die zwar der bekannten
+          Stellen aus den ›Continuations‹ zu Chrétiens ›Conte du Graal‹, die zwar der bekannten
           Mischredaktion folgen, jedoch gemäß den Lesarten keiner der erhaltenen Handschriften
           direkt zugeordnet werden können.
       </p>
@@ -1367,7 +1362,7 @@
           unterschiedliche Stufen der Be- und Überarbeitung beobachtet werden können.<a href="#_ftn61" id="_ftnref61"><sup>[61]</sup></a><span style="font-variant:small-caps"> Robert Schöller</span> fasst die komplizierte
           Genese des ›Parzival‹-Textes in Hs. V wie folgt zusammen:
       </p>
-      <blockquote class="Blockquote">»Der Text von ›Parzival‹ V wurde zunächst nach einer
+      <blockquote class="Blockquote">Der Text von ›Parzival‹ V wurde zunächst nach einer
             Vorlage aus *T abgeschrieben. In einem zweiten Durchgang wurde eine Handschrift
             aus der Gruppe *m nachverglichen. Wo die Handschrift aus *m im Textbestand
             über die *T-Vorlage hinausging, wurden die zusätzlichen Verse zunächst am Rand
@@ -1377,7 +1372,7 @@
             Handschrift aus *m verwendet. In einem dritten Durchgang wurde schließlich noch
             eine Vorlage aus *QR nachverglichen. Die am Rand notierten Verse von *m wurden
             radiert und in den Text integriert, aber nur dann, wenn diese Verse auch in *QR
-            vorhanden waren.«<a href="#_ftn62" id="_ftnref62"><sup>[62]</sup></a>
+            vorhanden waren.<a href="#_ftn62" id="_ftnref62"><sup>[62]</sup></a>
       </blockquote>
       <p class="MsoNormal">Die direkten Vorlagen von Hs. V
           aus den Fassungen *T und *m (für die Korrekturen sowie für den Grundbestand ab
@@ -1385,38 +1380,36 @@
           die noch bekannten, zwischen dem ersten Viertel des 13. und dem ersten Viertel
           des 14. Jahrhunderts geschriebenen *T-Textzeugen im alemannischen Raum
           entstanden.<a href="#_ftn63" id="_ftnref63"><sup>[63]</sup></a> Die erhaltenen *m-Textzeugen
-          sind zwar jünger als Hs. V, können jedoch in den möglichen Entstehungsraum des
+          sind zwar jünger als Hs. V, können jedoch im möglichen Entstehungsraum des
           ›Rappoltsteiner Parzifal‹ lokalisiert werden: Alle vier Überlieferungszeugen stammen
           nachweislich aus Straßburg. Es sind dies drei nicht voneinander abgeschriebene,
           aber alle im zweiten Viertel des 15. Jahrhunderts in der Straßburger
-          Lauberwerkstatt gefertigte Handschriften sowie eine vom Straßburger Drucker
-          Johannes Mentelin 1477 erstellte Ausgabe.<a href="#_ftn64" id="_ftnref64"><sup>[64]</sup></a> Die letzte Handschrift,
+          Lauberwerkstatt gefertigte Handschriften sowie ein aus der Straßburger Offizin des
+          Johannes Mentelin stammender Druck von 1477.<a href="#_ftn64" id="_ftnref64"><sup>[64]</sup></a> Die letzte Handschrift,
           die bei der Herstellung von Hs. V in einem dritten Schritt zur Kontrolle und
           zum Vergleich beigezogen wurde, ist mit der Vorlage *QR verwandt. Die einzigen erhaltenen
           Handschriften dieser Gruppe (Hs. Q und die mit kolorierten Federzeichnungen
           ausgestattete Hs. R) sind im dritten Viertel des 15. Jahrhunderts in Ostfranken
-          beziehungsweise in Konstanz entstanden.<sup>[64]</sup></p>
+          bzw. in Konstanz entstanden.<sup>[64]</sup></p>
       <p class="MsoNormal">                Isolierte
-          Freidank-Verse wie derjenige, der auf dem Spruchband auf Bl.
-          <router-link to="/faksimile/V/115v">115v</router-link>a von
-          Hs. V überliefert ist (FR 110,21f.), sind im Mittelalter keine Seltenheit. Aus der
-          Frühen Neuzeit hat sich beispielsweise eine Balkenmalerei des 16. Jahrhunderts
-          auf der Frontseite eines Gebäudes in Fritzlar (Markt 28) erhalten, die den Vers
+          Freidank-Verse wie derjenige, der in Hs. V auf dem Spruchband von Bl.
+          <router-link to="/faksimile/V/115v">115v</router-link>a überliefert ist (FR 110,21f.), sind im Mittelalter keine Seltenheit. Aus dem
+          16. Jahrhundert hat sich beispielsweise eine Balkenmalerei auf der Frontseite eines Gebäudes in Fritzlar (Markt 28) erhalten, die den Vers
           gemeinsam mit den Versen FR 62,12f. wiedergibt.<a href="#_ftn66" id="_ftnref66"><sup>[66]</sup></a></p>
       <p class="MsoNormal">                Die sieben bekannten
           Minneliedstrophen im sogenannten ›Rappoltsteiner Florilegium‹ auf demselben Bl.
           <router-link to="/faksimile/V/115v">115v</router-link> sind
           einzeln weit verbreitet, finden sich in dieser Zusammenstellung jedoch lediglich
-          in Hs. V und Hs. V',<a href="#_ftn67" id="_ftnref67"><sup>[67]</sup></a> die auf Bl.
+          in Hs. V und Hs. V',<a href="#_ftn67" id="_ftnref67"><sup>[67]</sup></a> eine weitere auf Bl.
           <router-link to="/faksimile/V/320v">320v</router-link>a
-          nachgetragene Zusatzstrophe wiederum überliefert nur Hs. V.
+          nachgetragene Strophe wiederum überliefert nur Hs. V.
       </p>
       <h4><a id="_Toc389815982"/><a id="_Ref379010745"/>1.3 Genese der Handschrift V
       </h4>
       <p class="MsoNormal">Nach der Darstellung der Genese
           der Texte im ›Rappoltsteiner Parzifal‹ wird im Folgenden mittels
           paläographischer Untersuchungen die Genese des Überlieferungsträgers Hs. V
-          nachgezeichnet. Berücksichtigt werden dabei neben dem Schreibanteil (Kap. 1.3.1) und
+          nachgezeichnet. Berücksichtigt werden dabei neben dem Schreiberanteil (Kap. 1.3.1) und
           dem Korrekturprozess (Kap. 1.3.1.1) der fünf unterscheidbaren Schreiberhände
           auch die von professioneller Hand ausgeführte ornamentale Ausstattung der
           Handschrift (Kap. 1.3.2).
@@ -1424,15 +1417,12 @@
       <h5><a id="_Toc389815983"/><a id="_Ref379014675"/>1.3.1 Die Schreiber</h5>
       <p class="MsoNormal"><a id="_Ref381536263"/>Auf Bl.
           <router-link to="/faksimile/V/320v">320v</router-link>a von
-          Hs. V wird in einem mit roter Tinte geschriebenen Kolophon ein Schreiber <i>Henſelin
-            </i>sowie ein weiterer, aus Ohnenheim (seit 1301 rappoltsteinischer
-          Pfandbesitz,<a href="#_ftn68" id="_ftnref68"><sup>[68]</sup></a> heute: Département
-          Bas-Rhin) bei Marckolsheim stammender Mann genannt:
-      </p>
+          Hs. V werden in einem mit roter Tinte geschriebenen Kolophon ein Schreiber <i>Henſelin
+            </i>sowie ein weiterer, aus <i>Onhein</i> stammender Mann genannt:<a href="#_ftn68" id="_ftnref68"><sup>[68]</sup></a></p>
       <p class="verse"><i>Diz ſol nieman v(er)geſſen</i></p>
       <p class="verse"><i>Ob diſem buͦche ſint fúnf ior geſeſſen</i></p>
       <p class="verse"><i>Ze tihtende vn(de) ze ſchriben</i></p>
-      <p class="verse"><i>Hie ſol ein ende b:::ben</i></p>
+      <p class="verse"><i>Hie ſol ein ende b::ben</i></p>
       <p class="verse"><i>Henſelin ſchrib(er) het oͮch vil geſchribe(n) h(er)an</i></p>
       <p class="verse"><i>Vn(de) wil noch nút ein ende han</i></p>
       <p class="verse"><i>Er gewan noch nie bart</i></p>
@@ -1441,8 +1431,8 @@
       <p class="verse"><i>Er trúget die vrowen mit ſime growe(n) hore</i></p>
       <p class="verse">(Ep 558-3<sup>1–10</sup>; Sch. XVI)</p>
       <p class="MsoNormal">Nicht eindeutig bestimmen lässt sich in diesem Eintrag, ob es sich beim Namen <i>Henselin</i> um eine Kurzform
-          des Vornamens Johannes oder um einen Nachnamen handelt, und ob mit <i>Schriber</i> eine Berufsbezeichnung oder ein
-          Nachname gemeint ist.<a href="#_ftn69" id="_ftnref69"><sup>[69]</sup></a> Infrage kommen somit
+          des Vornamens Johannes oder um einen Nachnamen handelt und ob mit <i>Schriber</i> eine Berufsbezeichnung oder ein
+          Nachname gemeint ist.<a href="#_ftn69" id="_ftnref69"><sup>[69]</sup></a> In Frage kommen somit
           Vertreter folgender Namenskombinationen: <i>Henselin</i> (Johannes) <i>Schriber</i>
           (Nachname), ein Schreiber mit Vorname <i>Henselin</i> (Johannes)<a href="#_ftn70" id="_ftnref70"><sup>[70]</sup></a>
           sowie ein Schreiber mit Nachname <i>Henslin</i><a href="#_ftn71" id="_ftnref71"><sup>[71]</sup></a>.
@@ -1453,11 +1443,10 @@
           über diesen Schreiber – nicht in der ersten, sondern in der dritten Person formuliert
           – der Zusammenfassung der Genese der gesamten Handschrift folgt und da ein
           eindeutiges <i>per me</i> fehlt,<a href="#_ftn72" id="_ftnref72"><sup>[72]</sup></a> muss es sich beim
-          Eintrag auch nicht unbedingt um das Kolophon des genannten, laut der Forschung
+          Eintrag auch nicht unbedingt um den Kolophon des genannten, laut der Forschung
           ersten von zwei Schreibern handeln.<a href="#_ftn73" id="_ftnref73"><sup>[73]</sup></a> Wahrscheinlicher ist,
           dass hier die Schlussbemerkung des Endredaktors der Handschrift vorliegt.
-          Ausserdem geht aus dem Kolophon nicht hervor, ob der nicht namentlich
-          genannte <i>von Onhein</i> einen zweiten Schreiber der Hs. V meint.<a href="#_ftn74" id="_ftnref74"><sup>[74]</sup></a>
+          Ausserdem geht aus dem Kolophon nicht eindeutig hervor, dass der Ungenannte <i>von Onhein</i> einen zweiten Schreiber der Hs. V bezeichnet.<a href="#_ftn74" id="_ftnref74"><sup>[74]</sup></a>
           Es ist nämlich möglich, dass dieser Mann, der die Damen mit seinem ergrauten
           Haar täuscht, lediglich als Kontrast zum jungen <i>Henselin</i> genannt wird.
       </p>
@@ -1467,7 +1456,7 @@
           haben.<a href="#_ftn75" id="_ftnref75"><sup>[75]</sup></a> Von der Schreiberhand I stammt
           das erste Doppelblatt (Bl.
           <router-link to="/faksimile/V/001r">1</router-link>/<router-link to="/faksimile/V/010v">10</router-link>) der
-          Handschrift. Dieses umfasst die von Hand II beschriebenen Blätter
+          Handschrift. Dieses umgibt die von Hand II beschriebenen Blätter
           <router-link to="/faksimile/V/002r">2</router-link>–<router-link to="/faksimile/V/009v">9</router-link> der
           ersten Lage und scheint das ursprüngliche Blatt dieser Lage ersetzt zu haben. Hand
           II schrieb zudem die zweite Lage (Bl.
@@ -1477,7 +1466,7 @@
           hat mit wenigen Ausnahmen alle Blätter der 3.–35. Lage (Bl.
           <router-link to="/faksimile/V/021r">21</router-link>–<router-link to="/faksimile/V/274v">274</router-link>)
           beschrieben. Eine weitere Schreiberhand Nr. IV verantwortet den zweiten Teil
-          von Buch XVI aus Wolframs ›Parzival‹ (L. 799.1–827.30) mit Einschüben, den
+          von Buch XVI aus Wolframs ›Parzival‹ (L. 799.1–827.30) mit Einschüben, ferner den
           Epilog des ›Nuwen Parzifal‹ sowie das Explicit der Handschrift (Bl.
           <router-link to="/faksimile/V/312v">312v</router-link>b–<router-link to="/faksimile/V/320v">320v</router-link>a). Von
           der Schreiberhand V schließlich, bei der es sich möglicherweise um Hand III in
@@ -1487,7 +1476,7 @@
           <router-link to="/faksimile/V/115v">115v</router-link>a/b
           sowie eine Blattberechnung am Schluss von Hs. V (Bl.
           <router-link to="/faksimile/V/320v">320v</router-link>a).<a href="#_ftn76" id="_ftnref76"><sup>[76]</sup></a>
-          Zudem korrigierte die Schreiberhand V herausgeschnittene und wieder eingeklebte
+          Zudem korrigierte die Schreiberhand V diverse herausgeschnittene und wieder eingeklebte
           Blätter in der sechsten, siebten und neunten Lage der Handschrift und beschrieb
           das gesamte Bl.
           <router-link to="/faksimile/V/069r">69</router-link>.<a id="_Ref355268284"/><a href="#_ftn77" id="_ftnref77"><sup>[77]</sup></a></p>
@@ -1579,8 +1568,8 @@
                     <router-link to="/faksimile/V/065r">65</router-link>,
                     <router-link to="/faksimile/V/066r">66</router-link>,
                     <router-link to="/faksimile/V/069r">69</router-link><i> und </i>
-                    <router-link to="/faksimile/V/087r">87</router-link><i> Korrekturen von Hand V vorgenommen; Bl. </i>
-                    <router-link to="/faksimile/V/069r">69</router-link><i> stammt gänzlich von ihr)</i>
+                    <router-link to="/faksimile/V/087r">87</router-link><i> diverse Korrekturen von Hand V vorgenommen; Bl. </i>
+                    <router-link to="/faksimile/V/069r">69</router-link><i> stammt gänzlich von ihr).</i>
                 </td>
             </tr>
           </tbody>
@@ -1686,14 +1675,13 @@
       </p>
       <p class="MsoNormal">1. Schreiber III kopiert auf Bl.
           <router-link to="/faksimile/V/040v">40v</router-link>b
-          den ›Parzival‹-Text nach einer Vorlage, die den ›Parzival‹ Wolframs von
-          Eschenbach in einer *T-Fassung enthielt.
+          den ›Parzival‹-Text nach einer Vorlage, die Wolframs Dichtung in einer *T-Fassung enthalten hat.
       </p>
       <p class="MsoNormal">2. Beim Nachvergleichen mit einer
           ›Parzival‹-Handschrift der *m-Fassung wird das Fehlen der beiden Verse L.
           247.19f. bemerkt. Schreiber V, der die Überprüfung vermutlich vorgenommen
           hat, trägt die fehlenden Verse am Rand nach: <i>Niht langer er do habete | v:ſte
-            vf die b::</i> (vgl. Bl.
+            vf die b:::</i> (Bl.
           <router-link to="/faksimile/V/040v">40v</router-link>b,
           linker Rand).
       </p>
@@ -1703,10 +1691,9 @@
           Verse (mit den ursprünglich fehlenden Versen 247.19f.) an der nun freien
           Stelle wieder ein, benutzt dazu allerdings nicht wie bei der ersten Kontrolle
           eine ›Parzival‹-Handschrift der *m-Fassung, sondern eine Handschrift mit dem
-          Wortlaut der *QR-Gruppe, in der das <i>do</i> fehlt: <i>Niht langer er habete |
-            Vaſte vf die brucke er trabte</i> (vgl. Bl.
-          <router-link to="/faksimile/V/040v">40v</router-link>b).
-          Die Randglosse wird wieder radiert.
+          Wortlaut der *QR-Gruppe, in der das <i>do</i> fehlt: <i>Niht langer er habte |
+            Vaſte vf die brucke er trabte</i>. Die Randglosse (Bl.
+          <router-link to="/faksimile/V/040v">40v</router-link>b) wird wieder radiert.
       </p>
       <h5><a id="_Toc389815985"/><a id="_Ref379125439"/><span style="font-variant:small-caps">1.3.2 </span>Buchschmuck</h5>
       <p class="MsoNormal"><span style="font-variant:small-caps">Ute Obhof</span> kam 2009 zum Schluss, dass der Buchschmuck der Hs. V von
@@ -3343,55 +3330,40 @@
       <div class="footnotes">
           <hr style="text-align: left"/>
           <div id="ftn1">
-            <p class="MsoFootnoteText"><a href="#_ftnref1" id="_ftn1"><sup>[1]</sup></a> Zitiert
-                  wird der ›Rappoltsteiner Parzifal‹ mit dem Kürzel „NP“ (›Nuwer Parzifal‹) und
-                  entsprechender Versnummer nach der vorliegenden Ausgabe in elektronischer Form
-                  sowie mit dem Kürzel „Sch.“ und entsprechender Spalten- (arabische Ziffer) bzw.
-                  Seiten- (römische Ziffer bei den Zusätzen und beim Prologus) und Zeilennummer
-                  nach <span style="font-variant:small-caps">›Rappoltsteiner Parzifal‹ (Ed. Schorbach)</span>.</p>
+            <p class="MsoFootnoteText"><a href="#_ftnref1" id="_ftn1"><sup>[1]</sup></a> Der
+                  ›Parzival‹ Wolframs von Eschenbach wird im Folgenden mit dem Kürzel „L.“ und entsprechender
+                  Dreißiger- und Versnummer zitiert nach <span style="font-variant:small-caps">Wolfram,
+                      ›Parzival‹ (Ed. Lachmann/Knecht/Schirok 22003)</span>. Die Ziffern von Zusatzversen werden hochgestellt.</p>
           </div>
           <div id="ftn2">
-            <p class="MsoFootnoteText"><a href="#_ftnref2" id="_ftn2"><sup>[2]</sup></a> Der
-                  ›Parzival‹ Wolframs von Eschenbach wird mit dem Kürzel „L.“ und entsprechender
-                  Dreißiger- und Zeilennummer zitiert nach <span style="font-variant:small-caps">Wolfram,
-                      ›Parzival‹ (Ed. Lachmann/Knecht/Schirok)</span>. Zusatzverse aus dem ›Nuwen
-                  Parzifal‹ (bspw. der Epilog) werden nach der vorliegenden Ausgabe in
-                  elektronischer Form zitiert und erscheinen hochgestellt.</p>
+            <p class="MsoFootnoteText"><a href="#_ftnref2" id="_ftn2"><sup>[2]</sup></a> Der ›Nuwe Parzifal‹, dessen Name sich von Angaben zur Blattberechnung in Hs. V, Bl. 115va, und vom Explicit zu Wolframs ›Parzival‹ in Hs. V, Bl. 317va, herleitet, wird im Folgenden mit dem Kürzel »NP« bzw. »Ep« (Epilog des ›Nuwen Parzifal‹) und entsprechender Versnummer zitiert. Die Versangaben erfolgen nach der vorliegenden Ausgabe in digitaler Form sowie mit dem Kürzel »Sch.«, ergänzt durch die entsprechende Spalten- (arabische Ziffer) bzw. Seiten- (römische Ziffer bei den Zusätzen und beim Prologus) und Versnummer, nach Rappoltsteiner Parzifal (ed. Schorbach 1888). Die Ziffern von Zusatzversen werden hochgestellt. Initialen und Lombarden sind fett markiert. Rote Überschriften und andere Notate werden in Spitzklammern (&lt;...&gt;) eingeschlossen. Weitere Texteinrichtungsprinzipien entsprechen denjenigen in den Erläuterungen zur Transkription.</p>
           </div>
           <div id="ftn3">
-            <p class="MsoFootnoteText"><a href="#_ftnref3" id="_ftn3"><sup>[3]</sup></a> Die
-                  Verse der altfranzösischen Vorlagen werden zitiert mit dem Kürzel „CdGr“ nach <span style="font-variant:small-caps">Chrétien,
-                      ›Conte du Graal‹ (Ed. </span><span lang="EN-US" style=" font-variant:small-caps">Busby), </span>und
-                  als Roach I, II und V
-                  (Fortsetzungen) nach <span style="font-variant:small-caps">›Perceval‹, First
-                      Continuation (Ed. Roach), ›Perceval‹, Second Continuation (Ed. </span><span style="font-variant:small-caps">Roach),</span><span style=""> und <span style="font-variant:small-caps">›Perceval‹,
-                      Third Continuation (Ed. Roach)</span>.</span></p>
+            <p class="MsoFootnoteText"><a href="#_ftnref3" id="_ftn3"><sup>[3]</sup></a> Die Verse der altfranzösischen Vorlagen werden zitiert mit dem Kürzel »CdGr« nach <span style="font-variant:small-caps">Chrétien, Conte du Graal (ed. </span><span lang="EN-US" style=" font-variant:small-caps">Busby</span> 1993), und als »Roach I«, »Roach IV« und »Roach V« (Fortsetzungen) nach <span style="font-variant:small-caps">Perceval, First Continuation (ed. Roach 1949), Perceval, Second Continuation (ed. </span><span style="font-variant:small-caps">Roach</span> 1971), <span style="">und <span style="font-variant:small-caps">Perceval, Third Continuation (ed. Roach 1983)</span>.</span> Die abgekürzte Angabe »dt.« verweist im Folgenden auf deutschsprachige Textanteile, die im Zuge der Übertragung aus den altfranzösischen Vorlagen entstanden sind. </p>
           </div>
           <div id="ftn4">
-            <p class="MsoFootnoteText"><a href="#_ftnref4" id="_ftn4"><sup>[4]</sup></a> So bspw. bei <span style="font-variant:small-caps">San Marte</span> (1890), S. 288; <span style="font-variant:small-caps">Besch</span> (1962), S. 92; <span style="font-variant:small-caps">Mertens</span> (<sup>2</sup>1994), S. 34, und <span style="font-variant:small-caps">Bumke</span> (1997), S. 87.
-            </p>
+            <p class="MsoFootnoteText"><a href="#_ftnref4" id="_ftn4"><sup>[4]</sup></a> Auf den Status der Hs. V als ,Original‘ verweisen u.a. <span style="font-variant:small-caps">San Marte</span> (1890), S. 288; <span style="font-variant:small-caps">Besch</span> (1962), S. 92; <span style="font-variant:small-caps">Mertens</span> (<sup>2</sup>1994), S. 34, und <span style="font-variant:small-caps">Bumke</span> (1997), S. 87. – Zur Begrifflichkeit des ,Originals‘ sowie den damit verbundenen Setzungen und Zuschreibungen <span style="font-variant:small-caps">Weingart</span> (2012), bes. S. 203, und <span style="font-variant:small-caps">Rippl/Stolz</span> (2019).</p>
           </div>
           <div id="ftn5">
             <p class="MsoFootnoteText"><a href="#_ftnref5" id="_ftn5"><sup>[5]</sup></a> Kritischer
                   hingegen lesen den Epilog <span style="font-family:&#34;d&#34;,&#34;serif&#34;; font-variant:small-caps">Wolfgang Achnitz</span><span style="">,
                   für den die Angaben »nicht auf werkexterne Fakten beziehbar« sind (</span><span style="font-family:&#34;d&#34;,&#34;serif&#34;;font-variant:small-caps">Achnitz</span><span style=""> [2012], S. 141, Anm. 95), und <span style="font-variant: small-caps">Peter Strohschneider</span>, der im als »doppelte[] höfische[]
                   Textgeschichte« konzipierten Epilog eine mit »faktographisch interessanten
-                  Informationen angereichert[e]« Inszenierung sieht (<span style="font-variant: small-caps">Strohschneider</span> [2003/2014], S. 309).</span></p>
+                  Informationen angereichert(e)« Inszenierung sieht (<span style="font-variant: small-caps">Strohschneider</span> [2003/2014], S. 309).</span></p>
           </div>
           <div id="ftn6">
             <p class="MsoFootnoteText"><a href="#_ftnref6" id="_ftn6"><sup>[6]</sup></a><span style="font-variant:small-caps"> Scheffel</span><span style=""> (1855),
                   S. 680.</span></p>
           </div>
           <div id="ftn7">
-            <p class="MsoFootnoteText"><a href="#_ftnref7" id="_ftn7"><sup>[7]</sup></a> <span style="font-variant:small-caps">Schorbach</span> (1888), S. XI (Hervorhebung im Original).</p>
+            <p class="MsoFootnoteText"><a href="#_ftnref7" id="_ftn7"><sup>[7]</sup></a> <span style="font-variant:small-caps">Schorbach</span> (1888), S. XI (Hervorhebung dort).</p>
           </div>
           <div id="ftn8">
             <p class="MsoFootnoteText"><a href="#_ftnref8" id="_ftn8"><sup>[8]</sup></a> <span style="font-variant:small-caps">Viehhauser-Mery</span> (2009), S. 113.</p>
           </div>
           <div id="ftn9">
               <p class="MsoFootnoteText"><a href="#_ftnref9" id="_ftn9"><sup>[9]</sup></a>
-        Für die freundliche Überlassung der Handschrift zur Benutzung und für ihre Mithilfe beim Entziffern
-        mit der UV-Lampe des nachgetragenen altfranzösischen Minnetextes
+        Die Darstellung orientiert sich hier und bei Hs. V' an den Richtlinien Handschriftenkatalogisierung (1992) der Deutschen Forschungsgemeinschaft, sie ist jedoch gegenüber diesem Modell angepasst und erweitert worden. In der nach der Überschrift angeführten Schlagzeile werden Entstehungsumstände, Beschreibstoff, Blattgröße, Entstehungsraum und -zeit genannt. – Für die Möglichkeit zur Autopsie der Handschrift und für die Mithilfe beim Entziffern mit der UV-Lampe des nachgetragenen altfranzösischen Minnetextes
         (siehe <a href="#_Toc389815992">Kap. 1.4.3</a>) bedanke ich mich an dieser Stelle bei Frau Dr. Annika Stello,
         Badische Landesbibliothek Karlsruhe.</p>
           </div>
@@ -3402,8 +3374,8 @@
                       Mediaevalia</a>’.</p>
           </div>
           <div id="ftn11">
-            <p class="MsoFootnoteText"><a href="#_ftnref11" id="_ftn11"><sup>[11]</sup></a> Nach <span style="font-variant:small-caps">Schneider</span> (2009), Textbd., S. 140,
-                  lediglich zwei Schreiber. Zur Charakterisierung siehe ebd., S. 141.</p>
+            <p class="MsoFootnoteText"><a href="#_ftnref11" id="_ftn11"><sup>[11]</sup></a> Nach <span style="font-variant:small-caps">Schneider</span> (2009), S. 140,
+                  lediglich zwei Schreiber; zur Charakterisierung siehe ebd., S. 141.</p>
           </div>
           <div id="ftn12">
             <p class="MsoFootnoteText"><a href="#_ftnref12" id="_ftn12"><sup>[12]</sup></a> Zu
@@ -3420,10 +3392,10 @@
                   *T-Fassung siehe <span style="font-variant:small-caps">Schöller</span> (2009).</p>
           </div>
           <div id="ftn14">
-            <p class="MsoFootnoteText"><a href="#_ftnref14" id="_ftn14"><sup>[14]</sup></a> In L.
-                  207.5 und 6 (Bl. 34vb) wurde gegenüber <span style="font-variant:small-caps">Lachmann</span>s
-                  Ausgabe jeweils ein Vers eingeschoben, da in L. 207.5 infolge Satzumstellung
-                  der Reim verändert worden ist: <i>liezen ê</i> zu <i>.e. liezen</i>; abgedr.
+            <p class="MsoFootnoteText"><a href="#_ftnref14" id="_ftn14"><sup>[14]</sup></a> Den beiden Versen L.
+                  207.5 und 6 (Bl. 34vb) wurde gegenüber dem Text in <span style="font-variant:small-caps">Lachmann</span>s
+                  Ausgabe jeweils ein Vers hinzugefügt, da in L. 207.5 infolge Satzumstellung
+                  der Reim verändert worden ist: <i>liezen ê</i> zu <i>.e. liezen</i>; abgedruckt
                   bei <span style="font-variant:small-caps">Schorbach</span> (1888), S. XLIX.</p>
           </div>
           <div id="ftn15">
@@ -3438,7 +3410,7 @@
             <p class="MsoFootnoteText"><a href="#_ftnref17" id="_ftn17"><sup>[17]</sup></a> Das
                   Substantiv <i>milte</i> meint hier die Freigebigkeit und das Wohlwollen, zu
                   denen ein Herrscher verpflichtet ist. Die <i>largesce</i> wurde bereits in der
-                  altfr. Dichtung des 12. Jahrhunderts personifiziert; vgl. <span style="font-variant:small-caps">Herzhoff</span> (1904), S. 30f. (Nr. 15).</p>
+                  altfranzösischen Dichtung des 12. Jahrhunderts personifiziert; vgl. <span style="font-variant:small-caps">Herzhoff</span> (1904), S. 30f. (Nr. 15).</p>
           </div>
           <div id="ftn18">
             <p class="MsoFootnoteText"><a href="#_ftnref18" id="_ftn18"><sup>[18]</sup></a> Vgl. <span style="font-variant:small-caps">Wittmann-Klemm</span> (1977),
@@ -3448,7 +3420,7 @@
             <p class="MsoFootnoteText"><a href="#_ftnref19" id="_ftn19"><sup>[19]</sup></a> Siehe
                   auch die Zusammenfassung bei <span style="font-variant:small-caps">Schorbach</span>
                   (1888), S. XVIII–XXII; <span style="font-variant:small-caps">Thomas</span>
-                  (1997), S. 375–378, und <span style="font-variant:small-caps">Emmerling</span>
+                  (1997), S. 375–378; <span style="font-variant:small-caps">Emmerling</span>
                   (2003), S. 33–36.</p>
           </div>
           <div id="ftn20">
@@ -3459,8 +3431,8 @@
               karfunkel ſchin gent | Fúr rot brinnent ſv́ dar inne</i> (Ep 129–137; Sch. 848.35–43). Die
                   Beschreibung entspricht der Wappendarstellung (bis 1485 ungeteilt, danach
                   viergeteilt; vgl. <span style="font-variant:small-caps">Zeilinger</span>
-                  [2012a], S. 1151) auf dem Siegel Anselms von Rappoltstein (vgl. die Abb. auf den Titelblättern
-                  der Bände des <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f15.image.r=.langDE">RUB</a>) sowie auf
+                  [2012a], S. 1151) auf dem Siegel Anselms von Rappoltstein (vgl. die Abbildung auf den Titelblättern
+                  der Bände des <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f15.image.r=.langDE">RUB</a>: Rappoltsteinisches Urkundenbuch [1891–1898]) sowie auf
                   der um 1330–1345 im Bodenseeraum entstandenen ›Zürcher Wappenrolle‹ (Zürich,
                   SNM, AG 2760, Bl. <a href="https://www.e-codices.unifr.ch/de/snm/AG002760/3v/0/Sequence-1329">3v</a>, untere
                   Reihe, achtes Wappen von links; vgl. das Volldigitalisat auf <a href="http://www.e-codices.unifr.ch/de/snm/AG002760/3v/0/Sequence-1329">e-codices.ch</a>.</p>
@@ -3478,7 +3450,7 @@
                       er alle zit gerne laz | Wan ez wor vn(de) <span class="ras">bewert</span>
                       waz</i>  (Ep 198–204; Sch.
                   850.12–18). Siehe dazu <span style="font-variant:small-caps">Strohschneider</span>
-                  (2003/2014), S. 548, und <span style="font-variant:small-caps">ders.</span>
+                  (2003/2014), S. 548, und <span style="font-variant:small-caps">dens.</span>
                   (2006), S. 381f.</p>
           </div>
           <div id="ftn23">
@@ -3496,7 +3468,7 @@
                       Rapolzſtein edelre vͦlrich</i> (Ep 168;
                   Sch. 849.28); <i>frúnt min ropoltſteiner</i> (Ep 192; Sch.
                   850.6); <i>vͦlrich von Ropoltzſteine</i> (Ep 331; Sch. 853.8);
-                  <i>vͦlrich</i> (Ep 338; Sch. 853.16); <i>der herre fri</i> (Ep 348; Sch. 853.26) und <i>Von Ropoltzſtein vͦlriche</i> (Ep 536; Sch. 858.4); vgl. <span style="font-variant:small-caps">Wittmann-Klemm</span>
+                  <i>vͦlrich</i> (Ep 338; Sch. 853.16); <i>der herre fri</i> (Ep 348; Sch. 853.26) und <i>Von Ropoltzſtein vͦlriche</i> (Ep 536; Sch. 858.4). Vgl. <span style="font-variant:small-caps">Wittmann-Klemm</span>
                   (1977), S. 2.</p>
           </div>
           <div id="ftn26">
@@ -3504,7 +3476,7 @@
             <span style="font-variant:small-caps">Brieger</span> (1907), S. 22; <span style="font-variant:small-caps">Kreutz</span> (2005); <span
             style="font-variant: small-caps">Zeilinger</span> (2012a); <span style="font-variant:small-caps">Zeilinger</span>
                   (2012b) und <span style="font-variant:small-caps">Zeilinger</span> (2013), S.
-                  202–207. Zur Bezeichnung Rappoltstein für die Burg Groß-Rappoltstein siehe <span style="font-variant:small-caps">Albrecht</span> (1891), S. XIII, und zur Burg
+                  202–207. Zur Bezeichnung Rappoltstein für die Burg Groß-Rappoltstein siehe <span style="font-variant:small-caps">Albrecht</span> (1891), S. XIII; zur Burg
                   Hoh(en)-Rappoltstein siehe auch die archäologische Beschreibung im Katalogteil
                   bei <a href="http://docnum.univ-lorraine.fr/public/DDOC_T_2012_0138_KOCH_VOL2.pdf"><span style="font-variant:small-caps">Koch</span><span style=""> (2012)</span></a><span style="">, S.
                   68–80.</span></p>
@@ -3523,32 +3495,31 @@
           </div>
           <div id="ftn28">
             <p class="MsoFootnoteText"><a href="#_ftnref28" id="_ftn28"><sup>[28]</sup></a>
-                RUB I, S. 598f., Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f624.image.r=.langDE">769</a>
-                (Nachtrag, eigentlich 283<sup>bis</sup>) (1310).</p>
+                RUB I, S. 598f. (Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f624.image.r=.langDE">769</a>, Nachtrag, eigentlich 283<sup>bis</sup> 1310).</p>
           </div>
           <div id="ftn29">
               <p class="MsoFootnoteText"><a href="#_ftnref29" id="_ftn29"><sup>[29]</sup></a>
-                RUB I, S. 337, Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f363.item.r=">455</a> (11.2.1335), S. 340, Nr. <a
-                href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f366.image.r=.langDE">459</a> (16.7.1335), S. 340f., Nr. <a
-                href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f366.image.r=.langDE">460</a> (7.8.1335), S. 341, Nr. <a
-                href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f367.image.r=.langDE">461</a> (22.8.1335), S. 372–375, Nr. <a
-                href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f398.image.r=.langDE">498</a> (8.6.1338) und S. 375f., Nr. <a
-                href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f401.image.r=.langDE">499</a> (8.6.1338). Bereits zwischen 1313 und
+                RUB I, S. 337 (Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f363.item.r=">455</a>, 11.2.1335), S. 340 (Nr. <a
+                href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f366.image.r=.langDE">459</a>, 16.7.1335), S. 340f. (Nr. <a
+                href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f366.image.r=.langDE">460</a>, 7.8.1335), S. 341 (Nr. <a
+                href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f367.image.r=.langDE">461</a>, 22.8.1335), S. 372–375 Nr. <a
+                href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f398.image.r=.langDE">498</a>, 8.6.1338) und S. 375f. (Nr. <a
+                href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f401.image.r=.langDE">499</a>, 8.6.1338). Bereits zwischen 1313 und
                 1321 ist ohne nähere Bezeichnung ein Ulrich von Rappoltstein als Domherr in Straßburg belegt, bei dem es sich möglicherweise
-                um Ulrich IV. (Nr. 3) handelt; vgl. RUB I, S. 221, Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f247.image.r=.langDE">306</a>
-                (6.5.1313), S. 253f., Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f279.image.r=.langDE">344</a> (2.5.1318); SUB II, S. 319f., Nr.
-                <a href="https://archive.org/stream/urkundenundakte03wincgoog#page/n333/mode/2up">363</a> (2.5.1318), hier S. 320, Anm. 1, und SUB III, S. 287, Nr.
-                <a href="http://gallica.bnf.fr/ark:/12148/bpt6k9401049b/f339.image.r=Urkundenbuch%20der%20Stadt%20Strassburg%20dritter">952</a> (15.1.1321).
+                um Ulrich IV. (Nr. 3) handelt; vgl. RUB I, S. 221 (Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f247.image.r=.langDE">306</a>,
+                6.5.1313), S. 253f. (Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f279.image.r=.langDE">344</a>, 2.5.1318); SUB: Urkundenbuch der Stadt Straßburg 1886–1889 II, S. 319f. (Nr.
+                <a href="https://archive.org/stream/urkundenundakte03wincgoog#page/n333/mode/2up">363</a>, 2.5.1318), hier S. 320, Anm. 1; SUB III, S. 287 (Nr.
+                <a href="http://gallica.bnf.fr/ark:/12148/bpt6k9401049b/f339.image.r=Urkundenbuch%20der%20Stadt%20Strassburg%20dritter">952</a>, 15.1.1321).
               </p>
           </div>
           <div id="ftn30">
-            <p class="MsoFootnoteText"><a href="#_ftnref30" id="_ftn30"><sup>[30]</sup></a> Vgl. RUB I, S. 289f., Nr. <a
-            href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f315.image.r=.langDE">397</a>
-            (14.10.1328), S. 372–375, Nr.
-            <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f398.image.r=.langDE">498</a>
-                  (8.6.1338), S. 375f., Nr.
-            <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f401.image.r=.langDE">499</a>
-                  (8.6.1338); <span style="font-variant:small-caps">Oberbadisches
+            <p class="MsoFootnoteText"><a href="#_ftnref30" id="_ftn30"><sup>[30]</sup></a> Vgl. RUB I, S. 289f. (Nr. <a
+            href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f315.image.r=.langDE">397</a>,
+            14.10.1328), S. 372–375 (Nr.
+            <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f398.image.r=.langDE">498</a>,
+                  8.6.1338), S. 375f. (Nr.
+            <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f401.image.r=.langDE">499</a>,
+                  8.6.1338); <span style="font-variant:small-caps">Oberbadisches
                       Geschlechterbuch</span> 3, S. 335 (Tafel I); <span style="font-variant:small-caps">Buchheit</span>
                   (2010), S. 367 (Nr. 161, wo <span style="font-variant:small-caps">Buchheit</span>
                   festhält, dass nicht klar ist, um welchen Ulrich es sich gehandelt hat); <span style="font-variant:small-caps">Stammtafeln</span> XI, Tafel 81 (Ulrich 1313
@@ -3556,18 +3527,18 @@
             </p>
           </div>
           <div id="ftn31">
-            <p class="MsoFootnoteText"><a href="#_ftnref31" id="_ftn31"><sup>[31]</sup></a> Vgl. RUB I, S. 354–357, Nr.
-              <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f380.image.r=.langDE">480</a>
-                  (10.5.1337), und S. 599, Nr.
-                <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f625.image.r=.langDE">770</a>
-                  (Nachtrag, eigentlich 515<sup>bis</sup>) (1340), S. 354–357.
+            <p class="MsoFootnoteText"><a href="#_ftnref31" id="_ftn31"><sup>[31]</sup></a> Vgl. RUB I, S. 354–357 (Nr.
+              <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f380.image.r=.langDE">480</a>,
+                  10.5.1337), und S. 599 (Nr.
+                <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f625.image.r=.langDE">770</a>,
+                  Nachtrag, eigentlich 515<sup>bis</sup>, 1340), S. 354–357.
             </p>
           </div>
           <div id="ftn32">
             <p class="MsoFootnoteText"><a href="#_ftnref32" id="_ftn32"><sup>[32]</sup></a> Karlsruhe, Landesarchiv
                 Baden-Württemberg. Generallandesarchiv Karlsruhe, <a href="https://www2.landesarchiv-bw.de/ofs21/bild_zoom/thumbnails.php?bestand=21447&amp;id=8402990"><span style="">Hfk-Hs Nr. 133, 20</span></a> (Lehnsbuch Bistum Basel
                 1441), S. 109–112 (29.8.1341). Den Hinweis auf diesen Eintrag verdanke ich
-                Marius Gehrig, M.A.
+                Marius Gehrig M.A.
             </p>
           </div>
           <div id="ftn33">
@@ -3578,15 +3549,15 @@
                   von Fürstenberg); <span style="font-variant:small-caps">Oberbadisches
                       Geschlechterbuch</span> 3, S. </span><a href="http://digi.ub.uni-heidelberg.de/diglit/kindlervonknobloch1919bd3/0340/image"><span style="">336</span></a><span style="">f. (Tafel
                   II); <span style="font-variant:small-caps">Stammtafeln</span> XI, Tafel 81
-                  (Ulrich IV), und <span style="font-variant:small-caps">Gräberbuch (Ed.
+                  (Ulrich IV); <span style="font-variant:small-caps">Gräberbuch (Ed.
                       Röthinger/Signori)</span>, S. 160, Anm. 525 (Nr. 434: 23.10.1377). – Da
                   Herzelaude, die Ehefrau Ulrichs IV., wohl nach 1323 zur Welt kam und die
                   Hochzeit um 1348 stattfand, kann die Produktion der Handschrift mit dem
                   ›Rappoltsteiner Parzifal‹ nicht mit Herzelaude in Verbindung gebracht werden.
                   Der Name Herzelaude, auf den auch die um 1359 geborene Tochter getauft wurde,
-                  entspricht dem Namen der Mutter Parzivals im Epos Wolframs von Eschenbach,
-                  Herzeloyde, und ist als Mädchenname <i>Hercelauda</i>, <i>Herzlauda</i>, <i>Herczelaude</i>
-                  und <i>Hertzelauda</i> bereits im 13. Jahrhundert bezeugt; vgl. <span style="font-variant:small-caps">Socin</span> (1903), S. 567. Zur Verbreitung
+                  entspricht dem Namen von Parzivals Mutter in Wolframs Roman
+                  (Herzeloyde), und ist als Mädchenname <i>Hercelauda</i>, <i>Herzlauda</i>, <i>Herczelaude</i>
+                  und <i>Hertzelauda</i> bereits im 13. Jahrhundert bezeugt. Vgl. <span style="font-variant:small-caps">Socin</span> (1903), S. 567. Zur Verbreitung
                   unterschiedlicher Formen des Namens siehe auch <span style="font-variant:small-caps">Schirok</span>
                   (1982), S. 162, 163f., 166 und 169.</span></p>
           </div>
@@ -3599,23 +3570,23 @@
                   (1977), S. 2–4; <span style="font-variant:small-caps">Becker</span> (1977), S.
                   89f.; <span style="font-variant:small-caps">Heinzer Kat. Ausstellung, </span>S.
                   92 (Beschreibung Armin Schlechter); <span style="font-variant:small-caps">Backes</span>
-                  (2015), S. 64, und <span style="font-variant:small-caps">Chen</span> (2015), S.
+                  (2015), S. 64; <span style="font-variant:small-caps">Chen</span> (2015), S.
                   12, Anm. 7.</p>
           </div>
           <div id="ftn35">
             <p class="MsoFootnoteText"><a href="#_ftnref35" id="_ftn35"><sup>[35]</sup></a> Vgl. RUB I, S. 372–375 (Nr. <a
-            href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f398.item.r=">498</a>) (8.6.1338) und S. 375f. (Nr. <a
-            href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f401.item.r=">499</a>)
-                  (8.6.1338), sowie Karlsruhe, Landesarchiv Baden-Württemberg. Generallandesarchiv
+            href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f398.item.r=">498</a>, 8.6.1338) und S. 375f. (Nr. <a
+            href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f401.item.r=">499</a>,
+                  8.6.1338) sowie Karlsruhe, Landesarchiv Baden-Württemberg. Generallandesarchiv
                   Karlsruhe Hfk-Hs Nr. 133 (Lehnsbuch Bistum Basel 1441), S. 109–112 (29.8.1341).
                   – Johann fiel als Herr von Hoh(en)rappoltstein allerdings bald aus, da er zur
                   Verbüßung des Mordes an den Abt Bencelin von Moyenmoutier eine Strafwallfahrt
-                  nach England antreten musste; Vgl. RUB I, S. 395–398 (Nr.
+                  nach England antreten musste. Vgl. RUB I, S. 395–398 (Nr.
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f421.item.r=">
                                           <span lang="EN-US" style="">524</span>
                                       </a>
-                                    <span lang="EN-US" style="">) (8.12.1341); <span style="font-variant:small-caps">Barth</span>
-                  (1960a), S. 105, und <span style="font-variant:small-caps">Barth</span>
+                                    <span lang="EN-US" style="">, 8.12.1341); <span style="font-variant:small-caps">Barth</span>
+                  (1960a), S. 105; <span style="font-variant:small-caps">Barth</span>
                   (1960b), S. 172.</span>
             </p>
           </div>
@@ -3630,7 +3601,7 @@
             <p class="MsoFootnoteText"><a href="#_ftnref38" id="_ftn38"><sup>[38]</sup></a> <i> Alſus ſint fúnf ior oder me | Obe
                 diſem buͦche verzert</i> (Ep 380f.; Sch. 854.12f.); <i>&lt;Diz ſol
                 nieman v(er)geſſen | Ob diſem buͦche ſint fúnf ior geſeſſen | Ze tihtende vn(de)
-                ze ſchriben | Hie ſol ein ende b:::ben&gt;</i> (Ep 558-3<sup>1–4</sup>; Sch. <span lang="EN-US">XVI).</span></p>
+                ze ſchriben | Hie ſol ein ende b::ben&gt;</i> (Ep 558-3<sup>1–4</sup>; Sch. <span lang="EN-US">XVI).</span></p>
           </div>
           <div id="ftn39">
             <p class="MsoFootnoteText"><a href="#_ftnref39" id="_ftn39"><sup>[39]</sup></a><span lang="EN-US" style="font-variant:small-caps"> Schorbach</span>
@@ -3646,41 +3617,41 @@
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f333.item.r=">
                                           <span style="">416</span>
                                       </a>
-                                    <span style="">)
-                  (15.2.1331), S. 308 (Nr. </span>
+                                    <span style="">,
+                  15.2.1331), S. 308 (Nr. </span>
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f334.item.r=">
                                           <span style="">417</span>
                                       </a>
-                                    <span style="">)
-                  (15.2.1331), S. 313f. (Nr. </span>
+                                    <span style="">,
+                  15.2.1331), S. 313f. (Nr. </span>
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f339.image.r=.langDE">
                                           <span style="">424</span>
                                       </a>
-                                    <span style="">)
-                  (1.10.1331), S. 314f. (Nr. </span>
+                                    <span style="">,
+                  1.10.1331), S. 314f. (Nr. </span>
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f340.image.r=.langDE">
-                                          <span style="">425)</span>
+                                          <span style="">425</span>
                                       </a>
-                                    <span style="">
-                  (1.10.1331), S. 315–317 (Nr. </span>
+                                    <span style="">,
+                  1.10.1331), S. 315–317 (Nr. </span>
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f341.image.r=.langDE">
                                           <span style="">426</span>
                                       </a>
-                                    <span style="">)
-                  (4.10.1331), S. 319 (Nr. </span>
+                                    <span style="">,
+                  4.10.1331), S. 319 (Nr. </span>
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f345.image.r=.langDE">
                                           <span style="">430</span>
                                       </a>
-                                    <span style="">) (1331),
+                                    <span style="">, 1331),
                   S. 325 (Nr. </span>
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f351.item.r=">
                                           <span lang="EN-US" style="">439</span>
                                       </a>
-                                    <span lang="EN-US" style="">) (13.9.1332) und S. 336f. (Nr. </span>
+                                    <span lang="EN-US" style="">, 13.9.1332) und S. 336f. (Nr. </span>
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f362.image.r=.langDE">
                                           <span lang="EN-US" style="">454</span>
                                       </a>
-                                    <span lang="EN-US" style="">) (1.2.1335).</span>
+                                    <span lang="EN-US" style="">, 1.2.1335).</span>
             </p>
           </div>
           <div id="ftn41">
@@ -3692,11 +3663,11 @@
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f351.item.r=">
                                           <span lang="EN-US" style="">440<sup>a</sup></span>
                                       </a>
-                                    <span lang="EN-US" style="">) (29.9.1332), S. 326f. (Nr. </span>
+                                    <span lang="EN-US" style="">, 29.9.1332) und S. 326f. (Nr. </span>
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f352.item.r=">
                                           <span lang="EN-US" style="">440<sup>b</sup></span>
                                       </a>
-                                    <span lang="EN-US" style="">) (29.9.1332).</span>
+                                    <span lang="EN-US" style="">, 29.9.1332).</span>
             </p>
           </div>
           <div id="ftn42">
@@ -3708,15 +3679,15 @@
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f361.item.r=">
                                           <span lang="EN-US" style="">453</span>
                                       </a>
-                                    <span lang="EN-US" style="">) (20.1.1335), S. 337 (Nr. </span>
+                                    <span lang="EN-US" style="">, 20.1.1335), S. 337 (Nr. </span>
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f363.item.r=">
                                           <span lang="EN-US" style="">455</span>
                                       </a>
-                                    <span lang="EN-US" style="">) (11.2.1335), S. 337f. (Nr. </span>
+                                    <span lang="EN-US" style="">, 11.2.1335), S. 337f. (Nr. </span>
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f363.item.r=">
                                           <span lang="EN-US" style="">456</span>
                                       </a>
-                                    <span lang="EN-US" style="">) (16.2.1335), S. 338f. (Nr. </span>
+                                    <span lang="EN-US" style="">, 16.2.1335), S. 338f. (Nr. </span>
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f364.item.r=">
                                           <span style="">457</span>
                                       </a>
@@ -3725,22 +3696,22 @@
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f365.item.r=">
                                           <span style="">458</span>
                                       </a>
-                                    <span style="">)
-                  (13.4.1335), S. 343f. (Nr. </span>
+                                    <span style="">,
+                  13.4.1335), S. 343f. (Nr. </span>
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f369.item.r=">
                                           <span style="">463</span>
                                       </a>
-                                    <span style="">)
-                  (2.9.1335), S. 349f. (Nr. </span>
+                                    <span style="">,
+                  2.9.1335), S. 349f. (Nr. </span>
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f375.item.r=">
                                           <span style="">472</span>
                                       </a>
-                                    <span style="">)
-                  (30.12.1336), und S. 351 (Nr. </span>
+                                    <span style="">,
+                  30.12.1336) und S. 351 (Nr. </span>
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f377.item.r=">
                                           <span style="">473</span>
                                       </a>
-                                    <span style="">) (1336).</span>
+                                    <span style="">, 1336).</span>
             </p>
           </div>
           <div id="ftn43">
@@ -3769,7 +3740,7 @@
           <div id="ftn45">
             <p class="MsoFootnoteText"><a href="#_ftnref45" id="_ftn45"><sup>[45]</sup></a>         <i> Als
                       vnz ein cluͦger goltſmit ſeit | Von ſtraſburg philippez colin | Der het diz
-                      buͦch dem herren ſin | Von welſch in túczſch gerimet</i><span style=""> (Ep 28–31; Sch. 846.20–23).</span></p>
+                      buͦch dem herren ſin | Von welſch in tútzſch gerimet</i><span style=""> (Ep 28–31; Sch. 846.20–23).</span></p>
           </div>
           <div id="ftn46">
             <p class="MsoFootnoteText"><a href="#_ftnref46" id="_ftn46"><sup>[46]</sup></a>         <i> Nv
@@ -3778,7 +3749,7 @@
           </div>
           <div id="ftn47">
             <p class="MsoFootnoteText"><a href="#_ftnref47" id="_ftn47"><sup>[47]</sup></a>         <span style=""> Siehe
-                  dazu <span style="font-variant:small-caps">Thomas</span> (1997), S. 378–390 mit
+                  dazu <span style="font-variant:small-caps">Thomas</span> (1997), S. 378–390, mit
                   Diskussion der Deutung des Betrags in der älteren Forschung.</span></p>
           </div>
           <div id="ftn48">
@@ -3787,13 +3758,13 @@
           </div>
           <div id="ftn49">
             <p class="MsoFootnoteText"><a href="#_ftnref49" id="_ftn49"><sup>[49]</sup></a>         <span style=""> SUB
-                  III, S. 181, Nr. </span><a href="http://gallica.bnf.fr/ark:/12148/bpt6k9401049b/f233.image.r=Urkundenbuch%20der%20Stadt%20Strassburg%20dritter"><span style="">586</span></a><span style=""> (8.3.1307)
-                  (<i>Clawese Kolin</i>).</span></p>
+                  III, S. 181 (Nr. </span><a href="http://gallica.bnf.fr/ark:/12148/bpt6k9401049b/f233.image.r=Urkundenbuch%20der%20Stadt%20Strassburg%20dritter"><span style="">586</span></a><span style="">, 8.3.1307,
+                  <i>Clawese Kolin</i>).</span></p>
           </div>
           <div id="ftn50">
             <p class="MsoFootnoteText"><a href="#_ftnref50" id="_ftn50"><sup>[50]</sup></a>         <span style=""> SUB
-                  III, S. 195, Anm. 1, Nr. </span><a href="http://gallica.bnf.fr/ark:/12148/bpt6k9401049b/f246.image.r=Urkundenbuch%20der%20Stadt%20Strassburg%20dritter"><span style="">635</span></a><span style=""> (5.9.1309)
-                  (<i>Philippes Colin … der selbe Philippes und Katherine sin wurtin</i>).</span></p>
+                  III, S. 195, Anm. 1 (Nr. </span><a href="http://gallica.bnf.fr/ark:/12148/bpt6k9401049b/f246.image.r=Urkundenbuch%20der%20Stadt%20Strassburg%20dritter"><span style="">635</span></a><span style="">, 5.9.1309
+                  <i>Philippes Colin … der selbe Philippes und Katherine sin wurtin</i>).</span></p>
           </div>
           <div id="ftn51">
             <p class="MsoFootnoteText"><a href="#_ftnref51" id="_ftn51"><sup>[51]</sup></a>         <i><span lang="DE-CH" style=""> Diether Kölbelin</span></i> <span style=""> war vermutlich
@@ -3801,9 +3772,9 @@
                   ›Zu dem Kalbe‹) und 90 (Eintrag ›Kalbesgasse‹).</span></p>
           </div>
           <div id="ftn52">
-            <p class="MsoFootnoteText"><a href="#_ftnref52" id="_ftn52"><sup>[52]</sup></a> SUB III, S. 194f., Nr. <a
-            href="http://gallica.bnf.fr/ark:/12148/bpt6k9401049b/f246.image.r=Urkundenbuch%20der%20Stadt%20Strassburg%20dritter">635</a>
-            (29.4.1309) (<i>Anna begina, nata quondam Burcardi dicti Kolin civis Arg.</i>)<i>.</i>
+            <p class="MsoFootnoteText"><a href="#_ftnref52" id="_ftn52"><sup>[52]</sup></a> SUB III, S. 194f. (Nr. <a
+            href="http://gallica.bnf.fr/ark:/12148/bpt6k9401049b/f246.image.r=Urkundenbuch%20der%20Stadt%20Strassburg%20dritter">635</a>,
+            29.4.1309, <i>Anna begina, nata quondam Burcardi dicti Kolin civis Arg.</i>)<i>.</i>
             </p>
           </div>
           <div id="ftn53">
@@ -3813,12 +3784,12 @@
             </p>
           </div>
           <div id="ftn54">
-            <p class="MsoFootnoteText"><a href="#_ftnref54" id="_ftn54"><sup>[54]</sup></a> Vgl. <span style="font-variant:small-caps">Jäschke</span> (1994), S.
-            141 (Zit ebd.) mit den Belegstellen aus dem Protokoll des Zeugenverhörs von 1332 nach der Edition im SUB V (S. 1–18) in der Anm. 457.</p>
+            <p class="MsoFootnoteText"><a href="#_ftnref54" id="_ftn54"><sup>[54]</sup></a> <span style="font-variant:small-caps">Jäschke</span> (1994), S.
+            141, mit den Belegstellen aus dem Protokoll des Zeugenverhörs von 1332 nach der Edition im SUB V (S. 1–18) in Anm. 457.</p>
           </div>
           <div id="ftn55">
             <p class="MsoFootnoteText"><a href="#_ftnref55" id="_ftn55"><sup>[55]</sup></a> Vgl. zu Samson Pine <span style="font-variant:small-caps">Schorbach</span> (1888),
-              S. XX; <span style="font-variant:small-caps">Wittmann-Klemm</span> (1977), S. 6f., und <span style="font-variant:small-caps">Mentgen</span> (1995), S. 81f., Anm. 31.
+              S. XX; <span style="font-variant:small-caps">Wittmann-Klemm</span> (1977), S. 6f.; <span style="font-variant:small-caps">Mentgen</span> (1995), S. 81f., Anm. 31.
               Der Name Pine fehlt im Verzeichnis mittelalterlicher jüdischer Namen in Frankreich von <span style="font-variant:small-caps">Seror</span>
                   (1989). Doch führt <span style="font-variant:small-caps">Ginsburger</span> (1968b), S.
                   803, Anm. 2, freilich ohne Belege, das französische Lépine im Département
@@ -3832,12 +3803,12 @@
                                     <a href="#_ftnref56" id="_ftn56">
                                           <sup>[56]</sup>
                                       </a>
-                                    <span lang="EN-US" style=""> Vgl. RUB I, S. 308, Nr. </span>
+                                    <span lang="EN-US" style=""> Vgl. RUB I, S. 308 (Nr. </span>
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f334.item.r=">
                                           <span style="">417</span>
                                       </a>
                                     <span style="">
-                  (15.2.1331), und <span style="font-variant:small-caps">›Regesta Imperii‹</span>
+                  15.2.1331), und <span style="font-variant:small-caps">›Regesta Imperii‹</span>
                   VII,1,4, </span>
                                     <a href="http://regesta-imperii.digitale-sammlungen.de/gehezuseite/ri07_wet1998?page=42">
                                           <span style="">S. 42f. (Nr. 71)</span>
@@ -3848,12 +3819,11 @@
           <div id="ftn57">
             <p class="MsoFootnoteText"><a href="#_ftnref57" id="_ftn57"><sup>[57]</sup></a>         <span style=""> Vgl. <span style="font-variant:small-caps">Ginsburger</span> (1968a);
               <span style="font-variant:small-caps">Schwarzfuchs</span> (1995) und <span style="font-variant:small-caps">Mentgen</span> (1995), S. 347–385.
-              Im 14. Jahrhundert kam es auch in Rappoltsweiler zu Pogromen, die bereits 1338 zu einer Dezimierung und 1349 zur Austilgung der
+              Im 14. Jahrhundert kam es auch in Rappoltsweiler zu Pogromen, die bereits 1338 zur Verfolgung und 1349 zur Vernichtung der
               jüdischen Gemeinde führten.</span></p>
           </div>
           <div id="ftn58">
-            <p class="MsoFootnoteText"><a href="#_ftnref58" id="_ftn58"><sup>[58]</sup></a>         <span style=""> Vgl. <span style="font-variant:small-caps">Thompson</span> (1931), S. 15–17. Zur Monser
-                  Handschrift siehe <span style="font-variant:small-caps">Busby</span> (1993), S.
+            <p class="MsoFootnoteText"><a href="#_ftnref58" id="_ftn58"><sup>[58]</sup></a>         <span style=""> Vgl. <span style="font-variant:small-caps">Thompson</span> (1931), S. 15–17; Zur Handschrift Mons siehe <span style="font-variant:small-caps">Busby</span> (1993), S.
                   XXIII–XXV, sowie den Eintrag im Répertoire des textes et des manuscrits
                   médiévaux d'oc et d'oïl </span><a href="http://jonas.irht.cnrs.fr/manuscrit/35764"><span style="">Jonas</span></a><span style="">.</span></p>
           </div>
@@ -3868,11 +3838,11 @@
           </div>
           <div id="ftn61">
             <p class="MsoFootnoteText"><a href="#_ftnref61" id="_ftn61"><sup>[61]</sup></a>         <span style=""> Vgl. <span style="font-variant:small-caps">Viehhauser-Mery</span> (2009), S. 260–263, und <span style="font-variant:small-caps">Schöller</span> (2009), S. 1–30 (zum
-                  Fassungsbegriff) und S. 111–113.</span></p>
+                  Fassungsbegriff) und 111–113.</span></p>
           </div>
           <div id="ftn62">
             <p class="MsoFootnoteText"><a href="#_ftnref62" id="_ftn62"><sup>[62]</sup></a>         <span style=" font-variant:small-caps"> Schöller</span><span style=""> (2009),
-                  S. 111. Siehe dazu auch <span style="font-variant:small-caps">Viehhauser-Mery</span>
+                  S. 111; siehe dazu auch <span style="font-variant:small-caps">Viehhauser-Mery</span>
                   (2009), S. 134–144.</span></p>
           </div>
           <div id="ftn63">
@@ -3886,13 +3856,13 @@
           <div id="ftn64">
             <p class="MsoFootnoteText"><a href="#_ftnref64" id="_ftn64"><sup>[64]</sup></a>         <span style=""> Zu
                   den Hss. m, n, o sowie zum Druck W siehe <span style="font-variant:small-caps">Viehhauser-Mery</span>
-                  (2009), S. 53–110; <span style="font-variant:small-caps">Schöller</span>
-                  (2009), S. 113–120; das Handschriftenverzeichnis des </span><a href="http://www.parzival.unibe.ch/hsverz.html"><span style="">Berner
+                  (2009), S. 53–110, und <span style="font-variant:small-caps">Schöller</span>
+                  (2009), S. 113–120, das Handschriftenverzeichnis des </span><a href="http://www.parzival.unibe.ch/hsverz.html"><span style="">Berner
                       Parzival-Projekt</span></a><span style="">s sowie die
                   entsprechenden Einträge im </span><a href="http://handschriftencensus.de/"><span style="">Handschriftencensus</span></a><span style=""> (</span><a href="http://www.handschriftencensus.de/6546"><span style="">Hs. m</span></a><span style="">, </span><a href="http://www.handschriftencensus.de/4916"><span style="">Hs.
                       n</span></a><span style="">, </span><a href="http://www.handschriftencensus.de/6801"><span style="">Hs.
-                      o</span></a><span style="">) (mit Hinweisen auf Digitalisate)
-                  und im Gesamtkatalog der Wiegendrucke (</span><a href="http://gesamtkatalogderwiegendrucke.de/docs/M51783.htm"><span style="">Druck W</span></a><span style="">) (mit
+                      o</span></a><span style="">, mit Hinweisen auf Digitalisate)
+                  und im Gesamtkatalog der Wiegendrucke (</span><a href="http://gesamtkatalogderwiegendrucke.de/docs/M51783.htm"><span style="">Druck W</span></a><span style="">, mit
                   Hinweis auf Digitalisate).</span></p>
           </div>
           <div id="ftn65">
@@ -3911,7 +3881,7 @@
             <p class="MsoFootnoteText"><a href="#_ftnref67" id="_ftn67"><sup>[67]</sup></a>         <span style=""> Vgl. <span style="font-variant:small-caps">Holznagel</span> (1995); <span style="font-variant:small-caps">Bein</span> (1999) und <span style="font-variant: small-caps">Chen</span> (2015), S. 306–316.</span></p>
           </div>
           <div id="ftn68">
-            <p class="MsoFootnoteText"><a href="#_ftnref68" id="_ftn68"><sup>[68]</sup></a>         <span style=""> Vgl. <span style="font-variant:small-caps">Brieger</span> (1907), S. 41.</span></p>
+            <p class="MsoFootnoteText"><a href="#_ftnref68" id="_ftn68"><sup>[68]</sup></a>         <span style=""> Mit der Ortsangabe gemeint sein könnten Ohnenheim bei Marckolsheim (seit 1301 Rappoltsteinischer Pfandbesitz, vgl. <span style="font-variant:small-caps">Brieger</span> [1907], S. 41) oder (Ober-)Ehnheim (Obernai, heute wie Ohnenheim im Département Bas-Rhin gelegen).</span></p>
           </div>
           <div id="ftn69">
             <p class="MsoFootnoteText"><a href="#_ftnref69" id="_ftn69"><sup>[69]</sup></a> Jedenfalls
@@ -3928,10 +3898,10 @@
                 nach dessen Tod 1335 übernommen hat (vgl. RUB I, S. 340 [Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f366.item.r="><span style="">459</span></a>] [16.7.1335] und S. 340f. [Nr. 460]
                 [7.8.1335]); vgl. <span style="font-variant:small-caps">Wittmann-Klemm</span>
                 (1977), S. 3, und <span style="font-variant:small-caps">Schneider</span>
-                (2009), Textbd., S. 140. Nicht klar ist, ob dieser identisch ist mit dem 1359 als
+                (2009), S. 140. Nicht klar ist, ob dieser identisch ist mit dem 1359 als
                 Zeuge in einer Urkunde erwähnten Schreiber Johannes aus der Rappoltsweiler
-                Oberstadt; vgl. RUB III, S. 553, Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94006886/f565.image.r=.langDE">1181</a>
-                (Nachtrag, eigentlich 722<sup>bis</sup>) (11.7.1359).
+                Oberstadt; vgl. RUB III, S. 553 (Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94006886/f565.image.r=.langDE">1181</a>,
+                Nachtrag, eigentlich 722<sup>bis</sup>, 11.7.1359).
             </p>
           </div>
           <div id="ftn71">
@@ -3963,9 +3933,8 @@
           </div>
           <div id="ftn75">
             <p class="MsoFootnoteText"><a href="#_ftnref75" id="_ftn75"><sup>[75]</sup></a>         <span style=""> Die Darstellung
-                  der Schreiberhände geht zurück auf Untersuchungen im Rahmen des </span><a href="http://www.parzival.unibe.ch/hsverz.html"><span style="">Berner
-                      Parzival-Projekt</span></a><span style="">s 2013 von Marius
-                  Gehrig, M.A. Ich danke Herrn Gehrig für die Möglichkeit, die Ergebnisse an
+                  der Schreiberhände geht zurück auf Untersuchungen aus dem Jahr 2013, die Marius Gehrig M.A. im Rahmen des </span><a href="http://www.parzival.unibe.ch/hsverz.html"><span style="">Berner
+                      Parzival-Projekt</span></a><span style="">s angestellt hat. Ich danke Herrn Gehrig für die Möglichkeit, die Ergebnisse an
                   dieser Stelle präsentieren zu können. Vgl. dazu auch <span style="font-variant: small-caps">Fasching</span> (2018), S. 495f. Da nach paläographischen Gesichtspunkten
                         charakteristische Besonderheiten von fünf unterschiedlichen Typen,
                         nicht aber eindeutig fünf Schreiber bestimmt werden können, ist im Folgenden von ,Hand‘ bzw. ,Schreiberhand‘ die Rede.</span></p>
