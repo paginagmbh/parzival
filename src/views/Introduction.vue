@@ -5,9 +5,14 @@
         <span class="icon"><i class="fa fa-arrow-up" /></span>
       </button>
     </transition>
+    <transcript-info :transcriptDocModal="transcriptDocModal" v-on:close-info="toggle('transcriptDocModal')" />
     <nav style="width:100%" class="nav" id="topNav" ref="navbar" v-waypoint="{ active: true, callback: onNavbarWaypoint }"><span width="25%" class="nav" style="text-weight: bold">EINFÜHRUNG</span><span width="25%" class="nav">
           <router-link to="/">STARTSEITE</router-link></span><span width="25%" class="nav">
           <router-link :to="routes.transcript">ZU DEN HANDSCHRIFTEN</router-link></span></nav>
+    <button class="parzival-transcript-doc-toggle button is-info"
+      @click="toggle('transcriptDocModal')">
+      <i class="fa fa-info"></i>
+    </button>
     <div id="frontmatter">
       <h2 style="margin-top:3em">Richard F. Fasching (Universität Bern)</h2>
       <h1>Original und Kopie des ›Rappoltsteiner Parzifal‹<br/> Handschriftliche Überlieferung und Textgenese im 14. Jahrhundert</h1>
@@ -5301,15 +5306,21 @@ of French Studies, Inc.), New York 1931, S. 86–101.</span></p>
 </template>
 
 <script>
+import TranscriptInfo from '../components/TranscriptInfo'
+
 export default {
   name: 'parzival-introduction',
   metaInfo () {
     return { title: 'Einführung' }
   },
+  components: {
+    TranscriptInfo
+  },
   data: () => ({
     navbarVisible: true,
     manuscript: 'V',
     pages: '115v',
+    transcriptDocModal: false,
     verse: '1'
   }),
 
