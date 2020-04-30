@@ -69,19 +69,19 @@
     <div id="content">
       <!--<h1>Original und Kopie des ›Rappoltsteiner Parzifal‹<br/> Handschriftliche Überlieferung und Textgenese im 14. Jahrhundert</h1>-->
       <p class="MsoNormal">Der ›Rappoltsteiner Parzifal‹ ist in zwei Handschriften überliefert: Karlsruhe, Badische Landesbibliothek,
-        <a href="https://digital.blb-karlsruhe.de/blbhs/Handschriften/content/titleinfo/101664">Donaueschingen 97</a> (Hs. V: entstanden im Elsass, Raum Straßburg/Colmar, oder in Basel, vollendet 1336), und Roma, Biblioteca Casanatense, <router-link to="/faksimile/VV/001r">Ms. 1409</router-link> ((Hs. V': angefertigt in einer ,Epenwerkstatt‘ im Raum Franken, 2. Viertel des 14. Jhs.). Die nach
+        <a href="https://digital.blb-karlsruhe.de/blbhs/Handschriften/content/titleinfo/101664">Donaueschingen 97</a> (Hs. V: entstanden im Elsass, Raum Straßburg/Colmar, oder in Basel, vollendet 1336), und Roma, Biblioteca Casanatense, <router-link to="/faksimile/VV/001r">Ms. 1409</router-link> (Hs. V': angefertigt in einer ,Epenwerkstatt‘ im Raum Franken, 2. Viertel des 14. Jhs.). Die nach
         dem Entstehungsort benannte Textsammlung ›Rappoltsteiner Parzifal‹ enthält in Hs. V Wolframs von Eschenbach ›Parzival‹ (aus der Zeit um 1200/10)<a href="#_ftn1" id="_ftnref1"><sup>[1]</sup></a> sowie darin – zwischen den Büchern XIV und XV – eingelagert den ›Nuwen Parzifal‹,<a href="#_ftn2" id="_ftnref2"><sup>[2]</sup></a> eine Kompilation  aus ›Conte du Graal‹-Fortsetzungen (zu Chrétiens de Troyes um 1190 unvollendet hinterlassenem ›Perceval‹-Roman) in deutscher Übertragung,<a href="#_ftn3" id="_ftnref3"><sup>[3]</sup>
         </a> mit einigen weiteren kürzeren Texten. Die Hs. V' hingegen überliefert nur diesen ›Nuwen Parzifal‹ genannten Teil, der dort wie in Hs. V durch die abschließenden beiden Bücher XV und XVI
         von Wolframs ›Parzival‹ ergänzt wird. Sie kann, wie im Folgenden noch näher zu erläutern sein wird,
         als direkte Abschrift der Hs. V gelten. Insbesondere der in Hs. V vorliegende Text wird in der Forschung in mehrfacher
         Hinsicht als »Glücksfall« beurteilt. Immer wieder wird hingewiesen auf die ausführlichen Angaben zur Genese der Handschrift im Epilog des
         ›Rappoltsteiner Parzifal‹ sowie auf die Tatsache, dass es sich bei Hs. V um eine Originalhandschrift handelt, also um jenes Exemplar, das
-        der Auftraggeber in Bestellung gegeben hat. Dabei bleibt allerdings zu berücksichtigen, dass der in der Forschung gebrauchte Begriff des ,Originals‘ stets die arbiträre Setzung eines ,Anfangs‘ impliziert<a id="_Ref348945462"/><a href="#_ftn4" id="_ftnref4"><sup>[4]</sup></a></p>
+        der Auftraggeber in Bestellung gegeben hat. Dabei bleibt allerdings zu berücksichtigen, dass der in der Forschung gebrauchte Begriff des ,Originals‘ stets die arbiträre Setzung eines ,Anfangs‘ impliziert.<a id="_Ref348945462"/><a href="#_ftn4" id="_ftnref4"><sup>[4]</sup></a></p>
       <p class="MsoNormal">Die ungewöhnliche Fülle an Informationen zur Entstehung des ›Rappoltsteiner Parzifal‹, die der Epilog liefert, hat die
         Forschung seit der (Wieder-)Entdeckung des Werkes allerdings dazu verleitet, das Fehlen historisch bezeugter Fakten zum Leben des
         Auftraggebers sowie zu den am Herstellungsprozess der Handschrift beteiligten Personen auszublenden und mögliche Fiktionen als gesicherte
-        Tatsachen darzustellen.<a href="#_ftn5" id="_ftnref5"><sup>[5]</sup></a> Gleichzeitig wurden die beiden Entstehungsvorgänge ,Genese des Werks
-        ›Rappoltsteiner Parzifal‹’ und ,Genese der Handschrift’ meist nicht getrennt, sondern als ein einziger Vorgang betrachtet. Dies führte zu
+        Tatsachen darzustellen.<a href="#_ftn5" id="_ftnref5"><sup>[5]</sup></a> Gleichzeitig wurden die beiden Entstehungsvorgänge ,Genese des Werks’
+        (›Rappoltsteiner Parzifal‹) und ,Genese der Handschrift’ meist nicht getrennt, sondern als ein einziger Vorgang betrachtet. Dies führte zu
         einer Vernachlässigung oder Ausblendung möglicher, heute verlorener Vor- und Zwischenstufen, die vor oder zwischen Text und Codex liegen,
         sowie zu einer vereinfachten Beschreibung der Entstehung der Handschrift. Die im durchkomponierten Epilog äußerst romanhaften, fingierten
         Entstehungszusammenhänge haben außerdem zum Weiterdenken und zur Ausschmückung des Geschilderten verleitet, wie dies bereits bei der
@@ -243,7 +243,7 @@
       <div style="clear:both"/>
       <div class="contentbox-left"><router-link to="/faksimile/V/001r">1r</router-link>a–<router-link to="/faksimile/V/115r">115r</router-link>b</div>
       <div class="contentbox-right">[1]<b>
-            Wolfram von Eschenbach, ›Parzival‹ (Fassung *T), Buch I–XIV</b> (L. 1.1–733.30)
+            Wolfram von Eschenbach, ›Parzival‹, Buch I–XIV</b> (L. 1.1–733.30)
           <b>mit Prologus und Einschüben</b><a href="#_ftn13" id="_ftnref13"><sup>[13]</sup></a></div>
       <div style="clear:both"/>
       <div class="contentbox-left"/>
@@ -782,7 +782,7 @@
           <router-link to="/faksimile/V/307v">307v</router-link>b
         [3.21.3] <b>Wolframs ›Parzival‹, Buch XV</b> (L. 769.28<sup>21–22</sup> [Anpassung an Wolfram von Eschenbach,
           ›Parzival‹], L. 769.29<sup>a</sup>–769.30<sup>a</sup> und 769.30<sup>1–2</sup>;
-          Sch. LI, letzte 6 Verse in der Ergänzung zu L. 769.28): <i>Dar nach ſprach der heiden rich</i> | <i>Kv́nig Artus. nv hoͤre mich</i>
+          Sch. LI, letzte sechs Verse in der Ergänzung zu L. 769.28): <i>Dar nach ſprach der heiden rich</i> | <i>Kv́nig Artus. nv hoͤre mich</i>
           | <i>Jch wil dir nennen alle die</i> | <i>Kv́nige. h(er)zogen. Grauen alhie</i>
           | <i>An den mir iſt gelungen</i> | <i>Die ich alle han betwungen</i></div>
       <div style="clear:both"/>
@@ -991,7 +991,7 @@
             <p><i>Heiz diz buͦch bereiten</i></p>
             <p><i>Wir moͤgent nút me beiten</i></p>
             <p>(Die Minne sprach: »Ich gebiete dir, Ulrich, bei der
-                Macht, die ich besitze – oder ich ziehe Dich in meinen (Minne-)Bann –: Lass dieses Buch
+                Macht, die ich besitze – oder ich ziehe dich in meinen (Minne-)Bann –: Lass dieses Buch
                 machen, wir können nicht länger warten.«)</p>
             <p>(Ep 338–342; Sch. 853.16–20)</p>
       </div>
@@ -1012,7 +1012,7 @@
           und dessen Herzen sowie aus Schilderungen der Entstehung von Text und
           Textträger durch einen Erzähler, der als Dichter-Ich auftritt. Der
           Epilog lässt sich inhaltlich wie folgt gliedern:<a href="#_ftn19" id="_ftnref19"> <sup>[19]</sup></a></p>
-      <p class="metadata">Überschrift mit Zuweisung des Epilogs an Philipp Colin (Ep 1-0; Sch. 845.14–17), verbunden mit den bereits aus den Blattberechnungen (Hs. V, Bl. 115va, NP 0-13f.) bekannten Titelbezeichnungen der Teile des ›Rappoltsteiner Parzifal‹, die in den folgenden Versen mittels Verfasserangaben präzisiert werden:</p>
+      <p class="metadata">Überschrift mit Zuweisung des Epilogs an Philipp Colin (Ep 1-0; Sch. 845.14–17), verbunden mit den bereits aus den Blattberechnungen (Hs. V, Bl. 115va, NP 0-1<sup>3f</sup>.) bekannten Titelbezeichnungen der Teile des ›Rappoltsteiner Parzifal‹, die in den folgenden Versen mittels Verfasserangaben präzisiert werden:</p>
       <ul class="metadata">
           <li><i>der alte parzifal</i>: Wolframs von Eschenbach ›Parzival‹ (vgl. Ep 1–24; Sch. 845.18–846.16),</li>
           <li><i>der nvwe </i>[<i>parzifal</i>]: Philipp Colins <i>buͦch ... in túzſch gerimet</i>  (vgl. Ep 25–31; Sch. 846.17–23).</li>
@@ -1105,7 +1105,7 @@
       <p class="MsoNormal">                Von den im
           Entstehungszeitraum der Handschrift bekannten Trägern des Namens Ulrich von
           Rappoltstein aus drei Generationen kommen folgende als Auftraggeber der
-          Handschrift in Frage:<a href="#_ftn27" id="_ftnref27"><sup>[27]</sup></a></p>
+          Handschrift infrage:<a href="#_ftn27" id="_ftnref27"><sup>[27]</sup></a></p>
       <p class="MsoNormal">1. Der Edelmann <span style="letter-spacing:1.0pt">Ulrich,</span> unverheirateter Sohn des Ritters und
           Herren zu Hoh(en)-Rappoltstein Anselm († 1311) und Bruder des 1335 bereits
           verstorbenen Johann, Herr zu Hoh(en)-Rappoltstein. 1310 ist Ulrich als Student
@@ -1151,7 +1151,7 @@
                                 <span style="font-size:0.9rem">(NP 0-1<sup>2</sup>, B. 115va)</span>
                             </span>
       </blockquote>
-      <p class="MsoNormal">Zu recht hat <span style="font-variant:small-caps">Manfred Günter Scholz</span> darauf
+      <p class="MsoNormal">Zu Recht hat <span style="font-variant:small-caps">Manfred Günter Scholz</span> darauf
           hingewiesen, dass nicht zu entscheiden ist, ob sich die Jahresangabe zeitlich auf die Vollendung des ›Nuwen Parzifal‹, seiner Niederschrift oder
           vielleicht der der gesamten Hs. V bezieht.<a href="#_ftn37" id="_ftnref37"><sup>[37]</sup></a>
           Jedenfalls hat sich die Gesamtherstellung der Handschrift gemäß Angaben
@@ -1162,12 +1162,12 @@
       <p class="MsoNormal"><span style="font-variant:small-caps">Schorbach</span>
           vermutet, dass die Hs. V in der Burg Groß-Rappoltstein (St. Ulrichsburg)
           entstanden ist.<a href="#_ftn39" id="_ftnref39"><sup>[39]</sup></a> Während der
-          Abfassungszeit des ›Rappoltsteiner Parzifal‹ in den 30er-Jahren des 14.
+          Abfassungszeit des ›Rappoltsteiner Parzifal‹ in den Dreißigerjahren des 14.
           Jahrhunderts war der Edelmann Johann von Rappoltstein († 1362), Herr zu
           Groß-Rappoltstein und Herr in der Rappoltsweiler Neustadt und Oberstadt.<a href="#_ftn40" id="_ftnref40"><sup>[40]</sup></a>
           Er war der Ehemann der Elisabeth von Geroldseck,<a href="#_ftn41" id="_ftnref41"><sup>[41]</sup></a>
           der Bruder der Sophia, Äbtissin von Andlau,<a href="#_ftn42" id="_ftnref42"><sup>[42]</sup></a> und der Vater Johanns
-          und Ulrichs IV., der als Auftraggeber des ›Rappoltsteiner Parzifal‹ in Frage
+          und Ulrichs IV., der als Auftraggeber des ›Rappoltsteiner Parzifal‹ infrage
           kommt (siehe <a href="#_Toc389815974">Kap. 1.2.1</a>). Ob Ulrich IV. zum Zeitpunkt der Fertigstellung von
           Hs. V noch auf der Burg Groß-Rappoltstein wohnhaft war oder bereits als Domherr
           in Basel weilte, ist nicht bekannt. Der zweite Ulrich, der als Auftraggeber
@@ -1193,7 +1193,7 @@
           Verfasser des Epilogs genannt.<a href="#_ftn43" id="_ftnref43"><sup>[43]</sup></a> Der Epilog seinerseits
           stellt Colin als klugen
           (kundigen?) Goldschmied<a href="#_ftn44" id="_ftnref44"><sup>[44]</sup></a> aus oder wohnhaft in
-          Straßburg vor, der das vorliegende Buch
+          Straßburg dar, der das vorliegende Buch
           für seinen Herrn aus französischen in deutsche Reime gebracht habe.<a href="#_ftn45" id="_ftnref45"><sup>[45]</sup></a>
         Nach den anfänglichen Nennungen in der dritten Person tritt ab Vers Ep 163 (Sch. 849.23) ein wohl auf Philipp Colin verweisender
         Ich-Erzähler auf.<a href="#_ftn46" id="_ftnref46"><sup>[46]</sup></a> An späterer Stelle berechnet dieser für die
@@ -1332,7 +1332,7 @@
           die Juden gegen Entgelt verpfänden, was laut einer 1331 in Nürnberg
           ausgestellten Urkunde auch in der Stadt Rappoltsweiler geschah: So verpfändete
           am 15. Februar 1331 Kaiser Ludwig der Bayer für 400 Mark Silber die Juden der
-          oberen und niederen Stadt zu Rappoltsweiler dem damaligen Herren in der
+          oberen und niederen Stadt zu Rappoltsweiler dem damaligen Herrn in der
           Oberstadt, Johannes von Rappoltstein, Vater Ulrichs IV.<a href="#_ftn56" id="_ftnref56"><sup>[56]</sup></a>
           Falls auch Samson Pine der seit Beginn des 14. Jahrhunderts nachweisbaren jüdischen Gemeinde
           in Rappoltsweiler<a href="#_ftn57" id="_ftnref57"><sup>[57]</sup></a> angehört hat, könnte er als
@@ -1354,7 +1354,7 @@
           altfranzösischen Prosafassung im Pariser Druck von 1530 gegen diesen verhält.<a href="#_ftn58" id="_ftnref58"><sup>[58]</sup></a>
           Für die Verwendung von Textstellen aus Chrétiens de Troyes ›Conte du Graal‹,
           die in der Vorlage wahrscheinlich mit der ›Élucidation‹ gemeinsam überliefert
-          wurden, kann keine der in <span style="font-variant:small-caps">Keith Busbys</span>
+          wurden, kann keine der in <span style="font-variant:small-caps">Keith Busby</span>s
           Ausgabe<a href="#_ftn59" id="_ftnref59"><sup>[59]</sup></a> berücksichtigten
           Handschriften in eine direkte Verbindung zum ›Rappoltsteiner Parzifal‹ gebracht
           werden.<a href="#_ftn60" id="_ftnref60"><sup>[60]</sup></a> Dasselbe gilt auch für
@@ -1405,7 +1405,7 @@
           Minneliedstrophen im sogenannten ›Rappoltsteiner Florilegium‹ auf demselben Bl.
           <router-link to="/faksimile/V/115v">115v</router-link> sind
           einzeln weit verbreitet, finden sich in dieser Zusammenstellung jedoch lediglich
-          in Hs. V und Hs. V',<a href="#_ftn67" id="_ftnref67"><sup>[67]</sup></a> eine weitere auf Bl.
+          in Hs. V und Hs. V';<a href="#_ftn67" id="_ftnref67"><sup>[67]</sup></a> eine weitere auf Bl.
           <router-link to="/faksimile/V/320v">320v</router-link>a
           nachgetragene Strophe wiederum überliefert nur Hs. V.
       </p>
@@ -1437,7 +1437,7 @@
       <p class="verse">(Ep 558-3<sup>1–10</sup>; Sch. XVI)</p>
       <p class="MsoNormal">Nicht eindeutig bestimmen lässt sich in diesem Eintrag, ob es sich beim Namen <i>Henselin</i> um eine Kurzform
           des Vornamens Johannes oder um einen Nachnamen handelt und ob mit <i>Schriber</i> eine Berufsbezeichnung oder ein
-          Nachname gemeint ist.<a href="#_ftn69" id="_ftnref69"><sup>[69]</sup></a> In Frage kommen somit
+          Nachname gemeint ist.<a href="#_ftn69" id="_ftnref69"><sup>[69]</sup></a> Infrage kommen somit
           Vertreter folgender Namenskombinationen: <i>Henselin</i> (Johannes) <i>Schriber</i>
           (Nachname), ein Schreiber mit Vorname <i>Henselin</i> (Johannes)<a href="#_ftn70" id="_ftnref70"><sup>[70]</sup></a>
           sowie ein Schreiber mit Nachname <i>Henslin</i><a href="#_ftn71" id="_ftnref71"><sup>[71]</sup></a>.
@@ -1604,7 +1604,7 @@
                 <td>Bl.
                   <router-link to="/faksimile/V/115v">115v</router-link>a–b
                 </td>
-                <td>NP 0-1<sup>3</sup>–0-55 (Sch. XIIIf.) (Blattberechnung und 7 Minneliedstrophen)
+                <td>NP 0-1<sup>3</sup>–0-55 (Sch. XIIIf.) (Blattberechnung und sieben Minneliedstrophen)
                 </td>
             </tr>
           </tbody>
@@ -1702,15 +1702,13 @@
       </p>
       <h5><a id="_Toc389815985"/><a id="_Ref379125439"/><span style="font-variant:small-caps">1.3.2 </span>Buchschmuck</h5>
       <p class="MsoNormal"><span style="font-variant:small-caps">Ute Obhof</span> kam 2009 zum Schluss, dass der Buchschmuck der Hs. V von
-          zwei unterschiedlichen Malerhänden (im Folgenden als Malerhände I und II bezeichnet) stammt.<a href="#_ftn78" id="_ftnref78"><sup>[78]</sup></a>
-          Tatsächlich lassen sich sowohl bei der Ausstattung der siebzehn mehrfarbigen (rot, blau, violett, braun, gelb und grün),
-          zwei- bis fünfzeiligen <span style="letter-spacing:1.0pt">Fleuronnée-Initialen</span>
-          sowie bei den zweizeiligen, roten und blauen, mit Fleuronnée in der Gegenfarbe (gelegentlich wurde auch violett anstelle von blau verwendet) verzierten <span style="letter-spacing:1.0pt">Lombarden</span> zwei unterschiedliche
-          Ausführungen feststellen.<a href="#_ftn79" id="_ftnref79"><sup>[79]</sup></a> Ob die Initialen und die Verzierungen
-          allerdings von zwei Malern stammten oder ob ein einziger Maler in unterschiedlichem
-          Duktus (in zwei Durchgängen?) gearbeitet hat, lässt sich nicht
-          bestimmen. Im Folgenden werden mit <span style="font-variant:small-caps">Obhof</span>
-          zwei Malerhände unterschieden.
+          zwei unterschiedlichen Malerhänden stammt (unten als Malerhände I und II bezeichnet).<a href="#_ftn78" id="_ftnref78"><sup>[78]</sup></a>
+          Es begegnen siebzehn zwei- bis fünfzeilige <span style="letter-spacing:1.0pt">Fleuronnée-Initialen</span> in mehrfarbiger Ausführung (rot, blau, violett, braun, gelb und grün)
+          sowie zweizeilige, rote und blaue <span style="letter-spacing:1.0pt">Lombarden</span>, die mit Fleuronnée in der Gegenfarbe verziert sind (gelegentlich wurde auch violett anstelle von blau verwendet).<a href="#_ftn79" id="_ftnref79"><sup>[79]</sup></a> Ob die Initialen und die Verzierungen
+          von zwei Malern angefertigt worden sind oder ob ein einziger Maler in unterschiedlichem
+          Duktus (in zwei Durchgängen?) gearbeitet hat, lässt sich allerdings nicht
+          klar ermitteln. Gleichwohl werden im Folgenden die beiden von <span style="font-variant:small-caps">Obhof</span>
+          bestimmten Malerhände unterschieden.
       </p>
       <h6><a id="_Toc389815986"/><a id="_Ref379014741"/>1.3.2.1 Initialen</h6>
       <p class="MsoNormal">Sieben drei- bis fünfzeilige,
@@ -1730,12 +1728,12 @@
           <router-link to="/faksimile/V/054v">54v</router-link>a [fünfzeilig]
           und
           <router-link to="/faksimile/V/080r">80r</router-link>a
-          [vierzeilig]) sind mit Drôlerien und zoomorphen Mischwesen geschmückt; sie folgen
-          jeweils einer roten Überschrift. Keine solche Überschrift findet sich vor der
+          [vierzeilig]) sind mit Drolerien und zoomorphen Mischwesen geschmückt; sie folgen
+          jeweils einer roten Überschrift. Keine Überschrift findet sich hingegen vor der
           siebten, einfacher gestalteten vierzeiligen Initiale auf Bl.
           <router-link to="/faksimile/V/114v">114v</router-link>b.<a href="#_ftn80" id="_ftnref80"><sup>[80]</sup></a>
       </p>
-      <p class="MsoNormal">Von <span style="letter-spacing:1.0pt">Malerhand II</span> hingegen stammen acht – im
+      <p class="MsoNormal">Von <span style="letter-spacing:1.0pt">Malerhand II</span> stammen acht – im
           Vergleich mit der ersten Malerhand einfacher geschmückte – drei- bis vierzeilige
           Initialen im zweiten Teil mit dem ›Nuwen Parzifal‹ (Bl.
           <router-link to="/faksimile/V/115v">115v</router-link>–<router-link to="/faksimile/V/320v">320v</router-link>), die – mit Ausnahme der ersten, den ›Nuwen Parzifal‹
@@ -1761,7 +1759,7 @@
           sowie die erweiterte Verzierung der von Malerhand I gefertigten und verzierten vierzeiligen
           I-Lombarde auf dem Eröffnungsblatt
           <router-link to="/faksimile/V/001r">1r</router-link>a: Unter
-          Verwendung der Farben rot, blau und grün hat Malerhand II diese Lombarde analog zur Ausschmückung der
+          Verwendung der Farben Rot, Blau und Grün hat Malerhand II diese Lombarde analog zur Ausschmückung der
           Lombarde auf Bl.
           <router-link to="/faksimile/V/287v">287v</router-link>b
           (Vogel auch auf Bl.
@@ -1775,10 +1773,10 @@
           mit Repräsentanten (gut sichtbar auf Bl.
           <router-link to="/faksimile/V/030r">30r</router-link>b) finden
           sich in beiden Teilen von beiden Malerhänden I und II Fleuronnée-Ausschmückungen in
-          der Gegenfarbe und in grün (Bl.
+          der Gegenfarbe und in Grün (Bl.
           <router-link to="/faksimile/V/287v">287v</router-link>b).<a href="#_ftn82" id="_ftnref82"><sup>[82]</sup></a>
-          Auch hier stammen die qualitativ anspruchsvolleren Verzierungen (durchweg mit spiralenförmigen Fadenausläufern) von
-          Malerhand I:<a id="_Ref355250946"/><a href="#_ftn83" id="_ftnref83"><sup>[83]</sup></a>
+          Auch hier sind die qualitativ anspruchsvolleren Verzierungen (durchweg mit spiralenförmigen Fadenausläufern) von
+          Malerhand I angefertigt worden:<a id="_Ref355250946"/><a href="#_ftn83" id="_ftnref83"><sup>[83]</sup></a>
       </p>
       <div>
           <figure style="max-width:24%"><img id="Bild1" src="img/image001.png" alt="Beschreibung: Bildschirmfoto 2017-11-06 um 09"/>
@@ -1828,15 +1826,15 @@
           stammt die Ornamentierung der Lombarden hauptsächlich von Malerhand I. Lediglich bei den stark bearbeiteten und korrigierten Blättern der fünften
           (Bl. <router-link to="/faksimile/V/037r">37</router-link>–<router-link to="/faksimile/V/048v">48</router-link>) und sechsten
           (Bl. <router-link to="/faksimile/V/049r">49</router-link>–<router-link to="/faksimile/V/060v">60</router-link>)
-          Lage war auch Malerhand II tätig. Auf Bl. <router-link to="/faksimile/V/047r">47</router-link>, von dem ein ganzes Stück Pergament ausgeschnitten und
+          Lage war auch Malerhand II tätig. Bl. <router-link to="/faksimile/V/047r">47</router-link> lässt erkennen, dass dort ein ganzes Stück Pergament ausgeschnitten und
           auf dem auf der <router-link to="/faksimile/V/049v">Versoseite</router-link>
-        ein neues eingeklebt wurde, erfolgte auf der <router-link to="/faksimile/V/049r">Rektoseite</router-link> die Ornamentierung der Lombarden durch Malerhand I noch bevor
-          Hand V Textkorrekturen vorgenommen hat. Auf der <router-link to="/faksimile/V/049v">Versoseite</router-link> hingegen wurde eine Lombarde erst nach dem Einkleben des
-          Pergamentstücks und nach Neubeschriftung der gänzlich radierten Spalte a durch Hand V von Malerhand II verziert.
-          Auf der nicht veränderten, von Hand III beschriebenen Spalte b desselben <router-link to="/faksimile/V/049v">Blattes</router-link> hingegen findet sich eine Verzierung
-          der Lombarde von Malerhand I. Auch auf Bl. <router-link to="/faksimile/V/053r">53r</router-link>b erfolgte die Ornamentierung durch Malerhand II erst, nachdem
-          auf der <router-link to="/faksimile/V/053v">Rückseite</router-link> ein Pergamentstück von Hand V eingeklebt und beschrieben worden war. In dieser und der folgenden
-          Spalte wurden die Lombarden im älteren, von Hand III erstellten Text hingegen noch von Schreiberhand I verziert.
+        durch ein neues ersetzt worden ist. Auf der <router-link to="/faksimile/V/049r">Rektoseite</router-link> hat Malerhand I die Ornamentierung der Lombarden vorgenommen, noch ehe
+          Schreiberhand V Textkorrekturen eingetragen hat. Auf der <router-link to="/faksimile/V/049v">Versoseite</router-link> hingegen ist eine Lombarde erst nach dem Einkleben des
+          Pergamentstücks und nach Neubeschriftung der gänzlich radierten Spalte a durch Schreiberhand V von Malerhand II verziert worden.
+          Auf der nicht veränderten, von Schreiberhand III beschrifteten Spalte b desselben <router-link to="/faksimile/V/049v">Blattes</router-link> hingegen findet sich eine von Malerhand I hergestellte Verzierung
+          der Lombarde. Auch auf Bl. <router-link to="/faksimile/V/053r">53r</router-link>b hat Malerhand II die Ornamentierung erst ausgeführt, nachdem
+          auf der <router-link to="/faksimile/V/053v">Rückseite</router-link> ein Pergamentstück eingeklebt und von Schreiberhand V beschrieben worden war. In dieser und der folgenden
+          Spalte sind die Lombarden im älteren, von Schreiberhand III erstellten Text hingegen noch von Malerhand I verziert worden.
           Die Ornamentierung auf den neu eingeklebten Blättern der sechsten (Bl. <router-link to="/faksimile/V/049r">49</router-link>–<router-link to="/faksimile/V/060v">60</router-link>),
           siebten (Bl. <router-link to="/faksimile/V/061r">61</router-link>–<router-link to="/faksimile/V/072v">72</router-link>) und
           neunten (Bl. <router-link to="/faksimile/V/085r">85</router-link>–<router-link to="/faksimile/V/090v">90</router-link>) Lage des ersten Teils (Bll.
@@ -1849,47 +1847,47 @@
           <router-link to="/faksimile/V/064r">64</router-link>/<router-link to="/faksimile/V/069r">69</router-link>,
           <router-link to="/faksimile/V/066r">66</router-link> und
           <router-link to="/faksimile/V/087r">87</router-link>) stammt
-          von Malerhand II. Wie Fadenausläufer auf den übriggebliebenen Fälzen der herausgeschnittenen Blätter
+          von Malerhand II. Wie Fadenausläufer auf den übrig gebliebenen Fälzen der herausgeschnittenen Blätter
           <router-link to="/faksimile/V/066r">66</router-link>,
           <router-link to="/faksimile/V/069r">69</router-link> und
           <router-link to="/faksimile/V/087r">87</router-link>
-          zeigen, wurde sie nach der Ersetzung der Blätter ausgeführt.
+          zeigen, ist die Ausführung nach der Ersetzung der Blätter erfolgt.
           Auf Bl.
           <router-link to="/faksimile/V/066r">66</router-link>r
-          stammten die Verzierungen gemäß den noch erkennbaren Fadenausläfern auf dem
+          stammen die Verzierungen gemäß den noch erkennbaren Fadenausläufern auf dem
           Falz ursprünglich von Malerhand I.<a href="#_ftn84" id="_ftnref84"><sup>[84]</sup></a> Die Lombarden von
-          Malerhand II auf den neu beschriebenen Blättern wurden teilweise vor dem Beschneiden
-          und Einkleben verziert (Bl.
+          Malerhand II auf den neu beschriebenen Blättern sind teilweise vor dem Beschneiden
+          und Einkleben (Bl.
           <router-link to="/faksimile/V/087r">87</router-link>r), teilweise
-          erst nachdem das neue Blatt eingeklebt worden ist (Bl.
+          erst danach verziert worden (Bl.
           <router-link to="/faksimile/V/069r">69</router-link>r).
       </p>
-      <p class="MsoNormal">Im zweiten Teil von Hs. V ist hauptsächlich Malerhand II für die Ornamentierung der Lombarden verantwortlich. Lediglich bei den Lombarden auf den von Hand I beschriebenen Blättern <router-link to="/faksimile/V/125r">125</router-link>
+      <p class="MsoNormal">Im zweiten Teil von Hs. V ist hauptsächlich Malerhand II für die Ornamentierung der Lombarden verantwortlich. Lediglich bei den Lombarden auf den von Schreiberhand I beschrifteten Blättern <router-link to="/faksimile/V/125r">125</router-link>
           und <router-link to="/faksimile/V/274v">274r</router-link>b, letzter Abschnitt, bis <router-link to="/faksimile/V/285v">285v</router-link>b
           sowie bereits bei zwei aufeinander folgenden roten Lombarden auf Bl. <router-link to="/faksimile/V/274r">274r</router-link>b innerhalb des von
-          Hand III geschriebenen Teils stammen die Verzierungen von Malerhand I.
+          Schreiberhand III beschrifteten Teils stammen die Verzierungen von Malerhand I.
       </p>
       <p class="MsoNormal">Für die Genese
-          von Hs. V lässt sich aus diesen Beobachtungen Folgendes ablesen: Die Verzierung
-          der Lombarden durch Malerhand I erfolgte, bevor ein Redaktor (Schreiber V?)
-          einige Blätter ausgewechselt hat. Diese neu eingeklebten Blätter wurden sowohl vor
-          wie auch nach dem Einsetzen von Malerhand II verziert. Somit steht
+          von Hs. V lässt sich aus diesen Beobachtungen Folgendes ableiten: Die Verzierung
+          der Lombarden durch Malerhand I ist erfolgt, bevor ein Redaktor (Schreiber V?)
+          einige Blätter ausgewechselt hat. Diese neu eingeklebten Blätter sind sowohl vor
+          wie auch nach dem Einsetzen von Malerhand II verziert worden. Somit steht
           zumindest die Verzierung der Initialen und Lombarden durch Malerhand II in
           direkter Verbindung mit der Niederschrift des Textes und muss am selben Ort erfolgt
-          sein. Die Frage, wo die Ausschmückung durch Malerhand I erfolgt ist, bleibt
-          hingegen offen; sie lässt sich jedoch durch weitere Funde eingrenzen.
+          sein. Die Frage, wo Malerhand I die Ausschmückung durchgeführt hat, bleibt
+          hingegen offen; sie kann jedoch durch weitere Funde eingegrenzt werden.
       </p>
       <h6><a id="_Toc389815988"/><a id="_Ref389752091"/>1.3.2.3 Filigranstil der Malerwerkstatt</h6>
-      <p class="MsoNormal">Mittels Vergleichen konnte der Filigranstil der im
+      <p class="MsoNormal">Mittels Vergleichen lässt sich der Filigranstil der im
           ›Rappoltsteiner Parzifal‹ für die Ausschmückung der Initialen und Lombarden
           verantwortlichen Malerhand I in einer liturgischen Handschriften mit einem Zisterzienser-Antiphonal
-          und Hymnar nachgewiesen werden, die heute unter der Signatur <a href="https://digital.blb-karlsruhe.de/blbhs/content/titleinfo/1164333">Lichtenthal
+          und Hymnar nachweisen, die heute unter der Signatur <a href="https://digital.blb-karlsruhe.de/blbhs/content/titleinfo/1164333">Lichtenthal
             141</a> (= L) in der Badischen Landesbibliothek in Karlsruhe aufbewahrt wird.<a href="#_ftn85" id="_ftnref85"><sup>[85]</sup></a>
           In leicht abweichendem Duktus findet sich der Ornamentstil von Malerhand I zudem in
           einer Sammelhandschrift mit der weit verbreiteten ›Historia Scholastica‹
-          des Petrus Comestor, weiteren Texten und graphischen Darstellungen zur
-          Genealogie Christi, die sich heute unter der Signatur <a href="http://www.e-codices.unifr.ch/de/list/one/kba/WettF0009">MsWettF 9</a> (=
-          W) in der Aargauer Kantonsbibliothek in Aarau befindet.<a href="#_ftn86" id="_ftnref86"><sup>[86]</sup></a></p>
+          des Petrus Comestor und mit weiteren Texten sowie graphischen Darstellungen zur
+          Genealogie Christi, die heute unter der Signatur <a href="http://www.e-codices.unifr.ch/de/list/one/kba/WettF0009">MsWettF 9</a> (=
+          W) in der Aargauer Kantonsbibliothek in Aarau aufbewahrt wird.<a href="#_ftn86" id="_ftnref86"><sup>[86]</sup></a></p>
       <p class="MsoNormal">                Die
           kalligraphisch hochstehenden Fleuronnée-Initialen von Malerhand I zeichnen sich
           aus durch eine filigrane Binnenfeldornamentik und ausgesparte figürliche Motive
@@ -1951,21 +1949,19 @@
           im und/oder für das Zisterzienserinnenkloster geschrieben und verziert worden
           ist, lässt sich nicht mehr bestimmen. Die Handschrift wurde jedenfalls um 1500 im
           Kloster Lichtenthal oder in dessen Nähe neu gebunden (Lichtenthaler Einbände
-          Gruppe I) unter Verwertung der alten Spiegelblätter sowie Bruchstücken einer
+          Gruppe I), dies unter Verwertung der alten Spiegelblätter sowie der Bruchstücke einer
           Pergamenthandschrift des 15. Jahrhunderts.<a href="#_ftn87" id="_ftnref87"><sup>[87]</sup></a> Die liturgischen
           Handschriften, die den Grundstock des 1245 gegründeten
           Zisterzienserinnenklosters Lichtenthal bildeten, stehen »in engstem Zusammenhang«
-          mit der Paternitätsabtei Neuburg bei Hagenau, die für die Zisterzienserinnen im
-          13. Jahrhundert Bücher für den Gottesdienst und das geistliche Leben schrieb.<a href="#_ftn88" id="_ftnref88"><sup>[88]</sup></a>
-          Möglicherweise wurde auch der Codex 141 mit dem Zisterzienser-Antiphonale und
-          -Hymnarium durch die Zisterzienserabtei Neuburg vermittelt, wo er vielleicht
-          auch geschrieben wurde.
+          mit der Paternitätsabtei Neuburg bei Hagenau, wo im 13 Jahrhundert für die Zisterzienserinnen Bücher zur Verwendung im Gottesdienst und im geistlichen Leben geschrieben worden sind.<a href="#_ftn88" id="_ftnref88"><sup>[88]</sup></a>
+          Möglicherweise lässt sich auch die Vermittlung und Abschrift des Codex 141 mit dem Zisterzienser-Antiphonale und
+          -Hymnarium diesem lokalen Kontext zuordnen.
       </p>
-      <p class="MsoNormal">                Mit den Herren
-          von Rappoltstein als Auftraggeber für die Erstellung der Initialornamentik
-          steht die Abtei Neuburg nicht in Verbindung. Intensive Beziehungen bestanden jedoch
+      <p class="MsoNormal">                Allerdings steht die Abtei Neuburg mit den Herren
+          von Rappoltstein als den Auftraggebern der Erstellung der Initialornamentik
+          nicht in Verbindung. Intensive Beziehungen haben jedoch
           zur 1138 gegründeten Zisterzienserabtei Ave Maris Stella in Pairis im
-          Gregorienthal in Orbey, für die Egenolf von Rappoltstein 1178 <i>benefactor</i>
+          Gregorienthal in Orbey bestanden, für die Egenolf von Rappoltstein 1178 <i>benefactor</i>
           war.<a href="#_ftn89" id="_ftnref89"><sup>[89]</sup></a> Laut Nekrolog liegen in der
           Zisterzienserabtei mehrere Vertreter der Herren von Rappoltstein begraben (auch
           der in Kap. 1.2.1 gennannte Ulrich IV.), für andere Familienmitglieder wurde am
@@ -1989,28 +1985,27 @@
       <p class="MsoNormal">Hs. V wurde mindestens einmal
           neu gebunden, wobei von den ursprünglich 322 Blättern ein Bogen, also zwei
           Blätter (nach dem im inneren Rand stark verschmutzten Bl.
-          <router-link to="/faksimile/V/169v">169v</router-link>) verloren
+          <router-link to="/faksimile/V/169v">169v</router-link>), verloren
           gingen.<a href="#_ftn94" id="_ftnref94"><sup>[94]</sup></a> Im Vergleich zur
           Abschrift (Hs. V'), die an der entsprechenden Stelle (Bl.
           <router-link to="/faksimile/VV/056r">56r</router-link>b–<router-link to="/faksimile/VV/058r">58r</router-link>b)
-          keine Lücken aufweist, fehlen in der Hs. V die 380 Verse NP 10558–10938 (Sch.
-          237.29–246.22), die in Hs. V acht Spalten gefüllt haben müssen, was genau vier
-          Seiten oder zwei Blättern entspricht. Ausserdem wurden bei der Neubindung die Blätter
+          keine Textlücke aufweist, fehlen in Hs. V die 380 Verse NP 10558–10938 (Sch.
+          237.29–246.22), die gemäß der Einrichtung acht Spalten gefüllt haben müssen, was genau vier
+          Seiten oder zwei Blättern entspricht. Außerdem sind bei der Neubindung die Blätter
           <router-link to="/faksimile/V/176r">176</router-link>
           und
           <router-link to="/faksimile/V/177r">177</router-link>
-          falsch eingeheftet; sie gehören eigentlich hinter Bl.
-          <router-link to="/faksimile/V/179v">179</router-link>, was
-          die richtige Reihenfolge Bl.
-          <router-link to="/faksimile/V/175r">175</router-link>, Bl.
-          <router-link to="/faksimile/V/178r">178</router-link>, Bl.
-          <router-link to="/faksimile/V/179r">179</router-link>, Bl.
-          <router-link to="/faksimile/V/176r">176</router-link>, Bl.
+          falsch eingeheftet worden; sie gehören eigentlich hinter Bl.
+          <router-link to="/faksimile/V/179v">179</router-link>, so dass sich
+          in der berichtigten Form Reihenfolge der Blätter
+          <router-link to="/faksimile/V/175r">175</router-link>,
+          <router-link to="/faksimile/V/178r">178</router-link>,
+          <router-link to="/faksimile/V/179r">179</router-link>,
+          <router-link to="/faksimile/V/176r">176</router-link>,
           <router-link to="/faksimile/V/177r">177</router-link> und
-          Bl.
           <router-link to="/faksimile/V/180r">180</router-link>
-          ergibt. Darauf verweisen verschiedene mit Tinte gezeichnete korrespondierende
-          Zeichen auf den genannten Blättern (siehe Kap.
+          ergibt (darauf verweisen verschiedene mit Tinte gezeichnete korrespondierende
+          Zeichen, siehe Kap.
           <a href="#_Toc389815971">1.1.1</a>).<a href="#_ftn95" id="_ftnref95"><sup>[95]</sup></a></p>
       <p class="MsoNormal">Als Einbandverstärkung dienten sowohl im <router-link to="/faksimile/V/vs001v">Vorder-</router-link> wie auch im <router-link to="/faksimile/V/321r">Hinterspiegel</router-link>
           beschriebene Pergamentblätter, von denen sich in den Innendeckeln des Einbandes
@@ -2023,13 +2018,13 @@
           Orts- und Flurnamen genannt: Die Personen <i>Cunrat</i>, <i>alh</i>[<i>ei</i>]<i>t</i>,
           <i>agnes</i>, <i>lampret</i>, Ritter <i>Johannes</i>, Herr von <i>mun:::h(er)</i>,
           seine Ehefrau [A]<i>g</i>[n]<i>e</i>[s], <i>He</i>[rm]<i>an Ecke|rich</i>, <i>Els</i>[be]<i>th</i>,
-          [A]<i>gnes</i> und <i>w(er)ndrut</i>. Zudem die Orts- bzw. Flurnamen <i>sazbe:n:</i>,
+          [A]<i>gnes</i> und <i>w(er)ndrut</i>. Zudem begegnen die Orts- bzw. Flurnamen <i>sazbe:n:</i>,
           <i>alpurg</i><a href="#_ftn96" id="_ftnref96"><sup>[96]</sup></a> sowie <i>froneride</i>.
           Bei <i>He::an Eckerich</i> handelt es sich wahrscheinlich um den in Münnerstadt
-          wohnhaften Hermann Eckerich der Alte († vor 1315), der 1281 als Empfänger von
+          wohnhaften Hermann Eckerich den Alten († vor 1315), der 1281 als Empfänger von
           Gütern zwischen 1287 und 1321 mehrfach als Zeuge und (teilweise mit seiner
           Ehefrau Agnes) als Stifter auftritt.<a href="#_ftn97" id="_ftnref97"><sup>[97]</sup></a> Im zweiten Bruchstück,
-          möglicherweise ursprünglich ein Nekrolog, wird ein als Berater tätiger Hermann
+          möglicherweise ursprünglich einem Nekrolog, wird ein als Berater tätiger Hermann
           von Neustadt genannt: <i>co(n):::caneu(m) d(omi)ne d(i)c(t)e H(er)man(n)j de
             noua :::it::</i>:. Dieser Hermann von Neustadt ist wohl identisch mit dem aus
           einer Münnerstädter Bürgerfamilie stammenden, zwischen 1328 und 1376 mehrfach
@@ -2041,27 +2036,24 @@
           relativ sicher identifizierbaren Personen Hermann Eckerich und Hermann von
           Neustadt können mit dem unterfränkischen Münnerstadt (heute: Lk. Bad Kissingen)
           in Verbindung gebracht werden, in dessen Umkreis vermutlich die eingeklebten
-          Pergamentspiegel beschrieben wurden und Hs. V neu gebunden worden ist.
-          Möglich ist zudem, dass diese Neubindung im Zusammenhang mit der Abschrift
-          stattfand. Die Stellen in Hs. V', die in Hs. V fehlen, sowie die richtige
-          Textreihenfolge in Hs. V', wo Hs. V zwei Blätter vertauscht hat, weisen
-          jedenfalls darauf hin, dass Hs. V' bei der Neubindung von Hs. V bereits existiert
-          hat.
+          Pergamentspiegel beschrieben worden sind und Hs. V neu gebunden worden ist.
+          Möglicherweise ist diese Neubindung auch in Zusammenhang mit der Abschrift
+          zu bringen, die ihrerseits auf ein fränkisches Umfeld verweist (vgl. dazu unten, Kap. <a href="#_Toc389816004">2.2.3</a>). Hs. V' lässt jedenfalls keine Spuren der nach der Neubindung von Hs. V entstandenen Defekte (Textlücke im Umfang eines Bogens, Beeinträchtigung der Textfolge wegen vertauschter Blätter) erkennen. Sofern die Annahme einer direkt aus Hs. V erfolgten Kopie zutrifft, hätte die Abschrift von  Hs. V' bereits (kurz?) vor der Neubindung von Hs. V vorgelegen.
       </p>
       <h5><a id="_Toc389815991"/>1.4.2 Wappen</h5>
       <p class="MsoNormal">Auf dem <router-link to="/faksimile/V/321r">Hinterspiegel</router-link>
           von Hs. V finden sich elf einfache Federzeichnungen mit schwarzer Tinte, die
           Wappenschilde darstellen (einige davon mit Aufhängevorrichtung). Zehn dieser
-          elf Dreieckschilde sind geteilt (geviert, halbgespalten, mit Schrägrechtsbalke,
+          elf Dreieckschilde sind geteilt (geviert, halbgespalten, mit Schrägrechtsbalken,
           mit mehreren Balken) oder mit gängigen Figuren ausgeführt (Schildchen, Posthorn
           über Dreiberg, gekreuzte Lilienstäbe[?]); das Rappoltsteiner Stammwappen ist
           nicht abgebildet. Die rudimentären Ausführungen sowie die Abbildungen von weit
           verbreiteten Wappenbildern lassen eine eindeutige Zuweisung der Wappen in den
-          meisten Fällen nicht zu. Dass es sich bei den Wappenschilden nicht um
-          Phantasieschilde handelt, kann aufgrund der detaillierten Ausführung lediglich
-          bei einem der beiden oberen Zeichnungen, die zwei Vollwappen, also Schilde mit
-          Helm (Seitenansicht), Helmzier und Helmdecken zeigen, ausgeschlossen werden.<a href="#_ftn99" id="_ftnref99"><sup>[99]</sup></a>
-          Das Wappenschild oben links (Feld mit Balken und Schwanenhals mit einzelnen
+          meisten Fällen nicht zu; es dürfte sich bei den Wappenschilden in der Regel um
+          Phantasiegebilde handeln. Ausgeschlossen werden kann dies aufgrund der detaillierten Ausführung
+          nur bei einer der beiden oberen Zeichnungen, die zwei Vollwappen, also Schilde mit
+          Helm (Seitenansicht), Helmzier und Helmdecken darstellen.<a href="#_ftn99" id="_ftnref99"><sup>[99]</sup></a>
+          Der Wappenschild oben links (Feld mit Balken und Schwanenhals mit einzelnen
           Kammfedern als Helmzier) zeigt vermutlich nicht das habsburgische
           (österreichische) Wappen mit Krone und Pfauenfedern als Helmzier, sondern
           dasjenige des schweizerischen Adelsgeschlechts der Freiherren von Falkenstein (Wappen
@@ -2081,11 +2073,11 @@
       </div>
       <p class="MsoNormal">Die Federzeichnungen auf dem
         <router-link to="/faksimile/V/321r">Hinterspiegel</router-link> von Hs. V sind frühestens zu Beginn des 15. Jahrhunderts
-          enstanden. Auf diese Zeit fällt die Entwicklung und Aufnahme in die Heraldik des
+          enstanden. In diese Zeit fällt die Entwicklung und Aufnahme in die Heraldik des
           Stechhelm (auch: Krötenkopfhelm) genannten Turnierhelms (1370–90 entwickelt) sowie
           des Kolbenturnierhelms (auch: Bügel- oder Spangenhelm), deren – im Gegensatz
-          zum älteren Topfhelm – ausschweifender Gesichtsschutz den Wappendarstellungen
-          der beiden ersten Helme als Vorbilder dienten.<a href="#_ftn101" id="_ftnref101"><sup>[101]</sup></a></p>
+          zum älteren Topfhelm – ausschweifender Gesichtsschutz den beiden ersten Wappendarstellungen
+          auf dem Hinterspiegel als Vorbild diente.<a href="#_ftn101" id="_ftnref101"><sup>[101]</sup></a></p>
       <h5><a id="_Toc389815992"/><a id="_Ref379014918"/><a id="_Ref379011612"/>1.4.3 Nachträge</h5>
       <p class="MsoNormal">Neben eindeutig den
           Besitzerfamilien von Rappoltstein und von Helfenstein zuweisbaren Benutzereinträgen
@@ -2094,10 +2086,10 @@
           Hs. V (Bl. <router-link to="/faksimile/V/320v">320v</router-link>)
             sowie auf dem jetzt losgelösten <router-link to="/faksimile/V/321r">Hinterspiegel</router-link>
           Einträge und Federproben, die noch aus dem 14. Jahrhundert stammen. Im
-          Anschluss an eine achte mhd. Minneliedstrophe folgt auf Bl.
+          Anschluss an eine achte mittelhochdeutsche Minneliedstrophe folgt auf Bl.
           <router-link to="/faksimile/V/320v">320v</router-link>a mit
-          brauner Tinte ein anonym überlieferter altfranzösischer Minnetext, in dem ein Dame
-          angesprochen wird:<a href="#_ftn102" id="_ftnref102"><sup>[102]</sup></a></p>
+          brauner Tinte ein anonym überlieferter altfranzösischer Minnetext, in dem die Erinnerung an eine schöne Dame
+          thematisiert wird:<a href="#_ftn102" id="_ftnref102"><sup>[102]</sup></a></p>
       <p class="verse"><span lang="fro"><i>ly douz ſouenir de m:y dame jolie</i></span></p>
       <p class="verse"><span lang="fro"><i>:: triſtes me fait plus (que) riens que je</i></span></p>
       <p class="verse"><span lang="fro"><i>ne pouroie deſp:::ny</i></span></p>
@@ -2142,7 +2134,7 @@
           Codex gemäß Besitzeinträgen noch im 16. Jahrhundert von Mitgliedern der Familie
           gelesen. In der oberen Hälfte des <router-link to="/faksimile/V/vs001v">Vorderspiegels</router-link>
           finden sich von unterschiedlichen Händen drei Bücherzeichen mit Devisen,<a href="#_ftn104" id="_ftnref104"><sup>[104]</sup></a>
-          welche die Jahresangaben 1552 und 1553 aufweisen.<a href="#_ftn105" id="_ftnref105"><sup>[105]</sup></a></p>
+          welche die Jahresangaben 1552 und 1553 enthalten.<a href="#_ftn105" id="_ftnref105"><sup>[105]</sup></a></p>
       <p class="MsoNormal">                In einem
           Bücherzeichen mit der Devise <i>IVTG</i> (= Ich vermisse Trennung
           gemach)<a href="#_ftn106" id="_ftnref106"><sup>[106]</sup></a> von 1552 werden mit den
@@ -2153,29 +2145,29 @@
           Bruder <span style="letter-spacing:1.0pt">Georg II., Graf zu Helfenstein</span>
           und Freiherr von und zu Gundelfinden (1518–73), 1551 Oberst in Siebenbürgen,
           genannt.<a href="#_ftn107" id="_ftnref107"><sup>[107]</sup></a> Unterhalb dieses
-          Bücherzeichens steht von anderer Hand ein weiteres, versehen mit der Jahreszahl
-          1552 und der Devise <i>H.I.V.M.</i> (= Hoffe immer und [minne?]).<a href="#_ftn108" id="_ftnref108"><sup>[108]</sup></a>
+          Bücherzeichens steht von anderer Hand eingetragen ein weiteres, das mit der Jahreszahl
+          1552 und der Devise <i>H.I.V.M.</i> (= Hoffe immer und [minne?]) versehen ist.<a href="#_ftn108" id="_ftnref108"><sup>[108]</sup></a>
           Bei der darin genannten <i>Barbra Grefin</i> | <i>ʒuͦ helfenſtain </i>handelt
           es sich um die damals noch unverheiratete, 17- oder 18-jährige <span style="letter-spacing:1.0pt">Barbara, Gräfin zu Helfenstein</span> (1534–73),
-          Schwester der beiden oben genannten.<a href="#_ftn109" id="_ftnref109"><sup>[109]</sup></a> Als drittes
+          Schwester der beiden oben Genannten.<a href="#_ftn109" id="_ftnref109"><sup>[109]</sup></a> Als drittes
         Bücherzeichen findet sich auf dem <router-link to="/faksimile/V/vs001v">Vorderspiegel</router-link> rechts des erstgenannten von
           einer weiteren Hand ein Eintrag aus dem Folgejahr 1553, in dem unterhalb der
           Devise <i>MHZG</i> (= Meine Hoffnung [Mein Hoffen] zu Gott)<a href="#_ftn110" id="_ftnref110"><sup>[110]</sup></a>
           die Abkürzung <i>MGZH</i> aufgeführt ist. <i>MGZH</i> steht entweder für eine
           Devise (Mit Gott ze Hilfe?) oder für eine weitere Schwester der bereits
-          genannten, nämlich für die damals ebenfalls noch unverheiratete, 22- oder
+          Genannten, nämlich für die damals ebenfalls noch unverheiratete, 22- oder
           23-jährige <span style="letter-spacing:1.0pt">Margareta, Gräfin zu
             Helfenstein</span> (1530–1589).<a href="#_ftn111" id="_ftnref111"><sup>[111]</sup></a></p>
       <p class="MsoNormal">                Die beiden Schreiberhände
           der Einträge von 1552 sind zudem verantwortlich für zwei weitere Bücherzeichen
           mit kurzen Versen im inneren von Hs. V. Von der ersten Schreiberhand stammt
-          nämlich eine Marginalie auf Bl.
+          eine Marginalie auf Bl.
           <router-link to="/faksimile/V/080v">80v</router-link>, das die
           Verse L. 506.9–509.15 aus dem Beginn des zehnten Buchs von Wolframs ›Parzival‹ enthält,
           in denen berichtet wird, wie der Ritter Gawan das erste Mal auf seine künftige
-          Frau Orgeluse trifft und ihr seine Ritterdienste anbietet (L. 508.15–509.9).<a href="#_ftn112" id="_ftnref112"><sup>[112]</sup></a>
-          Die Schreiberhand hat am unteren Rand der ersten Spalte folgende gereimte Verse
-          eingetragen:
+          Gemahlin Orgeluse trifft und ihr seine Ritterdienste anbietet (L. 508.15–509.9).<a href="#_ftn112" id="_ftnref112"><sup>[112]</sup></a>
+          Auf dieselbe Schreiberhand geht ein ebenfalls Gawan betreffender Eintrag am unteren Rand der ersten Spalte zurück, der folgende gereimte Verse
+          enthält:
       </p>
       <p class="verse"><i>Gabwan </i>[oder:<i> Gawan</i>]<i>
             der <span class="titel1">ſ</span>chen<span class="titel1">ſ</span>t Edle<span class="titel1">ſ</span>t riter | gúot</i></p>
@@ -2188,30 +2180,22 @@
           <router-link to="/faksimile/V/080v">80v</router-link>)
       </p>
       <p class="MsoNormal">Rechts von diesem Spruch, unterhalb der rechten Spalte von Bl.
-          <router-link to="/faksimile/V/080v">80v</router-link> wird mit
+          <router-link to="/faksimile/V/080v">80v</router-link>, wird mit
           der Jahresangabe 1552 zudem das erste der genannten, ebenfalls von derselben
           Hand geschriebene Bücherzeichen mit der Devise <i>IVTG</i> sowie der Nennung
           von <i>EFZRapolſtein</i> und <i>GGZ helffenſtein</i> wiederholt. Darunter folgt
           der Eintrag <i>GaWin ORGOlis</i>, der die Protagonisten der links beschriebenen
-          Szene aufgreift. Vermutlich haben sich – wie <span style="font-variant:small-caps">Peter
-            Jörg Becker</span> annimmt – die Geschwister <span style="letter-spacing:1.0pt">Elisabeth
+          Szene aufgreift. Vermutlich haben sich die Geschwister <span style="letter-spacing:1.0pt">Elisabeth
             von Helfenstein-Wiesensteig</span> und <span style="letter-spacing:1.0pt">Georg
-            II., Graf zu Helfenstein</span> mit dem Ehepaar Gawan und Orgeluse
+            II., Graf zu Helfenstein</span>, mit dem Ehepaar Gawan und Orgeluse
           identifiziert.<a href="#_ftn114" id="_ftnref114"><sup>[114]</sup></a></p>
-      <p class="MsoNormal">Eine weitere
-        Marginalie stammt von der zweiten Schreiberhand der Einträge im <router-link to="/faksimile/V/vs001v">Vorderspiegel</router-link>.
-          Sie findet sich am unteren Rand von Bl.
-          <router-link to="/faksimile/V/153v">153v</router-link> (NP 7328–7426;
-          Sch. 165.40–168.1) mit der Schilderung der Liebesbeziehung zwischen König
-          Karados und Gyngenier aus der Treueprobe der Szene vom magischen Horn im Buch
-          Karados, das innerhalb der ›Première Continuation‹ zu Chrétiens ›Conte du
-          Graal‹ überliefert wird.<a href="#_ftn115" id="_ftnref115"><sup>[115]</sup></a> Unterhalb der ersten
-          Spalte wiederholt sich der Eintrag der Barbara, Gräfin zu Helfenstein, aus dem
-          Jahr 1552, der ebenfalls mit zwei Namen und zusätzlich mit zwei Ziffern ergänzt
-          wird, nämlich mit <i>karadvß 2·1· </i>und<i> ſingenarin 21.</i><a href="#_ftn116" id="_ftnref116"><sup>[116]</sup></a>
+      <p class="MsoNormal">Zwei weitere
+        Marginalien finden sich am unteren Rand von Bl.
+          <router-link to="/faksimile/V/153v">153v</router-link>. Der zweispaltige Text auf dieser Seite handelt von der Liebesbeziehung zwischen König Karados und Gyngenier aus der Treueprobe der Szene vom magischen Horn im Buch Karados (NP 7328–7426;
+          Sch. 165.40–168.1), die innerhalb der ›Première Continuation‹ zu Chrétiens ›Conte du Graal‹ überliefert wird.<a href="#_ftn115" id="_ftnref115"><sup>[115]</sup></a> Am Blattrand unterhalb der ersten Spalte wiederholt die zweite Schreiberhand den bereits im Vorderspiegel mit Eicheln verzierten Eintrag der Barbara, Gräfin zu Helfenstein, aus dem Jahr 1552. Dieser wird mit zwei Namen und zusätzlich mit zwei Ziffern ergänzt, nämlich mit <i>karadvß 2·1·</i> und <i>ſingenarin 21</i>.<a href="#_ftn116" id="_ftnref116"><sup>[116]</sup></a>
         Unterhalb der zweiten Spalte hat vermutlich die erste Hand des <router-link to="/faksimile/V/vs001v">Vorderspiegels</router-link>
-          Reime eingetragen, die von der Erlösung des Karados von der Schlange am
-          Handgelenk durch Gyngenier (NP 6651<sup>0</sup>–6732; Sch. 150.32–152.25) handeln:
+          Reime eingetragen, die auf jene Episode anspielen, in der Karados durch Gyngenier von der Schlange an seinem
+          Handgelenk erlöst wird (NP 6651–6732; Sch. 150.35–152.25):
       </p>
       <p class="verse">
                           <i>Riter Karitús vnd <span class="titel1">ſ</span>inge:ein |</i>
@@ -2234,8 +2218,8 @@
       <p class="MsoNormal">(Hs. V, Bl. <router-link to="/faksimile/V/153v">153v</router-link>)
       </p>
       <h5><a id="_Toc389815995"/>1.5.2 Handschrift V in der Fürstlich Fürstenbergischen Bibliothek in Donaueschingen</h5>
-      <p class="MsoNormal">Über Elisabeth von Helfenstein-Wiesensteig (1527–84), seit 1543 Ehefrau Georgs, Freiherr zu
-          Rappoltstein, gelangte die Handschrift in Helfensteinischen Besitz. Nach dem
+      <p class="MsoNormal">Über Elisabeth von Helfenstein-Wiesensteig (1527–84), seit 1543 Ehefrau Georgs, des Freiherrn zu
+          Rappoltstein, kam die Handschrift in Helfensteinischen Besitz. Nach dem
           Tod Georgs im Jahr 1548 heiratete Elisabeth ins Haus Fürstenberg ein. Dessen
           Graf Wratislaus II. (in erster Ehe mit Johanna Eleonora von Helfenstein-Gundelfingen,
           in zweiter mit Franziska Caroline von Helfenstein-Wiesensteig verheiratet) erwarb
@@ -2252,21 +2236,21 @@
           erwähnt wird die Aufbewahrung der Handschrift mit der Signatur <i>37.9.</i>
         (Einträge mit schwarzer Tinte auf dem <router-link to="/faksimile/V/vs001v">Vorderspiegel</router-link>)
           in der Fürstlich Fürstenbergischen Bibliothek in Donaueschingen von <span style="font-variant:small-caps">Ludwig Uhland</span> im Taschenbuch für Geschichte
-          und Alterthum in Süddeutschland im Jahr 1840, wo er den Codex als »unverkennbare[n]
-          Doppelgänger« von Hs. V' erstmals vorstellt und die acht mhd. Minneliedstrophen
-          daraus veröffentlicht.<a href="#_ftn119" id="_ftnref119"><sup>[119]</sup></a> Bei der
-          Bestandesaufnahme der deutschsprachigen Handschriften durch den Bibliothekar <span style="font-variant:small-caps">Joseph Victor Scheffel</span> im Jahr 1859 wurde
-          der ›Rappoltsteiner Parzifal‹ unter der Rubrik »Deutsche Volks- und Heldensage«
-          lediglich mit der Laufnummer IX. aufgeführt.<a href="#_ftn120" id="_ftnref120"><sup>[120]</sup></a> Bei der Neuordnung und
-          Katalogisierung der Handschriften durch den Amtsnachfolger <span style="font-variant:small-caps">Karl August Barack</span> im Jahr 1864 erhielt
-          Hs. V die Signatur »97«.<a href="#_ftn121" id="_ftnref121"><sup>[121]</sup></a></p>
+          und Alterthum in Süddeutschland im Jahr 1840, wo er den Codex als »unverkennbare(n)
+          Doppelgänger« von Hs. V' vorstellt und die acht mittelhochdeutschen Minneliedstrophen
+          daraus veröffentlicht.<a href="#_ftn119" id="_ftnref119"><sup>[119]</sup></a> In der
+          Bestandsaufnahme der deutschsprachigen Handschriften durch den Bibliothekar <span style="font-variant:small-caps">Joseph Victor Scheffel</span> vom Jahr 1859 ist
+          der Codex unter der Rubrik »Deutsche Volks- und Heldensage«
+          nur kurz mit der Laufnummer IX. aufgeführt.<a href="#_ftn120" id="_ftnref120"><sup>[120]</sup></a> Bei der Neuordnung und
+          Katalogisierung der Handschriften durch den Amtsnachfolger <span style="font-variant:small-caps">Karl August Barack</span> im Jahr 1864 hat
+          er die Signatur »97« erhalten.<a href="#_ftn121" id="_ftnref121"><sup>[121]</sup></a></p>
       <h5><a id="_Toc389815996"/><a id="_Ref379017708"/>1.5.3 Aufbewahrung von Handschrift V in der Badischen Landesbibliothek in Karlsruhe</h5>
-      <p class="MsoNormal">Mit dem Verkauf der Sammlung der Fürstlich Fürstenbergischen Hofbibliothek an das Land Baden-Württemberg im Jahr 1993
-          gelangte Hs. V zusammen mit dem Großteil der deutschsprachigen Handschriften
-          aus der Zeit bis ca. 1500 schließlich in die Badische Landesbibliothek in
-          Karlsruhe, wo sie die Signatur <i>Donaueschingen 97</i> (Einträge auf dem <router-link to="/faksimile/V/vs001v">Vorderspiegel</router-link>
-          mit Bleistift und Tinte: <i>Don 97</i>) erhielt,<a href="#_ftn122" id="_ftnref122"><sup>[122]</sup></a>
-          unter der sie noch heute dort aufbewahrt wird.
+      <p class="MsoNormal">Beim Verkauf der Sammlung der Fürstlich Fürstenbergischen Hofbibliothek an das Land Baden-Württemberg im Jahr 1993
+          die Handschrift zusammen mit dem Großteil der deutschsprachigen Manuskripte
+          aus der Zeit bis ca. 1500 in die Badische Landesbibliothek in
+          Karlsruhe gelangt, wo sie heute unter der Signatur <i>Donaueschingen 97</i> (Einträge auf dem <router-link to="/faksimile/V/vs001v">Vorderspiegel</router-link>
+          mit Bleistift und Tinte: <i>Don 97</i>) <a href="#_ftn122" id="_ftnref122"><sup>[122]</sup></a>
+          aufbewahrt wird.
       </p>
       <h3><a id="_Toc389815997"/>2 Kopie: Handschrift V' – Roma, Biblioteca Casanatense, Ms. 1409
       </h3>
@@ -2278,7 +2262,7 @@
           sehr umfangreichen Kürzungen in Hs. V' (um die 5300 Minusverse gegenüber Hs. V)
           erfolgten nachweislich bei der Abschrift des Codex.<a href="#_ftn125" id="_ftnref125"><sup>[125]</sup></a>
           Die von <span style="font-variant:small-caps">Karin Schneider</span> laut
-          paläographischem Befund auf das spätere 2. Viertel des 14. Jahrhunderts
+          paläographischem Befund auf das spätere zweite Viertel des 14. Jahrhunderts
           datierte Hs. V'<a href="#_ftn126" id="_ftnref126"><sup>[126]</sup></a> enthält lediglich den
           zweiten Teil (›Nuwer Parzifal‹) des ›Rappoltsteiner Parzifal‹.<a href="#_ftn127" id="_ftnref127"><sup>[127]</sup></a></p>
       <h4><a id="_Toc389815998"/><a id="_Ref379010666"/>2.1 Beschreibung der Handschrift V'</h4>
@@ -2293,7 +2277,7 @@
           <i><router-link to="/faksimile/VV/001r">1</router-link>–<router-link to="/faksimile/VV/181r">182</router-link> </i>
           (springt von <i><router-link to="/faksimile/VV/071r">71</router-link></i> auf <i><router-link to="/faksimile/VV/072r">73</router-link></i>).
           Pergament unterschiedlicher Dicke mit Löchern (genäht). Vordere und hintere Vorsatzblätter
-          aus Papier des 16. Jahrhunderts mit Wasserzeichen Kreis, von Stern überhöht, Abstand der beiden äusseren von drei Bindedrähten 60 mm,
+          aus Papier des 16. Jahrhunderts mit Wasserzeichen Kreis, von Stern überhöht, Abstand der beiden äußeren von drei Bindedrähten 60 mm,
           sehr ähnlich ‚Briquet Online‘ Nr. <a href="http://www.ksbm.oeaw.ac.at/_scripts/php/BR.php?refnr=488">488</a> (Ferrara 1583).
       </p>
       <p class="MsoNormal"><b>Einband</b>: Zwischen 1701 und 1800 entstandener, 40,5 x 28 cm großer <router-link to="/faksimile/VV/vs001r">Einband</router-link> (Kartondeckel mit hellem Schweinsleder
@@ -2413,7 +2397,7 @@
           Schreiber I; Bl.
           <router-link to="/faksimile/VV/049r">49r</router-link>a–<router-link to="/faksimile/VV/181v">181v</router-link>b =
           Schreiber II). <b>Ausstattung</b>: Eingangsinitiale und filigrane Fleuronnée-Initialen
-          (siehe <a href="#_Toc389815985">Kap. 1.3.2</a>). Neunzig meistens ein- bis zweizeilige Überschriften in roter (Bl.
+          (siehe <a href="#_Toc389815985">Kap. 1.3.2</a>). 90 meistens ein- bis zweizeilige Überschriften in roter (Bl.
           <router-link to="/faksimile/VV/077v">77v</router-link> in
           blauer) Tinte (im Folgenden mit &lt;…&gt; markiert), die Überschriften 1–4
           (Bll.
@@ -2431,7 +2415,7 @@
           Überschriften der Vorlage V ab. Die für die Überschriften vorgesehenen zwei,
           drei oder sieben (Bl.
           <router-link to="/faksimile/VV/073v">73v</router-link>b)
-          Zeilen werden teilweise nicht ausfüllt. Die Handschrift ist durchgängig mit
+          Zeilen werden teilweise nicht ausgefüllt. Die Handschrift ist durchgängig mit
           meist zweizeiligen (z.T. auch größer, zu Beginn einer letzten Zeile auch einzeilig,
           z.B. Bl.
           <router-link to="/faksimile/VV/035v">35v</router-link>b),
@@ -3053,7 +3037,7 @@
       </p>
       <h4><a id="_Toc389816001"/><a id="_Ref379010758"/>2.2 Genese der der Handschrift V'
       </h4>
-      <p class="MsoNormal">Im Gegensatz zur Genese von Hs. V
+      <p class="MsoNormal">Im Gegensatz zu den Entstehungszusammenhängen von Hs. V
           blieben die Entstehungszusammenhänge von Hs. V' lange Zeit im Dunkeln. Erst der
           Nachweis der Identität eines der Schreiber der Handschrift mit dem
           Hauptschreiber einer bekannten im nordbairisch-fränkischen Raum tätigen Werkstatt
@@ -3087,7 +3071,7 @@
                           <a id="_Ref379124988"/>
                           <a id="_Ref379124893"/>2.2.2 Buchschmuck
       </h5>
-      <p class="MsoNormal">Auch die Eingangsinitiale <i>W</i> mit blaurot gespaltenem
+      <p class="MsoNormal">Auch die Eingangsinitiale <i>W</i> mit blau-rot gespaltenem
           Buchstabenstamm (Bl. 1ra) sowie weitere Initialen können denjenigen in
           Handschriften des genannten Skriptoriums zugewiesen werden.<a href="#_ftn135" id="_ftnref135"><sup>[135]</sup></a></p>
       <h5>
@@ -3099,7 +3083,7 @@
         im Mittelalter zugeschriebene, bereits im 13. Jahrhundert nach französischen Vorlagen entstandene Vorgeschichten und Fortsetzungen seiner
         Texte beinhalten. So bietet diese Sammlung Wolframs von Eschenbach ›Parzival‹ (Pz.), Albrechts ›Jüngeren Titurel‹ (JT), den ›Lohengrin‹ (Loh.), den ›Willehalm‹ (W-Will.),
         die ›Arabel‹ Ulrichs von dem Türlin (Arab.) sowie den ›Rennewart‹ Ulrichs von Türhheim (Renn.). Der ‘Epenwerkstatt’ zugewiesen werden zudem drei
-        fragmentarisch erhaltene Codices, die mindestens ›Diu Crône‹ Heinrichs von dem Türlin (Cro.), den ›Willehalm von Orlens‹ Rudolfs von Ems (R-Will.) und
+        fragmentarisch erhaltene Codices, die mindestens ›Diu Crône‹ Heinrichs von dem Türlin (Cro.), der ›Willehalm von Orlens‹ Rudolfs von Ems (R-Will.) und
         Konrads von Würzburg ›Trojanerkrieg‹ (Tro.) enthielten.<a href="#_ftn136" id="_ftnref136"><sup>[136]</sup></a> Mit Ausnahme von Hs. V', für die
         wahrscheinlich die Buchgröße der Vorlage Hs. V übernommen
         wurde, weisen die großformatigen, zweispaltigen Codices eine nahezu identische Seiteneinrichtung auf
@@ -3218,17 +3202,16 @@
           zudem Kanzler Kaiser Karls IV. und wurde 1354 oder 1356 Abt des
           Benediktinerklosters Gengenbach (Ortenaukreis, Baden-Württemberg). In den
           Jahren 1353–65 war er Hofkaplan des Straßburger Fürstbischofs Johann II. und
-          wurde um 1360 Bischof von Brixen (Italien), von 1364–71 von Speyer und von
-          1371–75 von Straßburg. Zuletzt war er über zwanzig Jahre Bischof von Bamberg
+          wurde um 1360 Bischof von Brixen (Italien), 1364–71 von Speyer und 1371–75 von Straßburg. Zuletzt war er über zwanzig Jahre Bischof von Bamberg
           (1374–98) und nach dem Tod Kaiser Karls IV. im Jahr 1379 Berater und
           vorübergehend Kanzler König Wenzels, bis er 1399 schließlich resignierte und
           sich ins Chorherrenstift in Forchheim zurückzog, wo er im selben Jahr am 17.
           Juli verstarb.<a href="#_ftn144" id="_ftnref144"><sup>[144]</sup></a> Bereits im
           Benediktinerkloster Neuweiler besaß Lamprecht von Brun eine vermutlich in
-          Bologna im 2. Viertel des 14. Jahrhunderts geschriebene Dekretalenhandschrift
+          Bologna im zweiten Viertel des 14. Jahrhunderts geschriebene Dekretalenhandschrift
           mit dem ›Apparatus in quinque libros decretalium‹ Innocents IV.<a href="#_ftn145" id="_ftnref145"><sup>[145]</sup></a>
           Eine weitere, ebenfalls aus Oberitalien stammende Dekretalenhandschrift aus dem
-          4. Viertel des 13. Jahrhunderts kaufte Lamprecht vermutlich in Gengenbach.<a href="#_ftn146" id="_ftnref146"><sup>[146]</sup></a>
+          vierten Viertel des 13. Jahrhunderts kaufte Lamprecht vermutlich in Gengenbach.<a href="#_ftn146" id="_ftnref146"><sup>[146]</sup></a>
           In seiner Bamberger Zeit erwarb er zudem wahrscheinlich die Bücher seines
           Vorgängers Friedrich I. von Hohenlohe (Regierungszeit bis 1352), von denen sich
           ein 1348 geschriebenes Urbar der Bamberger Kirche (<span lang="IT">›</span>Liber
@@ -3341,13 +3324,13 @@
                       ›Parzival‹ (Ed. Lachmann/Knecht/Schirok 22003)</span>. Die Ziffern von Zusatzversen werden hochgestellt.</p>
           </div>
           <div id="ftn2">
-            <p class="MsoFootnoteText"><a href="#_ftnref2" id="_ftn2"><sup>[2]</sup></a> Der ›Nuwe Parzifal‹, dessen Name sich von Angaben zur Blattberechnung in Hs. V, Bl. 115va, und vom Explicit zu Wolframs ›Parzival‹ in Hs. V, Bl. 317va, herleitet, wird im Folgenden mit dem Kürzel »NP« bzw. »Ep« (Epilog des ›Nuwen Parzifal‹) und entsprechender Versnummer zitiert. Die Versangaben erfolgen nach der vorliegenden Ausgabe in digitaler Form sowie mit dem Kürzel »Sch.«, ergänzt durch die entsprechende Spalten- (arabische Ziffer) bzw. Seiten- (römische Ziffer bei den Zusätzen und beim Prologus) und Versnummer, nach Rappoltsteiner Parzifal (ed. Schorbach 1888). Die Ziffern von Zusatzversen werden hochgestellt. Initialen und Lombarden sind fett markiert. Rote Überschriften und andere Notate werden in Spitzklammern (&lt;...&gt;) eingeschlossen. Weitere Texteinrichtungsprinzipien entsprechen denjenigen in den Erläuterungen zur Transkription.</p>
+            <p class="MsoFootnoteText"><a href="#_ftnref2" id="_ftn2"><sup>[2]</sup></a> Der ›Nuwe Parzifal‹, dessen Name sich von Angaben zur Blattberechnung in Hs. V, Bl. 115va, und vom Explicit zu Wolframs ›Parzival‹ in Hs. V, Bl. 317va, herleitet, wird im Folgenden mit dem Kürzel »NP« bzw. »Ep« (Epilog des ›Nuwen Parzifal‹) und entsprechender Versnummer zitiert. Die Versangaben erfolgen nach der vorliegenden Ausgabe in digitaler Form sowie mit dem Kürzel »Sch.«, ergänzt durch die entsprechende Spalten- (arabische Ziffer) bzw. Seiten- (römische Ziffer bei den Zusätzen und beim Prologus) und Versnummer, nach Rappoltsteiner Parzifal (ed. Schorbach 1888). Die Ziffern von Zusatzversen werden hochgestellt. Initialen und Lombarden sind fett markiert. Rote Überschriften und andere Notate werden in Spitzklammern (&lt;...&gt;) eingeschlossen. Weitere Texteinrichtungsprinzipien entsprechen denjenigen in den <a @click="toggle('transcriptDocModal')">Erläuterungen zur Transkription</a>.</p>
           </div>
           <div id="ftn3">
             <p class="MsoFootnoteText"><a href="#_ftnref3" id="_ftn3"><sup>[3]</sup></a> Die Verse der altfranzösischen Vorlagen werden zitiert mit dem Kürzel »CdGr« nach <span style="font-variant:small-caps">Chrétien, Conte du Graal (ed. </span><span lang="EN-US" style=" font-variant:small-caps">Busby</span> 1993), und als »Roach I«, »Roach IV« und »Roach V« (Fortsetzungen) nach <span style="font-variant:small-caps">Perceval, First Continuation (ed. Roach 1949), Perceval, Second Continuation (ed. </span><span style="font-variant:small-caps">Roach</span> 1971), <span style="">und <span style="font-variant:small-caps">Perceval, Third Continuation (ed. Roach 1983)</span>.</span> Die abgekürzte Angabe »dt.« verweist im Folgenden auf deutschsprachige Textanteile, die im Zuge der Übertragung aus den altfranzösischen Vorlagen entstanden sind. </p>
           </div>
           <div id="ftn4">
-            <p class="MsoFootnoteText"><a href="#_ftnref4" id="_ftn4"><sup>[4]</sup></a> Auf den Status der Hs. V als ,Original‘ verweisen u.a. <span style="font-variant:small-caps">San Marte</span> (1890), S. 288; <span style="font-variant:small-caps">Besch</span> (1962), S. 92; <span style="font-variant:small-caps">Mertens</span> (<sup>2</sup>1994), S. 34, und <span style="font-variant:small-caps">Bumke</span> (1997), S. 87. – Zur Begrifflichkeit des ,Originals‘ sowie den damit verbundenen Setzungen und Zuschreibungen <span style="font-variant:small-caps">Weingart</span> (2012), bes. S. 203, und <span style="font-variant:small-caps">Rippl/Stolz</span> (2019).</p>
+            <p class="MsoFootnoteText"><a href="#_ftnref4" id="_ftn4"><sup>[4]</sup></a> Auf den Status der Hs. V als ,Original‘ verweisen u.a. <span style="font-variant:small-caps">San Marte</span> (1890), S. 288; <span style="font-variant:small-caps">Besch</span> (1962), S. 92; <span style="font-variant:small-caps">Mertens</span> (<sup>2</sup>1994), S. 34; <span style="font-variant:small-caps">Bumke</span> (1997), S. 87, und <span style="font-variant:small-caps">Wolf</span> (2008), S. 288, Anm. 15. – Zur Begrifflichkeit des ,Originals‘ sowie den damit verbundenen Setzungen und Zuschreibungen <span style="font-variant:small-caps">Weingart</span> (2012), bes. S. 203, und <span style="font-variant:small-caps">Rippl/Stolz</span> (2019).</p>
           </div>
           <div id="ftn5">
             <p class="MsoFootnoteText"><a href="#_ftnref5" id="_ftn5"><sup>[5]</sup></a> Kritischer
@@ -3392,9 +3375,8 @@
                   bei <span style="font-variant:small-caps">Schorbach</span> (1888), S. XLVI–LVI,
                   aufgelisteten, hier aber nicht erwähnten Zusatzverse und
                   Änderungen/Umdichtungen gegenüber der Lachmann-Ausgabe finden sich auch in
-                  anderen Hss. der *T-Fassung des ›Parzival‹ Wolframs von Eschenbach und sind
-                  keine Zusätze der Redaktoren des ›Rappoltsteiner Parzifal‹. Siehe dazu auch <span style="font-variant:small-caps">Wittmann-Klemm</span> (1977), S. V. Zur
-                  *T-Fassung siehe <span style="font-variant:small-caps">Schöller</span> (2009).</p>
+                  anderen Hss. des ›Parzival‹ Wolframs von Eschenbach und sind
+                  keine Zusätze der Redaktoren des ›Rappoltsteiner Parzifal‹. Siehe dazu auch <span style="font-variant:small-caps">Wittmann-Klemm</span> (1977), S. V.</p>
           </div>
           <div id="ftn14">
             <p class="MsoFootnoteText"><a href="#_ftnref14" id="_ftn14"><sup>[14]</sup></a> Den beiden Versen L.
@@ -3507,7 +3489,7 @@
                 RUB I, S. 337 (Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f363.item.r=">455</a>, 11.2.1335), S. 340 (Nr. <a
                 href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f366.image.r=.langDE">459</a>, 16.7.1335), S. 340f. (Nr. <a
                 href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f366.image.r=.langDE">460</a>, 7.8.1335), S. 341 (Nr. <a
-                href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f367.image.r=.langDE">461</a>, 22.8.1335), S. 372–375 Nr. <a
+                href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f367.image.r=.langDE">461</a>, 22.8.1335), S. 372–375 (Nr. <a
                 href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f398.image.r=.langDE">498</a>, 8.6.1338) und S. 375f. (Nr. <a
                 href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f401.image.r=.langDE">499</a>, 8.6.1338). Bereits zwischen 1313 und
                 1321 ist ohne nähere Bezeichnung ein Ulrich von Rappoltstein als Domherr in Straßburg belegt, bei dem es sich möglicherweise
@@ -3561,7 +3543,7 @@
                   ›Rappoltsteiner Parzifal‹ nicht mit Herzelaude in Verbindung gebracht werden.
                   Der Name Herzelaude, auf den auch die um 1359 geborene Tochter getauft wurde,
                   entspricht dem Namen von Parzivals Mutter in Wolframs Roman
-                  (Herzeloyde), und ist als Mädchenname <i>Hercelauda</i>, <i>Herzlauda</i>, <i>Herczelaude</i>
+                  (Herzeloyde) und ist als Mädchenname <i>Hercelauda</i>, <i>Herzlauda</i>, <i>Herczelaude</i>
                   und <i>Hertzelauda</i> bereits im 13. Jahrhundert bezeugt. Vgl. <span style="font-variant:small-caps">Socin</span> (1903), S. 567. Zur Verbreitung
                   unterschiedlicher Formen des Namens siehe auch <span style="font-variant:small-caps">Schirok</span>
                   (1982), S. 162, 163f., 166 und 169.</span></p>
@@ -3696,8 +3678,8 @@
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f364.item.r=">
                                           <span style="">457</span>
                                       </a>
-                                    <span style="">)
-                  (16.3.1335), S. 339f. (Nr. </span>
+                                    <span style="">,
+                  16.3.1335), S. 339f. (Nr. </span>
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f365.item.r=">
                                           <span style="">458</span>
                                       </a>
@@ -3768,7 +3750,7 @@
           </div>
           <div id="ftn50">
             <p class="MsoFootnoteText"><a href="#_ftnref50" id="_ftn50"><sup>[50]</sup></a>         <span style=""> SUB
-                  III, S. 195, Anm. 1 (Nr. </span><a href="http://gallica.bnf.fr/ark:/12148/bpt6k9401049b/f246.image.r=Urkundenbuch%20der%20Stadt%20Strassburg%20dritter"><span style="">635</span></a><span style="">, 5.9.1309
+                  III, S. 195, Anm. 1 (Nr. </span><a href="http://gallica.bnf.fr/ark:/12148/bpt6k9401049b/f246.image.r=Urkundenbuch%20der%20Stadt%20Strassburg%20dritter"><span style="">635</span></a><span style="">, 5.9.1309,
                   <i>Philippes Colin … der selbe Philippes und Katherine sin wurtin</i>).</span></p>
           </div>
           <div id="ftn51">
@@ -3810,7 +3792,7 @@
                                       </a>
                                     <span lang="EN-US" style=""> Vgl. RUB I, S. 308 (Nr. </span>
                                     <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f334.item.r=">
-                                          <span style="">417</span>
+                                          <span style="">417</span>,
                                       </a>
                                     <span style="">
                   15.2.1331), und <span style="font-variant:small-caps">›Regesta Imperii‹</span>
@@ -3842,8 +3824,8 @@
                   mittelhochdeutscher Artusepik untersucht. Zum Übersetzungsprozess aus dem Altfranzösischen siehe <span style="font-variant:small-caps">del Duca</span> (2019).</span></p>
           </div>
           <div id="ftn61">
-            <p class="MsoFootnoteText"><a href="#_ftnref61" id="_ftn61"><sup>[61]</sup></a>         <span style=""> Vgl. <span style="font-variant:small-caps">Viehhauser-Mery</span> (2009), S. 260–263, und <span style="font-variant:small-caps">Schöller</span> (2009), S. 1–30 (zum
-                  Fassungsbegriff) und 111–113.</span></p>
+            <p class="MsoFootnoteText"><a href="#_ftnref61" id="_ftn61"><sup>[61]</sup></a>         <span style=""> Vgl. <span style="font-variant:small-caps">Viehhauser-Mery</span> (2009), S. 260–263;  <span style="font-variant:small-caps">Schöller</span> (2009), S. 1–30 (zum
+                  Fassungsbegriff) und 111–113; Wolfram von Eschenbach, Parzival (ed. <span style=" font-variant:small-caps">Reichert</span> 2019), Bd. 2, S. 42–44.</span></p>
           </div>
           <div id="ftn62">
             <p class="MsoFootnoteText"><a href="#_ftnref62" id="_ftn62"><sup>[62]</sup></a>         <span style=" font-variant:small-caps"> Schöller</span><span style=""> (2009),
@@ -3852,7 +3834,7 @@
           </div>
           <div id="ftn63">
             <p class="MsoFootnoteText"><a href="#_ftnref63" id="_ftn63"><sup>[63]</sup></a>         <span style=""> Zu
-                  den Hss. T und U sowie zu den Fragmenten 26, 32 und 42 siehe <span style="font-variant:small-caps">Schöller</span> (2009), S. 60–124, das
+                  den Hss. T und U sowie zu den Fragmenten 26, 32 und 42 siehe <span style="font-variant:small-caps">Schöller</span> (2009), S. 60–124; Wolfram von Eschenbach, Parzival (ed. <span style=" font-variant:small-caps">Reichert</span> 2019), Bd. 2, S. 27–30, 48f., 69f., 73, 78f.; das
                   Handschriftenverzeichnis des </span><a href="http://www.parzival.unibe.ch/hsverz.html"><span style="">Berner
                       Parzival-Projekt</span></a><span style="">s sowie die
                   entsprechenden Einträge im </span><a href="http://www.mr1314.de/"><span style="">Marburger Repertorium</span></a><span style=""> (</span><a href="http://www.mr1314.de/1217"><span style="">Hs. T</span></a><span style="">, </span><a href="http://www.mr1314.de/2995"><span style="">Hs. U</span></a><span style="">, </span><a href="http://www.mr1314.de/1009"><span style="">Fr. 26</span></a><span style="">, </span><a href="http://www.mr1314.de/1220"><span style="">Fr. 32</span></a><span style="">, </span><a href="http://www.mr1314.de/1021"><span style="">Fr. 42</span></a><span style="">) (mit
@@ -3861,8 +3843,8 @@
           <div id="ftn64">
             <p class="MsoFootnoteText"><a href="#_ftnref64" id="_ftn64"><sup>[64]</sup></a>         <span style=""> Zu
                   den Hss. m, n, o sowie zum Druck W siehe <span style="font-variant:small-caps">Viehhauser-Mery</span>
-                  (2009), S. 53–110, und <span style="font-variant:small-caps">Schöller</span>
-                  (2009), S. 113–120, das Handschriftenverzeichnis des </span><a href="http://www.parzival.unibe.ch/hsverz.html"><span style="">Berner
+                  (2009), S. 53–110; <span style="font-variant:small-caps">Schöller</span>
+                  (2009), S. 113–120; Wolfram von Eschenbach, Parzival (ed. <span style="font-variant:small-caps">Reichert</span> 2019), Bd. 2, S. 32–38, 44–46; das Handschriftenverzeichnis des </span><a href="http://www.parzival.unibe.ch/hsverz.html"><span style="">Berner
                       Parzival-Projekt</span></a><span style="">s sowie die
                   entsprechenden Einträge im </span><a href="http://handschriftencensus.de/"><span style="">Handschriftencensus</span></a><span style=""> (</span><a href="http://www.handschriftencensus.de/6546"><span style="">Hs. m</span></a><span style="">, </span><a href="http://www.handschriftencensus.de/4916"><span style="">Hs.
                       n</span></a><span style="">, </span><a href="http://www.handschriftencensus.de/6801"><span style="">Hs.
@@ -4913,7 +4895,8 @@ of French Studies, Inc.), New York 1931, S. 86–101.</span></p>
           Lachmann</span>, Übersetzung von <span style='font-variant:small-caps'>Peter Knecht</span>. Mit Einführungen zum Text der Lachmannschen
           Ausgabe und in Probleme der ›Parzival‹-Interpretation von <span style='font-variant:small-caps'>Bernd Schirok</span> (de Gruyter Texte),
           Berlin/New York 2003.</p>
-      <h3 id="p3_3_2">3.3.2&nbsp;Handschriften- und Ausstellungskataloge</h3>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Wolfram von Eschenbach, Parzival (ed. Reichert 2019)</span> – Wolfram von Eschenbach, Parzival, hg. von <span style='font-variant:small-caps'>Hermann Reichert</span>, Bd. 1: Text, Bd. 2: Untersuchungen, Wien 2019.</p>
+      <h3 id="p3_3_2">3.3.2&nbsp;Handschriften- und Ausstellungskataloge, Richtlinien</h3>
       <p class="bib-entry"><span style='font-variant:small-caps'>Barack Kat. Donaueschingen</span> – Die Handschriften der Fürstlich-Fürstenbergischen
         Hofbibliothek zu Donaueschingen, geordnet und beschr. von <span style='font-variant:small-caps'>K[arl] A[ugust] Barack</span>, Tübingen 1865.</p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Bretscher-Gisiger/Gamper Kat. Wettingen</span> – <span style='font-variant:small-caps'>Charlotte
@@ -4942,6 +4925,7 @@ of French Studies, Inc.), New York 1931, S. 86–101.</span></p>
         von <span style='font-variant:small-caps'>Karl-Georg Pfändtner</span> und <span style='font-variant:small-caps'>Stefanie Westphal</span>. Mit
         einem Beitrag von <span style='font-variant:small-caps'>Gude Suckale-Redlefsen</span>. 2 Bände (Katalog der illuminierten Handschriften der
         Staatsbibliothek Bamberg 3,1–2), Wiesbaden 2015.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Richtlinien Handschriftenkatalogisierung (1992)</span> – Richtlinien Handschriftenkatalogisierung, Deutsche Forschungsgemeinschaft. Unterausschuss für Handschriftenkatalogisierung, 5., erweiterte Auflage, Bonn-Bad Godesberg 1992.</p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Scheffel Kat. Donaueschingen</span> – Die Handschriften altdeutscher Dichtungen der
         Fürstlich Fürstenbergischen Hofbibliothek zu Donaueschingen, geordnet und beschr. von <span style='font-variant:small-caps'>J[oseph] Vict[or]
           Scheffel</span>, Stuttgart 1859.</p>
@@ -5288,6 +5272,7 @@ of French Studies, Inc.), New York 1931, S. 86–101.</span></p>
         versehen von Karl-August Wirth (Codices e Vaticanis selecti 51), Zürich 1982.</p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Wittmann-Klemm</span> (1977) – <span style='font-variant:small-caps'>Dorothe
         Wittmann-Klemm</span>, Studien zum ›Rappoltsteiner Parzifal‹ (Göppinger Arbeiten zur Germanistik 224), Göppingen 1977.</p>
+      <p class="bib-entry"><span style='font-variant:small-caps'>Wolf</span> (2008) – <span style='font-variant:small-caps'>Jürgen Wolf</span>, Buch und Text. Literatur- und kulturhistorische Untersuchungen zur volkssprachigen Schriftlichkeit im 12. und 13. Jahrhundert, Tübingen 2008 (Hermaea 115).</p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Zeilinger</span> (2012a) – <span style='font-variant:small-caps'>Gabriel Zeilinger</span>,
         Art. Rappoltstein, in: Höfe und Residenzen im spätmittelalterlichen Reich. Grafen und Herren, 2 Teilbände, hrsg. von Werner Paravicini
         (Residenzenforschung 15.IV), Teilband 2, Ostfildern 2012, S. 1149–1156.</p>
