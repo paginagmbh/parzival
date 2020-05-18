@@ -45,7 +45,7 @@
       <p class="tocentry"><a href="#_Toc389816001">&#160;&#160;2.2 Genese der der Handschrift V'</a></p>
       <p class="tocentry"><a href="#_Toc389816002">&#160;&#160;&#160;&#160;2.2.1 Schreiber</a></p>
       <p class="tocentry"><a href="#_Toc389816003">&#160;&#160;&#160;&#160;2.2.2 Buchschmuck</a></p>
-      <p class="tocentry"><a href="#_Toc389816004">&#160;&#160;&#160;&#160;2.2.3 Die fränkische ,Epenwerkstatt’</a></p>
+      <p class="tocentry"><a href="#_Toc389816004">&#160;&#160;&#160;&#160;2.2.3 Die fränkische ’Epenwerkstatt’</a></p>
       <p class="tocentry"><a href="#_Toc389816005">&#160;&#160;2.3 Besitzgeschichte der Handschrift V'</a></p>
       <p class="tocentry"><a href="#_Toc389816006">&#160;&#160;&#160;&#160;2.3.1 Lamprecht von Brun als Besitzer von Handschrift V'?</a></p>
       <p class="tocentry"><a href="#_Toc389816007">&#160;&#160;&#160;&#160;2.3.2 Handschrift V' – der Cod. Pal. germ. 317 der Heidelberger Palatina</a></p>
@@ -69,7 +69,7 @@
     <div id="content">
       <!--<h1>Original und Kopie des ›Rappoltsteiner Parzifal‹<br/> Handschriftliche Überlieferung und Textgenese im 14. Jahrhundert</h1>-->
       <p class="MsoNormal">Der ›Rappoltsteiner Parzifal‹ ist in zwei Handschriften überliefert: Karlsruhe, Badische Landesbibliothek,
-        <a href="https://digital.blb-karlsruhe.de/blbhs/Handschriften/content/titleinfo/101664">Donaueschingen 97</a> (Hs. V: entstanden im Elsass, Raum Straßburg/Colmar, oder in Basel, vollendet 1336), und Roma, Biblioteca Casanatense, <router-link to="/faksimile/VV/001r">Ms. 1409</router-link> (Hs. V': angefertigt in einer ,Epenwerkstatt‘ im Raum Franken, 2. Viertel des 14. Jhs.). Die nach
+        <a href="https://digital.blb-karlsruhe.de/blbhs/Handschriften/content/titleinfo/101664">Donaueschingen 97</a> (Hs. V: entstanden im Elsass, Raum Straßburg/Colmar, oder in Basel, vollendet 1336), und Roma, Biblioteca Casanatense, <router-link to="/faksimile/VV/001r">Ms. 1409</router-link> (Hs. V': angefertigt in einer ’Epenwerkstatt‘ im Raum Franken, 2. Viertel des 14. Jhs.). Die nach
         dem Entstehungsort benannte Textsammlung ›Rappoltsteiner Parzifal‹ enthält in Hs. V Wolframs von Eschenbach ›Parzival‹ (aus der Zeit um 1200/10)<a href="#_ftn1" id="_ftnref1"><sup>[1]</sup></a> sowie darin – zwischen den Büchern XIV und XV – eingelagert den ›Nuwen Parzifal‹,<a href="#_ftn2" id="_ftnref2"><sup>[2]</sup></a> eine Kompilation  aus ›Conte du Graal‹-Fortsetzungen (zu Chrétiens de Troyes um 1190 unvollendet hinterlassenem ›Perceval‹-Roman) in deutscher Übertragung,<a href="#_ftn3" id="_ftnref3"><sup>[3]</sup>
         </a> mit einigen weiteren kürzeren Texten. Die Hs. V' hingegen überliefert nur diesen ›Nuwen Parzifal‹ genannten Teil, der dort wie in Hs. V durch die abschließenden beiden Bücher XV und XVI
         von Wolframs ›Parzival‹ ergänzt wird. Sie kann, wie im Folgenden noch näher zu erläutern sein wird,
@@ -1395,7 +1395,7 @@
           zum Vergleich beigezogen wurde, ist mit der Vorlage *QR verwandt. Die einzigen erhaltenen
           Handschriften dieser Gruppe (Hs. Q und die mit kolorierten Federzeichnungen
           ausgestattete Hs. R) sind im dritten Viertel des 15. Jahrhunderts in Ostfranken
-          bzw. in Konstanz entstanden.<sup>[64]</sup></p>
+          bzw. in Konstanz entstanden.<a href="#_ftn64" id="_ftnref64"><sup>[64]</sup></a></p>
       <p class="MsoNormal">                Isolierte
           Freidank-Verse wie derjenige, der in Hs. V auf dem Spruchband von Bl.
           <router-link to="/faksimile/V/115v">115v</router-link>a überliefert ist (FR 110,21f.), sind im Mittelalter keine Seltenheit. Aus dem
@@ -1827,8 +1827,8 @@
           (Bl. <router-link to="/faksimile/V/037r">37</router-link>–<router-link to="/faksimile/V/048v">48</router-link>) und sechsten
           (Bl. <router-link to="/faksimile/V/049r">49</router-link>–<router-link to="/faksimile/V/060v">60</router-link>)
           Lage war auch Malerhand II tätig. Bl. <router-link to="/faksimile/V/047r">47</router-link> lässt erkennen, dass dort ein ganzes Stück Pergament ausgeschnitten und
-          auf dem auf der <router-link to="/faksimile/V/049v">Versoseite</router-link>
-        durch ein neues ersetzt worden ist. Auf der <router-link to="/faksimile/V/049r">Rektoseite</router-link> hat Malerhand I die Ornamentierung der Lombarden vorgenommen, noch ehe
+          auf der <router-link to="/faksimile/V/049v">Versoseite</router-link>
+        durch neues ersetzt worden ist. Auf der <router-link to="/faksimile/V/049r">Rectoseite</router-link> hat Malerhand I die Ornamentierung der Lombarden vorgenommen, noch ehe
           Schreiberhand V Textkorrekturen eingetragen hat. Auf der <router-link to="/faksimile/V/049v">Versoseite</router-link> hingegen ist eine Lombarde erst nach dem Einkleben des
           Pergamentstücks und nach Neubeschriftung der gänzlich radierten Spalte a durch Schreiberhand V von Malerhand II verziert worden.
           Auf der nicht veränderten, von Schreiberhand III beschrifteten Spalte b desselben <router-link to="/faksimile/V/049v">Blattes</router-link> hingegen findet sich eine von Malerhand I hergestellte Verzierung
@@ -1958,7 +1958,7 @@
           -Hymnarium diesem lokalen Kontext zuordnen.
       </p>
       <p class="MsoNormal">                Allerdings steht die Abtei Neuburg mit den Herren
-          von Rappoltstein als den Auftraggebern der Erstellung der Initialornamentik
+          von Rappoltstein als den Auftraggebern der erstellten Initialornamentik
           nicht in Verbindung. Intensive Beziehungen haben jedoch
           zur 1138 gegründeten Zisterzienserabtei Ave Maris Stella in Pairis im
           Gregorienthal in Orbey bestanden, für die Egenolf von Rappoltstein 1178 <i>benefactor</i>
@@ -1997,12 +1997,12 @@
           <router-link to="/faksimile/V/177r">177</router-link>
           falsch eingeheftet worden; sie gehören eigentlich hinter Bl.
           <router-link to="/faksimile/V/179v">179</router-link>, so dass sich
-          in der berichtigten Form Reihenfolge der Blätter
+          in der berichtigten Form die Reihenfolge der Blätter
           <router-link to="/faksimile/V/175r">175</router-link>,
           <router-link to="/faksimile/V/178r">178</router-link>,
           <router-link to="/faksimile/V/179r">179</router-link>,
           <router-link to="/faksimile/V/176r">176</router-link>,
-          <router-link to="/faksimile/V/177r">177</router-link> und
+          <router-link to="/faksimile/V/177r">177</router-link>,
           <router-link to="/faksimile/V/180r">180</router-link>
           ergibt (darauf verweisen verschiedene mit Tinte gezeichnete korrespondierende
           Zeichen, siehe Kap.
@@ -2246,7 +2246,7 @@
           er die Signatur »97« erhalten.<a href="#_ftn121" id="_ftnref121"><sup>[121]</sup></a></p>
       <h5><a id="_Toc389815996"/><a id="_Ref379017708"/>1.5.3 Aufbewahrung von Handschrift V in der Badischen Landesbibliothek in Karlsruhe</h5>
       <p class="MsoNormal">Beim Verkauf der Sammlung der Fürstlich Fürstenbergischen Hofbibliothek an das Land Baden-Württemberg im Jahr 1993
-          die Handschrift zusammen mit dem Großteil der deutschsprachigen Manuskripte
+          ist die Handschrift zusammen mit dem Großteil der deutschsprachigen Manuskripte
           aus der Zeit bis ca. 1500 in die Badische Landesbibliothek in
           Karlsruhe gelangt, wo sie heute unter der Signatur <i>Donaueschingen 97</i> (Einträge auf dem <router-link to="/faksimile/V/vs001v">Vorderspiegel</router-link>
           mit Bleistift und Tinte: <i>Don 97</i>) <a href="#_ftn122" id="_ftnref122"><sup>[122]</sup></a>
@@ -2254,30 +2254,34 @@
       </p>
       <h3><a id="_Toc389815997"/>2 Kopie: Handschrift V' – Roma, Biblioteca Casanatense, Ms. 1409
       </h3>
-      <p class="MsoNormal">Mindestens einmal wurde Hs. V an
-          einem nicht bekannten Ort abgeschrieben. Bei der nicht nach Diktat, sondern mittels
-          einer Vers-für-Vers-Übertragung<a href="#_ftn123" id="_ftnref123"><sup>[123]</sup></a> erstellten Kopie Hs. V'
+      <p class="MsoNormal">Mindestens einmal ist Hs. V an
+          einem nicht bekannten Ort abgeschrieben worden. Bei der nicht nach Diktat, sondern mittels
+          einer Vers-für-Vers-Übertragung<a href="#_ftn123" id="_ftnref123"><sup>[123]</sup></a> erstellten Kopie V'
           handelt es sich mit hoher Wahrscheinlichkeit um eine direkte Abschrift von Hs. V
-          ohne Zwischenstufen.<a href="#_ftn124" id="_ftnref124"><sup>[124]</sup></a> Die vielen, zum Teil
-          sehr umfangreichen Kürzungen in Hs. V' (um die 5300 Minusverse gegenüber Hs. V)
-          erfolgten nachweislich bei der Abschrift des Codex.<a href="#_ftn125" id="_ftnref125"><sup>[125]</sup></a>
-          Die von <span style="font-variant:small-caps">Karin Schneider</span> laut
+          ohne Zwischenstufen. Als Indizien führt <span style="font-variant:small-caps">Stolz</span> das ähnliche Layout der Eröffnungsseiten, die Verfahren der Initialsetzung, markierte Stellen, verschiedene Vermerke, die vom Schreiber von Hs. V' stammen könnten, sowie dialektale Standardisierungen an.<a href="#_ftn124" id="_ftnref124"><sup>[124]</sup></a> Zudem weisen folgende Anzeichen darauf hin, dass Hs. V' direkt von Hs. V abgeschrieben worden ist: (1) Im ›Rappoltsteiner Florilegium‹ (vgl. oben Kap. <a href="#_Toc389815981">1.2.3</a>) hat Schreiber I von Hs. V' in Vers 31 der Minneliedstrophen auf Bl. <router-link to="/faksimile/VV/001r">1r</router-link>a einen in Hs. V unbeabsichtigten Abstand zwischen den ersten zwei Buchstaben von <i>betwungen</i> übernommen. (2) Den Versal <i>M</i> von <i>Mere</i> in L. 754.9 (Hs. V, Bl. <router-link to="/faksimile/V/305r">305r</router-link>b) hat Schreiber II beim Abschreiben wegen der Rubrizierung verlesen zu <i>H</i> (Bl. <router-link to="/faksimile/VV/173r">173r</router-link>a). (3) In Vers 116 des Epilogs erscheint in Hs. V' (Bl. <router-link to="/faksimile/VV/180r">180r</router-link>b) wie in Hs. V (Bl. <router-link to="/faksimile/V/318r">318r</router-link>b) der Versal <i>t</i> als Minuskel, obschon in beiden Codices in der Umgebung alle Versalien mit Majuskeln geschrieben sind.
+      </p>
+      <p class="MsoNormal">Die vielen, zum Teil
+          sehr umfangreichen Kürzungen (um die 5300 Minusverse gegenüber Hs. V)
+          sind nachweislich bei der Abschrift des Codex erfolgt.<a href="#_ftn125" id="_ftnref125"><sup>[125]</sup></a> Darauf deuten graphische Relikte hin, die bei Tilgungsmaßnahmen stehen geblieben sind: So hat Schreiber II ein auf der letzten Zeile von Bl. <router-link to="/faksimile/VV/144r">144r</router-link>a und der ersten Zeile von Bl. <router-link to="/faksimile/VV/144r">144r</router-link>b von Hs. V' eingetragenes Verspaar zunächst kopiert, dann aber wieder ausradiert, da es am Beginn eines gegenüber der Vorlage übersprungenen Absatzes steht (NP 29526–29589, die ersten beiden, nachträglich eliminierten Verse sind nur unter UV-Licht lesbar und hier diplomatisch wiedergegeben: <i>A: dem morgen <span class="titel1">ſ</span>ie :it enpitten | Balde ire <span class="titel1">ſ</span>tra<span class="titel1">ſ</span>ʒe <span class="titel1">ſ</span>ie riten).</i> Den Rest einer Tilgung enthält auch der vorletzte auf Bl. <router-link to="/faksimile/VV/170v">170v</router-link>a eingetragene Vers (NP 36203), wo der Schreiber das Possessivpronomen <i>Siner</i> aus der Vorlage zunächst kopiert hat, ehe er sich für eine Kürzung entschied und das bereits geschriebene Wort wieder strich, um mit einer eigenen Formulierung fortzufahren.
+      </p>
+      <p class="MsoNormal">
+          Die von <span style="font-variant:small-caps">Karin Schneider</span> gemäß
           paläographischem Befund auf das spätere zweite Viertel des 14. Jahrhunderts
           datierte Hs. V'<a href="#_ftn126" id="_ftnref126"><sup>[126]</sup></a> enthält lediglich den
-          zweiten Teil (›Nuwer Parzifal‹) des ›Rappoltsteiner Parzifal‹.<a href="#_ftn127" id="_ftnref127"><sup>[127]</sup></a></p>
+          zweiten Teil des ›Rappoltsteiner Parzifal‹, d.h. den ›Nuwen Parzifal‹, ergänzt durch die beiden letzten Bücher XV und XVI von Wolframs ›Parzival‹.<a href="#_ftn127" id="_ftnref127"><sup>[127]</sup></a></p>
       <h4><a id="_Toc389815998"/><a id="_Ref379010666"/>2.1 Beschreibung der Handschrift V'</h4>
-      <h5><a id="_Toc389815999"/>2.1.1 Äußere Beschreibung<a href="#_ftn128" id="_ftnref128"><sup>[128]</sup></a></h5>
+      <h5><a id="_Toc389815999"/>2.1.1 Äußere Beschreibung</h5>
       <p class="MsoNormal" style="text-indent:.1pt"><b>›Rappoltsteiner Parzifal‹ (nur zweiter Teil): Minneliedstrophen; Klaus Wisse und Philipp Colin,
           ›Nuwer Parzifal‹ (stark gekürzt)</b>
       </p>
-      <p class="MsoNormal">‘Epenwerkstatt’   ·   Pergament, 3 (Papier) + 181 + 1 (Papier) Bll.   ·   39 x 27,5  cm   ·   Raum Franken   ·   2. Viertel 14. Jh.</p>
+      <p class="MsoNormal">Entstanden innerhalb einer ‘Epenwerkstatt’ mit Wolfram-Texten   ·   Pergament, 3 (Papier) + 181 + 1 (Papier) Bll.   ·   39 x 27,5  cm   ·   Raum Franken   ·   2. Viertel 14. Jh.</p>
       <p class="MsoNormal">Blattzählung: III + 181 Bll. + I Bl. Moderne Paginierung (oben rechts) in Drucktypen
           <i><router-link to="/faksimile/VV/001r">1</router-link>–<router-link to="/faksimile/VV/181r">181</router-link> </i>
           (wird im Folgenden zitiert). Alte Bleistiftzählung (oben rechts)
           <i><router-link to="/faksimile/VV/001r">1</router-link>–<router-link to="/faksimile/VV/181r">182</router-link> </i>
           (springt von <i><router-link to="/faksimile/VV/071r">71</router-link></i> auf <i><router-link to="/faksimile/VV/072r">73</router-link></i>).
           Pergament unterschiedlicher Dicke mit Löchern (genäht). Vordere und hintere Vorsatzblätter
-          aus Papier des 16. Jahrhunderts mit Wasserzeichen Kreis, von Stern überhöht, Abstand der beiden äußeren von drei Bindedrähten 60 mm,
+          aus Papier des 16. Jahrhunderts mit Wasserzeichen Anker im Kreis, von Stern überhöht, Abstand der beiden äußeren von drei Bindedrähten 60 mm,
           sehr ähnlich ‚Briquet Online‘ Nr. <a href="http://www.ksbm.oeaw.ac.at/_scripts/php/BR.php?refnr=488">488</a> (Ferrara 1583).
       </p>
       <p class="MsoNormal"><b>Einband</b>: Zwischen 1701 und 1800 entstandener, 40,5 x 28 cm großer <router-link to="/faksimile/VV/vs001r">Einband</router-link> (Kartondeckel mit hellem Schweinsleder
@@ -2286,8 +2290,8 @@
           sieben Bünden. Im ersten Feld: <i>A.I. | I</i> (mit schwarzer Tinte), im zweiten Feld: <i>Parcefali Varior</i>[um]<i>
           | Rerum Natural</i>[ium]<i> | POEMA</i> (mit schwarzer Tinte, mit Bleistift unterstrichen), im
           vierten Feld die Ziffer <i>19</i> (mit schwarzer Tinte). Den <router-link to="/faksimile/VV/vs001v">Vorderspiegel</router-link> bildet das innen auf den Deckel
-          geklebte erste Blatt eines als Vorsatzblätter verwendeten Binio aus Ende des 16. Jahrhunderts in Italien hergestelltem
-          Papier (siehe oben). Auf dem <router-link to="/faksimile/VV/vs001v">Vorderspiegel</router-link> eingetragen finden sich jeweils mit schwarzer Tinte die alten Signaturen: <i>AR. I. 9.</i>
+          geklebte erste Blatt eines als Vorsatzblätter verwendeten Binio aus Papier, das Ende des 16. Jahrhunderts in Italien hergestellt worden ist
+          (siehe oben). Auf dem <router-link to="/faksimile/VV/vs001v">Vorderspiegel</router-link> eingetragen finden sich jeweils mit schwarzer Tinte die alten Signaturen: <i>AR. I. 9.</i>
           (mit schwarzer Tinte doppelt durchgestrichen), darunter <i>I A. I. 19.</i> (die erste Ziffer <i>I</i> mit schwarzer Tinte doppelt durchgestrichen) und <i>Cod.
             1409.</i> (mit anderer Tinte). Rechts neben diesen drei Signaturen eine Marke (3,7 x 3,7 cm) mit der Aufschrift:
           <i>BIBLIOTECA</i> (horizontal oben); <i>ROMA</i> (horizontal unten); <i>REGIA</i> (vertikal links); <i>CASANATENSE</i> (vertikal rechts).
@@ -2315,11 +2319,11 @@
           <router-link to="/faksimile/VV/001r">1r</router-link>a–<router-link to="/faksimile/VV/048v">48v</router-link>b): Kustoden
           Bll.
           <router-link to="/faksimile/VV/008v">8v</router-link>:
-          <i>·i<sup>9</sup>·</i>;
+          <i>·i<sup>(us)</sup>·</i>;
           <router-link to="/faksimile/VV/016v">16v</router-link>: <i>·ii·</i>;
           <router-link to="/faksimile/VV/024v">24v</router-link>: <i>·iii</i>;
           <router-link to="/faksimile/VV/032v">32v</router-link>: <i>·iiij·</i>;
-          <router-link to="/faksimile/VV/040v">40v</router-link>: <i>·v<sup>9</sup>·</i> und
+          <router-link to="/faksimile/VV/040v">40v</router-link>: <i>·v<sup>(us)</sup>·</i> und
           <router-link to="/faksimile/VV/048v">48v</router-link>: <i>·vj·</i>;
           Reklamante: Bl.
           <router-link to="/faksimile/VV/032v">32v</router-link>.
@@ -2352,7 +2356,7 @@
           <router-link to="/faksimile/VV/166v">166v</router-link>,
           <router-link to="/faksimile/VV/174v">174v</router-link>,
           <router-link to="/faksimile/VV/176v">176v</router-link>. Zudem
-          findet sich eine nach der Bindung erfolgte (meistens mit Abklatschen auf
+          findet sich eine nach der Bindung erfolgte (meist mit Abklatschen auf
           gegenüberliegender Seite = m.A.) fortlaufende Zählung der Quaternionen zur
           Bestimmung des Umfangs von einer weiteren Hand: Bll.
           <router-link to="/faksimile/VV/064v">64v</router-link>: <i>viij</i>;
@@ -2379,10 +2383,11 @@
           (m.A.);
           <router-link to="/faksimile/VV/160v">160v</router-link>:
           <i>xx</i> (m.A.);
-          <router-link to="/faksimile/VV/176v">176v</router-link>: <i>xxij</i>
-          (m.A.);
           <router-link to="/faksimile/VV/168v">168v</router-link>:
-          <i>xxj</i> (m.A.) (über der Zahl eine verwischte Zahl <i>xvi</i> [?]). Der
+          <i>xxj</i> (m.A.);
+          <router-link to="/faksimile/VV/176v">176v</router-link>: <i>xxij</i>
+          (m.A.)
+           (über der Zahl eine verwischte Zahl <i>xvi</i> [?]). Der
           Lagenbestimmer schreibt auf Bl.
           <router-link to="/faksimile/VV/181v">181v</router-link>b als Ergebnis der Zählung (insgesamt 23 Quaternionen): <span class="k"><i><s>xij j
             quaterne</s> .</i></span><span class="ls"><i>x. quat(er)ne </i>(= 13 und 10 Quaternionen?)</span>. <a :href="figure('VV', '186r')"><b>Schriftraum</b></a>: 30,4–31 x 19,4–7 cm; zweispaltig,
@@ -2397,7 +2402,7 @@
           Schreiber I; Bl.
           <router-link to="/faksimile/VV/049r">49r</router-link>a–<router-link to="/faksimile/VV/181v">181v</router-link>b =
           Schreiber II). <b>Ausstattung</b>: Eingangsinitiale und filigrane Fleuronnée-Initialen
-          (siehe <a href="#_Toc389815985">Kap. 1.3.2</a>). 90 meistens ein- bis zweizeilige Überschriften in roter (Bl.
+          (siehe <a href="#_Toc389815985">Kap. 1.3.2</a>). Neunzig meist ein- bis zweizeilige Überschriften in roter (Bl.
           <router-link to="/faksimile/VV/077v">77v</router-link> in
           blauer) Tinte (im Folgenden mit &lt;…&gt; markiert), die Überschriften 1–4
           (Bll.
@@ -2409,9 +2414,9 @@
           <router-link to="/faksimile/VV/011v">11v</router-link>a bis
           zum Ende der Handschrift von Schreiber II, der das Thema, aber nicht den Wortlaut der
           Überschriften teilweise mit
-          dünner Schrift dt. oder lat. an den Rändern vorgeschrieben hat (vgl. Bl.
+          dünner Schrift deutsch oder lateinisch an den Rändern vorgeschrieben hat (vgl. z.B. Bl.
           <router-link to="/faksimile/VV/016v">16v</router-link>,
-          unterer Blattrand, mitte), diese Anweisungen an den Rubrikator weichen von den
+          unterer Blattrand, mittig), diese Anweisungen an den Rubrikator weichen von den
           Überschriften der Vorlage V ab. Die für die Überschriften vorgesehenen zwei,
           drei oder sieben (Bl.
           <router-link to="/faksimile/VV/073v">73v</router-link>b)
@@ -2420,8 +2425,8 @@
           z.B. Bl.
           <router-link to="/faksimile/VV/035v">35v</router-link>b),
           meist alternierend in roter und blauer Farbe gemalten Lombarden mit teilweise einfachen
-          Verzierungen versehen (auf Bl. <router-link to="/faksimile/VV/147r">147r</router-link>a
-          bspw. wurde eine blaue Lombarde mit roter Farbe verziert); oftmals sind Repräsentanten noch erkennbar (z.B.
+          Verzierungen versehen (z.B. wurde auf Bl. <router-link to="/faksimile/VV/147r">147r</router-link>a
+          eine blaue Lombarde mit roter Farbe verziert); oftmals sind Repräsentanten noch erkennbar (z.B.
           Bl. <router-link to="/faksimile/VV/027r">27r</router-link>,
           wo in Zeile a ein durch die blaue Lombarde
           überdeckter Buchstabe nachgetragen wird). Die Lombarden sind vor den von Hand II stammenden Überschriften angefertigt
@@ -2447,12 +2452,12 @@
           <router-link to="/faksimile/VV/148v">148v</router-link>–<router-link to="/faksimile/VV/159v">159v</router-link>
           (lediglich die Versoseiten),
           <router-link to="/faksimile/VV/160r">160r</router-link>–<router-link to="/faksimile/VV/160v">v</router-link>.
-          Die Versalien der ersten Zeile der Seiten gelegentlich verziert (vgl. z.B.
+          Die Versalien der ersten Zeile der Seiten sind gelegentlich verziert (vgl. z.B.
           Bl. <router-link to="/faksimile/VV/065r">65r</router-link>a und <router-link to="/faksimile/VV/140v">140v</router-link>b).
           <b>Korrekturen/Nachträge</b>:
           Wenige Korrekturen von der jeweiligen Schreiberhand in schwarzer Tinte und
           durch Streichung mit roter (z.B. Bl.
-          <router-link to="/faksimile/VV/026v">26v</router-link>b: <span class="titel1"><i><s>ſ</s></i></span><i><s>pringen</s></i> <span class="titel1"><i>ſ</i></span><i>ingen</i>)
+          <router-link to="/faksimile/VV/026v">26v</router-link>b: <span class="titel1"><i><s>ſ</s></i></span><i><s>pringen</s></i> zu <span class="titel1"><i>ſ</i></span><i>ingen</i>)
           und schwarzer (z.B Bl.
           <router-link to="/faksimile/VV/059v">59v</router-link>a)
           oder schwarzer und nachträglich noch roter Tinte (z.B. Bl. <router-link to="/faksimile/VV/152v">152v</router-link>b)
@@ -2467,9 +2472,9 @@
           <router-link to="/faksimile/VV/013r">13r</router-link>a
           jeweils zwei Griffelkreuze; Bl.
           <router-link to="/faksimile/VV/014r">14r</router-link>,
-          unterer Rand, mitte, schwarze Tinte: <i>M</i> oder <i>III</i> (?); Bl.
-          <router-link to="/faksimile/VV/057v">57v</router-link>b bemerkter
-          und durch Streichung korrigierter Augensprung;
+          unterer Rand, mittig, schwarze Tinte: <i>M</i> oder <i>III</i> (?); Bl.
+          <router-link to="/faksimile/VV/057v">57v</router-link>b bemerkte
+          und durch Streichung korrigierte Augenabirrung;
           Bl. <router-link to="/faksimile/VV/057v">59r</router-link>b: Markierung von Vers NP 11138 durch zwei rote Kreuze mit jeweils einem Punkt in jedem Winkel.
           Bl.
           <router-link to="/faksimile/VV/061r">61r</router-link>b:
@@ -2509,7 +2514,7 @@
           <router-link to="/faksimile/VV/172r">172</router-link>).
       </p>
       <p class="MsoNormal"><b>Schreibsprache</b>:
-          Niederalemannisch.<a href="#_ftn129" id="_ftnref129"><sup>[129]</sup></a></p>
+          Niederalemannisch.<a href="#_ftn128" id="_ftnref128"><sup>[128]</sup></a></p>
       <h5><a id="_Toc389816000"/>2.1.2 Inhalt</h5>
       <div class="contentbox-left"/>
       <div class="contentbox-right"><b>›Rappoltsteiner Parzifal‹ (nur
@@ -2566,7 +2571,7 @@
     </div>      <div class="contentbox-right">[1.1] <b>Walther von der Vogelweide</b>
           (Walther 62, IV [L. 93,7]) (NP 0<sup>1–12</sup>): <span class="init"><b><i>W</i></b></span><i>az
             ſol ein man d(er) | nvͤts engert.</i> / <span class="hvh"><i>G</i></span><i>e|werbes
-            vmbe ein | reinez wip.</i> / <span class="hvh"><i>W</i></span><i>az | denne lat
+            vmb ein | reinez wip.</i> / <span class="hvh"><i>W</i></span><i>az | denne lat
             ſie in | immer vngewert.</i> / <span class="hvh"><i>D</i></span><i>annoch zieret
             | ſie ſinen lip.</i> / <span class="hvh"><i>E</i></span><i>r | tvͤge durch die |
             eine ſo.</i> / <span class="hvh"><i>D</i></span><i>az er den andern wol behage. /
@@ -2723,8 +2728,8 @@
       </div>
       <div class="contentbox-right">[2]<b>
             Klaus Wisse und Philipp Colin, ›Nuwer Parzifal‹</b> (stark gekürzt gegenüber V)
-          (1., 2. und 3. Fortsetzung zu Chrétiens ›Conte du Graal‹ [›Perceval‹], dt.,
-          Wolfram von Eschenbach, ›Parzival‹, Buch XV–XVI, sowie Einschübe) (NP 1–36447;
+          (1., 2. und 3. Fortsetzung zu Chrétiens de Troyes ›Roman de Perceval ou le Conte du Graal‹, dt.,
+          Wolfram von Eschenbach, ›Parzival‹, Buch XV–XVI, sowie Einschübe) (NP 1–36426;
           Sch. 1.1–846.9 und L. 734.1–827.30 [›Parzival‹, Buch XV–XVI])
       </div>
       <div style="clear:both"/>
@@ -2749,7 +2754,7 @@
           <router-link to="/faksimile/VV/006r">6r</router-link>b–<router-link to="/faksimile/VV/036v">36v</router-link>b
       </div>
       <div class="contentbox-right">[2.3]
-          <b>›Première Continuation‹</b>, Mischredaktion, Episode I,10 und II,1 bis III,14,
+          <b>›Première Continuation‹</b>, Mischredaktion, Episode I,10 und II,1–III,14,
           dt. (Roach I, 2048–2053 und 2054–8002) (NP 966–6784; Sch. 23.12–153.31): <i>Als
             ich v́ch vor geſaget han<span class="ras">… – …</span>Hiez er karados briebras</i></div>
       <div style="clear:both"/>
@@ -2778,7 +2783,7 @@
           <router-link to="/faksimile/VV/040v">40v</router-link>a–<router-link to="/faksimile/VV/051v">51v</router-link>b
       </div>
       <div class="contentbox-right">[2.7]
-          <b>›Première Continuation‹</b>, Mischredaktion, Episode III,16 und IV,1 bis V,4,
+          <b>›Première Continuation‹</b>, Mischredaktion, Episode III,16 und IV,1–V,4,
           dt. (Roach I, 8730–8734 und 8735–13424) (NP 7507–9663; Sch. 169.36–217.24): <i>Dar
             noch kv́nig artus lange was<span class="ras">… – …</span>Ir forchtent ſin zv vil
             gar</i></div>
@@ -2788,7 +2793,7 @@
       </div>
       <div class="contentbox-right">[2.8]
           <b>Einschub</b> (NP 9664–9668; Sch. 271.25–29): <i>Daz kvmet von krankem herzen
-            dar… – …Daz ime tet harte groſzen pin</i></div>
+            dar… – …Daz ime tet harte groſze pin</i></div>
       <div style="clear:both"/>
       <div class="contentbox-left">
           <router-link to="/faksimile/VV/051v">51v</router-link>b–<router-link to="/faksimile/VV/066r">66r</router-link>a
@@ -2796,7 +2801,7 @@
       <div class="contentbox-right">[2.9]
           <b>›Première Continuation‹</b>, Mischredaktion, Episode V,4 und V,6–8, dt. (Roach
           I, 13425–13852) (NP 9669–12493; Sch. 217.30–281.7) (um die 100 Minusverse
-          gegenüber V):<a href="#_ftn130" id="_ftnref130"><sup>[130]</sup></a><i> Nv er ein wenic geruwet
+          gegenüber V):<a href="#_ftn129" id="_ftnref129"><sup>[129]</sup></a><i> Nv er ein wenic geruwet
             hette<span class="ras">… – …Do wart er gehei</span>ſzen dodimaz</i></div>
       <div style="clear:both"/>
       <div class="contentbox-left">
@@ -2810,7 +2815,7 @@
           <router-link to="/faksimile/VV/066r">66r</router-link>a–<router-link to="/faksimile/VV/073v">73v</router-link>a
       </div>
       <div class="contentbox-right">[2.11]
-          <b>›Première Continuation‹</b>, Mischredaktion, Episode V,8 bis VI,8, dt. (Roach I,
+          <b>›Première Continuation‹</b>, Mischredaktion, Episode V,8–VI,8, dt. (Roach I,
           13853–15322) (NP 12495–13969; Sch. 281.9–313.40) (um die 15 Minusverse
           gegenüber V): <span class="init"><i>Die </i></span><i>ſchone ivncfrouwe fin<span class="ras">… – …Al</span>s ich vor ſeite vnd aber ſage</i></div>
       <div style="clear:both"/>
@@ -2827,7 +2832,7 @@
           <router-link to="/faksimile/VV/073v">73v</router-link>b
       </div>
       <div class="contentbox-right">[2.13]
-          <b>Explizit und Überleitung</b> (ohne Vorlage) (NP 13980<sup>0</sup>; Sch.
+          <b>Überleitung</b> (ohne Vorlage) (NP 13980<sup>0</sup>; Sch.
           314.5–12): <i>&lt;Hie vichtet parzifal mit eymer | ritter der hiez der ritter
             mit dem | horne&gt;</i></div>
       <div style="clear:both"/>
@@ -2836,7 +2841,7 @@
       </div>
       <div class="contentbox-right">[2.14]
           <b>Harmonisierung des Chrétien-Textes mit dem ›Parzival‹ Wolframs von
-            Eschenbach</b> (NP 13980–13985; Sch. 314.13–19): <i><b>N</b>v ſeit vns dicz mere kurzelich…
+            Eschenbach</b> (NP 13980–13985; Sch. 314.13–19): <i><b>N</b>v ſeit vns ditz mere kurzelich…
             – …Do er geſtreit mit gawan vnd gramolantz</i></div>
       <div style="clear:both"/>
       <div class="contentbox-left">
@@ -2844,7 +2849,7 @@
       </div>
       <div class="contentbox-right">[2.15]
           <b>›Seconde Continuation‹</b>, Mischredaktion, Prolog und Episode 1–9, dt. (Roach
-          IV, 19639–19653 und 19654–21146) (NP 13980–15133; Sch. 314.20–340.5) (um die 20
+          IV, 19639–19653 und 19654–21146) (NP 13986–15133; Sch. 314.20–340.5) (um die 20
           Minusverse gegenüber V): <i>Ouch ſage ich uch daz er zu hant… – …Jch bant min
             ros hie veſteclich</i></div>
       <div style="clear:both"/>
@@ -2882,6 +2887,10 @@
           die 1350 Minusverse gegenüber V)
       </div>
       <div style="clear:both"/>
+      <div class="contentbox-left"/>
+      <div class="contentbox-right metadata">Die Einschübe beziehen sich u.a. darauf, dass König Artus mit den Rittern der Tafelrunde die beiden Halbbrüder Parzival und Feirefiz beim Ritt auf die Gralburg begleitet, ehe Parzival dort den Gralkönig Anfortas heilt und selbst zum Gralherrscher gekürt wird (Zusatzverse u.a. nach L. 784.28, 786.30, 793.28, vgl. im Folgenden).
+      </div>
+      <div style="clear:both"/>
       <div class="contentbox-right">
           <router-link to="/faksimile/VV/171r">171r</router-link>b–<router-link to="/faksimile/VV/174v">174v</router-link>a [2.19.1]
           <b>Wolframs ›Parzival‹, Buch XV</b> (L. 734.1<sup>0</sup> und L. 734.1–768.30):
@@ -2898,9 +2907,9 @@
       <div style="clear:both"/>
       <div class="contentbox-right">
           <router-link to="/faksimile/VV/174v">174v</router-link>a [2.19.3]
-          <b>Einschübe</b> (L. 769.28<sup>21–22</sup> = Anpassung an Wolfram von
-          Eschenbach, ›Parzival‹; 769.29<sup>a</sup>–769.30<sup>a</sup> und 769.30<sup>2</sup>;
-          Sch. LI): <i>Dar nach ſprach der heiden rich | Kunic artus nv hore mich | Jch
+          <b>Wolframs ›Parzival‹, Buch XV</b> (L. 769.28<sup>21f.</sup> [Anpassung an Wolfram von
+          Eschenbach, ›Parzival‹], L. 769.29f. und 769.30<sup>2</sup>;
+          Sch. LI, letzte 6 Verse in der Ergänzung zu L. 769.28): <i>Dar nach ſprach der heiden rich | Kunic artus nv hore mich | Jch
             wil dir ne(n)men alle dy | Kvnige herzoge(n) grafen alhye | Die ich alle han
             betwungen</i></div>
       <div style="clear:both"/>
@@ -2952,7 +2961,7 @@
       <div class="contentbox-right">
           <router-link to="/faksimile/VV/176v">176v</router-link>a–<router-link to="/faksimile/VV/177r">177r</router-link>a [2.19.12]
           <b>Wolframs ›Parzival‹, Buch XVI</b> (L. 789.3–793.28): <i>Mit freude uf
-            Muntſchalfaſche riten… – …Den ſwarczen vnd den wiſen</i></div>
+            Muntſchalfaſche riten… – …Den ſwartzen vnd den wiſen</i></div>
       <div style="clear:both"/>
       <div class="contentbox-right">
           <router-link to="/faksimile/VV/177r">177r</router-link>a [2.19.13]
@@ -2983,7 +2992,7 @@
       <div style="clear:both"/>
       <div class="contentbox-right">
           <router-link to="/faksimile/VV/179v">179v</router-link>a–b [2.19.18]
-          <b>Wolframs ›Parzival‹, Buch XVI</b> (L. 823.11-a–827.30): <i>Ouch ſage ich uch
+          <b>Wolframs ›Parzival‹, Buch XVI</b> (L. 823.27–827.30): <i>Ouch ſage ich uch
             von lohelagrin… – …Die mvz mir ſuſzer worte iehen</i></div>
       <div style="clear:both"/>
       <div class="contentbox-left">
@@ -3035,35 +3044,74 @@
             Vgl. auch die Angaben im Handschriftenverzeichnis des <a href="http://www.parzival.unibe.ch/hsverz.html">Berner
                 Parzival-Projekt</a>s sowie im <a href="http://www.handschriftencensus.de/5612">Handschriftencensus</a>.
       </p>
-      <h4><a id="_Toc389816001"/><a id="_Ref379010758"/>2.2 Genese der der Handschrift V'
+      <h4><a id="_Toc389816001"/><a id="_Ref379010758"/>2.2 Genese der Handschrift V'
       </h4>
       <p class="MsoNormal">Im Gegensatz zu den Entstehungszusammenhängen von Hs. V
-          blieben die Entstehungszusammenhänge von Hs. V' lange Zeit im Dunkeln. Erst der
-          Nachweis der Identität eines der Schreiber der Handschrift mit dem
-          Hauptschreiber einer bekannten im nordbairisch-fränkischen Raum tätigen Werkstatt
-          eröffnete einen Einblick in den Entstehungskontext von Hs. V'.<a href="#_ftn131" id="_ftnref131"><sup>[131]</sup></a>
+          war die Genese von Hs. V' lange Zeit ungeklärt. Erst der
+          Nachweis, dass einer der Schreiber mit dem
+          Hauptschreiber einer bekannten, im nordbairisch-fränkischen Raum tätigen Werkstatt identisch ist,
+          hat einen Einblick in den Entstehungskontext von Hs. V' ermöglicht.<a href="#_ftn130" id="_ftnref130"><sup>[130]</sup></a>
       </p>
       <h5><a id="_Toc389816002"/>2.2.1 Schreiber</h5>
-      <p class="MsoNormal">Von dem ersten der beiden am Codex beteiligten Schreiber<a href="#_ftn132" id="_ftnref132"><sup>[132]</sup></a> stammen das Initium der
-          Eingangsseite in roter Tinte (Bl. <router-link to="/faksimile/VV/001r">1r</router-link>a) sowie die ersten sechs mit schwarzer Tinte beschriebenen Lagen
-          (Bl. <router-link to="/faksimile/VV/001r">1r</router-link>a–<router-link to="/faksimile/VV/048v">48v</router-link>b) (inkl. Repräsentanten),
-          die er jeweils mit römischen Ziffern nummeriert. Die vier ersten (Bl. <router-link to="/faksimile/VV/003r">3r</router-link>a,
+      <p class="MsoNormal">Auf die Lagen verteilt waren zwei Schreiber<a href="#_ftn131" id="_ftnref131"><sup>[131]</sup></a> wie folgt tätig:</p>
+      <table style="border:0">
+          <colgroup>
+            <col style="width:10rem"/>
+            <col style="width:10rem"/>
+            <col/>
+          </colgroup>
+          <thead>
+            <tr>
+                <th colspan="3" style="text-align:left">1.–6. Lage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td>Hand I</td>
+                <td>Bl.
+                  <router-link to="/faksimile/VV/001r">1</router-link>–<router-link to="/faksimile/VV/048v">48</router-link>
+                </td>
+                <td>NP 0-1<sup>1f.</sup>–0-55 (inkl. Prosaüberleitung und 7 Minneliedstrophen) – NP 9106</td>
+            </tr>
+          </tbody>
+      </table>
+      <table style="border:0">
+          <colgroup>
+            <col style="width:10rem"/>
+            <col style="width:10rem"/>
+            <col/>
+          </colgroup>
+          <thead>
+            <tr>
+                <th colspan="3" style="text-align:left">6.–25. Lage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td>Hand II</td>
+                <td>Bl.
+                  <router-link to="/faksimile/VV/049r">49</router-link>r–<router-link to="/faksimile/VV/181v">181</router-link>v
+                </td>
+                <td>NP 9107 – EP 558-1<sup>1f.</sup> (Epilog mit Blattberechnung)</td>
+            </tr>
+          </tbody>
+      </table>
+      <p class="MsoNormal">Der erste der beiden am Codex beteiligten Schreiber hat die ersten sechs Lagen beschrieben und diese jeweils mit römischen Ziffern nummeriert. Von ihm stammen auch das Initium der
+          Eingangsseite in roter Tinte (Bl. <router-link to="/faksimile/VV/001r">1r</router-link>a) sowie die Repräsentanten der Lombarden. Auch die vier ersten der roten Überschriften (auf Bl. <router-link to="/faksimile/VV/003r">3r</router-link>a,
           <router-link to="/faksimile/VV/004r">4r</router-link>a, <router-link to="/faksimile/VV/006r">6r</router-link>a und
-          <router-link to="/faksimile/VV/008v">8v</router-link>b) der roten Überschriften sind von der ersten Schreiberhand verantwortet, die
+          <router-link to="/faksimile/VV/008v">8v</router-link>b) sind von dieser Schreiberhand verantwortet, die
           wahrscheinlich auch die bis Bl. <router-link to="/faksimile/VV/008v">8v</router-link> reichende Rubrizierung ausgeführt hat.
-          Auf Bl. <router-link to="/faksimile/VV/049r">49r</router-link>a setzt auf einer neuen Lage der zweite Schreiber ein und kopiert den restlichen Text,
-          wobei er die Lagen ebenfalls mit römischen Ziffern nummeriert. Auf den Text folgen zuerst die durch Repräsentanten vorgegebenen
-          roten und blauen Lombarden für die gesamte Handschrift und dann die Überschriften, die ebenfalls von der zweiten Schreiberhand stammen. Wer die
-          zweifarbigen Fleuronnée-Initialen auf der Eingangsseite (Bl. <router-link to="/faksimile/VV/001r">1r</router-link>) gemalt hat, lässt sich nicht bestimmen.
+          Auf Bl. <router-link to="/faksimile/VV/049r">49r</router-link>a hat dann auf einer neuen Lage der zweite Schreiber eingesetzt, den restlichen Text kopiert,
+          die Lagen mit römischen Ziffern nummeriert und wohl seinerseits die Repräsentanten vorgezeichnet. Im Anschluss an den Texteintrag sind für die gesamte Handschrift die
+          roten und blauen Lombarden und danach die Überschriften angefertigt worden; zumindest letztere stammen ebenfalls von der zweiten Schreiberhand.
       </p>
-      <p class="MsoNormal">                Wie ein
-          Schriftvergleich ergeben hat,<a href="#_ftn133" id="_ftnref133"><sup>[133]</sup></a> handelt es sich bei der
-          Schreiberhand I um die Haupthand eines im 14. Jahrhundert tätigen Skriptoriums,
-          aus dem sich eine beachtliche Anzahl von Handschriften erhalten hat (siehe <a href="#_Toc389816004">Kap.
-          2.2.3</a>). Die Charakterisierung der Textualis formata des sogenannten ,Epenschreibers’
+      <p class="MsoNormal">                Ein fundierter
+          Schriftvergleich hat ergeben, dass es sich bei der
+          Schreiberhand I um die Haupthand eines im 14. Jahrhundert tätigen Skriptoriums handelt,
+          aus dem eine beachtliche Anzahl von Handschriften erhalten ist.<a href="#_ftn132" id="_ftnref132"><sup>[132]</sup></a> Die Charakterisierung der Textualis formata des sogenannten ‘Epenschreibers’
           durch <span style="font-variant:small-caps">Karin Schneider</span> entspricht
-          mit wenigen, begründbaren Ausnahmen derjenigen des ersten Schreibers von Hs. V'.<a href="#_ftn134" id="_ftnref134"><sup>[134]</sup></a>
-          Die zweite Schreiberhand von V' kann in diesem Skriptorium nicht nachgewiesen
+          mit wenigen, begründbaren Ausnahmen derjenigen dieses ersten Schreibers von Hs. V'.<a href="#_ftn133" id="_ftnref133"><sup>[133]</sup></a>
+          Die zweite Schreiberhand von V' kann in diesem Skriptorium hingegen nicht nachgewiesen
           werden.
       </p>
       <h5>
@@ -3073,21 +3121,20 @@
       </h5>
       <p class="MsoNormal">Auch die Eingangsinitiale <i>W</i> mit blau-rot gespaltenem
           Buchstabenstamm (Bl. 1ra) sowie weitere Initialen können denjenigen in
-          Handschriften des genannten Skriptoriums zugewiesen werden.<a href="#_ftn135" id="_ftnref135"><sup>[135]</sup></a></p>
+          Handschriften des genannten Skriptoriums zugewiesen werden.<a href="#_ftn134" id="_ftnref134"><sup>[134]</sup></a>  Allerdings lässt sich der Maler der zweifarbigen Fleuronnée-Initialen <i>W</i> und <i>H</i> auf der Eingangsseite (Bl. <router-link to="/faksimile/VV/001r">1r</router-link>) nicht näher bestimmen.</p>
       <h5>
                           <a id="_Toc389816004"/>
                           <a id="_Ref379046729"/>2.2.3 Die fränkische ‘Epenwerkstatt’
       </h5>
-      <p class="MsoNormal">Aus diesem von <span style="font-variant:small-caps">Karin Schneider</span> ‘Epenwerkstatt’ genannten
-        Skriptorium haben sich sieben Handschriften erhalten, die neben dem ›Nuwen Parzifal‹ (NP) in Hs. V' Werke Wolframs von Eschenbach oder Wolfram
-        im Mittelalter zugeschriebene, bereits im 13. Jahrhundert nach französischen Vorlagen entstandene Vorgeschichten und Fortsetzungen seiner
-        Texte beinhalten. So bietet diese Sammlung Wolframs von Eschenbach ›Parzival‹ (Pz.), Albrechts ›Jüngeren Titurel‹ (JT), den ›Lohengrin‹ (Loh.), den ›Willehalm‹ (W-Will.),
-        die ›Arabel‹ Ulrichs von dem Türlin (Arab.) sowie den ›Rennewart‹ Ulrichs von Türhheim (Renn.). Der ‘Epenwerkstatt’ zugewiesen werden zudem drei
-        fragmentarisch erhaltene Codices, die mindestens ›Diu Crône‹ Heinrichs von dem Türlin (Cro.), der ›Willehalm von Orlens‹ Rudolfs von Ems (R-Will.) und
-        Konrads von Würzburg ›Trojanerkrieg‹ (Tro.) enthielten.<a href="#_ftn136" id="_ftnref136"><sup>[136]</sup></a> Mit Ausnahme von Hs. V', für die
-        wahrscheinlich die Buchgröße der Vorlage Hs. V übernommen
-        wurde, weisen die großformatigen, zweispaltigen Codices eine nahezu identische Seiteneinrichtung auf
-        (Maßangaben gerundet):<a href="#_ftn137" id="_ftnref137"><sup>[137]</sup></a></p>
+      <p class="MsoNormal">Aus dem oben erwähnten, von <span style="font-variant:small-caps">Karin Schneider</span> ‘Epenwerkstatt’ genannten
+        Skriptorium haben sich sieben Handschriften erhalten, die neben dem ›Nuwen Parzifal‹ (NP) in Hs. V' Dichtungen überliefern, die entweder von Wolfram von Eschenbach stammen oder diesem
+        im Mittelalter zugeschrieben worden sind (bereits im 13. Jahrhundert nach französischen Vorlagen entstandene Vorgeschichten und Fortsetzungen seiner
+        Texte). So beinhaltet diese Sammlung Wolframs von Eschenbach ›Parzival‹ (Pz.), Albrechts ›Jüngeren Titurel‹ (JT), den ›Lohengrin‹ (Loh.), den ›Willehalm‹ (W-Will.),
+        die ›Arabel‹ Ulrichs von dem Türlin (Arab.) sowie den ›Rennewart‹ Ulrichs von Türhheim (Renn.). Der ‘Epenwerkstatt’ können zudem drei
+        fragmentarisch erhaltene Codices zugewiesen werden, in denen mindestens ›Diu Crône‹ Heinrichs von dem Türlin (Cro.), der ›Willehalm von Orlens‹ Rudolfs von Ems (R-Will.) und
+        Konrads von Würzburg ›Trojanerkrieg‹ (Tro.) aufgezeichnet waren.<a href="#_ftn135" id="_ftnref135"><sup>[135]</sup></a> Mit Ausnahme von Hs. V', deren Buchgröße
+        sich wahrscheinlich an der Vorlage Hs. V orientiert, weisen die großformatigen, zweispaltigen Codices eine nahezu identische Seiteneinrichtung auf
+        (Maßangaben gerundet):<a href="#_ftn136" id="_ftnref136"><sup>[136]</sup></a></p>
       <table style="border:0">
           <colgroup>
             <col style="width:30rem"/>
@@ -3159,38 +3206,38 @@
             </tr>
           </tbody>
       </table>
-      <p class="MsoNormal">Abgesehen von der Identität der
-          Schreiberhände und der Initialornamentik sowie vom jeweiligen Schreibdialekt
-          lässt sich dieses Skriptorium nicht genauer bestimmen.
-          Auch Rückschlüsse auf die Herstellungs- und Bestimmungsorte der Codices sowie
-          auf die Auftraggeber können keine gezogen werden: Die erwähnten Handschriften
+      <p class="MsoNormal">Trotz der offenkundigen Übereinstimmungen im Bereich der
+          Schreiberhände, der Initialornamentik sowie des Schreibdialekts
+          kann dieses Skriptorium nicht genauer bestimmt werden.<a href="#_ftn137" id="_ftnref137"><sup>[137]</sup></a>
+          Auch sind keine Rückschlüsse auf die Herstellungs- und Bestimmungsorte der Codices sowie
+          auf die Auftraggeber möglich: Die erwähnten Handschriften
           sind entweder nur bruchstückhaft erhalten oder sie wurden vor der Überführung
-          der Heidelberger Palatina nach Rom der Einbände und ursprünglichen
+          der Heidelberger Palatina nach Rom ihrer Einbände und ursprünglichen
           Vorsatzblätter entledigt. Die in der Forschung wiederholt diskutierte Frage, ob
           es sich bei der ‘Epenwerkstatt’ um ein klösterliches Skriptorium gehandelt hat,
-          lässt sich ebenfalls nicht beantworten.<a href="#_ftn138" id="_ftnref138"><sup>[138]</sup></a></p>
+          muss ebenfalls offen bleiben.<a href="#_ftn138" id="_ftnref138"><sup>[138]</sup></a></p>
       <h4><a id="_Toc389816005"/><a id="_Ref379010814"/>2.3 <span class="MsoPageNumber">Besitzgeschichte</span> der Handschrift V'
       </h4>
       <p class="MsoNormal">Anders als bei Hs. V, dem Codex
-          Donaueschingen 97, kann die Besitzgeschichte des Codex Casanatensis somit nicht
-          lückenlos nachgezeichnet werden. Sie ist erst ab dem 16. Jahrhundert mit
+          Donaueschingen 97, lässt sich die Besitzgeschichte des Codex Casanatensis somit nicht
+          lückenlos nachgezeichnen. Sie ist erst ab dem 16. Jahrhundert mit
           Sicherheit rekonstruierbar. Über den früheren Verbleib von Hs. V' und über
           deren Besitzer können lediglich Mutmaßungen angestellt werden.
       </p>
       <h5><a id="_Toc389816006"/>2.3.1 Lamprecht von Brun als Besitzer von Handschrift V'?</h5>
       <p class="MsoNormal">Als früher Besitzer der Sammlung,
-          zu der auch V' gehört hat, wird der um 1320/30 geborene und 1399 verstorbene
+          zu der auch Hs. V' gehört hat, wird der um 1320/30 geborene und 1399 verstorbene
           Bamberger Bischof Lamprecht (Lampertus, Lambert) von Brun (von Brunn, von Burn,
           de Buren, von Buren, de Fonte) vermutet.<a href="#_ftn139" id="_ftnref139"><sup>[139]</sup></a> Grund für diese Annahme
           ist der Umstand, dass im Jahr 1408 als Schenkung Teile aus dessen
-          Büchersammlung (<i>etweuil Pucher</i>) in die Heidelberger Universität gelangten,
+          Büchersammlung (<i>etweuil Pucher</i>) in die Heidelberger Universität gelangt sind,
           die – wie testamentarisch verordnet – zugunsten des von Lamprecht 1395
           gestifteten Spitals in Scheßlitz für 350 Gulden an den römischen König
           Ruprecht von der Pfalz verkauft worden waren.<a href="#_ftn140" id="_ftnref140"><sup>[140]</sup></a>
-          Zuvor gingen einige Bücher (<i>certos libros</i>) als Schenkung ins 1354 durch
+          Lamprechts Anniversarium vom 5.5.1399 erwähnt einige Bücher (<i>certos libros</i>), die zuvor als Schenkung ins 1354 durch
           die Bamberger Bischöfe errichtete Chorherrenstift St. Martin zu Forchheim (Erzdiözese
-          Bamberg) über,<a href="#_ftn141" id="_ftnref141"><sup>[141]</sup></a> das allerdings keine
-          »Bibliothek, die diesen Namen verdienen würde«, besaß.<a href="#_ftn142" id="_ftnref142"><sup>[142]</sup></a>
+          Bamberg) übergegangen waren,<a href="#_ftn141" id="_ftnref141"><sup>[141]</sup></a> wo es allerdings keine
+          »Bibliothek, die diesen Namen verdienen würde«, gab.<a href="#_ftn142" id="_ftnref142"><sup>[142]</sup></a>
           Lamprechts heute verstreute, laut <span style="font-variant:small-caps">Joseph Heller</span> »sehr bedeutende
           Bibliothek«<a href="#_ftn143" id="_ftnref143"><sup>[143]</sup></a> ist über die Jahre
           durch Beziehungen und durch seine Funktionen an unterschiedlichen
@@ -3216,27 +3263,27 @@
           Vorgängers Friedrich I. von Hohenlohe (Regierungszeit bis 1352), von denen sich
           ein 1348 geschriebenes Urbar der Bamberger Kirche (<span lang="IT">›</span>Liber
           possessionum<span lang="IT">‹</span>)<a href="#_ftn147" id="_ftnref147"><sup>[147]</sup></a> sowie Teile einer im
-          selben Jahr fertig gestellten Handschrift mit der ›Vita Heinrici II.
-          imperatoris‹ des Adalbertus, der ›Miracula sancte Chunegundis‹ mit Gebet sowie
-          – als späterer Nachtrag – der ›Liturgica‹, einer Sammlung von textierten
+          selben Jahr fertig gestellten Handschrift erhalten haben (darin die ›Vita Heinrici II.
+          imperatoris‹ des Adalbertus, die ›Miracula sancte Chunegundis‹ mit Gebet sowie
+          – als späterer Nachtrag – die ›Liturgica‹, eine Sammlung von textierten
           Melodien mit Versen zu den Festen Heinrichs und Kunigundes sowie des Hl.
-          Benedikt, erhalten hat. Die Handschrift gelangte später in die Bestände der
+          Benedikt). Diese Handschrift gelangte später in die Bestände der
           Heidelberger Palatina und wurde 1622/23 nach Rom gebracht, wo sie mit einer
           Armenbibel des 15. Jahrhunderts zusammengebunden wurde.<a href="#_ftn148" id="_ftnref148"><sup>[148]</sup></a>
           In der Bibliothek Lamprechts von Brun befanden sich möglicherweise auch zwei
           in der zweiten Hälfte des 14. Jahrhunderts entstandene medizinische Sammelhandschriften
           aus dem Besitz des vor 1390 verstorbenen Magisters Reimbotus (de Castro),
-          Leibarzt Karls IV., von denen <span lang="IT">Johannes des Gaddesden ›Rosa
-            anglica medicinae‹ aus dem Jahr 1368 stammt.</span><a href="#_ftn149" id="_ftnref149"><sup>[149]</sup></a></p>
+          des Leibarzts Karls IV., darunter <span lang="IT">Johannes des Gaddesden ›Rosa
+            anglica medicinae‹ aus dem Jahr 1368.</span><a href="#_ftn149" id="_ftnref149"><sup>[149]</sup></a></p>
       <p class="MsoNormal">Bei den überlieferten Codices,
           die – mit Vorbehalt – als Lamprechts von Brunn Besitz ausgewiesen werden
           können, handelt es sich um Handschriften mit liturgischen, kirchenrechtlichen
-          und medizinischen Texten. Ein Hinweis darauf, dass der Bischof von Bamberg an epischen
-          Werken interessiert gewesen wäre und die in der ‘Epenwerkstatt’ entstandenen
-          Codices besessen oder gar in Auftrag gegeben hätte, findet sich nicht.
+          und medizinischen Texten. Hingegen fehlt ein eindeutiger Hinweis darauf, dass der Bischof von Bamberg an
+          volkssprachigen Epen interessiert gewesen wäre und die in der ‘Epenwerkstatt’ entstandenen
+          Codices besessen oder gar in Auftrag gegeben hätte.
       </p>
       <h5><a id="_Toc389816007"/><a id="_Ref381895864"/><a id="_Ref379125906"/>2.3.2 Handschrift V' – der Cod. Pal. germ. 317 der Heidelberger Palatina</h5>
-      <p class="MsoNormal">Wie <span style="font-variant: small-caps">Matthias Miller</span> 2007 als erster bemerkt hat, zählte Hs. V' spätestens
+      <p class="MsoNormal">Wie zuerst <span style="font-variant: small-caps">Matthias Miller</span> 2007 bemerkt hat, zählte Hs. V' spätestens
           ab 1581 bis 1623 zum Bestand der Heidelberger Palatina, wo sie unter der
           Signatur Cod. Pal. germ. 317 aufbewahrt wurde.<a href="#_ftn150" id="_ftnref150"><sup>[150]</sup></a>
           In einem Eintrag im älteren Katalog der Heidelberger Schlossbibliothek von 1581<a href="#_ftn151" id="_ftnref151"><sup>[151]</sup></a> erscheint Hs. V'
@@ -3261,8 +3308,8 @@
       </p>
       <p class="Standartpetit" style="margin-top:0cm">[Nr. 6] Margraúe Wilhelms von
           Cranitʒ búch. Reimen | geſchrieben Perment. gleiches búnds.<a href="#_ftn155" id="_ftnref155"><sup>[155]</sup></a></p>
-      <p class="MsoNormal">Im Dreißigjährigen Krieg wurde
-          der Codex im Jahr 1623 ohne Einband mit dem Großteil der Heidelberger Palatina in
+      <p class="MsoNormal">Im Jahr 1623 wurde
+          der Codex während des Dreißigjährigen Kriegs ohne Einband mit dem Großteil der Heidelberger Palatina in
           196 Kisten auf Maultieren in die Biblioteca Apostolica Vaticana im Vatikan
           gebracht. Die Hs. V' gelangte getrennt von den anderen Epenhandschriften in der
           Kiste mit der Capsanummer <i>C. 91</i> (siehe Bl.
@@ -3271,43 +3318,40 @@
           <router-link to="/faksimile/VV/001r">1r</router-link>,
           oberer Rand) erhielt<a href="#_ftn156" id="_ftnref156"><sup>[156]</sup></a> und um die Mitte des
           17. Jahrhunderts neu gebunden wurde.<a href="#_ftn157" id="_ftnref157"><sup>[157]</sup></a> Als Vorsatzblätter
-          eingebunden wurde bei dieser Neubindung italienisches Papier aus dem Ende des
-          16. Jahrhunderts, das auch für die Bindung anderer Handschriften aus der
-          Heidelberger Palatina verwendet wurde.<a href="#_ftn158" id="_ftnref158"><sup>[158]</sup></a> Bis in die zweite Hälfte
+          eingebunden wurde bei dieser Neubindung italienisches Papier vom Ende des
+          16. Jahrhunderts, das vermutlich auch für die Bindung anderer Handschriften aus der
+          Heidelberger Palatina Verwendung fand.<a href="#_ftn158" id="_ftnref158"><sup>[158]</sup></a> Bis in die zweite Hälfte
           des 18. Jahrhunderts blieb Hs. V' mit den anderen Codices aus der Palatina
           in der Vaticana.<a href="#_ftn159" id="_ftnref159"><sup>[159]</sup></a></p>
       <h5><a id="_Toc389816008"/>2.3.3 Heutiger Standort von Handschrift V': Die Biblioteca Casanatense in Rom</h5>
       <p class="MsoNormal">Erst im Jahr 1816 gelangten nach
           mehreren Anfragen 848 deutschsprachige Handschriften der Palatina (<i>Codices Palatini
-            germanici</i>), die sich zu diesem Zeitpunkt noch in der Vaticana befanden,
-          zurück nach Heidelberg ins Universitätshauptgebäude (<i>Domus Wilhelmiana</i>).
-          Unter diesen Codices befanden sich auch die in der ‘Epenwerkstatt’ gefertigten
+            germanici</i>), die zu diesem Zeitpunkt noch in der Vaticana aufbewahrt wurden,
+          zurück nach Heidelberg in das Universitätshauptgebäude (<i>Domus Wilhelmiana</i>).
+          Unter diesen Codices waren auch die in der ‘Epenwerkstatt’ gefertigten
           Heidelberger Codd. Pal. germ. <a href="http://handschriftencensus.de/2678">364</a>,
-          <a href="http://handschriftencensus.de/2682">383</a> und <a href="http://handschriftencensus.de/2684">404</a>; Hs. V' allerdings wurde
+          <a href="http://handschriftencensus.de/2682">383</a> und <a href="http://handschriftencensus.de/2684">404</a>. Hs. V' hingegen wurde
           damals bereits nicht mehr in der Vaticana aufbewahrt. Unter nicht bekannten
-          Umständen gelangte dieser Codex zwischen 1751 und 1792 in die im Jahr 1701 neu
+          Umständen war dieser Codex zwischen 1751 und 1792 in die im Jahr 1701 neu
           eröffnete Bibliothek des Römischen Dominikanerkonvents bei Santa Maria sopra
-          Minerva, der heutigen Biblioteca Casanatense, wo er mit einem Bibliotheksstempel am rechten Rand von Bl.
-          <router-link to="/faksimile/VV/001r">1r</router-link> versehen wurde.
-          Der Stempel mit Turm trägt im Uhrzeigersinn die Inschrift:
+          Minerva, der heutigen Biblioteca Casanatense, gelangt. Dort war er am rechten Rand von Bl.
+          <router-link to="/faksimile/VV/001r">1r</router-link> mit einem Bibliotheksstempel versehen worden,
+          der einen Turm zeigt und im Uhrzeigersinn gelesen die Inschrift trägt:
           <i>BIBLIOTHE  A CARD  H  CASAN  D  O  PRÆD </i>. Ein Abklatsch dieses Stempels
           auf der Rückseite des letzten vorderen Spiegelblatts zeigt,
           dass die Handschrift bei der Stempelung bereits eingebunden war.
           In der Biblioteca Casanatense erhielt die Handschrift zunächst die
           Signatur <i>0 19</i> (Nachtrag des ab 1759 amtierenden Bibliothekars
           Giovanni Battista Audiffredi im Katalog von 1744),
-          später <i>AR. I. 9.</i>, dann <i>A. I. 19.</i> und schließlich die heute gültige Signatur <i>Cod. 1409</i>
-          (siehe Vorderspiegel sowie die Beschreibung oben).<a href="#_ftn160" id="_ftnref160"><sup>[160]</sup></a></p>
-      <p class="MsoNormal">Es war in der
-          Biblioteca Casanatense, wo die Forschung im frühen 19. Jahrhundert in der Kopie
-          Hs. V' erstmals auf den ›Nuwen Parzifal‹ aufmerksam wurde. In einem Brief vom
+          später <i>AR. I. 9.</i>, dann <i>A. I. 19.</i> und schließlich die heute gültige, am Vorderspiegel angebrachte Signatur <i>Cod. 1409</i>.<a href="#_ftn160" id="_ftnref160"><sup>[160]</sup></a></p>
+      <p class="MsoNormal">In der
+          Biblioteca Casanatense ist die Forschung zu Anfang des 19. Jahrhunderts erstmals auf den ›Nuwen Parzifal‹ aufmerksam geworden, dies in der Gestalt der Kopie von Hs. V'. In einem Brief vom
           15. und 16. November 1818 berichtet <span style="font-variant:small-caps">Friedrich
-            Heinrich von der Hagen</span> über den Erfolg seiner Suche nach Handschriften
-          in der ehemaligen Dominikanerbibliothek in Rom von einem bislang unbekannten
-          Text, dessen Vorlage er bereits erkannt hatte, nämlich Folgendes:
+            Heinrich von der Hagen</span> über den Fund einer deutschsprachigen Handschrift
+          in der ehemaligen Dominikanerbibliothek in Rom Folgendes (und belegt dabei seine Kenntnis der französischen Quelle, nicht jedoch der Vorlage V):
       </p>
       <blockquote class="Blockquote">In dem handschriftlichen Verzeichnisse der Handschriften fand ich eine einzige
-          Deutsche: ich ließ sie mir bringen, und siehe, es war ein schwerer Folinat, und
+          Deutsche: ich ließ sie mir bringen, und siehe, es war ein schwerer Foliant, und
           darin noch ein ganz unbekanntes Altdeutsches Gedicht, nämlich der <span style="letter-spacing:1.0pt">Parcival</span> mit der <span style="letter-spacing: 1.0pt">Tafelrunde</span>. Es ist aber, wie Anfang und Ende besagt, eine Bearbeitung
           des Französischen (Prosa) Romanes von <span style="letter-spacing:1.0pt">Manessier</span>
           (hiee [!] <span style="letter-spacing:1.0pt">Manescher</span> genannt), welcher
@@ -3967,18 +4011,16 @@
                   ebd<span style="font-variant:small-caps">.</span>, S. 376.</span></p>
           </div>
           <div id="ftn85">
-            <p class="MsoFootnoteText"><a href="#_ftnref85" id="_ftn85"><sup>[85]</sup></a>         <span style=""> Vgl.
-                  besonders die Bll. </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348243"><span style="">2v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348254"><span style="">8r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348263"><span style="">12v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348273"><span style="">17v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348276"><span style="">19r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348279"><span style="">20v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348281"><span style="">21v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348289"><span style="">25v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348292"><span style="">27r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348298"><span style="">30r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348321"><span style="">41v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348341"><span style="">51v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348349"><span style="">55v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348354"><span style="">58r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348358"><span style="">60r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348362"><span style="">62r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348366"><span style="">64r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348370"><span style="">66r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348374"><span style="">68r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348383"><span style="">72v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348392"><span style="">77r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348404"><span style="">83r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348415"><span style="">88v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348427"><span style="">94v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348449"><span style="">105v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348458"><span style="">110r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348461"><span style="">111v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348463"><span style="">112v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348466"><span style="">114r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348474"><span style="">118r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348477"><span style="">119v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348480"><span style="">121r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348495"><span style="">128v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348502"><span style="">132r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348509"><span style="">135v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348521"><span style="">141v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348536"><span style="">149r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348546"><span style="">154r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348555"><span style="">158v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348561"><span style="">161v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348568"><span style="">165r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348575"><span style="">168v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348581"><span style="">171v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348598"><span style="">180r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348599"><span style="">180v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348600"><span style="">181r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348601"><span style="">181</span></a><span style="">v, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348602"><span style="">182r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348603"><span style="">182v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348604"><span style="">183r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348605"><span style="">183v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348606"><span style="">184r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348608"><span style="">185r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348609"><span style="">185v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348610"><span style="">186r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348611"><span style="">186v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348612"><span style="">187r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348613"><span style="">187v</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348614"><span style="">188r</span></a><span style="">, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348615"><span style="">188v</span></a><span style=""> und </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348616"><span style="">189r</span></a><span style=""> sowie </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348618"><span style="">190r</span></a><span style="">a, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348619"><span style="">190v</span></a><span style="">b, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348620"><span style="">191r</span></a><span style="">b, </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348621"><span style="">191v</span></a><span style="">a und </span><a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348622"><span style="">192r</span></a><span style="">a. Zur
+            <p class="MsoFootnoteText"><a href="#_ftnref85" id="_ftn85"><sup>[85]</sup></a> <span style=""> Zur
                   Handschrift siehe <span style="font-variant:small-caps">Heinzer/Stamm Kat.
-                      Lichtenthal</span>, S. 298f. (F. Heinzer). <span style="font-variant:small-caps">Felix
-                      Heinzer</span> hat die Initialen des Lichtenthaler Codex als »von
+                      Lichtenthal</span> (1987), S. 298f. (F. Heinzer). <span style="font-variant:small-caps">Felix
+                      Heinzer</span> hat die Initialen des Lichtenthaler Codex in <span style="font-variant:small-caps">Heinzer/Stamm Kat.
+                      Lichtenthal</span>, S. 298, als »von
                   hervorragender Qualität, Art der Gruppe 5 von <span style="font-variant:small-caps">Beer</span>«
-                    beschrieben; vgl. <span style="font-variant:small-caps">Heinzer/Stamm Kat.
-                      Lichtenthal</span>, S. 298, Zit. ebd.</span></p>
+                    beschrieben.</span></p>
           </div>
           <div id="ftn86">
-            <p class="MsoFootnoteText"><a href="#_ftnref86" id="_ftn86"><sup>[86]</sup></a>         <span style=""> Vgl.
-                  besonders die Bll. </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/1r"><span style="">1r</span></a><span style="">a, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/1v"><span style="">1v</span></a><span style="">b, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/2r"><span style="">2r</span></a><span style="">, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/30v"><span style="">30v</span></a><span style="">a, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/31r"><span style="">31r</span></a><span style="">, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/48v"><span style="">48v</span></a><span style="">, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/49r"><span style="">49r</span></a><span style="">b, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/55v"><span style="">55v</span></a><span style="">, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/56r"><span style="">56r</span></a><span style="">, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/66v"><span style="">66v</span></a><span style="">a, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/67r"><span style="">67r</span></a><span style="">, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/70v"><span style="">70v</span></a><span style="">b, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/71r"><span style="">71r</span></a><span style="">a, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/75r"><span style="">75r</span></a><span style="">, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/83r"><span style="">83r</span></a><span style="">b, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/93v"><span style="">93v</span></a><span style="">a, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/101v"><span style="">101v</span></a><span style="">b, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/102r"><span style="">102r</span></a><span style="">b, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/115v"><span style="">115v</span></a><span style="">b, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/132v"><span style="">132v</span></a><span style="">b, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/133r"><span style="">133r</span></a><span style="">a, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/138r"><span style="">138r</span></a><span style="">b, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/138v"><span style="">138v</span></a><span style="">a, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/148r"><span style="">148r</span></a><span style="">b, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/149v"><span style="">149v</span></a><span style="">b, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/153r"><span style="">153r</span></a><span style="">b, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/153v"><span style="">153v</span></a><span style="">a, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/159r"><span style="">159r</span></a><span style="">a, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/165r"><span style="">165r</span></a><span style="">, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/172r"><span style="">172r</span></a><span style="">b, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/202v"><span style="">202v</span></a><span style="">b, </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/208v"><span style="">208v</span></a><span style="">a und </span><a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/235v"><span style="">235v</span></a><span style="">a. Zur
+            <p class="MsoFootnoteText"><a href="#_ftnref86" id="_ftn86"><sup>[86]</sup></a>         <span style=""> Zur
                   Handschrift siehe <span style="font-variant:small-caps">Bretscher-Gisiger/Gamper
                       Kat. Wettingen</span>, S. 107–110. <span style="font-variant:small-caps">Ellen
                       J. Beer</span> verortet das MsWettF 9 in ein von ihr rekonstruiertes, nach 1330
@@ -3986,7 +4028,7 @@
                   Aargauer KB, MsMurF 2 (Antiphonar); Landesarchiv Baden-Württemberg, Karlsruhe,
                   GLA, Anniversarienbücher 64, 3 (›Liber vitae ecclesiae Basiliensis‹); Freiburg
                   i.Br., Augustinermuseum, Codex Adelhausen 3, Inv. Nr. 11725 (Antiphonar), </span><a href="http://dl.ub.uni-freiburg.de/diglit/hs476"><span style="">Hs.
-                      476</span></a><span style=""> (dt. Stundenbuch, vgl. Bl. </span><a href="http://dl.ub.uni-freiburg.de/diglit/hs476/0005/image?sid=624659917a7df5ceaa9e9070f0ebd3c6#current_page"><span style="">1r</span></a><span style="">) und </span><a href="http://dl.ub.uni-freiburg.de/diglit/hs301/0536?sid=877ccb6b032360fbbba7b1dd8daa2450"><span style="">Hs. 301</span></a><span style="">
+                      476</span></a><span style=""> (deutsches Stundenbuch, vgl. Bl. </span><a href="http://dl.ub.uni-freiburg.de/diglit/hs476/0005/image?sid=624659917a7df5ceaa9e9070f0ebd3c6#current_page"><span style="">1r</span></a><span style="">) und </span><a href="http://dl.ub.uni-freiburg.de/diglit/hs301/0536?sid=877ccb6b032360fbbba7b1dd8daa2450"><span style="">Hs. 301</span></a><span style="">
                   (Stunden-, Gebet- und Andachtsbuch, vgl. Bl. </span><a href="http://dl.ub.uni-freiburg.de/diglit/hs301/0029/image?sid=877ccb6b032360fbbba7b1dd8daa2450#current_page"><span style="">14r</span></a><span style=""> und </span><a href="http://dl.ub.uni-freiburg.de/diglit/hs301/0029/image?sid=877ccb6b032360fbbba7b1dd8daa2450#current_page"><span style="">57v</span></a><span style="">), sowie Basel,
                   UB, B VII 27 (Johannes von Dambach); vgl. <span style="font-variant:small-caps">Beer</span>
                   (1959), S. 27–29, 40, 58–64, 104 und Tafeln 35–43. Außer dem MsWettF 9 kann
@@ -3995,11 +4037,10 @@
           </div>
           <div id="ftn87">
             <p class="MsoFootnoteText"><a href="#_ftnref87" id="_ftn87"><sup>[87]</sup></a>         <span style=""> Vgl. <span style="font-variant:small-caps">Heinzer/Stamm Kat. Lichtenthal</span>, S. 44f.
-                  und S. 297f.</span></p>
+                  und 297f.</span></p>
           </div>
           <div id="ftn88">
-            <p class="MsoFootnoteText"><a href="#_ftnref88" id="_ftn88"><sup>[88]</sup></a>         <span style=""> Vgl.
-                  ebd., S. 38, Zit. ebd., und <span style="font-variant:small-caps">Schindele
+            <p class="MsoFootnoteText"><a href="#_ftnref88" id="_ftn88"><sup>[88]</sup></a>         <span style=""> Ebd., S. 38; vgl. auch <span style="font-variant:small-caps">Schindele
                       (1995), S. 36.</span></span></p>
           </div>
           <div id="ftn89">
@@ -4019,12 +4060,12 @@
             <p class="MsoFootnoteText"><a href="#_ftnref92" id="_ftn92"><sup>[92]</sup></a>         <span style=""> Vgl. </span><a href="http://webserver.erwin-rauner.de/biblcod/bc01_ort_details.php?ortnr=17410&amp;biblnr=1&amp;orts id=PAIRIS"><span style="">Bibliothecae codicum medii aevi</span></a><span style=""> (Angaben teilweise nicht korrekt).</span></p>
           </div>
           <div id="ftn93">
-            <p class="MsoFootnoteText"><a href="#_ftnref93" id="_ftn93"><sup>[93]</sup></a>         <span style=""> Vgl. <span style="font-variant:small-caps">Beer</span> (1959), S. 26f. et passim, und <span style="font-variant:small-caps">Beer</span> (1965), S. 140.</span></p>
+            <p class="MsoFootnoteText"><a href="#_ftnref93" id="_ftn93"><sup>[93]</sup></a>         <span style=""> Vgl. <span style="font-variant:small-caps">Beer</span> (1959), S. 26f. u.ö., und <span style="font-variant:small-caps">Beer</span> (1965), S. 140.</span></p>
           </div>
           <div id="ftn94">
             <p class="MsoFootnoteText"><a href="#_ftnref94" id="_ftn94"><sup>[94]</sup></a> Dass der Umfang von Hs. V ursprünglich tatsächlich 322 Blätter
               umfasst hat, zeigt auch die Blattberechnung auf Bl. <router-link to="/faksimile/V/320v">320v</router-link>a, die in Sexternionen den Umfang
-              (nicht den Lagenaufbau) der Handschrift angibt, was möglicherweise der Berechnung des Schreiberlohns diente; vgl. <span
+              (nicht den Lagenaufbau) der Handschrift angibt, was möglicherweise der Berechnung des Schreiberlohns gedient hat; vgl. <span
               style="font-variant:small-caps">Schorbach</span> (1888), S. XV.</p>
           </div>
           <div id="ftn95">
@@ -4041,14 +4082,14 @@
           </div>
           <div id="ftn97">
             <p class="MsoFootnoteText"><a href="#_ftnref97" id="_ftn97"><sup>[97]</sup></a>         <span style=""> Vgl. <span style="font-variant:small-caps">Himmelstein</span> (1861), S. 153 und 155f.; <span style="font-variant:small-caps">Urkunden Augustiner</span>, S. 575f. (Nr. 892),
-                  S. 578–580 (Nr. 897), S. 581f. (Nr. 900) und S. 586 (Nr. 908); <span style="font-variant:small-caps">Wagner</span> (1987), S. 106–108 (Nr. 64), und <span style="font-variant:small-caps">Schöffler</span> (1991), S. 89.</span></p>
+                  S. 578–580 (Nr. 897), S. 581f. (Nr. 900) und S. 586 (Nr. 908); <span style="font-variant:small-caps">Wagner</span> (1987), S. 106–108 (Nr. 64); <span style="font-variant:small-caps">Schöffler</span> (1991), S. 89.</span></p>
           </div>
           <div id="ftn98">
             <p class="MsoFootnoteText"><a href="#_ftnref98" id="_ftn98"><sup>[98]</sup></a><span style=""> Vgl. <span
               style="font-variant:small-caps">Urkundenregesten Bistum Würzburg</span>, S. 77f. (Nr. 91: <i>der erber man her Hermann,
               genannt Purrian, Pfarrer (phferrer) von Neustadt</i>); <span style="font-variant:small-caps">Wagner</span> (1982),
               S. 169; <span style="font-variant:small-caps">Wagner</span> (1987), S. 188f. (Nr. 241: <i>honorabilis vir dominus Hermannus
-                plebanus Noue Ciutatis</i>) und S. 214 (Nr. 304: <i>domini Hermanni plebani in Newstat</i>); <span style="font-variant:small-caps">Bünz</span>
+                plebanus Noue Ciutatis</i>) und 214 (Nr. 304: <i>domini Hermanni plebani in Newstat</i>); <span style="font-variant:small-caps">Bünz</span>
                 (1998), S. 758f. (<i>obiit Heinricus[!] Burian canonicus</i>).</span></p>
           </div>
           <div id="ftn99">
@@ -4067,7 +4108,7 @@
             <p class="MsoFootnoteText"><a href="#_ftnref101" id="_ftn101"><sup>[101]</sup></a> Zur Entwicklung und Verwendung der
                 Helme in Turnieren siehe <span style="font-variant:small-caps">Gamber</span>
                 (1985), S. 515f.; <span style="font-variant:small-caps">Gamber</span> (1989); <span style="font-variant:small-caps">Jezler</span>
-                (2014) und <span style="font-variant:small-caps">Jezler</span>/<span style="font-variant:small-caps">Niederhäuser</span>/<span
+                (2014); <span style="font-variant:small-caps">Jezler</span>/<span style="font-variant:small-caps">Niederhäuser</span>/<span
                 style="font-variant:small-caps">Jezler Kat. Ausstellung Ritterturnier</span>, S. 134–147.
             </p>
           </div>
@@ -4094,7 +4135,7 @@
                 II., 1522 mit Anna Alexandrina Gräfin von Fürstenberg vermählt, die
                 Erwerbsjahre seiner Bücher; vgl. <span style="font-variant:small-caps">Bartholdi</span>
                 (1861/62), S. 46; <span style="font-variant:small-caps">Kimmenauer</span>
-                (1959/60) (hier als Ulrich IX. bezeichnet) (Abb. eines Zeichens auf S. 22),
+                (1959/60) (hier als Ulrich IX. bezeichnet, Abbildung eines Zeichens auf S. 22),
                 sowie <span style="font-variant:small-caps">Stammtafeln</span> XI, Tafel 82
                 (Ulrich VI).
             </p>
@@ -4109,7 +4150,7 @@
             </p>
           </div>
           <div id="ftn107">
-            <p class="MsoFootnoteText"><a href="#_ftnref107" id="_ftn107"><sup>[107]</sup></a>       <span style=""> Vgl.<span style="font-variant:small-caps"> Kerler</span> (1840), S. 137f.; <span style="font-variant:small-caps">Stammtafeln</span> XI, Tafel 82, und <span style="font-variant:small-caps">Stammtafeln</span> XII, Tafel 59. – Zu Elisabeth
+            <p class="MsoFootnoteText"><a href="#_ftnref107" id="_ftn107"><sup>[107]</sup></a>       <span style=""> Vgl.<span style="font-variant:small-caps"> Kerler</span> (1840), S. 137f.; <span style="font-variant:small-caps">Stammtafeln</span> XI, Tafel 82; <span style="font-variant:small-caps">Stammtafeln</span> XII, Tafel 59. – Zu Elisabeth
               findet sich auf dem </span><router-link to="/faksimile/V/321r"><span style="">Vorderspiegel</span></router-link>
                   unterhalb des Bücherzeichens folgender Bleistifteintrag des 20. Jahrhunderts: <i>Elisabeh
                       v. Rappolstein | geb. Gräfin v. Helfenstein † 1584 | </i>
@@ -4143,8 +4184,8 @@
                   Einträge mitten im Text scheinen nicht unüblich gewesen zu sein. Jedenfalls
                   bringt auch der <a href="http://daten.digitale-sammlungen.de/0003/bsb00035326/images/index.html?fip=193.174.98.30&amp;id=00035326&amp;seite=1">Cgm 8470</a>
                   der BSB in München aus dem 2. Viertel des 15. Jahrhunderts mit dem ›Jüngeren
-                  Titurel‹ (Bildnrn. 5, 6, 10 et passim) mehrere Stammbucheinträge des 16.
-                  Jahrhunderts.</p>
+                  Titurel‹ mehrere Stammbucheinträge des 16.
+                  Jahrhunderts (Bildnrn. 5, 6, 10 u.ö.).</p>
           </div>
           <div id="ftn113">
             <p class="MsoFootnoteText"><a href="#_ftnref113" id="_ftn113"><sup>[113]</sup></a><span style="font-variant:small-caps"> Wittmann-Klemm</span>
@@ -4152,11 +4193,11 @@
                   h..inge von orgelles die Edel frau wol/ gemuot | GOT haltz jn sainer huot«.</p>
           </div>
           <div id="ftn114">
-            <p class="MsoFootnoteText"><a href="#_ftnref114" id="_ftn114"><sup>[114]</sup></a><span style=" font-variant:small-caps"> Becker</span> (1977), S. 91.</p>
+            <p class="MsoFootnoteText"><a href="#_ftnref114" id="_ftn114"><sup>[114]</sup></a> So P.J. <span style=" font-variant:small-caps"> Becker</span> (1977), S. 91.</p>
           </div>
           <div id="ftn115">
             <p class="MsoFootnoteText"><a href="#_ftnref115" id="_ftn115"><sup>[115]</sup></a><span style=""> Zur
-                  Geschichte des magischen Horns siehe <span style="font-variant:small-caps">Heller</span>
+                  Erzählung vom magischen Horn siehe <span style="font-variant:small-caps">Heller</span>
                   (1934) mit einem Abdruck von Sch. 165.13–169.2.</span></p>
           </div>
           <div id="ftn116">
@@ -4164,12 +4205,12 @@
                   (1977), S. 132, liest: »karados« und »stinganain«.</span></p>
           </div>
           <div id="ftn117">
-            <p class="MsoFootnoteText"><a href="#_ftnref117" id="_ftn117"><sup>[117]</sup></a>       Ebd., S. 132, liest: »Riter karitus und stingenein/ | dye zwai wolgemuot und
+            <p class="MsoFootnoteText"><a href="#_ftnref117" id="_ftn117"><sup>[117]</sup></a>       Dies. liest ebd.: »Riter karitus und stingenein/ | dye zwai wolgemuot und
                   fein | heten/ Einander lieb | dar jn jre herz oft/ ward betruebt | biß ire got
                   halff/ das sy jn jm kloster fand | und jn erlest/ vom …band«.</p>
           </div>
           <div id="ftn118">
-            <p class="MsoFootnoteText"><a href="#_ftnref118" id="_ftn118"><sup>[118]</sup></a>       <span style=""> Vgl. <span style="font-variant:small-caps">Kerler</span> (1840), S. 153–155; <span style="font-variant:small-caps">Barack Kat. Donaueschingen</span>, S. IVf.; <span style="font-variant:small-caps">Huber</span> (1973), S. 7; <span style="font-variant:small-caps">Wittmann-Klemm</span> (1977), S. 134; <span style="font-variant:small-caps">Heinzer</span> (1994), S. 9f., und <span style="font-variant:small-caps">Obhof</span>. Hans-Peter Geh listet Hs. V versehentlich
+            <p class="MsoFootnoteText"><a href="#_ftnref118" id="_ftn118"><sup>[118]</sup></a>       <span style=""> Vgl. <span style="font-variant:small-caps">Kerler</span> (1840), S. 153–155; <span style="font-variant:small-caps">Barack Kat. Donaueschingen</span>, S. IVf.; <span style="font-variant:small-caps">Huber</span> (1973), S. 7; <span style="font-variant:small-caps">Wittmann-Klemm</span> (1977), S. 134; <span style="font-variant:small-caps">Heinzer</span> (1994), S. 9f.; <span style="font-variant:small-caps">Obhof</span>. Hans-Peter Geh listet Hs. V versehentlich
                   bei denjenigen Codices auf, die der Büchersammler Joseph von Laßberg
                   (1770–1855) der Fürstlich Fürstenbergischen Hofbibliothek verkauft hat; vgl. <span style="font-variant:small-caps">Geh</span> (1994), S. 285.</span></p>
           </div>
@@ -4189,30 +4230,21 @@
           <div id="ftn123">
             <p class="MsoFootnoteText"><a href="#_ftnref123" id="_ftn123"><sup>[123]</sup></a>       <span style=""> Dies
               zeigen Fehler in Hs. V', die nur beim direkten Textvergleich entstanden sein
-                  können, wie bspw. die durch einen Augensprung verursachte, nachträglich
+                  können, wie bspw. die durch eine Augenabirrung verursachte, nachträglich
                   korrigierte Dittographie (Wiederholung der drei Verse NP 10855–10857 nach Vers
                   NP 10861) auf Bl. </span><router-link to="/faksimile/VV/057v">57v</router-link><span style="">b (die
                   entsprechende Stelle fehlt in Hs. V infolge Blattverlusts).</span></p>
           </div>
           <div id="ftn124">
             <p class="MsoFootnoteText"><a href="#_ftnref124" id="_ftn124"><sup>[124]</sup></a>       <span style=""> Vgl.
-              dazu die bei <span style="font-variant:small-caps">Stolz</span> (2010), S.
-              285–287, und <span style="font-variant:small-caps">Stolz</span> (2012), S.
-                  341–343, aufgeführten Indizien.</span></p>
+              <span style="font-variant:small-caps">Stolz</span> (2010), S.
+              285–287; <span style="font-variant:small-caps">Stolz</span> (2012), S.
+                  341–344; <span style="font-variant:small-caps">Stolz</span> (2017), S. 260. Zur Einschätzung der Handschrift V' als Kopie von Handschrift V ferner <span style="font-variant:small-caps">Besch</span> (1962), S. 92; <span style="font-variant:small-caps">Mertens</span> (<sup>2</sup>1994), S. 34; <span style="font-variant:small-caps">Bumke</span> (1997), S. 87.</span></p>
           </div>
           <div id="ftn125">
-            <p class="MsoFootnoteText"><a href="#_ftnref125" id="_ftn125"><sup>[125]</sup></a>       <span style=""> Vgl.
-                dazu bspw. Hs. V', Bl. </span><router-link to="/faksimile/VV/144r">144r</router-link><span style="">a (letzte Zeile)
-                  und Bl. </span><router-link to="/faksimile/VV/144r">144r</router-link><span style="">b (erste Zeile),
-                  wo Schreiber II einen ganzen Absatz der Vorlage (NP 29526–29589) überspringt und die ersten beiden
-                  bereits kopierten Verse dieses Abschnitts wieder ausradiert (<i>A: dem morgen ſie :it enpitten | Balde ire ſtraſʒe ſie riten</i>; nur unter UV-Licht lesbar, der Abdruck erfolgt diplomatisch), oder
-                  Hs. V', Bl. </span><router-link to="/faksimile/VV/170v">170v</router-link><span style="">a, 2. Zeile
-                  von unten (NP 36202<sup>1</sup>), wo der Kopist <i>Siner</i> aus der
-                  Vorlage schreibt, sich dann jedoch für eine Kürzung entscheidet, das bereits
-                  geschriebene Wort streicht und mit einer eigenen Formulierung fortfährt.
-                  Die erwähnte Schätzung von 5300 Minusversen in Hs. V' basiert auf Daten, die Fabian Sietz erhoben
+            <p class="MsoFootnoteText"><a href="#_ftnref125" id="_ftn125"><sup>[125]</sup></a>       <span style=""> Die erwähnte Schätzung von 5300 Minusversen in Hs. V' basiert auf Daten, die <span style="font-variant:small-caps">Fabian Sietz</span> erhoben
                   und mir zur Verfügung gestellt hat, wofür ich ihm an dieser Stelle herzlich danke.
-                  Die Daten liegen der Tabelle zur Gesamtzahl der in Hs. V' gekürzten Verse in <span style="font-variant:small-caps">Sietz</span> (2017), S. 133, Abb. 3, zugrunde.
+                  Die Daten liegen der Tabelle zur Gesamtzahl der in Hs. V' gekürzten Verse in <span style="font-variant:small-caps">Sietz</span> (2017), S. 133, Abb. 3, zugrunde. Zu den Kürzungen siehe auch <span style="font-variant:small-caps">Stolz/Fasching</span> (2020).
                   </span></p>
           </div>
           <div id="ftn126">
@@ -4220,50 +4252,43 @@
                   S. 141.</span></p>
           </div>
           <div id="ftn127">
-            <p class="MsoFootnoteText"><a href="#_ftnref127" id="_ftn127"><sup>[127]</sup></a> In der Forschung gilt die Meinung,
-              dass der erste Teil des ›Rappoltsteiner Parzifal‹ ebenfalls kopiert wurde, heute jedoch verloren ist; vgl. z. B.
+            <p class="MsoFootnoteText"><a href="#_ftnref127" id="_ftn127"><sup>[127]</sup></a> In der Forschung ist die Meinung verbreitet,
+              dass der erste Teil des ›Rappoltsteiner Parzifal‹ ebenfalls kopiert worden, heute jedoch verloren ist; vgl. z.B.
               <span style="font-variant:small-caps">von der Hagen</span> (1818), S. 304 (14. Brief vom 15./16. November 1816); <span
               style="font-variant:small-caps">Schorbach</span> (1888), S. XVII; <span style="font-variant:small-caps">Hartl</span> (1928), S. 18;
               <span style="font-variant:small-caps">Wittmann-Klemm</span> (1977), S. 1; <span style="font-variant:small-caps">Schirok</span> (1982), S. 38 (Nr. 27);
-              <span style="font-variant:small-caps">Mertens</span> (1998), S. 300; <span style="font-variant:small-caps">Schöller</span> (2009), S. 103, Anm. 191,
-              und <span style="font-variant:small-caps">Chen</span> (2015), S. 11. Die von <span style="font-variant:small-caps">Michael Stolz</span> in die Diskussion
-              gebrachte Vermutung, dass der erste Teil gar nicht abgeschrieben wurde (<span style="font-variant:small-caps">Stolz</span> [2012], S. 338), erscheint
-              durchaus berechtigt, da Wolframs von Eschenbach <b>›</b>Parzival<b>‹</b> in der
-              ,Epenwerkstatt’, in der die Hs. V' entstand, vermutlich bereits kopiert worden war; siehe dazu
-              <a href="#_Toc389816004">Kap. 2.2.3</a> und <span style="font-variant:small-caps">Fasching</span> (2018), S. 503.</p>
+              <span style="font-variant:small-caps">Mertens</span> (1998), S. 300; <span style="font-variant:small-caps">Schöller</span> (2009), S. 103, Anm. 191; <span style="font-variant:small-caps">Chen</span> (2015), S. 11. Die von <span style="font-variant:small-caps">Stolz</span> (2012), S. 338, in die Diskussion
+              gebrachte Vermutung, dass der erste Teil gar nie abgeschrieben worden sei, gewinnt dadurch an Plausibilität,
+              dass Wolframs von Eschenbach <b>›</b>Parzival<b>‹</b> in der
+              ’Epenwerkstatt’, in der die Hs. V' entstanden ist, vermutlich bereits kopiert worden war; siehe dazu
+              <a href="#_Toc389816004">Kap. 2.2.3</a> und <span style="font-variant:small-caps">Fasching</span> (2018), S. 503. – Die Darstellung orientiert sich im Folgenden wie bei Hs. V an den Richtlinien Handschriftenkatalogisierung (1992) der Deutschen Forschungsgemeinschaft (siehe oben, <a href="#_ftn11" id="_ftnref11">Anm. 11</a>). Sie erweitert zugleich die Beschreibung von <span style="font-variant:small-caps">Matthias Miller</span> in <span style="font-variant:small-caps">Miller/Zimmermann</span> Kat. Heidelberg (2007), S. 69–71, aufgrund eigener Recherchen in der Biblioteca Casanatense in Rom, der ich an dieser Stelle für die Möglichkeit zur Autopsie der Handschrift danke.</p>
           </div>
           <div id="ftn128">
-            <p class="MsoFootnoteText"><a href="#_ftnref128" id="_ftn128"><sup>[128]</sup></a> Der Biblioteca Casanatense in Rom danke ich für die
-              freundliche Überlassung der Handschrift zur Benutzung.</p>
+            <p class="MsoFootnoteText"><a href="#_ftnref128" id="_ftn128"><sup>[128]</sup></a><span style=" font-variant:small-caps"> Miller</span>/<span
+            style="font-variant:small-caps">Zimmermann Kat. Heidelberg</span>, S. 70 (Beschreibung Matthias Miller). Der Hersausgeber<span style="font-variant:small-caps"> Karl Schorbach</span>
+                  hat 1888 mit besonderem Hinweis auf den Epilog konstatiert, dass in Hs. V' "(d)er elsässische Dialekt der Vorlage […] bis auf geringe Spuren
+                  verwischt" worden sei; <span style="font-variant:small-caps">Schorbach</span>
+                  (1888), S. XVIII. </p>
           </div>
           <div id="ftn129">
-            <p class="MsoFootnoteText"><a href="#_ftnref129" id="_ftn129"><sup>[129]</sup></a><span style=" font-variant:small-caps"> Miller</span>/<span
-            style="font-variant:small-caps">Zimmermann Kat. Heidelberg</span>, S. 70 (Beschreibung Matthias Miller). Der Hersausgeber<span style="font-variant:small-caps"> Karl Schorbach</span>
-                  hat 1888 mit besonderem Hinweis auf den Epilog konstatiert, dass in Hs. V' "[d]er elsässische Dialekt der Vorlage […] bis auf geringe Spuren
-                  verwischt" worden sei; <span style="font-variant:small-caps">Schorbach</span>
-                  (1888), S. XVIII.</p>
+            <p class="MsoFootnoteText"><a href="#_ftnref129" id="_ftn129"><sup>[129]</sup></a><span style="">
+              Die Angaben zu den Minusversen beruhen hier und im Folgenden auf den Daten, die der Tabelle zur Gesamtzahl der in Hs. V' gekürzten Verse
+              in <span style="font-variant:small-caps">Sietz</span> (2017), S. 133, Abb. 3, zugrunde liegen; siehe oben, Anm. <a href="#_ftn125" id="_ftnref125">125</a>.</span></p>
           </div>
           <div id="ftn130">
-            <p class="MsoFootnoteText"><a href="#_ftnref130" id="_ftn130"><sup>[130]</sup></a>       <span style="">
-              Die Angaben zu den Minusversen beruhen auf den Daten, die der Tabelle zur Gesamtzahl der in Hs. V' gekürzten Verse
-              in <span style="font-variant:small-caps">Sietz</span> (2017), S. 133, Abb. 3, zugrunde liegen; vgl. oben, Anm. <a href="#_ftn125" id="_ftnref125">125</a>.</span></p>
+            <p class="MsoFootnoteText"><a href="#_ftnref130" id="_ftn130"><sup>[130]</sup></a>    <span style=""> Die
+                  folgenden Ausführungen beruhen auf den detaillierten Untersuchungen von <span style="font-variant:small-caps">Fasching</span> (2018).</span>   </p>
           </div>
           <div id="ftn131">
-            <p class="MsoFootnoteText"><a href="#_ftnref131" id="_ftn131"><sup>[131]</sup></a>       <span style=""> Die
-                  folgenden Ausführungen beruhen auf den detaillierten Untersuchungen <span style="font-variant:small-caps">Fasching</span> (2018).</span></p>
+            <p class="MsoFootnoteText"><a href="#_ftnref131" id="_ftn131"><sup>[131]</sup></a>  <span style="font-variant:small-caps">Matthias Miller</span>, der – mit Vorbehalt – drei Hände unterscheidet (Bl. <router-link to="/faksimile/VV/001r">1r</router-link>a–<router-link to="/faksimile/VV/048v">48v</router-link>b, <router-link to="/faksimile/VV/049r">49r</router-link>a–<router-link to="/faksimile/VV/139v">139v</router-link>a, <router-link to="/faksimile/VV/139v">139v</router-link>a–<router-link to="/faksimile/VV/181v">181v</router-link>b), betont, dass die zweite und dritte Hand „sehr ähnlich und vielleicht identisch“ seien; vgl. <span style="font-variant:small-caps">Miller/Zimmermann</span> Kat. Heidelberg (2007), S. 69.</p>
           </div>
           <div id="ftn132">
-            <p class="MsoFootnoteText"><a href="#_ftnref132" id="_ftn132"><sup>[132]</sup></a>       <span style="font-variant:small-caps"> Matthias Miller</span><span style="">
-                  unterscheidet – mit Vorbehalt – drei Hände; vgl. <span style="font-variant: small-caps">Miller</span>/<span style="font-variant:small-caps">Zimmermann Kat.
-                      Heidelberg</span>, S. 69.</span></p>
+            <p class="MsoFootnoteText"><a href="#_ftnref132" id="_ftn132"><sup>[132]</sup></a> Vgl. <span style="font-variant:small-caps">Fasching</span> (2018).</p>
           </div>
           <div id="ftn133">
-            <p class="MsoFootnoteText"><a href="#_ftnref133" id="_ftn133"><sup>[133]</sup></a> Siehe dazu <span style="font-variant:small-caps">Fasching</span> (2018).</p>
-          </div>
-          <div id="ftn134">
-            <p class="MsoFootnoteText"><a href="#_ftnref134" id="_ftn134"><sup>[134]</sup></a>
+            <p class="MsoFootnoteText"><a href="#_ftnref133" id="_ftn133"><sup>[133]</sup></a>
             <span style=" font-variant:small-caps"> Schneider</span><span style=""> (2009),
-                  Textbd., S. 120: »In der kalligraphischen, völlig gleichmäßigen Textura des
+                  S. 120: »In der kalligraphischen, völlig gleichmäßigen Textura des
                   Epenschreibers stehen, mit Ausnahme der Bogenverbindungen von de und do, die
                   Buchstaben unverbunden nebeneinander; die Schäfte sind meist doppelt gebrochen,
                   oft mit Quadrangelbildung am Abschluß auf der Zeile. Konkave Einwölbungen
@@ -4282,25 +4307,28 @@
                   Zu den Abweichungen siehe <span style="font-variant:small-caps">Fasching</span>
                   (2018), S. 499f.</span></p>
           </div>
-          <div id="ftn135">
-            <p class="MsoFootnoteText"><a href="#_ftnref135" id="_ftn135"><sup>[135]</sup></a> Siehe dazu <span
+          <div id="ftn134">
+            <p class="MsoFootnoteText"><a href="#_ftnref134" id="_ftn134"><sup>[134]</sup></a> Siehe dazu <span
               style="font-variant:small-caps">Fasching</span> (2018), S. 501f. (mit Schriftproben).</p>
           </div>
-        <div id="ftn136">
-          <p class="MsoFootnoteText"><a href="#_ftnref136" id="_ftn136"><sup>[136]</sup></a> Vgl. <span style="font-variant:small-caps">Fasching</span>
+        <div id="ftn135">
+          <p class="MsoFootnoteText"><a href="#_ftnref135" id="_ftn135"><sup>[135]</sup></a> Vgl. <span style="font-variant:small-caps">Fasching</span>
             (2018), S. 498–507.</p>
         </div>
-          <div id="ftn137">
-            <p class="MsoFootnoteText"><a href="#_ftnref137" id="_ftn137"><sup>[137]</sup></a> Zur
+          <div id="ftn136">
+            <p class="MsoFootnoteText"><a href="#_ftnref136" id="_ftn136"><sup>[136]</sup></a> Zur
                   Tabelle, die auf derjenigen bei <span style="font-variant:small-caps">Beckers</span>
                   (1995), S. 322, basiert, siehe <span style="font-variant:small-caps">Fasching</span>
                   (2018), S. 503.</p>
           </div>
-    <div id="ftn138">
+         <div id="ftn137">
+            <p class="MsoFootnoteText"><a href="#_ftnref137" id="_ftn137"><sup>[137]</sup></a> Zu den sieben Schreibern A bis G des Skriptoriums und ihren Anteilen an den Handschriften siehe <span style="font-variant:small-caps">Stolz/Fasching (2020)</span>.</p>
+          </div>
+        <div id="ftn138">
             <p class="MsoFootnoteText"><a href="#_ftnref138" id="_ftn138"><sup>[138]</sup></a> Ein klösterliches Skriptorium als Herstellungsort
               für möglich halten <span style="font-variant:small-caps">Schnelbögl</span> (1930), S. 5; <span style="font-variant:small-caps">Becker</span>
-              (1977), S. 91, Anm. 1, S. 122, Anm. 2, und S. 181, Anm. 3; <span style="font-variant:small-caps">Backes</span> (1992), S. 54, Anm. 24,
-              und <span style="font-variant:small-caps">Miller</span>/<span style="font-variant:small-caps">Zimmermann Kat. Heidelberg</span>, S. 241, 281
+              (1977), S. 91, Anm. 1, S. 122, Anm. 2, und S. 181, Anm. 3; <span style="font-variant:small-caps">Backes</span> (1992), S. 54, Anm. 24;
+              <span style="font-variant:small-caps">Miller</span>/<span style="font-variant:small-caps">Zimmermann Kat. Heidelberg</span>, S. 241, 281
               und 319. Die Begründung <span style="font-variant:small-caps">Schnelbögl</span>s, zwei Texte würden mit einem Bittgebet mit <i>Amen </i>(Codd. Pal.
               germ. 364, Bl. <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg364/0309/image"><span style="">151r</span></a><span style="">b [Schluss
                 des ›Lohengrin‹], und 383, Bl. </span><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg383/0372/image"><span style="">183v</span></a>a [Schluss
@@ -4311,25 +4339,24 @@
           <div id="ftn139">
             <p class="MsoFootnoteText"><a href="#_ftnref139" id="_ftn139"><sup>[139]</sup></a> Vgl. <span lang="DE-CH" style="font-variant:small-caps">Wirth</span>
                   (1982), S. 27–30 (Forschungsgeschichte); <span style="font-variant:small-caps">Miller/Zimmermann</span>
-                  (2007), <span lang="DE-CH">S. XVII, und <span style="font-variant:small-caps">Stolz</span> (2012),</span>
+                  (2007), <span lang="DE-CH">S. XVII; <span style="font-variant:small-caps">Stolz</span> (2012),</span>
                   S. 349–351 (mit weiterführender Literatur).</p>
           </div>
           <div id="ftn140">
             <p class="MsoFootnoteText"><a href="#_ftnref140" id="_ftn140"><sup>[140]</sup></a> Vgl. <span style="font-variant:small-caps">Heller</span> (1845),
               S. 251–253, und <span style="font-variant:small-caps">Mone</span> (1862), S. 142–147 (beide mit Abdruck der Urkunde von 1408, in welcher der Kauf
-              gemeldet wurde); <span style="font-variant:small-caps">Schottenloher</span> (1907), S. 419, und <span style="font-variant:small-caps">Backes</span>
+              gemeldet wird); <span style="font-variant:small-caps">Schottenloher</span> (1907), S. 419; <span style="font-variant:small-caps">Backes</span>
               (1992), S. 103f. – <span lang="DE-CH" style="font-variant:small-caps">Wirth</span> (1982), S. 25, weist darauf hin, dass die Bücher nicht unbedingt
-              in seinem Besitz waren, sondern möglicherweise zu den Beständen zählten, »über die er von Amts wegen disponieren konnte«.</p>
+              in Lamprechts Besitz waren, sondern möglicherweise zu den Beständen zählten, »über die er von Amts wegen disponieren konnte«.</p>
           </div>
           <div id="ftn141">
             <p class="MsoFootnoteText"><a href="#_ftnref141" id="_ftn141"><sup>[141]</sup></a> Vgl.
-                <span style="font-variant:small-caps">Schweitzer</span> (1844), S. 169 mit Abdruck des Anniversariums Lamperts vom 5.5.1399 in
-                einem Verkündigungsbuch, in dem die Schenkung erwähnt wird, und <span lang="DE-CH" style="font-variant:small-caps">Schottenloher</span>
+                <span style="font-variant:small-caps">Schweitzer</span> (1844), S. 169 mit Abdruck des in einem Verkündigungsbuch enthaltenen Anniversariums, in dem die Schenkung erwähnt wird, und <span lang="DE-CH" style="font-variant:small-caps">Schottenloher</span>
                 (1907), S. 420.</p>
           </div>
           <div id="ftn142">
-            <p class="MsoFootnoteText"><a href="#_ftnref142" id="_ftn142"><sup>[142]</sup></a> Vgl. <span style="font-variant:small-caps">Jakob</span> (1998),
-              S. 125, Zit. ebd.</p>
+            <p class="MsoFootnoteText"><a href="#_ftnref142" id="_ftn142"><sup>[142]</sup></a> <span style="font-variant:small-caps">Jakob</span> (1998),
+              S. 125.</p>
           </div>
           <div id="ftn143">
             <p class="MsoFootnoteText"><a href="#_ftnref143" id="_ftn143"><sup>[143]</sup></a> <span style=" font-variant:small-caps"> Heller</span> (1845), S.
@@ -4343,15 +4370,15 @@
           </div>
           <div id="ftn145">
             <p class="MsoFootnoteText"><a href="#_ftnref145" id="_ftn145"><sup>[145]</sup></a> Bamberg,
-              SB, Msc.Can.51. Zur Hs. siehe <span lang="DE-CH" style=" font-variant:small-caps">Leitschuh Kat. Bamberg</span>,
+              Staatsbibliothek, Msc.Can.51. Zur Hs. siehe <span lang="DE-CH" style=" font-variant:small-caps">Leitschuh Kat. Bamberg</span>,
               S. 924f. (Nr. 51) und 930f.; <span style="font-variant:small-caps">Pfändtner/Westphal Kat. Bamberg</span>, S. 311–313 (Kat.-Nr. 207) und Abb. 647–649. Diesen
               Codex lieh Lamprecht von Brun an den im Dienste eines Herren von Ochsenstein (der Straßburger Domdekan Johann Freiherr von Ochsenstein, 1331–86?)
               stehenden Magister Heinrich von Heydeck aus; vgl. <span lang="DE-CH" style="font-variant:small-caps">Schottenloher</span> (1907), S. 420.</p>
           </div>
           <div id="ftn146">
             <p class="MsoFootnoteText"><a href="#_ftnref146" id="_ftn146"><sup>[146]</sup></a> Bamberg,
-                  SB, Msc.Can.58. Zur Hs. siehe <span lang="DE-CH" style=" font-variant:small-caps">Schottenloher</span><span lang="DE-CH" style=""> (1907), S. 420; <span style="font-variant:small-caps">Leitschuh Kat.
-                      Bamberg</span>, S. 930f. (Nr. 58), und </span><span style=" font-variant:small-caps">Pfändtner/Westphal Kat. Bamberg</span><span style="">, S. 294–296 (Kat.-Nr. 197) und Abb. 613–616.</span><span lang="DE-CH" style=""> – </span><span style="">Von
+                  Staatsbibliothek, Msc.Can.58. Zur Hs. siehe <span lang="DE-CH" style=" font-variant:small-caps">Schottenloher</span><span lang="DE-CH" style=""> (1907), S. 420; <span style="font-variant:small-caps">Leitschuh Kat.
+                      Bamberg</span>, S. 930f. (Nr. 58); </span><span style=" font-variant:small-caps">Pfändtner/Westphal Kat. Bamberg</span><span style="">, S. 294–296 (Kat.-Nr. 197) und Abb. 613–616.</span><span lang="DE-CH" style=""> – </span><span style="">Von
                   den Büchern des 14. Jahrhunderts, die sich spätestens im 16. Jahrhundert in
                   der Gengenbacher Bibliothek (oder in der Stadt Gengenbach) befanden, haben sich
                   ein Graduale (Karlsruhe, BLB, Donaueschingen 883) und ein Breviarium (Karlsruhe,
@@ -4364,17 +4391,17 @@
           </div>
           <div id="ftn148">
               <p class="MsoFootnoteText"><a href="#_ftnref148" id="_ftn148"><sup>[148]</sup></a><span>&#160;</span>
-                  <a href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_871?ui_lang=ger"><span lang="it">Città del Vaticano, BAV, Pal. lat.
+                  <a href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_871?ui_lang=ger"><span lang="it"> Città del Vaticano, BAV, Pal. lat.
                   871</span></a> (Teil II mit Nachtrag). Zur Hs. und deren Geschichte siehe <span lang="de" style="font-variant:small-caps">Wirth</span>
                   <span lang="DE-CH"> (1982), S. 19–22, und <span style="font-variant:small-caps">Wetzel</span> (1995), S. 23f.</span>
               </p>
           </div>
           <div id="ftn149">
             <p class="MsoFootnoteText"><a href="#_ftnref149" id="_ftn149"><sup>[149]</sup></a><span>&#160;</span><a
-            href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1245"><span lang="it">Città del Vaticano, BAV, Pal. lat. 1245</span></a>;
-                vgl. <span style="font-variant:small-caps">Schuba Kat. Vaticana</span>, S. 275f., und
+            href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1245"><span lang="it"> Città del Vaticano, BAV, Pal. lat. 1245</span></a>,
+                dazu <span style="font-variant:small-caps">Schuba Kat. Vaticana</span>, S. 275f., und
                 <a href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1289?ui_lang=ger"><span lang="it">Città del Vaticano,</span>
-                BAV, Pal. lat. 1289</a>; vgl. <span style="font-variant: small-caps">Schuba</span> (1981), S. XXIX.
+                BAV, Pal. lat. 1289</a>, dazu <span style="font-variant: small-caps">Schuba</span> (1981), S. XXIX.
             </p>
           </div>
           <div id="ftn150">
@@ -4389,9 +4416,9 @@
           <div id="ftn152">
             <p class="MsoFootnoteText"><a href="#_ftnref152" id="_ftn152"><sup>[152]</sup></a> Heidelberg, UB, Cod. Pal. germ. 364, Inhaltsangabe von
                   anderer Hand auf Bl. <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg364/0009/image?sid=90930507383b80b08aa227cc67f0c30c">1r</a>: <i>Parcefall
-                  vnd Lorangrin</i>. Die Bezeichnung <i>gleiches bunds</i> weist auf die unter [Nr. 1] aufgelistete Prosa-Lancelot-Handschrift, bei der es sich wahrscheinlich
+                  vnd Lorangrin</i>. Die Bezeichnung <i>gleiches bunds</i> weist auf denselben Einbandtyp der unter [Nr. 1] aufgelisteten Prosa-Lancelot-Handschrift, bei der es sich wahrscheinlich
                   um den Heidelberger <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg147?sid=90930507383b80b08aa227cc67f0c30c">Cod. Pal. germ. 147</a> handelt.
-                  Die Beschreibung des Einbands <i>Perment, brett, ſchwartʒ | leder bucklen</i> trifft auch auf den erhaltenen Ottheinrich-Einband des <a
+                  Die dort angeführte Beschreibung des Einbands als <i>Perment, brett, ſchwartʒ | leder bucklen</i> trifft auch auf den erhaltenen Ottheinrich-Einband des <a
                   href="http://digi.ub.uni-heidelberg.de/diglit/cpg394/0001/image?sid=90930507383b80b08aa227cc67f0c30c">Cod. Pal. germ. 394</a> (Bruder Philipp,
                   Marienleben) zu, der im Katalog der Schlossbibliothek von 1581 auf S. <a
                   href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1956/0083?sid=4965b4e6ec107f8cdf0cf1062a90a0a3">64</a> wie der Cod. Pal. germ.
@@ -4453,12 +4480,12 @@
             </p>
           </div>
           <div id="ftn158">
-            <p class="MsoFootnoteText"><a href="#_ftnref158" id="_ftn158"><sup>[158]</sup></a> Dasselbe Papier findet sich in den Codd. <a
-              href="http://digi.ub.uni-heidelberg.de/diglit/cpg167">Pal. germ. 167</a> (Sachsenspiegel und Schwabenspiegel) (Capsanummer: <i>C. 173</i>,
-              alte römische Signatur: 1651) (<span style="font-variant:small-caps">Zimmermann Kat. Heidelberg</span>, S. 386) und <a
-              href="http://digi.ub.uni-heidelberg.de/diglit/cpg333">333</a> (Ulrich von Etzenbach: Alexander, Alexander-Anhang) (<i>C. 92</i>)
-              (<span style="font-variant:small-caps">Miller</span>/<span style="font-variant:small-caps">Zimmermann Kat. Heidelberg</span>,
-              S. 111 [Beschreibung von Matthias Miller]) zusammen mit Papier mit einem gerauteten Wappenschild als Wasserzeichen. Dieses Papier wird auch in den folgenden Handschriften verwendet: Codd. Pal. germ.
+            <p class="MsoFootnoteText"><a href="#_ftnref158" id="_ftn158"><sup>[158]</sup></a> Dasselbe Wasserzeichen mit Anker im Kreis wie in Hs. V' weisen die Vorsatzblätter der beiden folgenden Handschriften auf: Cod. <a
+              href="http://digi.ub.uni-heidelberg.de/diglit/cpg167">Pal. germ. 167</a> (Sachsenspiegel und Schwabenspiegel; Capsanummer: <i>C. 173</i>,
+              alte römische Signatur: 1651), dazu <span style="font-variant:small-caps">Zimmermann Kat. Heidelberg</span> (2003), S. 386; und Cod. Pal. germ. <a
+              href="http://digi.ub.uni-heidelberg.de/diglit/cpg333">333</a> (Ulrich von Etzenbach: Alexander, Alexander-Anhang; <i>C. 92</i>),
+              dazu <span style="font-variant:small-caps">Miller</span>/<span style="font-variant:small-caps">Zimmermann Kat. Heidelberg</span>,
+              (2007), S. 111 (Beschreibung von Matthias Miller). Beide Handschriften enthalten auch Papier mit einem gerauteten Wappenschild als Wasserzeichen, das seinerseits in den folgenden Handschriften verwendet wird: Codd. Pal. germ.
               <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg28">28</a> (<i>C. 179</i>), <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg60">60</a>
               (<i>C. 120</i>), <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg68">68</a> (<i>C. 128</i>), <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg115">
               <span style="">115</span></a> (<i>C. 84</i>), <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg139">139</a> (<i>C. 92</i>), <a
@@ -4483,12 +4510,12 @@
                                     <span lang="IT" style="">; </span>
                                     <span style=" font-variant:small-caps">Miller/Zimmermann</span>
                                     <span style="">
-                  (2007), S. XVI, und <span style="font-variant:small-caps">Miller</span>/<span style="font-variant:small-caps">Zimmermann Kat. Heidelberg, </span>S. 69.</span>
+                  (2007), S. XVI; <span style="font-variant:small-caps">Miller</span>/<span style="font-variant:small-caps">Zimmermann Kat. Heidelberg, </span>S. 69; und die Beschreibung oben.</span>
             </p>
           </div>
           <div id="ftn161">
             <p class="MsoFootnoteText"><a href="#_ftnref161" id="_ftn161"><sup>[161]</sup></a> Vgl. <span style="font-variant:small-caps">von der Hagen</span>
-              (1818), S. 304 (14. Brief vom 15./16. November 1816) (Hervorhebungen im Original).
+              (1818), S. 304 (14. Brief vom 15./16. November 1816, Hervorhebungen dort).
             </p>
           </div>
       </div>
@@ -5039,7 +5066,7 @@ of French Studies, Inc.), New York 1931, S. 86–101.</span></p>
         Geld und Liebe. Zum Epilog des ›Rappoltsteiner Parzifal‹, in: Forschungen zur deutschen Literatur des Spätmittelalters. Festschrift für Johannes
         Janota, hrsg. von Horst Brunner und Werner Williams-Krapp, Tübingen 2003, S. 31–49.</p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Fasching</span> (2018) – Richard F. Fasching, Neue Erkenntnisse zum ,Nuwen Parzifal’
-        und zu einer ,Epenwerkstatt’ des 14. Jahrhunderts, in: Zeitschrift für deutsches Altertum und deutsche Literatur 147 (2018), S. 491–509.</p>
+        und zu einer ’Epenwerkstatt’ des 14. Jahrhunderts, in: Zeitschrift für deutsches Altertum und deutsche Literatur 147 (2018), S. 491–509.</p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Fechter</span> (1935) – <span style='font-variant:small-caps'>Werner Fechter</span>, Das
         Publikum der mittelhochdeutschen Dichtung (Deutsche Forschungen 28), Frankfurt a.M. 1935 [Nachdrucke ebd. 1966 und Darmstadt 1972].</p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Gamber</span> (1985) – <span style='font-variant:small-caps'>Ortwin Gamber</span>,
