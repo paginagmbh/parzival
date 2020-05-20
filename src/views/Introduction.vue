@@ -69,7 +69,7 @@
     <div id="content">
       <!--<h1>Original und Kopie des ›Rappoltsteiner Parzifal‹<br/> Handschriftliche Überlieferung und Textgenese im 14. Jahrhundert</h1>-->
       <p class="MsoNormal">Der ›Rappoltsteiner Parzifal‹ ist in zwei Handschriften überliefert: Karlsruhe, Badische Landesbibliothek,
-        <a href="https://digital.blb-karlsruhe.de/blbhs/Handschriften/content/titleinfo/101664">Donaueschingen 97</a> (Hs. V: entstanden im Elsass, Raum Straßburg/Colmar, oder in Basel, vollendet 1336), und Roma, Biblioteca Casanatense, <router-link to="/faksimile/VV/001r">Ms. 1409</router-link> (Hs. V': angefertigt in einer ’Epenwerkstatt‘ im Raum Franken, 2. Viertel des 14. Jhs.). Die nach
+        <a href="https://digital.blb-karlsruhe.de/blbhs/Handschriften/content/titleinfo/101664" target="_blank">Donaueschingen 97</a> (Hs. V: entstanden im Elsass, Raum Straßburg/Colmar, oder in Basel, vollendet 1336), und Roma, Biblioteca Casanatense, <router-link to="/faksimile/VV/001r">Ms. 1409</router-link> (Hs. V': angefertigt in einer ’Epenwerkstatt‘ im Raum Franken, 2. Viertel des 14. Jhs.). Die nach
         dem Entstehungsort benannte Textsammlung ›Rappoltsteiner Parzifal‹ enthält in Hs. V Wolframs von Eschenbach ›Parzival‹ (aus der Zeit um 1200/10)<a href="#_ftn1" id="_ftnref1"><sup>[1]</sup></a> sowie darin – zwischen den Büchern XIV und XV – eingelagert den ›Nuwen Parzifal‹,<a href="#_ftn2" id="_ftnref2"><sup>[2]</sup></a> eine Kompilation  aus ›Conte du Graal‹-Fortsetzungen (zu Chrétiens de Troyes um 1190 unvollendet hinterlassenem ›Perceval‹-Roman) in deutscher Übertragung,<a href="#_ftn3" id="_ftnref3"><sup>[3]</sup>
         </a> mit einigen weiteren kürzeren Texten. Die Hs. V' hingegen überliefert nur diesen ›Nuwen Parzifal‹ genannten Teil, der dort wie in Hs. V durch die abschließenden beiden Bücher XV und XVI
         von Wolframs ›Parzival‹ ergänzt wird. Sie kann, wie im Folgenden noch näher zu erläutern sein wird,
@@ -420,7 +420,7 @@
           110,21f.) (Sch. XIV): <i>Wer in ſin ſelbes h(er)ze ſiht. d(er) ſprichet eim andern argez niht.</i></div>
       <div style="clear:both"/>
       <div class="contentbox-left"/>
-      <div class="contentbox-right metadata">Überlieferung: <a href="http://www.mrfreidank.de/21317"><i>Marburger
+      <div class="contentbox-right metadata">Überlieferung: <a href="http://www.mrfreidank.de/21317" target="_blank"><i>Marburger
             Repertorium der Freidank-Überlieferung</i></a></div>
       <div style="clear:both"/>
       <div class="contentbox-left"/>
@@ -981,9 +981,9 @@
             (<sup>2</sup>1994), S. 34; <span style="font-variant:small-caps">Schöller</span> (2009), S. 102–113;
         <span style="font-variant:small-caps">Schneider</span> (2009), S. 141f. sowie
             Abb. 137 und 138. Vgl. auch die Beschreibung von <span style="font-variant:small-caps">Ute Obhof</span>
-            auf der Internet-Plattform ‚<a href="http://www.manuscripta-mediaevalia.de/?xdbdtdn!%22obj%2031576740%22&amp;dmode=doc">Manuscripta Mediaevalia</a>’,
-            die Angaben im Handschriftenverzeichnis des <a href="http://www.parzival.unibe.ch/hsverz.html">Berner Parzival-Projekts</a>
-        sowie im <a href="http://handschriftencensus.de/5020">Handschriftencensus</a>, mit Link auf das von der Badischen Landesbibliothek Karlsruhe bereitgestellte Digitalisat).</p>
+            auf der Internet-Plattform ‚<a href="http://www.manuscripta-mediaevalia.de/?xdbdtdn!%22obj%2031576740%22&amp;dmode=doc" target="_blank">Manuscripta Mediaevalia</a>’,
+            die Angaben im Handschriftenverzeichnis des <a href="http://www.parzival.unibe.ch/hsverz.html" target="_blank">Berner Parzival-Projekts</a>
+        sowie im <a href="http://handschriftencensus.de/5020" target="_blank">Handschriftencensus</a>, mit Link auf das von der Badischen Landesbibliothek Karlsruhe bereitgestellte Digitalisat).</p>
         <div class="motto verse">
             <p><i>Minne ſprach ich gebúte dir vͦlrich</i></p>
             <p><i>Bi de(m)me gewalte den ich han</i></p>
@@ -1349,7 +1349,7 @@
           näher stehen als andere.
       </p>
       <p class="MsoNormal">So folgt der Prologus einer Versfassung der altfranzösischen ›Élucidation‹, die dem Text der einzig bekannten
-          Handschrift, des Codex Mons, Bibliothèque centrale, <a href="http://biblio.umons.ac.be/public/bv/Perceval-complet_004/">331/206 R2/C</a>,
+          Handschrift, des Codex Mons, Bibliothèque centrale, <a href="http://biblio.umons.ac.be/public/bv/Perceval-complet_004/" target="_blank">331/206 R2/C</a>,
           aus dem 13. Jahrhundert zwar nahesteht, sich an einigen Stellen jedoch mit der
           altfranzösischen Prosafassung im Pariser Druck von 1530 gegen diesen verhält.<a href="#_ftn58" id="_ftnref58"><sup>[58]</sup></a>
           Für die Verwendung von Textstellen aus Chrétiens de Troyes ›Conte du Graal‹,
@@ -1881,12 +1881,12 @@
       <p class="MsoNormal">Mittels Vergleichen lässt sich der Filigranstil der im
           ›Rappoltsteiner Parzifal‹ für die Ausschmückung der Initialen und Lombarden
           verantwortlichen Malerhand I in einer liturgischen Handschriften mit einem Zisterzienser-Antiphonal
-          und Hymnar nachweisen, die heute unter der Signatur <a href="https://digital.blb-karlsruhe.de/blbhs/content/titleinfo/1164333">Lichtenthal
+          und Hymnar nachweisen, die heute unter der Signatur <a href="https://digital.blb-karlsruhe.de/blbhs/content/titleinfo/1164333" target="_blank">Lichtenthal
             141</a> (= L) in der Badischen Landesbibliothek in Karlsruhe aufbewahrt wird.<a href="#_ftn85" id="_ftnref85"><sup>[85]</sup></a>
           In leicht abweichendem Duktus findet sich der Ornamentstil von Malerhand I zudem in
           einer Sammelhandschrift mit der weit verbreiteten ›Historia Scholastica‹
           des Petrus Comestor und mit weiteren Texten sowie graphischen Darstellungen zur
-          Genealogie Christi, die heute unter der Signatur <a href="http://www.e-codices.unifr.ch/de/list/one/kba/WettF0009">MsWettF 9</a> (=
+          Genealogie Christi, die heute unter der Signatur <a href="http://www.e-codices.unifr.ch/de/list/one/kba/WettF0009" target="_blank">MsWettF 9</a> (=
           W) in der Aargauer Kantonsbibliothek in Aarau aufbewahrt wird.<a href="#_ftn86" id="_ftnref86"><sup>[86]</sup></a></p>
       <p class="MsoNormal">                Die
           kalligraphisch hochstehenden Fleuronnée-Initialen von Malerhand I zeichnen sich
@@ -1902,19 +1902,19 @@
             </figcaption>
           </figure>
           <figure style="max-width:24%"><img id="Bild10" src="img/image014.png" alt="Beschreibung: WettF0009_172rb"/>
-            <figcaption>W <a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/172r/0/Sequence-1191">172r</a></figcaption>
+            <figcaption>W <a href="http://www.e-codices.unifr.ch/de/kba/WettF0009/172r/0/Sequence-1191" target="_blank">172r</a></figcaption>
           </figure>
           <figure style="max-width:24%"><img src="img/image015.png" alt="Beschreibung: Macintosh HDX:Users:richard:Desktop:Bildschirmfoto 2018-01-31 um 14.49.37.png"/>
-            <figcaption>L <a href="https://digital.blb-karlsruhe.de/blbhs/content/zoom/1348362">62r</a>a
+            <figcaption>L <a href="https://digital.blb-karlsruhe.de/blbhs/content/zoom/1348362" target="_blank">62r</a>a
             </figcaption>
           </figure>
           <figure style="max-width:24%"><img id="Bild613" src="img/image016.png" alt="Beschreibung: Bildschirmfoto 2017-12-05 um 11"/>
-            <figcaption>L <a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348611">186v</a></figcaption>
+            <figcaption>L <a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348611" target="_blank">186v</a></figcaption>
           </figure>
       </div>
       <div>
           <figure style="max-width:24%"><img id="Bild11" src="img/image017.jpg" alt="Beschreibung: Licht_?"/>
-            <figcaption>L <a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348263">12v</a></figcaption>
+            <figcaption>L <a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348263" target="_blank">12v</a></figcaption>
           </figure>
           <figure style="max-width:24%"><img src="img/image018.png" alt="Beschreibung: V_Init_25va"/>
             <figcaption>V
@@ -1924,7 +1924,7 @@
       </div>
       <div>
           <figure style="max-width:24%"><img id="Bild13" src="img/image019.png" alt="Beschreibung: L_183v_Init"/>
-            <figcaption>L <a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348605">183v</a></figcaption>
+            <figcaption>L <a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348605" target="_blank">183v</a></figcaption>
           </figure>
           <figure style="max-width:24%"><img id="Bild14" src="img/image020.png" alt="Beschreibung: Bildschirmfoto 2016-02-01 um 09"/>
             <figcaption>V
@@ -1932,7 +1932,7 @@
             </figcaption>
           </figure>
           <figure style="max-width:24%"><img id="Bild12" src="img/image021.png" alt="Beschreibung: Macintosh HDX:Users:richard:Desktop:Bildschirmfoto 2018-01-31 um 14.44.18.png"/>
-            <figcaption>L <a href="https://digital.blb-karlsruhe.de/blbhs/content/zoom/1348480">121r</a>a
+            <figcaption>L <a href="https://digital.blb-karlsruhe.de/blbhs/content/zoom/1348480" target="_blank">121r</a>a
             </figcaption>
           </figure>
       </div>
@@ -1940,8 +1940,8 @@
           <figure style="max-width:24%"><img id="Bild15" src="img/image022.png" alt="Beschreibung: V_10vb"/>V
             <router-link to="/faksimile/V/010v">10v</router-link>b
           </figure>
-          <figure style="max-width:24%"><img id="Bild16" src="img/image023.png" alt="Beschreibung: L_7v"/>L <a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348253">7v</a></figure>
-          <figure style="max-width:24%"><img id="Bild17" src="img/image024.png" alt="Beschreibung: L_11v"/>L<a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348261">11v</a></figure>
+          <figure style="max-width:24%"><img id="Bild16" src="img/image023.png" alt="Beschreibung: L_7v"/>L <a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348253" target="_blank">7v</a></figure>
+          <figure style="max-width:24%"><img id="Bild17" src="img/image024.png" alt="Beschreibung: L_11v"/>L<a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/1348261" target="_blank">11v</a></figure>
       </div>
       <p class="MsoNormal">Der im selben Stil ausgeschmückte Codex Lichtenthal 141 befand sich gemäß dem
           Einband spätestens um 1500 in der Zisterziensierinnenabtei Lichtenthal in
@@ -2068,7 +2068,7 @@
           </figure>
           <figure style="max-width:24%;vertical-align: middle">
               <img id="Bild9" src="img/image026.jpg" alt="Beschreibung: Macintosh HDX:Users:richard:Downloads:bsb00007174_00076.jpg"/>
-              <figcaption>Wappen der Freiherren von Falkenstein (›Scheiblersches Wappenbuch‹, S. <a href="http://daten.digitale-sammlungen.de/~db/bsb00007174/images/index.html?seite=76&amp;fip=193.174.98.30">71</a>)</figcaption>
+              <figcaption>Wappen der Freiherren von Falkenstein (›Scheiblersches Wappenbuch‹, S. <a href="http://daten.digitale-sammlungen.de/~db/bsb00007174/images/index.html?seite=76&amp;fip=193.174.98.30" target="_blank">71</a>)</figcaption>
           </figure>
       </div>
       <p class="MsoNormal">Die Federzeichnungen auf dem
@@ -2282,7 +2282,7 @@
           (springt von <i><router-link to="/faksimile/VV/071r">71</router-link></i> auf <i><router-link to="/faksimile/VV/072r">73</router-link></i>).
           Pergament unterschiedlicher Dicke mit Löchern (genäht). Vordere und hintere Vorsatzblätter
           aus Papier des 16. Jahrhunderts mit Wasserzeichen Anker im Kreis, von Stern überhöht, Abstand der beiden äußeren von drei Bindedrähten 60 mm,
-          sehr ähnlich ‚Briquet Online‘ Nr. <a href="http://www.ksbm.oeaw.ac.at/_scripts/php/BR.php?refnr=488">488</a> (Ferrara 1583).
+          sehr ähnlich ‚Briquet Online‘ Nr. <a href="http://www.ksbm.oeaw.ac.at/_scripts/php/BR.php?refnr=488" target="_blank">488</a> (Ferrara 1583).
       </p>
       <p class="MsoNormal"><b>Einband</b>: Zwischen 1701 und 1800 entstandener, 40,5 x 28 cm großer <router-link to="/faksimile/VV/vs001r">Einband</router-link> (Kartondeckel mit hellem Schweinsleder
         bezogen) ohne Verzierung (<router-link to="/faksimile/VV/vs001r">Vorderdeckel</router-link> und <router-link to="/faksimile/VV/183v">Hinterdeckel</router-link> identisch). 5,5–6,0 cm breiter
@@ -3041,8 +3041,8 @@
                 Kat. Heidelberg</span>, S. 69–71 (Beschreibung von Matthias Miller); <span style="font-variant:small-caps">Miller</span> (2007),
                 S. 307–311; <span style="font-variant:small-caps">Cormeau</span>/<span style="font-variant:small-caps">Bein</span>
             (2013), S. XXXV (Sigle i<sup>2</sup>), sowie die Literatur bei <span style="font-variant:small-caps">Stolz</span> (2012), S. 335–337, Anm. 17.
-            Vgl. auch die Angaben im Handschriftenverzeichnis des <a href="http://www.parzival.unibe.ch/hsverz.html">Berner
-                Parzival-Projekt</a>s sowie im <a href="http://www.handschriftencensus.de/5612">Handschriftencensus</a>.
+            Vgl. auch die Angaben im Handschriftenverzeichnis des <a href="http://www.parzival.unibe.ch/hsverz.html" target="_blank">Berner
+                Parzival-Projekt</a>s sowie im <a href="http://www.handschriftencensus.de/5612" target="_blank">Handschriftencensus</a>.
       </p>
       <h4><a id="_Toc389816001"/><a id="_Ref379010758"/>2.2 Genese der Handschrift V'
       </h4>
@@ -3154,28 +3154,28 @@
           </thead>
           <tbody>
             <tr>
-                <td><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg364">Heidelberg, UB, Cod. Pal. germ. 364</a></td>
+                <td><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg364" target="_blank">Heidelberg, UB, Cod. Pal. germ. 364</a></td>
               <td>Pz./ Loh.</td>
                 <td>≥ 45 x 30</td>
                 <td>35 x 20</td>
                 <td>56</td>
             </tr>
             <tr>
-                <td><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg383">Heidelberg, UB, Cod. Pal. germ. 383</a></td>
+                <td><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg383" target="_blank">Heidelberg, UB, Cod. Pal. germ. 383</a></td>
               <td>JT</td>
                 <td>≥ 46 x 30</td>
                 <td>35–36 x 19</td>
                 <td>56</td>
             </tr>
             <tr>
-                <td><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg404">Heidelberg, UB, Cod. Pal. germ. 404</a></td>
+                <td><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg404" target="_blank">Heidelberg, UB, Cod. Pal. germ. 404</a></td>
               <td>Arab./ W-Will./ Renn.</td>
                 <td>≥ 44 x 32</td>
                 <td>35 x 20–21</td>
                 <td>56–58 (meist 56)</td>
             </tr>
             <tr>
-              <td><a href="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN665006985&amp;PHYSID=PHYS_0001&amp;DMDID=DMDLOG_0001">Berlin, SBB-PK, Ms. germ. fol. 923, Nr. 25</a></td>
+              <td><a href="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN665006985&amp;PHYSID=PHYS_0001&amp;DMDID=DMDLOG_0001" target="_blank">Berlin, SBB-PK, Ms. germ. fol. 923, Nr. 25</a></td>
               <td>R-Will.</td>
               <td>≥ 46 x 32</td>
               <td>35 x 21</td>
@@ -3288,7 +3288,7 @@
           Signatur Cod. Pal. germ. 317 aufbewahrt wurde.<a href="#_ftn150" id="_ftnref150"><sup>[150]</sup></a>
           In einem Eintrag im älteren Katalog der Heidelberger Schlossbibliothek von 1581<a href="#_ftn151" id="_ftnref151"><sup>[151]</sup></a> erscheint Hs. V'
           [Nr. 3] zusammen mit den aus der ‘Epenwerkstatt’ stammenden Heidelberger Codd.
-          Pal. germ. <a href="http://handschriftencensus.de/2678">364</a> [Nr. 2], <a href="http://handschriftencensus.de/2682">383</a> [Nr. 4] und <a href="http://handschriftencensus.de/2684">404</a> [Nr. 6]:
+          Pal. germ. <a href="http://handschriftencensus.de/2678" target="_blank">364</a> [Nr. 2], <a href="http://handschriftencensus.de/2682" target="_blank">383</a> [Nr. 4] und <a href="http://handschriftencensus.de/2684" target="_blank">404</a> [Nr. 6]:
       </p>
       <p class="Standartpetit" style="margin-bottom:0cm;margin-bottom:.0001pt">Geſchriebene
           Buͦcher | REGAL vnd Median
@@ -3329,8 +3329,8 @@
             germanici</i>), die zu diesem Zeitpunkt noch in der Vaticana aufbewahrt wurden,
           zurück nach Heidelberg in das Universitätshauptgebäude (<i>Domus Wilhelmiana</i>).
           Unter diesen Codices waren auch die in der ‘Epenwerkstatt’ gefertigten
-          Heidelberger Codd. Pal. germ. <a href="http://handschriftencensus.de/2678">364</a>,
-          <a href="http://handschriftencensus.de/2682">383</a> und <a href="http://handschriftencensus.de/2684">404</a>. Hs. V' hingegen wurde
+          Heidelberger Codd. Pal. germ. <a href="http://handschriftencensus.de/2678" target="_blank">364</a>,
+          <a href="http://handschriftencensus.de/2682" target="_blank">383</a> und <a href="http://handschriftencensus.de/2684" target="_blank">404</a>. Hs. V' hingegen wurde
           damals bereits nicht mehr in der Vaticana aufbewahrt. Unter nicht bekannten
           Umständen war dieser Codex zwischen 1751 und 1792 in die im Jahr 1701 neu
           eröffnete Bibliothek des Römischen Dominikanerkonvents bei Santa Maria sopra
@@ -3402,7 +3402,7 @@
           <div id="ftn10">
             <p class="MsoFootnoteText"><a href="#_ftnref10" id="_ftn10"><sup>[10]</sup></a> Die
                   Lagenformel folgt der Beschreibung von <span style="font-variant:small-caps">Ute
-                      Obhof</span> auf der Internet-Plattform ‚<a href="http://www.manuscripta-mediaevalia.de/?xdbdtdn!%22obj%2031576740%22&amp;dmode=doc#|4">Manuscripta
+                      Obhof</span> auf der Internet-Plattform ‚<a href="http://www.manuscripta-mediaevalia.de/?xdbdtdn!%22obj%2031576740%22&amp;dmode=doc#|4" target="_blank">Manuscripta
                       Mediaevalia</a>’.</p>
           </div>
           <div id="ftn11">
@@ -3463,10 +3463,10 @@
                   Beschreibung entspricht der Wappendarstellung (bis 1485 ungeteilt, danach
                   viergeteilt; vgl. <span style="font-variant:small-caps">Zeilinger</span>
                   [2012a], S. 1151) auf dem Siegel Anselms von Rappoltstein (vgl. die Abbildung auf den Titelblättern
-                  der Bände des <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f15.image.r=.langDE">RUB</a>: Rappoltsteinisches Urkundenbuch [1891–1898]) sowie auf
+                  der Bände des <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f15.image.r=.langDE" target="_blank">RUB</a>: Rappoltsteinisches Urkundenbuch [1891–1898]) sowie auf
                   der um 1330–1345 im Bodenseeraum entstandenen ›Zürcher Wappenrolle‹ (Zürich,
-                  SNM, AG 2760, Bl. <a href="https://www.e-codices.unifr.ch/de/snm/AG002760/3v/0/Sequence-1329">3v</a>, untere
-                  Reihe, achtes Wappen von links; vgl. das Volldigitalisat auf <a href="http://www.e-codices.unifr.ch/de/snm/AG002760/3v/0/Sequence-1329">e-codices.ch</a>.</p>
+                  SNM, AG 2760, Bl. <a href="https://www.e-codices.unifr.ch/de/snm/AG002760/3v/0/Sequence-1329" target="_blank">3v</a>, untere
+                  Reihe, achtes Wappen von links; vgl. das Volldigitalisat auf <a href="http://www.e-codices.unifr.ch/de/snm/AG002760/3v/0/Sequence-1329" target="_blank">e-codices.ch</a>.</p>
           </div>
           <div id="ftn21">
             <p class="MsoFootnoteText"><a href="#_ftnref21" id="_ftn21"><sup>[21]</sup></a> Vgl. <span style="font-variant:small-caps">Backes</span> (2009), S. 5. –
@@ -3509,7 +3509,7 @@
                   (2012b) und <span style="font-variant:small-caps">Zeilinger</span> (2013), S.
                   202–207. Zur Bezeichnung Rappoltstein für die Burg Groß-Rappoltstein siehe <span style="font-variant:small-caps">Albrecht</span> (1891), S. XIII; zur Burg
                   Hoh(en)-Rappoltstein siehe auch die archäologische Beschreibung im Katalogteil
-                  bei <a href="http://docnum.univ-lorraine.fr/public/DDOC_T_2012_0138_KOCH_VOL2.pdf"><span style="font-variant:small-caps">Koch</span><span style=""> (2012)</span></a><span style="">, S.
+                  bei <a href="http://docnum.univ-lorraine.fr/public/DDOC_T_2012_0138_KOCH_VOL2.pdf" target="_blank"><span style="font-variant:small-caps">Koch</span><span style=""> (2012)</span></a><span style="">, S.
                   68–80.</span></p>
           </div>
           <div id="ftn27">
@@ -3519,37 +3519,37 @@
                   gesetzt. Die folgenden Zuordnungen erfolgen ausschließlich auf eindeutig
                   zuweisbaren Namensbelegen aus dem Rappoltsteiner Urkundenbuch (= RUB) und
                   weichen teilweise von denjenigen in der Literatur ab; vgl. Register RUB I, S. <a
-                  href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f687.image.r=.langDE">661</a>f.; <span
+                  href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f687.image.r=.langDE" target="_blank">661</a>f.; <span
                   style="font-variant:small-caps">Oberbadisches Geschlechterbuch</span> 3, S. 335
                   (Tafel I), sowie <span style="font-variant:small-caps">Stammtafeln</span> XI,
                   Tafel 81. Die Namensbezeichnungen mit und ohne Nummerierung (zweimal <span style="letter-spacing:1.0pt">Ulrich</span> [Nrn. 1 und 2] und <span style="letter-spacing:1.0pt">Ulrich IV.</span> [Nr. 3]) folgen den <span style="font-variant:small-caps">Stammtafeln</span>.</p>
           </div>
           <div id="ftn28">
             <p class="MsoFootnoteText"><a href="#_ftnref28" id="_ftn28"><sup>[28]</sup></a>
-                RUB I, S. 598f. (Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f624.image.r=.langDE">769</a>, Nachtrag, eigentlich 283<sup>bis</sup> 1310).</p>
+                RUB I, S. 598f. (Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f624.image.r=.langDE" target="_blank">769</a>, Nachtrag, eigentlich 283<sup>bis</sup> 1310).</p>
           </div>
           <div id="ftn29">
               <p class="MsoFootnoteText"><a href="#_ftnref29" id="_ftn29"><sup>[29]</sup></a>
-                RUB I, S. 337 (Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f363.item.r=">455</a>, 11.2.1335), S. 340 (Nr. <a
-                href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f366.image.r=.langDE">459</a>, 16.7.1335), S. 340f. (Nr. <a
-                href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f366.image.r=.langDE">460</a>, 7.8.1335), S. 341 (Nr. <a
-                href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f367.image.r=.langDE">461</a>, 22.8.1335), S. 372–375 (Nr. <a
-                href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f398.image.r=.langDE">498</a>, 8.6.1338) und S. 375f. (Nr. <a
-                href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f401.image.r=.langDE">499</a>, 8.6.1338). Bereits zwischen 1313 und
+                RUB I, S. 337 (Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f363.item.r=" target="_blank">455</a>, 11.2.1335), S. 340 (Nr. <a
+                href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f366.image.r=.langDE" target="_blank">459</a>, 16.7.1335), S. 340f. (Nr. <a
+                href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f366.image.r=.langDE" target="_blank">460</a>, 7.8.1335), S. 341 (Nr. <a
+                href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f367.image.r=.langDE" target="_blank">461</a>, 22.8.1335), S. 372–375 (Nr. <a
+                href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f398.image.r=.langDE" target="_blank">498</a>, 8.6.1338) und S. 375f. (Nr. <a
+                href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f401.image.r=.langDE" target="_blank">499</a>, 8.6.1338). Bereits zwischen 1313 und
                 1321 ist ohne nähere Bezeichnung ein Ulrich von Rappoltstein als Domherr in Straßburg belegt, bei dem es sich möglicherweise
-                um Ulrich IV. (Nr. 3) handelt; vgl. RUB I, S. 221 (Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f247.image.r=.langDE">306</a>,
-                6.5.1313), S. 253f. (Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f279.image.r=.langDE">344</a>, 2.5.1318); SUB: Urkundenbuch der Stadt Straßburg 1886–1889 II, S. 319f. (Nr.
-                <a href="https://archive.org/stream/urkundenundakte03wincgoog#page/n333/mode/2up">363</a>, 2.5.1318), hier S. 320, Anm. 1; SUB III, S. 287 (Nr.
-                <a href="http://gallica.bnf.fr/ark:/12148/bpt6k9401049b/f339.image.r=Urkundenbuch%20der%20Stadt%20Strassburg%20dritter">952</a>, 15.1.1321).
+                um Ulrich IV. (Nr. 3) handelt; vgl. RUB I, S. 221 (Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f247.image.r=.langDE" target="_blank">306</a>,
+                6.5.1313), S. 253f. (Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f279.image.r=.langDE" target="_blank">344</a>, 2.5.1318); SUB: Urkundenbuch der Stadt Straßburg 1886–1889 II, S. 319f. (Nr.
+                <a href="https://archive.org/stream/urkundenundakte03wincgoog#page/n333/mode/2up" target="_blank">363</a>, 2.5.1318), hier S. 320, Anm. 1; SUB III, S. 287 (Nr.
+                <a href="http://gallica.bnf.fr/ark:/12148/bpt6k9401049b/f339.image.r=Urkundenbuch%20der%20Stadt%20Strassburg%20dritter" target="_blank">952</a>, 15.1.1321).
               </p>
           </div>
           <div id="ftn30">
             <p class="MsoFootnoteText"><a href="#_ftnref30" id="_ftn30"><sup>[30]</sup></a> Vgl. RUB I, S. 289f. (Nr. <a
-            href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f315.image.r=.langDE">397</a>,
+            href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f315.image.r=.langDE" target="_blank">397</a>,
             14.10.1328), S. 372–375 (Nr.
-            <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f398.image.r=.langDE">498</a>,
+            <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f398.image.r=.langDE" target="_blank">498</a>,
                   8.6.1338), S. 375f. (Nr.
-            <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f401.image.r=.langDE">499</a>,
+            <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f401.image.r=.langDE" target="_blank">499</a>,
                   8.6.1338); <span style="font-variant:small-caps">Oberbadisches
                       Geschlechterbuch</span> 3, S. 335 (Tafel I); <span style="font-variant:small-caps">Buchheit</span>
                   (2010), S. 367 (Nr. 161, wo <span style="font-variant:small-caps">Buchheit</span>
@@ -3559,15 +3559,15 @@
           </div>
           <div id="ftn31">
             <p class="MsoFootnoteText"><a href="#_ftnref31" id="_ftn31"><sup>[31]</sup></a> Vgl. RUB I, S. 354–357 (Nr.
-              <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f380.image.r=.langDE">480</a>,
+              <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f380.image.r=.langDE" target="_blank">480</a>,
                   10.5.1337), und S. 599 (Nr.
-                <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f625.image.r=.langDE">770</a>,
+                <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f625.image.r=.langDE" target="_blank">770</a>,
                   Nachtrag, eigentlich 515<sup>bis</sup>, 1340), S. 354–357.
             </p>
           </div>
           <div id="ftn32">
             <p class="MsoFootnoteText"><a href="#_ftnref32" id="_ftn32"><sup>[32]</sup></a> Karlsruhe, Landesarchiv
-                Baden-Württemberg. Generallandesarchiv Karlsruhe, <a href="https://www2.landesarchiv-bw.de/ofs21/bild_zoom/thumbnails.php?bestand=21447&amp;id=8402990"><span style="">Hfk-Hs Nr. 133, 20</span></a> (Lehnsbuch Bistum Basel
+                Baden-Württemberg. Generallandesarchiv Karlsruhe, <a href="https://www2.landesarchiv-bw.de/ofs21/bild_zoom/thumbnails.php?bestand=21447&amp;id=8402990" target="_blank"><span style="">Hfk-Hs Nr. 133, 20</span></a> (Lehnsbuch Bistum Basel
                 1441), S. 109–112 (29.8.1341). Den Hinweis auf diesen Eintrag verdanke ich
                 Marius Gehrig M.A.
             </p>
@@ -3576,9 +3576,9 @@
             <p class="MsoFootnoteText"><a href="#_ftnref33" id="_ftn33"><sup>[33]</sup></a> Vgl. <span style="font-variant:small-caps">Riezler</span>
                   (1883), S. 259; <span style="font-variant:small-caps">Schorbach</span> (1888),
                   S. XXIIIf.; <span style="font-variant:small-caps">Oberbadisches Geschlechterbuch</span>
-                  1, S. <a href="http://digi.ub.uni-heidelberg.de/diglit/kindlervonknobloch1898bd1/0407/image"><span style="">403</span></a><span style=""> (Grafen
+                  1, S. <a href="http://digi.ub.uni-heidelberg.de/diglit/kindlervonknobloch1898bd1/0407/image" target="_blank"><span style="">403</span></a><span style=""> (Grafen
                   von Fürstenberg); <span style="font-variant:small-caps">Oberbadisches
-                      Geschlechterbuch</span> 3, S. </span><a href="http://digi.ub.uni-heidelberg.de/diglit/kindlervonknobloch1919bd3/0340/image"><span style="">336</span></a><span style="">f. (Tafel
+                      Geschlechterbuch</span> 3, S. </span><a href="http://digi.ub.uni-heidelberg.de/diglit/kindlervonknobloch1919bd3/0340/image" target="_blank"><span style="">336</span></a><span style="">f. (Tafel
                   II); <span style="font-variant:small-caps">Stammtafeln</span> XI, Tafel 81
                   (Ulrich IV); <span style="font-variant:small-caps">Gräberbuch (Ed.
                       Röthinger/Signori)</span>, S. 160, Anm. 525 (Nr. 434: 23.10.1377). – Da
@@ -3606,14 +3606,14 @@
           </div>
           <div id="ftn35">
             <p class="MsoFootnoteText"><a href="#_ftnref35" id="_ftn35"><sup>[35]</sup></a> Vgl. RUB I, S. 372–375 (Nr. <a
-            href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f398.item.r=">498</a>, 8.6.1338) und S. 375f. (Nr. <a
-            href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f401.item.r=">499</a>,
+            href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f398.item.r=" target="_blank">498</a>, 8.6.1338) und S. 375f. (Nr. <a
+            href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f401.item.r=" target="_blank">499</a>,
                   8.6.1338) sowie Karlsruhe, Landesarchiv Baden-Württemberg. Generallandesarchiv
                   Karlsruhe Hfk-Hs Nr. 133 (Lehnsbuch Bistum Basel 1441), S. 109–112 (29.8.1341).
                   – Johann fiel als Herr von Hoh(en)rappoltstein allerdings bald aus, da er zur
                   Verbüßung des Mordes an den Abt Bencelin von Moyenmoutier eine Strafwallfahrt
                   nach England antreten musste. Vgl. RUB I, S. 395–398 (Nr.
-                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f421.item.r=">
+                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f421.item.r=" target="_blank">
                                           <span lang="EN-US" style="">524</span>
                                       </a>
                                     <span lang="EN-US" style="">, 8.12.1341); <span style="font-variant:small-caps">Barth</span>
@@ -3645,41 +3645,41 @@
                                           <sup>[40]</sup>
                                       </a>
                                     Vgl. RUB I, S. 307f. (Nr.
-                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f333.item.r=">
+                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f333.item.r=" target="_blank">
                                           <span style="">416</span>
                                       </a>
                                     <span style="">,
                   15.2.1331), S. 308 (Nr. </span>
-                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f334.item.r=">
+                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f334.item.r=" target="_blank">
                                           <span style="">417</span>
                                       </a>
                                     <span style="">,
                   15.2.1331), S. 313f. (Nr. </span>
-                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f339.image.r=.langDE">
+                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f339.image.r=.langDE" target="_blank">
                                           <span style="">424</span>
                                       </a>
                                     <span style="">,
                   1.10.1331), S. 314f. (Nr. </span>
-                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f340.image.r=.langDE">
+                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f340.image.r=.langDE" target="_blank">
                                           <span style="">425</span>
                                       </a>
                                     <span style="">,
                   1.10.1331), S. 315–317 (Nr. </span>
-                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f341.image.r=.langDE">
+                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f341.image.r=.langDE" target="_blank">
                                           <span style="">426</span>
                                       </a>
                                     <span style="">,
                   4.10.1331), S. 319 (Nr. </span>
-                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f345.image.r=.langDE">
+                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f345.image.r=.langDE" target="_blank">
                                           <span style="">430</span>
                                       </a>
                                     <span style="">, 1331),
                   S. 325 (Nr. </span>
-                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f351.item.r=">
+                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f351.item.r=" target="_blank">
                                           <span lang="EN-US" style="">439</span>
                                       </a>
                                     <span lang="EN-US" style="">, 13.9.1332) und S. 336f. (Nr. </span>
-                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f362.image.r=.langDE">
+                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f362.image.r=.langDE" target="_blank">
                                           <span lang="EN-US" style="">454</span>
                                       </a>
                                     <span lang="EN-US" style="">, 1.2.1335).</span>
@@ -3691,11 +3691,11 @@
                                           <sup>[41]</sup>
                                       </a>
                                     RUB I, S. 325f. (Nr.
-                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f351.item.r=">
+                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f351.item.r=" target="_blank">
                                           <span lang="EN-US" style="">440<sup>a</sup></span>
                                       </a>
                                     <span lang="EN-US" style="">, 29.9.1332) und S. 326f. (Nr. </span>
-                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f352.item.r=">
+                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f352.item.r=" target="_blank">
                                           <span lang="EN-US" style="">440<sup>b</sup></span>
                                       </a>
                                     <span lang="EN-US" style="">, 29.9.1332).</span>
@@ -3707,39 +3707,39 @@
                                           <sup>[42]</sup>
                                       </a>
                                     RUB I, S. 335f. (Nr.
-                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f361.item.r=">
+                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f361.item.r=" target="_blank">
                                           <span lang="EN-US" style="">453</span>
                                       </a>
                                     <span lang="EN-US" style="">, 20.1.1335), S. 337 (Nr. </span>
-                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f363.item.r=">
+                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f363.item.r=" target="_blank">
                                           <span lang="EN-US" style="">455</span>
                                       </a>
                                     <span lang="EN-US" style="">, 11.2.1335), S. 337f. (Nr. </span>
-                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f363.item.r=">
+                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f363.item.r=" target="_blank">
                                           <span lang="EN-US" style="">456</span>
                                       </a>
                                     <span lang="EN-US" style="">, 16.2.1335), S. 338f. (Nr. </span>
-                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f364.item.r=">
+                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f364.item.r=" target="_blank">
                                           <span style="">457</span>
                                       </a>
                                     <span style="">,
                   16.3.1335), S. 339f. (Nr. </span>
-                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f365.item.r=">
+                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f365.item.r=" target="_blank">
                                           <span style="">458</span>
                                       </a>
                                     <span style="">,
                   13.4.1335), S. 343f. (Nr. </span>
-                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f369.item.r=">
+                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f369.item.r=" target="_blank">
                                           <span style="">463</span>
                                       </a>
                                     <span style="">,
                   2.9.1335), S. 349f. (Nr. </span>
-                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f375.item.r=">
+                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f375.item.r=" target="_blank">
                                           <span style="">472</span>
                                       </a>
                                     <span style="">,
                   30.12.1336) und S. 351 (Nr. </span>
-                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f377.item.r=">
+                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f377.item.r=" target="_blank">
                                           <span style="">473</span>
                                       </a>
                                     <span style="">, 1336).</span>
@@ -3789,12 +3789,12 @@
           </div>
           <div id="ftn49">
             <p class="MsoFootnoteText"><a href="#_ftnref49" id="_ftn49"><sup>[49]</sup></a>         <span style=""> SUB
-                  III, S. 181 (Nr. </span><a href="http://gallica.bnf.fr/ark:/12148/bpt6k9401049b/f233.image.r=Urkundenbuch%20der%20Stadt%20Strassburg%20dritter"><span style="">586</span></a><span style="">, 8.3.1307,
+                  III, S. 181 (Nr. </span><a href="http://gallica.bnf.fr/ark:/12148/bpt6k9401049b/f233.image.r=Urkundenbuch%20der%20Stadt%20Strassburg%20dritter" target="_blank"><span style="">586</span></a><span style="">, 8.3.1307,
                   <i>Clawese Kolin</i>).</span></p>
           </div>
           <div id="ftn50">
             <p class="MsoFootnoteText"><a href="#_ftnref50" id="_ftn50"><sup>[50]</sup></a>         <span style=""> SUB
-                  III, S. 195, Anm. 1 (Nr. </span><a href="http://gallica.bnf.fr/ark:/12148/bpt6k9401049b/f246.image.r=Urkundenbuch%20der%20Stadt%20Strassburg%20dritter"><span style="">635</span></a><span style="">, 5.9.1309,
+                  III, S. 195, Anm. 1 (Nr. </span><a href="http://gallica.bnf.fr/ark:/12148/bpt6k9401049b/f246.image.r=Urkundenbuch%20der%20Stadt%20Strassburg%20dritter" target="_blank"><span style="">635</span></a><span style="">, 5.9.1309,
                   <i>Philippes Colin … der selbe Philippes und Katherine sin wurtin</i>).</span></p>
           </div>
           <div id="ftn51">
@@ -3804,7 +3804,7 @@
           </div>
           <div id="ftn52">
             <p class="MsoFootnoteText"><a href="#_ftnref52" id="_ftn52"><sup>[52]</sup></a> SUB III, S. 194f. (Nr. <a
-            href="http://gallica.bnf.fr/ark:/12148/bpt6k9401049b/f246.image.r=Urkundenbuch%20der%20Stadt%20Strassburg%20dritter">635</a>,
+            href="http://gallica.bnf.fr/ark:/12148/bpt6k9401049b/f246.image.r=Urkundenbuch%20der%20Stadt%20Strassburg%20dritter" target="_blank">635</a>,
             29.4.1309, <i>Anna begina, nata quondam Burcardi dicti Kolin civis Arg.</i>)<i>.</i>
             </p>
           </div>
@@ -3835,13 +3835,13 @@
                                           <sup>[56]</sup>
                                       </a>
                                     <span lang="EN-US" style=""> Vgl. RUB I, S. 308 (Nr. </span>
-                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f334.item.r=">
+                                    <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f334.item.r=" target="_blank">
                                           <span style="">417</span>,
                                       </a>
                                     <span style="">
                   15.2.1331), und <span style="font-variant:small-caps">›Regesta Imperii‹</span>
                   VII,1,4, </span>
-                                    <a href="http://regesta-imperii.digitale-sammlungen.de/gehezuseite/ri07_wet1998?page=42">
+                                    <a href="http://regesta-imperii.digitale-sammlungen.de/gehezuseite/ri07_wet1998?page=42" target="_blank">
                                           <span style="">S. 42f. (Nr. 71)</span>
                                       </a>
                                     <span style="">.</span>
@@ -3856,7 +3856,7 @@
           <div id="ftn58">
             <p class="MsoFootnoteText"><a href="#_ftnref58" id="_ftn58"><sup>[58]</sup></a>         <span style=""> Vgl. <span style="font-variant:small-caps">Thompson</span> (1931), S. 15–17; Zur Handschrift Mons siehe <span style="font-variant:small-caps">Busby</span> (1993), S.
                   XXIII–XXV, sowie den Eintrag im Répertoire des textes et des manuscrits
-                  médiévaux d'oc et d'oïl </span><a href="http://jonas.irht.cnrs.fr/manuscrit/35764"><span style="">Jonas</span></a><span style="">.</span></p>
+                  médiévaux d'oc et d'oïl </span><a href="http://jonas.irht.cnrs.fr/manuscrit/35764" target="_blank"><span style="">Jonas</span></a><span style="">.</span></p>
           </div>
           <div id="ftn59">
             <p class="MsoFootnoteText"><a href="#_ftnref59" id="_ftn59"><sup>[59]</sup></a>         <span style=""> Vgl. <span style="font-variant:small-caps">Chrétien, Conte du Graal</span>.</span></p>
@@ -3879,29 +3879,29 @@
           <div id="ftn63">
             <p class="MsoFootnoteText"><a href="#_ftnref63" id="_ftn63"><sup>[63]</sup></a>         <span style=""> Zu
                   den Hss. T und U sowie zu den Fragmenten 26, 32 und 42 siehe <span style="font-variant:small-caps">Schöller</span> (2009), S. 60–124; Wolfram von Eschenbach, Parzival (ed. <span style=" font-variant:small-caps">Reichert</span> 2019), Bd. 2, S. 27–30, 48f., 69f., 73, 78f.; das
-                  Handschriftenverzeichnis des </span><a href="http://www.parzival.unibe.ch/hsverz.html"><span style="">Berner
+                  Handschriftenverzeichnis des </span><a href="http://www.parzival.unibe.ch/hsverz.html" target="_blank"><span style="">Berner
                       Parzival-Projekt</span></a><span style="">s sowie die
-                  entsprechenden Einträge im </span><a href="http://www.mr1314.de/"><span style="">Marburger Repertorium</span></a><span style=""> (</span><a href="http://www.mr1314.de/1217"><span style="">Hs. T</span></a><span style="">, </span><a href="http://www.mr1314.de/2995"><span style="">Hs. U</span></a><span style="">, </span><a href="http://www.mr1314.de/1009"><span style="">Fr. 26</span></a><span style="">, </span><a href="http://www.mr1314.de/1220"><span style="">Fr. 32</span></a><span style="">, </span><a href="http://www.mr1314.de/1021"><span style="">Fr. 42</span></a><span style="">) (mit
+                  entsprechenden Einträge im </span><a href="http://www.mr1314.de/" target="_blank"><span style="">Marburger Repertorium</span></a><span style=""> (</span><a href="http://www.mr1314.de/1217" target="_blank"><span style="">Hs. T</span></a><span style="">, </span><a href="http://www.mr1314.de/2995" target="_blank"><span style="">Hs. U</span></a><span style="">, </span><a href="http://www.mr1314.de/1009" target="_blank"><span style="">Fr. 26</span></a><span style="">, </span><a href="http://www.mr1314.de/1220" target="_blank"><span style="">Fr. 32</span></a><span style="">, </span><a href="http://www.mr1314.de/1021" target="_blank"><span style="">Fr. 42</span></a><span style="">) (mit
                   Hinweisen auf Digitalisate).</span></p>
           </div>
           <div id="ftn64">
             <p class="MsoFootnoteText"><a href="#_ftnref64" id="_ftn64"><sup>[64]</sup></a>         <span style=""> Zu
                   den Hss. m, n, o sowie zum Druck W siehe <span style="font-variant:small-caps">Viehhauser-Mery</span>
                   (2009), S. 53–110; <span style="font-variant:small-caps">Schöller</span>
-                  (2009), S. 113–120; Wolfram von Eschenbach, Parzival (ed. <span style="font-variant:small-caps">Reichert</span> 2019), Bd. 2, S. 32–38, 44–46; das Handschriftenverzeichnis des </span><a href="http://www.parzival.unibe.ch/hsverz.html"><span style="">Berner
+                  (2009), S. 113–120; Wolfram von Eschenbach, Parzival (ed. <span style="font-variant:small-caps">Reichert</span> 2019), Bd. 2, S. 32–38, 44–46; das Handschriftenverzeichnis des </span><a href="http://www.parzival.unibe.ch/hsverz.html" target="_blank"><span style="">Berner
                       Parzival-Projekt</span></a><span style="">s sowie die
-                  entsprechenden Einträge im </span><a href="http://handschriftencensus.de/"><span style="">Handschriftencensus</span></a><span style=""> (</span><a href="http://www.handschriftencensus.de/6546"><span style="">Hs. m</span></a><span style="">, </span><a href="http://www.handschriftencensus.de/4916"><span style="">Hs.
-                      n</span></a><span style="">, </span><a href="http://www.handschriftencensus.de/6801"><span style="">Hs.
+                  entsprechenden Einträge im </span><a href="http://handschriftencensus.de/" target="_blank"><span style="">Handschriftencensus</span></a><span style=""> (</span><a href="http://www.handschriftencensus.de/6546" target="_blank"><span style="">Hs. m</span></a><span style="">, </span><a href="http://www.handschriftencensus.de/4916" target="_blank"><span style="">Hs.
+                      n</span></a><span style="">, </span><a href="http://www.handschriftencensus.de/6801" target="_blank"><span style="">Hs.
                       o</span></a><span style="">, mit Hinweisen auf Digitalisate)
-                  und im Gesamtkatalog der Wiegendrucke (</span><a href="http://gesamtkatalogderwiegendrucke.de/docs/M51783.htm"><span style="">Druck W</span></a><span style="">, mit
+                  und im Gesamtkatalog der Wiegendrucke (</span><a href="http://gesamtkatalogderwiegendrucke.de/docs/M51783.htm" target="_blank"><span style="">Druck W</span></a><span style="">, mit
                   Hinweis auf Digitalisate).</span></p>
           </div>
           <div id="ftn65">
             <p class="MsoFootnoteText"><a href="#_ftnref65" id="_ftn65"><sup>[65]</sup></a>         <span style=""> Zu
                   den Hss. Q und R siehe <span style="font-variant:small-caps">Stolz</span>
-                  (2009) (zu R), das Handschriftenverzeichnis des </span><a href="http://www.parzival.unibe.ch/hsverz.html"><span style="">Berner
+                  (2009) (zu R), das Handschriftenverzeichnis des </span><a href="http://www.parzival.unibe.ch/hsverz.html" target="_blank"><span style="">Berner
                       Parzival-Projekt</span></a><span style="">s sowie die
-                  entsprechenden Einträge im </span><a href="http://handschriftencensus.de/"><span style="">Handschriftencensus</span></a><span style=""> (</span><a href="http://www.handschriftencensus.de/5015"><span style="">Hs. Q</span></a><span style="">, </span><a href="http://www.handschriftencensus.de/3959"><span style="">Hs.
+                  entsprechenden Einträge im </span><a href="http://handschriftencensus.de/" target="_blank"><span style="">Handschriftencensus</span></a><span style=""> (</span><a href="http://www.handschriftencensus.de/5015" target="_blank"><span style="">Hs. Q</span></a><span style="">, </span><a href="http://www.handschriftencensus.de/3959" target="_blank"><span style="">Hs.
                       R</span></a><span style="">) (mit Hinweisen auf Digitalisate).</span></p>
           </div>
           <div id="ftn66">
@@ -3926,12 +3926,12 @@
                 und <span style="font-variant:small-caps">Schneider</span> vermuten, dass
                 es sich beim im Kolophon genannten Schreiber um denjenigen Johannes handelt,
                 den der Straßburger Domherr Ulrich (Nr. 1) offenbar von seinem Bruder Johann
-                nach dessen Tod 1335 übernommen hat (vgl. RUB I, S. 340 [Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f366.item.r="><span style="">459</span></a>] [16.7.1335] und S. 340f. [Nr. 460]
+                nach dessen Tod 1335 übernommen hat (vgl. RUB I, S. 340 [Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94010463/f366.item.r=" target="_blank"><span style="">459</span></a>] [16.7.1335] und S. 340f. [Nr. 460]
                 [7.8.1335]); vgl. <span style="font-variant:small-caps">Wittmann-Klemm</span>
                 (1977), S. 3, und <span style="font-variant:small-caps">Schneider</span>
                 (2009), S. 140. Nicht klar ist, ob dieser identisch ist mit dem 1359 als
                 Zeuge in einer Urkunde erwähnten Schreiber Johannes aus der Rappoltsweiler
-                Oberstadt; vgl. RUB III, S. 553 (Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94006886/f565.image.r=.langDE">1181</a>,
+                Oberstadt; vgl. RUB III, S. 553 (Nr. <a href="http://gallica.bnf.fr/ark:/12148/bpt6k94006886/f565.image.r=.langDE" target="_blank">1181</a>,
                 Nachtrag, eigentlich 722<sup>bis</sup>, 11.7.1359).
             </p>
           </div>
@@ -3964,7 +3964,7 @@
           </div>
           <div id="ftn75">
             <p class="MsoFootnoteText"><a href="#_ftnref75" id="_ftn75"><sup>[75]</sup></a>         <span style=""> Die Darstellung
-                  der Schreiberhände geht zurück auf Untersuchungen aus dem Jahr 2013, die Marius Gehrig M.A. im Rahmen des </span><a href="http://www.parzival.unibe.ch/hsverz.html"><span style="">Berner
+                  der Schreiberhände geht zurück auf Untersuchungen aus dem Jahr 2013, die Marius Gehrig M.A. im Rahmen des </span><a href="http://www.parzival.unibe.ch/hsverz.html" target="_blank"><span style="">Berner
                       Parzival-Projekt</span></a><span style="">s angestellt hat. Ich danke Herrn Gehrig für die Möglichkeit, die Ergebnisse an
                   dieser Stelle präsentieren zu können. Vgl. dazu auch <span style="font-variant: small-caps">Fasching</span> (2018), S. 495f. Da nach paläographischen Gesichtspunkten
                         charakteristische Besonderheiten von fünf unterschiedlichen Typen,
@@ -4027,9 +4027,9 @@
                   tätiges Basler Skriptorium, zu dem sie außerdem folgende Codices zählt: Aarau,
                   Aargauer KB, MsMurF 2 (Antiphonar); Landesarchiv Baden-Württemberg, Karlsruhe,
                   GLA, Anniversarienbücher 64, 3 (›Liber vitae ecclesiae Basiliensis‹); Freiburg
-                  i.Br., Augustinermuseum, Codex Adelhausen 3, Inv. Nr. 11725 (Antiphonar), </span><a href="http://dl.ub.uni-freiburg.de/diglit/hs476"><span style="">Hs.
-                      476</span></a><span style=""> (deutsches Stundenbuch, vgl. Bl. </span><a href="http://dl.ub.uni-freiburg.de/diglit/hs476/0005/image?sid=624659917a7df5ceaa9e9070f0ebd3c6#current_page"><span style="">1r</span></a><span style="">) und </span><a href="http://dl.ub.uni-freiburg.de/diglit/hs301/0536?sid=877ccb6b032360fbbba7b1dd8daa2450"><span style="">Hs. 301</span></a><span style="">
-                  (Stunden-, Gebet- und Andachtsbuch, vgl. Bl. </span><a href="http://dl.ub.uni-freiburg.de/diglit/hs301/0029/image?sid=877ccb6b032360fbbba7b1dd8daa2450#current_page"><span style="">14r</span></a><span style=""> und </span><a href="http://dl.ub.uni-freiburg.de/diglit/hs301/0029/image?sid=877ccb6b032360fbbba7b1dd8daa2450#current_page"><span style="">57v</span></a><span style="">), sowie Basel,
+                  i.Br., Augustinermuseum, Codex Adelhausen 3, Inv. Nr. 11725 (Antiphonar), </span><a href="http://dl.ub.uni-freiburg.de/diglit/hs476" target="_blank"><span style="">Hs.
+                      476</span></a><span style=""> (deutsches Stundenbuch, vgl. Bl. </span><a href="http://dl.ub.uni-freiburg.de/diglit/hs476/0005/image?sid=624659917a7df5ceaa9e9070f0ebd3c6#current_page" target="_blank"><span style="">1r</span></a><span style="">) und </span><a href="http://dl.ub.uni-freiburg.de/diglit/hs301/0536?sid=877ccb6b032360fbbba7b1dd8daa2450" target="_blank"><span style="">Hs. 301</span></a><span style="">
+                  (Stunden-, Gebet- und Andachtsbuch, vgl. Bl. </span><a href="http://dl.ub.uni-freiburg.de/diglit/hs301/0029/image?sid=877ccb6b032360fbbba7b1dd8daa2450#current_page" target="_blank"><span style="">14r</span></a><span style=""> und </span><a href="http://dl.ub.uni-freiburg.de/diglit/hs301/0029/image?sid=877ccb6b032360fbbba7b1dd8daa2450#current_page" target="_blank"><span style="">57v</span></a><span style="">), sowie Basel,
                   UB, B VII 27 (Johannes von Dambach); vgl. <span style="font-variant:small-caps">Beer</span>
                   (1959), S. 27–29, 40, 58–64, 104 und Tafeln 35–43. Außer dem MsWettF 9 kann
                   allerdings keiner der genannten Codices der in Hs. V tätigen Malerhand I
@@ -4057,7 +4057,7 @@
                       (1872), Bd. 1, </span>S. 184f. und 339–341.</span></p>
           </div>
           <div id="ftn92">
-            <p class="MsoFootnoteText"><a href="#_ftnref92" id="_ftn92"><sup>[92]</sup></a>         <span style=""> Vgl. </span><a href="http://webserver.erwin-rauner.de/biblcod/bc01_ort_details.php?ortnr=17410&amp;biblnr=1&amp;orts id=PAIRIS"><span style="">Bibliothecae codicum medii aevi</span></a><span style=""> (Angaben teilweise nicht korrekt).</span></p>
+            <p class="MsoFootnoteText"><a href="#_ftnref92" id="_ftn92"><sup>[92]</sup></a>         <span style=""> Vgl. </span><a href="http://webserver.erwin-rauner.de/biblcod/bc01_ort_details.php?ortnr=17410&amp;biblnr=1&amp;orts id=PAIRIS" target="_blank"><span style="">Bibliothecae codicum medii aevi</span></a><span style=""> (Angaben teilweise nicht korrekt).</span></p>
           </div>
           <div id="ftn93">
             <p class="MsoFootnoteText"><a href="#_ftnref93" id="_ftn93"><sup>[93]</sup></a>         <span style=""> Vgl. <span style="font-variant:small-caps">Beer</span> (1959), S. 26f. u.ö., und <span style="font-variant:small-caps">Beer</span> (1965), S. 140.</span></p>
@@ -4069,7 +4069,7 @@
               style="font-variant:small-caps">Schorbach</span> (1888), S. XV.</p>
           </div>
           <div id="ftn95">
-            <p class="MsoFootnoteText"><a href="#_ftnref95" id="_ftn95"><sup>[95]</sup></a>         <span style=""> Vgl. <span style="font-variant:small-caps">Ute Obhof</span> auf </span><a href="http://www.manuscripta-mediaevalia.de/?xdbdtdn!%22obj%2031576740%22&amp;dmode=doc#|4"><span style="">Manuscripta Mediaevalia</span></a><span style=""> mit der falschen Angabe von Bl.
+            <p class="MsoFootnoteText"><a href="#_ftnref95" id="_ftn95"><sup>[95]</sup></a>         <span style=""> Vgl. <span style="font-variant:small-caps">Ute Obhof</span> auf </span><a href="http://www.manuscripta-mediaevalia.de/?xdbdtdn!%22obj%2031576740%22&amp;dmode=doc#|4" target="_blank"><span style="">Manuscripta Mediaevalia</span></a><span style=""> mit der falschen Angabe von Bl.
               <router-link to="/faksimile/V/189r">189r</router-link> anstelle von Bl.
               <router-link to="/faksimile/V/180r">180r</router-link>.</span></p>
           </div>
@@ -4096,13 +4096,13 @@
             <p class="MsoFootnoteText"><a href="#_ftnref99" id="_ftn99"><sup>[99]</sup></a> Möglicherweise zeigt das zweite
                 Wappen (Feld quadriert) mit Helmzier dasjenige des fränkischen Adelsgeschlechts
                 der Grafen von Castell mit Hut und Palmzweigen als Helmzier; vgl. das
-                Scheiblersche Wappenbuch (München, BSB, Cod.icon. 312 c, S. <a href="http://daten.digitale-sammlungen.de/~db/bsb00007174/images/index.html?id=00007174&amp;nativeno=19"><span style="">19</span></a>).
+                Scheiblersche Wappenbuch (München, BSB, Cod.icon. 312 c, S. <a href="http://daten.digitale-sammlungen.de/~db/bsb00007174/images/index.html?id=00007174&amp;nativeno=19" target="_blank"><span style="">19</span></a>).
             </p>
           </div>
           <div id="ftn100">
             <p class="MsoFootnoteText"><a href="#_ftnref100" id="_ftn100"><sup>[100]</sup></a> Ähnlich ist auch das Wappen des fränkischen
               Adelsgeschlechts Ehenheim mit Sitz in Enheim (Gemeinde Martinsheim) mit einer rohrförmigen Helmzier; vgl. Scheiblersches Wappenbuch (München, BSB,
-              Cod.icon. 312 c, S. <a href="http://daten.digitale-sammlungen.de/~db/bsb00007174/images/index.html?id=00007174&amp;nativeno=85">85</a>).</p>
+              Cod.icon. 312 c, S. <a href="http://daten.digitale-sammlungen.de/~db/bsb00007174/images/index.html?id=00007174&amp;nativeno=85" target="_blank">85</a>).</p>
           </div>
           <div id="ftn101">
             <p class="MsoFootnoteText"><a href="#_ftnref101" id="_ftn101"><sup>[101]</sup></a> Zur Entwicklung und Verwendung der
@@ -4129,7 +4129,7 @@
                 Wort« oder »Gott hilf mir, hilf wohl«) im Vorderspiegel der Handschrift
                 Stuttgart, WLB, Cod.Don.III.54, von 1540/1550: <i>.1.5. B. 9.2. | .G.H.M.H.W. </i>|
                 <i>Kúnigunde fraÿ fraw zú Kunigseckh vnd | Aúlendorf geborne greffin Zú Zimbern
-                  | gehort dis Búch Zú</i>; vgl. das Digitalfaksimile des <a href="http://digital.wlb-stuttgart.de/sammlungen/sammlungsliste/werksansicht/?no_cache=1&amp;tx_dlf%5Bid%5D=2653&amp;tx_dlf%5Bpage%5D=2&amp;tx_dlf%5Bdouble%5D=0&amp;cHash=52449b2ada5fbb79ed3a18bafa2e5b8"><span style="">Cod.Don.III.54</span></a> der Württembergischen Landesbibliothek
+                  | gehort dis Búch Zú</i>; vgl. das Digitalfaksimile des <a href="http://digital.wlb-stuttgart.de/sammlungen/sammlungsliste/werksansicht/?no_cache=1&amp;tx_dlf%5Bid%5D=2653&amp;tx_dlf%5Bpage%5D=2&amp;tx_dlf%5Bdouble%5D=0&amp;cHash=52449b2ada5fbb79ed3a18bafa2e5b8" target="_blank"><span style="">Cod.Don.III.54</span></a> der Württembergischen Landesbibliothek
                 Stuttgart. – Mit ähnlichen Bücherzeichen notierte der Sammler von
                 Reformationsschriften Ulrich VI. Graf von Rappoltstein († 1531), Sohn Wilhelms
                 II., 1522 mit Anna Alexandrina Gräfin von Fürstenberg vermählt, die
@@ -4143,7 +4143,7 @@
           <div id="ftn105">
             <p class="MsoFootnoteText"><a href="#_ftnref105" id="_ftn105"><sup>[105]</sup></a>       <span style=""> Siehe
                   dazu auch <span style="font-variant:small-caps">Wittmann-Klemm</span> (1977),
-                  S. 131f., und Ute Obhof auf ‚</span><a href="http://www.manuscripta-mediaevalia.de/?xdbdtdn!%22obj%2031576740%22&amp;dmode=doc#|4"><span style="">Manuscripta Mediaevalia</span></a><span style="">’.</span></p>
+                  S. 131f., und Ute Obhof auf ‚</span><a href="http://www.manuscripta-mediaevalia.de/?xdbdtdn!%22obj%2031576740%22&amp;dmode=doc#|4" target="_blank"><span style="">Manuscripta Mediaevalia</span></a><span style="">’.</span></p>
           </div>
           <div id="ftn106">
             <p class="MsoFootnoteText"><a href="#_ftnref106" id="_ftn106"><sup>[106]</sup></a> Auflösung nach dem <span style="font-variant:small-caps">Lexikon Stammbuchsprüche</span>, S. 135.
@@ -4182,7 +4182,7 @@
           <div id="ftn112">
             <p class="MsoFootnoteText"><a href="#_ftnref112" id="_ftn112"><sup>[112]</sup></a> Solche
                   Einträge mitten im Text scheinen nicht unüblich gewesen zu sein. Jedenfalls
-                  bringt auch der <a href="http://daten.digitale-sammlungen.de/0003/bsb00035326/images/index.html?fip=193.174.98.30&amp;id=00035326&amp;seite=1">Cgm 8470</a>
+                  bringt auch der <a href="http://daten.digitale-sammlungen.de/0003/bsb00035326/images/index.html?fip=193.174.98.30&amp;id=00035326&amp;seite=1" target="_blank">Cgm 8470</a>
                   der BSB in München aus dem 2. Viertel des 15. Jahrhunderts mit dem ›Jüngeren
                   Titurel‹ mehrere Stammbucheinträge des 16.
                   Jahrhunderts (Bildnrn. 5, 6, 10 u.ö.).</p>
@@ -4330,9 +4330,9 @@
               (1977), S. 91, Anm. 1, S. 122, Anm. 2, und S. 181, Anm. 3; <span style="font-variant:small-caps">Backes</span> (1992), S. 54, Anm. 24;
               <span style="font-variant:small-caps">Miller</span>/<span style="font-variant:small-caps">Zimmermann Kat. Heidelberg</span>, S. 241, 281
               und 319. Die Begründung <span style="font-variant:small-caps">Schnelbögl</span>s, zwei Texte würden mit einem Bittgebet mit <i>Amen </i>(Codd. Pal.
-              germ. 364, Bl. <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg364/0309/image"><span style="">151r</span></a><span style="">b [Schluss
-                des ›Lohengrin‹], und 383, Bl. </span><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg383/0372/image"><span style="">183v</span></a>a [Schluss
-              des ›‹Jüngeren Titurel‹]) schließen und am Blattrand von Cod. Pal. germ. 404, Bl. <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg404/0087/image">
+              germ. 364, Bl. <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg364/0309/image" target="_blank"><span style="">151r</span></a><span style="">b [Schluss
+                des ›Lohengrin‹], und 383, Bl. </span><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg383/0372/image" target="_blank"><span style="">183v</span></a>a [Schluss
+              des ›‹Jüngeren Titurel‹]) schließen und am Blattrand von Cod. Pal. germ. 404, Bl. <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg404/0087/image" target="_blank">
               40r</a>a, stehe <i>dominus</i>, ist nicht stichhaltig. Diese Zusätze, die aus den Vorlagen stammen können, finden sich auch in textgeschichtlich
               unabhängigen Parallelhandschriften; siehe dazu <span style="font-variant:small-caps">Fasching</span> (2018), S. 503.</p>
           </div>
@@ -4366,7 +4366,7 @@
             <p class="MsoFootnoteText"><a href="#_ftnref144" id="_ftn144"><sup>[144]</sup></a> Vgl. <span style="font-variant:small-caps">Heller</span> (1845);
             <span style="font-variant: small-caps">von Wegele</span> (1883); <span style="font-variant:small-caps">Wendehorst</span> (1982);
             <span style="font-variant:small-caps">Schlechter</span>/<span style="font-variant:small-caps">Stamm</span> (2000), S. 52. Siehe dazu auch den
-            Eintrag im Nekrolog der Bamberger Klarissen: <a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/148745">Karlsruhe, BLB, St. Peter perg. 57, Bl. 14v</a>.</p>
+            Eintrag im Nekrolog der Bamberger Klarissen: <a href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/148745" target="_blank">Karlsruhe, BLB, St. Peter perg. 57, Bl. 14v</a>.</p>
           </div>
           <div id="ftn145">
             <p class="MsoFootnoteText"><a href="#_ftnref145" id="_ftn145"><sup>[145]</sup></a> Bamberg,
@@ -4391,16 +4391,16 @@
           </div>
           <div id="ftn148">
               <p class="MsoFootnoteText"><a href="#_ftnref148" id="_ftn148"><sup>[148]</sup></a><span>&#160;</span>
-                  <a href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_871?ui_lang=ger"><span lang="it"> Città del Vaticano, BAV, Pal. lat.
+                  <a href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_871?ui_lang=ger" target="_blank"><span lang="it"> Città del Vaticano, BAV, Pal. lat.
                   871</span></a> (Teil II mit Nachtrag). Zur Hs. und deren Geschichte siehe <span lang="de" style="font-variant:small-caps">Wirth</span>
                   <span lang="DE-CH"> (1982), S. 19–22, und <span style="font-variant:small-caps">Wetzel</span> (1995), S. 23f.</span>
               </p>
           </div>
           <div id="ftn149">
             <p class="MsoFootnoteText"><a href="#_ftnref149" id="_ftn149"><sup>[149]</sup></a><span>&#160;</span><a
-            href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1245"><span lang="it"> Città del Vaticano, BAV, Pal. lat. 1245</span></a>,
+            href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1245" target="_blank"><span lang="it"> Città del Vaticano, BAV, Pal. lat. 1245</span></a>,
                 dazu <span style="font-variant:small-caps">Schuba Kat. Vaticana</span>, S. 275f., und
-                <a href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1289?ui_lang=ger"><span lang="it">Città del Vaticano,</span>
+                <a href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1289?ui_lang=ger" target="_blank"><span lang="it">Città del Vaticano,</span>
                 BAV, Pal. lat. 1289</a>, dazu <span style="font-variant: small-caps">Schuba</span> (1981), S. XXIX.
             </p>
           </div>
@@ -4409,19 +4409,19 @@
           </div>
           <div id="ftn151">
             <p class="MsoFootnoteText"><a href="#_ftnref151" id="_ftn151"><sup>[151]</sup></a> Città del Vaticano, BAV, <a
-              href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1956/0075/image?sid=4c41143a06d8e9180a77a6f45ac0dca7">Pal. lat. 1956 (Katalog der Palatina, 1581,
+              href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1956/0075/image?sid=4c41143a06d8e9180a77a6f45ac0dca7" target="_blank">Pal. lat. 1956 (Katalog der Palatina, 1581,
               Geschichte), S. 56</a>, bzw. Pal. lat. 1931, Bl. 306r; zit. nach <span style="font-variant:small-caps">Miller</span> (2007), S. 308.
             </p>
           </div>
           <div id="ftn152">
             <p class="MsoFootnoteText"><a href="#_ftnref152" id="_ftn152"><sup>[152]</sup></a> Heidelberg, UB, Cod. Pal. germ. 364, Inhaltsangabe von
-                  anderer Hand auf Bl. <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg364/0009/image?sid=90930507383b80b08aa227cc67f0c30c">1r</a>: <i>Parcefall
+                  anderer Hand auf Bl. <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg364/0009/image?sid=90930507383b80b08aa227cc67f0c30c" target="_blank">1r</a>: <i>Parcefall
                   vnd Lorangrin</i>. Die Bezeichnung <i>gleiches bunds</i> weist auf denselben Einbandtyp der unter [Nr. 1] aufgelisteten Prosa-Lancelot-Handschrift, bei der es sich wahrscheinlich
-                  um den Heidelberger <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg147?sid=90930507383b80b08aa227cc67f0c30c">Cod. Pal. germ. 147</a> handelt.
+                  um den Heidelberger <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg147?sid=90930507383b80b08aa227cc67f0c30c" target="_blank">Cod. Pal. germ. 147</a> handelt.
                   Die dort angeführte Beschreibung des Einbands als <i>Perment, brett, ſchwartʒ | leder bucklen</i> trifft auch auf den erhaltenen Ottheinrich-Einband des <a
-                  href="http://digi.ub.uni-heidelberg.de/diglit/cpg394/0001/image?sid=90930507383b80b08aa227cc67f0c30c">Cod. Pal. germ. 394</a> (Bruder Philipp,
+                  href="http://digi.ub.uni-heidelberg.de/diglit/cpg394/0001/image?sid=90930507383b80b08aa227cc67f0c30c" target="_blank">Cod. Pal. germ. 394</a> (Bruder Philipp,
                   Marienleben) zu, der im Katalog der Schlossbibliothek von 1581 auf S. <a
-                  href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1956/0083?sid=4965b4e6ec107f8cdf0cf1062a90a0a3">64</a> wie der Cod. Pal. germ.
+                  href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1956/0083?sid=4965b4e6ec107f8cdf0cf1062a90a0a3" target="_blank">64</a> wie der Cod. Pal. germ.
                   147 beschrieben wird: <i>brett(er), ſchw. leder, bu̇cklen</i>.
             </p>
           </div>
@@ -4444,7 +4444,7 @@
                                       </a>
                                     <span style=""> Heidelberg, UB, Cod. Pal. germ. 383, Inhaltsangabe von
                   anderer Hand auf Bl. </span>
-                                    <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg383/0007/image?sid=90930507383b80b08aa227cc67f0c30c">
+                                    <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg383/0007/image?sid=90930507383b80b08aa227cc67f0c30c" target="_blank">
                                           <span style="">1r</span>
                                       </a>
                                     <span style="">: <i>Der
@@ -4458,7 +4458,7 @@
                                       </a>
                                     <span style=""> Heidelberg, UB, Cod. Pal. germ. 404, Inhaltsangabe von
                   anderer Hand auf Bl. </span>
-                                    <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg404/0009/image?sid=90930507383b80b08aa227cc67f0c30c">
+                                    <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg404/0009/image?sid=90930507383b80b08aa227cc67f0c30c" target="_blank">
                                           <span style="">1r</span>
                                       </a>
                                     <span style="">: <i>Margraff
@@ -4481,16 +4481,16 @@
           </div>
           <div id="ftn158">
             <p class="MsoFootnoteText"><a href="#_ftnref158" id="_ftn158"><sup>[158]</sup></a> Dasselbe Wasserzeichen mit Anker im Kreis wie in Hs. V' weisen die Vorsatzblätter der beiden folgenden Handschriften auf: Cod. <a
-              href="http://digi.ub.uni-heidelberg.de/diglit/cpg167">Pal. germ. 167</a> (Sachsenspiegel und Schwabenspiegel; Capsanummer: <i>C. 173</i>,
+              href="http://digi.ub.uni-heidelberg.de/diglit/cpg167" target="_blank">Pal. germ. 167</a> (Sachsenspiegel und Schwabenspiegel; Capsanummer: <i>C. 173</i>,
               alte römische Signatur: 1651), dazu <span style="font-variant:small-caps">Zimmermann Kat. Heidelberg</span> (2003), S. 386; und Cod. Pal. germ. <a
-              href="http://digi.ub.uni-heidelberg.de/diglit/cpg333">333</a> (Ulrich von Etzenbach: Alexander, Alexander-Anhang; <i>C. 92</i>),
+              href="http://digi.ub.uni-heidelberg.de/diglit/cpg333" target="_blank">333</a> (Ulrich von Etzenbach: Alexander, Alexander-Anhang; <i>C. 92</i>),
               dazu <span style="font-variant:small-caps">Miller</span>/<span style="font-variant:small-caps">Zimmermann Kat. Heidelberg</span>,
               (2007), S. 111 (Beschreibung von Matthias Miller). Beide Handschriften enthalten auch Papier mit einem gerauteten Wappenschild als Wasserzeichen, das seinerseits in den folgenden Handschriften verwendet wird: Codd. Pal. germ.
-              <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg28">28</a> (<i>C. 179</i>), <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg60">60</a>
-              (<i>C. 120</i>), <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg68">68</a> (<i>C. 128</i>), <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg115">
-              <span style="">115</span></a> (<i>C. 84</i>), <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg139">139</a> (<i>C. 92</i>), <a
-              href="http://digi.ub.uni-heidelberg.de/diglit/cpg163">163</a> (<i>C. 107</i>), <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg167">167</a>
-              (<i>C. 173</i>) und <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg214">214</a>; vgl. <span style="font-variant:small-caps">Zimmermann</span>
+              <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg28" target="_blank">28</a> (<i>C. 179</i>), <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg60" target="_blank">60</a>
+              (<i>C. 120</i>), <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg68" target="_blank">68</a> (<i>C. 128</i>), <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg115" target="_blank">
+              <span style="">115</span></a> (<i>C. 84</i>), <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg139" target="_blank">139</a> (<i>C. 92</i>), <a
+              href="http://digi.ub.uni-heidelberg.de/diglit/cpg163" target="_blank">163</a> (<i>C. 107</i>), <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg167" target="_blank">167</a>
+              (<i>C. 173</i>) und <a href="http://digi.ub.uni-heidelberg.de/diglit/cpg214" target="_blank">214</a>; vgl. <span style="font-variant:small-caps">Zimmermann</span>
               (2003), S. XVII.
             </p>
           </div>
@@ -4595,7 +4595,7 @@
           <tr>
             <td>Fr. 26</td>
             <td>München, BSB, <a
-href="http://daten.digitale-sammlungen.de/0010/bsb00107437/images/index.html?fip=193.174.98.30&amp;id=00107437&amp;seite=1">Cgm 5249/3c</a></td>
+href="http://daten.digitale-sammlungen.de/0010/bsb00107437/images/index.html?fip=193.174.98.30&amp;id=00107437&amp;seite=1" target="_blank">Cgm 5249/3c</a></td>
           </tr>
           <tr>
             <td>Fr. 32</td>
@@ -4604,45 +4604,45 @@ href="http://daten.digitale-sammlungen.de/0010/bsb00107437/images/index.html?fip
           <tr>
             <td>Fr. 42</td>
             <td>München, BSB, <a
-href="http://daten.digitale-sammlungen.de/0010/bsb00107438/images/index.html?fip=193.174.98.30&amp;id=00107438&amp;seite=">Cgm 5249/3b</a></td>
+href="http://daten.digitale-sammlungen.de/0010/bsb00107438/images/index.html?fip=193.174.98.30&amp;id=00107438&amp;seite=" target="_blank">Cgm 5249/3b</a></td>
           </tr>
           <tr>
             <td>L</td>
             <td>Karlsruhe, BLB, <a
-href="https://digital.blb-karlsruhe.de/blbhs/content/titleinfo/1164333">Lichtenthal 141</a></td>
+href="https://digital.blb-karlsruhe.de/blbhs/content/titleinfo/1164333" target="_blank">Lichtenthal 141</a></td>
           </tr>
           <tr>
             <td>m</td>
             <td>Wien, ÖNB, <a
-href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3227927&amp;order=1&amp;view=SINGLE">Cod. 2914</a></td>
+href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3227927&amp;order=1&amp;view=SINGLE" target="_blank">Cod. 2914</a></td>
           </tr>
           <tr>
             <td>n</td>
-            <td>Heidelberg, UB, <a href="https://digi.ub.uni-heidelberg.de/diglit/cpg339i">Cod. Pal. germ. 339</a></td>
+            <td>Heidelberg, UB, <a href="https://digi.ub.uni-heidelberg.de/diglit/cpg339i" target="_blank">Cod. Pal. germ. 339</a></td>
           </tr>
           <tr>
             <td>o</td>
-            <td>Dresden, SLUB, <a href="http://digital.slub-dresden.de/werkansicht/dlf/12735/1/">Mscr.Dresd.M.66</a></td>
+            <td>Dresden, SLUB, <a href="http://digital.slub-dresden.de/werkansicht/dlf/12735/1/" target="_blank">Mscr.Dresd.M.66</a></td>
           </tr>
           <tr>
             <td>Q</td>
-            <td>Karlsruhe, BLB, <a href="https://digital.blb-karlsruhe.de/urn/urn:nbn:de:bsz:31-36683">Donaueschingen 70</a></td>
+            <td>Karlsruhe, BLB, <a href="https://digital.blb-karlsruhe.de/urn/urn:nbn:de:bsz:31-36683" target="_blank">Donaueschingen 70</a></td>
           </tr>
           <tr>
             <td>R</td>
-            <td>Bern, Burgerbibliothek, <a href="https://www.e-codices.unifr.ch/de/list/one/bbb/AA0091">Cod. AA 91</a></td>
+            <td>Bern, Burgerbibliothek, <a href="https://www.e-codices.unifr.ch/de/list/one/bbb/AA0091" target="_blank">Cod. AA 91</a></td>
           </tr>
           <tr>
             <td>T</td>
-            <td>Wien, ÖNB, <a href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_2973596&amp;order=1&amp;view=SINGLE">Cod. 2708</a></td>
+            <td>Wien, ÖNB, <a href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_2973596&amp;order=1&amp;view=SINGLE" target="_blank">Cod. 2708</a></td>
           </tr>
           <tr>
             <td>U</td>
-            <td>Wien, ÖNB, <a href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3396562&amp;order=1&amp;view=SINGLE">Cod. 2775</a></td>
+            <td>Wien, ÖNB, <a href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3396562&amp;order=1&amp;view=SINGLE" target="_blank">Cod. 2775</a></td>
           </tr>
           <tr>
             <td>V</td>
-            <td>Karlsruhe, BLB, <router-link to="/faksimile/V/001r/single-page">Donaueschingen 97</router-link></td>
+            <td>Karlsruhe, BLB, <router-link to="/faksimile/V/001r/single-page" target="_blank">Donaueschingen 97</router-link></td>
           </tr>
           <tr>
             <td>V'</td>
@@ -4650,7 +4650,7 @@ href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3227927&amp;order=
           </tr>
           <tr>
             <td>W</td>
-            <td>Aarau, Aargauer KB, <a href="http://www.e-codices.unifr.ch/de/list/one/kba/WettF0009">MsWettF 9</a></td>
+            <td>Aarau, Aargauer KB, <a href="http://www.e-codices.unifr.ch/de/list/one/kba/WettF0009" target="_blank">MsWettF 9</a></td>
           </tr>
         </tbody>
       </table>
@@ -4659,7 +4659,7 @@ href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3227927&amp;order=
         <tbody>
           <tr>
             <td>W</td>
-            <td>Gesamtkatalog der Wiegendrucke <a href="http://gesamtkatalogderwiegendrucke.de/docs/M51783.htm">M51783</a></td>
+            <td>Gesamtkatalog der Wiegendrucke <a href="http://gesamtkatalogderwiegendrucke.de/docs/M51783.htm" target="_blank">M51783</a></td>
           </tr>
         </tbody>
       </table>
@@ -4763,7 +4763,7 @@ href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3227927&amp;order=
       <h2 id="p3_2">3.2&nbsp;Verzeichnis der Handschriften</h2>
       <div class="manuscript-list">
         <p class="MsoNormal">Aarau, Aargauer Kantonsbibliothek</p>
-        <p class="MsoNormal"><a href="http://www.e-codices.unifr.ch/de/list/one/kba/WettF0009">MsWettF 9</a></p>
+        <p class="MsoNormal"><a href="http://www.e-codices.unifr.ch/de/list/one/kba/WettF0009" target="_blank">MsWettF 9</a></p>
         <p class="MsoNormal">MsMurF 2</p>
       </div>
       <div class="manuscript-list">
@@ -4777,11 +4777,11 @@ href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3227927&amp;order=
       </div>
       <div class="manuscript-list">
         <p class="MsoNormal">Berlin, Staatsbibliothek Berlin – Preußischer Kulturbesitz</p>
-        <p class="MsoNormal"><a href="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN665006985&amp;PHYSID=PHYS_0001&amp;DMDID=DMDLOG_0001">Ms. germ. fol. 923, Nr. 25</a></p>
+        <p class="MsoNormal"><a href="http://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN665006985&amp;PHYSID=PHYS_0001&amp;DMDID=DMDLOG_0001" target="_blank">Ms. germ. fol. 923, Nr. 25</a></p>
       </div>
       <div class="manuscript-list">
         <p class="MsoNormal">Bern, Burgerbibliothek</p>
-        <p class="MsoNormal"><a href="https://www.e-codices.unifr.ch/de/list/one/bbb/AA0091">Cod. AA 91</a></p>
+        <p class="MsoNormal"><a href="https://www.e-codices.unifr.ch/de/list/one/bbb/AA0091" target="_blank">Cod. AA 91</a></p>
       </div>
       <div class="manuscript-list">
         <p class="MsoNormal">Bruxelles, Koninklijke Bibliotheek van België/Bibliothèque royale de Belgique</p>
@@ -4789,15 +4789,15 @@ href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3227927&amp;order=
       </div>
       <div class="manuscript-list">
         <p class="MsoNormal"><span lang="it">Città del Vaticano, Biblioteca Apostolica Vaticana</span></p>
-        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_871?ui_lang=ger">Pal. lat. 871</a></p>
-        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1245">Pal. lat. 1245</a></p>
-        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1289?ui_lang=ger">Pal. lat. 1289</a></p>
-        <p class="MsoNormal"><a href="https://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1931?ui_lang=ger">Pal. lat. 1931</a></p>
-        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1956/0075/image?sid=4c41143a06d8e9180a77a6f45ac0dca7">Pal. lat. 1956</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_871?ui_lang=ger" target="_blank">Pal. lat. 871</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1245" target="_blank">Pal. lat. 1245</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1289?ui_lang=ger" target="_blank">Pal. lat. 1289</a></p>
+        <p class="MsoNormal"><a href="https://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1931?ui_lang=ger" target="_blank">Pal. lat. 1931</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/bav_pal_lat_1956/0075/image?sid=4c41143a06d8e9180a77a6f45ac0dca7" target="_blank">Pal. lat. 1956</a></p>
       </div>
       <div class="manuscript-list">
         <p class="MsoNormal">Dresden, Sächsische Landesbibliothek – Staats- und Universitätsbibliothek</p>
-        <p class="MsoNormal"><a href="http://digital.slub-dresden.de/werkansicht/dlf/12735/1/">Mscr.Dresd.M.66</a></p>
+        <p class="MsoNormal"><a href="http://digital.slub-dresden.de/werkansicht/dlf/12735/1/" target="_blank">Mscr.Dresd.M.66</a></p>
       </div>
       <div class="manuscript-list">
         <p class="MsoNormal">Freiburg i.Br., Augustinermuseum</p>
@@ -4805,39 +4805,39 @@ href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3227927&amp;order=
       </div>
       <div class="manuscript-list">
         <p class="MsoNormal">Freiburg i.Br., Universitätsbibliothek</p>
-        <p class="MsoNormal"><a href="http://dl.ub.uni-freiburg.de/diglit/hs476">Hs. 476</a></p>
-        <p class="MsoNormal"><a href="http://dl.ub.uni-freiburg.de/diglit/hs301/0536?sid=877ccb6b032360fbbba7b1dd8daa2450">Hs. 301</a></p>
+        <p class="MsoNormal"><a href="http://dl.ub.uni-freiburg.de/diglit/hs476" target="_blank">Hs. 476</a></p>
+        <p class="MsoNormal"><a href="http://dl.ub.uni-freiburg.de/diglit/hs301/0536?sid=877ccb6b032360fbbba7b1dd8daa2450" target="_blank">Hs. 301</a></p>
       </div>
       <div class="manuscript-list">
         <p class="MsoNormal">Heidelberg, Universitätsbibliothek</p>
-        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg28">Cod. Pal. germ. 28</a></p>
-        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg60">Cod. Pal. germ. 60</a></p>
-        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg68">Cod. Pal. germ. 68</a></p>
-        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg115">Cod. Pal. germ. 115</a></p>
-        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg139">Cod. Pal. germ. 139</a></p>
-        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg147?sid=90930507383b80b08aa227cc67f0c30c">Cod. Pal. germ. 147</a></p>
-        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg163">Cod. Pal. germ. 163</a></p>
-        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg167">Cod. Pal. germ. 167</a></p>
-        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg214">Cod. Pal. germ. 214</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg28" target="_blank">Cod. Pal. germ. 28</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg60" target="_blank">Cod. Pal. germ. 60</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg68" target="_blank">Cod. Pal. germ. 68</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg115" target="_blank">Cod. Pal. germ. 115</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg139" target="_blank">Cod. Pal. germ. 139</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg147?sid=90930507383b80b08aa227cc67f0c30c" target="_blank">Cod. Pal. germ. 147</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg163" target="_blank">Cod. Pal. germ. 163</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg167" target="_blank">Cod. Pal. germ. 167</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg214" target="_blank">Cod. Pal. germ. 214</a></p>
         <p class="MsoNormal">Cod. Pal. germ. 317 (jetziger Standort: Roma, Biblioteca Casanatense <router-link to="/faksimile/VV/001r/single-page">Ms. 1409</router-link>)</p>
-        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg333">Cod. Pal. germ. 333</a></p>
-        <p class="MsoNormal"><a href="https://digi.ub.uni-heidelberg.de/diglit/cpg339i">Cod. Pal. germ. 339</a></p>
-        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg364">Cod. Pal. germ. 364</a></p>
-        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg383">Cod. Pal. germ. 383</a></p>
-        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg394/0001/image?sid=90930507383b80b08aa227cc67f0c30c">Cod. Pal. germ. 394</a></p>
-        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg404">Cod. Pal. germ. 404</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg333" target="_blank">Cod. Pal. germ. 333</a></p>
+        <p class="MsoNormal"><a href="https://digi.ub.uni-heidelberg.de/diglit/cpg339i" target="_blank">Cod. Pal. germ. 339</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg364" target="_blank">Cod. Pal. germ. 364</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg383" target="_blank">Cod. Pal. germ. 383</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg394/0001/image?sid=90930507383b80b08aa227cc67f0c30c" target="_blank">Cod. Pal. germ. 394</a></p>
+        <p class="MsoNormal"><a href="http://digi.ub.uni-heidelberg.de/diglit/cpg404" target="_blank">Cod. Pal. germ. 404</a></p>
       </div>
       <div class="manuscript-list">
         <p class="MsoNormal">Karlsruhe, Badische Landesbibliothek</p>
-        <p class="MsoNormal"><a href="https://digital.blb-karlsruhe.de/urn/urn:nbn:de:bsz:31-36683">Donaueschingen 70</a></p>
-        <p class="MsoNormal"><a href="https://digital.blb-karlsruhe.de/blbhs/Handschriften/content/titleinfo/101664">Donaueschingen 97</a></p>
-        <p class="MsoNormal"><a href="https://digital.blb-karlsruhe.de/blbhs/content/titleinfo/1164333">Lichtenthal 141</a></p>
-        <p class="MsoNormal"><a href="https://digital.blb-karlsruhe.de/blbhs/content/titleinfo/131279">St. Peter perg. 57</a></p>
+        <p class="MsoNormal"><a href="https://digital.blb-karlsruhe.de/urn/urn:nbn:de:bsz:31-36683" target="_blank">Donaueschingen 70</a></p>
+        <p class="MsoNormal"><a href="https://digital.blb-karlsruhe.de/blbhs/Handschriften/content/titleinfo/101664" target="_blank">Donaueschingen 97</a></p>
+        <p class="MsoNormal"><a href="https://digital.blb-karlsruhe.de/blbhs/content/titleinfo/1164333" target="_blank">Lichtenthal 141</a></p>
+        <p class="MsoNormal"><a href="https://digital.blb-karlsruhe.de/blbhs/content/titleinfo/131279" target="_blank">St. Peter perg. 57</a></p>
       </div>
       <div class="manuscript-list">
         <p class="MsoNormal">Karlsruhe, Landesarchiv Baden-Württemberg. Generallandesarchiv Karlsruhe</p>
         <p class="MsoNormal">Anniversarienbücher 64, 3</p>
-        <p class="MsoNormal"><a href="https://www2.landesarchiv-bw.de/ofs21/bild_zoom/thumbnails.php?bestand=21447&amp;id=8402990&amp;syssuche=&amp;logik=">Hfk-Hs Nr. 133, 20</a></p>
+        <p class="MsoNormal"><a href="https://www2.landesarchiv-bw.de/ofs21/bild_zoom/thumbnails.php?bestand=21447&amp;id=8402990&amp;syssuche=&amp;logik=" target="_blank">Hfk-Hs Nr. 133, 20</a></p>
       </div>
       <div class="manuscript-list">
         <p class="MsoNormal">Köln, Universitäts- und Stadtbibliothek</p>
@@ -4845,14 +4845,14 @@ href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3227927&amp;order=
       </div>
       <div class="manuscript-list">
         <p class="MsoNormal">München, Bayerische Staatsbibliothek</p>
-        <p class="MsoNormal"><a href="http://daten.digitale-sammlungen.de/0010/bsb00107437/images/index.html?fip=193.174.98.30&amp;id=00107437&amp;seite=1">Cgm 5249/3c</a></p>
-        <p class="MsoNormal"><a href="http://daten.digitale-sammlungen.de/0010/bsb00107438/images/index.html?fip=193.174.98.30&amp;id=00107438&amp;seite=">Cgm 5249/3b</a></p>
-        <p class="MsoNormal"><a href="http://daten.digitale-sammlungen.de/0003/bsb00035326/images/index.html?fip=193.174.98.30&amp;id=00035326&amp;seite=1">Cgm 8470</a></p>
-        <p class="MsoNormal"><a href="http://daten.digitale-sammlungen.de/~db/bsb00007174/images/index.html">Cod.icon. 312 c</a></p>
+        <p class="MsoNormal"><a href="http://daten.digitale-sammlungen.de/0010/bsb00107437/images/index.html?fip=193.174.98.30&amp;id=00107437&amp;seite=1" target="_blank">Cgm 5249/3c</a></p>
+        <p class="MsoNormal"><a href="http://daten.digitale-sammlungen.de/0010/bsb00107438/images/index.html?fip=193.174.98.30&amp;id=00107438&amp;seite=" target="_blank">Cgm 5249/3b</a></p>
+        <p class="MsoNormal"><a href="http://daten.digitale-sammlungen.de/0003/bsb00035326/images/index.html?fip=193.174.98.30&amp;id=00035326&amp;seite=1" target="_blank">Cgm 8470</a></p>
+        <p class="MsoNormal"><a href="http://daten.digitale-sammlungen.de/~db/bsb00007174/images/index.html" target="_blank">Cod.icon. 312 c</a></p>
       </div>
       <div class="manuscript-list">
         <p class="MsoNormal">Mons, Bibliothèque centrale</p>
-        <p class="MsoNormal"><a href="http://biblio.umons.ac.be/public/bv/Perceval-complet_004/">331/206 R2/C</a></p>
+        <p class="MsoNormal"><a href="http://biblio.umons.ac.be/public/bv/Perceval-complet_004/" target="_blank">331/206 R2/C</a></p>
       </div>
       <div class="manuscript-list">
         <p class="MsoNormal">Roma, Biblioteca Casanatense</p>
@@ -4860,17 +4860,17 @@ href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3227927&amp;order=
       </div>
       <div class="manuscript-list">
         <p class="MsoNormal">Stuttgart, Württembergische Landesbibliothek</p>
-        <p class="MsoNormal"><a href="http://digital.wlb-stuttgart.de/sammlungen/sammlungsliste/werksansicht/?no_cache=1&amp;tx_dlf%5Bid%5D=2653&amp;tx_dlf%5Bpage%5D=2&amp;tx_dlf%5Bdouble%5D=0&amp;cHash=52449b2ada5fbb79ed3a18bafa2e5b8">Cod.Don.III.54</a></p>
+        <p class="MsoNormal"><a href="http://digital.wlb-stuttgart.de/sammlungen/sammlungsliste/werksansicht/?no_cache=1&amp;tx_dlf%5Bid%5D=2653&amp;tx_dlf%5Bpage%5D=2&amp;tx_dlf%5Bdouble%5D=0&amp;cHash=52449b2ada5fbb79ed3a18bafa2e5b8" target="_blank">Cod.Don.III.54</a></p>
       </div>
       <div class="manuscript-list">
         <p class="MsoNormal">Wien, Österreichische Nationalbibliothek</p>
-        <p class="MsoNormal"><a href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_2973596&amp;order=1&amp;view=SINGLE">Cod. 2708</a></p>
-        <p class="MsoNormal"><a href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3396562&amp;order=1&amp;view=SINGLE">Cod. 2775</a></p>
-        <p class="MsoNormal"><a href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3227927&amp;order=1&amp;view=SINGLE">Cod. 2914</a></p>
+        <p class="MsoNormal"><a href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_2973596&amp;order=1&amp;view=SINGLE" target="_blank">Cod. 2708</a></p>
+        <p class="MsoNormal"><a href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3396562&amp;order=1&amp;view=SINGLE" target="_blank">Cod. 2775</a></p>
+        <p class="MsoNormal"><a href="http://digital.onb.ac.at/RepViewer/viewer.faces?doc=DTL_3227927&amp;order=1&amp;view=SINGLE" target="_blank">Cod. 2914</a></p>
       </div>
       <div class="manuscript-list">
         <p class="MsoNormal">Zürich, Schweizerisches Nationalmuseum</p>
-        <p class="MsoNormal"><a href="https://www.e-codices.unifr.ch/de/list/one/snm/AG002760">AG 2760</a></p>
+        <p class="MsoNormal"><a href="https://www.e-codices.unifr.ch/de/list/one/snm/AG002760" target="_blank">AG 2760</a></p>
       </div>
       <div class="manuscript-list">
         <p class="MsoNormal">Zürich, Staatsarchiv</p>
