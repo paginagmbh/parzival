@@ -5,6 +5,7 @@ node_modules/
 src/config/secrets.json
 src/tustep/*.xml
 src/tustep/logfile
+provisioning/file-share
 provisioning/roles/*.*
 provisioning/ubuntu-*-cloudimg-console.log
 public/image/
