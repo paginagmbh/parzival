@@ -40,6 +40,14 @@
             </tr>
           </tbody>
         </table>
+        <div v-else>
+          <article class="message">
+            <div class="message-body content">
+              <p>Folgende Verse sind nicht transkribiert:</p>
+              <div v-html="excludedVersesHtml"/>
+            </div>
+          </article>
+        </div>
       </div>
     </div>
     <div class="tile is-parent parzival-min-tile" v-if="verse">

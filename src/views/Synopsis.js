@@ -33,11 +33,16 @@ export default {
   props: ['verse'],
 
   data: () => ({
+    excludedVerses: require('@/data/excluded-verses').excludedVerses,
     manuscript: 'V',
     scrolling: false
   }),
 
   computed: {
+    excludedVersesHtml () {
+      return '<ul>' + this.excludedVerses.map(v => v.join(' - ')).map(v => '<li>' + v + '</li>').join('') + '</ul>'
+    },
+
     pages () {
       const { verse, manuscript } = this
       return ((transcript.columns[verse] || {})[manuscript] || '')
