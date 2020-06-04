@@ -4,6 +4,7 @@
     <div class="hero-body">
       <article class="message">
         <div class="message-body content">
+          <p>Ihre Suche nach „{{ lastSearch }}“ ergab keinen Treffer.</p>
           <p>Folgende Verse sind nicht transkribiert:</p>
           <div v-html="excludedVersesHtml"/>
         </div>

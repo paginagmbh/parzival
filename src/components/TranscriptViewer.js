@@ -6,7 +6,7 @@ import TranscriptInfo from './TranscriptInfo'
 
 export default {
   name: 'transcript-viewer',
-  props: ['manuscript', 'pages', 'verse', 'syncScrolling'],
+  props: ['lastSearch', 'manuscript', 'pages', 'verse', 'syncScrolling'],
   components: {
     TranscriptInfo
   },

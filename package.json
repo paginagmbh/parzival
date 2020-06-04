@@ -5,7 +5,7 @@
   "description": "The Parzival-Projekt – a genetic digital edition of Wolfram von Eschenbach's ‹Parzival›",
   "author": "pagina GmbH",
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --open",
     "build": "babel-node --config-file ./babel-node.config.js src/build/data.js && vue-cli-service build",
     "lint": "vue-cli-service lint",
     "configure": "babel-node --config-file ./babel-node.config.js src/build/configure.js",
