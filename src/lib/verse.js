@@ -23,6 +23,9 @@ export const np2p = (v) => {
 }
 
 export const parse = (str) => {
+  if (!str) {
+    return { nums: [] }
+  }
   const components = str
     .replace(/Pr\s*([0-9]+)/i, '112.12[$1]')
     .replace(/Ep\s*([0-9]+)/i, '827.30[$1]')

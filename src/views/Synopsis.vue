@@ -1,5 +1,6 @@
 <template>
-<container class="parzival-synopsis parzival-fullheight" :manuscript="manuscript" :pages="pages" :verse="verse">
+<container class="parzival-synopsis parzival-fullheight" :manuscript="manuscript" :pages="pages"
+    :verse="verse" v-on:search-for="(payload) => lastSearch = payload">
   <div class="tile is-ancestor is-vertical">
     <nav class="tile is-parent parzival-min-tile">
       <div class="tile is-child hero is-small" :data-manuscript="manuscript">
@@ -43,6 +44,7 @@
         <div v-else>
           <article class="message">
             <div class="message-body content">
+              <p>Ihre Suche nach „{{ lastSearch }}“ ergab keinen Treffer.</p>
               <p>Folgende Verse sind nicht transkribiert:</p>
               <div v-html="excludedVersesHtml"/>
             </div>

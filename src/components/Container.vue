@@ -9,9 +9,9 @@
         <router-link class="navbar-item is-info" to="/" title="Startseite/ Informationen">
           <span class="icon"><i class="fa fa-home"></i></span>
         </router-link>
-        <router-link class="navbar-item" :to="routes.transcript" title="Transkription"><i class="fa fa-file-text-o"></i></router-link>
-        <router-link class="navbar-item" :to="routes.singlePage" title="Einzelseite"><i class="fa fa-file-o"></i></router-link>
-        <router-link class="navbar-item" :to="routes.doublePage" title="Doppelseite"><i class="fa fa-columns"></i></router-link>
+        <router-link class="navbar-item" :to="routes.transcript" title="Transkription" v-if="routes.transcript"><i class="fa fa-file-text-o"></i></router-link>
+        <router-link class="navbar-item" :to="routes.singlePage" title="Einzelseite" v-if="routes.singlePage"><i class="fa fa-file-o"></i></router-link>
+        <router-link class="navbar-item" :to="routes.doublePage" title="Doppelseite" v-if="routes.doublePage"><i class="fa fa-columns"></i></router-link>
         <router-link class="navbar-item" :to="routes.synopsis"   title="Synopse"
                      v-if="routes.synopsis"><i class="fa fa-link"></i></router-link>
       </div>

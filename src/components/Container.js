@@ -81,6 +81,7 @@ export default {
       const { query } = this
       const manuscript = metadata.manuscripts[this.manuscript]
       const result = fn(manuscript, query)
+      this.$emit('search-for', query)
       if (!result || (result.verse && excludedVerse(v.parse(result.verse)))) {
         this.notFound = true
         return
@@ -88,7 +89,8 @@ export default {
 
       const { page, verse } = result
       this.notFound = false
-      this.$router.push(this.toPage(page, this.manuscript, undefined, verse))
+      const to = this.toPage(page, this.manuscript, undefined, verse)
+      this.$router.push(to)
       this.toggle('searchModal')
     },
 

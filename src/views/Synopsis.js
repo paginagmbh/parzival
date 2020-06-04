@@ -34,6 +34,7 @@ export default {
 
   data: () => ({
     excludedVerses: require('@/data/excluded-verses').excludedVerses,
+    lastSearch: '',
     manuscript: 'V',
     scrolling: false
   }),
