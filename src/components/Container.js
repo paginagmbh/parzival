@@ -91,7 +91,7 @@ export default {
       this.notFound = false
       const to = this.toPage(page, this.manuscript, undefined, verse)
 
-      if (!to.params.verse) {
+      if (!to.params.verse && to.name === 'synopsis') {
         this.notFound = true
         return
       }
