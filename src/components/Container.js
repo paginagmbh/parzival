@@ -87,9 +87,15 @@ export default {
         return
       }
 
-      const { page, verse } = result
+      let { page, verse } = result
       this.notFound = false
       const to = this.toPage(page, this.manuscript, undefined, verse)
+
+      if (!to.params.verse) {
+        this.notFound = true
+        return
+      }
+
       this.$router.push(to)
       this.toggle('searchModal')
     },
