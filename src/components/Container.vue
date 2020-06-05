@@ -6,7 +6,7 @@
     </div>
     <div class="navbar-menu is-active">
       <div class="navbar-start">
-        <router-link class="navbar-item is-info" to="/" title="Startseite/ Informationen">
+        <router-link class="navbar-item is-info" to="/" title="Startseite / Informationen">
           <span class="icon"><i class="fa fa-home"></i></span>
         </router-link>
         <router-link class="navbar-item" :to="routes.transcript" title="Transkription" v-if="routes.transcript"><i class="fa fa-file-text-o"></i></router-link>
