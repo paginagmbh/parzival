@@ -1,0 +1,65 @@
+---
+- hosts: localhost
+  connection: local
+  gather_facts: false
+  tasks:
+    - name: Create droplets.
+      digital_ocean:
+        state: present
+        name: "{{ item.name }}"
+        unique_name: yes
+        size_id: "{{ item.size }}"
+        image_id: "ubuntu-16-04-x64"
+        region_id: "{{ item.region }}"
+        ssh_key_ids: "10874119,12730393"
+      with_items:
+        - name: "assets.pagina-dh.de"
+          size: "s-1vcpu-2gb"
+          region: "fra1"
+        - name: "arno-schmidt.pagina-dh.de"
+          size: "s-1vcpu-1gb"
+          region: "fra1"
+        - name: "hi-foko.pagina-dh.de"
+          size: "s-2vcpu-4gb"
+          region: "fra1"
+        - name: "walter-benjamin.pagina-dh.de"
+          size: "s-1vcpu-1gb"
+          region: "fra1"
+        - name: "parzival.pagina-dh.de"
+          size: "s-1vcpu-1gb"
+          region: "fra1"
+        - name: "iubh-printcss.pagina-dh.de"
+          size: "s-1vcpu-1gb"
+          region: "fra1"
+      register: droplets
+
+    - name: Register DNS entries for droplets.
+      digital_ocean_domain:
+        state: present
+        name: "{{ item.item.name }}"
+        ip: "{{ item.droplet.ip_address }}"
+      with_items: "{{ droplets.results }}"
+
+    - name: Create block storages
+      digital_ocean_block_storage:
+        state: present
+        command: "create"
+        region: "{{ item.region }}"
+        block_size: "{{ item.block_size }}"
+        volume_name: "{{ item.volume_name }}"
+      with_items:
+        - region: "fra1"
+          volume_name: "fra1-assets-storage"
+          block_size: 50
+
+    - name: Attach block storage to asset host
+      digital_ocean_block_storage:
+        state: present
+        command: "attach"
+        region: "{{ item.region }}"
+        volume_name: "{{ item.volume_name }}"
+        droplet_id: "{{ droplets.results[item.droplet_index].droplet.id }}"
+      with_items:
+        - region: "fra1"
+          volume_name: "fra1-assets-storage"
+          droplet_index: 2
