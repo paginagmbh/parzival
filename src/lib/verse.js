@@ -23,30 +23,35 @@ export const np2p = (v) => {
 }
 
 export const parse = (str) => {
-  if (!str) {
+  try {
+    if (!str) {
+      return { nums: [] }
+    }
+    const components = str
+      .replace(/Pr\s*([0-9]+)/i, '112.12[$1]')
+      .replace(/Ep\s*([0-9]+)/i, '827.30[$1]')
+      .replace(/^NP /i, '')
+      .split(/(?:-|\[|\])+/g).filter(c => c)
+
+    let nums = components.shift()
+    if (!nums.match(/^[0-9.]+/g)) throw new Error(nums)
+    nums = nums.split('.').map(n => parseInt(n, 10))
+
+    const plus = []
+    for (const c of components) {
+      const n = parseInt(c, 10)
+      if (isNaN(n)) continue
+      plus.push(n * (c.startsWith('0') ? -1 : 1))
+    }
+
+    const parsed = { nums }
+    if (plus.length) parsed.plus = plus
+
+    return parsed
+  } catch (error) {
+    console.error(error)
     return { nums: [] }
   }
-  const components = str
-    .replace(/Pr\s*([0-9]+)/i, '112.12[$1]')
-    .replace(/Ep\s*([0-9]+)/i, '827.30[$1]')
-    .replace(/^NP /i, '')
-    .split(/(?:-|\[|\])+/g).filter(c => c)
-
-  let nums = components.shift()
-  if (!nums.match(/^[0-9.]+/g)) throw new Error(nums)
-  nums = nums.split('.').map(n => parseInt(n, 10))
-
-  const plus = []
-  for (const c of components) {
-    const n = parseInt(c, 10)
-    if (isNaN(n)) continue
-    plus.push(n * (c.startsWith('0') ? -1 : 1))
-  }
-
-  const parsed = { nums }
-  if (plus.length) parsed.plus = plus
-
-  return parsed
 }
 
 export const toString = ({ nums, plus }) => {

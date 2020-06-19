@@ -1,4 +1,4 @@
-import 'coffeescript/register'
+import 'coffeescript/register.js'
 
 import { basename, resolve } from 'path'
 import globby from 'globby'
@@ -33,7 +33,7 @@ const transcripts = async () => {
   })
 
   const sources = (await xmlFiles()).map(source => {
-    const manuscript = basename(source, '_neu.xml').toUpperCase()
+    const manuscript = basename(source, '_rp.xml').toUpperCase()
     return { source, manuscript }
   })
 

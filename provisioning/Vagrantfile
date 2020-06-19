@@ -5,6 +5,8 @@ Vagrant.configure(2) do |config|
   config.vm.box = "ubuntu/bionic64"
   config.vm.network "private_network", ip: "192.168.33.44"
 
+  config.vm.synced_folder "../src/tustep", "/srv/parzival/host-tustep", create: true
+
   config.vm.provider "virtualbox" do |v|
     v.customize [ "modifyvm", :id, "--name", "parzival-dev", "--memory", "4096", "--uartmode1", "disconnected" ]
   end

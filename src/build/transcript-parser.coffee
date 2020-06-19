@@ -6,11 +6,13 @@ m = require "../lib/manuscript"
 v = require "../lib/verse"
 markup = require "./markup"
 
-xmlId = (el) -> (markup.attr el, "xml:id").replace /[^_]+_NEU/i, ""
+xmlId = (el) -> (markup.attr el, "xml:id").replace /[^_]+_(RP|NEU)/i, ""
 
 verseSigil = (el) ->
   sigil = (xmlId el).replace /^_+/, ""
-  v.p2np v.parse sigil
+  n = (markup.attr el, "n")
+  sigil = v.p2np v.parse sigil
+  { sigil..., n }
 
 breakSigil = (el) -> m.parsePageSigil (xmlId el)
 
@@ -132,10 +134,12 @@ module.exports = (sources) ->
   html = {}
   columns = {}
   verses = {}
+  lines = {}
 
   manuscript = undefined
   column = undefined
   verse = undefined
+  n = undefined
   for e in source
     switch e.event
       when "start"
@@ -144,10 +148,12 @@ module.exports = (sources) ->
           when "cb" then column = m.columnSigil e
           when "l"
             verse = v.toString e
+            line = e.n
 
-            html[verse] ?= {}
-            html[verse][manuscript] ?= {}
-            html[verse][manuscript][column] ?= ""
+            lines[manuscript] ?= {}
+            lines[manuscript][line] ?= {}
+            lines[manuscript][line][column] ?= ""
+            lines[manuscript][line].verse = verse
 
             columns[verse] ?= {}
             columns[verse][manuscript] ?= column
@@ -166,11 +172,11 @@ module.exports = (sources) ->
       if e.event is "text"
         text = e.text.replace /\n/g, ""
         lastChar = text[-1..]
-        html[verse][manuscript][column] += escape text
+        lines[manuscript][line][column] += escape text
       else if (markup.attr e, "type") is "Kapitelüberschrift"
         inHeading = (e.event is "start")
       else
-        html[verse][manuscript][column] += switch e.local
+        lines[manuscript][line][column] += switch e.local
           when "note", "reg", "corr", "ex" then supplied e
           when "hi" then hi e
           when "del", "add" then edited e
@@ -187,4 +193,51 @@ module.exports = (sources) ->
             result
           else ""
 
+  lc = 0
+  rightIndex = 1
+
+  for leftIndex, line of lines["V"]
+
+    leftVerse = line.verse
+    rightVerse = if lines["VV"][rightIndex] then lines["VV"][rightIndex].verse else null
+    nextRightVerse = if lines["VV"][rightIndex + 1] then lines["VV"][rightIndex + 1].verse else null
+    nextLeftVerse = if lines["V"][leftIndex + 1] then lines["V"][leftIndex + 1].verse else null
+    previousLeftVerse = if lines["V"][leftIndex - 1] then lines["V"][leftIndex - 1].verse else null
+
+    html[lc] ?= {}
+
+    console.log "previousLeft-> #{previousLeftVerse} left-> #{leftVerse} right-> #{rightVerse} nextRight-> #{nextRightVerse}"
+    console.log "(v.compare rightVerse, nextRightVerse) > 0: #{(v.compare (v.parse rightVerse), (v.parse nextRightVerse)) > 0}" if rightVerse is "NP 27347"
+
+    # first check if we are dealing with additional lines added on the right hand side
+    range = [(v.parse previousLeftVerse), (v.parse leftVerse)]
+    while rightVerse and (leftVerse isnt rightVerse) and
+    ((v.within range, v.parse rightVerse) or
+    (v.compare (v.parse rightVerse), (v.parse nextRightVerse)) > 0 or
+    (v.compare (v.parse leftVerse), (v.parse rightVerse)) > 0)
+      # this is a comment line added on the right side
+      html[lc]["VV"] = lines["VV"][rightIndex]
+      lc++
+      html[lc] ?= {}
+      rightIndex++
+      rightVerse = if lines["VV"][rightIndex] then lines["VV"][rightIndex].verse else null
+      nextRightVerse = if lines["VV"][rightIndex + 1] then lines["VV"][rightIndex + 1].verse else null
+
+    # now check if left and right side match the same verse
+    if rightVerse is leftVerse
+      html[lc]["V"] = line
+      html[lc]["VV"] = lines["VV"][rightIndex]
+      rightIndex++
+      if lines["VV"][rightIndex].verse is leftVerse
+        console.log "need to add next line as well"
+        console.log lines["VV"][rightIndex]
+        # need to add the next line as well
+        html[lc]["VV"] = Object.assign html[lc]["VV"], lines["VV"][rightIndex]
+        rightIndex++
+    else
+      html[lc]["V"] = line
+
+    lc++
+
+  #{ lines, html, columns, verses }
   { html, columns, verses }
