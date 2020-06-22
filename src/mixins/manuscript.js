@@ -212,8 +212,9 @@ export default {
     otherPages () {
       const { verse, otherManuscript } = this
       if (!verse) return undefined
-      return ((transcript.columns[verse] || {})[otherManuscript] || '')
-        .replace(/[ab]$/, '') || ''
+      const targetColumn = transcript.columns[verse] &&
+        transcript.columns[verse][otherManuscript] ? transcript.columns[verse][otherManuscript].column : ''
+      return (targetColumn || '').replace(/[ab]$/, '')
     },
 
     otherPageTitle () {
@@ -360,7 +361,7 @@ export default {
       const { name, query, params } = this.$route
       manuscript = manuscript || params.manuscript || this.manuscript
 
-      const column = (transcript.columns[verse] || {})[manuscript]
+      const column = (transcript.columns[verse].column || {})[manuscript]
       if (!column) return undefined
 
       let page = column.replace(/[ab]$/, '')

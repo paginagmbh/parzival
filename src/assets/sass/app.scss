@@ -399,6 +399,11 @@ $fa-font-path: '~font-awesome/fonts';
       font-style: italic;
     }
 
+    .ref {
+      text-decoration: underline;
+      text-decoration-color: blue;
+    }
+
     .supplied {
       &.ex::before {
         content: "("

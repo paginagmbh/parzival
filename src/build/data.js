@@ -1,4 +1,4 @@
-import 'coffeescript/register'
+import 'coffeescript/register.js'
 
 import { basename, resolve } from 'path'
 import globby from 'globby'
@@ -18,6 +18,7 @@ const transcripts = async () => {
   const transcriptsDir = path('src', 'tustep')
   const xmlFiles = () => globby(resolve(transcriptsDir, '*.xml'))
 
+  /*
   for (const xf of (await xmlFiles())) {
     await xfs.remove(xf)
   }
@@ -30,10 +31,10 @@ const transcripts = async () => {
       TUSTEP_MEM: '00300000'
     },
     cwd: transcriptsDir
-  })
+  })*/
 
   const sources = (await xmlFiles()).map(source => {
-    const manuscript = basename(source, '_neu.xml').toUpperCase()
+    const manuscript = basename(source, '_rp.xml').toUpperCase()
     return { source, manuscript }
   })
 

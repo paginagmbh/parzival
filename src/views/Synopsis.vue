@@ -29,11 +29,11 @@
                   v-waypoint="r.waypoint">{{ r.verse }}</td>
               <td class="parzival-verse parzival-verse-left">
                 <div v-for="c in r.V" :key="c.column"
-                     :title="c.column" v-html="c.html"></div>
+                    v-html="c.html"></div>
               </td>
               <td class="parzival-verse parzival-verse-right">
                 <div v-for="c in r.VV" :key="c.column"
-                     :title="c.column" v-html="c.html"></div>
+                    v-html="c.html"></div>
               </td>
               <td class="parzival-verse-num parzival-verse-focus"
                   :class="{ 'is-active': r.active }">{{ r.verse }}</td>

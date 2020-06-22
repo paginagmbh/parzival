@@ -1,3 +1,0 @@
-[submodule "provisioning/do"]
-	path = provisioning/do
-	url = git@code.pagina.gmbh:pagina-dh/dh-digitalocean.git

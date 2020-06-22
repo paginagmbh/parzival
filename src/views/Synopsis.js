@@ -4,7 +4,7 @@ import { binarySearch } from '../lib/search'
 import v from '../lib/verse'
 import transcript from '../data/transcript.json'
 
-const verses = Object.keys(transcript.html).map(v.parse).sort(v.compare)
+const verses = Object.keys(transcript.columns).map(v.parse).sort(v.compare)
 
 const pageBreak = (prev, next, page) => {
   if (prev.nums.length !== next.nums.length) return true
@@ -40,14 +40,17 @@ export default {
   }),
 
   computed: {
+
     excludedVersesHtml () {
       return '<ul>' + this.excludedVerses.map(v => v.join(' - ')).map(v => '<li>' + v + '</li>').join('') + '</ul>'
     },
 
     pages () {
       const { verse, manuscript } = this
-      return ((transcript.columns[verse] || {})[manuscript] || '')
-        .replace(/[ab]$/, '') || ''
+
+      const targetColumn = transcript.columns[verse] &&
+        transcript.columns[verse][manuscript] ? transcript.columns[verse][manuscript].column : ''
+      return (targetColumn || '').replace(/[ab]$/, '')
     },
 
     page () {
@@ -66,14 +69,24 @@ export default {
       const synopsis = []
 
       let prevPage
-      for (const verse of pages[this.page].rows) {
-        const active = verse === this.verse
-        const row = { verse, active }
+
+      const rowLength = pages[this.page].rows.length
+      const startingLine = transcript.columns[pages[this.page].rows[0]]['V']
+        ? transcript.columns[pages[this.page].rows[0]]['V'].line
+        : transcript.columns[pages[this.page].rows[0]]['VV'].line
+      const endingLine = transcript.columns[pages[this.page].rows[rowLength - 1]]['V']
+        ? transcript.columns[pages[this.page].rows[rowLength - 1]]['V'].line
+        : transcript.columns[pages[this.page].rows[rowLength - 1]]['VV'].line
+
+      for (let i = startingLine; i <= endingLine; i++) {
+        const lineData = transcript.html[i]
+        const active = (lineData.V ? lineData.V.verse : lineData.VV.verse) === this.verse
+        const row = { verse: (lineData.V ? lineData.V.verse : lineData.VV.verse), active }
         let nextPage
         for (const manuscript of ['V', 'VV']) {
           row[manuscript] = []
-          const columns = transcript.html[verse][manuscript] || {}
-          for (const column of Object.keys(columns).sort()) {
+          const columns = transcript.html[i][manuscript] || {}
+          for (const column of Object.keys(columns).filter(c => c !== 'verse').sort()) {
             nextPage = nextPage || column.replace(/[ab]$/, '')
             row[manuscript].push({
               column: this.numTitle(column),
