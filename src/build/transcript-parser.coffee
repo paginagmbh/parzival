@@ -34,6 +34,13 @@ edited = ({ event, local }) ->
     when "start" then "<span class=\"edited #{local}\">"
     else "</span>"
 
+ref = (e) ->
+  switch e.event
+    when "start"
+      n = markup.attr e, "n", ""
+      "<span class=\"ref\" title=\"Vgl. V. #{n}\">"
+    else "</span>"
+
 damage = (e) ->
   switch e.event
     when "start"
@@ -183,6 +190,7 @@ module.exports = (sources) ->
           when "del", "add" then edited e
           when "damage" then damage e
           when "gap" then gap e
+          when "ref" then ref e if manuscript is "VV"
           when "lb"
             classes = ["lb"]
             classes.push "wb" if lastChar.match /\s/
@@ -207,8 +215,8 @@ module.exports = (sources) ->
 
     html[lc] ?= {}
 
-    console.log "previousLeft-> #{previousLeftVerse} left-> #{leftVerse} right-> #{rightVerse} nextRight-> #{nextRightVerse}"
-    console.log "(v.compare rightVerse, nextRightVerse) > 0: #{(v.compare (v.parse rightVerse), (v.parse nextRightVerse)) > 0}" if rightVerse is "NP 27347"
+    # console.log "previousLeft-> #{previousLeftVerse} left-> #{leftVerse} right-> #{rightVerse} nextRight-> #{nextRightVerse}"
+    # console.log "(v.compare rightVerse, nextRightVerse) > 0: #{(v.compare (v.parse rightVerse), (v.parse nextRightVerse)) > 0}" if rightVerse is "NP 27347"
 
     # first check if we are dealing with additional lines added on the right hand side
     range = [(v.parse previousLeftVerse), (v.parse leftVerse)]
