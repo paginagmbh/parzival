@@ -31,9 +31,11 @@ export default {
           if (!(column in verses)) continue
 
           const contents = []
+          const lines = verses[column].map(v => transcript.columns[v][manuscript].line)
 
-          for (const verse of verses[column]) {
-            const html = transcript.html[verse][manuscript][column]
+          for (const line of lines) {
+            const html = transcript.html[line][manuscript][column]
+            const verse = transcript.html[line][manuscript].verse
             contents.push({ html, verse })
           }
 

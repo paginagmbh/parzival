@@ -156,7 +156,8 @@ module.exports = (sources) ->
             lines[manuscript][line].verse = verse
 
             columns[verse] ?= {}
-            columns[verse][manuscript] ?= column
+            columns[verse][manuscript] ?= {}
+            columns[verse][manuscript].column = column
 
             verses[manuscript] ?= {}
             verses[manuscript][column] ?= []
@@ -217,6 +218,7 @@ module.exports = (sources) ->
     (v.compare (v.parse leftVerse), (v.parse rightVerse)) > 0)
       # this is a comment line added on the right side
       html[lc]["VV"] = lines["VV"][rightIndex]
+      columns[rightVerse]["VV"].line = lc
       lc++
       html[lc] ?= {}
       rightIndex++
@@ -227,6 +229,8 @@ module.exports = (sources) ->
     if rightVerse is leftVerse
       html[lc]["V"] = line
       html[lc]["VV"] = lines["VV"][rightIndex]
+      columns[leftVerse]["V"].line = lc
+      columns[rightVerse]["VV"].line = lc
       rightIndex++
       if lines["VV"][rightIndex].verse is leftVerse
         console.log "need to add next line as well"
@@ -236,6 +240,7 @@ module.exports = (sources) ->
         rightIndex++
     else
       html[lc]["V"] = line
+      columns[leftVerse]["V"].line = lc
 
     lc++
 

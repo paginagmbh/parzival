@@ -46,6 +46,11 @@ export default {
 
     pages () {
       const { verse, manuscript } = this
+
+      /* const targetColumn = transcript.columns[verse] &&
+        transcript.columns[verse][manuscript] ? transcript.columns[verse][manuscript].column : ''
+      return (targetColumn || '').replace(/[ab]$/, '') */
+
       return ((transcript.columns[verse] || {})[manuscript] || '')
         .replace(/[ab]$/, '') || ''
     },
@@ -66,6 +71,10 @@ export default {
       const synopsis = []
 
       let prevPage
+
+      const verses = transcript.verses[manuscript]
+      const lines = verses[column].map(v => transcript.columns[v][manuscript].line)
+
       for (const verse of pages[this.page].rows) {
         const active = verse === this.verse
         const row = { verse, active }
