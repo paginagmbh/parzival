@@ -1,6 +1,6 @@
 <template>
 <container class="parzival-synopsis parzival-fullheight" :manuscript="manuscript" :pages="pages"
-    :verse="verse" v-on:search-for="(payload) => lastSearch = payload">
+    :verse="verseV" v-on:search-for="(payload) => lastSearch = payload">
   <div class="tile is-ancestor is-vertical">
     <nav class="tile is-parent parzival-min-tile">
       <div class="tile is-child hero is-small" :data-manuscript="manuscript">
@@ -19,14 +19,15 @@
         <table class="table is-fullwidth is-narrow is-striped parzival-content" v-if="verse">
           <tbody>
             <tr v-for="(r, ri) in synopsis"
-                :key="ri"
                 :class="{ 'is-active': r.active }"
-                @click="updateVerse(r.verse)">
-              <td class="parzival-column">{{ r.V.length ? r.V[0].column : '–' }}</td>
+                :key="ri"
+                @click="updateVerse(r.verseV)">
+              <td class="parzival-column"
+                  :class="{ 'is-active': r.verseV.length && r.verseV == verse }">{{ r.V.length ? r.V[0].column : '–' }}</td>
               <td class="parzival-verse-num parzival-verse-focus"
-                  :class="{ 'is-active': r.active }"
-                  :data-verse="r.verse"
-                  v-waypoint="r.waypoint">{{ r.verse }}</td>
+                  :class="{ 'is-active': r.verseV.length && r.verseV == verse }"
+                  :data-verse="r.verseV"
+                  v-waypoint="r.waypoint">{{ r.verseV }}</td>
               <td class="parzival-verse parzival-verse-left">
                 <div v-for="c in r.V" :key="c.column"
                     v-html="c.html"></div>
@@ -36,8 +37,9 @@
                     v-html="c.html"></div>
               </td>
               <td class="parzival-verse-num parzival-verse-focus"
-                  :class="{ 'is-active': r.active }">{{ r.verse }}</td>
-              <td class="parzival-column">{{ r.VV.length ? r.VV[0].column : '–' }}</td>
+                  :class="{ 'is-active': r.verseVV.length && r.verseVV == verse }">{{ r.verseVV }}</td>
+              <td class="parzival-column"
+                  :class="{ 'is-active': r.verseVV.length && r.verseVV == verse }">{{ r.VV.length ? r.VV[0].column : '–' }}</td>
             </tr>
           </tbody>
         </table>

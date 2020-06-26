@@ -160,11 +160,11 @@ $fa-font-path: '~font-awesome/fonts';
       }
     }
 
-    tr.is-active {
+    /*tr.is-active {
       .parzival-verse-num, .parzival-column {
         background: $warning;
       }
-    }
+    }*/
   }
 
   .parzival-facsimile-viewer {
@@ -293,8 +293,6 @@ $fa-font-path: '~font-awesome/fonts';
   .parzival-heading {
     font-style: italic;
     text-align: right;
-    //border-bottom: 1px solid $grey;
-    //background: $grey-lighter;
     padding: $size-7 $size-6;
 
     @include mobile {

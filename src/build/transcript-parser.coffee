@@ -215,9 +215,6 @@ module.exports = (sources) ->
 
     html[lc] ?= {}
 
-    # console.log "previousLeft-> #{previousLeftVerse} left-> #{leftVerse} right-> #{rightVerse} nextRight-> #{nextRightVerse}"
-    # console.log "(v.compare rightVerse, nextRightVerse) > 0: #{(v.compare (v.parse rightVerse), (v.parse nextRightVerse)) > 0}" if rightVerse is "NP 27347"
-
     # first check if we are dealing with additional lines added on the right hand side
     range = [(v.parse previousLeftVerse), (v.parse leftVerse)]
     while rightVerse and (leftVerse isnt rightVerse) and
@@ -241,8 +238,6 @@ module.exports = (sources) ->
       columns[rightVerse]["VV"].line = lc
       rightIndex++
       if lines["VV"][rightIndex].verse is leftVerse
-        console.log "need to add next line as well"
-        console.log lines["VV"][rightIndex]
         # need to add the next line as well
         html[lc]["VV"] = Object.assign html[lc]["VV"], lines["VV"][rightIndex]
         rightIndex++
@@ -251,6 +246,30 @@ module.exports = (sources) ->
       columns[leftVerse]["V"].line = lc
 
     lc++
+
+  # remove gaps in V by re-aligning
+  for line, lineData of html
+
+    # determine next VV gap
+    lineInt = parseInt line
+    needMove = false
+    offset = 1
+
+    #if !lineData.V and !lineData.VV
+      #console.error "no lineData V or VV found"
+      #console.error lineData
+
+    else if !lineData.V and columns[lineData.VV.verse].V?
+      needMove = true
+      while html[lineInt + offset] and html[lineInt + offset].VV
+        offset++
+
+    while needMove and offset >= 1
+      html[lineInt + offset].VV = html[lineInt + offset - 1].VV
+      columns[html[lineInt + offset].VV.verse].line = lineInt + offset
+      offset--
+
+    delete html[line] if needMove
 
   #{ lines, html, columns, verses }
   { html, columns, verses }

@@ -80,8 +80,23 @@ export default {
 
       for (let i = startingLine; i <= endingLine; i++) {
         const lineData = transcript.html[i]
-        const active = (lineData.V ? lineData.V.verse : lineData.VV.verse) === this.verse
-        const row = { verse: (lineData.V ? lineData.V.verse : lineData.VV.verse), active }
+
+        if (!lineData) continue
+
+        let active
+        if (lineData.V || lineData.VV) {
+          const line = lineData.V || lineData.VV
+          const verse = line.verse
+          active = verse === this.verse
+        } else {
+          console.log('no line data found for ', lineData)
+        }
+
+        const row = {
+          verseV: lineData.V ? lineData.V.verse : '',
+          verseVV: lineData.VV ? lineData.VV.verse : '',
+          active
+        }
         let nextPage
         for (const manuscript of ['V', 'VV']) {
           row[manuscript] = []
@@ -101,8 +116,10 @@ export default {
             if (this.scrolling) return
             if (going === 'in') {
               const verseRoute = this.toSynopsis(el.getAttribute('data-verse'))
-              if (verseRoute.params.verse === this.verse) return
-              this.$router.replace(verseRoute)
+              if (verseRoute) {
+                if (verseRoute.params.verse === this.verse) return
+                this.$router.replace(verseRoute)
+              }
             }
           },
           options: {
@@ -144,7 +161,9 @@ export default {
 
   methods: {
     updateVerse (verse) {
-      this.$router.replace(this.toSynopsis(verse))
+      if (verse) {
+        this.$router.replace(this.toSynopsis(verse))
+      }
     }
   },
 
