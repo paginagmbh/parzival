@@ -247,6 +247,14 @@ module.exports = (sources) ->
 
     lc++
 
+  # remove empty text in VV
+  for line, lineData of html
+    if lineData.VV
+      column = Object.keys lineData.VV
+        .filter ((k) -> k isnt "verse")
+        .shift()
+      delete lineData.VV if lineData.VV[column].length is 0
+
   # remove gaps in V by re-aligning
   for line, lineData of html
 
@@ -255,14 +263,20 @@ module.exports = (sources) ->
     needMove = false
     offset = 1
 
-    if !lineData.V and columns[lineData.VV.verse].V?
+    if !lineData.V and (!lineData.VV || columns[lineData.VV.verse].V?)
       needMove = true
       while html[lineInt + offset] and html[lineInt + offset].VV
         offset++
 
+    needMove = needMove and (offset < 6)
+
     while needMove and offset >= 1
+      #console.log "offset: #{offset}"
+      #console.log "html[#{lineInt + offset}].VV = html[#{lineInt + offset - 1}].VV"
+      #console.log JSON.stringify html[lineInt + offset]
       html[lineInt + offset].VV = html[lineInt + offset - 1].VV
-      columns[html[lineInt + offset].VV.verse].line = lineInt + offset
+      if (html[lineInt + offset].VV)
+        columns[html[lineInt + offset].VV.verse].line = lineInt + offset
       offset--
 
     delete html[line] if needMove
