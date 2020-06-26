@@ -255,11 +255,7 @@ module.exports = (sources) ->
     needMove = false
     offset = 1
 
-    #if !lineData.V and !lineData.VV
-      #console.error "no lineData V or VV found"
-      #console.error lineData
-
-    else if !lineData.V and columns[lineData.VV.verse].V?
+    if !lineData.V and columns[lineData.VV.verse].V?
       needMove = true
       while html[lineInt + offset] and html[lineInt + offset].VV
         offset++
