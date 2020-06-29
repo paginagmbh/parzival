@@ -38,7 +38,7 @@ ref = (e) ->
   switch e.event
     when "start"
       n = markup.attr e, "n", ""
-      "<span class=\"ref\" title=\"Vgl. V. #{n}\">"
+      "<span class=\"ref\" data-ref=\"vgl. Hs. V. v. #{n}\">"
     else "</span>"
 
 damage = (e) ->
@@ -253,7 +253,11 @@ module.exports = (sources) ->
       column = Object.keys lineData.VV
         .filter ((k) -> k isnt "verse")
         .shift()
-      delete lineData.VV if lineData.VV[column].length is 0
+      verse = lineData.VV.verse
+      if lineData.VV[column].length is 0
+        delete lineData.VV
+        delete columns[verse].VV
+        verses.VV[column] = verses.VV[column].filter ((v) -> v isnt verse)
 
   # remove gaps in V by re-aligning
   for line, lineData of html
@@ -279,6 +283,10 @@ module.exports = (sources) ->
         columns[html[lineInt + offset].VV.verse].line = lineInt + offset
       offset--
 
+    #console.log "Need to delete columns[html[#{lineInt}].VV.verse].VV" if needMove
+    verse = columns[html[lineInt]] ? undefined
+    verses.VV[column] = verses.VV[column].filter ((v) -> v isnt verse) if needMove and verse
+    delete columns[html[lineInt].VV.verse].VV if needMove and verse
     delete html[line] if needMove
 
   #{ lines, html, columns, verses }

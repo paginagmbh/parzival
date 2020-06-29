@@ -31,12 +31,23 @@ export default {
           if (!(column in verses)) continue
 
           const contents = []
-          const lines = verses[column].map(v => transcript.columns[v][manuscript].line)
+          const lines = verses[column].map(v => {
+            try {
+              return transcript.columns[v][manuscript].line
+            } catch {
+              console.error(`Could not map verse ${v} of manuscript ${manuscript}`)
+              console.log(transcript.columns[v][manuscript] ? transcript.columns[v][manuscript] : undefined)
+            }
+          }).filter(l => l)
 
           for (const line of lines) {
-            const html = transcript.html[line][manuscript][column]
-            const verse = transcript.html[line][manuscript].verse
-            contents.push({ html, verse })
+            if (transcript.html[line][manuscript] && transcript.html[line][manuscript][column]) {
+              const html = transcript.html[line][manuscript][column]
+              const verse = transcript.html[line][manuscript].verse
+              contents.push({ html, verse })
+            } else {
+              console.log(`line ${line} does not hold column content for column ${column}`)
+            }
           }
 
           columns.push({ column, columnSigil, page, contents })
@@ -79,14 +90,16 @@ export default {
   created () {
     const scroll = scroller()
     this.scrollToActive = debounce(() => this.$nextTick(() => {
-      const active = this.$el.querySelector('th.is-active')
-      if (!active) return
+      if (this.$el) {
+        const active = this.$el.querySelector('th.is-active')
+        if (!active) return
 
-      scroll(active, 500, {
-        container: this.$el,
-        offset: -this.$el.offsetHeight / 3,
-        force: true
-      })
+        scroll(active, 500, {
+          container: this.$el,
+          offset: -this.$el.offsetHeight / 3,
+          force: true
+        })
+      }
     }), 500)
   },
 

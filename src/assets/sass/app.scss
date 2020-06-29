@@ -170,6 +170,11 @@ $fa-font-path: '~font-awesome/fonts';
   .parzival-facsimile-viewer {
     flex-grow: 2;
   }
+
+  .ref {
+    text-decoration: underline;
+    text-decoration-color: blue;
+  }
 }
 
 .parzival-facsimile-viewer {
@@ -395,11 +400,6 @@ $fa-font-path: '~font-awesome/fonts';
 
     .anweisung, .reklamante, .kustode, .nota {
       font-style: italic;
-    }
-
-    .ref {
-      text-decoration: underline;
-      text-decoration-color: blue;
     }
 
     .supplied {
