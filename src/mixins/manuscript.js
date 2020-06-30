@@ -272,8 +272,16 @@ export default {
 
   methods: {
 
-    toPerspective (route, name) {
-      return route ? { ...route, name } : undefined
+    activateAllMouseOvers (htmlString) {
+      return this.activateMouseOverForOrigs(this.activateMouseOverForRefs(htmlString))
+    },
+
+    activateMouseOverForOrigs (htmlString) {
+      return htmlString.replace(/<span class="orig">([^<]+)<\/span><span/g, '<span class="orig">$1</span><span title="$1" ')
+    },
+
+    activateMouseOverForRefs (htmlString) {
+      return htmlString.replace(/data-ref="([^"]+)"/g, 'title="$1"')
     },
 
     nextPage (route) {
@@ -335,6 +343,10 @@ export default {
         verse: found.verse
       }
       return { name, query, params }
+    },
+
+    toPerspective (route, name) {
+      return route ? { ...route, name } : undefined
     },
 
     firstVerse (pages, manuscript, verse) {

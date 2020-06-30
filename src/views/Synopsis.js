@@ -27,9 +27,6 @@ for (let vc = 0, vl = verses.length; vc < vl; vc++) {
   page.end = next
   page.rows.push(verse)
 }
-const activateMouseOverForRefs = function (htmlString) {
-  return htmlString.replace(/data-rend="([^"]+)"/, 'title="$1"')
-}
 
 export default {
   name: 'synopsis',
@@ -108,7 +105,7 @@ export default {
             nextPage = nextPage || column.replace(/[ab]$/, '')
             row[manuscript].push({
               column: this.numTitle(column),
-              html: activateMouseOverForRefs(columns[column])
+              html: this.activateAllMouseOvers(columns[column])
             })
           }
         }

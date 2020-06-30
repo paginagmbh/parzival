@@ -1,6 +1,6 @@
 <template>
 <container class="parzival-synopsis parzival-fullheight" :manuscript="manuscript" :pages="pages"
-    :verse="verseV" v-on:search-for="(payload) => lastSearch = payload">
+    :verse="verse" v-on:search-for="(payload) => lastSearch = payload">
   <div class="tile is-ancestor is-vertical">
     <nav class="tile is-parent parzival-min-tile">
       <div class="tile is-child hero is-small" :data-manuscript="manuscript">

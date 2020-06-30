@@ -142,6 +142,7 @@ module.exports = (sources) ->
   columns = {}
   verses = {}
   lines = {}
+  line = null
 
   manuscript = undefined
   column = undefined
@@ -201,6 +202,10 @@ module.exports = (sources) ->
               result += "<br class=\"#{classes}\">" if inHeading
             result
           else ""
+    else if e.event is "text" and inOrig
+        text = e.text.replace /\n/g, ""
+        text = escape text
+        lines[manuscript][line][column] += "<span class=\"orig\">#{text}</span>"
 
   lc = 0
   rightIndex = 1
@@ -247,18 +252,6 @@ module.exports = (sources) ->
 
     lc++
 
-  # remove empty text in VV
-  for line, lineData of html
-    if lineData.VV
-      column = Object.keys lineData.VV
-        .filter ((k) -> k isnt "verse")
-        .shift()
-      verse = lineData.VV.verse
-      if lineData.VV[column].length is 0
-        delete lineData.VV
-        delete columns[verse].VV
-        verses.VV[column] = verses.VV[column].filter ((v) -> v isnt verse)
-
   # remove gaps in V by re-aligning
   for line, lineData of html
 
@@ -270,20 +263,20 @@ module.exports = (sources) ->
     if !lineData.V and (!lineData.VV || columns[lineData.VV.verse].V?)
       needMove = true
       while html[lineInt + offset] and html[lineInt + offset].VV
+        column = Object.keys html[lineInt + offset].VV
+          .filter ((k) -> k isnt "verse")
+          .shift()
+        break unless html[lineInt + offset].VV[column]
         offset++
 
     needMove = needMove and (offset < 6)
 
     while needMove and offset >= 1
-      #console.log "offset: #{offset}"
-      #console.log "html[#{lineInt + offset}].VV = html[#{lineInt + offset - 1}].VV"
-      #console.log JSON.stringify html[lineInt + offset]
       html[lineInt + offset].VV = html[lineInt + offset - 1].VV
       if (html[lineInt + offset].VV)
-        columns[html[lineInt + offset].VV.verse].line = lineInt + offset
+        columns[html[lineInt + offset].VV.verse].VV.line = lineInt + offset
       offset--
 
-    #console.log "Need to delete columns[html[#{lineInt}].VV.verse].VV" if needMove
     verse = columns[html[lineInt]] ? undefined
     verses.VV[column] = verses.VV[column].filter ((v) -> v isnt verse) if needMove and verse
     delete columns[html[lineInt].VV.verse].VV if needMove and verse

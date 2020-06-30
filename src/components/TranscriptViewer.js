@@ -35,18 +35,18 @@ export default {
             try {
               return transcript.columns[v][manuscript].line
             } catch {
-              console.error(`Could not map verse ${v} of manuscript ${manuscript}`)
-              console.log(transcript.columns[v][manuscript] ? transcript.columns[v][manuscript] : undefined)
+              // console.error(`Could not map verse ${v} of manuscript ${manuscript}`)
+              // console.log(transcript.columns[v][manuscript] ? transcript.columns[v][manuscript] : undefined)
             }
           }).filter(l => l)
 
           for (const line of lines) {
-            if (transcript.html[line][manuscript] && transcript.html[line][manuscript][column]) {
-              const html = transcript.html[line][manuscript][column]
+            if (transcript.html[line][manuscript] /* && transcript.html[line][manuscript][column] */) {
+              const html = this.activateMouseOverForOrigs(transcript.html[line][manuscript][column])
               const verse = transcript.html[line][manuscript].verse
               contents.push({ html, verse })
             } else {
-              console.log(`line ${line} does not hold column content for column ${column}`)
+              // console.log(`line ${line} does not hold column content for column ${column}`)
             }
           }
 

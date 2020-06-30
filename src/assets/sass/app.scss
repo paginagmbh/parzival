@@ -110,7 +110,7 @@ $fa-font-path: '~font-awesome/fonts';
 
   .parzival-content {
     tr {
-      cursor: pointer;
+      cursor: default;
     }
 
     th {
@@ -172,6 +172,7 @@ $fa-font-path: '~font-awesome/fonts';
   }
 
   .ref {
+    cursor: pointer;
     text-decoration: underline;
     text-decoration-color: blue;
   }
@@ -295,6 +296,10 @@ $fa-font-path: '~font-awesome/fonts';
 }
 
 .parzival-content {
+  .orig {
+    display: none;
+  }
+
   .parzival-heading {
     font-style: italic;
     text-align: right;
@@ -314,7 +319,7 @@ $fa-font-path: '~font-awesome/fonts';
   }
 
   .parzival-verse-focus {
-    cursor: pointer;
+    cursor: default;
   }
 
   .parzival-verse-num, .parzival-column {
@@ -403,6 +408,8 @@ $fa-font-path: '~font-awesome/fonts';
     }
 
     .supplied {
+      cursor: pointer;
+
       &.ex::before {
         content: "("
       }
