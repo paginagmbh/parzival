@@ -21,25 +21,31 @@
             <tr v-for="(r, ri) in synopsis"
                 :class="{ 'is-active': r.active }"
                 :key="ri"
-                @click="updateVerse(r.verseV)">
+                @click="updateVerse(r.getVerse('V'))">
               <td class="parzival-column"
-                  :class="{ 'is-active': r.verseV.length && r.verseV == verse }">{{ r.V.length ? r.V[0].column : '–' }}</td>
+                  :class="{ 'is-active': r.V.verse == verse }">{{ r.V.content.length ? r.V.content[0].column : '–' }}</td>
               <td class="parzival-verse-num parzival-verse-focus"
-                  :class="{ 'is-active': r.verseV.length && r.verseV == verse }"
-                  :data-verse="r.verseV"
-                  v-waypoint="r.waypoint">{{ r.verseV }}</td>
+                  :class="{ 'is-active': r.V.verse == verse }"
+                  :data-verse="r.V.verse"
+                  v-waypoint="r.waypoint">
+                  <span class="transpositionArrow" v-if="r.V.isTransposition"> 🠕 </span>
+                  {{ r.V.verse }}
+              </td>
               <td class="parzival-verse parzival-verse-left">
-                <div v-for="c in r.V" :key="c.column"
+                <div v-for="c in r.V.content" :key="c.column"
                     v-html="c.html"></div>
               </td>
               <td class="parzival-verse parzival-verse-right">
-                <div v-for="c in r.VV" :key="c.column"
+                <div v-for="c in r.VV.content" :key="c.column"
                     v-html="c.html"></div>
               </td>
               <td class="parzival-verse-num parzival-verse-focus"
-                  :class="{ 'is-active': r.verseVV.length && r.verseVV == verse }">{{ r.verseVV }}</td>
+                  :class="{ 'is-active': r.VV.verse == verse }">
+                  <span class="transpositionArrow" v-if="r.VV.isTransposition"> 🠕 </span>
+                  {{ r.VV.verse }}
+              </td>
               <td class="parzival-column"
-                  :class="{ 'is-active': r.verseVV.length && r.verseVV == verse }">{{ r.VV.length ? r.VV[0].column : '–' }}</td>
+                  :class="{ 'is-active': r.VV.verse == verse }">{{ r.VV.content.length ? r.VV.content[0].column : '–' }}</td>
             </tr>
           </tbody>
         </table>

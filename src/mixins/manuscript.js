@@ -90,6 +90,14 @@ const pageTitles = {
 
 export default {
   computed: {
+    firstLineForV () {
+      return parseInt(Object.keys(transcript.html).find(k => transcript.html[k].V))
+    },
+
+    firstLineForVV () {
+      return parseInt(Object.keys(transcript.html).find(k => transcript.html[k].VV))
+    },
+
     pageList () {
       return parsePages(this.pages)
     },
@@ -277,7 +285,8 @@ export default {
     },
 
     activateMouseOverForOrigs (htmlString) {
-      return htmlString.replace(/<span class="orig">([^<]+)<\/span><span/g, '<span class="orig">$1</span><span title="$1" ')
+      if (!htmlString) return ''
+      return htmlString.replace(/<span class="orig">([^<]+)<\/span>(<span class="orig">([^<]+)<\/span>)?(<span class="orig">([^<]+)<\/span>)?(<span class="orig">([^<]+)<\/span>)?(<span class="orig">([^<]+)<\/span>)?<span/g, '<span class="orig">$1 $3 $5 $7</span><span title="unkorrigierte Form (Rekonstruktion): $1 $3 $5 $7" ')
     },
 
     activateMouseOverForRefs (htmlString) {

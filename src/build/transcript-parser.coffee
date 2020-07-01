@@ -38,7 +38,7 @@ ref = (e) ->
   switch e.event
     when "start"
       n = markup.attr e, "n", ""
-      "<span class=\"ref\" data-ref=\"vgl. Hs. V. v. #{n}\">"
+      "<span class=\"ref\" data-ref=\"vgl. Hs. V #{n}\">"
     else "</span>"
 
 damage = (e) ->

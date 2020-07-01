@@ -92,21 +92,61 @@ export default {
           console.log('no line data found for ', lineData)
         }
 
+        const verses = {
+          'V': lineData.V ? lineData.V.verse : '',
+          'VV': lineData.VV ? lineData.VV.verse : ''
+        }
+
         const row = {
-          verseV: lineData.V ? lineData.V.verse : '',
-          verseVV: lineData.VV ? lineData.VV.verse : '',
           active
         }
+
         let nextPage
         for (const manuscript of ['V', 'VV']) {
-          row[manuscript] = []
+          // check if the current verse is a transposition
+          const lineNum = parseInt(i)
+          let offset = 1
+          let firstLine = manuscript === 'V' ? this.firstLineForV : this.firstLineForVV
+
+          while (lineNum - offset > firstLine &&
+            (!transcript.html[lineNum - offset] ||
+            !transcript.html[lineNum - offset][manuscript] ||
+            !transcript.html[lineNum - offset][manuscript].verse)) {
+            offset++
+          }
+          const previousLine = lineNum - offset
+          const previousVerse = transcript.html[previousLine][manuscript] ? transcript.html[previousLine][manuscript].verse : undefined
+          const parsedPreviousVerse = v.parse(previousVerse)
+          const parsedCurrentVerse = v.parse(verses[manuscript])
+          const isTransposition = parsedCurrentVerse &&
+             parsedCurrentVerse.nums &&
+             parsedCurrentVerse.nums.length &&
+             v.compare(parsedPreviousVerse, parsedCurrentVerse) > 0
+
+          row[manuscript] = {
+            content: [],
+            isTransposition,
+            verse: verses[manuscript]
+          }
+
           const columns = transcript.html[i][manuscript] || {}
           for (const column of Object.keys(columns).filter(c => c !== 'verse').sort()) {
             nextPage = nextPage || column.replace(/[ab]$/, '')
-            row[manuscript].push({
+            row[manuscript].content.push({
               column: this.numTitle(column),
               html: this.activateAllMouseOvers(columns[column])
             })
+            row.getVerse = function (preferredManuscript) {
+              if (this[preferredManuscript] && this[preferredManuscript].verse) {
+                return this[preferredManuscript].verse
+              } else if (this.V && this.V.verse) {
+                return this.V.verse
+              } else if (this.VV && this.VV.verse) {
+                return this.VV.verse
+              } else {
+                return undefined
+              }
+            }
           }
         }
 
