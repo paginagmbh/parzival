@@ -272,6 +272,12 @@ module.exports = (sources) ->
     needMove = needMove and (offset < 6)
 
     while needMove and offset >= 1
+      originalVerse = html[lineInt + offset].VV.verse if html[lineInt + offset].VV and html[lineInt + offset].VV.verse
+      if originalVerse and html[lineInt + offset].VV
+        column = Object.keys html[lineInt + offset].VV
+          .filter ((k) -> k isnt "verse")
+          .shift()
+        columns[originalVerse].VV = { column } unless html[lineInt + offset].VV[column]
       html[lineInt + offset].VV = html[lineInt + offset - 1].VV
       if (html[lineInt + offset].VV)
         columns[html[lineInt + offset].VV.verse].VV.line = lineInt + offset

@@ -89,7 +89,7 @@ export default {
           const verse = line.verse
           active = verse === this.verse
         } else {
-          console.log('no line data found for ', lineData)
+          // console.log('no line data found for ', lineData)
         }
 
         const verses = {
