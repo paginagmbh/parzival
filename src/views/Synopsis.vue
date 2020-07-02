@@ -28,7 +28,7 @@
                   :class="{ 'is-active': r.V.verse == verse }"
                   :data-verse="r.V.verse"
                   v-waypoint="r.waypoint">
-                  <span class="transpositionArrow" v-if="r.V.isTransposition"> 🠕 </span>
+                  <span class="transpositionArrow" v-if="r.V.isTransposition"> <i class="fa fa-arrows-v" aria-hidden="true"></i> </span>
                   {{ r.V.verse }}
               </td>
               <td class="parzival-verse parzival-verse-left">
@@ -41,7 +41,7 @@
               </td>
               <td class="parzival-verse-num parzival-verse-focus"
                   :class="{ 'is-active': r.VV.verse == verse }">
-                  <span class="transpositionArrow" v-if="r.VV.isTransposition"> 🠕 </span>
+                  <span class="transpositionArrow" v-if="r.VV.isTransposition"> <i class="fa fa-arrows-v" aria-hidden="true"></i> </span>
                   {{ r.VV.verse }}
               </td>
               <td class="parzival-column"
