@@ -1,23 +1,118 @@
-export const p = ({ nums }) => {
-  return nums.length === 2
+export const compare = (a, b) => {
+  a = np2p(a)
+  b = np2p(b)
+  return compareComponent(a.nums, b.nums, false) ||
+    compareComponent(a.plus || [], b.plus || [], true)
+}
+
+const compareComponent = (a, b, plus) => {
+  // HACK: a single '0' always comes first
+  if (plus) {
+    if (a.length === 1 && a[0] === 0) return -1
+    if (b.length === 1 && b[0] === 0) return 1
+  }
+
+  for (let nn = 0, nl = Math.max(a.length, b.length); nn < nl; nn++) {
+    let an = nn < a.length ? a[nn] : 0
+    let bn = nn < b.length ? b[nn] : 0
+    if (an === bn) {
+      continue
+    }
+    if ((an < 0 && bn < 0) || (an > 0 && bn > 0)) {
+      an = Math.abs(an)
+      bn = Math.abs(bn)
+    }
+    return an - bn
+  }
+  return 0
+}
+
+const firstLineForManuscript = (html, manuscript) => {
+  return parseInt(Object.keys(html).find(k => html[k][manuscript]))
+}
+
+// determine preceding line which has an entry for the current manuscript, skipping over lines that only have
+// entries for the other manuscript
+const getPreviousLineForManuscriptLine = (html, manuscript, line) => {
+  let offset = 1
+  const lineNum = parseInt(line)
+  let firstLine = manuscript === 'V' ? firstLineForManuscript(html, 'V') : firstLineForManuscript(html, 'VV')
+
+  while (lineNum - offset > firstLine &&
+    (!html[lineNum - offset] ||
+    !html[lineNum - offset][manuscript] ||
+    !html[lineNum - offset][manuscript].verse)) {
+    offset++
+  }
+
+  return lineNum - offset
+}
+
+export const isGap = (html, manuscript, secondLine) => {
+  const firstLine = getPreviousLineForManuscriptLine(html, manuscript, secondLine)
+  const firstVerse = html[firstLine] && html[firstLine][manuscript] ? html[firstLine][manuscript].verse : undefined
+  const secondVerse = html[secondLine] && html[secondLine][manuscript] ? html[secondLine][manuscript].verse : undefined
+  const parsedFirstVerse = parse(firstVerse)
+  const parsedSecondVerse = parse(secondVerse)
+  const firstVerseNums = parsedFirstVerse.nums
+  const secondVerseNums = parsedSecondVerse.nums
+  const comparison = compare(parsedFirstVerse, parsedSecondVerse)
+  const noGap = compare(parsedFirstVerse, parsedSecondVerse) > 0 || // we are not interested in transpositions or editorial comments, these are handled elsewhere
+    (!(firstVerseNums.length && secondVerseNums)) || // when both verses are undefined, we consider this not a gap
+    (firstVerseNums[firstVerseNums.length - 1] === secondVerseNums[secondVerseNums.length - 1]) || // we ignore so-called "plus" verses
+    (firstVerseNums[firstVerseNums.length - 1] == 30 && secondVerseNums[secondVerseNums.length - 1] % 30 === 1) || // in Lachmann's scheme sub-numbers always run until 30, then restart at 1
+    (firstVerseNums[0] === 733 && firstVerseNums[1] === 30) || // after 733.30 the Nieuwer Parzival numbering starts, so we don't consider this a gap
+    (firstVerseNums[firstVerseNums.length - 1] === (secondVerseNums[secondVerseNums.length - 1] - 1)) // the normal case: second verse number is one higher than preceding verse number
+
+  console.log('******************************')
+  console.log(`determining gap for lines ${firstLine} and ${secondLine} in manuscript ${manuscript}`)
+  console.log(`first verse is ${firstVerse} and secondVerse is ${secondVerse}`)
+  console.log(`comparison of ${JSON.stringify(parsedFirstVerse)} and ${JSON.stringify(parsedSecondVerse)} is ${comparison}`)
+  if (firstVerseNums[firstVerseNums.length - 1] == 30) {
+    console.log(`second line modulo 30: ${secondVerseNums[secondVerseNums.length - 1] % 30}`)
+    console.log(`evaluating first term: ${firstVerseNums[firstVerseNums.length - 1] == 30}`)
+    console.log(`evaluating second term: ${secondVerseNums[secondVerseNums.length - 1] % 30 !== 1}`)
+    console.log(`evaluating conjunction of first and second terms: ${(firstVerseNums[firstVerseNums.length - 1] == 30 && secondVerseNums[secondVerseNums.length - 1] % 30 !== 1)}`)
+  }
+  console.log(`determined a gap: ${!noGap}`)
+
+  return !noGap
+}
+
+export const isTranspositionStart = (html, manuscript, line) => {
+  const currentVerse = html[line] && html[line][manuscript] ? html[line][manuscript].verse : undefined
+
+  const previousLine = getPreviousLineForManuscriptLine(html, manuscript, line)
+  const previousVerse = html[previousLine] && html[previousLine][manuscript] ? html[previousLine][manuscript].verse : undefined
+  const parsedPreviousVerse = parse(previousVerse)
+  const parsedCurrentVerse = parse(currentVerse)
+
+  return parsedCurrentVerse &&
+     parsedCurrentVerse.nums &&
+     parsedCurrentVerse.nums.length &&
+     compare(parsedPreviousVerse, parsedCurrentVerse) > 0
 }
 
 export const np = ({ nums }) => {
   return nums.length === 1
 }
 
-export const p2np = (v) => {
-  const { nums } = v
-  if (nums.length === 2 && nums[0] === 733 && nums[1] >= 100000) {
-    return { ...v, nums: [ nums[1] - 100000 ] }
-  }
-  return v
-}
-
 export const np2p = (v) => {
   const { nums } = v
   if (nums.length === 1) {
     return { ...v, nums: [ 733, nums[0] + 10000 ] }
+  }
+  return v
+}
+
+export const p = ({ nums }) => {
+  return nums.length === 2
+}
+
+export const p2np = (v) => {
+  const { nums } = v
+  if (nums.length === 2 && nums[0] === 733 && nums[1] >= 100000) {
+    return { ...v, nums: [ nums[1] - 100000 ] }
   }
   return v
 }
@@ -66,37 +161,8 @@ export const toString = ({ nums, plus }) => {
     .replace(/827.30\[([0-9]+)\]/, 'Ep $1')
 }
 
-const compareComponent = (a, b, plus) => {
-  // HACK: a single '0' always comes first
-  if (plus) {
-    if (a.length === 1 && a[0] === 0) return -1
-    if (b.length === 1 && b[0] === 0) return 1
-  }
-
-  for (let nn = 0, nl = Math.max(a.length, b.length); nn < nl; nn++) {
-    let an = nn < a.length ? a[nn] : 0
-    let bn = nn < b.length ? b[nn] : 0
-    if (an === bn) {
-      continue
-    }
-    if ((an < 0 && bn < 0) || (an > 0 && bn > 0)) {
-      an = Math.abs(an)
-      bn = Math.abs(bn)
-    }
-    return an - bn
-  }
-  return 0
-}
-
-export const compare = (a, b) => {
-  a = np2p(a)
-  b = np2p(b)
-  return compareComponent(a.nums, b.nums, false) ||
-    compareComponent(a.plus || [], b.plus || [], true)
-}
-
 export const within = ([startIncl, endIncl], v) => {
   return compare(startIncl, v) <= 0 && compare(endIncl, v) >= 0
 }
 
-export default { parse, toString, p, np, compare, within }
+export default { isGap, isTranspositionStart, parse, toString, p, np, compare, within }

@@ -1,6 +1,7 @@
 import debounce from 'lodash.debounce'
 import { scroller } from 'vue-scrollto/src/scrollTo'
 
+import v from '../lib/verse'
 import transcript from '../data/transcript.json'
 import TranscriptInfo from './TranscriptInfo'
 
@@ -44,7 +45,9 @@ export default {
             if (transcript.html[line][manuscript] /* && transcript.html[line][manuscript][column] */) {
               const html = this.activateMouseOverForOrigs(transcript.html[line][manuscript][column])
               const verse = transcript.html[line][manuscript].verse
-              contents.push({ html, verse })
+              const isTransposition = v.isTranspositionStart(transcript.html, manuscript, line)
+
+              contents.push({ html, isTransposition, verse })
             } else {
               // console.log(`line ${line} does not hold column content for column ${column}`)
             }

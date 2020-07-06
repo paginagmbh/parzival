@@ -28,6 +28,7 @@
                   :class="{ 'is-active': verse === l.verse }"
                   :data-verse="l.verse"
                   v-waypoint="verseWaypoint">
+                <span v-if="l.isTransposition" class="transpositionArrow"><i class="fa fa-arrows-v" aria-hidden="true"/></span>
                 {{ l.verse }}
               </th>
               <td class="parzival-verse" v-html="l.html"></td>

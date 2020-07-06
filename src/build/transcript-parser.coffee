@@ -38,6 +38,8 @@ ref = (e) ->
   switch e.event
     when "start"
       n = markup.attr e, "n", ""
+      # Normalisieren der Versnummern, führende Nullen bei der Unternummer entfernen
+      n = n.replace /([0-9]+)(\.)?(0)?([0-9]+)/, "$1$2$4"
       "<span class=\"ref\" data-ref=\"vgl. Hs. V #{n}\">"
     else "</span>"
 

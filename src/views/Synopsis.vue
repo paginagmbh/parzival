@@ -24,26 +24,27 @@
                 @click="updateVerse(r.getVerse('V'))">
               <td class="parzival-column"
                   :class="{ 'is-active': r.V.verse == verse }">{{ r.V.content.length ? r.V.content[0].column : '–' }}</td>
+              <td class="parzival-transposition-row">
+                <!-- column for transposition markers -->
+                <span class="transpositionArrow" v-if="r.V.isTransposition"> <i class="fa fa-arrows-v" aria-hidden="true"></i> </span></td>
               <td class="parzival-verse-num parzival-verse-focus"
                   :class="{ 'is-active': r.V.verse == verse }"
                   :data-verse="r.V.verse"
                   v-waypoint="r.waypoint">
-                  <span class="transpositionArrow" v-if="r.V.isTransposition"> <i class="fa fa-arrows-v" aria-hidden="true"></i> </span>
                   {{ r.V.verse }}
               </td>
               <td class="parzival-verse parzival-verse-left">
                 <div v-for="c in r.V.content" :key="c.column"
-                    v-html="c.html"></div>
-              </td>
+                    v-html="c.html"></div></td>
               <td class="parzival-verse parzival-verse-right">
                 <div v-for="c in r.VV.content" :key="c.column"
-                    v-html="c.html"></div>
-              </td>
+                    v-html="c.html"></div></td>
               <td class="parzival-verse-num parzival-verse-focus"
                   :class="{ 'is-active': r.VV.verse == verse }">
-                  <span class="transpositionArrow" v-if="r.VV.isTransposition"> <i class="fa fa-arrows-v" aria-hidden="true"></i> </span>
                   {{ r.VV.verse }}
               </td>
+              <td class="parzival-transposition-row"><!-- column for transposition markers -->
+                <span class="transpositionArrow" v-if="r.VV.isTransposition"> <i class="fa fa-arrows-v" aria-hidden="true"></i> </span></td>
               <td class="parzival-column"
                   :class="{ 'is-active': r.VV.verse == verse }">{{ r.VV.content.length ? r.VV.content[0].column : '–' }}</td>
             </tr>

@@ -103,28 +103,12 @@ export default {
 
         let nextPage
         for (const manuscript of ['V', 'VV']) {
-          // check if the current verse is a transposition
-          const lineNum = parseInt(i)
-          let offset = 1
-          let firstLine = manuscript === 'V' ? this.firstLineForV : this.firstLineForVV
-
-          while (lineNum - offset > firstLine &&
-            (!transcript.html[lineNum - offset] ||
-            !transcript.html[lineNum - offset][manuscript] ||
-            !transcript.html[lineNum - offset][manuscript].verse)) {
-            offset++
-          }
-          const previousLine = lineNum - offset
-          const previousVerse = transcript.html[previousLine][manuscript] ? transcript.html[previousLine][manuscript].verse : undefined
-          const parsedPreviousVerse = v.parse(previousVerse)
-          const parsedCurrentVerse = v.parse(verses[manuscript])
-          const isTransposition = parsedCurrentVerse &&
-             parsedCurrentVerse.nums &&
-             parsedCurrentVerse.nums.length &&
-             v.compare(parsedPreviousVerse, parsedCurrentVerse) > 0
+          const isGapJump = v.isGap(transcript.html, manuscript, i)
+          const isTransposition = v.isTranspositionStart(transcript.html, manuscript, i)
 
           row[manuscript] = {
             content: [],
+            isGapJump,
             isTransposition,
             verse: verses[manuscript]
           }

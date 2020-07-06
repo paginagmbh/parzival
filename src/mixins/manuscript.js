@@ -90,14 +90,6 @@ const pageTitles = {
 
 export default {
   computed: {
-    firstLineForV () {
-      return parseInt(Object.keys(transcript.html).find(k => transcript.html[k].V))
-    },
-
-    firstLineForVV () {
-      return parseInt(Object.keys(transcript.html).find(k => transcript.html[k].VV))
-    },
-
     pageList () {
       return parsePages(this.pages)
     },
