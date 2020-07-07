@@ -41,17 +41,38 @@ export default {
             }
           }).filter(l => l)
 
-          for (const line of lines) {
+          lines.forEach((line, i) => {
             if (transcript.html[line][manuscript] /* && transcript.html[line][manuscript][column] */) {
               const html = this.activateMouseOverForOrigs(transcript.html[line][manuscript][column])
               const verse = transcript.html[line][manuscript].verse
               const isTransposition = v.isTranspositionStart(transcript.html, manuscript, line)
+              const isGap = v.isGap(transcript.html, manuscript, line)
 
-              contents.push({ html, isTransposition, verse })
-            } else {
-              // console.log(`line ${line} does not hold column content for column ${column}`)
+              let lastContentIndex = contents.push({ html, isGap, isTransposition, verse }) - 1
+
+              // if we found a transposed line, let's determine the beginning of the transposition
+              // by finding the closest preceding gap and mark it appropriately
+              if (isTransposition) {
+                let offset = 1
+                let gapFound = false
+                while (!gapFound && offset < 8 && lastContentIndex - offset > 0) {
+                  if (contents[lastContentIndex - offset].isGap) {
+                    gapFound = true
+                    break
+                  }
+                  offset++
+                }
+
+                // mark the contents rows with their transposition status
+                contents[lastContentIndex - offset].transpositionStart = true
+                contents[lastContentIndex - offset].transpositionRowSpan = offset + 1
+
+                for (let i = offset; i >= 0; i--) {
+                  contents[lastContentIndex - i].transpositionPart = true
+                }
+              }
             }
-          }
+          })
 
           columns.push({ column, columnSigil, page, contents })
         }

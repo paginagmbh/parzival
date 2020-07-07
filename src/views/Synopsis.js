@@ -101,16 +101,44 @@ export default {
           active
         }
 
+        const lastSynopsisIndex = synopsis.push(row) - 1
+
         let nextPage
         for (const manuscript of ['V', 'VV']) {
           const isGapJump = v.isGap(transcript.html, manuscript, i)
           const isTransposition = v.isTranspositionStart(transcript.html, manuscript, i)
+          const isGap = v.isGap(transcript.html, manuscript, i)
 
           row[manuscript] = {
             content: [],
             isGapJump,
+            isGap,
             isTransposition,
             verse: verses[manuscript]
+          }
+
+          // if we found a transposed line, let's determine the beginning of the transposition
+          // by finding the closest preceding gap and mark it appropriately
+          if (isTransposition) {
+            let offset = 1
+            let gapFound = false
+            while (!gapFound && offset < 8 && lastSynopsisIndex - offset > 0) {
+              if (synopsis[lastSynopsisIndex - offset][manuscript].isGap) {
+                gapFound = true
+                break
+              }
+              offset++
+            }
+
+            if (gapFound) {
+              // mark the contents rows with their transposition status
+              synopsis[lastSynopsisIndex - offset][manuscript].transpositionStart = true
+              synopsis[lastSynopsisIndex - offset][manuscript].transpositionRowSpan = offset + 1
+
+              for (let i = offset; i >= 0; i--) {
+                synopsis[lastSynopsisIndex - i][manuscript].transpositionPart = true
+              }
+            }
           }
 
           const columns = transcript.html[i][manuscript] || {}
@@ -153,7 +181,7 @@ export default {
 
         prevPage = nextPage
 
-        synopsis.push(row)
+        // synopsis.push(row)
       }
       return synopsis
     },

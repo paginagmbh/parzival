@@ -24,11 +24,15 @@
           <tr v-for="(l, li) in t.contents" :key="li"
               class="parzival-verse-focus"
               @click="updateVerse(l.verse)">
+              <td v-if="l.transpositionStart" class="parzival-transposition-row" :rowspan="l.transpositionRowSpan">
+                <span class="transpositionArrow"><i class="fa fa-arrows-v" aria-hidden="true" :style="`font-size:${parseInt(l.transpositionRowSpan) * 1.25}rem`"/></span>
+              </td>
+              <template v-else-if="l.transpositionPart"><!-- empty, no td here --></template>
+              <td v-else class="parzival-transposition-row"></td>
               <th class="parzival-verse-num"
                   :class="{ 'is-active': verse === l.verse }"
                   :data-verse="l.verse"
                   v-waypoint="verseWaypoint">
-                <span v-if="l.isTransposition" class="transpositionArrow"><i class="fa fa-arrows-v" aria-hidden="true"/></span>
                 {{ l.verse }}
               </th>
               <td class="parzival-verse" v-html="l.html"></td>

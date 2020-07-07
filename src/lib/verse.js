@@ -56,25 +56,12 @@ export const isGap = (html, manuscript, secondLine) => {
   const parsedSecondVerse = parse(secondVerse)
   const firstVerseNums = parsedFirstVerse.nums
   const secondVerseNums = parsedSecondVerse.nums
-  const comparison = compare(parsedFirstVerse, parsedSecondVerse)
   const noGap = compare(parsedFirstVerse, parsedSecondVerse) > 0 || // we are not interested in transpositions or editorial comments, these are handled elsewhere
     (!(firstVerseNums.length && secondVerseNums)) || // when both verses are undefined, we consider this not a gap
     (firstVerseNums[firstVerseNums.length - 1] === secondVerseNums[secondVerseNums.length - 1]) || // we ignore so-called "plus" verses
     (firstVerseNums[firstVerseNums.length - 1] == 30 && secondVerseNums[secondVerseNums.length - 1] % 30 === 1) || // in Lachmann's scheme sub-numbers always run until 30, then restart at 1
     (firstVerseNums[0] === 733 && firstVerseNums[1] === 30) || // after 733.30 the Nieuwer Parzival numbering starts, so we don't consider this a gap
     (firstVerseNums[firstVerseNums.length - 1] === (secondVerseNums[secondVerseNums.length - 1] - 1)) // the normal case: second verse number is one higher than preceding verse number
-
-  console.log('******************************')
-  console.log(`determining gap for lines ${firstLine} and ${secondLine} in manuscript ${manuscript}`)
-  console.log(`first verse is ${firstVerse} and secondVerse is ${secondVerse}`)
-  console.log(`comparison of ${JSON.stringify(parsedFirstVerse)} and ${JSON.stringify(parsedSecondVerse)} is ${comparison}`)
-  if (firstVerseNums[firstVerseNums.length - 1] == 30) {
-    console.log(`second line modulo 30: ${secondVerseNums[secondVerseNums.length - 1] % 30}`)
-    console.log(`evaluating first term: ${firstVerseNums[firstVerseNums.length - 1] == 30}`)
-    console.log(`evaluating second term: ${secondVerseNums[secondVerseNums.length - 1] % 30 !== 1}`)
-    console.log(`evaluating conjunction of first and second terms: ${(firstVerseNums[firstVerseNums.length - 1] == 30 && secondVerseNums[secondVerseNums.length - 1] % 30 !== 1)}`)
-  }
-  console.log(`determined a gap: ${!noGap}`)
 
   return !noGap
 }

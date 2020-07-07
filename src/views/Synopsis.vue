@@ -22,29 +22,40 @@
                 :class="{ 'is-active': r.active }"
                 :key="ri"
                 @click="updateVerse(r.getVerse('V'))">
+              <!-- page sigle for V -->
               <td class="parzival-column"
                   :class="{ 'is-active': r.V.verse == verse }">{{ r.V.content.length ? r.V.content[0].column : '–' }}</td>
-              <td class="parzival-transposition-row">
-                <!-- column for transposition markers -->
-                <span class="transpositionArrow" v-if="r.V.isTransposition"> <i class="fa fa-arrows-v" aria-hidden="true"></i> </span></td>
+              <!-- transposition arrow for V -->
+              <td v-if="r.V.transpositionStart" class="parzival-transposition-row" :rowspan="r.V.transpositionRowSpan">
+                <span class="transpositionArrow"><i class="fa fa-arrows-v" aria-hidden="true" :style="`font-size:${parseInt(r.V.transpositionRowSpan) * 1.4}rem`"></i> </span></td>
+              <template v-else-if="r.V.transpositionPart"><!-- empty, no td --></template>
+              <td v-else class="parzival-transposition-row"></td>
+              <!-- verse number for V -->
               <td class="parzival-verse-num parzival-verse-focus"
                   :class="{ 'is-active': r.V.verse == verse }"
                   :data-verse="r.V.verse"
                   v-waypoint="r.waypoint">
                   {{ r.V.verse }}
               </td>
+              <!-- verse content for V -->
               <td class="parzival-verse parzival-verse-left">
                 <div v-for="c in r.V.content" :key="c.column"
                     v-html="c.html"></div></td>
+              <!-- verse content for VV -->
               <td class="parzival-verse parzival-verse-right">
                 <div v-for="c in r.VV.content" :key="c.column"
                     v-html="c.html"></div></td>
+              <!-- verse number for VV -->
               <td class="parzival-verse-num parzival-verse-focus"
                   :class="{ 'is-active': r.VV.verse == verse }">
                   {{ r.VV.verse }}
               </td>
-              <td class="parzival-transposition-row"><!-- column for transposition markers -->
-                <span class="transpositionArrow" v-if="r.VV.isTransposition"> <i class="fa fa-arrows-v" aria-hidden="true"></i> </span></td>
+              <!-- transposition arrow for VV -->
+              <td v-if="r.VV.transpositionStart" class="parzival-transposition-row" :rowspan="r.VV.transpositionRowSpan">
+                <span class="transpositionArrow"><i class="fa fa-arrows-v" aria-hidden="true" :style="`font-size:${parseInt(r.VV.transpositionRowSpan) * 1.6}rem`"></i> </span></td>
+              <template v-else-if="r.VV.transpositionPart"><!-- empty, no td --></template>
+              <td v-else class="parzival-transposition-row"></td>
+              <!-- page sigle for VV -->
               <td class="parzival-column"
                   :class="{ 'is-active': r.VV.verse == verse }">{{ r.VV.content.length ? r.VV.content[0].column : '–' }}</td>
             </tr>
