@@ -23,7 +23,11 @@ for (let vc = 0, vl = verses.length; vc < vl; vc++) {
   prev = next
   const verse = v.toString(next)
   page.title = page.title || verse
-  page.start = page.start || next
+  if (page.start && v.compare(page.start, next) > 0) {
+    page.start = next
+  } else {
+    page.start = page.start || next
+  }
   page.end = next
   page.rows.push(verse)
 }
