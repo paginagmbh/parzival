@@ -4,7 +4,7 @@ import { binarySearch } from '../lib/search'
 import v from '../lib/verse'
 import transcript from '../data/transcript.json'
 
-const verses = Object.keys(transcript.columns).map(v.parse).sort(v.compare)
+const verses = Object.keys(transcript.columns).map(v.parse)
 
 const pageBreak = (prev, next, page) => {
   if (prev.nums.length !== next.nums.length) return true
@@ -122,7 +122,7 @@ export default {
           if (isTransposition) {
             let offset = 1
             let gapFound = false
-            while (!gapFound && offset < 8 && lastSynopsisIndex - offset > 0) {
+            while (!gapFound && offset < 8 && lastSynopsisIndex - offset >= 0) {
               if (synopsis[lastSynopsisIndex - offset][manuscript].isGap) {
                 gapFound = true
                 break
