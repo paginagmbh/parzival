@@ -74,7 +74,8 @@ $fa-font-path: '~font-awesome/fonts';
   }
 
   .transpositionArrow {
-    font-weight: bold;
+    border-right: 3px solid black;
+    display: block;
   }
 }
 
@@ -128,7 +129,6 @@ $fa-font-path: '~font-awesome/fonts';
       vertical-align: middle;
       overflow: hidden;
       text-overflow: ellipsis;
-      //display: inline-block;
 
       &.parzival-transposition-row {
         display: table-cell;
