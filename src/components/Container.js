@@ -29,7 +29,8 @@ export default {
     query: '',
     notFound: false,
     info: false,
-    excludedVerses: require('@/data/excluded-verses').excludedVerses
+    excludedVerses: require('@/data/excluded-verses').excludedVerses,
+    routingFromSearch: false
   }),
 
   metaInfo () {
@@ -82,6 +83,7 @@ export default {
       const manuscript = metadata.manuscripts[this.manuscript]
       const result = fn(manuscript, query)
       this.$emit('search-for', query)
+      this.routingFromSearch = true
       if (!result || (result.verse && excludedVerse(v.parse(result.verse)))) {
         this.notFound = true
         return
@@ -98,6 +100,7 @@ export default {
 
       this.$router.push(to)
       this.toggle('searchModal')
+      this.query = ''
     },
 
     searchVerse (e) {
@@ -114,6 +117,11 @@ export default {
       this.overviewModal = false
       this.searchModal = false
       this.info = false
+      if (this.routingFromSearch) {
+        this.routingFromSearch = false
+      } else {
+        this.$emit('search-for', '')
+      }
     },
 
     overviewModal () {
