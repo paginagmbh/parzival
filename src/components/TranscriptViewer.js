@@ -64,11 +64,11 @@ export default {
                 }
 
                 // mark the contents rows with their transposition status
-                contents[lastContentIndex - offset].transpositionStart = true
-                contents[lastContentIndex - offset].transpositionRowSpan = offset + 1
+                contents[Math.max(0, lastContentIndex - offset)].transpositionStart = true
+                contents[Math.max(0, lastContentIndex - offset)].transpositionRowSpan = lastContentIndex > offset ? offset + 1 : lastContentIndex + 1
 
                 for (let i = offset; i >= 0; i--) {
-                  contents[lastContentIndex - i].transpositionPart = true
+                  contents[Math.max(0, lastContentIndex - i)].transpositionPart = true
                 }
               }
             }
