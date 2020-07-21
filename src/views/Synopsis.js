@@ -105,44 +105,18 @@ export default {
           active
         }
 
-        const lastSynopsisIndex = synopsis.push(row) - 1
-
+        synopsis.push(row)
         let nextPage
+
         for (const manuscript of ['V', 'VV']) {
-          const isGapJump = v.isGap(transcript.html, manuscript, i)
           const isTransposition = v.isTranspositionStart(transcript.html, manuscript, i)
           const isGap = v.isGap(transcript.html, manuscript, i)
 
           row[manuscript] = {
             content: [],
-            isGapJump,
             isGap,
             isTransposition,
             verse: verses[manuscript]
-          }
-
-          // if we found a transposed line, let's determine the beginning of the transposition
-          // by finding the closest preceding gap and mark it appropriately
-          if (isTransposition) {
-            let offset = 1
-            let gapFound = false
-            while (!gapFound && offset < 8 && lastSynopsisIndex - offset >= 0) {
-              if (synopsis[lastSynopsisIndex - offset][manuscript].isGap) {
-                gapFound = true
-                break
-              }
-              offset++
-            }
-
-            if (gapFound) {
-              // mark the contents rows with their transposition status
-              synopsis[lastSynopsisIndex - offset][manuscript].transpositionStart = true
-              synopsis[lastSynopsisIndex - offset][manuscript].transpositionRowSpan = offset + 1
-
-              for (let i = offset; i >= 0; i--) {
-                synopsis[lastSynopsisIndex - i][manuscript].transpositionPart = true
-              }
-            }
           }
 
           const columns = transcript.html[i][manuscript] || {}
@@ -187,6 +161,71 @@ export default {
 
         // synopsis.push(row)
       }
+
+      // mark transpositions
+      for (const manuscript of ['V', 'VV']) {
+        synopsis.forEach((synopsisLine, synopsisIndex) => {
+          if (synopsisLine[manuscript].isTransposition) {
+            let offset = 1
+            let gapFound = false
+
+            // mark the preceding content rows with their transposition status
+            while (!gapFound && offset < 8 && synopsisIndex - offset >= 0) {
+              if (synopsis[synopsisIndex - offset][manuscript].isGap) {
+                gapFound = true
+                break
+              }
+              offset++
+            }
+
+            const startOffset = offset
+
+            if (gapFound) {
+              synopsis[synopsisIndex - offset][manuscript].transpositionStart = true
+
+              for (let i = offset; i >= 0; i--) {
+                synopsis[synopsisIndex - i][manuscript].transpositionPart = true
+              }
+            }
+
+            // mark the following content rows with their transposition status
+            offset = 1
+            gapFound = false
+            while (!gapFound && offset < 10 && synopsisIndex + offset <= synopsis.length) {
+              if (!synopsis[synopsisIndex + offset] || !synopsis[synopsisIndex + offset][manuscript]) {
+                console.log(`synopsis[${synopsisIndex} + ${offset}] not defined for manuscript ${manuscript}`)
+              } else if (synopsis[synopsisIndex + offset][manuscript].isGap) {
+                gapFound = true
+                break
+              }
+              offset++
+            }
+
+            const endOffset = offset - 1
+            let transpositionRowSpan = endOffset + startOffset + 1
+            if (transpositionRowSpan > synopsis.length) {
+              console.log('limiting row span')
+              transpositionRowSpan = synopsis.length - startOffset
+            }
+
+            /* if (gapFound) {
+              synopsis[synopsisIndex + offset][manuscript].transpositionEnd = true */
+
+            for (let i = synopsisIndex + endOffset; i > synopsisIndex; i--) {
+              console.log(`Marking synopsis[${i}][${manuscript}] as transpositionPart`)
+              if (synopsis[i] && synopsis[i][manuscript]) {
+                synopsis[i][manuscript].transpositionPart = true
+              }
+            }
+            /* } else {
+              console.log(`No forward gap found for synopsis[${synopsisIndex}][${manuscript}]`)
+            } */
+
+            synopsis[synopsisIndex - startOffset][manuscript].transpositionRowSpan = transpositionRowSpan
+          }
+        })
+      }
+
       return synopsis
     },
 

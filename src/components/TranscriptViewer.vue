@@ -25,7 +25,7 @@
               class="parzival-verse-focus"
               @click="updateVerse(l.verse)">
               <td v-if="l.transpositionStart" class="parzival-transposition-row" :rowspan="l.transpositionRowSpan">
-                <span class="transpositionArrow" :style="`height:${parseInt(l.transpositionRowSpan) * 1.5}em`" title="Versumstellung">&#160;<!--<i class="fa fa-arrows-v" aria-hidden="true" :style="`font-size:${parseInt(l.transpositionRowSpan) * 1.25}rem`"/>--></span>
+                <span class="transpositionArrow" :style="`height:${parseInt(l.transpositionRowSpan) * Math.pow(1.3 + parseInt(l.transpositionRowSpan)/75, 2)}em`" title="Versumstellung">&#160;</span>
               </td>
               <template v-else-if="l.transpositionPart"><!-- empty, no td here --></template>
               <td v-else class="parzival-transposition-row"></td>

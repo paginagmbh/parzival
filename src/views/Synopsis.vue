@@ -28,8 +28,8 @@
               <!-- transposition arrow for V -->
               <td v-if="r.V.transpositionStart" class="parzival-transposition-row" :rowspan="r.V.transpositionRowSpan">
                 <span class="transpositionArrow"
-                  :style="`height:${parseInt(r.V.transpositionRowSpan) * 1.75}rem`"
-                  title="Versumstellung"><!--<i class="fa fa-arrows-v" aria-hidden="true" :style="`font-size:${parseInt(r.V.transpositionRowSpan) * 1.4}rem`"></i>--></span></td>
+                  :style="`height:${parseInt(r.V.transpositionRowSpan) * Math.pow(1.3 + parseInt(r.V.transpositionRowSpan)/50, 2)}em`"
+                  title="Versumstellung"></span></td>
               <template v-else-if="r.V.transpositionPart"><!-- empty, no td --></template>
               <td v-else class="parzival-transposition-row"></td>
               <!-- verse number for V -->

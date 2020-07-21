@@ -48,28 +48,54 @@ export default {
               const isTransposition = v.isTranspositionStart(transcript.html, manuscript, line)
               const isGap = v.isGap(transcript.html, manuscript, line)
 
-              let lastContentIndex = contents.push({ html, isGap, isTransposition, verse }) - 1
+              contents.push({ html, isGap, isTransposition, verse })
+            }
+          })
 
-              // if we found a transposed line, let's determine the beginning of the transposition
-              // by finding the closest preceding gap and mark it appropriately
-              if (isTransposition) {
-                let offset = 1
-                let gapFound = false
-                while (!gapFound && offset < 8 && lastContentIndex - offset > 0) {
-                  if (contents[lastContentIndex - offset].isGap) {
-                    gapFound = true
-                    break
-                  }
-                  offset++
+          // mark transposition runs
+          contents.forEach((c, i) => {
+            // if we found a transposed line, let's determine the beginning of the transposition
+            // by finding the closest preceding gap and mark it appropriately
+            if (c.isTransposition) {
+              let offset = 1
+              let gapFound = false
+              while (!gapFound && offset < 8 && i - offset > 0) {
+                if (contents[i - offset].isGap) {
+                  gapFound = true
+                  break
                 }
+                offset++
+              }
 
-                // mark the contents rows with their transposition status
-                contents[Math.max(0, lastContentIndex - offset)].transpositionStart = true
-                contents[Math.max(0, lastContentIndex - offset)].transpositionRowSpan = lastContentIndex > offset ? offset + 1 : lastContentIndex + 1
+              // mark the preceding contents rows with their transposition status
+              const startOffset = Math.max(0, i - offset)
+              contents[startOffset].transpositionStart = true
+              // contents[Math.max(0, lastContentIndex - offset)].transpositionRowSpan = lastContentIndex > offset ? offset + 1 : lastContentIndex + 1
 
-                for (let i = offset; i >= 0; i--) {
-                  contents[Math.max(0, lastContentIndex - i)].transpositionPart = true
+              for (let j = startOffset; j <= i; j++) {
+                contents[j].transpositionPart = true
+              }
+
+              // now let's determine the ending of the transposition
+              // by finding the closest following gap and mark it appropriately
+              offset = 1
+              gapFound = false
+              while (!gapFound && offset < 8 && i + offset < contents.length) {
+                if (contents[i + offset].isGap) {
+                  gapFound = true
+                  break
                 }
+                offset++
+              }
+
+              // mark the following content rows with their transposition status
+              const endOffset = Math.min(contents.length - 1, i + offset - 1)
+              const transpositionRowSpan = endOffset - startOffset + 1
+              contents[endOffset].transpositionEnd = true
+              contents[startOffset].transpositionRowSpan = transpositionRowSpan
+
+              for (let j = endOffset; j >= i; j--) {
+                contents[Math.min(contents.length - 1, j)].transpositionPart = true
               }
             }
           })
