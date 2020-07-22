@@ -73,10 +73,6 @@ $fa-font-path: '~font-awesome/fonts';
     }
   }
 
-  .transpositionArrow {
-    border-right: 3px solid black;
-    display: block;
-  }
 }
 
 .parzival-home-title:before {
@@ -157,6 +153,21 @@ $fa-font-path: '~font-awesome/fonts';
 
     .parzival-transposition-row {
       width: 3%;
+
+      &.active {
+
+        &.right {
+          border-right: 3px solid black;
+          margin-right: 10px;
+          outline-offset: 3px;
+        }
+
+        &.left {
+          border-left: 3px solid black;
+          margin-left: 20px;
+          outline-offset: 3px;
+        }
+      }
     }
 
     .parzival-verse {
@@ -347,6 +358,7 @@ $fa-font-path: '~font-awesome/fonts';
 
   .parzival-verse-num {
     color: $info;
+    padding-right: 1em !important;
   }
 
   .parzival-column {

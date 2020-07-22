@@ -26,10 +26,8 @@
               <td class="parzival-column"
                   :class="{ 'is-active': r.V.verse == verse }">{{ r.V.content.length ? r.V.content[0].column : '–' }}</td>
               <!-- transposition arrow for V -->
-              <td v-if="r.V.transpositionStart" class="parzival-transposition-row" :rowspan="r.V.transpositionRowSpan">
-                <span class="transpositionArrow"
-                  :style="`height:${parseInt(r.V.transpositionRowSpan) * Math.pow(1.3 + parseInt(r.V.transpositionRowSpan)/50, 2)}em`"
-                  title="Versumstellung"></span></td>
+              <td v-if="r.V.transpositionStart" class="parzival-transposition-row active right" :rowspan="r.V.transpositionRowSpan">
+              </td>
               <template v-else-if="r.V.transpositionPart"><!-- empty, no td --></template>
               <td v-else class="parzival-transposition-row"></td>
               <!-- verse number for V -->
@@ -53,10 +51,11 @@
                   {{ r.VV.verse }}
               </td>
               <!-- transposition arrow for VV -->
-              <td v-if="r.VV.transpositionStart" class="parzival-transposition-row" :rowspan="r.VV.transpositionRowSpan">
-                <span class="transpositionArrow"
-                  :style="`height:${parseInt(r.VV.transpositionRowSpan) * 1.75}rem`"
-                  title="Versumstellung"><!--<i class="fa fa-arrows-v" aria-hidden="true" :style="`font-size:${parseInt(r.V.transpositionRowSpan) * 1.4}rem`"></i>--></span></td>
+              <td v-if="r.VV.transpositionStart"
+                class="parzival-transposition-row active left"
+                :rowspan="r.VV.transpositionRowSpan"
+                title="Versumstellung">
+                </td>
               <template v-else-if="r.VV.transpositionPart"><!-- empty, no td --></template>
               <td v-else class="parzival-transposition-row"></td>
               <!-- page sigle for VV -->

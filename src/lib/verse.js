@@ -52,6 +52,12 @@ export const isGap = (html, manuscript, secondLine) => {
   const firstLine = getPreviousLineForManuscriptLine(html, manuscript, secondLine)
   const firstVerse = html[firstLine] && html[firstLine][manuscript] ? html[firstLine][manuscript].verse : undefined
   const secondVerse = html[secondLine] && html[secondLine][manuscript] ? html[secondLine][manuscript].verse : undefined
+
+  if (bespokeGaps.find(g => g.verse === secondVerse && g.manuscript === manuscript)) {
+    console.log(`secondVerse ${secondVerse} is a bespoke gap`)
+    return true
+  }
+
   const parsedFirstVerse = parse(firstVerse)
   const parsedSecondVerse = parse(secondVerse)
   const firstVerseNums = parsedFirstVerse.nums
@@ -74,6 +80,10 @@ export const isGap = (html, manuscript, secondLine) => {
 
 export const isTranspositionStart = (html, manuscript, line) => {
   const currentVerse = html[line] && html[line][manuscript] ? html[line][manuscript].verse : undefined
+  if (bespokeTranspositions.find(v => v.manuscript === manuscript && v.verse === currentVerse)) {
+    console.log(`currentVerse ${currentVerse} is a bespoke transposition`)
+    return true
+  }
 
   const previousLine = getPreviousLineForManuscriptLine(html, manuscript, line)
   const previousVerse = html[previousLine] && html[previousLine][manuscript] ? html[previousLine][manuscript].verse : undefined
@@ -157,5 +167,13 @@ export const toString = ({ nums, plus }) => {
 export const within = ([startIncl, endIncl], v) => {
   return compare(startIncl, v) <= 0 && compare(endIncl, v) >= 0
 }
+
+const bespokeGaps = [
+  { manuscript: 'V', verse: '69.28' },
+  { manuscript: 'V', verse: '70.8' },
+  { manuscript: 'V', verse: '71.6' },
+  { manuscript: 'V', verse: '70.1' }
+]
+const bespokeTranspositions = [{ manuscript: 'V', verse: '70.6' }, { manuscript: 'V', verse: '70.7' }, { manuscript: 'V', verse: '69.29' }]
 
 export default { isGap, isTranspositionStart, parse, toString, p, np, compare, within }
