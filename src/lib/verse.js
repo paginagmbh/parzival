@@ -137,7 +137,7 @@ export const parse = (str) => {
 
     return parsed
   } catch (error) {
-    console.error(error)
+    // console.error(error)
     return { nums: [] }
   }
 }

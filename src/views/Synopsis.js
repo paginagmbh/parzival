@@ -260,7 +260,7 @@ function buildSynopsis (vueComponent, page) {
         gapFound = false
         while (!gapFound && offset < 10 && synopsisIndex + offset <= synopsis.length) {
           if (!synopsis[synopsisIndex + offset] || !synopsis[synopsisIndex + offset][manuscript]) {
-            console.log(`synopsis[${synopsisIndex} + ${offset}] not defined for manuscript ${manuscript}`)
+            // console.log(`synopsis[${synopsisIndex} + ${offset}] not defined for manuscript ${manuscript}`)
           } else if (synopsis[synopsisIndex + offset][manuscript].isGap) {
             gapFound = true
             break
@@ -271,12 +271,10 @@ function buildSynopsis (vueComponent, page) {
         const endOffset = offset - 1
         let transpositionRowSpan = endOffset + startOffset + 1
         if (transpositionRowSpan > synopsis.length) {
-          console.log('limiting row span')
           transpositionRowSpan = synopsis.length - startOffset
         }
 
         for (let i = synopsisIndex + endOffset; i > synopsisIndex; i--) {
-          console.log(`Marking synopsis[${i}][${manuscript}] as transpositionPart`)
           if (synopsis[i] && synopsis[i][manuscript]) {
             synopsis[i][manuscript].transpositionPart = true
           }
