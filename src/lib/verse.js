@@ -61,7 +61,13 @@ export const isGap = (html, manuscript, secondLine) => {
     (firstVerseNums[firstVerseNums.length - 1] === secondVerseNums[secondVerseNums.length - 1]) || // we ignore so-called "plus" verses
     (firstVerseNums[firstVerseNums.length - 1] == 30 && secondVerseNums[secondVerseNums.length - 1] % 30 === 1) || // in Lachmann's scheme sub-numbers always run until 30, then restart at 1
     (firstVerseNums[0] === 733 && firstVerseNums[1] === 30) || // after 733.30 the Nieuwer Parzival numbering starts, so we don't consider this a gap
-    (firstVerseNums[firstVerseNums.length - 1] === (secondVerseNums[secondVerseNums.length - 1] - 1)) // the normal case: second verse number is one higher than preceding verse number
+    ( // the normal case: second verse number is one higher than preceding verse number
+      (
+        (firstVerseNums.length === 1 && secondVerseNums.length === 1) ||
+        (firstVerseNums.length > 1 && secondVerseNums.length > 1 && firstVerseNums[firstVerseNums.length - 2] === secondVerseNums[secondVerseNums.length - 2])
+      ) &&
+      (firstVerseNums[firstVerseNums.length - 1] === (secondVerseNums[secondVerseNums.length - 1] - 1))
+    )
 
   return !noGap
 }

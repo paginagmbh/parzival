@@ -80,7 +80,7 @@ export default {
               // by finding the closest following gap and mark it appropriately
               offset = 1
               gapFound = false
-              while (!gapFound && offset < 8 && i + offset < contents.length) {
+              while (!gapFound && offset < 10 && i + offset < contents.length) {
                 if (contents[i + offset].isGap) {
                   gapFound = true
                   break
