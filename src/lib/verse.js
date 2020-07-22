@@ -54,7 +54,6 @@ export const isGap = (html, manuscript, secondLine) => {
   const secondVerse = html[secondLine] && html[secondLine][manuscript] ? html[secondLine][manuscript].verse : undefined
 
   if (bespokeGaps.find(g => g.verse === secondVerse && g.manuscript === manuscript)) {
-    console.log(`secondVerse ${secondVerse} is a bespoke gap`)
     return true
   }
 
@@ -81,7 +80,6 @@ export const isGap = (html, manuscript, secondLine) => {
 export const isTranspositionStart = (html, manuscript, line) => {
   const currentVerse = html[line] && html[line][manuscript] ? html[line][manuscript].verse : undefined
   if (bespokeTranspositions.find(v => v.manuscript === manuscript && v.verse === currentVerse)) {
-    console.log(`currentVerse ${currentVerse} is a bespoke transposition`)
     return true
   }
 
