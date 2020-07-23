@@ -299,8 +299,8 @@ function buildSynopsis (vueComponent, page) {
       }
     })
 
-    if (danglingGaps.length > 0) {
-      debug(`There are dangling gaps on this page ${page}: ${danglingGaps.join(', ')}`)
+    if (danglingGaps.size > 0) {
+      debug(`There are dangling gaps on this page ${page}: ${JSON.stringify(danglingGaps)}`)
       danglingGaps.forEach((gap, i) => {
         const gapIndex = synopsis.findIndex(se => se[manuscript].verse === gap)
         debug(`Processing gap ${gap} for manuscript ${manuscript} ...`)
@@ -309,11 +309,11 @@ function buildSynopsis (vueComponent, page) {
         if (gapIndex > 0 && gapIndex < 10) {
           // mark beginning of page up to gap as transposition, if there are no other transpositions already
           candidates = synopsis.slice(0, gapIndex)
-          debug(`Candidates for start area ${page}: ${danglingGaps.join(', ')}`)
+          debug(`Candidates for start area ${page}: ${candidates.join(', ')}`)
         } else if (gapIndex > synopsis.length - 10) {
           // mark gap to ending of page as transposition, if there are no other transpositions already
           candidates = synopsis.slice(gapIndex, synopsis.length)
-          debug(`Candidates for end area ${page}: ${danglingGaps.join(', ')}`)
+          debug(`Candidates for end area ${page}: ${candidates.join(', ')}`)
         }
         const alreadyContainsTransposition = candidates.some(c => c.transpositionPart)
         debug(`Area already contains a transposition: ${alreadyContainsTransposition}`)
