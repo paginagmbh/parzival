@@ -1,9 +1,9 @@
-import { scroller } from 'vue-scrollto/src/scrollTo'
-
 import { binarySearch } from '../lib/search'
-import v from '../lib/verse'
+import { scroller } from 'vue-scrollto/src/scrollTo'
 import transcript from '../data/transcript.json'
+import v from '../lib/verse'
 
+const debug = require('debug')('parzival:synopsis')
 const verses = Object.keys(transcript.columns).map(v.parse)
 
 const pageBreak = (prev, next, page) => {
@@ -139,6 +139,7 @@ export default {
 }
 
 function buildSynopsis (vueComponent, page) {
+  debug('Building synopsis for page ' + page)
   const synopsis = []
 
   let prevPage
@@ -162,7 +163,7 @@ function buildSynopsis (vueComponent, page) {
       const verse = line.verse
       active = verse === vueComponent.verse
     } else {
-      // console.log('no line data found for ', lineData)
+      debug('no line data found for ', lineData)
     }
 
     const verses = {
@@ -231,7 +232,17 @@ function buildSynopsis (vueComponent, page) {
 
   // mark transpositions
   for (const manuscript of ['V', 'VV']) {
+    const danglingGaps = new Set()
+
     synopsis.forEach((synopsisLine, synopsisIndex) => {
+      if (synopsisLine[manuscript].isGap && danglingGaps.has(synopsisLine[manuscript].verse)) {
+        debug(`Removing a dangling gap on page ${page}: ${synopsisLine[manuscript].verse}`)
+        danglingGaps.delete(synopsisLine[manuscript].verse)
+      } else if (synopsisLine[manuscript].isGap) {
+        debug(`Adding a dangling gap on page ${page}: ${synopsisLine[manuscript].verse}`)
+        danglingGaps.add(synopsisLine[manuscript].verse)
+      }
+
       if (synopsisLine[manuscript].isTransposition) {
         let offset = 1
         let gapFound = false
@@ -239,6 +250,8 @@ function buildSynopsis (vueComponent, page) {
         // mark the preceding content rows with their transposition status
         while (!gapFound && offset < 12 && synopsisIndex - offset >= 1) {
           if (synopsis[synopsisIndex - offset][manuscript].isGap) {
+            danglingGaps.delete(synopsis[synopsisIndex - offset][manuscript].verse)
+            debug(`Removed a dangling gap on page ${page}: ${synopsis[synopsisIndex - offset][manuscript].verse}`)
             gapFound = true
             break
           }
@@ -260,8 +273,10 @@ function buildSynopsis (vueComponent, page) {
         gapFound = false
         while (!gapFound && offset < 10 && synopsisIndex + offset <= synopsis.length) {
           if (!synopsis[synopsisIndex + offset] || !synopsis[synopsisIndex + offset][manuscript]) {
-            // console.log(`synopsis[${synopsisIndex} + ${offset}] not defined for manuscript ${manuscript}`)
+            debug(`synopsis[${synopsisIndex} + ${offset}] not defined for manuscript ${manuscript}`)
           } else if (synopsis[synopsisIndex + offset][manuscript].isGap) {
+            danglingGaps.delete(synopsis[synopsisIndex + offset][manuscript].verse)
+            debug(`Removed a dangling gap on page ${page}: ${synopsis[synopsisIndex + offset][manuscript].verse}`)
             gapFound = true
             break
           }
@@ -283,6 +298,37 @@ function buildSynopsis (vueComponent, page) {
         synopsis[synopsisIndex - startOffset][manuscript].transpositionRowSpan = transpositionRowSpan
       }
     })
+
+    if (danglingGaps.length > 0) {
+      debug(`There are dangling gaps on this page ${page}: ${danglingGaps.join(', ')}`)
+      danglingGaps.forEach((gap, i) => {
+        const gapIndex = synopsis.findIndex(se => se[manuscript].verse === gap)
+        debug(`Processing gap ${gap} for manuscript ${manuscript} ...`)
+        debug(`gapIndex is ${gapIndex}`)
+        let candidates = []
+        if (gapIndex > 0 && gapIndex < 10) {
+          // mark beginning of page up to gap as transposition, if there are no other transpositions already
+          candidates = synopsis.slice(0, gapIndex)
+          debug(`Candidates for start area ${page}: ${danglingGaps.join(', ')}`)
+        } else if (gapIndex > synopsis.length - 10) {
+          // mark gap to ending of page as transposition, if there are no other transpositions already
+          candidates = synopsis.slice(gapIndex, synopsis.length)
+          debug(`Candidates for end area ${page}: ${danglingGaps.join(', ')}`)
+        }
+        const alreadyContainsTransposition = candidates.some(c => c.transpositionPart)
+        debug(`Area already contains a transposition: ${alreadyContainsTransposition}`)
+        if (candidates[0] && !alreadyContainsTransposition) {
+          debug(`Starting to mark transpositions...`)
+          for (let j = candidates.length - 1; j >= 0; j--) {
+            debug(`Marking candidates[${j}][${manuscript}] as a transposition part`)
+            candidates[j][manuscript].transpositionPart = true
+          }
+          candidates[0][manuscript].transpositionStart = true
+          candidates[0][manuscript].transpositionRowSpan = candidates.length
+          debug(`Transposition marking ended...`)
+        }
+      })
+    }
   }
 
   return synopsis

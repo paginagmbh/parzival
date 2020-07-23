@@ -1,9 +1,10 @@
 import debounce from 'lodash.debounce'
 import { scroller } from 'vue-scrollto/src/scrollTo'
-
-import v from '../lib/verse'
 import transcript from '../data/transcript.json'
 import TranscriptInfo from './TranscriptInfo'
+import v from '../lib/verse'
+
+const debug = require('debug')('parzival:single-transcript')
 
 export default {
   name: 'transcript-viewer',
@@ -36,8 +37,8 @@ export default {
             try {
               return transcript.columns[v][manuscript].line
             } catch {
-              // console.error(`Could not map verse ${v} of manuscript ${manuscript}`)
-              // console.log(transcript.columns[v][manuscript] ? transcript.columns[v][manuscript] : undefined)
+              debug(`Could not map verse ${v} of manuscript ${manuscript}`)
+              debug(transcript.columns[v][manuscript] ? transcript.columns[v][manuscript] : undefined)
             }
           }).filter(l => l)
 
@@ -53,7 +54,17 @@ export default {
           })
 
           // mark transposition runs
+          const danglingGaps = new Set()
+
           contents.forEach((c, i) => {
+            if (c.isGap && danglingGaps.has(c.verse)) {
+              debug(`Removing a dangling gap on page ${page}: ${c.verse}`)
+              danglingGaps.delete(c.verse)
+            } else if (c.isGap) {
+              debug(`Adding a dangling gap on page ${page}: ${c.verse}`)
+              danglingGaps.add(c.verse)
+            }
+
             // if we found a transposed line, let's determine the beginning of the transposition
             // by finding the closest preceding gap and mark it appropriately
             if (c.isTransposition) {
@@ -61,6 +72,8 @@ export default {
               let gapFound = false
               while (!gapFound && offset < 8 && i - offset > 0) {
                 if (contents[i - offset].isGap) {
+                  danglingGaps.delete(contents[i - offset].verse)
+                  debug(`Removed a dangling gap on page ${page}: ${contents[i - offset].verse}`)
                   gapFound = true
                   break
                 }
@@ -82,6 +95,8 @@ export default {
               gapFound = false
               while (!gapFound && offset < 10 && i + offset < contents.length) {
                 if (contents[i + offset].isGap) {
+                  danglingGaps.add(contents[i + offset].verse)
+                  debug(`Added a dangling gap on page ${page}: ${contents[i + offset].verse}`)
                   gapFound = true
                   break
                 }
@@ -99,6 +114,37 @@ export default {
               }
             }
           })
+
+          if (danglingGaps.size > 0) {
+            debug(`There are dangling gaps on this page ${page}: ${JSON.stringify(danglingGaps)}`)
+            danglingGaps.forEach((gap, i) => {
+              const gapIndex = contents.findIndex(se => se.verse === gap)
+              debug(`Processing gap ${gap} ...`)
+              debug(`gapIndex is ${gapIndex}`)
+              let candidates = []
+              if (gapIndex > 0 && gapIndex < 10) {
+                // mark beginning of page up to gap as transposition, if there are no other transpositions already
+                candidates = contents.slice(0, gapIndex)
+                debug(`Candidates for start area ${page}: ${candidates.join(', ')}`)
+              } else if (gapIndex > contents.length - 10) {
+                // mark gap to ending of page as transposition, if there are no other transpositions already
+                candidates = contents.slice(gapIndex, contents.length)
+                debug(`Candidates for end area ${page} - contents.slice(${gapIndex}, ${contents.length}): ${candidates.join(', ')}`)
+              }
+              const alreadyContainsTransposition = candidates.some(c => c.transpositionPart)
+              debug(`Area already contains a transposition: ${alreadyContainsTransposition}`)
+              if (candidates[0] && !alreadyContainsTransposition) {
+                debug(`Starting to mark transpositions...`)
+                for (let j = candidates.length - 1; j >= 0; j--) {
+                  debug(`Marking candidates[${j}] as a transposition part`)
+                  candidates[j].transpositionPart = true
+                }
+                candidates[0].transpositionStart = true
+                candidates[0].transpositionRowSpan = candidates.length
+                debug(`Transposition marking ended...`)
+              }
+            })
+          }
 
           columns.push({ column, columnSigil, page, contents })
         }
