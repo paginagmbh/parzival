@@ -233,17 +233,17 @@ function buildSynopsis (vueComponent, page) {
   // mark transpositions
   for (const manuscript of ['V', 'VV']) {
     const danglingGaps = new Set()
+    let transpositionActive = false
 
     synopsis.forEach((synopsisLine, synopsisIndex) => {
-      if (synopsisLine[manuscript].isGap && danglingGaps.has(synopsisLine[manuscript].verse)) {
-        debug(`Removing a dangling gap on page ${page}: ${synopsisLine[manuscript].verse}`)
-        danglingGaps.delete(synopsisLine[manuscript].verse)
-      } else if (synopsisLine[manuscript].isGap) {
-        debug(`Adding a dangling gap on page ${page}: ${synopsisLine[manuscript].verse}`)
+      if (synopsisLine[manuscript].isGap && !transpositionActive) {
+        transpositionActive = false
+        debug(`Adding a dangling gap on page ${page} for ${manuscript}: ${synopsisLine[manuscript].verse}`)
         danglingGaps.add(synopsisLine[manuscript].verse)
       }
 
       if (synopsisLine[manuscript].isTransposition) {
+        transpositionActive = true
         let offset = 1
         let gapFound = false
 
@@ -275,8 +275,6 @@ function buildSynopsis (vueComponent, page) {
           if (!synopsis[synopsisIndex + offset] || !synopsis[synopsisIndex + offset][manuscript]) {
             debug(`synopsis[${synopsisIndex} + ${offset}] not defined for manuscript ${manuscript}`)
           } else if (synopsis[synopsisIndex + offset][manuscript].isGap) {
-            danglingGaps.delete(synopsis[synopsisIndex + offset][manuscript].verse)
-            debug(`Removed a dangling gap on page ${page}: ${synopsis[synopsisIndex + offset][manuscript].verse}`)
             gapFound = true
             break
           }
@@ -300,7 +298,7 @@ function buildSynopsis (vueComponent, page) {
     })
 
     if (danglingGaps.size > 0) {
-      debug(`There are dangling gaps on this page ${page}: ${JSON.stringify(danglingGaps)}`)
+      debug(`There are dangling gaps on this page ${page}: ${JSON.stringify(Array.from(danglingGaps))}`)
       danglingGaps.forEach((gap, i) => {
         const gapIndex = synopsis.findIndex(se => se[manuscript].verse === gap)
         debug(`Processing gap ${gap} for manuscript ${manuscript} ...`)
