@@ -81,7 +81,18 @@ export default {
     searchAll (e, fn = search) {
       const { query } = this
       const manuscript = metadata.manuscripts[this.manuscript]
-      const result = fn(manuscript, query)
+      const column = transcript.columns[query]
+      let result
+      if (column && column[this.manuscript]) {
+        result = {
+          page: column[this.manuscript].column.replace(/[ab]$/, ''),
+          verse: query
+        }
+      }
+      // fallback search if we can't find the requested verse in the columns array
+      if (!result || !result.page) {
+        result = fn(manuscript, query)
+      }
       this.$emit('search-for', query)
       this.routingFromSearch = true
       if (!result || (result.verse && excludedVerse(v.parse(result.verse)))) {

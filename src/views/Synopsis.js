@@ -17,17 +17,17 @@ const pages = [ page ]
 let prev
 for (let vc = 0, vl = verses.length; vc < vl; vc++) {
   const next = verses[vc]
+  const verse = v.toString(next)
+  const line = parseInt(getLineIndex(verse))
+  next.line = line
+
   if (prev && pageBreak(prev, next, page)) {
     pages.push(page = newPage())
   }
   prev = next
-  const verse = v.toString(next)
+
   page.title = page.title || verse
-  if (page.start && v.compare(page.start, next) > 0) {
-    page.start = next
-  } else {
-    page.start = page.start || next
-  }
+  page.start = page.start || next
   page.end = next
   page.rows.push(verse)
 }
@@ -49,6 +49,10 @@ export default {
       return '<ul>' + this.excludedVerses.map(v => v.join(' - ')).map(v => '<li>' + v + '</li>').join('') + '</ul>'
     },
 
+    line () {
+      return getLineIndex(this.verse)
+    },
+
     pages () {
       const { verse, manuscript } = this
 
@@ -58,20 +62,24 @@ export default {
     },
 
     page () {
-      const pageIndex = binarySearch(pages, v.parse(this.verse), (p, verse) => {
-        if (v.compare(verse, p.start) < 0) {
+      let pageIndex = binarySearch(pages, this.line, (p, line) => {
+        if (line < p.start.line) {
           return 1
-        } else if (v.compare(verse, p.end) > 0) {
+        } else if (line > p.end.line) {
           return -1
         }
         return 0
       })
+      // there might be transpositions causing the current verse to be on the previous or next page. check that...
+      if (pageIndex > 0 && !pages[pageIndex].rows.some(r => r === this.verse)) {
+        if (pages[pageIndex + 1] && pages[pageIndex + 1].rows.some(r => r === this.verse)) {
+          pageIndex++
+        } else if (pages[pageIndex - 1] && pages[pageIndex - 1].rows.some(r => r === this.verse)) {
+          pageIndex--
+        }
+      }
       return Math.max(0, Math.min(pageIndex, pages.length - 1))
     },
-
-    /* fullPreviousSynopsis () {
-      return buildSynopsis(this, Math.max(this.page - 1, 0))
-    }, */
 
     synopsis () {
       return buildSynopsis(this, this.page)
@@ -236,10 +244,12 @@ function buildSynopsis (vueComponent, page) {
     let transpositionActive = false
 
     synopsis.forEach((synopsisLine, synopsisIndex) => {
-      if (synopsisLine[manuscript].isGap && !transpositionActive) {
-        transpositionActive = false
-        debug(`Adding a dangling gap on page ${page} for ${manuscript}: ${synopsisLine[manuscript].verse}`)
-        danglingGaps.add(synopsisLine[manuscript].verse)
+      if (synopsisLine[manuscript].isGap) {
+        if (!transpositionActive) {
+          debug(`Adding a dangling gap on page ${page} for ${manuscript}: ${synopsisLine[manuscript].verse}`)
+          danglingGaps.add(synopsisLine[manuscript].verse)
+        }
+        transpositionActive = !transpositionActive
       }
 
       if (synopsisLine[manuscript].isTransposition) {
@@ -258,12 +268,12 @@ function buildSynopsis (vueComponent, page) {
           offset++
         }
 
-        const startOffset = offset
+        const startOffset = gapFound ? offset : 0
 
         if (gapFound || synopsisIndex - startOffset === 0) {
-          synopsis[synopsisIndex - offset][manuscript].transpositionStart = true
+          synopsis[synopsisIndex - startOffset][manuscript].transpositionStart = true
 
-          for (let i = offset; i >= 0; i--) {
+          for (let i = startOffset; i >= 0; i--) {
             synopsis[synopsisIndex - i][manuscript].transpositionPart = true
           }
         }
@@ -293,7 +303,7 @@ function buildSynopsis (vueComponent, page) {
           }
         }
 
-        synopsis[synopsisIndex - startOffset][manuscript].transpositionRowSpan = transpositionRowSpan
+        synopsis[Math.max(0, synopsisIndex - startOffset)][manuscript].transpositionRowSpan = transpositionRowSpan
       }
     })
 
@@ -330,4 +340,15 @@ function buildSynopsis (vueComponent, page) {
   }
 
   return synopsis
+}
+
+function getLineIndex (verse) {
+  const column = transcript.columns[verse]
+  if (column && column.V) {
+    return column.V.line
+  } else if (column && column.VV) {
+    return column.VV.line
+  } else {
+    return undefined
+  }
 }
