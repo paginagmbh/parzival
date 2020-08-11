@@ -36,7 +36,8 @@ export default {
           const contents = []
           const lines = verses[column].map(v => {
             try {
-              return transcript.columns[v][manuscript].line
+              const line = transcript.columns[v][manuscript].line || -1
+              return line
             } catch {
               debug(`Could not map verse ${v} of manuscript ${manuscript}`)
               debug(transcript.columns[v][manuscript] ? transcript.columns[v][manuscript] : undefined)
@@ -44,7 +45,12 @@ export default {
           }).filter(l => l)
 
           lines.forEach((line, i) => {
-            if (transcript.html[line][manuscript] /* && transcript.html[line][manuscript][column] */) {
+            // special treatment for empty lines
+            if (line < 0) {
+              const verse = verses[column][i]
+              const isGap = verse === 'NP 31979'
+              contents.push({ html: '', isGap, isTransposition: false, verse })
+            } else if (transcript.html[line][manuscript] /* && transcript.html[line][manuscript][column] */) {
               const html = this.activateMouseOverForOrigs(transcript.html[line][manuscript][column])
               const verse = transcript.html[line][manuscript].verse
               const isTransposition = v.isTranspositionStart(transcript.html, manuscript, line)
