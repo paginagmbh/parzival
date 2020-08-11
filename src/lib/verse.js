@@ -1,3 +1,38 @@
+export const parse = (str) => {
+  try {
+    if (!str) {
+      return { nums: [] }
+    }
+    const components = str
+      .replace(/Pr\s*([0-9]+)/i, '112.12[$1]')
+      .replace(/Ep\s*([0-9]+)/i, '827.30[$1]')
+      .replace(/^NP /i, '')
+      .split(/(?:-|\[|\])+/g).filter(c => c)
+
+    let nums = components.shift()
+    if (!nums.match(/^[0-9.]+/g)) throw new Error(nums)
+    nums = nums.split('.').map(n => parseInt(n, 10))
+
+    const plus = []
+    for (const c of components) {
+      const n = parseInt(c, 10)
+      if (isNaN(n)) continue
+      plus.push(n * (c.startsWith('0') ? -1 : 1))
+    }
+
+    const parsed = { nums }
+    if (plus.length) parsed.plus = plus
+
+    return parsed
+  } catch (error) {
+    // console.error(error)
+    return { nums: [] }
+  }
+}
+
+const excludedVerses = require('@/data/excluded-verses').excludedVerses
+const parsedExcludedVerses = excludedVerses.map(va => [parse(va[0]), parse(va[1])])
+
 export const compare = (a, b) => {
   a = np2p(a)
   b = np2p(b)
@@ -66,6 +101,7 @@ export const isGap = (html, manuscript, secondLine) => {
     (firstVerseNums[firstVerseNums.length - 1] === secondVerseNums[secondVerseNums.length - 1]) || // we ignore so-called "plus" verses
     (firstVerseNums[firstVerseNums.length - 1] == 30 && secondVerseNums[secondVerseNums.length - 1] % 30 === 1) || // in Lachmann's scheme sub-numbers always run until 30, then restart at 1
     (firstVerseNums[0] === 733 && firstVerseNums[1] === 30) || // after 733.30 the Nieuwer Parzival numbering starts, so we don't consider this a gap
+    (parsedExcludedVerses.find(ex => ex[1].nums[0] === secondVerseNums[0] - 1)) || // if the preceding verse is known to be excluded from transcription, we do not consider this a gap
     ( // the normal case: second verse number is one higher than preceding verse number
       (
         (firstVerseNums.length === 1 && secondVerseNums.length === 1) ||
@@ -116,38 +152,6 @@ export const p2np = (v) => {
     return { ...v, nums: [ nums[1] - 100000 ] }
   }
   return v
-}
-
-export const parse = (str) => {
-  try {
-    if (!str) {
-      return { nums: [] }
-    }
-    const components = str
-      .replace(/Pr\s*([0-9]+)/i, '112.12[$1]')
-      .replace(/Ep\s*([0-9]+)/i, '827.30[$1]')
-      .replace(/^NP /i, '')
-      .split(/(?:-|\[|\])+/g).filter(c => c)
-
-    let nums = components.shift()
-    if (!nums.match(/^[0-9.]+/g)) throw new Error(nums)
-    nums = nums.split('.').map(n => parseInt(n, 10))
-
-    const plus = []
-    for (const c of components) {
-      const n = parseInt(c, 10)
-      if (isNaN(n)) continue
-      plus.push(n * (c.startsWith('0') ? -1 : 1))
-    }
-
-    const parsed = { nums }
-    if (plus.length) parsed.plus = plus
-
-    return parsed
-  } catch (error) {
-    // console.error(error)
-    return { nums: [] }
-  }
 }
 
 export const toString = ({ nums, plus }) => {
