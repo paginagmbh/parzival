@@ -30,7 +30,7 @@ export const parse = (str) => {
   }
 }
 
-const excludedVerses = require('@/data/excluded-verses').excludedVerses
+const excludedVerses = require('../data/excluded-verses').excludedVerses
 const parsedExcludedVerses = excludedVerses.map(va => [parse(va[0]), parse(va[1])])
 
 export const compare = (a, b) => {
@@ -97,7 +97,7 @@ export const isGap = (html, manuscript, secondLine) => {
   const firstVerseNums = parsedFirstVerse.nums
   const secondVerseNums = parsedSecondVerse.nums
   const noGap = compare(parsedFirstVerse, parsedSecondVerse) > 0 || // we are not interested in transpositions or editorial comments, these are handled elsewhere
-    (!(firstVerseNums.length && secondVerseNums)) || // when both verses are undefined, we consider this not a gap
+    (!(firstVerseNums.length && secondVerseNums.length)) || // when both verses are undefined, we consider this not a gap
     (firstVerseNums[firstVerseNums.length - 1] === secondVerseNums[secondVerseNums.length - 1]) || // we ignore so-called "plus" verses
     (firstVerseNums[firstVerseNums.length - 1] == 30 && secondVerseNums[secondVerseNums.length - 1] % 30 === 1) || // in Lachmann's scheme sub-numbers always run until 30, then restart at 1
     (firstVerseNums[0] === 733 && firstVerseNums[1] === 30) || // after 733.30 the Nieuwer Parzival numbering starts, so we don't consider this a gap
@@ -110,7 +110,14 @@ export const isGap = (html, manuscript, secondLine) => {
       (firstVerseNums[firstVerseNums.length - 1] === (secondVerseNums[secondVerseNums.length - 1] - 1))
     )
 
-  return !noGap
+  // special treatment for epilogue numbering
+  const epilogueGap = firstVerseNums.length && secondVerseNums.length &&
+    firstVerseNums[0] === 827 && firstVerseNums[1] === 30 &&
+    secondVerseNums[0] === 827 && secondVerseNums[1] === 30 &&
+    parsedFirstVerse.plus[0] < parsedSecondVerse.plus[0] &&
+    parsedFirstVerse.plus[0] !== parsedSecondVerse.plus[0] - 1
+
+  return epilogueGap || !noGap
 }
 
 export const isTranspositionStart = (html, manuscript, line) => {
