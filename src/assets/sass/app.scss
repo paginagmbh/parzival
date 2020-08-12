@@ -73,10 +73,6 @@ $fa-font-path: '~font-awesome/fonts';
     }
   }
 
-  .transpositionArrow {
-    border-right: 3px solid black;
-    display: block;
-  }
 }
 
 .parzival-home-title:before {
@@ -95,7 +91,7 @@ $fa-font-path: '~font-awesome/fonts';
 .parzival-home-imprint {
   h4 {
     margin-top: 1rem;
-    margin-botton: 0.5rem;
+    margin-bottom: 0.5rem;
     font-size: $size-5;
     font-weight: bold;
   }
@@ -103,6 +99,24 @@ $fa-font-path: '~font-awesome/fonts';
     // font-size: $size-5
   }
 }
+
+.parzival-transposition-row {
+  &.active {
+
+    &.right {
+      border-right: 3px solid black;
+      margin-right: 10px;
+      outline-offset: 3px;
+    }
+
+    &.left {
+      border-left: 3px solid black;
+      margin-left: 20px;
+      outline-offset: 3px;
+    }
+  }
+}
+
 .parzival-synopsis {
   nav.tile {
     [data-manuscript=V] {
@@ -347,6 +361,7 @@ $fa-font-path: '~font-awesome/fonts';
 
   .parzival-verse-num {
     color: $info;
+    padding-right: 1em !important;
   }
 
   .parzival-column {
