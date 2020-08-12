@@ -996,7 +996,7 @@
             <p>(Ep 338–342; Sch. 853.16–20)</p>
       </div>
       <div style="clear:both"/>
-      <h4><a id="_Toc389815973"/><a id="_Ref379010691"/>1.2 Genese des Textes – seine Konzeption des <i>minnebuoch</i></h4>
+      <h4><a id="_Toc389815973"/><a id="_Ref379010691"/>1.2 Genese des Textes – die Konzeption des <i>minnebuoch</i></h4>
       <p class="MsoNormal">Die Genese des Textes sowie die Entstehungsgeschichte der gesamten (?) Hs. V werden im 558
           Verse umfassenden Epilog (Ep 1–558; Sch. 845.18–858.26) in
           Form eines »eigene(n), abgeschlossene(n) Stück(s) Kleinepik«<a href="#_ftn16" id="_ftnref16"><sup>[16]</sup></a>
@@ -1388,7 +1388,7 @@
           sind zwar jünger als Hs. V, können jedoch im möglichen Entstehungsraum des
           ›Rappoltsteiner Parzifal‹ lokalisiert werden: Alle vier Überlieferungszeugen stammen
           nachweislich aus Straßburg. Es sind dies drei nicht voneinander abgeschriebene,
-          aber alle im zweiten Viertel des 15. Jahrhunderts in der Straßburger
+          aber alle im zweiten Viertel des 15. Jahrhunderts in der elsässischen
           Lauberwerkstatt gefertigte Handschriften sowie ein aus der Straßburger Offizin des
           Johannes Mentelin stammender Druck von 1477.<a href="#_ftn64" id="_ftnref64"><sup>[64]</sup></a> Die letzte Handschrift,
           die bei der Herstellung von Hs. V in einem dritten Schritt zur Kontrolle und
@@ -2970,7 +2970,7 @@
       <div style="clear:both"/>
       <div class="contentbox-right">
           <router-link to="/faksimile/VV/177r">177r</router-link><span lang="EN-US">a–</span><router-link to="/faksimile/VV/178v">178v</router-link><span lang="EN-US">b [2.19.14] <b>Wolframs ›Parzival‹,
-                Buch XVI</b> (L. 793.29–807.30; 807.20-1–2; 815.1-a–2-a; 816.9-a–820.8): <i>Vf
+                Buch XVI</b> (L. 793.29–820.8): <i>Vf
                 mvnſchalfaſche wart geriten… – …</i></span><i>Mit verſagen er ſich werte</i></div>
       <div style="clear:both"/>
       <div class="contentbox-right">
@@ -5117,9 +5117,9 @@ of French Studies, Inc.), New York 1931, S. 86–101.</span></p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Himmelstein</span> (1861) – <span style='font-variant:small-caps'>[Franz Xaver]
         Himmelstein</span>, Das Frauenkloster Wechterswinkel, in: Archiv des historischen Vereins von Unterfranken und Aschaffenburg 15 (1861), S. 115–176.</p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Holland</span> (1854) – <span style='font-variant:small-caps'>W[ilhelm] L[udwig]
-        Holland</span>, Chestien von Troies. Eine literaturgeschichtliche Untersuchung, Tübingen 1854.</p>
+        Holland</span>, Chrestien von Troies. Eine literaturgeschichtliche Untersuchung, Tübingen 1854.</p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Holtorf</span> (1967) – <span style='font-variant:small-caps'>Arne Holtorf</span>, Eine Strophe
-        Reinmars von Brennenberg im Rappoltsteiner ›Parzival‹, in: Zeitschrift für deutsches Altertum 96 (1967), S. 321–328.</p>
+        Reinmars von Brennenberg im Rappoltsteiner ›Parzival‹, in: Zeitschrift für deutsches Altertum und deutsche Literatur 96 (1967), S. 321–328.</p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Holznagel</span> (1995) – <span style='font-variant:small-caps'>Franz-Josef Holznagel</span>,
         Minnesang-Florilegien. Zur Lyriküberlieferung im Rappoltsteiner Parzifal, im Berner Hausbuch und in der Berliner Tristan-Handschrift N, in:
         <i>„Dâ hœret ouch geloube zuo“</i>. Überlieferungs- und Echtheitsfragen zum Minnesang. Beiträge zum Festcolloquium für Günther Schweikle
@@ -5175,7 +5175,7 @@ of French Studies, Inc.), New York 1931, S. 86–101.</span></p>
         (Staats- und socialwissenschaftliche Forschungen 3/2), Leipzig 1881.</p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Miller</span> (2007) – <span style='font-variant:small-caps'>Matthias Miller</span>,
         <i>Der welsch parcefall, perment, reimen, bretter, braun leder</i>. Zum ›Rappolsteiner [!] Parzifal‹ aus der Bibliotheca Palatina, in: Zeitschrift
-        für deutsches Altertum 136 (2007), S. 307–311.</p>
+        für deutsches Altertum und deutsche Literatur 136 (2007), S. 307–311.</p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Miller/Zimmermann</span> (2007) – <span style='font-variant:small-caps'>Matthias Miller</span> und
         <span style='font-variant:small-caps'>Karin Zimmermann</span>, Einleitung, in: Die Codices Palatini germanici in der Universitätsbibliothek Heidelberg
         (Cod. Pal. germ. 304–495), bearb. von Matthias Miller und Karin Zimmermann (Kataloge der Universitätsbibliothek Heidelberg 8), Wiesbaden 2007, S. XI–XX.</p>
@@ -5184,7 +5184,7 @@ of French Studies, Inc.), New York 1931, S. 86–101.</span></p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Niewöhner</span> (1936) – <span style='font-variant:small-caps'>Heinrich Niewöhner</span>,
         Archivbeschreibung Donaueschingen, Früstl. Fürstenbergische Hofbibl. Hs. 97, 1936 (23 Bll.).</p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Obhof</span> (2009) – <span style='font-variant:small-caps'>Ute Obhof</span>, Zur
-        Entstehung der Karlsruher Handschrift des ›Rappoltsteiner Parzifal‹: Die Initialen, in: Zeitschrift für deutsches Altertum 138 (2009), S. 374–383.</p>
+        Entstehung der Karlsruher Handschrift des ›Rappoltsteiner Parzifal‹: Die Initialen, in: Zeitschrift für deutsches Altertum und deutsche Literatur 138 (2009), S. 374–383.</p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Rathgeber</span> (1874) – Die Herrschaft Rappoltstein. Beiträge zur Geschichtskunde des
         Ober-Elsasses, zum Theil aus urkundlichen Quellen, hrsg. von <span style='font-variant:small-caps'>Julius Rathgeber</span>, Straßburg 1874.</p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Riezler</span> (1883) – <span style='font-variant:small-caps'>Sigmund Riezler</span>,
@@ -5209,7 +5209,7 @@ of French Studies, Inc.), New York 1931, S. 86–101.</span></p>
         Die Handschriften der Badischen Landesbibliothek in Karlsruhe XIII. Die kleinen Provenienzen, beschr. von Armin Schlechter und Gerhard
         Stamm nach Vorarbeiten von Kurt Hannemann und Andreas Degkwitz, Wiesbaden 2000, S. 41–155.</p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Schmidt</span> (1871) – [<span style='font-variant:small-caps'>Charles Schmidt</span>],
-        Straßburger Gassen- &amp; Häuser-Namen im Mittelalter, Srassburg 1871.</p>
+        Straßburger Gassen- &amp; Häuser-Namen im Mittelalter, Strassburg 1871.</p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Schneider</span> (2009) – <span style='font-variant:small-caps'>Karin Schneider</span>,
         Gotische Schriften in deutscher Sprache. II. Die oberdeutschen Schriften von 1300 bis 1350. Text- und Tafelband, Wiesbaden 2009.</p>
       <p class="bib-entry"><span style='font-variant:small-caps'>Schnelbögl</span> (1930) – <span style='font-variant:small-caps'>Fritz Schnelbögl</span>,
