@@ -52,21 +52,24 @@ $fa-font-path: '~font-awesome/fonts';
   flex-grow: 0;
 }
 
-.parzival-container.parzival-fullheight {
-  height: 100vh;
+.parzival-container {
 
-  > nav + * {
-    height: calc(100vh - #{$navbar-height});
-  }
+  &.parzival-fullheight {
+    height: 100vh;
 
-  .tile {
-    margin: 0;
-    padding: 0;
-    &:not(.is-child) {
-      display: flex;
+    > nav + * {
+      height: calc(100vh - #{$navbar-height});
     }
-    &.is-child {
-      max-height: calc(100vh - #{$navbar-height});
+
+    .tile {
+      margin: 0;
+      padding: 0;
+      &:not(.is-child) {
+        display: flex;
+      }
+      &.is-child {
+        max-height: calc(100vh - #{$navbar-height});
+      }
     }
   }
 
@@ -88,7 +91,7 @@ $fa-font-path: '~font-awesome/fonts';
 .parzival-home-imprint {
   h4 {
     margin-top: 1rem;
-    margin-botton: 0.5rem;
+    margin-bottom: 0.5rem;
     font-size: $size-5;
     font-weight: bold;
   }
@@ -96,6 +99,24 @@ $fa-font-path: '~font-awesome/fonts';
     // font-size: $size-5
   }
 }
+
+.parzival-transposition-row {
+  &.active {
+
+    &.right {
+      border-right: 3px solid black;
+      margin-right: 10px;
+      outline-offset: 3px;
+    }
+
+    &.left {
+      border-left: 3px solid black;
+      margin-left: 20px;
+      outline-offset: 3px;
+    }
+  }
+}
+
 .parzival-synopsis {
   nav.tile {
     [data-manuscript=V] {
@@ -110,7 +131,7 @@ $fa-font-path: '~font-awesome/fonts';
 
   .parzival-content {
     tr {
-      cursor: pointer;
+      cursor: default;
     }
 
     th {
@@ -122,16 +143,19 @@ $fa-font-path: '~font-awesome/fonts';
       vertical-align: middle;
       overflow: hidden;
       text-overflow: ellipsis;
-      display: inline-block;
+
+      &.parzival-transposition-row {
+        display: table-cell;
+      }
     }
 
     .parzival-verse-num {
       text-align: right;
       @include touch {
-        width: 15%;
+        width: 12%;
       }
       @include desktop {
-        width: 10%;
+        width: 7%;
       }
     }
 
@@ -143,6 +167,10 @@ $fa-font-path: '~font-awesome/fonts';
       @include desktop {
         width: 5%;
       }
+    }
+
+    .parzival-transposition-row {
+      width: 3%;
     }
 
     .parzival-verse {
@@ -160,15 +188,21 @@ $fa-font-path: '~font-awesome/fonts';
       }
     }
 
-    tr.is-active {
+    /*tr.is-active {
       .parzival-verse-num, .parzival-column {
         background: $warning;
       }
-    }
+    }*/
   }
 
   .parzival-facsimile-viewer {
     flex-grow: 2;
+  }
+
+  .ref {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: blue;
   }
 }
 
@@ -290,11 +324,13 @@ $fa-font-path: '~font-awesome/fonts';
 }
 
 .parzival-content {
+  .orig {
+    display: none;
+  }
+
   .parzival-heading {
     font-style: italic;
     text-align: right;
-    //border-bottom: 1px solid $grey;
-    //background: $grey-lighter;
     padding: $size-7 $size-6;
 
     @include mobile {
@@ -311,7 +347,7 @@ $fa-font-path: '~font-awesome/fonts';
   }
 
   .parzival-verse-focus {
-    cursor: pointer;
+    cursor: default;
   }
 
   .parzival-verse-num, .parzival-column {
@@ -325,6 +361,7 @@ $fa-font-path: '~font-awesome/fonts';
 
   .parzival-verse-num {
     color: $info;
+    padding-right: 1em !important;
   }
 
   .parzival-column {
@@ -400,6 +437,8 @@ $fa-font-path: '~font-awesome/fonts';
     }
 
     .supplied {
+      cursor: pointer;
+
       &.ex::before {
         content: "("
       }

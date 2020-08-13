@@ -6,11 +6,13 @@ m = require "../lib/manuscript"
 v = require "../lib/verse"
 markup = require "./markup"
 
-xmlId = (el) -> (markup.attr el, "xml:id").replace /[^_]+_NEU/i, ""
+xmlId = (el) -> (markup.attr el, "xml:id").replace /[^_]+_(RP|NEU)/i, ""
 
 verseSigil = (el) ->
   sigil = (xmlId el).replace /^_+/, ""
-  v.p2np v.parse sigil
+  n = (markup.attr el, "n")
+  sigil = v.p2np v.parse sigil
+  { sigil..., n }
 
 breakSigil = (el) -> m.parsePageSigil (xmlId el)
 
@@ -30,6 +32,15 @@ supplied = (e) ->
 edited = ({ event, local }) ->
   switch event
     when "start" then "<span class=\"edited #{local}\">"
+    else "</span>"
+
+ref = (e) ->
+  switch e.event
+    when "start"
+      n = markup.attr e, "n", ""
+      # Normalisieren der Versnummern, führende Nullen bei der Unternummer entfernen
+      n = n.replace /([0-9]+)(\.)?(0)?([0-9]+)/, "$1$2$4"
+      "<span class=\"ref\" data-ref=\"vgl. Hs. V #{n}\">"
     else "</span>"
 
 damage = (e) ->
@@ -132,10 +143,13 @@ module.exports = (sources) ->
   html = {}
   columns = {}
   verses = {}
+  lines = {}
+  line = null
 
   manuscript = undefined
   column = undefined
   verse = undefined
+  n = undefined
   for e in source
     switch e.event
       when "start"
@@ -144,13 +158,16 @@ module.exports = (sources) ->
           when "cb" then column = m.columnSigil e
           when "l"
             verse = v.toString e
+            line = e.n
 
-            html[verse] ?= {}
-            html[verse][manuscript] ?= {}
-            html[verse][manuscript][column] ?= ""
+            lines[manuscript] ?= {}
+            lines[manuscript][line] ?= {}
+            lines[manuscript][line][column] ?= ""
+            lines[manuscript][line].verse = verse
 
             columns[verse] ?= {}
-            columns[verse][manuscript] ?= column
+            columns[verse][manuscript] ?= {}
+            columns[verse][manuscript].column = column
 
             verses[manuscript] ?= {}
             verses[manuscript][column] ?= []
@@ -166,16 +183,17 @@ module.exports = (sources) ->
       if e.event is "text"
         text = e.text.replace /\n/g, ""
         lastChar = text[-1..]
-        html[verse][manuscript][column] += escape text
+        lines[manuscript][line][column] += escape text
       else if (markup.attr e, "type") is "Kapitelüberschrift"
         inHeading = (e.event is "start")
       else
-        html[verse][manuscript][column] += switch e.local
+        lines[manuscript][line][column] += switch e.local
           when "note", "reg", "corr", "ex" then supplied e
           when "hi" then hi e
           when "del", "add" then edited e
           when "damage" then damage e
           when "gap" then gap e
+          when "ref" then ref e if manuscript is "VV"
           when "lb"
             classes = ["lb"]
             classes.push "wb" if lastChar.match /\s/
@@ -186,5 +204,91 @@ module.exports = (sources) ->
               result += "<br class=\"#{classes}\">" if inHeading
             result
           else ""
+    else if e.event is "text" and inOrig
+        text = e.text.replace /\n/g, ""
+        text = escape text
+        lines[manuscript][line][column] += "<span class=\"orig\">#{text}</span>"
 
+  lc = 0
+  rightIndex = 1
+
+  for leftIndex, line of lines["V"]
+
+    leftVerse = line.verse
+    rightVerse = if lines["VV"][rightIndex] then lines["VV"][rightIndex].verse else null
+    nextRightVerse = if lines["VV"][rightIndex + 1] then lines["VV"][rightIndex + 1].verse else null
+    nextLeftVerse = if lines["V"][leftIndex + 1] then lines["V"][leftIndex + 1].verse else null
+    previousLeftVerse = if lines["V"][leftIndex - 1] then lines["V"][leftIndex - 1].verse else null
+
+    html[lc] ?= {}
+
+    # first check if we are dealing with additional lines added on the right hand side
+    range = [(v.parse previousLeftVerse), (v.parse leftVerse)]
+    while rightVerse and (leftVerse isnt rightVerse) and
+    ((v.within range, v.parse rightVerse) or
+    (v.compare (v.parse rightVerse), (v.parse nextRightVerse)) > 0 or
+    (v.compare (v.parse leftVerse), (v.parse rightVerse)) > 0)
+      # this is a comment line added on the right side
+      html[lc]["VV"] = lines["VV"][rightIndex]
+      columns[rightVerse]["VV"].line = lc
+      lc++
+      html[lc] ?= {}
+      rightIndex++
+      rightVerse = if lines["VV"][rightIndex] then lines["VV"][rightIndex].verse else null
+      nextRightVerse = if lines["VV"][rightIndex + 1] then lines["VV"][rightIndex + 1].verse else null
+
+    # now check if left and right side match the same verse
+    if rightVerse is leftVerse
+      html[lc]["V"] = line
+      html[lc]["VV"] = lines["VV"][rightIndex]
+      columns[leftVerse]["V"].line = lc
+      columns[rightVerse]["VV"].line = lc
+      rightIndex++
+      if lines["VV"][rightIndex].verse is leftVerse
+        # need to add the next line as well
+        html[lc]["VV"] = Object.assign html[lc]["VV"], lines["VV"][rightIndex]
+        rightIndex++
+    else
+      html[lc]["V"] = line
+      columns[leftVerse]["V"].line = lc
+
+    lc++
+
+  # remove gaps in V by re-aligning
+  for line, lineData of html
+
+    # determine next VV gap
+    lineInt = parseInt line
+    needMove = false
+    offset = 1
+
+    if !lineData.V and (!lineData.VV || columns[lineData.VV.verse].V?)
+      needMove = true
+      while html[lineInt + offset] and html[lineInt + offset].VV
+        column = Object.keys html[lineInt + offset].VV
+          .filter ((k) -> k isnt "verse")
+          .shift()
+        break unless html[lineInt + offset].VV[column]
+        offset++
+
+    needMove = needMove and (offset < 6)
+
+    while needMove and offset >= 1
+      originalVerse = html[lineInt + offset].VV.verse if html[lineInt + offset].VV and html[lineInt + offset].VV.verse
+      if originalVerse and html[lineInt + offset].VV
+        column = Object.keys html[lineInt + offset].VV
+          .filter ((k) -> k isnt "verse")
+          .shift()
+        columns[originalVerse].VV = { column } unless html[lineInt + offset].VV[column]
+      html[lineInt + offset].VV = html[lineInt + offset - 1].VV
+      if (html[lineInt + offset].VV)
+        columns[html[lineInt + offset].VV.verse].VV.line = lineInt + offset
+      offset--
+
+    verse = columns[html[lineInt]] ? undefined
+    verses.VV[column] = verses.VV[column].filter ((v) -> v isnt verse) if needMove and verse
+    delete columns[html[lineInt].VV.verse].VV if needMove and verse
+    delete html[line] if needMove
+
+  #{ lines, html, columns, verses }
   { html, columns, verses }

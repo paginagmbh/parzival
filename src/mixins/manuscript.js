@@ -212,8 +212,9 @@ export default {
     otherPages () {
       const { verse, otherManuscript } = this
       if (!verse) return undefined
-      return ((transcript.columns[verse] || {})[otherManuscript] || '')
-        .replace(/[ab]$/, '') || ''
+      const targetColumn = transcript.columns[verse] &&
+        transcript.columns[verse][otherManuscript] ? transcript.columns[verse][otherManuscript].column : ''
+      return (targetColumn || '').replace(/[ab]$/, '')
     },
 
     otherPageTitle () {
@@ -271,8 +272,17 @@ export default {
 
   methods: {
 
-    toPerspective (route, name) {
-      return route ? { ...route, name } : undefined
+    activateAllMouseOvers (htmlString) {
+      return this.activateMouseOverForOrigs(this.activateMouseOverForRefs(htmlString))
+    },
+
+    activateMouseOverForOrigs (htmlString) {
+      if (!htmlString) return ''
+      return htmlString.replace(/<span class="orig">([^<]+)<\/span>(<span class="orig">([^<]+)<\/span>)?(<span class="orig">([^<]+)<\/span>)?(<span class="orig">([^<]+)<\/span>)?(<span class="orig">([^<]+)<\/span>)?<span/g, '<span class="orig">$1 $3 $5 $7</span><span title="unkorrigierte Form (Rekonstruktion): $1 $3 $5 $7" ')
+    },
+
+    activateMouseOverForRefs (htmlString) {
+      return htmlString.replace(/data-ref="([^"]+)"/g, 'title="$1"')
     },
 
     nextPage (route) {
@@ -336,6 +346,10 @@ export default {
       return { name, query, params }
     },
 
+    toPerspective (route, name) {
+      return route ? { ...route, name } : undefined
+    },
+
     firstVerse (pages, manuscript, verse) {
       let pc
       let vc
@@ -360,7 +374,7 @@ export default {
       const { name, query, params } = this.$route
       manuscript = manuscript || params.manuscript || this.manuscript
 
-      const column = (transcript.columns[verse] || {})[manuscript]
+      const column = (transcript.columns[verse].column || {})[manuscript]
       if (!column) return undefined
 
       let page = column.replace(/[ab]$/, '')

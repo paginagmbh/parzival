@@ -17,6 +17,7 @@
     "bulma": "^0.7.4",
     "core-js": "^3.4.3",
     "csv": "^5.1.1",
+    "debug": "^4.1.1",
     "del": "^4.1.0",
     "escape-html": "^1.0.3",
     "eslint": "^5.16.0",
@@ -50,7 +51,7 @@
     "babel-eslint": "^10.0.1",
     "coffeescript": "^2.4.1",
     "eslint-plugin-vue": "^5.2.2",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.10"
   },

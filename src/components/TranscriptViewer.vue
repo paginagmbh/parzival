@@ -4,7 +4,7 @@
     <div class="hero-body">
       <article class="message">
         <div class="message-body content">
-          <p>Ihre Suche nach „{{ lastSearch }}“ ergab keinen Treffer.</p>
+          <p v-if="lastSearch && lastSearch.length">Ihre Suche nach „{{ lastSearch }}“ ergab keinen Treffer.</p>
           <p>Folgende Verse sind nicht transkribiert:</p>
           <div v-html="excludedVersesHtml"/>
         </div>
@@ -24,6 +24,10 @@
           <tr v-for="(l, li) in t.contents" :key="li"
               class="parzival-verse-focus"
               @click="updateVerse(l.verse)">
+              <td v-if="l.transpositionStart" class="parzival-transposition-row active right" :rowspan="l.transpositionRowSpan">
+              </td>
+              <template v-else-if="l.transpositionPart"><!-- empty, no td here --></template>
+              <td v-else class="parzival-transposition-row"></td>
               <th class="parzival-verse-num"
                   :class="{ 'is-active': verse === l.verse }"
                   :data-verse="l.verse"

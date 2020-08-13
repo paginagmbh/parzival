@@ -1,64 +1,43 @@
-export const p = ({ nums }) => {
-  return nums.length === 2
-}
-
-export const np = ({ nums }) => {
-  return nums.length === 1
-}
-
-export const p2np = (v) => {
-  const { nums } = v
-  if (nums.length === 2 && nums[0] === 733 && nums[1] >= 100000) {
-    return { ...v, nums: [ nums[1] - 100000 ] }
-  }
-  return v
-}
-
-export const np2p = (v) => {
-  const { nums } = v
-  if (nums.length === 1) {
-    return { ...v, nums: [ 733, nums[0] + 10000 ] }
-  }
-  return v
-}
-
 export const parse = (str) => {
-  if (!str) {
+  try {
+    if (!str) {
+      return { nums: [] }
+    }
+    const components = str
+      .replace(/Pr\s*([0-9]+)/i, '112.12[$1]')
+      .replace(/Ep\s*([0-9]+)/i, '827.30[$1]')
+      .replace(/^NP /i, '')
+      .split(/(?:-|\[|\])+/g).filter(c => c)
+
+    let nums = components.shift()
+    if (!nums.match(/^[0-9.]+/g)) throw new Error(nums)
+    nums = nums.split('.').map(n => parseInt(n, 10))
+
+    const plus = []
+    for (const c of components) {
+      const n = parseInt(c, 10)
+      if (isNaN(n)) continue
+      plus.push(n * (c.startsWith('0') ? -1 : 1))
+    }
+
+    const parsed = { nums }
+    if (plus.length) parsed.plus = plus
+
+    return parsed
+  } catch (error) {
+    // console.error(error)
     return { nums: [] }
   }
-  const components = str
-    .replace(/Pr\s*([0-9]+)/i, '112.12[$1]')
-    .replace(/Ep\s*([0-9]+)/i, '827.30[$1]')
-    .replace(/^NP /i, '')
-    .split(/(?:-|\[|\])+/g).filter(c => c)
-
-  let nums = components.shift()
-  if (!nums.match(/^[0-9.]+/g)) throw new Error(nums)
-  nums = nums.split('.').map(n => parseInt(n, 10))
-
-  const plus = []
-  for (const c of components) {
-    const n = parseInt(c, 10)
-    if (isNaN(n)) continue
-    plus.push(n * (c.startsWith('0') ? -1 : 1))
-  }
-
-  const parsed = { nums }
-  if (plus.length) parsed.plus = plus
-
-  return parsed
 }
 
-export const toString = ({ nums, plus }) => {
-  const str = [
-    nums.length === 1 ? 'NP ' : '',
-    nums.map(n => n.toString()).join('.'),
-    (plus || []).map(n => `[${n < 0 ? '0' : ''}${Math.abs(n)}]`).join('')
-  ].join('')
+const excludedVerses = require('../data/excluded-verses').excludedVerses
+const parsedExcludedVerses = excludedVerses.map(va => [parse(va[0]), parse(va[1])])
 
-  return str
-    .replace(/112.12\[([0-9]+)\]/, 'Pr $1')
-    .replace(/827.30\[([0-9]+)\]/, 'Ep $1')
+export const compare = (a, b) => {
+  a = np2p(a)
+  b = np2p(b)
+  return compareComponent(a.nums, b.nums, false) ||
+    compareComponent(a.plus || [], b.plus || [], true)
 }
 
 const compareComponent = (a, b, plus) => {
@@ -83,15 +62,127 @@ const compareComponent = (a, b, plus) => {
   return 0
 }
 
-export const compare = (a, b) => {
-  a = np2p(a)
-  b = np2p(b)
-  return compareComponent(a.nums, b.nums, false) ||
-    compareComponent(a.plus || [], b.plus || [], true)
+const firstLineForManuscript = (html, manuscript) => {
+  return parseInt(Object.keys(html).find(k => html[k][manuscript]))
+}
+
+// determine preceding line which has an entry for the current manuscript, skipping over lines that only have
+// entries for the other manuscript
+const getPreviousLineForManuscriptLine = (html, manuscript, line) => {
+  let offset = 1
+  const lineNum = parseInt(line)
+  let firstLine = manuscript === 'V' ? firstLineForManuscript(html, 'V') : firstLineForManuscript(html, 'VV')
+
+  while (lineNum - offset > firstLine &&
+    (!html[lineNum - offset] ||
+    !html[lineNum - offset][manuscript] ||
+    !html[lineNum - offset][manuscript].verse)) {
+    offset++
+  }
+
+  return lineNum - offset
+}
+
+export const isGap = (html, manuscript, secondLine) => {
+  const firstLine = getPreviousLineForManuscriptLine(html, manuscript, secondLine)
+  const firstVerse = html[firstLine] && html[firstLine][manuscript] ? html[firstLine][manuscript].verse : undefined
+  const secondVerse = html[secondLine] && html[secondLine][manuscript] ? html[secondLine][manuscript].verse : undefined
+
+  if (bespokeGaps.find(g => g.verse === secondVerse && g.manuscript === manuscript)) {
+    return true
+  }
+
+  const parsedFirstVerse = parse(firstVerse)
+  const parsedSecondVerse = parse(secondVerse)
+  const firstVerseNums = parsedFirstVerse.nums
+  const secondVerseNums = parsedSecondVerse.nums
+  const noGap = compare(parsedFirstVerse, parsedSecondVerse) > 0 || // we are not interested in transpositions or editorial comments, these are handled elsewhere
+    (!(firstVerseNums.length && secondVerseNums.length)) || // when both verses are undefined, we consider this not a gap
+    (firstVerseNums[firstVerseNums.length - 1] === secondVerseNums[secondVerseNums.length - 1]) || // we ignore so-called "plus" verses
+    (firstVerseNums[firstVerseNums.length - 1] == 30 && secondVerseNums[secondVerseNums.length - 1] % 30 === 1) || // in Lachmann's scheme sub-numbers always run until 30, then restart at 1
+    (firstVerseNums[0] === 733 && firstVerseNums[1] === 30) || // after 733.30 the Nieuwer Parzival numbering starts, so we don't consider this a gap
+    (parsedExcludedVerses.find(ex => ex[1].nums[0] === secondVerseNums[0] - 1)) || // if the preceding verse is known to be excluded from transcription, we do not consider this a gap
+    ( // the normal case: second verse number is one higher than preceding verse number
+      (
+        (firstVerseNums.length === 1 && secondVerseNums.length === 1) ||
+        (firstVerseNums.length > 1 && secondVerseNums.length > 1 && firstVerseNums[firstVerseNums.length - 2] === secondVerseNums[secondVerseNums.length - 2])
+      ) &&
+      (firstVerseNums[firstVerseNums.length - 1] === (secondVerseNums[secondVerseNums.length - 1] - 1))
+    )
+
+  // special treatment for epilogue numbering
+  const epilogueGap = firstVerseNums.length && secondVerseNums.length &&
+    firstVerseNums[0] === 827 && firstVerseNums[1] === 30 &&
+    secondVerseNums[0] === 827 && secondVerseNums[1] === 30 &&
+    parsedFirstVerse.plus[0] < parsedSecondVerse.plus[0] &&
+    parsedFirstVerse.plus[0] !== parsedSecondVerse.plus[0] - 1
+
+  return epilogueGap || !noGap
+}
+
+export const isTranspositionStart = (html, manuscript, line) => {
+  const currentVerse = html[line] && html[line][manuscript] ? html[line][manuscript].verse : undefined
+  if (bespokeTranspositions.find(v => v.manuscript === manuscript && v.verse === currentVerse)) {
+    return true
+  }
+
+  const previousLine = getPreviousLineForManuscriptLine(html, manuscript, line)
+  const previousVerse = html[previousLine] && html[previousLine][manuscript] ? html[previousLine][manuscript].verse : undefined
+  const parsedPreviousVerse = parse(previousVerse)
+  const parsedCurrentVerse = parse(currentVerse)
+
+  return parsedCurrentVerse &&
+     parsedCurrentVerse.nums &&
+     parsedCurrentVerse.nums.length &&
+     compare(parsedPreviousVerse, parsedCurrentVerse) > 0
+}
+
+export const np = ({ nums }) => {
+  return nums.length === 1
+}
+
+export const np2p = (v) => {
+  const { nums } = v
+  if (nums.length === 1) {
+    return { ...v, nums: [ 733, nums[0] + 10000 ] }
+  }
+  return v
+}
+
+export const p = ({ nums }) => {
+  return nums.length === 2
+}
+
+export const p2np = (v) => {
+  const { nums } = v
+  if (nums.length === 2 && nums[0] === 733 && nums[1] >= 100000) {
+    return { ...v, nums: [ nums[1] - 100000 ] }
+  }
+  return v
+}
+
+export const toString = ({ nums, plus }) => {
+  const str = [
+    nums.length === 1 ? 'NP ' : '',
+    nums.map(n => n.toString()).join('.'),
+    (plus || []).map(n => `[${n < 0 ? '0' : ''}${Math.abs(n)}]`).join('')
+  ].join('')
+
+  return str
+    .replace(/112.12\[([0-9]+)\]/, 'Pr $1')
+    .replace(/827.30\[([0-9]+)\]/, 'Ep $1')
 }
 
 export const within = ([startIncl, endIncl], v) => {
   return compare(startIncl, v) <= 0 && compare(endIncl, v) >= 0
 }
 
-export default { parse, toString, p, np, compare, within }
+const bespokeGaps = [
+  { manuscript: 'V', verse: '69.28' },
+  { manuscript: 'V', verse: '70.8' },
+  { manuscript: 'V', verse: '71.6' },
+  { manuscript: 'V', verse: '70.1' }
+]
+const bespokeTranspositions = [{ manuscript: 'V', verse: '70.6' }, { manuscript: 'V', verse: '70.7' }, { manuscript: 'V', verse: '69.29' }]
+
+export default { isGap, isTranspositionStart, parse, toString, p, np, compare, within }
