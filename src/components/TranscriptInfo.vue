@@ -15,6 +15,8 @@
             erfolgen handschriftengetreu. Nicht umgesetzt wird das geschweifte
             z. Die Abkürzungen werden in runden Klammern aufgelöst.</p>
 
+            <p>Längsstriche markieren Versumstellungen.</p>
+
             <p>Zeilenumbrüche in Prosaabschnitten werden mit einem senkrechten
             Strich (|) markiert.</p>
 
@@ -33,7 +35,7 @@
 
             <p>Die unterschiedlichen Korrekturarten werden wie folgt unterschieden:</p>
             <ul class="parzival-sample">
-              <li><span class="damage">grau hinterlegt</span> und <span class="corr">unterpunktet</span> = Korrektur durch aufgeklebtes Pergamentstück;</li>
+              <li><span class="damage">grau hinterlegt</span>, <span class="klebung">eingerahmt</span> und <span class="corr">unterpunktet</span> = Korrektur durch aufgeklebtes Pergamentstück;</li>
               <li><span class="damage">grau hinterlegt</span> und <span class="corr">unterpunktet</span> = Korrektur durch Rasur;</li>
               <li><span class="del">durchgestrichen</span> = Korrektur durch Streichung.</li>
             </ul>
@@ -67,7 +69,7 @@
 
             <p>Die Ergänzung [01][01] am Ende einer Versnummer bezeichnet eine Anweisung an den Rubrikator (in Kursivdruck) (betrifft nur V').</p>
 
-            <p>Die Ergänzung [01] am Ende einer Versnummer wird grundsätzlich bei Kapitelüberschriften und im Zusammenhang mit den kürzeren Texten auf Blatt 115r/v und Blatt 320v von Handschrift V verwendet. Folgen mehrere Paratexte aufeinander, werden diese der Reihenfolge nach mit [01], [02] usw. nummeriert (Beispiel siehe V', 793.28[01], 793.28[02]).</p>
+            <p>Die Ergänzung [01] am Ende einer Versnummer wird grundsätzlich bei Kapitelüberschriften und im Zusammenhang mit den kürzeren Texten auf Blatt 115r/v und Blatt 320v von Handschrift V verwendet. Folgen mehrere Paratexte aufeinander, werden diese der Reihenfolge nach mit [01], [02] usw. nummeriert (Beispiel siehe V', 793.27[01], 793.27[02]).</p>
 
             <p>Die Ergänzung [1] am Ende einer Versnummer bezeichnet einen Plusvers oder einen doppelt abgeschriebenen Vers.</p>
 
