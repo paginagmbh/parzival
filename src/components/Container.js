@@ -1,5 +1,5 @@
 import scrollIntoView from 'scroll-into-view'
-
+import TranscriptInfo from './TranscriptInfo'
 import * as v from '../lib/verse'
 import { search, searchVerse, searchPage } from '../lib/search'
 
@@ -22,7 +22,9 @@ const excludedVerse = (verse) => false
 export default {
   name: 'container',
   props: ['manuscript', 'pages', 'verse'],
-
+  components: {
+    TranscriptInfo
+  },
   data: () => ({
     overviewModal: false,
     searchModal: false,
@@ -30,7 +32,8 @@ export default {
     notFound: false,
     info: false,
     excludedVerses: require('@/data/excluded-verses').excludedVerses,
-    routingFromSearch: false
+    routingFromSearch: false,
+    transcriptDocModal: false
   }),
 
   metaInfo () {
