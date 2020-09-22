@@ -114,6 +114,7 @@ export const isGap = (html, manuscript, secondLine) => {
   const epilogueGap = firstVerseNums.length && secondVerseNums.length &&
     firstVerseNums[0] === 827 && firstVerseNums[1] === 30 &&
     secondVerseNums[0] === 827 && secondVerseNums[1] === 30 &&
+    parsedFirstVerse.plus && parsedSecondVerse.plus &&
     parsedFirstVerse.plus[0] < parsedSecondVerse.plus[0] &&
     parsedFirstVerse.plus[0] !== parsedSecondVerse.plus[0] - 1
 
