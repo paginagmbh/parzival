@@ -14,6 +14,11 @@
         <router-link class="navbar-item" :to="routes.doublePage" title="Doppelseite" v-if="routes.doublePage"><i class="fa fa-columns"></i></router-link>
         <router-link class="navbar-item" :to="routes.synopsis"   title="Synopse"
                      v-if="routes.synopsis"><i class="fa fa-link"></i></router-link>
+        <a class="navbar-item parzival-transcript-doc-toggle"
+          @click="toggle('transcriptDocModal')">
+          <i class="fa fa-info"></i>
+        </a>
+         <transcript-info :transcriptDocModal="transcriptDocModal" v-on:close-info="toggle('transcriptDocModal')" />
       </div>
       <div class="navbar-end">
         <div class="navbar-item is-hidden-mobile" v-if="$route.name !== 'synopsis'">

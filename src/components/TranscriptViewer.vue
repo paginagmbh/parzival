@@ -40,11 +40,11 @@
       </table>
     </section>
   </article>
-  <button class="parzival-transcript-doc-toggle button is-info is-small"
+  <!--<button class="parzival-transcript-doc-toggle button is-info is-small"
           v-if="text.length > 0"
-          @click="toggle('transcriptDocModal')">
+          @click="toggle('transcriptDoc')">
     <i class="fa fa-info"></i>
-  </button>
+  </button>-->
   <transcript-info :transcriptDocModal="transcriptDocModal" v-on:close-info="toggle('transcriptDocModal')" />
 </div>
 </template>
