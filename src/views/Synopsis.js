@@ -4,7 +4,7 @@ import transcript from '../data/transcript.json'
 import v from '../lib/verse'
 
 const debug = require('debug')('parzival:synopsis')
-const verses = Object.keys(transcript.columns).map(v.parse)
+const verses = Object.keys(transcript.columns).map(v.parse).sort(v.compare)
 
 const pageBreak = (prev, next, page) => {
   if (prev.nums.length !== next.nums.length) return true
@@ -223,6 +223,7 @@ function buildSynopsis (vueComponent, page) {
       callback: ({ el, going, direction }) => {
         if (vueComponent.scrolling) return
         if (going === 'in') {
+          debug("Waypoint triggered for ", el)
           const verseRoute = vueComponent.toSynopsis(el.getAttribute('data-verse'))
           if (verseRoute) {
             if (verseRoute.params.verse === vueComponent.verse) return
