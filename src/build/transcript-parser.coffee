@@ -90,7 +90,7 @@ parseSource = ({ source, manuscript }, index) ->
 
   transcript = await markup.events fs.createReadStream source
 
-  isntMainText = (start ln "TEI", "choice")
+  isntMainText = (start ln "TEI")
   isMainText = (start ln "text", "orig", "reg", "corr", "ex")
   mainText = contextual isntMainText, isMainText
   transcript = (e for e in transcript when mainText e)
@@ -174,11 +174,14 @@ module.exports = (sources) ->
             verses[manuscript][column].push verse
           when "orig"
             inOrig = true
+          when "choice"
+            lines[manuscript][line][column] += "<span class=\"choice\" title=\"\">"
       when "end"
         switch e.local
           when "text" then manuscript = column = verse = undefined
           when "l" then verse = undefined
           when "orig" then inOrig = false
+          when "choice" then lines[manuscript][line][column] += "</span>"
     if verse? and not inOrig
       if e.event is "text"
         text = e.text.replace /\n/g, ""

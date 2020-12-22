@@ -5,6 +5,8 @@ import verse from '../lib/verse'
 import metadata from '../data/metadata.json'
 import transcript from '../data/transcript.json'
 
+const debug = require('debug')('parzival:manuscript')
+
 const { DOMParser, XMLSerializer } = require("xmldom");
 const xpath = require("xpath");
 
@@ -282,20 +284,29 @@ export default {
       if (!htmlString) return '';
 
       // first check for nested @title attributes
-      const fragment = domParser.parseFromString(htmlString);
-      const nestedTitles = xpath.select("//span[@title and .//span[@title]]", fragment);
+      const fragment = domParser.parseFromString(`<span>${htmlString}</span>`);
+      const nestedTitles = xpath.select("/span/span[@title and .//span[@title]]", fragment);
 
       if(nestedTitles.length) {
 
         nestedTitles.forEach(parentSpan => {
           const parentTitle = parentSpan.getAttribute("title");
-          const childrenTitles = xpath.select(".//span/@title", parentSpan).map(t => t.nodeValue).join("; ");
+          const childrenTitles = xpath.select(".//span[@title]", parentSpan)
+            .map(n => {
+              const title = n.getAttribute("title");
+              n.removeAttribute("title");
+              return title;
+            });
 
-          parentSpan.setAttribute("title", `${parentTitle}; ${childrenTitles}`);
+          const topLevelTitle = [parentTitle, ...childrenTitles]
+            .filter(t => t && t.length > 0)
+            .join("; ");
+          parentSpan.setAttribute("title", `${topLevelTitle}`);
         })
       }
 
-      return xmlSerializer.serializeToString(fragment);
+      const serializedFragment = xmlSerializer.serializeToString(fragment);
+      return serializedFragment;
 
     },
 
