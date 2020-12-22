@@ -5,6 +5,12 @@ import verse from '../lib/verse'
 import metadata from '../data/metadata.json'
 import transcript from '../data/transcript.json'
 
+const { DOMParser, XMLSerializer } = require("xmldom");
+const xpath = require("xpath");
+
+const domParser = new DOMParser();
+const xmlSerializer = new XMLSerializer();
+
 const pages = {
   single: {},
   double: {}
@@ -273,16 +279,24 @@ export default {
   methods: {
 
     activateAllMouseOvers (htmlString) {
-      return this.activateMouseOverForOrigs(this.activateMouseOverForRefs(htmlString))
-    },
+      if (!htmlString) return '';
 
-    activateMouseOverForOrigs (htmlString) {
-      if (!htmlString) return ''
-      return htmlString.replace(/<span class="orig">([^<]+)<\/span>(<span class="orig">([^<]+)<\/span>)?(<span class="orig">([^<]+)<\/span>)?(<span class="orig">([^<]+)<\/span>)?(<span class="orig">([^<]+)<\/span>)?<span/g, '<span class="orig">$1 $3 $5 $7</span><span title="unkorrigierte Form (Rekonstruktion): $1 $3 $5 $7" ')
-    },
+      // first check for nested @title attributes
+      const fragment = domParser.parseFromString(htmlString);
+      const nestedTitles = xpath.select("//span[@title and .//span[@title]]", fragment);
 
-    activateMouseOverForRefs (htmlString) {
-      return htmlString.replace(/data-ref="([^"]+)"/g, 'title="$1"')
+      if(nestedTitles.length) {
+
+        nestedTitles.forEach(parentSpan => {
+          const parentTitle = parentSpan.getAttribute("title");
+          const childrenTitles = xpath.select(".//span/@title", parentSpan).map(t => t.nodeValue).join("; ");
+
+          parentSpan.setAttribute("title", `${parentTitle}; ${childrenTitles}`);
+        })
+      }
+
+      return xmlSerializer.serializeToString(fragment);
+
     },
 
     nextPage (route) {

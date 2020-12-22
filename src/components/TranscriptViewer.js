@@ -51,7 +51,7 @@ export default {
               const isGap = verse === 'NP 31979'
               contents.push({ html: '', isGap, isTransposition: false, verse })
             } else if (transcript.html[line][manuscript] /* && transcript.html[line][manuscript][column] */) {
-              const html = this.activateMouseOverForOrigs(transcript.html[line][manuscript][column])
+              const html = transcript.html[line][manuscript][column]
               const verse = transcript.html[line][manuscript].verse
               const isTransposition = v.isTranspositionStart(transcript.html, manuscript, line)
               const isGap = v.isGap(transcript.html, manuscript, line)

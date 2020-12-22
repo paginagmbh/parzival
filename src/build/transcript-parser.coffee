@@ -40,7 +40,7 @@ ref = (e) ->
       n = markup.attr e, "n", ""
       # Normalisieren der Versnummern, führende Nullen bei der Unternummer entfernen
       n = n.replace /([0-9]+)(\.)?(0)?([0-9]+)/, "$1$2$4"
-      "<span class=\"ref\" data-ref=\"vgl. Hs. V #{n}\">"
+      "<span class=\"ref\" title=\"vgl. Hs. V #{n}\">"
     else "</span>"
 
 damage = (e) ->
@@ -207,7 +207,7 @@ module.exports = (sources) ->
     else if e.event is "text" and inOrig
         text = e.text.replace /\n/g, ""
         text = escape text
-        lines[manuscript][line][column] += "<span class=\"orig\">#{text}</span>"
+        lines[manuscript][line][column] += "<span class=\"orig\" title=\"unkorrigierte Form (Rekonstruktion): #{text}\">#{text}</span>"
 
   lc = 0
   rightIndex = 1
