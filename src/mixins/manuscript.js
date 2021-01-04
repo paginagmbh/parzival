@@ -300,7 +300,7 @@ export default {
 
           const topLevelTitle = [parentTitle, ...childrenTitles]
             .filter(t => t && t.length > 0)
-            .join("; ");
+            .join(" \u2012 ");
           parentSpan.setAttribute("title", `${topLevelTitle}`);
         })
       }
