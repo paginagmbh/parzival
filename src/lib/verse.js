@@ -15,8 +15,16 @@ export const parse = (str) => {
 
     const plus = []
     for (const c of components) {
-      const n = parseInt(c, 10)
-      if (isNaN(n)) continue
+
+      let n = parseInt(c, 10)
+      if (isNaN(n)) {
+        const romanValue = convertRomanToNumber(c);
+        if (romanValue > 0) {
+          n = romanValue;
+        } else {
+          continue;
+        }
+      }
       plus.push(n * (c.startsWith('0') ? -1 : 1))
     }
 
@@ -185,5 +193,49 @@ const bespokeGaps = [
   { manuscript: 'V', verse: '70.1' }
 ]
 const bespokeTranspositions = [{ manuscript: 'V', verse: '70.6' }, { manuscript: 'V', verse: '70.7' }, { manuscript: 'V', verse: '69.29' }]
+
+/**
+ * Convert a Roman numeral to a number
+ * @param {string} str The input Roman numeral
+ * @return {number} The result number
+ */
+function convertRomanToNumber(str) {
+  // Roman numeral symbol to number converter
+  const convert = {
+    I: 1,
+    V: 5,
+    X: 10,
+    L: 50,
+    C: 100,
+    D: 500,
+    M: 1000,
+  };
+
+  // initialize the sum
+  let sum = 0;
+
+  // the previous symbol value
+  let previous = 0;
+
+  // loop through Roman numeral symbols
+  for (let i = 0; i < str.length; i++) {
+    // get the converted value and handle unknown symbols
+    const current = convert[str[i]] ?? 0;
+
+    // add the current symbol value
+    sum += current;
+
+    // if the left-side symbol is a subtractive notation
+    if (previous < current) {
+      // undo the wrongly added number and subtract the left-side value
+      sum -= previous + previous;
+    }
+
+    // the current value is the left-side value for the next loop
+    previous = current;
+  }
+
+  return sum;
+}
 
 export default { isGap, isTranspositionStart, parse, toString, p, np, compare, within }
