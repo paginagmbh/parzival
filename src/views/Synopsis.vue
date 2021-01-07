@@ -24,7 +24,7 @@
                 @click="updateVerse(r.getVerse('V'))">
               <!-- page sigle for V -->
               <td class="parzival-column"
-                  :class="{ 'is-active': r.V.verse == verse }">{{ r.V.content.length ? r.V.content[0].column : '–' }}</td>
+                  :class="{ 'is-active': r.V.verse == verse }">{{ r.V.content.length ? r.V.content.map(c => c.column).join(" / ") : '–' }}</td>
               <!-- transposition arrow for V -->
               <td v-if="r.V.transpositionStart" class="parzival-transposition-row active right" :rowspan="r.V.transpositionRowSpan">
               </td>
@@ -60,7 +60,7 @@
               <td v-else class="parzival-transposition-row"></td>
               <!-- page sigle for VV -->
               <td class="parzival-column"
-                  :class="{ 'is-active': r.VV.verse == verse }">{{ r.VV.content.length ? r.VV.content[0].column : '–' }}</td>
+                  :class="{ 'is-active': r.VV.verse == verse }">{{ r.VV.content.length ? r.VV.content.map(c => c.column).join(" / ") : '–' }}</td>
             </tr>
           </tbody>
         </table>

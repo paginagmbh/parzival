@@ -14,22 +14,23 @@ export const parse = (str) => {
     nums = nums.split('.').map(n => parseInt(n, 10))
 
     const plus = []
+    const roman = []
     for (const c of components) {
 
       let n = parseInt(c, 10)
       if (isNaN(n)) {
         const romanValue = convertRomanToNumber(c);
         if (romanValue > 0) {
-          n = romanValue;
-        } else {
-          continue;
+          roman.push(romanValue);
         }
+        continue;
       }
       plus.push(n * (c.startsWith('0') ? -1 : 1))
     }
 
     const parsed = { nums }
     if (plus.length) parsed.plus = plus
+    if (roman.length) parsed.roman = roman
 
     return parsed
   } catch (error) {
@@ -55,9 +56,12 @@ const compareComponent = (a, b, plus) => {
     if (b.length === 1 && b[0] === 0) return 1
   }
 
+  if(plus) console.log("a: ", a);
+  if(plus) console.log("b: ", b);
+
   for (let nn = 0, nl = Math.max(a.length, b.length); nn < nl; nn++) {
-    let an = nn < a.length ? a[nn] : 0
-    let bn = nn < b.length ? b[nn] : 0
+    let an = nn < a.length ? a[nn] : -100000
+    let bn = nn < b.length ? b[nn] : 100000
     if (an === bn) {
       continue
     }
@@ -65,8 +69,10 @@ const compareComponent = (a, b, plus) => {
       an = Math.abs(an)
       bn = Math.abs(bn)
     }
+    if(plus) console.log(an-bn);
     return an - bn
   }
+  if(plus) console.log(0);
   return 0
 }
 
@@ -170,11 +176,17 @@ export const p2np = (v) => {
   return v
 }
 
-export const toString = ({ nums, plus }) => {
+export const toString = ({ nums, plus, roman }) => {
   const str = [
     nums.length === 1 ? 'NP ' : '',
-    nums.map(n => n.toString()).join('.'),
-    (plus || []).map(n => `[${n < 0 ? '0' : ''}${Math.abs(n)}]`).join('')
+    nums.map(n => n.toString())
+      .join('.'),
+    (plus || [])
+      .map(n => `[${n < 0 ? '0' : ''}${Math.abs(n)}]`)
+      .join('')/*,
+    (roman || [])
+      .map(n => `[${convertNumberToRoman(n)}]`)
+      .join('')*/
   ].join('')
 
   return str
@@ -236,6 +248,37 @@ function convertRomanToNumber(str) {
   }
 
   return sum;
+}
+
+const romanMatrix = [
+  [1000, 'M'],
+  [900, 'CM'],
+  [500, 'D'],
+  [400, 'CD'],
+  [100, 'C'],
+  [90, 'XC'],
+  [50, 'L'],
+  [40, 'XL'],
+  [10, 'X'],
+  [9, 'IX'],
+  [5, 'V'],
+  [4, 'IV'],
+  [1, 'I']
+];
+
+function convertNumberToRoman(num) {
+    if (isNaN(num)) {
+      return num;
+      // return NaN;
+    }
+    if (num === 0) {
+      return '';
+    }
+    for (var i = 0; i < romanMatrix.length; i++) {
+      if (num >= romanMatrix[i][0]) {
+        return romanMatrix[i][1] + convertNumberToRoman(num - romanMatrix[i][0]);
+      }
+    }
 }
 
 export default { isGap, isTranspositionStart, parse, toString, p, np, compare, within }

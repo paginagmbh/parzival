@@ -223,15 +223,25 @@ module.exports = (sources) ->
     nextLeftVerse = if lines["V"][leftIndex + 1] then lines["V"][leftIndex + 1].verse else null
     previousLeftVerse = if lines["V"][leftIndex - 1] then lines["V"][leftIndex - 1].verse else null
 
+
+    if previousLeftVerse and (v.compare (v.parse previousLeftVerse), (v.parse leftVerse)) is 0
+      #console.log "Combining #{previousLeftVerse} with #{leftVerse}"
+      html[lc - 1]["V"] = Object.assign {}, html[lc - 1]["V"], line
+      continue
+
     html[lc] ?= {}
 
     # first check if we are dealing with additional lines added on the right hand side
     range = [(v.parse previousLeftVerse), (v.parse leftVerse)]
-    while rightVerse and (leftVerse isnt rightVerse) and
+    #console.log "****************************" if leftVerse.startsWith "754"
+    #console.log "#{rightIndex}: left: #{leftVerse}, right: #{rightVerse}, next right: #{nextRightVerse}, range: ", range if leftVerse.startsWith "754"
+
+    while rightVerse and ((v.compare (v.parse leftVerse), (v.parse rightVerse)) isnt 0) and
     ((v.within range, v.parse rightVerse) or
     (v.compare (v.parse rightVerse), (v.parse nextRightVerse)) > 0 or
     (v.compare (v.parse leftVerse), (v.parse rightVerse)) > 0)
       # this is a comment line added on the right side
+      #console.log "#{rightVerse} is a comment added on the right" if leftVerse.startsWith "754"
       html[lc]["VV"] = lines["VV"][rightIndex]
       columns[rightVerse]["VV"].line = lc
       lc++
@@ -239,9 +249,12 @@ module.exports = (sources) ->
       rightIndex++
       rightVerse = if lines["VV"][rightIndex] then lines["VV"][rightIndex].verse else null
       nextRightVerse = if lines["VV"][rightIndex + 1] then lines["VV"][rightIndex + 1].verse else null
+      #console.log "#{rightIndex}: left: #{leftVerse}, right: #{rightVerse}, next right: #{nextRightVerse}, range: ", range if leftVerse.startsWith "754"
 
     # now check if left and right side match the same verse
-    if rightVerse is leftVerse
+    #console.log "checking if left (#{leftVerse}) and right (#{rightVerse}) side match the same verse"  if leftVerse.startsWith "754"
+    if (v.compare (v.parse leftVerse), (v.parse rightVerse)) is 0
+      #console.log "leftVerse #{leftVerse} == rightVerse #{rightVerse}" if leftVerse.startsWith "754"
       html[lc]["V"] = line
       html[lc]["VV"] = lines["VV"][rightIndex]
       columns[leftVerse]["V"].line = lc
@@ -277,6 +290,7 @@ module.exports = (sources) ->
     needMove = needMove and (offset < 6)
 
     while needMove and offset >= 1
+      continue if !html[lineInt + offset]?
       originalVerse = html[lineInt + offset].VV.verse if html[lineInt + offset].VV and html[lineInt + offset].VV.verse
       if originalVerse and html[lineInt + offset].VV
         column = Object.keys html[lineInt + offset].VV
