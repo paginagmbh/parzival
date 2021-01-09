@@ -34,7 +34,7 @@
           <i class="fa fa-th"></i>
         </a>
         <a class="navbar-item" :class="active('searchModal')" @click="toggle('searchModal')" title="Suche in der Handschrift"><i class="fa fa-search"></i></a>
-        <router-link class="navbar-item is-size-4" :to="routes.otherManuscript" title="Handschrift wechseln" v-if="$route.name !== 'synopsis'">
+        <router-link class="navbar-item is-size-4" :to="routes.otherManuscript" title="Handschrift wechseln (ohne äquivalente Stelle wird Bl. 1r der Zielhandschrift angezeigt)" v-if="$route.name !== 'synopsis'">
           <i class="fa fa-exchange"></i>
         </router-link>
         <router-link class="navbar-item is-size-4" :to="routes.prevPage || ''" :disabled="!routes.prevPage"  v-if="$route.name !== 'synopsis'" title="Vorherige Seite">

@@ -56,9 +56,6 @@ const compareComponent = (a, b, plus) => {
     if (b.length === 1 && b[0] === 0) return 1
   }
 
-  if(plus) console.log("a: ", a);
-  if(plus) console.log("b: ", b);
-
   for (let nn = 0, nl = Math.max(a.length, b.length); nn < nl; nn++) {
     let an = nn < a.length ? a[nn] : -100000
     let bn = nn < b.length ? b[nn] : 100000
@@ -69,10 +66,9 @@ const compareComponent = (a, b, plus) => {
       an = Math.abs(an)
       bn = Math.abs(bn)
     }
-    if(plus) console.log(an-bn);
+
     return an - bn
   }
-  if(plus) console.log(0);
   return 0
 }
 
