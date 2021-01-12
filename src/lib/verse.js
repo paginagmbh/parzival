@@ -57,8 +57,8 @@ const compareComponent = (a, b, plus) => {
   }
 
   for (let nn = 0, nl = Math.max(a.length, b.length); nn < nl; nn++) {
-    let an = nn < a.length ? a[nn] : -100000
-    let bn = nn < b.length ? b[nn] : 100000
+    let an = nn < a.length ? a[nn] : 0
+    let bn = nn < b.length ? b[nn] : 0
     if (an === bn) {
       continue
     }

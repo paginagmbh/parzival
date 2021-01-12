@@ -204,7 +204,7 @@ module.exports = (sources) ->
             result = ""
             if e.event is "start"
               result += "<span class=\"#{classes}\">|</span>"
-              result += "<br class=\"#{classes}\">" if inHeading
+              result += "<br class=\"#{classes}\" />" if inHeading
             result
           else ""
     else if e.event is "text" and inOrig
@@ -260,7 +260,7 @@ module.exports = (sources) ->
       columns[leftVerse]["V"].line = lc
       columns[rightVerse]["VV"].line = lc
       rightIndex++
-      if lines["VV"][rightIndex].verse is leftVerse
+      if lines["VV"][rightIndex]? and lines["VV"][rightIndex].verse is leftVerse
         # need to add the next line as well
         html[lc]["VV"] = Object.assign html[lc]["VV"], lines["VV"][rightIndex]
         rightIndex++
