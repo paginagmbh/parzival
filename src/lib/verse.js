@@ -42,16 +42,20 @@ export const parse = (str) => {
 const excludedVerses = require('../data/excluded-verses').excludedVerses
 const parsedExcludedVerses = excludedVerses.map(va => [parse(va[0]), parse(va[1])])
 
-export const compare = (a, b) => {
+export const compare = (a, b, useFrontendMode = false) => {
   a = np2p(a)
   b = np2p(b)
-  return compareComponent(a.nums, b.nums, false) ||
-    compareComponent(a.plus || [], b.plus || [], true)
+  return compareComponent(a.nums, b.nums, false, useFrontendMode) ||
+    compareComponent(a.plus || [], b.plus || [], true, useFrontendMode)
 }
 
-const compareComponent = (a, b, plus) => {
+const compareComponent = (a, b, plus, useFrontendMode) => {
   // HACK: a single '0' always comes first
-  if (plus) {
+  if (plus && useFrontendMode) {
+    if (a.length === 1 && a[0] === 0) return -1
+    if (b.length === 1 && b[0] === 0) return 1
+  }
+  else if (plus) {
     if (a.length === b.length + 1 && a[a.length - 1] === 0) return -1
     if (b.length === a.length + 1 && b[b.length - 1] === 0) return 1
   }
@@ -106,7 +110,7 @@ export const isGap = (html, manuscript, secondLine) => {
   const parsedSecondVerse = parse(secondVerse)
   const firstVerseNums = parsedFirstVerse.nums
   const secondVerseNums = parsedSecondVerse.nums
-  const noGap = compare(parsedFirstVerse, parsedSecondVerse) > 0 || // we are not interested in transpositions or editorial comments, these are handled elsewhere
+  const noGap = compare(parsedFirstVerse, parsedSecondVerse, true) > 0 || // we are not interested in transpositions or editorial comments, these are handled elsewhere
     (!(firstVerseNums.length && secondVerseNums.length)) || // when both verses are undefined, we consider this not a gap
     (firstVerseNums[firstVerseNums.length - 1] === secondVerseNums[secondVerseNums.length - 1]) || // we ignore so-called "plus" verses
     (firstVerseNums[firstVerseNums.length - 1] > 29 && secondVerseNums[secondVerseNums.length - 1] % 30 === 1) || // in Lachmann's scheme sub-numbers always run until 30, then restart at 1 (except for 257.31/32)
@@ -145,7 +149,7 @@ export const isTranspositionStart = (html, manuscript, line) => {
   return parsedCurrentVerse &&
      parsedCurrentVerse.nums &&
      parsedCurrentVerse.nums.length &&
-     compare(parsedPreviousVerse, parsedCurrentVerse) > 0
+     compare(parsedPreviousVerse, parsedCurrentVerse, true) > 0
 }
 
 export const np = ({ nums }) => {
