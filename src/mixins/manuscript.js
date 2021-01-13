@@ -310,6 +310,21 @@ export default {
 
     },
 
+    deactivateEmptyAndRefTitles(htmlString) {
+      const fragment = domParser.parseFromString(`<span>${htmlString}</span>`);
+      const refTitles = xpath.select("//span[@title and @class='ref' or normalize-space(@title)='']", fragment);
+
+      if(refTitles.length) {
+
+        refTitles.forEach(rt => {
+          rt.removeAttribute("title");
+        });
+      }
+
+      const serializedFragment = xmlSerializer.serializeToString(fragment);
+      return serializedFragment;
+    },
+
     nextPage (route) {
       const { manuscript, page } = this
       if (!page) return undefined
