@@ -200,7 +200,6 @@ $fa-font-path: '~font-awesome/fonts';
   }
 
   .ref {
-    cursor: pointer;
     text-decoration: underline;
     text-decoration-color: blue;
   }
@@ -437,7 +436,6 @@ $fa-font-path: '~font-awesome/fonts';
     }
 
     .supplied {
-      cursor: pointer;
 
       &.ex::before {
         content: "("
