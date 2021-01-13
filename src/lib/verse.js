@@ -52,8 +52,8 @@ export const compare = (a, b) => {
 const compareComponent = (a, b, plus) => {
   // HACK: a single '0' always comes first
   if (plus) {
-    if (a.length === 1 && a[0] === 0) return -1
-    if (b.length === 1 && b[0] === 0) return 1
+    if (a.length === b.length + 1 && a[a.length - 1] === 0) return -1
+    if (b.length === a.length + 1 && b[b.length - 1] === 0) return 1
   }
 
   for (let nn = 0, nl = Math.max(a.length, b.length); nn < nl; nn++) {

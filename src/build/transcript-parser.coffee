@@ -225,7 +225,6 @@ module.exports = (sources) ->
 
 
     if previousLeftVerse and (v.compare (v.parse previousLeftVerse), (v.parse leftVerse)) is 0
-      #console.log "Combining #{previousLeftVerse} with #{leftVerse}"
       html[lc - 1]["V"] = Object.assign {}, html[lc - 1]["V"], line
       continue
 
@@ -233,15 +232,12 @@ module.exports = (sources) ->
 
     # first check if we are dealing with additional lines added on the right hand side
     range = [(v.parse previousLeftVerse), (v.parse leftVerse)]
-    #console.log "****************************" if leftVerse.startsWith "754"
-    #console.log "#{rightIndex}: left: #{leftVerse}, right: #{rightVerse}, next right: #{nextRightVerse}, range: ", range if leftVerse.startsWith "754"
 
     while rightVerse and ((v.compare (v.parse leftVerse), (v.parse rightVerse)) isnt 0) and
     ((v.within range, v.parse rightVerse) or
     (v.compare (v.parse rightVerse), (v.parse nextRightVerse)) > 0 or
     (v.compare (v.parse leftVerse), (v.parse rightVerse)) > 0)
       # this is a comment line added on the right side
-      #console.log "#{rightVerse} is a comment added on the right" if leftVerse.startsWith "754"
       html[lc]["VV"] = lines["VV"][rightIndex]
       columns[rightVerse]["VV"].line = lc
       lc++
@@ -249,12 +245,9 @@ module.exports = (sources) ->
       rightIndex++
       rightVerse = if lines["VV"][rightIndex] then lines["VV"][rightIndex].verse else null
       nextRightVerse = if lines["VV"][rightIndex + 1] then lines["VV"][rightIndex + 1].verse else null
-      #console.log "#{rightIndex}: left: #{leftVerse}, right: #{rightVerse}, next right: #{nextRightVerse}, range: ", range if leftVerse.startsWith "754"
 
     # now check if left and right side match the same verse
-    #console.log "checking if left (#{leftVerse}) and right (#{rightVerse}) side match the same verse"  if leftVerse.startsWith "754"
     if (v.compare (v.parse leftVerse), (v.parse rightVerse)) is 0
-      #console.log "leftVerse #{leftVerse} == rightVerse #{rightVerse}" if leftVerse.startsWith "754"
       html[lc]["V"] = line
       html[lc]["VV"] = lines["VV"][rightIndex]
       columns[leftVerse]["V"].line = lc
