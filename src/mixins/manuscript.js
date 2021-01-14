@@ -301,18 +301,20 @@ export default {
           const topLevelTitle = [parentTitle, ...childrenTitles]
             .filter(t => t && t.length > 0)
             .join(" \u2012 ");
+          debug("Aggregating top level title ${topLevelTitle}");
+          debug("Attaching top level title to ", parentSpan);
           parentSpan.setAttribute("title", `${topLevelTitle}`);
         })
       }
 
       const serializedFragment = xmlSerializer.serializeToString(fragment);
-      return serializedFragment;
+      return serializedFragment.replace(/^<span>(.+)<\/span>$/, "$1");
 
     },
 
-    deactivateEmptyAndRefTitles(htmlString) {
+    deactivateEmptyTitles(htmlString) {
       const fragment = domParser.parseFromString(`<span>${htmlString}</span>`);
-      const refTitles = xpath.select("//span[@title and @class='ref' or normalize-space(@title)='']", fragment);
+      const refTitles = xpath.select("//span[normalize-space(@title)='']", fragment);
 
       if(refTitles.length) {
 
@@ -322,7 +324,22 @@ export default {
       }
 
       const serializedFragment = xmlSerializer.serializeToString(fragment);
-      return serializedFragment;
+      return serializedFragment.replace(/^<span>(.+)<\/span>$/, "$1");
+    },
+
+    deactivateRefTitles(htmlString) {
+      const fragment = domParser.parseFromString(`<span>${htmlString}</span>`);
+      const refTitles = xpath.select("//span[@title and @class='ref']", fragment);
+
+      if(refTitles.length) {
+
+        refTitles.forEach(rt => {
+          rt.setAttribute("title", "");
+        });
+      }
+
+      const serializedFragment = xmlSerializer.serializeToString(fragment);
+      return serializedFragment.replace(/^<span>(.+)<\/span>$/, "$1");
     },
 
     nextPage (route) {

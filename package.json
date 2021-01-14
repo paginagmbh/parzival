@@ -6,11 +6,12 @@
   "author": "pagina GmbH",
   "scripts": {
     "serve": "vue-cli-service serve --open",
-    "build": "babel-node --config-file ./babel-node.config.js src/build/data.js && vue-cli-service build",
+    "build": "npm run prepare-data && vue-cli-service build",
     "lint": "vue-cli-service lint",
     "configure": "babel-node --config-file ./babel-node.config.js src/build/configure.js",
     "img2dzi": "babel-node --config-file ./babel-node.config.js src/build/img2dzi.js",
-    "img2ptif": "babel-node --config-file ./babel-node.config.js src/build/img2ptif.js"
+    "img2ptif": "babel-node --config-file ./babel-node.config.js src/build/img2ptif.js",
+    "prepare-data": "babel-node --config-file ./babel-node.config.js src/build/data.js"
   },
   "dependencies": {
     "animate.css": "^3.7.0",
