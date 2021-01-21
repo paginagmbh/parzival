@@ -205,12 +205,13 @@ function buildSynopsis (vueComponent, page) {
           html: vueComponent.activateAllMouseOvers(columns[column])
         })
         row.getVerse = function (preferredManuscript) {
-          if (vueComponent[preferredManuscript] && vueComponent[preferredManuscript].verse) {
-            return vueComponent[preferredManuscript].verse
-          } else if (vueComponent.V && vueComponent.V.verse) {
-            return vueComponent.V.verse
-          } else if (vueComponent.VV && vueComponent.VV.verse) {
-            return vueComponent.VV.verse
+          const prefManuscriptObject = this[preferredManuscript];
+          if (prefManuscriptObject && prefManuscriptObject.verse) {
+            return prefManuscriptObject.verse
+          } else if (this.V && this.V.verse) {
+            return this.V.verse
+          } else if (this.VV && this.VV.verse) {
+            return this.VV.verse
           } else {
             return undefined
           }
