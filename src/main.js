@@ -19,6 +19,8 @@ import TranscriptViewer from '@/components/TranscriptViewer.vue'
 
 import '@/assets/sass/app.scss'
 
+require('intersection-observer');
+
 Vue.use(MQ)
 Vue.use(VueMeta)
 Vue.use(VueLazyload)

@@ -301,8 +301,7 @@ export default {
           const topLevelTitle = [parentTitle, ...childrenTitles]
             .filter(t => t && t.length > 0)
             .join(" \u2012 ");
-          debug("Aggregating top level title ${topLevelTitle}");
-          debug("Attaching top level title to ", parentSpan);
+          debug(`Aggregating top level title ${topLevelTitle}`);
           parentSpan.setAttribute("title", `${topLevelTitle}`);
         })
       }
