@@ -71,7 +71,7 @@
             <div class="field">
               <label class="label has-text-light">
                 Ihre Suchanfrage<br>
-                z. B.  <i>10r</i>, <i>123</i>, <i>823.10[1]</i>, <i>Ep 2</i> oder <i>Pr 100</i> (nur Hs. V)
+                z. B.  <i>10r</i>, <i>123</i> oder <i>NP 123</i>, <i>823.10[1]</i>, <i>Ep 2</i> oder <i>Pr 100</i> (nur Hs. V)
               </label>
               <div class="control has-icons-left">
                 <input class="input is-medium" type="text" placeholder="Suchanfrage" v-model.trim="query" v-focus="searchModal" @keyup.esc="toggle('searchModal')" @keyup.enter="searchAll" :class="{ 'is-danger': notFound }"/><span class="icon is-left"><i class="fa fa-search"></i></span>

@@ -139,6 +139,7 @@ module.exports = (sources) ->
   lastChar = ""
   inHeading = false
   inOrig = false
+  origText = ""
 
   html = {}
   columns = {}
@@ -180,7 +181,10 @@ module.exports = (sources) ->
         switch e.local
           when "text" then manuscript = column = verse = undefined
           when "l" then verse = undefined
-          when "orig" then inOrig = false
+          when "orig"
+            inOrig = false
+            lines[manuscript][line][column] += "<span class=\"orig\" title=\"unkorrigierte Form (Rekonstruktion): #{origText}\">#{origText}</span>"
+            origText = ""
           when "choice" then lines[manuscript][line][column] += "</span>"
     if verse? and not inOrig
       if e.event is "text"
@@ -210,7 +214,8 @@ module.exports = (sources) ->
     else if e.event is "text" and inOrig
         text = e.text.replace /\n/g, ""
         text = escape text
-        lines[manuscript][line][column] += "<span class=\"orig\" title=\"unkorrigierte Form (Rekonstruktion): #{text}\">#{text}</span>"
+        origText += text
+        #lines[manuscript][line][column] += "<span class=\"orig\" title=\"unkorrigierte Form (Rekonstruktion): #{titleText}\">#{text}</span>"
 
   lc = 0
   rightIndex = 1
