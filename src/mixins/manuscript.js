@@ -285,11 +285,12 @@ export default {
 
       // first check for nested @title attributes
       const fragment = domParser.parseFromString(`<span>${htmlString}</span>`);
-      const nestedTitles = xpath.select("/span/span[@title and .//span[@title]]", fragment);
+      const nestedTitles = xpath.select("/span/span[@title and .//span[@title]]|/span/span[@class='hi red']/span[@title and .//span[@title]]", fragment);
 
       if(nestedTitles.length) {
 
         nestedTitles.forEach(parentSpan => {
+          debug(`working on parent span`, parentSpan);
           const parentTitle = parentSpan.getAttribute("title");
           const childrenTitles = xpath.select(".//span[@title]", parentSpan)
             .map(n => {
