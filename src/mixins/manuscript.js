@@ -234,11 +234,11 @@ export default {
       const route = this.toPage(this.otherPages, this.otherManuscript)
       const currentVerse = this.verse || route.params.verse
       const parsedVerse = verse.parse(currentVerse)
-      const lastVVVerse = verse.parse("Ep 558[2][02]")
+      const lastVVVerse = verse.parse("Ep 558")
 
       const manuscripts = {
         V: this.toPage("001r", "V"),
-        VV: verse.compare(lastVVVerse, parsedVerse) < 0 ? this.toPage("181v", "VV") : this.toPage("001r", "VV")
+        VV: verse.compare(lastVVVerse, parsedVerse, true) < 0 ? this.toPage("181v", "VV") : this.toPage("001r", "VV")
       }
 
       let otherManuscript = manuscripts[this.otherManuscript]
