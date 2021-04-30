@@ -40,7 +40,7 @@
     "vue-scrollto": "^2.20.0",
     "vue-waypoint": "^3.5.2",
     "xmlbuilder": "^12.0.0",
-    "xmldom": "^0.4.0",
+    "xmldom": "^0.6.0",
     "xpath": "0.0.32"
   },
   "devDependencies": {
