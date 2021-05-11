@@ -1,6 +1,6 @@
 const path = require('path')
 const optional = require('optional')
-const merge = require('lodash.merge')
+const merge = require('lodash/merge')
 
 module.exports = merge(
   require(path.resolve(__dirname, 'secrets.default.json')),

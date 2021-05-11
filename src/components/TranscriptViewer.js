@@ -1,9 +1,9 @@
-import debounce from 'lodash.debounce'
 import { scroller } from 'vue-scrollto/src/scrollTo'
 import transcript from '../data/transcript.json'
 import TranscriptInfo from './TranscriptInfo'
 import v from '../lib/verse'
 
+const debounce = require('lodash/debounce')
 const debug = require('debug')('parzival:single-transcript')
 
 export default {
