@@ -8,7 +8,8 @@ digitalen Edition von Wolfram von Eschenbachs ‹Parzival›.
 ## Anleitung zum Bauen und Bereitstellen der Website
 ### Vorbedingungen / benötigte Software
 * Klonen/Herunterladen des hier vorliegenden Github-Projekts
-* Installation von [nodejs](https://nodejs.org/de/) ab Version 8.11.3
+* Installation von [nodejs](https://nodejs.org/de/) ab Version 8.11.3 und kleiner als Version 15
+* Für die Datenaufbereitung während der Build-Phase muss das Programm tustep installiert sein
 
 ### Erstellen der auslieferungsfähigen Quellen
 * npm install
