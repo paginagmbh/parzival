@@ -46,7 +46,7 @@
     "@babel/polyfill": "^7.4.3",
     "@vue/cli-plugin-babel": "^4.5.15",
     "@vue/cli-plugin-eslint": "^4.5.15",
-    "@vue/cli-service": "^4.5.15",
+    "@vue/cli-service": "^5.0.8",
     "babel-eslint": "^10.0.1",
     "coffeescript": "^2.4.1",
     "eslint": "^6.7.2",
